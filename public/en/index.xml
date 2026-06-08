@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Lan Pink Tattoo</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content in Home on Lan Pink Tattoo</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/en/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/contact/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Address:&lt;/strong&gt; District 1, HCMC&#xA;&lt;strong&gt;Instagram:&lt;/strong&gt; @lanpinktattoo&#xA;&lt;strong&gt;Zalo:&lt;/strong&gt; 09xx xxx xxx&lt;/p&gt;&#xA;&lt;p&gt;DM for consultation &amp;amp; booking.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gallery</title>
+      <link>http://localhost:1313/en/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/gallery/</guid>
+      <description>&lt;p&gt;Collection of completed works. Updating&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

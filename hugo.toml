@@ -1,19 +1,101 @@
-baseURL = "https://lanpinktattoo.netlify.app/"
-title = "Lan Pink Tattoo"
-defaultContentLanguage = "vi"
-defaultContentLanguageInSubdir = false
+baseURL = 'http://lanpinktattoo.netlify.app'
+languageCode = 'vi-vn'
+title = 'Lan Pink Tattoo'
+
+defaultContentLanguage = 'vi'
+defaultContentLanguageInSubdir = true
 
 [languages]
-  [languages.vi]
-    languageName = "Tiếng Việt"
-    weight = 1
-  [languages.en]
-    languageName = "English"
-    weight = 2
+
+[languages.vi]
+languageName = 'Tiếng Việt'
+weight = 1
+title = 'Lan Pink Tattoo'
+
+[languages.vi.params]
+  description = 'Studio xăm nghệ thuật tại TP.HCM'
+  flag = '🇻🇳'
+
+[[languages.vi.menu.main]]
+  name = 'Trang chủ'
+  url = '/'
+  weight = 1
+
+[[languages.vi.menu.main]]
+  name = 'Giới thiệu'
+  url = '/about/'
+  weight = 2
+
+[[languages.vi.menu.main]]
+  name = 'Tác phẩm'
+  url = '/gallery/'
+  weight = 3
+
+[[languages.vi.menu.main]]
+  name = 'Bảng giá'
+  url = '/pricing/'
+  weight = 4
+
+[[languages.vi.menu.main]]
+  name = 'Quy trình'
+  url = '/process/'
+  weight = 5
+
+[[languages.vi.menu.main]]
+  name = 'Liên hệ'
+  url = '/contact/'
+  weight = 6
+
+[languages.en]
+languageName = 'English'
+weight = 2
+title = 'Lan Pink Tattoo'
+
+[languages.en.params]
+  description = 'Tattoo Art Studio in Ho Chi Minh City'
+  flag = '🇺🇸'
+
+[[languages.en.menu.main]]
+  name = 'Home'
+  url = '/en/'
+  weight = 1
+
+[[languages.en.menu.main]]
+  name = 'About'
+  url = '/en/about/'
+  weight = 2
+
+[[languages.en.menu.main]]
+  name = 'Gallery'
+  url = '/en/gallery/'
+  weight = 3
+
+[[languages.en.menu.main]]
+  name = 'Pricing'
+  url = '/en/pricing/'
+  weight = 4
+
+[[languages.en.menu.main]]
+  name = 'Process'
+  url = '/en/process/'
+  weight = 5
+
+[[languages.en.menu.main]]
+  name = 'Contact'
+  url = '/en/contact/'
+  weight = 6
+
+[markup]
+
+[markup.goldmark]
 
 [markup.goldmark.renderer]
-  unsafe = true # Để render HTML trong.md nếu cần
+  unsafe = true
 
-[[module.mounts]]
-source = "static"
-target = "static"
+[markup.highlight]
+noClasses = false
+
+[params]
+author = 'Lan Pink'
+studio = 'Lan Pink Tattoo'
+city = 'Ho Chi Minh City'
