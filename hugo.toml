@@ -1,0 +1,19 @@
+baseURL = "https://lanpinktattoo.netlify.app/"
+title = "Lan Pink Tattoo"
+defaultContentLanguage = "vi"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.vi]
+    languageName = "Tiếng Việt"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    weight = 2
+
+[markup.goldmark.renderer]
+  unsafe = true # Để render HTML trong.md nếu cần
+
+[[module.mounts]]
+source = "static"
+target = "static"
