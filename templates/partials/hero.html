@@ -1,0 +1,41 @@
+
+<!-- HERO SECTION - Lan Pink Tattoo | Jinja2 + SEO 2026 -->
+<section id="hero" class="hero" itemscope itemtype="https://schema.org/TattooShop">
+  <div class="hero-container">
+    <div class="hero-content">
+      <h1 itemprop="name">
+        {{ t.hero.h1 }}
+      </h1>
+      
+      <p class="hero-subheading" itemprop="description">
+        {{ t.hero.subheading }}
+      </p>
+      
+      <div class="hero-cta">
+        <a href="{{ t.hero.cta_primary_link }}" class="btn-primary" target="_blank" rel="noopener">
+          {{ t.hero.cta_primary_text }}
+        </a>
+        <a href="{{ t.hero.cta_secondary_link }}" class="btn-secondary">
+          {{ t.hero.cta_secondary_text }}
+        </a>
+      </div>
+      
+      <div class="hero-trust">
+        {% for item in t.hero.trust_signals %}
+        <span>{{ item }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    
+    <div class="hero-image">
+      <img 
+        src="{{ url_for('static', filename='images/hero-lan-pink-tattoo-studio-hcm.webp') }}" 
+        alt="{{ t.hero.image_alt }}"
+        width="600" 
+        height="600"
+        loading="eager"
+        itemprop="image"
+      >
+    </div>
+  </div>
+</section>
