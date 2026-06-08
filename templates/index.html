@@ -39,6 +39,7 @@
 <section id="map">
     <h2>{{ t.map_title }}</h2>
     <div class="map-container">
+        {% if t.maps_embed %}
         <iframe 
             src="{{ t.maps_embed }}" 
             width="100%" 
@@ -48,9 +49,25 @@
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
+        {% elif t.map_embed %}
+        {{ t.map_embed | safe }}
+        {% endif %}
     </div>
+    
+    {% if t.address %}
+    <p class="map-address" style="text-align: center; margin-top: 1rem;">
+        <strong>{{ t.address }}</strong>
+    </p>
+    {% endif %}
+    
     <p style="text-align: center; margin-top: 1rem;">
-        <a href="{{ t.maps_link }}" target="_blank" class="btn">{{ t.map_btn }}</a>
+        {% if t.maps_link %}
+        <a href="{{ t.maps_link }}" target="_blank" rel="noopener" class="btn">{{ t.map_btn }}</a>
+        {% elif t.map_directions_link %}
+        <a href="{{ t.map_directions_link }}" target="_blank" rel="noopener" class="btn-directions">
+            {{ t.map_directions_text }}
+        </a>
+        {% endif %}
     </p>
 </section>
 
