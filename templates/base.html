@@ -3,8 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}{{ brand }} - {{ slogan }}{% endblock %}</title>
+    <title>{{ meta_title }}</title>
+    <meta name="description" content="{{ meta_desc }}">
+    <meta name="keywords" content="{{ keywords }}">
+    
+    <!-- Canonical + Language -->
+    <link rel="canonical" href="{{ site_url }}{{ other_lang_link if lang == 'en' else '/' }}">
+    <link rel="alternate" hreflang="vi" href="{{ site_url }}/">
+    <link rel="alternate" hreflang="en" href="{{ site_url }}/en/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site_url }}{{ other_lang_link if lang == 'en' else '/' }}">
+    <meta property="og:title" content="{{ meta_title }}">
+    <meta property="og:description" content="{{ meta_desc }}">
+    <meta property="og:image" content="{{ site_url }}/{{ og_image }}">
+    <meta property="og:locale" content="{{ 'vi_VN' if lang == 'vi' else 'en_US' }}">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ site_url }}{{ other_lang_link if lang == 'en' else '/' }}">
+    <meta property="twitter:title" content="{{ meta_title }}">
+    <meta property="twitter:description" content="{{ meta_desc }}">
+    <meta property="twitter:image" content="{{ site_url }}/{{ og_image }}">
+    
     <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="icon" type="image/png" href="../static/images/favicon.png">
+    
+    <!-- Structured Data LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TattooShop",
+      "name": "{{ brand }}",
+      "image": "{{ site_url }}/{{ og_image }}",
+      "description": "{{ meta_desc }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ address }}",
+        "addressLocality": "Ho Chi Minh City",
+        "addressRegion": "HCMC",
+        "postalCode": "700000",
+        "addressCountry": "VN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 10.8649477,
+        "longitude": 106.6456056
+      },
+      "url": "{{ site_url }}",
+      "telephone": "{{ phone }}",
+      "priceRange": "500000-5000000 VND",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "09:00",
+        "closes": "20:00"
+      }
+    }
+    </script>
 </head>
 <body>
     <header>
@@ -15,7 +72,7 @@
             <a href="#gallery">{{ nav_gallery }}</a>
             <a href="#map">{{ nav_map }}</a>
             <a href="#contact">{{ nav_contact }}</a>
-            <a href="{{ other_lang_link }}" class="lang-switch">{{ other_lang }}</a>
+            <a href="{{ other_lang_link }}" class="lang-switch" hreflang="{{ other_lang_code }}">{{ other_lang }}</a>
         </nav>
     </header>
     <main>
@@ -23,10 +80,10 @@
     </main>
     <footer id="contact">
         <p><strong>{{ brand }}</strong></p>
-        <p>{{ footer_address }}: {{ address }} | {{ footer_phone }}: {{ phone }}</p>
+        <p>{{ footer_address }}: {{ address }} | {{ footer_phone }}: <a href="tel:{{ phone }}">{{ phone }}</a></p>
         <p>
-            <a href="{{ instagram }}" target="_blank">Instagram</a> | 
-            <a href="{{ facebook }}" target="_blank">Facebook</a>
+            <a href="{{ instagram }}" target="_blank" rel="noopener">Instagram</a> | 
+            <a href="{{ facebook }}" target="_blank" rel="noopener">Facebook</a>
         </p>
         <p>© 2026 {{ brand }}</p>
     </footer>
