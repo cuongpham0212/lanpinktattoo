@@ -1,47 +1,47 @@
 <!DOCTYPE html>
-<html lang="{{ lang }}">
+<html lang="{{ t.lang }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ meta_title }}</title>
-    <meta name="description" content="{{ meta_desc }}">
-    <meta name="keywords" content="{{ keywords }}">
+    <title>{{ t.meta_title }}</title>
+    <meta name="description" content="{{ t.meta_desc }}">
+    <meta name="keywords" content="{{ t.keywords }}">
     <meta name="google-site-verification" content="_AvDEVXvok7vQ2TbOgCeybUAkOA9yRmK9VZfcuHPwFA" />
     
     <!-- Canonical + Language -->
-    <link rel="canonical" href="{{ site_url }}{{ other_lang_link if lang == 'en' else '/' }}">
-    <link rel="alternate" hreflang="vi" href="{{ site_url }}/">
-    <link rel="alternate" hreflang="en" href="{{ site_url }}/en/">
+    <link rel="canonical" href="{{ t.site_url }}{{ t.other_lang_link if t.lang == 'en' else '/' }}">
+    <link rel="alternate" hreflang="vi" href="{{ t.site_url }}/">
+    <link rel="alternate" hreflang="en" href="{{ t.site_url }}/en/">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site_url }}{{ other_lang_link if lang == 'en' else '/' }}">
-    <meta property="og:title" content="{{ meta_title }}">
-    <meta property="og:description" content="{{ meta_desc }}">
-    <meta property="og:image" content="{{ site_url }}/{{ og_image }}">
-    <meta property="og:locale" content="{{ 'vi_VN' if lang == 'vi' else 'en_US' }}">
+    <meta property="og:url" content="{{ t.site_url }}{{ t.other_lang_link if t.lang == 'en' else '/' }}">
+    <meta property="og:title" content="{{ t.meta_title }}">
+    <meta property="og:description" content="{{ t.meta_desc }}">
+    <meta property="og:image" content="{{ t.site_url }}/{{ t.og_image }}">
+    <meta property="og:locale" content="{{ 'vi_VN' if t.lang == 'vi' else 'en_US' }}">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="{{ site_url }}{{ other_lang_link if lang == 'en' else '/' }}">
-    <meta property="twitter:title" content="{{ meta_title }}">
-    <meta property="twitter:description" content="{{ meta_desc }}">
-    <meta property="twitter:image" content="{{ site_url }}/{{ og_image }}">
+    <meta property="twitter:url" content="{{ t.site_url }}{{ t.other_lang_link if t.lang == 'en' else '/' }}">
+    <meta property="twitter:title" content="{{ t.meta_title }}">
+    <meta property="twitter:description" content="{{ t.meta_desc }}">
+    <meta property="twitter:image" content="{{ t.site_url }}/{{ t.og_image }}">
     
-    <link rel="stylesheet" href="../static/css/style.css">
-    <link rel="icon" type="image/png" href="../static/images/favicon.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}">
     
-    <!-- Structured Data LocalBusiness -->
+    <!-- Structured Data TattooShop -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "TattooShop",
-      "name": "{{ brand }}",
-      "image": "{{ site_url }}/{{ og_image }}",
-      "description": "{{ meta_desc }}",
+      "name": "{{ t.brand }}",
+      "image": "{{ t.site_url }}/{{ t.og_image }}",
+      "description": "{{ t.meta_desc }}",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "{{ address }}",
+        "streetAddress": "{{ t.address }}",
         "addressLocality": "Ho Chi Minh City",
         "addressRegion": "HCMC",
         "postalCode": "700000",
@@ -52,8 +52,8 @@
         "latitude": 10.8649477,
         "longitude": 106.6456056
       },
-      "url": "{{ site_url }}",
-      "telephone": "{{ phone }}",
+      "url": "{{ t.site_url }}",
+      "telephone": "{{ t.phone }}",
       "priceRange": "500000-5000000 VND",
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
@@ -63,6 +63,28 @@
       }
     }
     </script>
+
+    <!-- Structured Data FAQPage -->
+    {% if t.faq %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {% for item in t.faq %}
+        {
+          "@type": "Question",
+          "name": "{{ item.q }}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{ item.a }}"
+          }
+        }{{ "," if not loop.last }}
+        {% endfor %}
+      ]
+    }
+    </script>
+    {% endif %}
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YHDTF0NDK7"></script>
@@ -76,27 +98,27 @@
 </head>
 <body>
     <header>
-        <h1>{{ brand }}</h1>
-        <p>{{ slogan }}</p>
+        <h1>{{ t.brand }}</h1>
+        <p>{{ t.slogan }}</p>
         <nav>
-            <a href="#services">{{ nav_services }}</a>
-            <a href="#gallery">{{ nav_gallery }}</a>
-            <a href="#map">{{ nav_map }}</a>
-            <a href="#contact">{{ nav_contact }}</a>
-            <a href="{{ other_lang_link }}" class="lang-switch" hreflang="{{ other_lang_code }}">{{ other_lang }}</a>
+            <a href="#services">{{ t.nav_services }}</a>
+            <a href="#gallery">{{ t.nav_gallery }}</a>
+            <a href="#map">{{ t.nav_map }}</a>
+            <a href="#contact">{{ t.nav_contact }}</a>
+            <a href="{{ t.other_lang_link }}" class="lang-switch" hreflang="{{ t.other_lang_code }}">{{ t.other_lang }}</a>
         </nav>
     </header>
     <main>
         {% block content %}{% endblock %}
     </main>
     <footer id="contact">
-        <p><strong>{{ brand }}</strong></p>
-        <p>{{ footer_address }}: {{ address }} | {{ footer_phone }}: <a href="tel:{{ phone }}">{{ phone }}</a></p>
+        <p><strong>{{ t.brand }}</strong></p>
+        <p>{{ t.footer_address }}: {{ t.address }} | {{ t.footer_phone }}: <a href="tel:{{ t.phone }}">{{ t.phone }}</a></p>
         <p>
-            <a href="{{ instagram }}" target="_blank" rel="noopener">Instagram</a> | 
-            <a href="{{ facebook }}" target="_blank" rel="noopener">Facebook</a>
+            <a href="{{ t.instagram }}" target="_blank" rel="noopener">Instagram</a> | 
+            <a href="{{ t.facebook }}" target="_blank" rel="noopener">Facebook</a>
         </p>
-        <p>© 2026 {{ brand }}</p>
+        <p>© 2026 {{ t.brand }}</p>
     </footer>
 </body>
 </html>

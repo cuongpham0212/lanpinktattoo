@@ -9,9 +9,9 @@ content = {
         "h1": "Xăm Hình Nghệ Thuật HCM | Lan Pink Tattoo – Studio Mini & Cover Tattoo",
         "subheading": "Artist 5+ năm kinh nghiệm, chuyên tattoo mini, fine line, màu nước, cover hình xăm cũ. Mực Mỹ chính hãng, phòng xăm vô trùng chuẩn y tế tại Quận 12, TP.HCM.",
         "cta_primary_text": "Đặt Lịch Tư Vấn Miễn Phí",
-        "cta_primary_link": "https://zalo.me/0936061307",  # <-- Thay SĐT Zalo thật
+        "cta_primary_link": "https://zalo.me/0936061307",
         "cta_secondary_text": "Xem 100+ Mẫu Tattoo",
-        "cta_secondary_link": "#gallery",  # <-- Trỏ đúng id section gallery của anh
+        "cta_secondary_link": "#gallery",
         "image_alt": "Studio xăm hình Lan Pink Tattoo Quận 12 HCM - Artist nữ đang thực hiện tattoo mini cho khách",
         "trust_signals": [
             "★ 4.9/5 từ 200+ khách",
@@ -42,5 +42,25 @@ content = {
     "footer_phone": "SĐT",
     "other_lang": "English",
     "other_lang_link": "/en/",
-    "other_lang_code": "en"
+    "other_lang_code": "en",  # <-- Thêm dấu , ở đây
+
+    "faq_title": "Câu Hỏi Thường Gặp Về Xăm Hình",
+    "faq": [
+        {
+            "q": "Xăm hình mini giá bao nhiêu?",
+            "a": "Tattoo mini tại Lan Pink Tattoo từ 500k-1tr5 tùy size và độ phức tạp. Báo giá chính xác sau khi tư vấn thiết kế miễn phí qua Zalo."
+        },
+        {
+            "q": "Xăm có đau không?",
+            "a": "Có tê nhẹ như kiến cắn. Tụi mình dùng tê kem Hàn Quốc nên 90% khách nữ nói chịu được, nhất là vùng tay, vai, lưng."
+        },
+        {
+            "q": "Xăm bao lâu thì lành?",
+            "a": "Lớp ngoài lành sau 7-10 ngày. Lành hoàn toàn bên trong sau 4-6 tuần. Bên mình bảo hành dặm miễn phí 1 tháng."
+        },
+        {
+            "q": "Mực xăm có an toàn không?",
+            "a": "100% mực Eternal Ink USA, đạt chứng nhận FDA. Kim xăm, găng tay, vật tư y tế dùng 1 lần, hấp sấy vô trùng chuẩn y khoa."
+        }
+    ],
 }

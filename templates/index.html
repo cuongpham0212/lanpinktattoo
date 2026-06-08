@@ -1,14 +1,17 @@
-
 {% extends "base.html" %}
+
 {% block content %}
+{% include "partials/hero.html" %}
+
 <section id="about">
-    <h2>{{ about_title }}</h2>
-    <p>{{ about }}</p>
+    <h2>{{ t.about_title }}</h2>
+    <p>{{ t.about }}</p>
 </section>
+
 <section id="services">
-    <h2>{{ services_title }}</h2>
+    <h2>{{ t.services_title }}</h2>
     <div class="service-list">
-        {% for item in services %}
+        {% for item in t.services %}
         <div class="service-card">
             <h3>{{ item.name }}</h3>
             <p>{{ item.desc }}</p>
@@ -17,13 +20,14 @@
         {% endfor %}
     </div>
 </section>
+
 <section id="gallery">
-    <h2>{{ gallery_title }}</h2>
+    <h2>{{ t.gallery_title }}</h2>
     <div class="gallery-grid">
-        {% for pic in gallery %}
+        {% for pic in t.gallery %}
         <img 
-            src="../static/{{ pic.img }}" 
-            alt="{{ pic.alt }} - {{ brand }} HCM" 
+            src="{{ url_for('static', filename=pic.img) }}" 
+            alt="{{ pic.alt }} - {{ t.brand }} HCM" 
             title="{{ pic.alt }}"
             loading="lazy"
             width="400" 
@@ -31,11 +35,12 @@
         {% endfor %}
     </div>
 </section>
+
 <section id="map">
-    <h2>{{ map_title }}</h2>
+    <h2>{{ t.map_title }}</h2>
     <div class="map-container">
         <iframe 
-            src="{{ maps_embed }}" 
+            src="{{ t.maps_embed }}" 
             width="100%" 
             height="400" 
             style="border:0;" 
@@ -45,11 +50,24 @@
         </iframe>
     </div>
     <p style="text-align: center; margin-top: 1rem;">
-        <a href="{{ maps_link }}" target="_blank" class="btn">{{ map_btn }}</a>
+        <a href="{{ t.maps_link }}" target="_blank" class="btn">{{ t.map_btn }}</a>
     </p>
 </section>
+
 <section id="cta">
-    <h2>{{ cta_title }}</h2>
-    <a href="tel:{{ phone }}" class="btn">{{ cta_btn }} {{ phone }}</a>
+    <h2>{{ t.cta_title }}</h2>
+    <a href="tel:{{ t.phone }}" class="btn">{{ t.cta_btn }} {{ t.phone }}</a>
+</section>
+
+<section id="faq">
+    <h2>{{ t.faq_title }}</h2>
+    <div class="faq-list">
+        {% for item in t.faq %}
+        <details class="faq-item">
+            <summary>{{ item.q }}</summary>
+            <p>{{ item.a }}</p>
+        </details>
+        {% endfor %}
+    </div>
 </section>
 {% endblock %}
