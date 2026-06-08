@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}{{ brand }} - {{ slogan }}{% endblock %}
+{% block content %}
+<section id="about">
+    <h2>Về chúng tôi</h2>
+    <p>{{ about }}</p>
+</section>
+<section id="services">
+    <h2>Dịch vụ nổi bật</h2>
+    <div class="service-list">
+        {% for item in services %}
+        <div class="service-card">
+            <h3>{{ item.name }}</h3>
+            <p>{{ item.desc }}</p>
+            <strong>{{ item.price }}</strong>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+<section id="gallery">
+    <h2>Tác phẩm</h2>
+    <div class="gallery-grid">
+        {% for pic in gallery %}
+        <img src="static/{{ pic.img }}" alt="{{ pic.alt }}">
+        {% endfor %}
+    </div>
+</section>
+<section id="cta">
+    <h2>Đặt lịch ngay</h2>
+    <a href="tel:{{ phone }}" class="btn">Gọi {{ phone }}</a>
+</section>
+{% endblock %}

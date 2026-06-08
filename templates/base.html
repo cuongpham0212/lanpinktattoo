@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ brand }}{% endblock %}</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>{{ brand }}</h1>
+        <p>{{ slogan }}</p>
+        <nav>
+            <a href="#services">Dịch vụ</a>
+            <a href="#gallery">Tác phẩm</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer id="contact">
+        <p><strong>{{ brand }}</strong></p>
+        <p>Địa chỉ: {{ address }} | SĐT: {{ phone }}</p>
+        <p>
+            <a href="{{ instagram }}" target="_blank">Instagram</a> | 
+            <a href="{{ facebook }}" target="_blank">Facebook</a>
+        </p>
+        <p>© 2026 {{ brand }}</p>
+    </footer>
+</body>
+</html>
