@@ -1,3 +1,4 @@
+
 {% extends "base.html" %}
 {% block content %}
 <section id="about">
@@ -20,7 +21,13 @@
     <h2>{{ gallery_title }}</h2>
     <div class="gallery-grid">
         {% for pic in gallery %}
-        <img src="../static/{{ pic.img }}" alt="{{ pic.alt }}">
+        <img 
+            src="../static/{{ pic.img }}" 
+            alt="{{ pic.alt }} - {{ brand }} HCM" 
+            title="{{ pic.alt }}"
+            loading="lazy"
+            width="400" 
+            height="400">
         {% endfor %}
     </div>
 </section>
