@@ -1,0 +1,181 @@
+{
+  "vi": {
+    "lang": "vi",
+    "site_url": "https://lanpinktattoo.netlify.app",
+    "brand": "Lan Pink Tattoo",
+    "phone": "+84-70-365-9902",
+    "address": "Gần cầu vượt Tân Thới Hiệp, Quận 12, TP.HCM",
+    "instagram": "https://instagram.com/lanpinktattoo",
+    "facebook": "https://facebook.com/lanpinktattoo",
+    "og_image": "static/images/og-image.jpg",
+    "maps_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4!2d106.6456!3d10.8649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDUxJzUzLjgiTiAxMDbCsDM4JzQ0LjIiRQ!5e0!3m2!1svi!2s!4v1710000000000!5m2!1svi!2s",
+    "maps_link": "https://maps.app.goo.gl/xxxx",
+    
+    "meta_title": "Lan Pink Tattoo - Tiệm Xăm Nghệ Thuật Quận 12, HCM | Xăm Mini, Cover Hình Xăm Cũ",
+    "meta_desc": "Lan Pink Tattoo chuyên xăm hình nghệ thuật, xăm mini, cover hình xăm cũ tại Quận 12, HCM. Artist 8 năm kinh nghiệm, mực Mỹ, bảo hành trọn đời. Đặt lịch: 0703.659.902",
+    "keywords": "xăm hình quận 12, tiệm xăm hcm, xăm mini đẹp, cover hình xăm, lan pink tattoo",
+    "slogan": "Hình Xăm Độc Bản Cho Riêng Bạn",
+    
+    "nav_services": "Dịch Vụ",
+    "nav_gallery": "Tác Phẩm",
+    "nav_map": "Bản Đồ",
+    "nav_contact": "Liên Hệ",
+    "other_lang": "English",
+    "other_lang_code": "en",
+    "other_lang_link": "/en/",
+    
+    "about_title": "Về Lan Pink Tattoo",
+    "about": "Với 8 năm kinh nghiệm, Lan Pink Tattoo là địa chỉ tin cậy cho các bạn trẻ yêu thích xăm hình nghệ thuật tại HCM. Chúng tôi chuyên thiết kế hình xăm độc bản, xăm mini, realism, blackwork và cover hình xăm cũ hỏng. Cam kết mực nhập khẩu Mỹ, dụng cụ vô trùng 100%, bảo hành dặm lại miễn phí.",
+    
+    "services_title": "Bảng Giá Dịch Vụ",
+    "services": [
+      {
+        "name": "Xăm Mini",
+        "desc": "Hình xăm nhỏ 3-5cm, nét mảnh, phù hợp cổ tay, sau tai, ngón tay",
+        "price": "500K - 1tr5"
+      },
+      {
+        "name": "Xăm Chữ / Quote",
+        "desc": "Thiết kế font riêng theo ý, tiếng Việt/ Anh/ Hán",
+        "price": "700K - 2tr"
+      },
+      {
+        "name": "Xăm Mảng Lớn",
+        "desc": "Full lưng, kín tay, kín chân. Thiết kế độc quyền",
+        "price": "Từ 5tr"
+      },
+      {
+        "name": "Cover Hình Xăm Cũ",
+        "desc": "Che hình xăm hỏng, mực trổ xanh. Tư vấn miễn phí",
+        "price": "Từ 2tr"
+      }
+    ],
+    
+    "gallery_title": "Tác Phẩm Nổi Bật",
+    "gallery": [
+      {
+        "img": "images/tattoo1.jpg",
+        "alt": "Hình xăm rồng kín lưng đen trắng phong cách Nhật cổ"
+      },
+      {
+        "img": "images/tattoo2.jpg",
+        "alt": "Hình xăm hoa mẫu đơn màu nước ở bắp tay nữ"
+      },
+      {
+        "img": "images/tattoo3.jpg",
+        "alt": "Xăm mini chữ Family ở cổ tay nét mảnh"
+      },
+      {
+        "img": "images/tattoo4.jpg",
+        "alt": "Cover hình xăm cũ thành phượng hoàng lửa ở vai"
+      },
+      {
+        "img": "images/tattoo5.jpg",
+        "alt": "Hình xăm mèo thần tài may mắn ở bắp chân"
+      },
+      {
+        "img": "images/tattoo6.jpg",
+        "alt": "Xăm realism chân dung em bé đen trắng"
+      }
+    ],
+    
+    "map_title": "Địa Chỉ Tiệm",
+    "map_btn": "Chỉ Đường Google Maps",
+    
+    "cta_title": "Tư Vấn & Đặt Lịch Miễn Phí",
+    "cta_btn": "Gọi Ngay",
+    
+    "footer_address": "Địa chỉ",
+    "footer_phone": "Hotline"
+  },
+  
+  "en": {
+    "lang": "en",
+    "site_url": "https://lanpinktattoo.netlify.app",
+    "brand": "Lan Pink Tattoo",
+    "phone": "+84-70-365-9902",
+    "address": "Near Tan Thoi Hiep Overpass, District 12, HCMC",
+    "instagram": "https://instagram.com/lanpinktattoo",
+    "facebook": "https://facebook.com/lanpinktattoo",
+    "og_image": "static/images/og-image.jpg",
+    "maps_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4!2d106.6456!3d10.8649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDUxJzUzLjgiTiAxMDbCsDM4JzQ0LjIiRQ!5e0!3m2!1svi!2s!4v1710000000000!5m2!1svi!2s",
+    "maps_link": "https://maps.app.goo.gl/xxxx",
+    
+    "meta_title": "Lan Pink Tattoo - Custom Tattoo Studio in District 12, HCMC | Fine Line, Cover Up",
+    "meta_desc": "Lan Pink Tattoo specializes in custom tattoos, fine line, cover ups in District 12, HCMC. 8 years experience, imported US ink, lifetime touch-up. Book: 0703.659.902",
+    "keywords": "tattoo shop district 12, hcmc tattoo, fine line tattoo, cover up tattoo, lan pink tattoo",
+    "slogan": "Custom Tattoos Made For You",
+    
+    "nav_services": "Services",
+    "nav_gallery": "Gallery",
+    "nav_map": "Location",
+    "nav_contact": "Contact",
+    "other_lang": "Tiếng Việt",
+    "other_lang_code": "vi",
+    "other_lang_link": "/",
+    
+    "about_title": "About Lan Pink Tattoo",
+    "about": "With 8 years of experience, Lan Pink Tattoo is a trusted studio for young people who love artistic tattoos in HCMC. We specialize in custom designs, fine line, realism, blackwork and cover-up tattoos. We use imported US ink, 100% sterile equipment, free lifetime touch-up warranty.",
+    
+    "services_title": "Pricing",
+    "services": [
+      {
+        "name": "Minimalist Tattoo",
+        "desc": "Small 3-5cm fine line tattoos, perfect for wrist, behind ear, finger",
+        "price": "500K - 1.5M VND"
+      },
+      {
+        "name": "Script / Quote Tattoo",
+        "desc": "Custom font design in Vietnamese/English/Chinese",
+        "price": "700K - 2M VND"
+      },
+      {
+        "name": "Large Piece",
+        "desc": "Full back, full sleeve, full leg. Exclusive custom design",
+        "price": "From 5M VND"
+      },
+      {
+        "name": "Cover Up",
+        "desc": "Cover old/botched/blue tattoos. Free consultation",
+        "price": "From 2M VND"
+      }
+    ],
+    
+    "gallery_title": "Featured Work",
+    "gallery": [
+      {
+        "img": "images/tattoo1.jpg",
+        "alt": "Black and grey Japanese dragon full back tattoo"
+      },
+      {
+        "img": "images/tattoo2.jpg",
+        "alt": "Watercolor peony flower tattoo on woman arm"
+      },
+      {
+        "img": "images/tattoo3.jpg",
+        "alt": "Minimalist fine line Family script wrist tattoo"
+      },
+      {
+        "img": "images/tattoo4.jpg",
+        "alt": "Cover up old tattoo to fire phoenix on shoulder"
+      },
+      {
+        "img": "images/tattoo5.jpg",
+        "alt": "Lucky Japanese Maneki-neko cat tattoo on calf"
+      },
+      {
+        "img": "images/tattoo6.jpg",
+        "alt": "Realism black and grey baby portrait tattoo"
+      }
+    ],
+    
+    "map_title": "Studio Location",
+    "map_btn": "Get Directions",
+    
+    "cta_title": "Free Consultation & Booking",
+    "cta_btn": "Call Now",
+    
+    "footer_address": "Address",
+    "footer_phone": "Hotline"
+  }
+}
