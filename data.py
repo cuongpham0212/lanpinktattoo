@@ -1,20 +1,63 @@
-site_data = {
+data_vi = {
+    "lang": "vi",
     "brand": "Lan Pink Tattoo",
     "slogan": "Nghệ thuật trên da, dấu ấn của riêng bạn",
     "phone": "0909 xxx xxx",
-    "address": "Quận 1, TP.HCM",
+    "address": "Gần cầu vượt Tân Thới Hiệp, Quận 12, TP.HCM",
     "instagram": "https://instagram.com/lanpinktattoo",
     "facebook": "https://facebook.com/lanpinktattoo",
+    "nav_services": "Dịch vụ",
+    "nav_gallery": "Tác phẩm", 
+    "nav_contact": "Liên hệ",
+    "about_title": "Về chúng tôi",
+    "about": "Lan Pink Tattoo chuyên các dòng fine line, mini tattoo, màu nước. An toàn, vệ sinh, mực USA chính hãng.",
+    "services_title": "Dịch vụ nổi bật",
     "services": [
         {"name": "Tattoo Mini", "desc": "Hình nhỏ tinh tế, ít đau", "price": "từ 500k"},
         {"name": "Tattoo Màu", "desc": "Lên màu chuẩn, bền theo năm tháng", "price": "từ 1tr5"},
         {"name": "Cover Tattoo", "desc": "Che sẹo, che hình cũ chuyên nghiệp", "price": "Báo giá sau tư vấn"},
         {"name": "Thiết kế riêng", "desc": "Vẽ theo ý tưởng của bạn", "price": "từ 1tr"},
     ],
+    "gallery_title": "Tác phẩm",
     "gallery": [
         {"img": "images/tattoo1.jpg", "alt": "Hình xăm hoa"},
         {"img": "images/tattoo2.jpg", "alt": "Hình xăm chữ"},
         {"img": "images/tattoo3.jpg", "alt": "Hình xăm mini"},
     ],
-    "about": "Lan Pink Tattoo với 5 năm kinh nghiệm, chuyên các dòng fine line, mini tattoo, màu nước. An toàn, vệ sinh, mực USA chính hãng."
+    "cta_title": "Đặt lịch ngay",
+    "cta_btn": "Gọi",
+    "footer_address": "Địa chỉ",
+    "footer_phone": "SĐT",
+    "other_lang": "English",
+    "other_lang_link": "/en/"
+}
+
+data_en = {
+    "lang": "en",
+    "brand": "Lan Pink Tattoo",
+    "slogan": "Art on skin, your personal mark",
+    "phone": "0909 xxx xxx",
+    "address": "Near Tan Thoi Hiep Overpass, District 12, HCMC",
+    "instagram": "https://instagram.com/lanpinktattoo",
+    "facebook": "https://facebook.com/lanpinktattoo",
+    "nav_services": "Services",
+    "nav_gallery": "Gallery",
+    "nav_contact": "Contact",
+    "about_title": "About Us",
+    "about": "Lan Pink Tattoo specializes in fine line, mini tattoo, and watercolor styles. Safe, hygienic, with authentic USA ink.",
+    "services_title": "Featured Services",
+    "services": [
+        {"name": "Mini Tattoo", "desc": "Delicate small designs, less pain", "price": "from 500k VND"},
+        {"name": "Color Tattoo", "desc": "Vibrant colors, long-lasting", "price": "from 1.5M VND"},
+        {"name": "Cover-up", "desc": "Professional scar & old tattoo cover", "price": "Quote after consultation"},
+        {"name": "Custom Design", "desc": "Drawn from your ideas", "price": "from 1M VND"},
+    ],
+    "gallery_title": "Gallery",
+    "gallery": data_vi["gallery"],
+    "cta_title": "Book Now",
+    "cta_btn": "Call",
+    "footer_address": "Address",
+    "footer_phone": "Phone",
+    "other_lang": "Tiếng Việt",
+    "other_lang_link": "/"
 }
