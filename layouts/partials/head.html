@@ -5,11 +5,11 @@ name="viewport"
 content="width=device-width, initial-scale=1">
 
 <title>
-  {{ if .IsHome }}
-    {{ .Site.Title }}
-  {{ else }}
-    {{ .Title }} | {{ .Site.Title }}
-  {{ end }}
+{{ if .IsHome }}
+{{ .Site.Title }}
+{{ else }}
+{{ .Title }} | {{ .Site.Title }}
+{{ end }}
 </title>
 
 <meta
@@ -23,6 +23,30 @@ content="{{ .Site.Params.author }}">
 <meta
 name="robots"
 content="index, follow">
+
+<meta
+name="theme-color"
+content="#ec4899">
+
+<link
+rel="canonical"
+href="{{ .Permalink }}">
+
+<!-- Google Search Console -->
+
+<meta
+name="google-site-verification"
+content="DAN_MA_XAC_MINH_VAO_DAY">
+
+<!-- Hreflang -->
+
+{{ range .AllTranslations }}
+
+<link
+rel="alternate"
+hreflang="{{ .Language.Lang }}"
+href="{{ .Permalink }}">
+{{ end }}
 
 <!-- Open Graph -->
 
@@ -44,6 +68,10 @@ content="{{ .Permalink }}">
 property="og:site_name"
 content="{{ .Site.Title }}">
 
+<meta
+property="og:image"
+content="{{ "images/og-cover.jpg" | absURL }}">
+
 <!-- Twitter -->
 
 <meta
@@ -58,17 +86,21 @@ content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Titl
 name="twitter:description"
 content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
-<!-- Tailwind CSS build -->
+<meta
+name="twitter:image"
+content="{{ "images/og-cover.jpg" | absURL }}">
+
+<!-- CSS -->
 
 <link
-  rel="stylesheet"
-  href="/css/style.css">
+rel="stylesheet"
+href="/css/style.css">
 
 <!-- Favicon -->
 
 <link
-  rel="icon"
-  href="/favicon.ico">
+rel="icon"
+href="/favicon.ico">
 
 <!-- Google Fonts -->
 
@@ -77,5 +109,5 @@ content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link
-  href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-  rel="stylesheet">
+href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+rel="stylesheet">
