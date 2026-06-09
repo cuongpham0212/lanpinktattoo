@@ -1,0 +1,38 @@
+[contact]
+other = "Contact"
+
+[studio_name]
+other = "Lan Pink Ink Studio"
+
+[studio_description]
+other = "Private tattoo studio in Ho Chi Minh City. Specializing in Fine Line, Blackwork, Mini Tattoos and custom tattoo designs."
+
+[address]
+other = "📍 Lan Pink Ink - Private Tattoo Studio"
+
+[working_hours]
+other = "🕒 By appointment only"
+
+[booking_note]
+other = "✉️ Contact us via Facebook or Instagram to book an appointment"
+
+[google_reviews]
+other = "⭐ Google Reviews"
+
+[google_reviews_desc]
+other = "Read real reviews from our clients."
+
+[view_google]
+other = "View Google Business →"
+
+[facebook]
+other = "📘 Facebook"
+
+[instagram]
+other = "📸 Instagram"
+
+[directions]
+other = "📍 Get Directions"
+
+[book_now]
+other = "📅 Book Appointment"

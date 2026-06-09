@@ -9,30 +9,29 @@
   <div>
 
     <span class="text-pink-500 font-semibold uppercase tracking-wider">
-      Liên hệ
+      {{ i18n "contact" }}
     </span>
 
     <h2 class="mt-3 text-4xl font-bold text-white">
-      Lan Pink Ink Studio
+      {{ i18n "studio_name" }}
     </h2>
 
     <p class="mt-4 text-zinc-400">
-      Studio xăm nghệ thuật riêng tư tại TP.HCM.
-      Chuyên Fine Line, Blackwork, Mini Tattoo và thiết kế hình xăm theo yêu cầu.
+      {{ i18n "studio_description" }}
     </p>
 
     <div class="mt-8 space-y-4 text-zinc-300">
 
       <p>
-        📍 Lan Pink Ink - Private Tattoo Studio
+        {{ i18n "address" }}
       </p>
 
       <p>
-        🕒 Làm việc theo lịch hẹn
+        {{ i18n "working_hours" }}
       </p>
 
       <p>
-        ✉️ Inbox Fanpage hoặc Instagram để đặt lịch
+        {{ i18n "booking_note" }}
       </p>
 
     </div>
@@ -42,20 +41,20 @@
     <div class="mt-8 rounded-xl border border-zinc-800 bg-zinc-900 p-5">
 
       <div class="flex items-center gap-2 text-lg font-semibold text-white">
-        ⭐ Đánh giá trên Google
+        {{ i18n "google_reviews" }}
       </div>
 
       <p class="mt-2 text-sm text-zinc-400">
-        Xem đánh giá thực tế từ khách hàng đã sử dụng dịch vụ tại studio.
+        {{ i18n "google_reviews_desc" }}
       </p>
 
       <a
-        href="https://maps.app.goo.gl/YYS7LnsWJdq7wBGT6"
+        href="https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9"
         target="_blank"
         rel="noopener noreferrer"
         class="inline-block mt-4 text-pink-500 hover:text-pink-400">
 
-        Xem Google Business →
+        {{ i18n "view_google" }}
 
       </a>
 
@@ -71,7 +70,7 @@
         rel="noopener noreferrer"
         class="rounded-full border border-zinc-700 px-4 py-2 text-sm text-zinc-300 transition hover:border-pink-500 hover:text-pink-500">
 
-        📘 Facebook
+        {{ i18n "facebook" }}
 
       </a>
 
@@ -81,23 +80,37 @@
         rel="noopener noreferrer"
         class="rounded-full border border-zinc-700 px-4 py-2 text-sm text-zinc-300 transition hover:border-pink-500 hover:text-pink-500">
 
-        📸 Instagram
+        {{ i18n "instagram" }}
 
       </a>
 
     </div>
 
-    <!-- Directions Button -->
+    <!-- Action Buttons -->
 
-    <a
-      href="https://maps.app.goo.gl/YYS7LnsWJdq7wBGT6"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="inline-block mt-8 rounded-full bg-pink-500 px-6 py-3 font-semibold text-white transition hover:bg-pink-600">
+    <div class="mt-8 flex flex-wrap gap-3">
 
-      📍 Chỉ đường đến Studio
+      <a
+        href="https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="rounded-full bg-pink-500 px-6 py-3 font-semibold text-white transition hover:bg-pink-600">
 
-    </a>
+        {{ i18n "directions" }}
+
+      </a>
+
+      <a
+        href="https://www.facebook.com/LanPinkInk"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="rounded-full border border-pink-500 px-6 py-3 font-semibold text-pink-500 transition hover:bg-pink-500 hover:text-white">
+
+        {{ i18n "book_now" }}
+
+      </a>
+
+    </div>
 
   </div>
 
