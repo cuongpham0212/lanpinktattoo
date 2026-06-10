@@ -1,101 +1,127 @@
-baseURL = 'http://lanpinktattoo.netlify.app'
+baseURL = 'https://lanpinktattoo.netlify.app/'
 languageCode = 'vi-vn'
 title = 'Lan Pink Tattoo'
-
 defaultContentLanguage = 'vi'
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false # VI sẽ ở /, EN sẽ ở /en/
+hasCJKLanguage = false
+enableRobotsTXT = true
 
+# Đa ngôn ngữ
 [languages]
+  [languages.vi]
+    languageName = 'Tiếng Việt'
+    weight = 1
+    title = 'Lan Pink Tattoo'
+    contentDir = 'content'
 
-[languages.vi]
-languageName = 'Tiếng Việt'
-weight = 1
-title = 'Lan Pink Tattoo'
+    [languages.vi.params]
+      description = 'Studio xăm nghệ thuật tại TP.HCM - Chuyên thiết kế hình xăm độc bản'
+      flag = '🇻🇳'
 
-[languages.vi.params]
-  description = 'Studio xăm nghệ thuật tại TP.HCM'
-  flag = '🇻🇳'
+    [[languages.vi.menu.main]]
+      name = 'Trang chủ'
+      url = '/'
+      weight = 1
 
-[[languages.vi.menu.main]]
-  name = 'Trang chủ'
-  url = '/'
-  weight = 1
+    [[languages.vi.menu.main]]
+      name = 'Giới thiệu'
+      url = '/about/'
+      weight = 2
 
-[[languages.vi.menu.main]]
-  name = 'Giới thiệu'
-  url = '/about/'
-  weight = 2
+    [[languages.vi.menu.main]]
+      name = 'Tác phẩm'
+      url = '/gallery/'
+      weight = 3
 
-[[languages.vi.menu.main]]
-  name = 'Tác phẩm'
-  url = '/gallery/'
-  weight = 3
+    [[languages.vi.menu.main]]
+      name = 'Bảng giá'
+      url = '/pricing/'
+      weight = 4
 
-[[languages.vi.menu.main]]
-  name = 'Bảng giá'
-  url = '/pricing/'
-  weight = 4
+    [[languages.vi.menu.main]]
+      name = 'Quy trình'
+      url = '/process/'
+      weight = 5
 
-[[languages.vi.menu.main]]
-  name = 'Quy trình'
-  url = '/process/'
-  weight = 5
+    [[languages.vi.menu.main]]
+      name = 'FAQ Xăm Hình'
+      url = '/faq/'
+      weight = 6
 
-[[languages.vi.menu.main]]
-  name = 'Liên hệ'
-  url = '/contact/'
-  weight = 6
+    [[languages.vi.menu.main]]
+      name = 'Liên hệ'
+      url = '/contact/'
+      weight = 7
 
-[languages.en]
-languageName = 'English'
-weight = 2
-title = 'Lan Pink Tattoo'
+  [languages.en]
+    languageName = 'English'
+    weight = 2
+    title = 'Lan Pink Tattoo'
+    contentDir = 'content/en'
 
-[languages.en.params]
-  description = 'Tattoo Art Studio in Ho Chi Minh City'
-  flag = '🇺🇸'
+    [languages.en.params]
+      description = 'Tattoo Art Studio in Ho Chi Minh City - Custom Tattoo Design'
+      flag = '🇺🇸'
 
-[[languages.en.menu.main]]
-  name = 'Home'
-  url = '/en/'
-  weight = 1
+    [[languages.en.menu.main]]
+      name = 'Home'
+      url = '/en/'
+      weight = 1
 
-[[languages.en.menu.main]]
-  name = 'About'
-  url = '/en/about/'
-  weight = 2
+    [[languages.en.menu.main]]
+      name = 'About'
+      url = '/en/about/'
+      weight = 2
 
-[[languages.en.menu.main]]
-  name = 'Gallery'
-  url = '/en/gallery/'
-  weight = 3
+    [[languages.en.menu.main]]
+      name = 'Gallery'
+      url = '/en/gallery/'
+      weight = 3
 
-[[languages.en.menu.main]]
-  name = 'Pricing'
-  url = '/en/pricing/'
-  weight = 4
+    [[languages.en.menu.main]]
+      name = 'Pricing'
+      url = '/en/pricing/'
+      weight = 4
 
-[[languages.en.menu.main]]
-  name = 'Process'
-  url = '/en/process/'
-  weight = 5
+    [[languages.en.menu.main]]
+      name = 'Process'
+      url = '/en/process/'
+      weight = 5
 
-[[languages.en.menu.main]]
-  name = 'Contact'
-  url = '/en/contact/'
-  weight = 6
+    [[languages.en.menu.main]]
+      name = 'FAQ'
+      url = '/en/faq/'
+      weight = 6
 
+    [[languages.en.menu.main]]
+      name = 'Contact'
+      url = '/en/contact/'
+      weight = 7
+
+# Markdown
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    style = 'monokai'
 
-[markup.goldmark]
-
-[markup.goldmark.renderer]
-  unsafe = true
-
-[markup.highlight]
-noClasses = false
-
+# Param chung
 [params]
-author = 'Lan Pink'
-studio = 'Lan Pink Tattoo'
-city = 'Ho Chi Minh City'
+  author = 'Lan Pink'
+  studio = 'Lan Pink Tattoo'
+  city = 'Ho Chi Minh City'
+  email = 'hello@lanpinktattoo.com'
+  phone = '+84 xxx xxx xxx'
+  instagram = 'https://instagram.com/lanpinktattoo'
+  facebook = 'https://facebook.com/lanpinktattoo'
+
+# Bật sitemap + RSS cho SEO
+[outputs]
+  home = ['HTML', 'RSS', ]
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.5
+  filename = 'sitemap.xml'

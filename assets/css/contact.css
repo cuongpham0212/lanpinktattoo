@@ -1,0 +1,17 @@
+/* =========================
+CONTACT
+========================= */
+
+.contact-box {
+  background: var(--surface);
+
+  padding: 2rem;
+
+  border-radius: var(--radius);
+
+  border: 1px solid var(--border);
+}
+
+.contact-box a:hover {
+  color: var(--primary);
+}

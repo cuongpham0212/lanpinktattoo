@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Sau đó mới import các file custom */
+@import './components.css';
+@import './custom.css';
+@import './gallery.css';
+@import './layout.css';
+@import './main.css';

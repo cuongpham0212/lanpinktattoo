@@ -1,0 +1,262 @@
+/* =====================================
+LAN PINK TATTOO
+Premium Visual Layer
+===================================== */
+
+/* Background Glow */
+
+body::before {
+content: "";
+
+position: fixed;
+inset: 0;
+
+pointer-events: none;
+
+background:
+radial-gradient(
+circle at 15% 10%,
+rgba(236,72,153,.12),
+transparent 30%
+),
+radial-gradient(
+circle at 85% 20%,
+rgba(236,72,153,.08),
+transparent 35%
+);
+
+z-index: -1;
+}
+
+/* Selection */
+
+::selection {
+background: rgba(236,72,153,.4);
+color: #fff;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+background: #ec4899;
+border-radius: 999px;
+}
+
+/* Header */
+
+header {
+backdrop-filter: blur(12px);
+transition: .3s;
+}
+
+header a {
+transition: .25s;
+}
+
+header a:hover {
+color: #ec4899;
+}
+
+/* Logo */
+
+.logo {
+font-weight: 900;
+letter-spacing: 2px;
+}
+
+/* Hero */
+
+.hero {
+position: relative;
+}
+
+.hero h1 {
+  background: linear-gradient(
+    135deg,
+    #ffffff,
+    #ec4899
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+max-width: 650px;
+}
+
+/* Hero image */
+
+.hero-image img {
+border-radius: 24px;
+
+border: 1px solid rgba(255,255,255,.08);
+
+box-shadow:
+0 25px 60px rgba(0,0,0,.5);
+}
+
+/* Section */
+
+section {
+position: relative;
+}
+
+section::after {
+content: "";
+
+display: block;
+
+width: 60px;
+height: 3px;
+
+margin-top: 1rem;
+
+background: #ec4899;
+
+opacity: .4;
+}
+
+/* Cards */
+
+.card {
+backdrop-filter: blur(10px);
+
+background:
+linear-gradient(
+180deg,
+rgba(39,39,42,.9),
+rgba(24,24,27,.95)
+);
+}
+
+.card:hover {
+box-shadow:
+0 20px 50px rgba(236,72,153,.15);
+}
+
+/* Gallery */
+
+.gallery-item {
+position: relative;
+}
+
+.gallery-item::after {
+content: "";
+
+position: absolute;
+inset: 0;
+
+background:
+linear-gradient(
+to top,
+rgba(0,0,0,.45),
+transparent
+);
+
+opacity: 0;
+
+transition: .3s;
+}
+
+.gallery-item:hover::after {
+opacity: 1;
+}
+
+/* Buttons */
+
+.btn,
+button {
+transition:
+transform .25s,
+box-shadow .25s;
+}
+
+.btn:hover,
+button:hover {
+transform: translateY(-2px);
+
+box-shadow:
+0 10px 25px rgba(236,72,153,.25);
+}
+
+/* Contact Section */
+
+iframe {
+border-radius: 18px;
+}
+
+.contact-box,
+.map-box {
+box-shadow:
+0 15px 40px rgba(0,0,0,.35);
+}
+
+/* Social Buttons */
+
+.social-link {
+transition: .25s;
+}
+
+.social-link:hover {
+transform: translateY(-2px);
+}
+
+/* Footer */
+
+footer {
+background:
+linear-gradient(
+180deg,
+transparent,
+rgba(255,255,255,.02)
+);
+}
+
+footer a:hover {
+color: #ec4899;
+}
+
+/* Fade Animation */
+
+.fade-up {
+opacity: 0;
+transform: translateY(20px);
+
+animation:
+fadeUp .8s ease forwards;
+}
+
+@keyframes fadeUp {
+
+to {
+opacity: 1;
+transform: translateY(0);
+}
+
+}
+
+/* Mobile */
+
+@media (max-width:768px) {
+
+.hero h1 {
+font-size: 2.8rem;
+}
+
+.gallery-grid {
+grid-template-columns: 1fr;
+}
+
+}

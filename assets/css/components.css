@@ -1,0 +1,91 @@
+/* =========================
+BUTTONS
+========================= */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: .9rem 1.5rem;
+
+  border-radius: 999px;
+
+  font-weight: 700;
+
+  transition: .25s;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  border: 1px solid var(--border);
+}
+
+.btn-outline:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+/* =========================
+CARDS
+========================= */
+
+.card-grid {
+  display: grid;
+  gap: 2rem;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card {
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: var(--radius);
+
+  overflow: hidden;
+
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: var(--primary);
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+/* =========================
+PRICING
+========================= */
+
+.price-card {
+  padding: 2rem;
+
+  border-radius: var(--radius);
+
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  text-align: center;
+}
+
+.price {
+  font-size: 2rem;
+  color: var(--primary);
+  font-weight: 900;
+}
