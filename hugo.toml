@@ -68,8 +68,8 @@ enableRobotsTXT = true
       weight = 1
 
     [[languages.en.menu.main]]
-      name = 'Gallery'
-      pageRef = '/gallery'
+      name = 'Portfolio'
+      pageRef = '/fortfolio'
       weight = 2
 
     [[languages.en.menu.main]]

@@ -35,4 +35,37 @@ other = "📸 Instagram"
 other = "📍 Get Directions"
 
 [book_now]
-other = "📅 Book Appointment"
+other = "Book Appointment"
+
+[view_gallery]
+other = "View Gallery"
+
+[private_tattoo_studio]
+other = "Private Tattoo Studio"
+
+[toc]
+other = "Table of contents"
+
+[collapse]
+other = "Collapse"
+
+[share]
+other = "Share"
+
+[on_this_page]
+other = "On this page"
+
+[copy_link]
+other = "Copy Link"
+
+[copied]
+other = "Copied ✓"
+
+[tags]
+other = "Tags"
+
+[relatedPosts]
+other = "Related Posts"
+
+[expand]
+other = "Open"

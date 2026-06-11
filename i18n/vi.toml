@@ -36,3 +36,36 @@ other = "📍 Chỉ đường đến Studio"
 
 [book_now]
 other = "Đặt lịch"
+
+[view_gallery]
+other = "Xem tác phẩm"
+
+[private_tattoo_studio]
+other = "Studio xăm riêng tư"
+
+[toc]
+other = "Mục lục"
+
+[collapse]
+other = "Thu gọn"
+
+[share]
+other = "Chia sẻ"
+
+[on_this_page]
+other = "Trong bài viết"
+
+[expand]
+other = "Mở"
+
+[copy_link]
+other = "Copy link"
+
+[copied]
+other = "Đã copy ✓"
+
+[tags]
+other = "Thẻ"
+
+[relatedPosts]
+other = "Bài viết liên quan"

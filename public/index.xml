@@ -37,6 +37,13 @@
       <description>&lt;h2 id=&#34;does-getting-a-tattoo-hurt&#34;&gt;Does getting a tattoo hurt?&lt;/h2&gt;&#xA;&lt;p&gt;Pain level depends on placement and your personal tolerance. Bony areas like ribs, wrists, and ankles hurt more than fleshy areas like biceps or thighs. At Lan Pink Tattoo, we use high-quality needles and proper technique to minimize pain. Most clients describe it as &amp;ldquo;tolerable discomfort&amp;rdquo;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-much-does-a-tattoo-cost-in-2026&#34;&gt;How much does a tattoo cost in 2026?&lt;/h2&gt;&#xA;&lt;p&gt;Pricing at Lan Pink Tattoo is based on size and complexity:&lt;/p&gt;</description>
     </item>
     <item>
+      <title>About</title>
+      <link>http://localhost:1313/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description>&lt;h1 id=&#34;about-lan-pink-tattoo&#34;&gt;About Lan Pink Tattoo&lt;/h1&gt;&#xA;&lt;p&gt;Lan Pink Tattoo is a private tattoo studio in Ho Chi Minh City, Vietnam, specializing in Fine Line Tattoo, Mini Tattoo, Blackwork Tattoo, and custom tattoo design.&lt;/p&gt;&#xA;&lt;p&gt;We believe every tattoo tells a unique story. That is why each design is carefully discussed and tailored to the individual, creating artwork that reflects personal meaning rather than following mass-produced trends.&lt;/p&gt;&#xA;&lt;h2 id=&#34;signature-tattoo-styles&#34;&gt;Signature Tattoo Styles&lt;/h2&gt;&#xA;&lt;p&gt;Our studio focuses on several popular tattoo styles:&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Contact Lan Pink Ink</title>
       <link>http://localhost:1313/en/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -51,6 +58,13 @@
       <description>&lt;p&gt;Collection of completed works. Updating&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Giới thiệu</title>
+      <link>http://localhost:1313/gioi-thieu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gioi-thieu/</guid>
+      <description>&lt;h1 id=&#34;lan-pink-tattoo--private-tattoo-studio-tại-tphcm&#34;&gt;Lan Pink Tattoo – Private Tattoo Studio tại TP.HCM&lt;/h1&gt;&#xA;&lt;p&gt;Lan Pink Tattoo là một private tattoo studio tại TP.HCM, chuyên về Fine Line Tattoo, Mini Tattoo, Blackwork và thiết kế hình xăm theo yêu cầu.&lt;/p&gt;&#xA;&lt;p&gt;Chúng tôi tin rằng mỗi hình xăm đều mang một câu chuyện riêng. Vì vậy, mọi thiết kế đều được tư vấn và thực hiện dựa trên ý tưởng, cá tính và mong muốn của từng khách hàng thay vì sử dụng các mẫu đại trà.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Liên hệ Lan Pink Ink</title>
       <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -59,9 +73,9 @@
     </item>
     <item>
       <title>Tác phẩm</title>
-      <link>http://localhost:1313/gallery/</link>
+      <link>http://localhost:1313/fortfolio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gallery/</guid>
+      <guid>http://localhost:1313/fortfolio/</guid>
       <description>&lt;p&gt;Bộ sưu tập các tác phẩm đã thực hiện. Đang cập nhật&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>

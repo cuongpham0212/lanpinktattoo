@@ -499,6 +499,9 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+.collapse {
+  visibility: collapse;
+}
 .absolute {
   position: absolute;
 }
@@ -584,6 +587,9 @@ video {
 .inline-block {
   display: inline-block;
 }
+.inline {
+  display: inline;
+}
 .flex {
   display: flex;
 }
@@ -649,6 +655,9 @@ video {
 }
 .shrink-0 {
   flex-shrink: 0;
+}
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .cursor-pointer {
   cursor: pointer;
@@ -1245,15 +1254,19 @@ LANPINK TABLE OF CONTENTS
 .lp-toc summary::-webkit-details-marker {
   display: none;
 }
-.lp-toc[open] .lp-toc-icon::after {
-  content: "";
-}
 .lp-toc:not([open]) .lp-toc-icon {
   font-size: 0;
 }
 .lp-toc:not([open]) .lp-toc-icon::after {
-  content: "Mở";
-  font-size: .875rem;
+  content: attr(data-open-text);
+  font-size: 0.875rem;
+}
+.lp-toc[open] .lp-toc-icon {
+  font-size: 0;
+}
+.lp-toc[open] .lp-toc-icon::after {
+  content: attr(data-close-text);
+  font-size: 0.875rem;
 }
 .lp-toc-content nav ul {
   margin: 0;
@@ -1662,6 +1675,20 @@ html[data-theme="dark"] .lp-hero-compact .lp-hero-overlay {
   background: #f472b6;
   color: #2a1020;
 }
+/* FIX i18n TOC toggle - remove old hard-coded pseudo text */
+.lp-toc .lp-toc-icon::after {
+  content: none !important;
+}
+.lp-toc[open] .lp-toc-icon {
+  font-size: 0.875rem !important;
+}
+.lp-toc:not([open]) .lp-toc-icon {
+  font-size: 0.875rem !important;
+}
+/* Final TOC i18n fix */
+.lp-toc-toggle-text::after {
+  content: none !important;
+}
 .hover\:-translate-y-0\.5:hover {
   --tw-translate-y: -0.125rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1709,6 +1736,12 @@ html[data-theme="dark"] .lp-hero-compact .lp-hero-overlay {
 .hover\:shadow-pink-500\/20:hover {
   --tw-shadow-color: rgb(236 72 153 / 0.2);
   --tw-shadow: var(--tw-shadow-colored);
+}
+.group[open] .group-open\:inline {
+  display: inline;
+}
+.group[open] .group-open\:hidden {
+  display: none;
 }
 .group:hover .group-hover\:scale-105 {
   --tw-scale-x: 1.05;

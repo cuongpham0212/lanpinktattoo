@@ -217,17 +217,22 @@ LANPINK TABLE OF CONTENTS
   display: none;
 }
 
-.lp-toc[open] .lp-toc-icon::after {
-  content: "";
-}
-
 .lp-toc:not([open]) .lp-toc-icon {
   font-size: 0;
 }
 
 .lp-toc:not([open]) .lp-toc-icon::after {
-  content: "Mở";
-  font-size: .875rem;
+  content: attr(data-open-text);
+  font-size: 0.875rem;
+}
+
+.lp-toc[open] .lp-toc-icon {
+  font-size: 0;
+}
+
+.lp-toc[open] .lp-toc-icon::after {
+  content: attr(data-close-text);
+  font-size: 0.875rem;
 }
 
 .lp-toc-content nav ul {
@@ -718,4 +723,21 @@ html[data-theme="dark"] .lp-hero-compact .lp-hero-overlay {
 [data-theme="dark"] .lp-mobile-lang.is-active {
   background: #f472b6;
   color: #2a1020;
+}
+/* FIX i18n TOC toggle - remove old hard-coded pseudo text */
+.lp-toc .lp-toc-icon::after {
+  content: none !important;
+}
+
+.lp-toc[open] .lp-toc-icon {
+  font-size: 0.875rem !important;
+}
+
+.lp-toc:not([open]) .lp-toc-icon {
+  font-size: 0.875rem !important;
+}
+
+/* Final TOC i18n fix */
+.lp-toc-toggle-text::after {
+  content: none !important;
 }

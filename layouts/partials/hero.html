@@ -29,7 +29,9 @@
 
   <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-14 lg:px-8 lg:py-16">
     <div class="max-w-3xl">
-      <p class="lp-eyebrow">Private Tattoo Studio</p>
+      <p class="lp-eyebrow">
+        {{ i18n "private_tattoo_studio" }}
+      </p>
 
       <h1 class="mt-3 text-3xl font-black tracking-tight sm:text-4xl lg:text-5xl" itemprop="headline">
         {{ $title }}
@@ -43,10 +45,11 @@
 
       <div class="mt-6 flex flex-wrap gap-3">
         <a href="{{ "gallery/" | relLangURL }}" class="lp-btn-primary">
-          Xem tác phẩm
+          {{ i18n "view_gallery" }}
         </a>
+
         <a href="{{ "contact/" | relLangURL }}" class="lp-btn-secondary">
-          Book lịch
+          {{ i18n "book_now" }}
         </a>
       </div>
     </div>

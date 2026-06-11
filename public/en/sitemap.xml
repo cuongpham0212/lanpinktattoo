@@ -172,6 +172,10 @@
                 href="http://localhost:1313/en/faq/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/about/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/en/contact/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -189,15 +193,5 @@
     <loc>http://localhost:1313/en/gallery/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/gallery/"
-                />
   </url>
 </urlset>
