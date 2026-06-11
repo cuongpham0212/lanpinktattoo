@@ -1,63 +1,101 @@
 /* =========================
-HERO
+   HERO
 ========================= */
 
 .hero {
+
   min-height: 90vh;
 
   display: flex;
+
   align-items: center;
 
   position: relative;
 
   overflow: hidden;
+
 }
 
 .hero::before {
+
   content: "";
 
   position: absolute;
+
   inset: 0;
 
+  pointer-events: none;
+
   background:
+
     radial-gradient(
+
       circle at top right,
-      rgba(236,72,153,.15),
+
+      color-mix(in srgb, var(--primary) 15%, transparent),
+
       transparent 40%
+
     );
+
 }
 
 .hero-content {
+
   position: relative;
+
   z-index: 2;
 
   max-width: 800px;
+
+}
+
+.hero h1 {
+
+  color: var(--text-heading);
+
 }
 
 .hero p {
+
   font-size: 1.15rem;
+
+  color: var(--text-muted);
+
+  max-width: 680px;
+
 }
 
 .hero-actions {
+
   display: flex;
+
   gap: 1rem;
+
   flex-wrap: wrap;
 
   margin-top: 2rem;
+
 }
 
 @media (max-width:768px) {
 
   .hero {
+
     min-height: 75vh;
+
   }
 
   .hero-actions {
+
     flex-direction: column;
+
   }
 
-  .btn {
+  .hero-actions .btn {
+
     width: 100%;
+
   }
 
 }

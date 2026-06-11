@@ -1,0 +1,54 @@
+{{ $img := .Params.image | default .Params.featured_image }}
+{{ $title := .Title }}
+{{ $desc := .Params.description | default .Summary }}
+
+<header class="lp-hero" itemscope itemtype="https://schema.org/WPHeader">
+  {{ if $img }}
+    {{ with resources.Get $img }}
+      {{ $xl := .Fill "1600x700 q85" }}
+      <img
+        src="{{ $xl.RelPermalink }}"
+        alt="{{ $title }}"
+        class="lp-hero-img"
+        itemprop="image"
+        loading="eager"
+        decoding="async"
+      >
+    {{ else }}
+      <img
+        src="{{ $img | absURL }}"
+        alt="{{ $title }}"
+        class="lp-hero-img"
+        itemprop="image"
+        loading="eager"
+      >
+    {{ end }}
+  {{ end }}
+
+  <div class="lp-hero-overlay"></div>
+
+  <div class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+    <div class="max-w-3xl">
+      <p class="lp-eyebrow">Private Tattoo Studio</p>
+
+      <h1 class="mt-4 text-4xl font-black tracking-tight sm:text-5xl lg:text-6xl" itemprop="headline">
+        {{ $title }}
+      </h1>
+
+      {{ with $desc }}
+      <p class="mt-5 max-w-2xl text-lg leading-8" itemprop="description">
+        {{ . | plainify | truncate 180 }}
+      </p>
+      {{ end }}
+
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="{{ "gallery/" | relLangURL }}" class="lp-btn-primary">
+          Xem tác phẩm
+        </a>
+        <a href="{{ "contact/" | relLangURL }}" class="lp-btn-secondary">
+          Book lịch
+        </a>
+      </div>
+    </div>
+  </div>
+</header>

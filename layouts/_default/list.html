@@ -1,8 +1,160 @@
 {{ define "main" }}
-<section class="page-header">
-  <h1>{{ .Title }}</h1>
+<!-- Page Header + Breadcrumb -->
+<section class="lp-page-header">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="mb-4">
+      <ol class="flex items-center gap-2 text-sm lp-breadcrumb">
+        <li>
+          <a href="{{ .Site.BaseURL | relLangURL }}" class="lp-link">
+            {{ i18n "home" | default "Home" }}
+          </a>
+        </li>
+        <li class="opacity-50">/</li>
+        <li aria-current="page" class="font-semibold lp-heading">
+          {{ .Title }}
+        </li>
+      </ol>
+    </nav>
+
+    <p class="lp-eyebrow">Lan Pink Tattoo</p>
+
+    <h1 class="mt-3 text-3xl font-extrabold tracking-tight lp-heading sm:text-5xl">
+      {{ .Title }}
+    </h1>
+    
+    {{ with .Description }}
+    <p class="mt-4 max-w-2xl text-lg lp-muted">{{ . }}</p>
+    {{ end }}
+    
+    {{ with .Params.subtitle }}
+    <p class="mt-3 max-w-2xl text-base lp-muted">{{ . }}</p>
+    {{ end }}
+  </div>
 </section>
-<div class="content">
-  {{ .Content }}
-</div>
+
+<!-- Content từ _index.md nếu có -->
+{{ with .Content }}
+<section class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+  <div class="prose prose-neutral max-w-none prose-a:text-pink-500 hover:prose-a:text-pink-600">
+    {{ . }}
+  </div>
+</section>
+{{ end }}
+
+<!-- Danh sách bài viết / tác phẩm -->
+<section class="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+  
+  {{ $paginator := .Paginate .Pages }}
+  
+  {{ if $paginator.Pages }}
+
+    {{ if in (slice "gallery" "tattoo" "portfolio") .Section }}
+    <div class="grid grid-cols-1 gap-x-7 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+      {{ range $paginator.Pages }}
+      <article class="group relative lp-card overflow-hidden rounded-3xl p-3">
+        <a href="{{ .RelPermalink }}" class="block">
+          <div class="aspect-[4/5] w-full overflow-hidden rounded-2xl lp-image-bg">
+            {{ $img := .Params.image | default .Params.featured_image | default "images/placeholder.jpg" }}
+            {{ with resources.Get $img }}
+              {{ $thumb := .Fill "800x1000 q85" }}
+              <img 
+                src="{{ $thumb.RelPermalink }}" 
+                alt="{{ $.Title }}"
+                class="h-full w-full object-cover object-center transition duration-500 group-hover:scale-105"
+                loading="lazy"
+              >
+            {{ else }}
+              <img 
+                src="{{ $img | absURL }}" 
+                alt="{{ $.Title }}"
+                class="h-full w-full object-cover object-center transition duration-500 group-hover:scale-105"
+                loading="lazy"
+              >
+            {{ end }}
+          </div>
+
+          <div class="px-2 pb-2 pt-5">
+            <h3 class="text-lg font-bold lp-heading transition group-hover:text-pink-500">
+              {{ .Title }}
+            </h3>
+
+            {{ with .Params.style }}
+            <p class="mt-1 text-sm lp-pink-text">{{ . }}</p>
+            {{ end }}
+
+            {{ with .Summary }}
+            <p class="mt-2 text-sm lp-muted line-clamp-2">{{ . | plainify }}</p>
+            {{ end }}
+          </div>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+    
+    {{ else }}
+    <div class="space-y-8">
+      {{ range $paginator.Pages }}
+      <article class="relative isolate flex flex-col gap-8 rounded-3xl lp-card p-5 lg:flex-row lg:p-6">
+        {{ $img := .Params.image | default .Params.featured_image }}
+        {{ if $img }}
+        <div class="relative aspect-[16/9] overflow-hidden rounded-2xl sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0 lp-image-bg">
+          {{ with resources.Get $img }}
+            {{ $thumb := .Fill "512x512 q85" }}
+            <img src="{{ $thumb.RelPermalink }}" alt="{{ $.Title }}" class="absolute inset-0 h-full w-full object-cover">
+          {{ else }}
+            <img src="{{ $img | absURL }}" alt="{{ $.Title }}" class="absolute inset-0 h-full w-full object-cover">
+          {{ end }}
+        </div>
+        {{ end }}
+        
+        <div class="flex-1">
+          <div class="flex items-center gap-x-4 text-xs lp-muted">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02/01/2006" }}</time>
+            {{ with .Params.categories }}
+            <span class="relative z-10 rounded-full lp-pill px-3 py-1.5 font-semibold">
+              {{ index . 0 }}
+            </span>
+            {{ end }}
+          </div>
+
+          <h3 class="mt-3 text-xl font-bold leading-7 lp-heading transition hover:text-pink-500">
+            <a href="{{ .RelPermalink }}">
+              {{ .Title }}
+            </a>
+          </h3>
+
+          <p class="mt-4 text-base leading-7 lp-muted line-clamp-3">
+            {{ .Summary | plainify }}
+          </p>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav class="mt-16 flex items-center justify-between border-t lp-border pt-8" aria-label="Pagination">
+      <div class="flex flex-1 justify-between gap-3 sm:justify-end">
+        {{ if $paginator.HasPrev }}
+        <a href="{{ $paginator.Prev.URL }}" class="lp-btn-secondary">
+          Trước
+        </a>
+        {{ end }}
+        {{ if $paginator.HasNext }}
+        <a href="{{ $paginator.Next.URL }}" class="lp-btn-secondary">
+          Sau
+        </a>
+        {{ end }}
+      </div>
+    </nav>
+    {{ end }}
+
+  {{ else }}
+    <div class="py-12 text-center">
+      <p class="lp-muted">{{ i18n "noPosts" | default "Chưa có bài viết nào." }}</p>
+    </div>
+  {{ end }}
+</section>
 {{ end }}

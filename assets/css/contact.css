@@ -1,8 +1,9 @@
 /* =========================
-CONTACT
+   CONTACT
 ========================= */
 
 .contact-box {
+
   background: var(--surface);
 
   padding: 2rem;
@@ -10,8 +11,32 @@ CONTACT
   border-radius: var(--radius);
 
   border: 1px solid var(--border);
+
+  box-shadow: var(--shadow);
+
+  transition:
+    border-color .3s,
+    transform .3s,
+    box-shadow .3s;
+
+}
+
+.contact-box:hover {
+
+  border-color: var(--primary);
+
+  transform: translateY(-4px);
+
+}
+
+.contact-box a {
+
+  transition: color .25s;
+
 }
 
 .contact-box a:hover {
+
   color: var(--primary);
+
 }

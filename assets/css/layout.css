@@ -1,25 +1,61 @@
 /* =========================
 LAYOUT + TYPOGRAPHY
+Lan Pink Tattoo Theme
 ========================= */
 
-:root {
+/* DARK THEME */
+html,
+html[data-theme="dark"] {
   --bg: #09090b;
+  --bg-soft: #111113;
+
   --surface: #18181b;
   --surface-2: #27272a;
+  --surface-glass: rgba(24, 24, 27, .78);
 
   --text: #fafafa;
   --text-muted: #a1a1aa;
+  --text-heading: #ffffff;
 
-  --primary: #ec4899;
+  --primary: #f9a8d4;
+  --primary-strong: #ec4899;
   --primary-hover: #db2777;
+  --primary-soft: rgba(249, 168, 212, .14);
 
-  --border: #3f3f46;
+  --border: rgba(255,255,255,.1);
 
-  --radius: 16px;
+  --radius: 18px;
   --container: 1200px;
 
-  --shadow:
-    0 10px 25px rgba(0,0,0,.35);
+  --shadow: 0 18px 55px rgba(0,0,0,.35);
+  --shadow-pink: 0 18px 45px rgba(236,72,153,.18);
+}
+
+/* LIGHT THEME - LANPINK MAIN */
+html[data-theme="light"] {
+  --bg: #fff7fb;
+  --bg-soft: #fff0f7;
+
+  --surface: #ffffff;
+  --surface-2: #fdf2f8;
+  --surface-glass: rgba(255,255,255,.78);
+
+  --text: #3f2935;
+  --text-muted: #7a6670;
+  --text-heading: #2b1721;
+
+  --primary: #f9a8d4;
+  --primary-strong: #ec4899;
+  --primary-hover: #db2777;
+  --primary-soft: rgba(249,168,212,.26);
+
+  --border: rgba(219,39,119,.14);
+
+  --radius: 18px;
+  --container: 1200px;
+
+  --shadow: 0 18px 50px rgba(219,39,119,.10);
+  --shadow-pink: 0 20px 55px rgba(236,72,153,.16);
 }
 
 *,
@@ -30,22 +66,25 @@ LAYOUT + TYPOGRAPHY
 
 html {
   scroll-behavior: smooth;
+  background: var(--bg);
 }
 
 body {
   margin: 0;
-
-  background: var(--bg);
-  color: var(--text);
-
-  font-family:
-    Inter,
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
-
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 10% 0%, var(--primary-soft), transparent 34%),
+    radial-gradient(circle at 90% 10%, rgba(249,168,212,.18), transparent 32%),
+    var(--bg) !important;
+  color: var(--text) !important;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.7;
+  transition: background .3s ease, color .3s ease;
+}
+
+main {
+  background: transparent;
+  color: var(--text);
 }
 
 h1,
@@ -55,8 +94,9 @@ h4,
 h5,
 h6 {
   margin-top: 0;
-  line-height: 1.2;
+  line-height: 1.15;
   font-weight: 800;
+  color: var(--text-heading);
 }
 
 h1 {
@@ -100,21 +140,19 @@ img {
   margin-bottom: 3rem;
 }
 
-.section-subtitle {
-  color: var(--primary);
+.section-subtitle,
+.lp-eyebrow {
+  color: var(--primary-strong);
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: .85rem;
-  font-weight: 700;
+  letter-spacing: 2.8px;
+  font-size: .78rem;
+  font-weight: 800;
 }
 
 footer {
   border-top: 1px solid var(--border);
-
   padding: 2rem 0;
-
   text-align: center;
-
   color: var(--text-muted);
 }
 
@@ -132,10 +170,253 @@ footer {
 .mb-3 { margin-bottom: 1.5rem; }
 .mb-4 { margin-bottom: 2rem; }
 
-@media (max-width:768px) {
+/* =========================
+LANPINK UI HELPERS
+========================= */
 
+.lp-page-header {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  background:
+    linear-gradient(135deg, rgba(255,255,255,.72), rgba(253,242,248,.72)),
+    radial-gradient(circle at 20% 20%, rgba(249,168,212,.42), transparent 34%);
+}
+
+html[data-theme="dark"] .lp-page-header {
+  background:
+    linear-gradient(135deg, rgba(24,24,27,.85), rgba(9,9,11,.92)),
+    radial-gradient(circle at 20% 20%, rgba(236,72,153,.18), transparent 34%);
+}
+
+.lp-page-header::after {
+  content: "";
+  position: absolute;
+  right: -80px;
+  top: -120px;
+  width: 320px;
+  height: 320px;
+  border-radius: 999px;
+  background: rgba(249,168,212,.34);
+  filter: blur(4px);
+  pointer-events: none;
+}
+
+.lp-heading {
+  color: var(--text-heading) !important;
+}
+
+.lp-muted {
+  color: var(--text-muted) !important;
+}
+
+.lp-breadcrumb {
+  color: var(--text-muted);
+}
+
+.lp-link {
+  color: var(--primary-strong);
+  font-weight: 650;
+  transition: color .25s ease;
+}
+
+.lp-link:hover {
+  color: var(--primary-hover);
+}
+
+.lp-card {
+  background: var(--surface-glass);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(16px);
+  transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+}
+
+.lp-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(236,72,153,.28);
+  box-shadow: var(--shadow-pink);
+}
+
+.lp-image-bg {
+  background:
+    linear-gradient(135deg, var(--surface-2), var(--primary-soft));
+}
+
+.lp-pill {
+  color: var(--primary-hover);
+  background: var(--primary-soft);
+  border: 1px solid var(--border);
+}
+
+.lp-pink-text {
+  color: var(--primary-strong) !important;
+  font-weight: 650;
+}
+
+.lp-border {
+  border-color: var(--border) !important;
+}
+
+.lp-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  background: var(--surface);
+  padding: .65rem 1.1rem;
+  font-size: .875rem;
+  font-weight: 750;
+  color: var(--text-heading);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  transition: transform .25s ease, box-shadow .25s ease, background .25s ease;
+}
+
+.lp-btn-secondary:hover {
+  transform: translateY(-2px);
+  background: var(--surface-2);
+  box-shadow: var(--shadow-pink);
+}
+
+/* =========================
+OVERRIDE TAILWIND NEUTRAL + ZINC
+Theme-aware
+========================= */
+
+.bg-neutral-50,
+.bg-white {
+  background-color: var(--surface) !important;
+}
+
+.bg-neutral-100 {
+  background-color: var(--surface-2) !important;
+}
+
+.bg-neutral-800,
+.bg-zinc-800,
+.hover\:bg-zinc-800:hover {
+  background-color: var(--surface-2) !important;
+}
+
+.bg-neutral-900,
+.bg-zinc-900 {
+  background-color: var(--surface) !important;
+}
+
+.bg-neutral-900\/80,
+.bg-neutral-900\/95,
+.bg-zinc-900\/95 {
+  background-color: color-mix(in srgb, var(--surface) 92%, transparent) !important;
+}
+
+.bg-neutral-950,
+.bg-zinc-950 {
+  background-color: var(--bg) !important;
+}
+
+.text-neutral-900,
+.text-white,
+.text-neutral-100 {
+  color: var(--text-heading) !important;
+}
+
+.text-neutral-600,
+.text-neutral-500,
+.text-neutral-400,
+.text-neutral-300,
+.text-zinc-300,
+.text-zinc-400,
+.text-white\/70,
+.text-white\/60,
+.text-white\/40,
+.text-white\/30 {
+  color: var(--text-muted) !important;
+}
+
+.text-pink-500,
+.text-pink-600 {
+  color: var(--primary-strong) !important;
+}
+
+.hover\:text-pink-600:hover,
+.hover\:text-pink-700:hover,
+.hover\:text-white:hover {
+  color: var(--primary-hover) !important;
+}
+
+.border-neutral-200,
+.border-neutral-300,
+.border-neutral-700,
+.border-neutral-800,
+.border-zinc-700,
+.border-zinc-800 {
+  border-color: var(--border) !important;
+}
+
+.ring-neutral-300,
+.ring-neutral-800 {
+  --tw-ring-color: var(--border) !important;
+}
+
+.ring-neutral-200\/70 {
+  --tw-ring-color: color-mix(in srgb, var(--border) 70%, transparent) !important;
+}
+
+/* Prose */
+.prose {
+  color: var(--text-muted);
+}
+
+.prose :where(h1,h2,h3,h4,h5,h6):not(:where([class~="not-prose"] *)) {
+  color: var(--text-heading);
+}
+
+.prose :where(a):not(:where([class~="not-prose"] *)) {
+  color: var(--primary-strong);
+}
+
+.prose :where(strong):not(:where([class~="not-prose"] *)) {
+  color: var(--text-heading);
+}
+
+.prose :where(code):not(:where([class~="not-prose"] *)) {
+  color: var(--primary-strong);
+}
+
+.prose :where(blockquote):not(:where([class~="not-prose"] *)) {
+  color: var(--text-muted);
+  border-left-color: var(--primary-strong);
+}
+
+/* Hero gradient overlay */
+.from-neutral-950 {
+  --tw-gradient-from: var(--bg) !important;
+}
+
+.via-neutral-950\/80,
+.via-neutral-950\/60 {
+  --tw-gradient-stops:
+    var(--tw-gradient-from),
+    color-mix(in srgb, var(--bg) 80%, transparent),
+    var(--tw-gradient-to) !important;
+}
+
+.to-neutral-950\/40,
+.to-neutral-950\/20 {
+  --tw-gradient-to: color-mix(in srgb, var(--bg) 40%, transparent) !important;
+}
+
+html[data-theme="light"] .bg-gradient-to-br {
+  background-image:
+    linear-gradient(to bottom right, #fff7fb, #ffffff, #fdf2f8) !important;
+}
+
+@media (max-width: 768px) {
   .section {
     padding: 4rem 0;
   }
 
+  .lp-page-header {
+    border-radius: 0 0 28px 28px;
+  }
 }
