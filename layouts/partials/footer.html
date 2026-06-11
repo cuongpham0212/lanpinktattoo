@@ -1,20 +1,43 @@
-<footer class="border-t border-zinc-800 py-8">
+<footer class="border-t border-zinc-800 bg-zinc-950 py-12">
+  <div class="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-4 lg:px-8">
 
-  <div class="mx-auto max-w-7xl px-4 text-center">
+    <div class="lg:col-span-2">
+      <h3 class="text-xl font-black tracking-tight text-white">
+        LAN PINK <span class="text-pink-500">TATTOO</span>
+      </h3>
 
-<h3 class="text-xl font-bold">
-  LAN PINK
-  <span class="text-pink-500">TATTOO</span>
-</h3>
+      <p class="mt-3 max-w-md text-sm leading-7 text-zinc-400">
+        {{ .Site.Params.description | default "Private Tattoo Studio tại TP.HCM. Chuyên Fine Line, Mini Tattoo, Blackwork và thiết kế hình xăm theo yêu cầu." }}
+      </p>
+    </div>
 
-<p class="mt-3 text-zinc-400">
-  Private Tattoo Studio - Ho Chi Minh City
-</p>
+    <div>
+      <h4 class="text-sm font-black uppercase tracking-wider text-white">
+        Studio
+      </h4>
 
-<p class="mt-6 text-sm text-zinc-500">
-  © {{ now.Year }} Lan Pink Tattoo. All rights reserved.
-</p>
+      <nav class="mt-4 space-y-3 text-sm">
+        <a href="{{ "/about" | relLangURL }}" class="block text-zinc-400 hover:text-pink-400">Giới thiệu</a>
+        <a href="{{ "/contact" | relLangURL }}" class="block text-zinc-400 hover:text-pink-400">Liên hệ</a>
+        <a href="{{ "/danh-gia" | relLangURL }}" class="block text-zinc-400 hover:text-pink-400">Đánh giá</a>
+      </nav>
+    </div>
+
+    <div>
+      <h4 class="text-sm font-black uppercase tracking-wider text-white">
+        Kết nối
+      </h4>
+
+      <nav class="mt-4 space-y-3 text-sm">
+        <a href="{{ .Site.Params.facebook }}" target="_blank" rel="noopener" class="block text-zinc-400 hover:text-pink-400">Facebook</a>
+        <a href="{{ .Site.Params.instagram }}" target="_blank" rel="noopener" class="block text-zinc-400 hover:text-pink-400">Instagram</a>
+        <a href="{{ .Site.Params.googleBusiness }}" target="_blank" rel="noopener" class="block text-zinc-400 hover:text-pink-400">Google Business</a>
+      </nav>
+    </div>
 
   </div>
 
+  <div class="mx-auto mt-10 max-w-7xl border-t border-zinc-800 px-4 pt-6 text-sm text-zinc-500 sm:px-6 lg:px-8">
+    © {{ now.Year }} Lan Pink Tattoo. All rights reserved.
+  </div>
 </footer>

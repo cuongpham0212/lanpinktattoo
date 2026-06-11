@@ -1,110 +1,107 @@
-{{ $currentPage := . }}
 {{ $siteLanguage := .Site.Language.Lang }}
 
-<header class="sticky top-0 z-50 bg-zinc-900/95 backdrop-blur-sm border-b border-zinc-800">
-
+<header class="lp-header sticky top-0 z-50 border-b backdrop-blur-xl">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="flex h-16 items-center justify-between">
+    <div class="flex min-h-16 items-center gap-6 py-3">
 
-  <!-- Logo -->
-  <div class="flex items-center">
-    <a href="{{ .Site.Home.RelPermalink }}" class="flex items-center gap-2">
-      <span class="text-2xl font-black tracking-tight text-white">
-        LAN PINK <span class="text-pink-500">TATTOO</span>
-      </span>
-    </a>
+      <a href="{{ .Site.Home.RelPermalink }}" class="flex shrink-0 items-center">
+        <span class="lp-header-logo text-xl font-black tracking-tight sm:text-2xl">
+          LAN PINK <span>TATTOO</span>
+        </span>
+      </a>
+
+      <nav class="hidden min-w-0 flex-1 items-center justify-center gap-1.5 xl:gap-2 lg:flex" aria-label="Main navigation">
+        {{ range .Site.Menus.main }}
+          {{ $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+          <a
+            href="{{ .URL }}"
+            class="lp-nav-link {{ if $active }}is-active{{ end }}"
+          >
+            {{ .Name }}
+          </a>
+        {{ end }}
+      </nav>
+
+      <div class="flex shrink-0 items-center justify-end gap-3">
+
+        <a
+          href="{{ .Site.Params.bookingUrl }}"
+          target="_blank"
+          rel="noopener"
+          class="lp-booking-btn hidden whitespace-nowrap rounded-full px-4 py-2 text-sm font-extrabold shadow-md transition hover:-translate-y-0.5 md:inline-flex"
+        >
+          {{ i18n "book_now" | default "Đặt lịch" }}
+        </a>
+
+        <div class="lp-lang hidden items-center gap-1 rounded-full px-2 py-1 text-sm font-bold shadow-sm sm:flex">
+          {{ range .Site.Home.AllTranslations }}
+          <a
+            href="{{ .RelPermalink }}"
+            class="{{ if eq .Language.Lang $siteLanguage }}is-active{{ end }} rounded-full px-1.5 py-1 transition"
+          >
+            {{ with .Language.Params.flag }}{{ . }}{{ end }} {{ .Language.Lang }}
+          </a>
+          {{ end }}
+        </div>
+
+        <button
+          id="theme-toggle"
+          type="button"
+          onclick="window.toggleTheme()"
+          class="lp-icon-btn flex h-10 w-10 items-center justify-center rounded-full text-xl shadow-sm transition hover:-translate-y-0.5"
+          aria-label="Đổi theme"
+        >
+          <span id="theme-icon">🌙</span>
+        </button>
+
+        <button
+          type="button"
+          class="lp-icon-btn inline-flex h-10 w-10 items-center justify-center rounded-full shadow-sm transition hover:-translate-y-0.5 lg:hidden"
+          onclick="document.getElementById('mobile-menu').classList.toggle('hidden')"
+          aria-label="Mở menu"
+        >
+          <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+        </button>
+
+      </div>
+    </div>
   </div>
 
-  <!-- Desktop Menu -->
-  <nav class="hidden md:flex md:gap-x-8">
-    {{ range .Site.Menus.main }}
-      <a
-        href="{{ .URL }}"
-        class="text-sm font-semibold uppercase tracking-wider transition-colors duration-200 text-zinc-300 hover:text-white">
-        {{ .Name }}
-      </a>
-    {{ end }}
-  </nav>
+  <div id="mobile-menu" class="lp-mobile-menu hidden border-t lg:hidden">
+    <div class="space-y-1 px-4 pb-5 pt-3">
 
-  <!-- Language + Mobile -->
-  <div class="flex items-center gap-4">
-
-    <div class="hidden sm:flex items-center gap-2 border-l border-zinc-700 pl-4">
-      {{ range .Site.Home.AllTranslations }}
+      {{ range .Site.Menus.main }}
+        {{ $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
         <a
-          href="{{ .RelPermalink }}"
-          class="text-xs font-bold uppercase rounded px-2 py-1 transition
-          {{ if eq .Language.Lang $siteLanguage }}
-            bg-pink-500 text-white
-          {{ else }}
-            text-zinc-400 hover:text-white hover:bg-zinc-800
-          {{ end }}">
-          {{ with .Language.Params.flag }}{{ . }} {{ end }}{{ .Language.Lang }}
+          href="{{ .URL }}"
+          class="lp-mobile-nav-link {{ if $active }}is-active{{ end }}"
+        >
+          {{ .Name }}
         </a>
       {{ end }}
-    </div>
 
-    <button
-      type="button"
-      class="md:hidden inline-flex items-center justify-center rounded-md p-2 text-zinc-400 hover:bg-zinc-800 hover:text-white"
-      onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
-
-      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M4 6h16M4 12h16M4 18h16" />
-      </svg>
-
-    </button>
-
-    <button 
-      id="theme-toggle"
-      type="button"
-      onclick="window.toggleTheme()"
-      class="rounded-full border border-neutral-700 p-2 text-neutral-300 transition hover:border-pink-500 hover:text-pink-500"
-      aria-label="Đổi theme"
-    >
-      <span id="theme-icon">🌙</span>
-    </button>
-
-  </div>
-
-</div>
-
-  </div>
-
-  <div id="mobile-menu" class="hidden md:hidden">
-    <div class="space-y-1 px-4 pb-4 pt-2 border-t border-zinc-800">
-
-  {{ range .Site.Menus.main }}
-    <a
-      href="{{ .URL }}"
-      class="block rounded-md px-3 py-2 text-base font-medium uppercase text-zinc-300 hover:bg-zinc-800 hover:text-white">
-      {{ .Name }}
-    </a>
-  {{ end }}
-
-  <div class="border-t border-zinc-800 pt-4 mt-4 flex gap-2">
-
-    {{ range .Site.Home.AllTranslations }}
       <a
-        href="{{ .RelPermalink }}"
-        class="text-sm font-bold uppercase rounded px-3 py-2
-        {{ if eq .Language.Lang $siteLanguage }}
-          bg-pink-500 text-white
-        {{ else }}
-          text-zinc-400 bg-zinc-800
-        {{ end }}">
-        {{ with .Language.Params.flag }}{{ . }} {{ end }}{{ .Language.LanguageName }}
+        href="{{ .Site.Params.bookingUrl }}"
+        target="_blank"
+        rel="noopener"
+        class="mt-4 block rounded-full bg-pink-500 px-5 py-3 text-center text-sm font-black text-white shadow-lg shadow-pink-500/25"
+      >
+        {{ i18n "book_now" | default "Đặt lịch" }}
       </a>
-    {{ end }}
 
+      <div class="mt-4 flex gap-2 border-t border-pink-100 pt-4">
+        {{ range .Site.Home.AllTranslations }}
+        <a
+          href="{{ .RelPermalink }}"
+          class="lp-mobile-lang {{ if eq .Language.Lang $siteLanguage }}is-active{{ end }}"
+        >
+          {{ with .Language.Params.flag }}{{ . }} {{ end }}{{ .Language.LanguageName }}
+        </a>
+        {{ end }}
+      </div>
+
+    </div>
   </div>
-
-</div>
-
-  </div>
-
 </header>

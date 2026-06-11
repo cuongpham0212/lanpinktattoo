@@ -516,3 +516,206 @@ html[data-theme="dark"] .lp-hero-compact .lp-hero-overlay {
 [data-theme="dark"] .lp-md-image figcaption {
   color: #d4d4d8;
 }
+
+/* Premium header */
+.lp-header {
+  background: rgba(255, 255, 255, 0.88);
+  border-color: rgba(244, 114, 182, 0.35);
+  box-shadow: 0 8px 30px rgba(236, 72, 153, 0.06);
+}
+
+.lp-header-logo {
+  color: #2f1726;
+}
+
+.lp-header-logo span {
+  color: #ec4899;
+}
+
+.lp-nav-link {
+  white-space: nowrap;
+  border-radius: 999px;
+
+  padding: 0.45rem 0.7rem;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  color: #3f2434;
+  transition: all 0.2s ease;
+}
+
+.lp-nav-link:hover {
+  background: #ec4899;
+  color: #ffffff;
+  box-shadow: 0 10px 24px rgba(236, 72, 153, 0.22);
+}
+
+.lp-nav-link.is-active {
+  background: #fce7f3;
+  color: #be185d;
+  box-shadow: inset 0 0 0 1px rgba(236, 72, 153, 0.18);
+}
+
+.lp-booking-btn {
+  background: #ffffff;
+  color: #3f2434;
+  box-shadow: inset 0 0 0 1px rgba(236, 72, 153, 0.18), 0 10px 22px rgba(236, 72, 153, 0.12);
+}
+
+.lp-booking-btn:hover {
+  background: #ec4899;
+  color: #ffffff;
+}
+
+.lp-lang {
+  background: #fdf2f8;
+  box-shadow: inset 0 0 0 1px rgba(236, 72, 153, 0.14);
+}
+
+.lp-lang a {
+  color: #6b5260;
+}
+
+.lp-lang a:hover,
+.lp-lang a.is-active {
+  color: #db2777;
+}
+
+.lp-icon-btn {
+  background: #ffffff;
+  color: #db2777;
+  box-shadow: inset 0 0 0 1px rgba(236, 72, 153, 0.18);
+}
+
+.lp-icon-btn:hover {
+  background: #ec4899;
+  color: #ffffff;
+}
+
+.lp-mobile-menu {
+  background: rgba(255, 255, 255, 0.96);
+  border-color: rgba(244, 114, 182, 0.25);
+}
+
+.lp-mobile-nav-link {
+  display: block;
+  border-radius: 1rem;
+  padding: 0.8rem 1rem;
+  font-size: 15px;
+  font-weight: 800;
+  color: #3f2434;
+  transition: all 0.2s ease;
+}
+
+.lp-mobile-nav-link:hover,
+.lp-mobile-nav-link.is-active {
+  background: #fce7f3;
+  color: #be185d;
+}
+
+.lp-mobile-lang {
+  border-radius: 999px;
+  background: #fdf2f8;
+  padding: 0.5rem 0.75rem;
+  font-size: 14px;
+  font-weight: 800;
+  color: #6b5260;
+}
+
+.lp-mobile-lang.is-active {
+  background: #ec4899;
+  color: #ffffff;
+}
+
+/* Dark header */
+[data-theme="dark"] .lp-header {
+  background: rgba(24, 18, 23, 0.92);
+  border-color: rgba(244, 114, 182, 0.22);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+}
+
+[data-theme="dark"] .lp-header-logo {
+  color: #fff7fb;
+}
+
+[data-theme="dark"] .lp-header-logo span {
+  color: #f9a8d4;
+}
+
+[data-theme="dark"] .lp-nav-link {
+  color: #f5ddea;
+}
+
+[data-theme="dark"] .lp-nav-link:hover {
+  background: #f472b6;
+  color: #2a1020;
+  box-shadow: 0 10px 24px rgba(244, 114, 182, 0.22);
+}
+
+[data-theme="dark"] .lp-nav-link.is-active {
+  background: rgba(244, 114, 182, 0.18);
+  color: #ffffff;
+  box-shadow: inset 0 0 0 1px rgba(244, 114, 182, 0.28);
+}
+
+[data-theme="dark"] .lp-booking-btn {
+  background: rgba(244, 114, 182, 0.14);
+  color: #ffffff;
+  box-shadow: inset 0 0 0 1px rgba(244, 114, 182, 0.28);
+}
+
+[data-theme="dark"] .lp-booking-btn:hover {
+  background: #f472b6;
+  color: #2a1020;
+}
+
+[data-theme="dark"] .lp-lang {
+  background: rgba(244, 114, 182, 0.12);
+  box-shadow: inset 0 0 0 1px rgba(244, 114, 182, 0.22);
+}
+
+[data-theme="dark"] .lp-lang a {
+  color: #f5ddea;
+}
+
+[data-theme="dark"] .lp-lang a:hover,
+[data-theme="dark"] .lp-lang a.is-active {
+  color: #ffffff;
+}
+
+[data-theme="dark"] .lp-icon-btn {
+  background: rgba(244, 114, 182, 0.12);
+  color: #f9a8d4;
+  box-shadow: inset 0 0 0 1px rgba(244, 114, 182, 0.25);
+}
+
+[data-theme="dark"] .lp-icon-btn:hover {
+  background: #f472b6;
+  color: #2a1020;
+}
+
+[data-theme="dark"] .lp-mobile-menu {
+  background: rgba(24, 18, 23, 0.96);
+  border-color: rgba(244, 114, 182, 0.2);
+}
+
+[data-theme="dark"] .lp-mobile-nav-link {
+  color: #f5ddea;
+}
+
+[data-theme="dark"] .lp-mobile-nav-link:hover,
+[data-theme="dark"] .lp-mobile-nav-link.is-active {
+  background: rgba(244, 114, 182, 0.18);
+  color: #ffffff;
+}
+
+[data-theme="dark"] .lp-mobile-lang {
+  background: rgba(244, 114, 182, 0.12);
+  color: #f5ddea;
+}
+
+[data-theme="dark"] .lp-mobile-lang.is-active {
+  background: #f472b6;
+  color: #2a1020;
+}

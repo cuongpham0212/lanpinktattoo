@@ -2,11 +2,10 @@ baseURL = 'https://lanpinktattoo.netlify.app/'
 languageCode = 'vi-vn'
 title = 'Lan Pink Tattoo'
 defaultContentLanguage = 'vi'
-defaultContentLanguageInSubdir = false # VI sẽ ở /, EN sẽ ở /en/
+defaultContentLanguageInSubdir = false
 hasCJKLanguage = false
-enableRobotsTXT = false
+enableRobotsTXT = true
 
-# Đa ngôn ngữ
 [languages]
   [languages.vi]
     languageName = 'Tiếng Việt'
@@ -15,7 +14,7 @@ enableRobotsTXT = false
     contentDir = 'content'
 
     [languages.vi.params]
-      description = 'Studio xăm nghệ thuật tại TP.HCM - Chuyên thiết kế hình xăm độc bản'
+      description = 'Studio xăm nghệ thuật tại TP.HCM - Chuyên Fine Line, Mini Tattoo, Blackwork và thiết kế hình xăm độc bản'
       flag = '🇻🇳'
 
     [[languages.vi.menu.main]]
@@ -24,13 +23,13 @@ enableRobotsTXT = false
       weight = 1
 
     [[languages.vi.menu.main]]
-      name = 'Giới thiệu'
-      pageRef = '/about'
+      name = 'Tác phẩm'
+      pageRef = '/gallery'
       weight = 2
 
     [[languages.vi.menu.main]]
-      name = 'Tác phẩm'
-      pageRef = '/gallery'
+      name = 'Phong cách xăm'
+      pageRef = '/phong-cach-xam'
       weight = 3
 
     [[languages.vi.menu.main]]
@@ -39,18 +38,18 @@ enableRobotsTXT = false
       weight = 4
 
     [[languages.vi.menu.main]]
-      name = 'Quy trình'
-      pageRef = '/process'
+      name = 'Cẩm nang Tattoo'
+      pageRef = '/cam-nang-tattoo'
       weight = 5
 
     [[languages.vi.menu.main]]
-      name = 'FAQ Xăm Hình'
-      pageRef = '/faq'
+      name = 'Đánh giá'
+      pageRef = '/danh-gia'
       weight = 6
 
     [[languages.vi.menu.main]]
-      name = 'Liên hệ'
-      pageRef = '/contact'
+      name = 'FAQ'
+      pageRef = '/faq'
       weight = 7
 
   [languages.en]
@@ -60,7 +59,7 @@ enableRobotsTXT = false
     contentDir = 'content/en'
 
     [languages.en.params]
-      description = 'Tattoo Art Studio in Ho Chi Minh City - Custom Tattoo Design'
+      description = 'Private tattoo studio in Ho Chi Minh City - Fine Line, Mini Tattoo, Blackwork and custom tattoo design'
       flag = '🇺🇸'
 
     [[languages.en.menu.main]]
@@ -69,13 +68,13 @@ enableRobotsTXT = false
       weight = 1
 
     [[languages.en.menu.main]]
-      name = 'About'
-      pageRef = '/about'
+      name = 'Gallery'
+      pageRef = '/gallery'
       weight = 2
 
     [[languages.en.menu.main]]
-      name = 'Gallery'
-      pageRef = '/gallery'
+      name = 'Tattoo Styles'
+      pageRef = '/tattoo-styles'
       weight = 3
 
     [[languages.en.menu.main]]
@@ -84,21 +83,20 @@ enableRobotsTXT = false
       weight = 4
 
     [[languages.en.menu.main]]
-      name = 'Process'
-      pageRef = '/process'
+      name = 'Tattoo Guide'
+      pageRef = '/tattoo-guide'
       weight = 5
+
+    [[languages.en.menu.main]]
+      name = 'Reviews'
+      pageRef = '/reviews'
+      weight = 6
 
     [[languages.en.menu.main]]
       name = 'FAQ'
       pageRef = '/faq'
-      weight = 6
-
-    [[languages.en.menu.main]]
-      name = 'Contact'
-      pageRef = '/contact'
       weight = 7
 
-# Markdown
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -107,17 +105,17 @@ enableRobotsTXT = false
     noClasses = false
     style = 'monokai'
 
-# Param chung
 [params]
   author = 'Lan Pink'
   studio = 'Lan Pink Tattoo'
   city = 'Ho Chi Minh City'
   email = 'hello@lanpinktattoo.com'
-  phone = '+84 xxx xxx xxx'
-  instagram = 'https://instagram.com/lanpinktattoo'
-  facebook = 'https://facebook.com/lanpinktattoo'
+  phone = '+84 703 659 902'
+  instagram = 'https://www.instagram.com/lanpink.ink/'
+  facebook = 'https://www.facebook.com/LanPinkInk'
+  googleBusiness = 'https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9'
+  bookingUrl = 'https://www.facebook.com/LanPinkInk'
 
-# Bật sitemap + RSS cho SEO
 [outputs]
   home = ['HTML', 'RSS']
 

@@ -14,7 +14,7 @@
 </title>
 
 
-<meta name="description" content="Studio xăm nghệ thuật tại TP.HCM - Chuyên thiết kế hình xăm độc bản">
+<meta name="description" content="Studio xăm nghệ thuật tại TP.HCM - Chuyên Fine Line, Mini Tattoo, Blackwork và thiết kế hình xăm độc bản">
 <meta name="author" content="Lan Pink">
 
 <meta name="robots" content="noindex, follow">
@@ -37,7 +37,7 @@
 
 
 <meta property="og:title" content="Tattoo Quận 12">
-<meta property="og:description" content="Studio xăm nghệ thuật tại TP.HCM - Chuyên thiết kế hình xăm độc bản">
+<meta property="og:description" content="Studio xăm nghệ thuật tại TP.HCM - Chuyên Fine Line, Mini Tattoo, Blackwork và thiết kế hình xăm độc bản">
 <meta property="og:url" content="http://localhost:1313/tags/tattoo-qu%E1%BA%ADn-12/">
 <meta property="og:site_name" content="Lan Pink Tattoo">
 <meta property="og:locale" content="vi_VN">
@@ -52,7 +52,7 @@
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Tattoo Quận 12">
-<meta name="twitter:description" content="Studio xăm nghệ thuật tại TP.HCM - Chuyên thiết kế hình xăm độc bản">
+<meta name="twitter:description" content="Studio xăm nghệ thuật tại TP.HCM - Chuyên Fine Line, Mini Tattoo, Blackwork và thiết kế hình xăm độc bản">
 <meta name="twitter:image" content="http://localhost:1313/images/og-cover.jpg">
 
 
@@ -117,201 +117,221 @@ gtag('config', 'G-YHDTF0NDK7');
 
 
 
-
-<header class="sticky top-0 z-50 bg-zinc-900/95 backdrop-blur-sm border-b border-zinc-800">
-
+<header class="lp-header sticky top-0 z-50 border-b backdrop-blur-xl">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="flex h-16 items-center justify-between">
+    <div class="flex min-h-16 items-center gap-6 py-3">
 
-  
-  <div class="flex items-center">
-    <a href="/" class="flex items-center gap-2">
-      <span class="text-2xl font-black tracking-tight text-white">
-        LAN PINK <span class="text-pink-500">TATTOO</span>
-      </span>
-    </a>
+      <a href="/" class="flex shrink-0 items-center">
+        <span class="lp-header-logo text-xl font-black tracking-tight sm:text-2xl">
+          LAN PINK <span>TATTOO</span>
+        </span>
+      </a>
+
+      <nav class="hidden min-w-0 flex-1 items-center justify-center gap-1.5 xl:gap-2 lg:flex" aria-label="Main navigation">
+        
+          
+          <a
+            href="/"
+            class="lp-nav-link "
+          >
+            Trang chủ
+          </a>
+        
+          
+          <a
+            href="/gallery/"
+            class="lp-nav-link "
+          >
+            Tác phẩm
+          </a>
+        
+          
+          <a
+            href="/phong-cach-xam/"
+            class="lp-nav-link "
+          >
+            Phong cách xăm
+          </a>
+        
+          
+          <a
+            href="/bang-gia/"
+            class="lp-nav-link "
+          >
+            Bảng giá
+          </a>
+        
+          
+          <a
+            href="/cam-nang-tattoo/"
+            class="lp-nav-link "
+          >
+            Cẩm nang Tattoo
+          </a>
+        
+          
+          <a
+            href="/danh-gia/"
+            class="lp-nav-link "
+          >
+            Đánh giá
+          </a>
+        
+          
+          <a
+            href="/faq/"
+            class="lp-nav-link "
+          >
+            FAQ
+          </a>
+        
+      </nav>
+
+      <div class="flex shrink-0 items-center justify-end gap-3">
+
+        <a
+          href="https://www.facebook.com/LanPinkInk"
+          target="_blank"
+          rel="noopener"
+          class="lp-booking-btn hidden whitespace-nowrap rounded-full px-4 py-2 text-sm font-extrabold shadow-md transition hover:-translate-y-0.5 md:inline-flex"
+        >
+          Đặt lịch
+        </a>
+
+        <div class="lp-lang hidden items-center gap-1 rounded-full px-2 py-1 text-sm font-bold shadow-sm sm:flex">
+          
+          <a
+            href="/"
+            class="is-active rounded-full px-1.5 py-1 transition"
+          >
+            🇻🇳 vi
+          </a>
+          
+          <a
+            href="/en/"
+            class=" rounded-full px-1.5 py-1 transition"
+          >
+            🇺🇸 en
+          </a>
+          
+        </div>
+
+        <button
+          id="theme-toggle"
+          type="button"
+          onclick="window.toggleTheme()"
+          class="lp-icon-btn flex h-10 w-10 items-center justify-center rounded-full text-xl shadow-sm transition hover:-translate-y-0.5"
+          aria-label="Đổi theme"
+        >
+          <span id="theme-icon">🌙</span>
+        </button>
+
+        <button
+          type="button"
+          class="lp-icon-btn inline-flex h-10 w-10 items-center justify-center rounded-full shadow-sm transition hover:-translate-y-0.5 lg:hidden"
+          onclick="document.getElementById('mobile-menu').classList.toggle('hidden')"
+          aria-label="Mở menu"
+        >
+          <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+        </button>
+
+      </div>
+    </div>
   </div>
 
-  
-  <nav class="hidden md:flex md:gap-x-8">
-    
-      <a
-        href="/"
-        class="text-sm font-semibold uppercase tracking-wider transition-colors duration-200 text-zinc-300 hover:text-white">
-        Trang chủ
-      </a>
-    
-      <a
-        href=""
-        class="text-sm font-semibold uppercase tracking-wider transition-colors duration-200 text-zinc-300 hover:text-white">
-        Giới thiệu
-      </a>
-    
-      <a
-        href="/gallery/"
-        class="text-sm font-semibold uppercase tracking-wider transition-colors duration-200 text-zinc-300 hover:text-white">
-        Tác phẩm
-      </a>
-    
-      <a
-        href="/bang-gia/"
-        class="text-sm font-semibold uppercase tracking-wider transition-colors duration-200 text-zinc-300 hover:text-white">
-        Bảng giá
-      </a>
-    
-      <a
-        href=""
-        class="text-sm font-semibold uppercase tracking-wider transition-colors duration-200 text-zinc-300 hover:text-white">
-        Quy trình
-      </a>
-    
-      <a
-        href="/faq/"
-        class="text-sm font-semibold uppercase tracking-wider transition-colors duration-200 text-zinc-300 hover:text-white">
-        FAQ Xăm Hình
-      </a>
-    
-      <a
-        href="/contact/"
-        class="text-sm font-semibold uppercase tracking-wider transition-colors duration-200 text-zinc-300 hover:text-white">
-        Liên hệ
-      </a>
-    
-  </nav>
+  <div id="mobile-menu" class="lp-mobile-menu hidden border-t lg:hidden">
+    <div class="space-y-1 px-4 pb-5 pt-3">
 
-  
-  <div class="flex items-center gap-4">
-
-    <div class="hidden sm:flex items-center gap-2 border-l border-zinc-700 pl-4">
       
+        
         <a
           href="/"
-          class="text-xs font-bold uppercase rounded px-2 py-1 transition
-          
-            bg-pink-500 text-white
-          ">
-          🇻🇳 vi
+          class="lp-mobile-nav-link "
+        >
+          Trang chủ
         </a>
       
+        
+        <a
+          href="/gallery/"
+          class="lp-mobile-nav-link "
+        >
+          Tác phẩm
+        </a>
+      
+        
+        <a
+          href="/phong-cach-xam/"
+          class="lp-mobile-nav-link "
+        >
+          Phong cách xăm
+        </a>
+      
+        
+        <a
+          href="/bang-gia/"
+          class="lp-mobile-nav-link "
+        >
+          Bảng giá
+        </a>
+      
+        
+        <a
+          href="/cam-nang-tattoo/"
+          class="lp-mobile-nav-link "
+        >
+          Cẩm nang Tattoo
+        </a>
+      
+        
+        <a
+          href="/danh-gia/"
+          class="lp-mobile-nav-link "
+        >
+          Đánh giá
+        </a>
+      
+        
+        <a
+          href="/faq/"
+          class="lp-mobile-nav-link "
+        >
+          FAQ
+        </a>
+      
+
+      <a
+        href="https://www.facebook.com/LanPinkInk"
+        target="_blank"
+        rel="noopener"
+        class="mt-4 block rounded-full bg-pink-500 px-5 py-3 text-center text-sm font-black text-white shadow-lg shadow-pink-500/25"
+      >
+        Đặt lịch
+      </a>
+
+      <div class="mt-4 flex gap-2 border-t border-pink-100 pt-4">
+        
+        <a
+          href="/"
+          class="lp-mobile-lang is-active"
+        >
+          🇻🇳 Tiếng Việt
+        </a>
+        
         <a
           href="/en/"
-          class="text-xs font-bold uppercase rounded px-2 py-1 transition
-          
-            text-zinc-400 hover:text-white hover:bg-zinc-800
-          ">
-          🇺🇸 en
+          class="lp-mobile-lang "
+        >
+          🇺🇸 English
         </a>
-      
+        
+      </div>
+
     </div>
-
-    <button
-      type="button"
-      class="md:hidden inline-flex items-center justify-center rounded-md p-2 text-zinc-400 hover:bg-zinc-800 hover:text-white"
-      onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
-
-      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M4 6h16M4 12h16M4 18h16" />
-      </svg>
-
-    </button>
-
-    <button 
-      id="theme-toggle"
-      type="button"
-      onclick="window.toggleTheme()"
-      class="rounded-full border border-neutral-700 p-2 text-neutral-300 transition hover:border-pink-500 hover:text-pink-500"
-      aria-label="Đổi theme"
-    >
-      <span id="theme-icon">🌙</span>
-    </button>
-
   </div>
-
-</div>
-
-  </div>
-
-  <div id="mobile-menu" class="hidden md:hidden">
-    <div class="space-y-1 px-4 pb-4 pt-2 border-t border-zinc-800">
-
-  
-    <a
-      href="/"
-      class="block rounded-md px-3 py-2 text-base font-medium uppercase text-zinc-300 hover:bg-zinc-800 hover:text-white">
-      Trang chủ
-    </a>
-  
-    <a
-      href=""
-      class="block rounded-md px-3 py-2 text-base font-medium uppercase text-zinc-300 hover:bg-zinc-800 hover:text-white">
-      Giới thiệu
-    </a>
-  
-    <a
-      href="/gallery/"
-      class="block rounded-md px-3 py-2 text-base font-medium uppercase text-zinc-300 hover:bg-zinc-800 hover:text-white">
-      Tác phẩm
-    </a>
-  
-    <a
-      href="/bang-gia/"
-      class="block rounded-md px-3 py-2 text-base font-medium uppercase text-zinc-300 hover:bg-zinc-800 hover:text-white">
-      Bảng giá
-    </a>
-  
-    <a
-      href=""
-      class="block rounded-md px-3 py-2 text-base font-medium uppercase text-zinc-300 hover:bg-zinc-800 hover:text-white">
-      Quy trình
-    </a>
-  
-    <a
-      href="/faq/"
-      class="block rounded-md px-3 py-2 text-base font-medium uppercase text-zinc-300 hover:bg-zinc-800 hover:text-white">
-      FAQ Xăm Hình
-    </a>
-  
-    <a
-      href="/contact/"
-      class="block rounded-md px-3 py-2 text-base font-medium uppercase text-zinc-300 hover:bg-zinc-800 hover:text-white">
-      Liên hệ
-    </a>
-  
-
-  <div class="border-t border-zinc-800 pt-4 mt-4 flex gap-2">
-
-    
-      <a
-        href="/"
-        class="text-sm font-bold uppercase rounded px-3 py-2
-        
-          bg-pink-500 text-white
-        ">
-        🇻🇳 Tiếng Việt
-      </a>
-    
-      <a
-        href="/en/"
-        class="text-sm font-bold uppercase rounded px-3 py-2
-        
-          text-zinc-400 bg-zinc-800
-        ">
-        🇺🇸 English
-      </a>
-    
-
-  </div>
-
-</div>
-
-  </div>
-
 </header>
-
 
   <main>
     
@@ -511,7 +531,7 @@ Tại Lan Pink Tattoo, mỗi hình xăm được tư vấn dựa trên kích th�
         rel="noopener noreferrer"
         class="rounded-full border border-pink-500 px-6 py-3 font-semibold text-pink-500 transition hover:bg-pink-500 hover:text-white">
 
-        📅 Đặt lịch ngay
+        Đặt lịch
 
       </a>
 
@@ -541,27 +561,49 @@ Tại Lan Pink Tattoo, mỗi hình xăm được tư vấn dựa trên kích th�
 </section>
 
 
-<footer class="border-t border-zinc-800 py-8">
+<footer class="border-t border-zinc-800 bg-zinc-950 py-12">
+  <div class="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-4 lg:px-8">
 
-  <div class="mx-auto max-w-7xl px-4 text-center">
+    <div class="lg:col-span-2">
+      <h3 class="text-xl font-black tracking-tight text-white">
+        LAN PINK <span class="text-pink-500">TATTOO</span>
+      </h3>
 
-<h3 class="text-xl font-bold">
-  LAN PINK
-  <span class="text-pink-500">TATTOO</span>
-</h3>
+      <p class="mt-3 max-w-md text-sm leading-7 text-zinc-400">
+        Studio xăm nghệ thuật tại TP.HCM - Chuyên Fine Line, Mini Tattoo, Blackwork và thiết kế hình xăm độc bản
+      </p>
+    </div>
 
-<p class="mt-3 text-zinc-400">
-  Private Tattoo Studio - Ho Chi Minh City
-</p>
+    <div>
+      <h4 class="text-sm font-black uppercase tracking-wider text-white">
+        Studio
+      </h4>
 
-<p class="mt-6 text-sm text-zinc-500">
-  © 2026 Lan Pink Tattoo. All rights reserved.
-</p>
+      <nav class="mt-4 space-y-3 text-sm">
+        <a href="/about" class="block text-zinc-400 hover:text-pink-400">Giới thiệu</a>
+        <a href="/contact" class="block text-zinc-400 hover:text-pink-400">Liên hệ</a>
+        <a href="/danh-gia" class="block text-zinc-400 hover:text-pink-400">Đánh giá</a>
+      </nav>
+    </div>
+
+    <div>
+      <h4 class="text-sm font-black uppercase tracking-wider text-white">
+        Kết nối
+      </h4>
+
+      <nav class="mt-4 space-y-3 text-sm">
+        <a href="https://www.facebook.com/LanPinkInk" target="_blank" rel="noopener" class="block text-zinc-400 hover:text-pink-400">Facebook</a>
+        <a href="https://www.instagram.com/lanpink.ink/" target="_blank" rel="noopener" class="block text-zinc-400 hover:text-pink-400">Instagram</a>
+        <a href="https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9" target="_blank" rel="noopener" class="block text-zinc-400 hover:text-pink-400">Google Business</a>
+      </nav>
+    </div>
 
   </div>
 
+  <div class="mx-auto mt-10 max-w-7xl border-t border-zinc-800 px-4 pt-6 text-sm text-zinc-500 sm:px-6 lg:px-8">
+    © 2026 Lan Pink Tattoo. All rights reserved.
+  </div>
 </footer>
-
 
 
 
