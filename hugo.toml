@@ -35,7 +35,7 @@ enableRobotsTXT = false
 
     [[languages.vi.menu.main]]
       name = 'Bảng giá'
-      pageRef = '/pricing'
+      pageRef = '/bang-gia'
       weight = 4
 
     [[languages.vi.menu.main]]
