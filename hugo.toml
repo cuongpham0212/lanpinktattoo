@@ -4,7 +4,7 @@ title = 'Lan Pink Tattoo'
 defaultContentLanguage = 'vi'
 defaultContentLanguageInSubdir = false # VI sẽ ở /, EN sẽ ở /en/
 hasCJKLanguage = false
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 # Đa ngôn ngữ
 [languages]
