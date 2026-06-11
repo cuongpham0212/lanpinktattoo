@@ -1,120 +1,98 @@
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta
-name="viewport"
-content="width=device-width, initial-scale=1">
-
+<!-- Title -->
 <title>
 {{ if .IsHome }}
-{{ .Site.Title }}
+  {{ .Site.Title }} - {{ .Site.Params.description }}
+{{ else if .IsPage }}
+  {{ .Title }} | {{ .Site.Title }}
 {{ else }}
-{{ .Title }} | {{ .Site.Title }}
+  {{ .Title }} | {{ .Site.Title }}
 {{ end }}
 </title>
 
-<meta
-name="description"
-content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-
-<meta
-name="author"
-content="{{ .Site.Params.author }}">
-
-<meta
-name="robots"
-content="index, follow">
-
-<meta
-name="theme-color"
-content="#ec4899">
-
-<link
-rel="canonical"
-href="{{ .Permalink }}">
+<!-- Meta cơ bản -->
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary | plainify | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
+<meta name="author" content="{{ .Site.Params.author }}">
+{{ if or (eq .Kind "taxonomy") (eq .Kind "term") (in .Permalink "/page/") }}
+<meta name="robots" content="noindex, follow">
+{{ else }}
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+{{ end }}
+<meta name="theme-color" content="#ec4899">
+<link rel="canonical" href="{{ .Permalink }}">
 
 <!-- Google Search Console -->
-
-<meta
-name="google-site-verification"
-content="DAN_MA_XAC_MINH_VAO_DAY">
+<meta name="google-site-verification" content="DAN_MA_XAC_MINH_VAO_DAY">
 
 <!-- Hreflang -->
-
 {{ range .AllTranslations }}
-
-<link
-rel="alternate"
-hreflang="{{ .Language.Lang }}"
-href="{{ .Permalink }}">
-
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{ end }}
+{{ if .IsTranslated }}
+<link rel="alternate" hreflang="x-default" href="{{ (index .Translations 0).Permalink }}">
 {{ end }}
 
 <!-- Open Graph -->
-
+{{ if .IsPage }}
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+{{ else }}
 <meta property="og:type" content="website">
+{{ end }}
 
-<meta
-property="og:title"
-content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary | plainify | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:locale" content="{{ if eq .Language.Lang "vi" }}vi_VN{{ else }}en_US{{ end }}">
 
-<meta
-property="og:description"
-content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-
-<meta
-property="og:url"
-content="{{ .Permalink }}">
-
-<meta
-property="og:site_name"
-content="{{ .Site.Title }}">
-
-<meta
-property="og:image"
-content="{{ "images/og-cover.jpg" | absURL }}">
+{{ $ogImage := "images/og-cover.jpg" }}
+{{ if .Params.image }}
+  {{ $ogImage = .Params.image }}
+{{ else if .Params.featured_image }}
+  {{ $ogImage = .Params.featured_image }}
+{{ end }}
+<meta property="og:image" content="{{ $ogImage | absURL }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ if .Params.image_alt }}{{ .Params.image_alt }}{{ else }}{{ .Title }}{{ end }}">
 
 <!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary | plainify | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
+<meta name="twitter:image" content="{{ $ogImage | absURL }}">
+{{ with .Site.Params.twitter }}
+<meta name="twitter:site" content="@{{ . }}">
+<meta name="twitter:creator" content="@{{ . }}">
+{{ end }}
 
-<meta
-name="twitter:card"
-content="summary_large_image">
-
-<meta
-name="twitter:title"
-content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-
-<meta
-name="twitter:description"
-content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-
-<meta
-name="twitter:image"
-content="{{ "images/og-cover.jpg" | absURL }}">
-
-<!-- CSS -->
-
-<link
-  rel="stylesheet"
-  href="/css/style.css">
+<!-- CSS - Dùng Hugo Pipes + Tailwind từ assets -->
+{{ $css := resources.Get "css/main.css" }}
+{{ if $css }}
+  {{ $css = $css | css.PostCSS }}
+  {{ if hugo.IsProduction }}
+    {{ $css = $css | minify | fingerprint }}
+  {{ end }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ else }}
+  {{ errorf "Không tìm thấy assets/css/main.css. Tạo file này đi anh." }}
+{{ end }}
 
 <!-- Favicon -->
-
-<link
-rel="icon"
-href="/favicon.ico">
+<link rel="icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 <!-- Google Fonts -->
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
-
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-<link
-href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-rel="stylesheet">
-
-<!-- Schema.org Local Business -->
-
+<!-- Schema.org -->
+{{ if .IsHome }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -122,14 +100,31 @@ rel="stylesheet">
   "name": "Lan Pink Ink - Private Tattoo Studio",
   "url": "https://lanpinktattoo.netlify.app",
   "image": "https://lanpinktattoo.netlify.app/images/og-cover.jpg",
-  "description": "Private Tattoo Studio tại TP.HCM...",
+  "description": "Private Tattoo Studio tại TP.HCM. Chuyên xăm nghệ thuật, xăm mini, cover hình xăm cũ. Không gian riêng tư, an toàn.",
   "telephone": "+84703659902",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Địa chỉ cụ thể",
+    "addressLocality": "Hồ Chí Minh",
+    "addressRegion": "HCM",
+    "postalCode": "700000",
+    "addressCountry": "VN"
+  },
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": 10.8649425,
     "longitude": 106.6481805
   },
   "hasMap": "https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "09:00",
+      "closes": "20:00"
+    }
+  ],
   "sameAs": [
     "https://www.facebook.com/LanPinkInk",
     "https://www.instagram.com/lanpink.ink/",
@@ -137,21 +132,75 @@ rel="stylesheet">
   ]
 }
 </script>
+{{ else if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}",
+  "image": "{{ $ogImage | absURL }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Params.author }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ "images/logo.png" | absURL }}"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+}
+</script>
+{{ end }}
+
+<!-- BreadcrumbList -->
+{{ if not .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ .Site.BaseURL }}"
+    }
+    {{ if .Section }},
+    {
+      "@type": "ListItem", 
+      "position": 2,
+      "name": "{{ .Section | title }}",
+      "item": "{{ .Site.BaseURL }}{{ .Section }}/"
+    }
+    {{ end }}
+    {{ if .IsPage }},
+    {
+      "@type": "ListItem",
+      "position": {{ if .Section }}3{{ else }}2{{ end }},
+      "name": "{{ .Title }}",
+      "item": "{{ .Permalink }}"
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
 
 <!-- Google Analytics GA4 -->
-
-<script async
-src="https://www.googletagmanager.com/gtag/js?id=G-YHDTF0NDK7">
-</script>
-
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YHDTF0NDK7"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
-
-function gtag() {
-  dataLayer.push(arguments);
-}
-
+function gtag() { dataLayer.push(arguments); }
 gtag('js', new Date());
-
 gtag('config', 'G-YHDTF0NDK7');
 </script>
