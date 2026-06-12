@@ -324,3 +324,64 @@ html[data-theme="dark"] .lp-footer-bottom p:last-child {
     background: rgba(255,255,255,.045);
   }
 }
+
+/* =========================
+   404 PAGE
+========================= */
+
+.lp-404 {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.lp-404-card {
+  border-radius: 2rem;
+  padding: 3rem 2rem;
+  background: rgba(255,255,255,.72);
+  border: 1px solid rgba(236,72,153,.15);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 20px 60px rgba(236,72,153,.12);
+}
+
+.lp-404-code {
+  font-size: clamp(4rem, 12vw, 8rem);
+  font-weight: 900;
+  line-height: 1;
+  color: #ec4899;
+}
+
+.lp-404 h1 {
+  margin-top: 1rem;
+  margin-bottom: .75rem;
+}
+
+.lp-404 p {
+  max-width: 36rem;
+  margin-inline: auto;
+}
+
+.lp-404-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin-top: 2rem;
+}
+
+.lp-404-actions a {
+  border-radius: 999px;
+  padding: .8rem 1.2rem;
+  background: rgba(249,168,212,.15);
+  border: 1px solid rgba(236,72,153,.15);
+  font-weight: 800;
+}
+
+html[data-theme="dark"] .lp-404-card {
+  background: rgba(255,255,255,.04);
+  border-color: rgba(249,168,212,.12);
+}
+
+html[data-theme="dark"] .lp-404-actions a {
+  background: rgba(236,72,153,.10);
+}
