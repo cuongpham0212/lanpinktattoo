@@ -76,11 +76,28 @@
             {{ i18n "share" | default "Chia sẻ" }}:
           </span>
 
-          <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" class="rounded-full border border-pink-200 bg-white/70 px-4 py-2 text-sm font-semibold text-neutral-700 transition hover:border-blue-500 hover:bg-blue-500 hover:text-white">
+          <a
+            href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+            target="_blank"
+            rel="noopener"
+            class="rounded-full border border-pink-200 bg-white/70 px-4 py-2 text-sm font-semibold text-neutral-700 transition hover:border-blue-500 hover:bg-blue-500 hover:text-white">
             Facebook
           </a>
 
-          <button type="button" data-copy-url="{{ .Permalink }}" data-copied-text="{{ i18n "copied" | default "Đã copy ✓" }}" onclick="navigator.clipboard.writeText(this.dataset.copyUrl); this.textContent = this.dataset.copiedText;" class="rounded-full border border-pink-200 bg-white/70 px-4 py-2 text-sm font-semibold text-neutral-700 transition hover:border-pink-500 hover:bg-pink-500 hover:text-white">
+          <a
+            href="https://zalo.me/share?u={{ .Permalink }}"
+            target="_blank"
+            rel="noopener"
+            class="rounded-full border border-pink-200 bg-white/70 px-4 py-2 text-sm font-semibold text-neutral-700 transition hover:border-blue-500 hover:bg-blue-500 hover:text-white">
+            Zalo
+          </a>
+
+          <button
+            type="button"
+            data-copy-url="{{ .Permalink }}"
+            data-copied-text="{{ i18n "copied" | default "Đã copy ✓" }}"
+            onclick="navigator.clipboard.writeText(this.dataset.copyUrl); this.textContent = this.dataset.copiedText;"
+            class="rounded-full border border-pink-200 bg-white/70 px-4 py-2 text-sm font-semibold text-neutral-700 transition hover:border-pink-500 hover:bg-pink-500 hover:text-white">
             {{ i18n "copy_link" | default "Copy Link" }}
           </button>
         </div>
