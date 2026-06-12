@@ -3,12 +3,11 @@
 
   {{ partial "hero.html" . }}
 
-  <div class="mx-auto max-w-5xl px-4 py-10 sm:px-6 lg:px-8">
-    <div class="lp-article-shell rounded-[2rem] bg-white/80 p-5 shadow-xl shadow-pink-500/10 ring-1 ring-pink-200/60 backdrop-blur md:p-7 lg:p-9">
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
+    <div class="lp-article-shell rounded-[2rem] bg-white/80 p-5 shadow-xl shadow-pink-500/10 ring-1 ring-pink-200/60 backdrop-blur md:p-8 lg:p-10">
 
       {{ if .TableOfContents }}
 
-      <!-- Desktop TOC -->
       <details class="lp-toc lp-toc-desktop group mb-8 rounded-3xl border border-pink-200/70 bg-white/75 p-4 shadow-lg shadow-pink-500/10 backdrop-blur md:p-5" open>
         <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
           <div>
@@ -34,7 +33,6 @@
         </div>
       </details>
 
-      <!-- Mobile Sticky TOC -->
       <div class="lp-mobile-toc">
         <details class="lp-mobile-toc-details">
           <summary class="lp-mobile-toc-button">
@@ -52,7 +50,7 @@
 
       {{ end }}
 
-      <div class="lp-content" itemprop="articleBody">
+      <div class="lp-content" itemprop="articleBody" style="max-width: none;">
         {{ .Content }}
       </div>
 
@@ -91,37 +89,52 @@
     </div>
   </div>
 
-  {{ $related := .Site.RegularPages.Related . | first 3 }}
+  {{ $sameLangPages := where .Site.RegularPages "Lang" .Lang }}
+  {{ $sameSectionPages := where $sameLangPages "Section" .Section }}
+  {{ $related := first 3 (where $sameSectionPages "Permalink" "ne" .Permalink) }}
 
   {{ with $related }}
   <section class="lp-related-section bg-pink-50/70 py-12">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <h2 class="text-2xl font-black tracking-tight text-neutral-900 sm:text-3xl">
-        {{ i18n "relatedPosts" | default "Bài viết liên quan" }}
-      </h2>
+      <div class="mb-8">
+        <p class="lp-eyebrow">
+          {{ if eq $.Language.Lang "vi" }}
+            Có thể bạn cũng thích
+          {{ else }}
+            You may also like
+          {{ end }}
+        </p>
 
-      <div class="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <h2 class="mt-2 text-2xl font-black tracking-tight text-neutral-900 sm:text-3xl">
+          {{ i18n "relatedPosts" | default "Bài viết liên quan" }}
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {{ range . }}
-        <article class="group overflow-hidden rounded-3xl bg-white/80 shadow-xl shadow-pink-500/10 ring-1 ring-pink-200/60 transition duration-300 hover:-translate-y-1 hover:shadow-pink-500/20">
-          <a href="{{ .RelPermalink }}">
+        {{ $rel := . }}
+        <article class="group overflow-hidden rounded-3xl lp-card transition duration-300 hover:-translate-y-1">
+          <a href="{{ $rel.RelPermalink }}">
             <div class="aspect-[16/9] overflow-hidden bg-pink-50">
-              {{ $img := .Params.image | default .Params.featured_image | default "images/placeholder.jpg" }}
+              {{ $img := $rel.Params.image | default $rel.Params.featured_image | default "images/placeholder.jpg" }}
               {{ with resources.Get $img }}
                 {{ $thumb := .Fill "600x338 q85" }}
-                <img src="{{ $thumb.RelPermalink }}" alt="{{ $.Title }}" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" loading="lazy">
+                <img src="{{ $thumb.RelPermalink }}" alt="{{ $rel.Title }}" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" loading="lazy">
               {{ else }}
-                <img src="{{ $img | absURL }}" alt="{{ .Title }}" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" loading="lazy">
+                <img src="{{ $img | absURL }}" alt="{{ $rel.Title }}" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" loading="lazy">
               {{ end }}
             </div>
 
             <div class="p-5">
-              <h3 class="line-clamp-2 text-base font-bold leading-6 text-neutral-900 transition group-hover:text-pink-600">
-                {{ .Title }}
+              <h3 class="line-clamp-2 text-base font-bold leading-6 lp-heading transition group-hover:text-pink-500">
+                {{ $rel.Title }}
               </h3>
 
-              <p class="mt-2 text-sm text-neutral-500">
-                {{ .Date.Format "02/01/2006" }}
+              {{ if not $rel.Date.IsZero }}
+              <p class="mt-2 text-sm lp-muted">
+                {{ $rel.Date.Format "02/01/2006" }}
               </p>
+              {{ end }}
             </div>
           </a>
         </article>

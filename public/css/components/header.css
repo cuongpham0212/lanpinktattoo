@@ -104,3 +104,50 @@ html[data-theme="light"] .lp-icon-btn:hover {
   background: linear-gradient(135deg, #f9a8d4, #ec4899);
 }
 
+.lp-lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: .42rem;
+  border-radius: 999px;
+  padding: .58rem .9rem;
+  font-family: "Nunito", "Inter", system-ui, sans-serif;
+  font-size: .86rem;
+  font-weight: 950;
+  line-height: 1;
+  white-space: nowrap;
+  transition: transform .22s ease, background .22s ease, color .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+
+.lp-lang-switch:hover {
+  transform: translateY(-1px);
+}
+
+html[data-theme="light"] .lp-lang-switch {
+  color: #be185d;
+  background: rgba(255,255,255,.9);
+  border: 1px solid rgba(236,72,153,.22);
+  box-shadow:
+    0 10px 24px rgba(236,72,153,.12),
+    inset 0 1px 0 rgba(255,255,255,.5);
+}
+
+html[data-theme="light"] .lp-lang-switch:hover {
+  color: #fff;
+  background: linear-gradient(135deg, #f9a8d4, #ec4899);
+  border-color: rgba(236,72,153,.28);
+}
+
+html[data-theme="dark"] .lp-lang-switch {
+  color: #fbcfe8;
+  background: rgba(255,255,255,.065);
+  border: 1px solid rgba(249,168,212,.18);
+  box-shadow:
+    0 12px 28px rgba(0,0,0,.26),
+    inset 0 1px 0 rgba(255,255,255,.06);
+}
+
+html[data-theme="dark"] .lp-lang-switch:hover {
+  color: #fff;
+  background: linear-gradient(135deg, #831843, #ec4899);
+  border-color: rgba(249,168,212,.3);
+}

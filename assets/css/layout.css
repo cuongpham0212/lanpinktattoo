@@ -420,3 +420,88 @@ html[data-theme="light"] .bg-gradient-to-br {
     border-radius: 0 0 28px 28px;
   }
 }
+
+/* =========================
+   LIST INTRO CARD
+========================= */
+
+.lp-list-intro-wrap {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 2rem 1rem .75rem;
+}
+
+.lp-list-intro-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.75rem;
+  padding: 1.5rem 1.75rem;
+  text-align: center;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(236,72,153,.18), transparent 36%),
+    rgba(24,24,27,.72);
+  border: 1px solid rgba(244,114,182,.16);
+  box-shadow: 0 18px 55px rgba(0,0,0,.26);
+  backdrop-filter: blur(18px);
+}
+
+.lp-list-intro-badge {
+  display: inline-flex;
+  margin-bottom: .8rem;
+  border-radius: 999px;
+  padding: .38rem .85rem;
+  font-family: "Nunito", "Inter", system-ui, sans-serif;
+  font-size: .68rem;
+  font-weight: 950;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: #f9a8d4;
+  background: rgba(236,72,153,.12);
+  border: 1px solid rgba(244,114,182,.2);
+}
+
+.lp-list-intro-content,
+.lp-list-intro-content p {
+  max-width: 760px;
+  margin: 0 auto;
+  color: #e4d8df;
+  font-size: 1rem;
+  font-weight: 650;
+  line-height: 1.8;
+}
+
+html[data-theme="light"] .lp-list-intro-card {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(249,168,212,.28), transparent 38%),
+    rgba(255,255,255,.78);
+  border-color: rgba(236,72,153,.16);
+  box-shadow: 0 18px 55px rgba(236,72,153,.12);
+}
+
+html[data-theme="light"] .lp-list-intro-badge {
+  color: #db2777;
+  background: rgba(253,242,248,.9);
+  border-color: rgba(236,72,153,.18);
+}
+
+html[data-theme="light"] .lp-list-intro-content,
+html[data-theme="light"] .lp-list-intro-content p {
+  color: #6a4658;
+}
+
+@media (max-width: 768px) {
+  .lp-list-intro-wrap {
+    padding: 1.25rem .85rem .5rem;
+  }
+
+  .lp-list-intro-card {
+    border-radius: 1.35rem;
+    padding: 1.25rem 1rem;
+  }
+
+  .lp-list-intro-content,
+  .lp-list-intro-content p {
+    font-size: .92rem;
+    line-height: 1.7;
+  }
+}

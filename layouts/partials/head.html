@@ -16,12 +16,8 @@
   {{ end }}
 {{ end }}
 
-{{ $ogImage := "images/og-cover.jpg" }}
-{{ if .Params.image }}
-  {{ $ogImage = .Params.image }}
-{{ else if .Params.featured_image }}
-  {{ $ogImage = .Params.featured_image }}
-{{ end }}
+{{ $ogImage := .Params.og_image | default .Params.image | default .Params.featured_image | default "images/og-cover.jpg" }}
+{{ $ogImages := partial "image-variants.html" (dict "src" $ogImage) }}
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -63,15 +59,15 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:locale" content="{{ if eq .Language.Lang "vi" }}vi_VN{{ else }}en_US{{ end }}">
-<meta property="og:image" content="{{ $ogImage | absURL }}">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image" content="{{ $ogImages.og.abs }}">
+<meta property="og:image:width" content="{{ $ogImages.og.width }}">
+<meta property="og:image:height" content="{{ $ogImages.og.height }}">
 <meta property="og:image:alt" content="{{ with .Params.image_alt }}{{ . }}{{ else }}{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}{{ end }}">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta name="twitter:description" content="{{ $description }}">
-<meta name="twitter:image" content="{{ $ogImage | absURL }}">
+<meta name="twitter:image" content="{{ $ogImages.og.abs }}">
 {{ with .Site.Params.twitter }}
 <meta name="twitter:site" content="@{{ . }}">
 <meta name="twitter:creator" content="@{{ . }}">
@@ -143,7 +139,7 @@
   "name": {{ .Title | plainify | jsonify }},
   "description": {{ $description | plainify | jsonify }},
   "url": {{ .Permalink | jsonify }},
-  "image": {{ ($ogImage | absURL) | jsonify }},
+  "image": {{ $ogImages.og.abs | jsonify }},
   "isPartOf": {
     "@type": "WebSite",
     "name": {{ .Site.Title | jsonify }},

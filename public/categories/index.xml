@@ -6,8 +6,22 @@
     <description>Recent content in Categories on Lan Pink Tattoo</description>
     <generator>Hugo</generator>
     <language>vi</language>
-    <lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cẩm Nang Tattoo</title>
+      <link>http://localhost:1313/categories/c%E1%BA%A9m-nang-tattoo/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/c%E1%BA%A9m-nang-tattoo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tattoo Guide</title>
+      <link>http://localhost:1313/categories/tattoo-guide/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/tattoo-guide/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bảng Giá</title>
       <link>http://localhost:1313/categories/b%E1%BA%A3ng-gi%C3%A1/</link>
@@ -20,6 +34,13 @@
       <link>http://localhost:1313/categories/pricing/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/pricing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>http://localhost:1313/categories/faq/</link>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/faq/</guid>
       <description></description>
     </item>
   </channel>

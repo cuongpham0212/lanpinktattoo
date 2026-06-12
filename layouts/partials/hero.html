@@ -1,29 +1,22 @@
-{{ $img := .Params.image | default .Params.featured_image }}
-{{ $title := .Title }}
-{{ $desc := .Params.description | default .Summary }}
+{{- $img := .Params.image | default .Params.featured_image -}}
+{{- $title := .Title -}}
+{{- $desc := .Params.description | default .Summary -}}
+{{- $images := partial "image-variants.html" (dict "src" $img) -}}
 
 <header class="lp-hero lp-hero-compact" itemscope itemtype="https://schema.org/WPHeader">
-  {{ if $img }}
-    {{ with resources.Get $img }}
-      {{ $xl := .Fill "1600x520 q85" }}
-      <img
-        src="{{ $xl.RelPermalink }}"
-        alt="{{ $title }}"
-        class="lp-hero-img"
-        itemprop="image"
-        loading="eager"
-        decoding="async"
-      >
-    {{ else }}
-      <img
-        src="{{ $img | absURL }}"
-        alt="{{ $title }}"
-        class="lp-hero-img"
-        itemprop="image"
-        loading="eager"
-      >
-    {{ end }}
-  {{ end }}
+  {{- if $img -}}
+    <img
+      src="{{ $images.hero.src }}"
+      alt="{{ $title }}"
+      class="lp-hero-img"
+      itemprop="image"
+      width="{{ $images.hero.width }}"
+      height="{{ $images.hero.height }}"
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
+    >
+  {{- end -}}
 
   <div class="lp-hero-overlay"></div>
 
@@ -37,11 +30,11 @@
         {{ $title }}
       </h1>
 
-      {{ with $desc }}
+      {{- with $desc -}}
       <p class="mt-4 max-w-2xl text-base leading-7 sm:text-lg" itemprop="description">
         {{ . | plainify | truncate 150 }}
       </p>
-      {{ end }}
+      {{- end -}}
 
       <div class="mt-6 flex flex-wrap gap-3">
         <a href="{{ "gallery/" | relLangURL }}" class="lp-btn-primary">
