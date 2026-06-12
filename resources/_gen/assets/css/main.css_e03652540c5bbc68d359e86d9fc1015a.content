@@ -744,11 +744,6 @@ video {
 .gap-y-12 {
   row-gap: 3rem;
 }
-.space-y-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
-}
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -920,10 +915,6 @@ video {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -962,12 +953,6 @@ video {
 }
 .pb-2 {
   padding-bottom: 0.5rem;
-}
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-.pt-3 {
-  padding-top: 0.75rem;
 }
 .pt-4 {
   padding-top: 1rem;
@@ -1129,10 +1114,6 @@ video {
 }
 .shadow-pink-500\/10 {
   --tw-shadow-color: rgb(236 72 153 / 0.1);
-  --tw-shadow: var(--tw-shadow-colored);
-}
-.shadow-pink-500\/25 {
-  --tw-shadow-color: rgb(236 72 153 / 0.25);
   --tw-shadow: var(--tw-shadow-colored);
 }
 .ring-1 {

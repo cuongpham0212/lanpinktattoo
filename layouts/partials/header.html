@@ -56,8 +56,8 @@
 
         <button
           type="button"
-          class="lp-icon-btn inline-flex h-10 w-10 items-center justify-center rounded-full shadow-sm transition hover:-translate-y-0.5 lg:hidden"
-          onclick="document.getElementById('mobile-menu').classList.toggle('hidden')"
+          class="lp-menumobile-toggle lp-icon-btn inline-flex h-10 w-10 items-center justify-center rounded-full shadow-sm transition hover:-translate-y-0.5 lg:hidden"
+          onclick="document.getElementById('menumobile').classList.toggle('hidden')"
           aria-label="Mở menu"
         >
           <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -69,14 +69,14 @@
     </div>
   </div>
 
-  <div id="mobile-menu" class="lp-mobile-menu hidden border-t lg:hidden">
-    <div class="space-y-1 px-4 pb-5 pt-3">
+  <div id="menumobile" class="lp-menumobile hidden lg:hidden">
+    <div>
 
       {{ range .Site.Menus.main }}
         {{ $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
         <a
           href="{{ .URL }}"
-          class="lp-mobile-nav-link {{ if $active }}is-active{{ end }}"
+          class="lp-menumobile-link {{ if $active }}is-active{{ end }}"
         >
           {{ .Name }}
         </a>
@@ -86,7 +86,7 @@
         href="{{ .Site.Params.bookingUrl }}"
         target="_blank"
         rel="noopener"
-        class="mt-4 block rounded-full bg-pink-500 px-5 py-3 text-center text-sm font-black text-white shadow-lg shadow-pink-500/25"
+        class="lp-menumobile-booking"
       >
         {{ i18n "book_now" | default "Đặt lịch" }}
       </a>
@@ -95,7 +95,7 @@
         {{ range .Site.Home.AllTranslations }}
         <a
           href="{{ .RelPermalink }}"
-          class="lp-mobile-lang {{ if eq .Language.Lang $siteLanguage }}is-active{{ end }}"
+          class="lp-menumobile-lang {{ if eq .Language.Lang $siteLanguage }}is-active{{ end }}"
         >
           {{ with .Language.Params.flag }}{{ . }} {{ end }}{{ .Language.LanguageName }}
         </a>

@@ -141,6 +141,13 @@
   
   
     
+      <link rel="stylesheet" href="/css/components/menumobile.css">
+    
+  
+
+  
+  
+    
       <link rel="stylesheet" href="/css/components/footer.css">
     
   
@@ -425,8 +432,8 @@
 
         <button
           type="button"
-          class="lp-icon-btn inline-flex h-10 w-10 items-center justify-center rounded-full shadow-sm transition hover:-translate-y-0.5 lg:hidden"
-          onclick="document.getElementById('mobile-menu').classList.toggle('hidden')"
+          class="lp-menumobile-toggle lp-icon-btn inline-flex h-10 w-10 items-center justify-center rounded-full shadow-sm transition hover:-translate-y-0.5 lg:hidden"
+          onclick="document.getElementById('menumobile').classList.toggle('hidden')"
           aria-label="Mở menu"
         >
           <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -438,14 +445,14 @@
     </div>
   </div>
 
-  <div id="mobile-menu" class="lp-mobile-menu hidden border-t lg:hidden">
-    <div class="space-y-1 px-4 pb-5 pt-3">
+  <div id="menumobile" class="lp-menumobile hidden lg:hidden">
+    <div>
 
       
         
         <a
           href="/"
-          class="lp-mobile-nav-link "
+          class="lp-menumobile-link "
         >
           Trang chủ
         </a>
@@ -453,7 +460,7 @@
         
         <a
           href=""
-          class="lp-mobile-nav-link "
+          class="lp-menumobile-link "
         >
           Tác phẩm
         </a>
@@ -461,7 +468,7 @@
         
         <a
           href="/phong-cach-xam/"
-          class="lp-mobile-nav-link "
+          class="lp-menumobile-link "
         >
           Phong cách xăm
         </a>
@@ -469,7 +476,7 @@
         
         <a
           href="/bang-gia/"
-          class="lp-mobile-nav-link "
+          class="lp-menumobile-link "
         >
           Bảng giá
         </a>
@@ -477,7 +484,7 @@
         
         <a
           href="/cam-nang-tattoo/"
-          class="lp-mobile-nav-link "
+          class="lp-menumobile-link "
         >
           Cẩm nang Tattoo
         </a>
@@ -485,7 +492,7 @@
         
         <a
           href="/danh-gia/"
-          class="lp-mobile-nav-link "
+          class="lp-menumobile-link "
         >
           Đánh giá
         </a>
@@ -493,7 +500,7 @@
         
         <a
           href="/faq/"
-          class="lp-mobile-nav-link is-active"
+          class="lp-menumobile-link is-active"
         >
           FAQ
         </a>
@@ -503,7 +510,7 @@
         href="https://www.facebook.com/LanPinkInk"
         target="_blank"
         rel="noopener"
-        class="mt-4 block rounded-full bg-pink-500 px-5 py-3 text-center text-sm font-black text-white shadow-lg shadow-pink-500/25"
+        class="lp-menumobile-booking"
       >
         Đặt lịch
       </a>
@@ -512,14 +519,14 @@
         
         <a
           href="/"
-          class="lp-mobile-lang is-active"
+          class="lp-menumobile-lang is-active"
         >
           🇻🇳 Tiếng Việt
         </a>
         
         <a
           href="/en/"
-          class="lp-mobile-lang "
+          class="lp-menumobile-lang "
         >
           🇺🇸 English
         </a>
