@@ -3,38 +3,53 @@
 
   {{ partial "hero.html" . }}
 
-  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-    <div class="rounded-[2rem] bg-white/80 p-5 shadow-xl shadow-pink-500/10 ring-1 ring-pink-200/60 backdrop-blur md:p-8 lg:p-12">
+  <div class="mx-auto max-w-5xl px-4 py-10 sm:px-6 lg:px-8">
+    <div class="lp-article-shell rounded-[2rem] bg-white/80 p-5 shadow-xl shadow-pink-500/10 ring-1 ring-pink-200/60 backdrop-blur md:p-7 lg:p-9">
 
       {{ if .TableOfContents }}
-      <details class="lp-toc group mb-10 rounded-3xl border border-pink-200/70 bg-white/75 p-5 shadow-lg shadow-pink-500/10 backdrop-blur md:p-6" open>
+
+      <!-- Desktop TOC -->
+      <details class="lp-toc lp-toc-desktop group mb-8 rounded-3xl border border-pink-200/70 bg-white/75 p-4 shadow-lg shadow-pink-500/10 backdrop-blur md:p-5" open>
         <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
           <div>
-            <p class="text-xs font-black uppercase tracking-[0.25em] text-pink-500">
+            <p class="text-xs font-black uppercase tracking-[0.22em] text-pink-500">
               {{ i18n "on_this_page" | default "On this page" }}
             </p>
 
-            <h2 class="mt-1 text-xl font-extrabold text-neutral-900">
+            <h2 class="mt-1 text-lg font-extrabold text-neutral-900">
               {{ i18n "toc" | default "Mục lục" }}
             </h2>
           </div>
 
-          <span class="lp-toc-toggle-text rounded-full bg-pink-100 px-3 py-1 text-sm font-bold text-pink-600">
-            <span class="hidden group-open:inline">
-              {{ i18n "collapse" | default "Thu gọn" }}
-            </span>
-            <span class="inline group-open:hidden">
-              {{ i18n "expand" | default "Mở" }}
-            </span>
+          <span class="lp-toc-toggle-text rounded-full bg-pink-100 px-3 py-1 text-xs font-bold text-pink-600">
+            <span class="hidden group-open:inline">{{ i18n "collapse" | default "Thu gọn" }}</span>
+            <span class="inline group-open:hidden">{{ i18n "expand" | default "Mở" }}</span>
           </span>
         </summary>
 
-        <div class="mt-5 border-t border-pink-100 pt-5">
+        <div class="mt-4 border-t border-pink-100 pt-4">
           <div class="lp-toc-content">
             {{ .TableOfContents }}
           </div>
         </div>
       </details>
+
+      <!-- Mobile Sticky TOC -->
+      <div class="lp-mobile-toc">
+        <details class="lp-mobile-toc-details">
+          <summary class="lp-mobile-toc-button">
+            <span>{{ i18n "toc" | default "Mục lục" }}</span>
+            <span class="lp-mobile-toc-icon">☰</span>
+          </summary>
+
+          <div class="lp-mobile-toc-panel">
+            <div class="lp-toc-content">
+              {{ .TableOfContents }}
+            </div>
+          </div>
+        </details>
+      </div>
+
       {{ end }}
 
       <div class="lp-content" itemprop="articleBody">
@@ -42,17 +57,14 @@
       </div>
 
       {{ with .Params.tags }}
-      <div class="mt-12 border-t border-pink-100 pt-8">
+      <div class="mt-10 border-t border-pink-100 pt-6">
         <div class="flex flex-wrap items-center gap-2">
           <span class="text-sm font-bold text-neutral-900">
             {{ i18n "tags" | default "Tags" }}:
           </span>
 
           {{ range . }}
-          <a
-            href="{{ "tags" | relLangURL }}/{{ . | urlize }}"
-            class="rounded-full bg-pink-100 px-4 py-2 text-sm font-semibold text-pink-600 transition hover:bg-pink-200"
-          >
+          <a href="{{ "tags" | relLangURL }}/{{ . | urlize }}" class="rounded-full bg-pink-100 px-3.5 py-1.5 text-sm font-semibold text-pink-600 transition hover:bg-pink-200">
             #{{ . }}
           </a>
           {{ end }}
@@ -60,28 +72,17 @@
       </div>
       {{ end }}
 
-      <div class="mt-10 border-t border-pink-100 pt-8">
+      <div class="mt-8 border-t border-pink-100 pt-6">
         <div class="flex flex-wrap items-center gap-3">
-          <span class="mr-2 text-sm font-bold text-neutral-900">
+          <span class="mr-1 text-sm font-bold text-neutral-900">
             {{ i18n "share" | default "Chia sẻ" }}:
           </span>
 
-          <a
-            href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
-            target="_blank"
-            rel="noopener"
-            class="rounded-full border border-pink-200 bg-white/70 px-5 py-2 text-sm font-semibold text-neutral-700 transition hover:border-blue-500 hover:bg-blue-500 hover:text-white"
-          >
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" class="rounded-full border border-pink-200 bg-white/70 px-4 py-2 text-sm font-semibold text-neutral-700 transition hover:border-blue-500 hover:bg-blue-500 hover:text-white">
             Facebook
           </a>
 
-          <button
-            type="button"
-            data-copy-url="{{ .Permalink }}"
-            data-copied-text="{{ i18n "copied" | default "Đã copy ✓" }}"
-            onclick="navigator.clipboard.writeText(this.dataset.copyUrl); this.textContent = this.dataset.copiedText;"
-            class="rounded-full border border-pink-200 bg-white/70 px-5 py-2 text-sm font-semibold text-neutral-700 transition hover:border-pink-500 hover:bg-pink-500 hover:text-white"
-          >
+          <button type="button" data-copy-url="{{ .Permalink }}" data-copied-text="{{ i18n "copied" | default "Đã copy ✓" }}" onclick="navigator.clipboard.writeText(this.dataset.copyUrl); this.textContent = this.dataset.copiedText;" class="rounded-full border border-pink-200 bg-white/70 px-4 py-2 text-sm font-semibold text-neutral-700 transition hover:border-pink-500 hover:bg-pink-500 hover:text-white">
             {{ i18n "copy_link" | default "Copy Link" }}
           </button>
         </div>
@@ -93,54 +94,39 @@
   {{ $related := .Site.RegularPages.Related . | first 3 }}
 
   {{ with $related }}
-  <section class="bg-pink-50/70 py-16">
+  <section class="lp-related-section bg-pink-50/70 py-12">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-
-      <h2 class="text-3xl font-bold tracking-tight text-neutral-900">
+      <h2 class="text-2xl font-black tracking-tight text-neutral-900 sm:text-3xl">
         {{ i18n "relatedPosts" | default "Bài viết liên quan" }}
       </h2>
 
-      <div class="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {{ range . }}
         <article class="group overflow-hidden rounded-3xl bg-white/80 shadow-xl shadow-pink-500/10 ring-1 ring-pink-200/60 transition duration-300 hover:-translate-y-1 hover:shadow-pink-500/20">
-
           <a href="{{ .RelPermalink }}">
             <div class="aspect-[16/9] overflow-hidden bg-pink-50">
               {{ $img := .Params.image | default .Params.featured_image | default "images/placeholder.jpg" }}
-
               {{ with resources.Get $img }}
                 {{ $thumb := .Fill "600x338 q85" }}
-                <img
-                  src="{{ $thumb.RelPermalink }}"
-                  alt="{{ $.Title }}"
-                  class="h-full w-full object-cover transition duration-500 group-hover:scale-110"
-                  loading="lazy"
-                >
+                <img src="{{ $thumb.RelPermalink }}" alt="{{ $.Title }}" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" loading="lazy">
               {{ else }}
-                <img
-                  src="{{ $img | absURL }}"
-                  alt="{{ .Title }}"
-                  class="h-full w-full object-cover transition duration-500 group-hover:scale-110"
-                  loading="lazy"
-                >
+                <img src="{{ $img | absURL }}" alt="{{ .Title }}" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" loading="lazy">
               {{ end }}
             </div>
 
             <div class="p-5">
-              <h3 class="line-clamp-2 text-lg font-bold text-neutral-900 group-hover:text-pink-600">
+              <h3 class="line-clamp-2 text-base font-bold leading-6 text-neutral-900 transition group-hover:text-pink-600">
                 {{ .Title }}
               </h3>
 
-              <p class="mt-3 text-sm text-neutral-500">
+              <p class="mt-2 text-sm text-neutral-500">
                 {{ .Date.Format "02/01/2006" }}
               </p>
             </div>
           </a>
-
         </article>
         {{ end }}
       </div>
-
     </div>
   </section>
   {{ end }}
@@ -149,11 +135,22 @@
 
   <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" class="hidden">
     <meta itemprop="name" content="{{ .Site.Title }}">
-
     <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
       <meta itemprop="url" content="{{ "images/logo.png" | absURL }}">
     </div>
   </div>
+
+  <script>
+    document.addEventListener('click', function (event) {
+      const link = event.target.closest('.lp-mobile-toc a');
+      if (!link) return;
+
+      const details = link.closest('details');
+      if (details) {
+        details.open = false;
+      }
+    });
+  </script>
 
 </article>
 {{ end }}

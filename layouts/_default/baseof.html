@@ -27,6 +27,18 @@
   defer
 ></script>
 
+<script>
+document.addEventListener('click', function (event) {
+  const link = event.target.closest('.lp-mobile-toc a');
+  if (!link) return;
+
+  const details = link.closest('details');
+  if (details) {
+    details.open = false;
+  }
+});
+</script>
+
 </body>
 
 </html>

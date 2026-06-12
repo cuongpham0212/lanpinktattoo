@@ -77,15 +77,50 @@
 <meta name="twitter:creator" content="@{{ . }}">
 {{ end }}
 
-{{ $css := resources.Get "css/main.css" }}
-{{ if $css }}
-  {{ $css = $css | css.PostCSS }}
+{{/* =========================
+     CSS ASSETS
+     main.css = Tailwind only
+     Other files load separately to avoid @import issue
+========================= */}}
+
+{{ $mainCSS := resources.Get "css/main.css" }}
+{{ if $mainCSS }}
+  {{ $mainCSS = $mainCSS | css.PostCSS }}
   {{ if hugo.IsProduction }}
-    {{ $css = $css | minify | fingerprint }}
+    {{ $mainCSS = $mainCSS | minify | fingerprint }}
   {{ end }}
-  <link rel="stylesheet" href="{{ $css.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $css.Data.Integrity }}"{{ end }}>
+  <link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $mainCSS.Data.Integrity }}"{{ end }}>
 {{ else }}
-  {{ errorf "Không tìm thấy assets/css/main.css. Tạo file này đi anh." }}
+  {{ errorf "Không tìm thấy assets/css/main.css" }}
+{{ end }}
+
+{{ $cssFiles := slice
+  "css/layout.css"
+  "css/custom.css"
+  "css/contact.css"
+  "css/gallery.css"
+  "css/components/components.css"
+  "css/components/article-images.css"
+  "css/components/hero.css"
+  "css/components/portfolio.css"
+  "css/components/header.css"
+  "css/components/footer.css"
+  "css/components/toc.css"
+  "css/components/article.css"
+}}
+
+{{ range $cssFiles }}
+  {{ $file := resources.Get . }}
+  {{ if $file }}
+    {{ if hugo.IsProduction }}
+      {{ $file = $file | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ $file.RelPermalink }}" integrity="{{ $file.Data.Integrity }}">
+    {{ else }}
+      <link rel="stylesheet" href="{{ $file.RelPermalink }}">
+    {{ end }}
+  {{ else }}
+    {{ warnf "Không tìm thấy CSS asset: %s" . }}
+  {{ end }}
 {{ end }}
 
 <link rel="icon" href="/favicon.ico">
@@ -93,7 +128,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
 
 {{ if .IsHome }}
 {{ partial "schema-localbusiness.html" . }}

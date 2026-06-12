@@ -1,18 +1,48 @@
 ---
 title: "About"
-description: "Lan Pink Tattoo is a private tattoo studio in Ho Chi Minh City specializing in Fine Line Tattoo, Mini Tattoo, Blackwork Tattoo, and custom tattoo design."
-image: "images/og-cover.jpg"
+description: "Lan Pink Tattoo is a private tattoo studio in Ho Chi Minh City specializing in Fine Line Tattoos, Mini Tattoos, Blackwork, and custom tattoo design in a private, safe, and comfortable environment."
+image: "images/about/about-hero.jpg"
 ---
 
-# About Lan Pink Tattoo
+# Lan Pink Tattoo – Private Tattoo Studio in Ho Chi Minh City
 
-Lan Pink Tattoo is a private tattoo studio in Ho Chi Minh City, Vietnam, specializing in Fine Line Tattoo, Mini Tattoo, Blackwork Tattoo, and custom tattoo design.
+![Female Tattoo Artist Lan Pink](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp)
 
-We believe every tattoo tells a unique story. That is why each design is carefully discussed and tailored to the individual, creating artwork that reflects personal meaning rather than following mass-produced trends.
+Lan Pink Tattoo is a private tattoo studio in Ho Chi Minh City, specializing in Fine Line Tattoos, Mini Tattoos, Blackwork, and custom tattoo design.
+
+We believe that every tattoo tells a unique story. That is why every design is carefully discussed and created based on each client's ideas, personality, and preferences rather than relying on mass-produced designs.
+
+---
+
+## A Creative and Comfortable Studio Environment
+
+![Studio Interior](images/about/studio-interior.jpg)
+
+> FUTURE IMAGES:
+>
+> - Design workstation
+> - Consultation area
+> - Tattoo chair
+> - Studio interior
+
+Lan Pink Tattoo was created with the goal of providing a private, clean, and comfortable environment for every client.
+
+All consultations and tattoo sessions are arranged by appointment to ensure the best possible experience and personalized attention.
+
+---
 
 ## Signature Tattoo Styles
 
-Our studio focuses on several popular tattoo styles:
+![Mini Snake Wrist Tattoo](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/ran-mini-cotay.webp)
+
+> FUTURE IMAGE COLLAGE:
+>
+> - Fine Line Tattoo
+> - Mini Tattoo
+> - Floral Tattoo
+> - Blackwork Tattoo
+
+Lan Pink Tattoo focuses on some of today's most popular tattoo styles:
 
 - Fine Line Tattoo
 - Mini Tattoo
@@ -21,32 +51,97 @@ Our studio focuses on several popular tattoo styles:
 - Lettering Tattoo
 - Custom Tattoo Design
 
-Every piece is created with attention to detail, clean execution, and long-term aesthetic quality.
+Every piece is created with attention to detail, clean linework, balanced composition, and long-lasting results.
 
-## A Private and Comfortable Experience
+---
 
-Unlike busy walk-in tattoo shops, Lan Pink Tattoo operates as a private studio.
+## The Story Behind Lan Pink Tattoo
 
-Clients enjoy a calm, comfortable, and more personal environment, making the experience especially suitable for first-time tattoo clients and those who value privacy.
+![Lan Pink Tattoo Story](images/about/story.jpg)
 
-## Our Process
+> CURRENT IMAGE:
+>
+> Continue using a photo of Lan at work.
+>
+> FUTURE REPLACEMENTS:
+>
+> - Portrait photo of Lan
+> - Consultation session with a client
 
-1. Discuss ideas and placement.
-2. Consult on style, size, and pricing.
-3. Create or refine the design.
-4. Perform the tattoo using professional hygiene standards.
-5. Provide detailed aftercare guidance.
+Lan Pink Tattoo was founded from a passion for art and a desire to create meaningful, personal designs for every client.
+
+We believe that a great tattoo is not only about technical execution but also about the story, emotions, and memories behind every line.
+
+---
+
+## Private Studio Experience
+
+![Lan Pink Tattoo Studio Front](images/about/studio-front.jpg)
+
+> USE A PHOTO OF THE STUDIO FRONT.
+
+Unlike large and crowded tattoo shops, Lan Pink Tattoo operates as a private tattoo studio.
+
+Clients receive one-on-one consultation and tattoo services in a quiet, comfortable setting, making it especially suitable for first-time tattoo clients or anyone seeking a more personal experience.
+
+---
+
+## Our Tattoo Process
+
+### 1. Consultation
+
+We discuss your ideas, preferred placement, style, and expectations.
+
+### 2. Design & Revision
+
+The design is created or adjusted to fit your body and personal aesthetic.
+
+### 3. Tattoo Session
+
+The tattoo is performed using professional equipment and strict hygiene standards.
+
+### 4. Aftercare Guidance
+
+Detailed aftercare instructions are provided to support proper healing and long-lasting results.
+
+---
 
 ## Our Commitment
 
-- Honest and transparent consultation.
-- Single-use sterile tattoo equipment.
-- Custom-tailored designs.
-- Clear pricing before the appointment.
-- Ongoing aftercare support.
+![Sterile Tattoo Equipment](images/about/hygiene.jpg)
 
-## Book an Appointment
+> FUTURE IMAGES:
+>
+> - New tattoo needles
+> - Gloves
+> - Tattoo inks
+> - Sterile equipment tray
 
-If you are looking for Fine Line Tattoo, Mini Tattoo, or a custom tattoo design in Ho Chi Minh City, feel free to contact Lan Pink Tattoo through Facebook, Instagram, or the booking form on our website.
+- Clear consultation before every session
+- Single-use needles and hygienic equipment
+- Custom tattoo design tailored to each client
+- Transparent pricing
+- Dedicated aftercare support
 
-We look forward to helping you transform meaningful ideas into lasting artwork.
+---
+
+## Location & Contact Information
+
+Lan Pink Tattoo operates in Ho Chi Minh City as a private tattoo studio and works by appointment only.
+
+> Insert Google Maps here.
+
+### Contact
+
+- Facebook: Lan Pink Tattoo
+- Instagram: @lanpink.ink
+- Messenger Booking
+- Website Appointment Form
+
+---
+
+## Book a Consultation
+
+If you are looking for a Fine Line Tattoo artist, Mini Tattoo specialist, or custom tattoo design studio in Ho Chi Minh City, contact Lan Pink Tattoo for a personalized consultation.
+
+We are always ready to help you turn meaningful ideas into lasting artwork through the art of tattooing.

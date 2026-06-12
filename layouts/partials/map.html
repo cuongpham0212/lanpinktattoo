@@ -1,136 +1,98 @@
-<section class="border-t border-zinc-800 py-16 bg-zinc-950">
+<section class="lp-map-section border-t border-zinc-800 bg-zinc-950 py-12">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-  <div class="mx-auto max-w-7xl px-4">
+    <div class="grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-stretch">
 
-<div class="grid gap-10 lg:grid-cols-2">
+      <!-- Contact Info -->
+      <div class="flex flex-col justify-center">
 
-  <!-- Contact Info -->
+        <span class="text-pink-500 font-semibold uppercase tracking-wider">
+          {{ i18n "contact" }}
+        </span>
 
-  <div>
+        <h2 class="mt-3 text-4xl font-bold text-white">
+          {{ i18n "studio_name" }}
+        </h2>
 
-    <span class="text-pink-500 font-semibold uppercase tracking-wider">
-      {{ i18n "contact" }}
-    </span>
+        <p class="mt-4 text-zinc-400">
+          {{ i18n "studio_description" }}
+        </p>
 
-    <h2 class="mt-3 text-4xl font-bold text-white">
-      {{ i18n "studio_name" }}
-    </h2>
+        <div class="mt-7 space-y-4 text-zinc-300">
+          <p>{{ i18n "address" }}</p>
+          <p>{{ i18n "working_hours" }}</p>
+          <p>{{ i18n "booking_note" }}</p>
+        </div>
 
-    <p class="mt-4 text-zinc-400">
-      {{ i18n "studio_description" }}
-    </p>
+        <div class="mt-7 rounded-xl border border-zinc-800 bg-zinc-900 p-5">
+          <div class="flex items-center gap-2 text-lg font-semibold text-white">
+            {{ i18n "google_reviews" }}
+          </div>
 
-    <div class="mt-8 space-y-4 text-zinc-300">
+          <p class="mt-2 text-sm text-zinc-400">
+            {{ i18n "google_reviews_desc" }}
+          </p>
 
-      <p>
-        {{ i18n "address" }}
-      </p>
+          <a
+            href="https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block mt-4 text-pink-500 hover:text-pink-400">
+            {{ i18n "view_google" }}
+          </a>
+        </div>
 
-      <p>
-        {{ i18n "working_hours" }}
-      </p>
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a
+            href="https://www.facebook.com/LanPinkInk"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="rounded-full border border-zinc-700 px-4 py-2 text-sm text-zinc-300 transition hover:border-pink-500 hover:text-pink-500">
+            {{ i18n "facebook" }}
+          </a>
 
-      <p>
-        {{ i18n "booking_note" }}
-      </p>
+          <a
+            href="https://www.instagram.com/lanpink.ink/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="rounded-full border border-zinc-700 px-4 py-2 text-sm text-zinc-300 transition hover:border-pink-500 hover:text-pink-500">
+            {{ i18n "instagram" }}
+          </a>
+        </div>
 
-    </div>
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a
+            href="https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="rounded-full bg-pink-500 px-6 py-3 font-semibold text-white transition hover:bg-pink-600">
+            {{ i18n "directions" }}
+          </a>
 
-    <!-- Google Review -->
+          <a
+            href="https://www.facebook.com/LanPinkInk"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="rounded-full border border-pink-500 px-6 py-3 font-semibold text-pink-500 transition hover:bg-pink-500 hover:text-white">
+            {{ i18n "book_now" }}
+          </a>
+        </div>
 
-    <div class="mt-8 rounded-xl border border-zinc-800 bg-zinc-900 p-5">
-
-      <div class="flex items-center gap-2 text-lg font-semibold text-white">
-        {{ i18n "google_reviews" }}
       </div>
 
-      <p class="mt-2 text-sm text-zinc-400">
-        {{ i18n "google_reviews_desc" }}
-      </p>
-
-      <a
-        href="https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="inline-block mt-4 text-pink-500 hover:text-pink-400">
-
-        {{ i18n "view_google" }}
-
-      </a>
-
-    </div>
-
-    <!-- Social Links -->
-
-    <div class="mt-8 flex flex-wrap gap-3">
-
-      <a
-        href="https://www.facebook.com/LanPinkInk"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="rounded-full border border-zinc-700 px-4 py-2 text-sm text-zinc-300 transition hover:border-pink-500 hover:text-pink-500">
-
-        {{ i18n "facebook" }}
-
-      </a>
-
-      <a
-        href="https://www.instagram.com/lanpink.ink/"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="rounded-full border border-zinc-700 px-4 py-2 text-sm text-zinc-300 transition hover:border-pink-500 hover:text-pink-500">
-
-        {{ i18n "instagram" }}
-
-      </a>
-
-    </div>
-
-    <!-- Action Buttons -->
-
-    <div class="mt-8 flex flex-wrap gap-3">
-
-      <a
-        href="https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="rounded-full bg-pink-500 px-6 py-3 font-semibold text-white transition hover:bg-pink-600">
-
-        {{ i18n "directions" }}
-
-      </a>
-
-      <a
-        href="https://www.facebook.com/LanPinkInk"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="rounded-full border border-pink-500 px-6 py-3 font-semibold text-pink-500 transition hover:bg-pink-500 hover:text-white">
-
-        {{ i18n "book_now" }}
-
-      </a>
+      <!-- Google Maps -->
+      <div class="lp-map-card overflow-hidden rounded-2xl border border-zinc-800 shadow-xl">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.297687683675!2d106.64560557518416!3d10.864947757554367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175297e1d5f90ad%3A0x6dcd055198206b25!2slanpink%20ink%20-%20Private%20Tattoo%20studio!5e0!3m2!1svi!2s!4v1780945708400!5m2!1svi!2s"
+          class="block h-full min-h-[430px] w-full"
+          style="border:0;"
+          loading="lazy"
+          allowfullscreen=""
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
 
     </div>
 
   </div>
-
-  <!-- Google Maps -->
-
-  <div class="overflow-hidden rounded-2xl border border-zinc-800 shadow-xl">
-
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.297687683675!2d106.64560557518416!3d10.864947757554367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175297e1d5f90ad%3A0x6dcd055198206b25!2slanpink%20ink%20-%20Private%20Tattoo%20studio!5e0!3m2!1svi!2s!4v1780945708400!5m2!1svi!2s"
-      class="w-full h-[450px]"
-      style="border:0;"
-      loading="lazy"
-      allowfullscreen=""
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-
-  </div>
-
-</div>
-
-  </div>
-
 </section>
