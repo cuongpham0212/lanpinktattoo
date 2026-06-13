@@ -609,35 +609,39 @@ Thứ 3 - Chủ Nhật: 13:00 - 22:00<br>
       
 
       <div class="mt-8 border-t border-pink-100 pt-6">
-        <div class="flex flex-wrap items-center gap-3">
-          <span class="mr-1 text-sm font-bold text-neutral-900">
-            Chia sẻ:
-          </span>
+        <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
 
-          <a
-            href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fcontact%2f"
-            target="_blank"
-            rel="noopener"
-            class="rounded-full border border-pink-200 bg-white/70 px-4 py-2 text-sm font-semibold text-neutral-700 transition hover:border-blue-500 hover:bg-blue-500 hover:text-white">
-            Facebook
-          </a>
+          <div class="flex flex-wrap items-center gap-3">
+            <span class="mr-1 text-sm font-bold text-neutral-900">
+              Chia sẻ:
+            </span>
+
+            <a
+              href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fcontact%2f"
+              target="_blank"
+              rel="noopener"
+              class="rounded-full border border-pink-200 bg-white/70 px-4 py-2 text-sm font-semibold text-neutral-700 transition hover:border-blue-500 hover:bg-blue-500 hover:text-white">
+              Facebook
+            </a>
+
+            <button
+              type="button"
+              data-copy-url="http://localhost:1313/contact/"
+              data-copied-text="Đã copy ✓"
+              onclick="navigator.clipboard.writeText(this.dataset.copyUrl); this.textContent = this.dataset.copiedText;"
+              class="rounded-full border border-pink-200 bg-white/70 px-4 py-2 text-sm font-semibold text-neutral-700 transition hover:border-pink-500 hover:bg-pink-500 hover:text-white">
+              Copy link
+            </button>
+          </div>
 
           <a
             href="https://m.me/LanPinkInk"
             target="_blank"
             rel="noopener"
-            class="rounded-full border border-pink-200 bg-white/70 px-4 py-2 text-sm font-semibold text-neutral-700 transition hover:border-pink-500 hover:bg-pink-500 hover:text-white">
+            class="inline-flex w-fit items-center justify-center rounded-full bg-pink-500 px-5 py-2.5 text-sm font-extrabold text-white shadow-lg shadow-pink-500/20 transition hover:bg-pink-600">
             Tư vấn miễn phí
           </a>
 
-          <button
-            type="button"
-            data-copy-url="http://localhost:1313/contact/"
-            data-copied-text="Đã copy ✓"
-            onclick="navigator.clipboard.writeText(this.dataset.copyUrl); this.textContent = this.dataset.copiedText;"
-            class="rounded-full border border-pink-200 bg-white/70 px-4 py-2 text-sm font-semibold text-neutral-700 transition hover:border-pink-500 hover:bg-pink-500 hover:text-white">
-            Copy link
-          </button>
         </div>
       </div>
 

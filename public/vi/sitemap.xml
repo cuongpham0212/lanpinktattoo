@@ -577,15 +577,11 @@
                 href="http://localhost:1313/tags/tattoo-pricing/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>http://localhost:1313/en/about-lan-pink-ink-studio/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/en/contact/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/en/gallery/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -596,6 +592,16 @@
     <loc>http://localhost:1313/lan-pink-tattoo-artist/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/lan-pink-tattoo-artist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/lan-pink-tattoo-artist/"
+                />
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
     <changefreq>weekly</changefreq>
@@ -611,7 +617,11 @@
                 href="http://localhost:1313/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/portfolio/</loc>
+    <loc>http://localhost:1313/en/portfolio/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tac-pham/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
