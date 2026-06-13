@@ -589,7 +589,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/gioi-thieu/</loc>
+    <loc>http://localhost:1313/en/lan-pink-tattoo-artist/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/lan-pink-tattoo-artist/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -608,6 +612,10 @@
                 />
   </url><url>
     <loc>http://localhost:1313/portfolio/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/ve-lan-pink-ink-studio/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

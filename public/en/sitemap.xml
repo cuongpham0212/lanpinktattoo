@@ -448,5 +448,9 @@
     <loc>http://localhost:1313/en/gallery/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/en/lan-pink-tattoo-artist/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
