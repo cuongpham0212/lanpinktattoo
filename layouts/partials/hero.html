@@ -41,8 +41,12 @@
           {{ i18n "view_gallery" }}
         </a>
 
-        <a href="{{ "contact/" | relLangURL }}" class="lp-btn-secondary">
-          {{ i18n "book_now" }}
+        <a
+          href="{{ .Site.Params.messenger | default .Site.Params.bookingUrl }}"
+          target="_blank"
+          rel="noopener"
+          class="lp-btn-secondary">
+          {{ i18n "consult_now" | default "Tư vấn miễn phí" }}
         </a>
       </div>
     </div>

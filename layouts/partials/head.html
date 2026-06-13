@@ -1,18 +1,30 @@
 {{ $title := "" }}
 {{ if .IsHome }}
-  {{ $title = printf "%s - %s" .Site.Title .Site.Params.description }}
+  {{ if eq .Language.Lang "vi" }}
+    {{ $title = "Lan Pink Tattoo | Lan Pink Ink - Private Tattoo Studio TP.HCM" }}
+  {{ else }}
+    {{ $title = "Lan Pink Tattoo | Lan Pink Ink - Private Tattoo Studio in Ho Chi Minh City" }}
+  {{ end }}
 {{ else }}
   {{ $title = printf "%s | %s" .Title .Site.Title }}
 {{ end }}
 
 {{ $description := "" }}
-{{ with .Description }}
-  {{ $description = . }}
-{{ else }}
-  {{ if .IsPage }}
-    {{ $description = .Summary | plainify | truncate 160 }}
+{{ if .IsHome }}
+  {{ if eq .Language.Lang "vi" }}
+    {{ $description = "Lan Pink Tattoo, còn được biết đến với tên Lan Pink Ink, là private tattoo studio tại TP.HCM, chuyên Fine Line Tattoo, Mini Tattoo, Blackwork và thiết kế hình xăm cá nhân." }}
   {{ else }}
-    {{ $description = .Site.Params.description }}
+    {{ $description = "Lan Pink Tattoo, also known as Lan Pink Ink, is a private tattoo studio in Ho Chi Minh City specializing in Fine Line Tattoo, Mini Tattoo, Blackwork, and custom tattoo designs." }}
+  {{ end }}
+{{ else }}
+  {{ with .Description }}
+    {{ $description = . }}
+  {{ else }}
+    {{ if .IsPage }}
+      {{ $description = .Summary | plainify | truncate 160 }}
+    {{ else }}
+      {{ $description = .Site.Params.description }}
+    {{ end }}
   {{ end }}
 {{ end }}
 
@@ -54,18 +66,18 @@
 <meta property="og:type" content="website">
 {{ end }}
 
-<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $description }}">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:site_name" content="Lan Pink Tattoo">
 <meta property="og:locale" content="{{ if eq .Language.Lang "vi" }}vi_VN{{ else }}en_US{{ end }}">
 <meta property="og:image" content="{{ $ogImages.og.abs }}">
 <meta property="og:image:width" content="{{ $ogImages.og.width }}">
 <meta property="og:image:height" content="{{ $ogImages.og.height }}">
-<meta property="og:image:alt" content="{{ with .Params.image_alt }}{{ . }}{{ else }}{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}{{ end }}">
+<meta property="og:image:alt" content="{{ with .Params.image_alt }}{{ . }}{{ else }}{{ if .IsHome }}Lan Pink Tattoo - Lan Pink Ink Private Tattoo Studio TP.HCM{{ else }}{{ .Title }}{{ end }}{{ end }}">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:title" content="{{ $title }}">
 <meta name="twitter:description" content="{{ $description }}">
 <meta name="twitter:image" content="{{ $ogImages.og.abs }}">
 {{ with .Site.Params.twitter }}
@@ -142,7 +154,7 @@
   "image": {{ $ogImages.og.abs | jsonify }},
   "isPartOf": {
     "@type": "WebSite",
-    "name": {{ .Site.Title | jsonify }},
+    "name": "Lan Pink Tattoo",
     "url": {{ .Site.BaseURL | jsonify }}
   },
   "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},

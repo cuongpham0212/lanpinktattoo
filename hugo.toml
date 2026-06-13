@@ -18,39 +18,34 @@ enableRobotsTXT = false
       flag = '🇻🇳'
 
     [[languages.vi.menu.main]]
-      name = 'Trang chủ'
-      pageRef = '/'
-      weight = 1
-
-    [[languages.vi.menu.main]]
       name = 'Tác phẩm'
       pageRef = '/gallery'
-      weight = 2
+      weight = 1
 
     [[languages.vi.menu.main]]
       name = 'Phong cách xăm'
       pageRef = '/phong-cach-xam'
-      weight = 3
+      weight = 2
 
     [[languages.vi.menu.main]]
       name = 'Bảng giá'
       pageRef = '/bang-gia'
-      weight = 4
+      weight = 3
 
     [[languages.vi.menu.main]]
       name = 'Cẩm nang Tattoo'
       pageRef = '/cam-nang-tattoo'
-      weight = 5
+      weight = 4
 
     [[languages.vi.menu.main]]
       name = 'Đánh giá'
       pageRef = '/danh-gia'
-      weight = 6
+      weight = 5
 
     [[languages.vi.menu.main]]
       name = 'FAQ'
       pageRef = '/faq'
-      weight = 7
+      weight = 6
 
   [languages.en]
     languageName = 'English'
@@ -63,39 +58,34 @@ enableRobotsTXT = false
       flag = '🇺🇸'
 
     [[languages.en.menu.main]]
-      name = 'Home'
-      pageRef = '/'
-      weight = 1
-
-    [[languages.en.menu.main]]
       name = 'Portfolio'
       pageRef = '/portfolio'
-      weight = 2
+      weight = 1
 
     [[languages.en.menu.main]]
       name = 'Tattoo Styles'
       pageRef = '/tattoo-styles'
-      weight = 3
+      weight = 2
 
     [[languages.en.menu.main]]
       name = 'Pricing'
       pageRef = '/pricing'
-      weight = 4
+      weight = 3
 
     [[languages.en.menu.main]]
       name = 'Tattoo Guide'
       pageRef = '/tattoo-guide'
-      weight = 5
+      weight = 4
 
     [[languages.en.menu.main]]
       name = 'Reviews'
       pageRef = '/reviews'
-      weight = 6
+      weight = 5
 
     [[languages.en.menu.main]]
       name = 'FAQ'
       pageRef = '/faq'
-      weight = 7
+      weight = 6
 
 [markup]
   [markup.goldmark]
@@ -115,7 +105,7 @@ enableRobotsTXT = false
   facebook = 'https://www.facebook.com/LanPinkInk'
   messenger = "https://m.me/LanPinkInk"
   googleBusiness = 'https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9'
-  bookingUrl = 'https://www.facebook.com/LanPinkInk'
+  bookingUrl = "https://m.me/LanPinkInk"
 
 [outputs]
   home = ['HTML', 'RSS']

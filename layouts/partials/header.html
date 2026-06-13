@@ -13,10 +13,7 @@
       <nav class="hidden min-w-0 flex-1 items-center justify-center gap-1.5 xl:gap-2 lg:flex" aria-label="Main navigation">
         {{ range .Site.Menus.main }}
           {{ $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
-          <a
-            href="{{ .URL }}"
-            class="lp-nav-link {{ if $active }}is-active{{ end }}"
-          >
+          <a href="{{ .URL }}" class="lp-nav-link {{ if $active }}is-active{{ end }}">
             {{ .Name }}
           </a>
         {{ end }}
@@ -25,7 +22,7 @@
       <div class="flex shrink-0 items-center justify-end gap-3">
 
         <a
-          href="{{ .Site.Params.bookingUrl }}"
+          href="{{ .Site.Params.messenger | default .Site.Params.bookingUrl }}"
           target="_blank"
           rel="noopener"
           class="lp-booking-btn hidden whitespace-nowrap rounded-full px-4 py-2 text-sm font-extrabold shadow-md transition hover:-translate-y-0.5 md:inline-flex"
@@ -36,18 +33,10 @@
         <div class="hidden sm:flex">
           {{ range .Site.Home.AllTranslations }}
             {{ if ne .Language.Lang $siteLanguage }}
-            <a
-              href="{{ .RelPermalink }}"
-              class="lp-lang-switch"
-              aria-label="Switch language"
-            >
+            <a href="{{ .RelPermalink }}" class="lp-lang-switch" aria-label="Switch language">
               <span>🌐</span>
               <span>
-                {{ if eq .Language.Lang "en" }}
-                  English
-                {{ else }}
-                  Tiếng Việt
-                {{ end }}
+                {{ if eq .Language.Lang "en" }}English{{ else }}Tiếng Việt{{ end }}
               </span>
             </a>
             {{ end }}
@@ -81,19 +70,15 @@
 
   <div id="menumobile" class="lp-menumobile hidden lg:hidden">
     <div>
-
       {{ range .Site.Menus.main }}
         {{ $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
-        <a
-          href="{{ .URL }}"
-          class="lp-menumobile-link {{ if $active }}is-active{{ end }}"
-        >
+        <a href="{{ .URL }}" class="lp-menumobile-link {{ if $active }}is-active{{ end }}">
           {{ .Name }}
         </a>
       {{ end }}
 
       <a
-        href="{{ .Site.Params.bookingUrl }}"
+        href="{{ .Site.Params.messenger | default .Site.Params.bookingUrl }}"
         target="_blank"
         rel="noopener"
         class="lp-menumobile-booking"
@@ -104,24 +89,15 @@
       <div class="mt-4 border-t border-pink-100 pt-4">
         {{ range .Site.Home.AllTranslations }}
           {{ if ne .Language.Lang $siteLanguage }}
-          <a
-            href="{{ .RelPermalink }}"
-            class="lp-menumobile-lang-switch"
-            aria-label="Switch language"
-          >
+          <a href="{{ .RelPermalink }}" class="lp-menumobile-lang-switch" aria-label="Switch language">
             <span>🌐</span>
             <span>
-              {{ if eq .Language.Lang "en" }}
-                English
-              {{ else }}
-                Tiếng Việt
-              {{ end }}
+              {{ if eq .Language.Lang "en" }}English{{ else }}Tiếng Việt{{ end }}
             </span>
           </a>
           {{ end }}
         {{ end }}
       </div>
-
     </div>
   </div>
 </header>

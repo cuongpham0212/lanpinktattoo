@@ -6,7 +6,7 @@
     <nav aria-label="Breadcrumb" class="mb-4">
       <ol class="flex items-center gap-2 text-sm lp-breadcrumb">
         <li>
-          <a href="{{ .Site.BaseURL | relLangURL }}" class="lp-link">
+          <a href="{{ .Site.Home.RelPermalink }}" class="lp-link">
             {{ i18n "home" | default "Home" }}
           </a>
         </li>
@@ -54,7 +54,9 @@
 
 <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
 
-  {{ $paginator := .Paginate .Pages }}
+  {{ $currentLang := .Lang }}
+  {{ $pages := where .Pages "Lang" $currentLang }}
+  {{ $paginator := .Paginate $pages }}
 
   {{ if $paginator.Pages }}
 
@@ -124,7 +126,6 @@
 
           {{ if and $images.original.width $images.original.height }}
             {{ $ratio := div (float $images.original.height) (float $images.original.width) }}
-
             {{ if gt $ratio 1.15 }}
               {{ $orientation = "portrait" }}
             {{ end }}
