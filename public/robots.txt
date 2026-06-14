@@ -38,4 +38,4 @@ Disallow: /
 User-agent: Applebot-Extended
 Disallow: /
 
-Sitemap: https://lanpinktattoo.netlify.app/sitemap.xml
+Sitemap: https://lanpinktattoo.com/sitemap.xml
