@@ -53,6 +53,7 @@
       <div class="lp-content" itemprop="articleBody" style="max-width: none;">
         {{ .Content }}
       </div>
+      {{ partial "article-cta.html" . }}
 
       {{ with .Params.tags }}
       <div class="mt-10 border-t border-pink-100 pt-6">

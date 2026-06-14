@@ -90,3 +90,12 @@ other = "Kết nối với Lan Pink Tattoo"
 
 [service_policy]
 other = "Chính sách dịch vụ"
+
+[ctaTitle]
+other = "Đặt lịch tư vấn"
+
+[ctaText]
+other = "Bạn đã có ý tưởng cho hình xăm của mình? 👉 Nhắn tin trực tiếp cho Lan Pink Ink để được tư vấn thiết kế theo yêu cầu."
+
+[ctaButton]
+other = "Đặt lịch qua Messenger"

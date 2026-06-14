@@ -19,7 +19,7 @@ enableRobotsTXT = false
 
     [[languages.vi.menu.main]]
       name = 'Tác phẩm'
-      pageRef = '/portfolio'
+      pageRef = '/tac-pham'
       weight = 1
 
     [[languages.vi.menu.main]]
