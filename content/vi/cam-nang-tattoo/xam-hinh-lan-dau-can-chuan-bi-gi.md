@@ -95,6 +95,8 @@ Artist sẽ hỗ trợ điều chỉnh thiết kế phù hợp với cơ thể v
 
 ---
 
+{{< explore-more >}}
+
 ## 6. Tìm hiểu cách chăm sóc sau khi xăm
 
 Quá trình chăm sóc sau khi xăm ảnh hưởng trực tiếp đến chất lượng hình xăm sau khi lành.

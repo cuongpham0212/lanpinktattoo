@@ -37,6 +37,12 @@ keywords:
   - tattoo studio district 12
   - lan pink tattoo
   - lan pink ink
+
+artwork_subject: "Misa cat portrait tattoo"
+artwork_style: "Pet Portrait Tattoo, Fine Line Tattoo, Black & Grey Tattoo"
+artwork_position: "Forearm"
+artwork_client: "Returning client and pet lover"
+artwork_meaning: "Preserving the memory and unique personality of Misa, a beloved companion"
 ---
 
 ![Misa cat portrait tattoo by Lan Pink Tattoo in Ho Chi Minh City](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-chan-dung-meo-misa.webp)
@@ -99,6 +105,7 @@ original Google review here
 </a>.
 </p>
 
+{{< explore-more >}}
 ## Pet Portrait Tattoo at Lan Pink Tattoo
 
 Pet tattoos often carry deep emotional value because every design is connected to a personal story.

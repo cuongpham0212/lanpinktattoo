@@ -81,6 +81,8 @@ Unlike lining, shading usually covers a larger surface area of skin.
 
 ---
 
+{{< explore-more >}}
+
 ## What Does Shading Feel Like?
 
 The sensation of shading is often described as:

@@ -99,3 +99,30 @@ other = "Do you already have an idea for your tattoo? 👉 Send a message direct
 
 [ctaButton]
 other = "Book via Messenger"
+
+[explore_more]
+other = "Explore More at Lan Pink Ink"
+
+[artwork_information]
+other = "Artwork Information"
+
+[artwork_subject]
+other = "Subject"
+
+[artwork_style]
+other = "Style"
+
+[artwork_position]
+other = "Placement"
+
+[artwork_client]
+other = "Client"
+
+[artwork_meaning]
+other = "Meaning"
+
+[artwork_created_by]
+other = "Created by"
+
+[artwork_location]
+other = "Location"

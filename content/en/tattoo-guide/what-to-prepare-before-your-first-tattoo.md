@@ -99,6 +99,8 @@ Your artist can then help refine the design and adapt it to your body and prefer
 
 ---
 
+{{< explore-more >}}
+
 ## 6. Learn About Tattoo Aftercare
 
 Proper aftercare plays a major role in how your tattoo heals and looks over time.

@@ -99,3 +99,30 @@ other = "Bạn đã có ý tưởng cho hình xăm của mình? 👉 Nhắn tin 
 
 [ctaButton]
 other = "Đặt lịch qua Messenger"
+
+[explore_more]
+other = "Khám phá thêm tại Lan Pink Ink"
+
+[artwork_information]
+other = "Thông Tin Tác Phẩm"
+
+[artwork_subject]
+other = "Chủ đề"
+
+[artwork_style]
+other = "Phong cách"
+
+[artwork_position]
+other = "Vị trí"
+
+[artwork_client]
+other = "Khách hàng"
+
+[artwork_meaning]
+other = "Ý nghĩa"
+
+[artwork_created_by]
+other = "Thực hiện bởi"
+
+[artwork_location]
+other = "Địa điểm"

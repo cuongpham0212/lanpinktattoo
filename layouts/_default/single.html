@@ -53,6 +53,7 @@
       <div class="lp-content" itemprop="articleBody" style="max-width: none;">
         {{ .Content }}
       </div>
+      {{ partial "artwork-info.html" . }}
       {{ partial "article-cta.html" . }}
 
       {{ with .Params.tags }}

@@ -99,6 +99,8 @@ Khi artist tiếp tục làm việc trên cùng khu vực, da trở nên nhạy 
 
 ---
 
+{{< explore-more >}}
+
 ## Vậy kim đi nét hay kim tô đau hơn?
 
 Điều này phụ thuộc vào từng người.

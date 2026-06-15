@@ -114,3 +114,20 @@ enableRobotsTXT = false
   changefreq = 'weekly'
   priority = 0.5
   filename = 'sitemap.xml'
+
+[related]
+threshold = 50
+includeNewer = true
+toLower = true
+
+[[related.indices]]
+name = "tags"
+weight = 100
+
+[[related.indices]]
+name = "title"
+weight = 70
+
+[[related.indices]]
+name = "description"
+weight = 50

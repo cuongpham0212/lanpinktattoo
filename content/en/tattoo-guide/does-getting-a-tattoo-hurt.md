@@ -84,6 +84,8 @@ These placements are still popular, but beginners may want to discuss size and d
 
 ---
 
+{{< explore-more >}}
+
 ## Are Small Tattoos Less Painful?
 
 In many cases, yes. Smaller tattoos often involve shorter sessions and less overall trauma to the skin.
