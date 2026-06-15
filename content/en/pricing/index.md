@@ -7,7 +7,7 @@ slug: "tattoo-price-list-ho-chi-minh-city"
 date: 2026-06-11
 draft: false
 
-image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-price-guide.webp"
+image: "hhttps://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-price-list-ho-chi-minh-city.webp"
 
 image_alt: "Lan Pink Tattoo price guide for mini tattoos, Japanese tattoos, fine line tattoos and cosmetic tattoo services in Ho Chi Minh City, Vietnam"
 
@@ -41,7 +41,7 @@ keywords:
   - lan pink ink
 ---
 
-![Lan Pink Tattoo Price Guide in Ho Chi Minh City](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-price-guide.webp)
+![Lan Pink Tattoo Price Guide in Ho Chi Minh City](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-price-list-ho-chi-minh-city.webp)
 
 *Official price guide from Lan Pink Tattoo (Lan Pink Ink), a private tattoo studio in District 12, Ho Chi Minh City, offering Mini Tattoo, Fine Line Tattoo, Japanese Tattoo and Cosmetic Tattoo services.*
 
