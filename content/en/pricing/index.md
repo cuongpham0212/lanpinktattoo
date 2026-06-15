@@ -1,6 +1,6 @@
 ---
 title: "Tattoo Price List in Ho Chi Minh City 2026"
-description: "Updated tattoo price list at Lan Pink Tattoo Studio. Mini Tattoo, Fine Line Tattoo, Japanese Tattoo, Blackwork and custom tattoo pricing in Ho Chi Minh City."
+description: "Updated tattoo price list at Lan Pink Tattoo Studio. Mini Tattoo, Fine Line Tattoo, Japanese Tattoo, Blackwork, cosmetic tattoo and custom tattoo pricing in Ho Chi Minh City."
 
 slug: "tattoo-price-list-ho-chi-minh-city"
 
@@ -18,6 +18,7 @@ tags:
   - fine line tattoo
   - blackwork tattoo
   - japanese tattoo
+  - cosmetic tattoo
   - female tattoo artist
   - tattoo studio hcmc
   - tattoo district 12
@@ -32,6 +33,8 @@ keywords:
   - tattoo price list vietnam
   - mini tattoo price
   - fine line tattoo price
+  - japanese tattoo price
+  - cosmetic tattoo price
   - female tattoo artist ho chi minh city
   - tattoo studio district 12
   - lan pink tattoo
@@ -44,7 +47,7 @@ keywords:
 
 # Tattoo Price List in Ho Chi Minh City 2026
 
-If you are looking for a clear and transparent **tattoo price list in Ho Chi Minh City**, Lan Pink Tattoo provides reference pricing for popular styles including **Mini Tattoo**, **Fine Line Tattoo**, **Japanese Tattoo**, **Blackwork Tattoo** and custom tattoo designs.
+If you are looking for a clear and transparent **tattoo price list in Ho Chi Minh City**, Lan Pink Tattoo provides reference pricing for popular styles including **Mini Tattoo**, **Fine Line Tattoo**, **Japanese Tattoo**, **Blackwork Tattoo**, **Cosmetic Tattoo** and custom tattoo designs.
 
 At **Lan Pink Tattoo (Lan Pink Ink)**, every tattoo is quoted individually based on size, placement, level of detail and tattoo style. The pricing below is intended as a reference to help clients estimate their budget before booking a consultation.
 
