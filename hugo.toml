@@ -11,7 +11,7 @@ enableRobotsTXT = false
     languageName = 'Tiếng Việt'
     weight = 1
     title = 'Lan Pink Tattoo'
-    contentDir = 'content'
+    contentDir = 'content/vi'
 
     [languages.vi.params]
       description = 'Studio xăm nghệ thuật tại TP.HCM - Chuyên Fine Line, Mini Tattoo, Blackwork và thiết kế hình xăm độc bản'
