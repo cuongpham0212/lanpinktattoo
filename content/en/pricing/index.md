@@ -1,131 +1,172 @@
 ---
 title: "Tattoo Price List in Ho Chi Minh City 2026"
-description: "Updated tattoo price list at Lan Pink Tattoo Studio. Mini Tattoo, Fine Line Tattoo, Japanese style, Blackwork and custom tattoo pricing in Ho Chi Minh City."
-slug: "pricing"
+description: "Updated tattoo price list at Lan Pink Tattoo Studio. Mini Tattoo, Fine Line Tattoo, Japanese Tattoo, Blackwork and custom tattoo pricing in Ho Chi Minh City."
+
+slug: "tattoo-price-list-ho-chi-minh-city"
+
 date: 2026-06-11
 draft: false
 
-image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/menu.png"
+image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-price-guide.webp"
+
+image_alt: "Lan Pink Tattoo price guide for mini tattoos, Japanese tattoos, fine line tattoos and cosmetic tattoo services in Ho Chi Minh City, Vietnam"
 
 tags:
   - tattoo price ho chi minh city
+  - tattoo price list
   - mini tattoo
   - fine line tattoo
+  - blackwork tattoo
+  - japanese tattoo
+  - female tattoo artist
   - tattoo studio hcmc
   - tattoo district 12
+  - lan pink tattoo
+  - lan pink ink
 
 categories:
   - Pricing
+
+keywords:
+  - tattoo price ho chi minh city
+  - tattoo price list vietnam
+  - mini tattoo price
+  - fine line tattoo price
+  - female tattoo artist ho chi minh city
+  - tattoo studio district 12
+  - lan pink tattoo
+  - lan pink ink
 ---
+
+![Lan Pink Tattoo Price Guide in Ho Chi Minh City](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-price-guide.webp)
+
+*Official price guide from Lan Pink Tattoo (Lan Pink Ink), a private tattoo studio in District 12, Ho Chi Minh City, offering Mini Tattoo, Fine Line Tattoo, Japanese Tattoo and Cosmetic Tattoo services.*
 
 # Tattoo Price List in Ho Chi Minh City 2026
 
-If you are looking for a clear **tattoo price list in Ho Chi Minh City**, especially for styles such as **Mini Tattoo**, **Fine Line Tattoo**, **Blackwork**, Japanese-inspired tattoos or custom designs, Lan Pink Tattoo Studio provides transparent reference pricing before you book an appointment.
+If you are looking for a clear and transparent **tattoo price list in Ho Chi Minh City**, Lan Pink Tattoo provides reference pricing for popular styles including **Mini Tattoo**, **Fine Line Tattoo**, **Japanese Tattoo**, **Blackwork Tattoo** and custom tattoo designs.
 
-At Lan Pink Tattoo, each tattoo is quoted based on size, placement, detail level and the style you want. The price list below is for reference, helping you estimate your budget before sending your design idea.
-
-![Lan Pink Tattoo price list in Ho Chi Minh City](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/menu.png "Tattoo service price list at Lan Pink Tattoo Studio")
+At **Lan Pink Tattoo (Lan Pink Ink)**, every tattoo is quoted individually based on size, placement, level of detail and tattoo style. The pricing below is intended as a reference to help clients estimate their budget before booking a consultation.
 
 ## Mini Tattoo Price
 
-**Mini Tattoo** is perfect for people who love small, delicate and meaningful tattoos. This style works well on the wrist, ankle, shoulder, neck, finger or other small body placements.
+Mini Tattoos are perfect for clients who love small, meaningful and delicate designs.
 
 Reference pricing:
 
-- Under 5cm: from 200,000 VND to 600,000 VND
-- Under 10cm: from 400,000 VND to 900,000 VND
+- Under 2 inches (5cm): from $8 – $24
+- Under 4 inches (10cm): from $16 – $35
 
 Popular Mini Tattoo ideas include:
 
-- Small flowers
+- Floral tattoos
 - Signature tattoos
-- Names
+- Name tattoos
 - Zodiac symbols
 - Hearts
 - Minimalist designs
-- Couple tattoos
-- Meaningful personal symbols
+- Matching couple tattoos
+- Personal meaningful symbols
 
 ## Fine Line Tattoo Price
 
-**Fine Line Tattoo** is a delicate tattoo style using clean, thin and elegant lines. It is suitable for clients who prefer subtle, feminine, minimal and personal tattoos.
+Fine Line Tattoo is one of the most requested tattoo styles at Lan Pink Tattoo.
 
-Fine Line Tattoo pricing depends on:
+This style focuses on clean, elegant and delicate lines, making it ideal for clients looking for subtle and personalized designs.
+
+Pricing depends on:
 
 - Tattoo size
-- Line detail
-- Body placement
+- Design complexity
+- Tattoo placement
 - Working time
-- Ready-made design or custom design
+- Custom design requirements
 
-For an accurate quote, you can send your reference image or idea to Lan Pink Tattoo through Facebook or Instagram.
+For an accurate quote, clients are encouraged to send reference images before booking.
 
-## Japanese Style Tattoo Price
+## Japanese Tattoo Price
 
-For larger Japanese-inspired tattoo pieces, pricing usually depends on coverage area, background work, detail level and the number of sessions required.
-
-Reference pricing:
-
-- Full arm or full leg: from 1,500,000 VND
-- Full back: from 1,700,000 VND
-- Background shading and coloring: 700,000 VND per session
-- Session duration: around 4 hours
-
-Large tattoos should be discussed carefully before starting to ensure good composition, body flow and a suitable completion plan.
-
-## Blackwork, Geometric and Western Tattoo Price
-
-Styles such as **Blackwork**, **Geometric**, **Chicano**, Western-inspired tattoo designs or bold shaded pieces are usually quoted based on size and detail.
+Large Japanese-inspired tattoo projects are usually priced according to body coverage, background work, detail level and the number of sessions required.
 
 Reference pricing:
 
-- A3 size: from 1,000,000 VND
+- Full arm or full leg: from $60
+- Full back: from $70
+- Background shading and coloring: $28 per session
+- Session duration: approximately 4 hours
 
-For detailed designs, heavy shading or custom artwork, the studio will provide a specific quote after reviewing your reference.
+Large projects should always be discussed beforehand to create a suitable design and tattoo plan.
 
-## What affects tattoo pricing?
+## Blackwork, Geometric and Custom Tattoo Price
 
-Tattoo pricing is not based only on size. A small but highly detailed tattoo can take more time than a larger simple design.
+Blackwork, Geometric Tattoo, Chicano-inspired designs and other custom tattoo styles are generally quoted according to size and detail.
 
-Common factors that affect the final price:
+Reference pricing:
+
+- A3 size design: from $40
+
+Detailed custom projects may require individual consultation before pricing.
+
+## Cosmetic Tattoo Services
+
+Lan Pink Tattoo also provides selected cosmetic tattoo services.
+
+Reference pricing:
+
+- Lip Neutralization: $16
+- Lip Blush: $20
+- Areola Blush: $20
+- Beauty Mark Tattoo: $2
+
+Please contact the studio directly for consultation regarding cosmetic tattoo procedures.
+
+## What Affects Tattoo Pricing?
+
+Tattoo pricing is influenced by several factors beyond size alone.
+
+Common factors include:
 
 - Tattoo size
-- Body placement
+- Tattoo placement
 - Detail level
 - Tattoo style
-- Black and grey or color
-- Custom design requirement
+- Black and grey or color work
+- Custom design requirements
 - Working time
 - Number of sessions
 
-The best way to get an accurate price is to send your design idea directly for consultation.
+A small but highly detailed tattoo may require more time than a larger simple design.
 
-## Why choose Lan Pink Tattoo?
+## Why Choose Lan Pink Tattoo?
 
-Lan Pink Tattoo is a private tattoo studio in Ho Chi Minh City, suitable for clients who prefer a quiet space, personal consultation and custom tattoo work.
+Lan Pink Tattoo is a private tattoo studio in District 12, Ho Chi Minh City, created for clients who value a quiet environment, personal consultation and custom tattoo design.
 
 Studio highlights:
 
-- Design consultation before tattooing
-- Custom tattoo design available
-- Suitable for Mini Tattoo, Fine Line Tattoo and Blackwork
-- Private studio space
-- Clean and hygienic process
+- Personalized tattoo consultation
+- Custom tattoo design service
+- Fine Line Tattoo specialist
+- Mini Tattoo specialist
+- Blackwork Tattoo available
+- Private studio environment
+- Hygienic tattoo procedure
 - Single-use tattoo needles
-- Aftercare guidance provided
-
-## Need a tattoo consultation?
-
-You can send your reference image, preferred size and tattoo placement to Lan Pink Tattoo for a more accurate quote.
-
-You can also visit the **FAQ** section on our website to learn more about tattoo aftercare, booking, preparation before tattooing and common questions.
+- Tattoo aftercare guidance
 
 ## Contact Lan Pink Tattoo
 
-Address: 41/14 Nguyen Thi Kieu, District 12, Ho Chi Minh City
+Address:
 
-Facebook: https://www.facebook.com/LanPinkInk
+41/14 Nguyen Thi Kieu Street  
+Hiep Thanh Ward, District 12  
+Ho Chi Minh City, Vietnam
 
-Instagram: https://www.instagram.com/lanpink.ink/
+Facebook:
 
-Book your appointment in advance to receive consultation, pricing and a tattoo design that fits your style.
+https://www.facebook.com/LanPinkInk
+
+Instagram:
+
+https://www.instagram.com/lanpink.ink/
+
+Book your appointment in advance to receive personalized consultation, tattoo pricing and custom design recommendations from Lan Pink Tattoo.
