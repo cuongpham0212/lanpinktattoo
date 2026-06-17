@@ -12,10 +12,30 @@
 
       <nav class="hidden min-w-0 flex-1 items-center justify-center gap-1.5 xl:gap-2 lg:flex" aria-label="Main navigation">
         {{ range .Site.Menus.main }}
-          {{ $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
-          <a href="{{ .URL }}" class="lp-nav-link {{ if $active }}is-active{{ end }}">
-            {{ .Name }}
-          </a>
+          {{ if not .Parent }}
+            {{ $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+
+            {{ if .HasChildren }}
+              <div class="lp-nav-dropdown relative">
+                <a href="{{ .URL }}" class="lp-nav-link {{ if $active }}is-active{{ end }}">
+                  {{ .Name }}
+                </a>
+
+                <div class="lp-nav-dropdown-menu">
+                  {{ range .Children }}
+                    {{ $childActive := $.IsMenuCurrent "main" . }}
+                    <a href="{{ .URL }}" class="lp-nav-dropdown-link {{ if $childActive }}is-active{{ end }}">
+                      {{ .Name }}
+                    </a>
+                  {{ end }}
+                </div>
+              </div>
+            {{ else }}
+              <a href="{{ .URL }}" class="lp-nav-link {{ if $active }}is-active{{ end }}">
+                {{ .Name }}
+              </a>
+            {{ end }}
+          {{ end }}
         {{ end }}
       </nav>
 
@@ -33,12 +53,12 @@
         <div class="hidden sm:flex">
           {{ range .Site.Home.AllTranslations }}
             {{ if ne .Language.Lang $siteLanguage }}
-            <a href="{{ .RelPermalink }}" class="lp-lang-switch" aria-label="Switch language">
-              <span>🌐</span>
-              <span>
-                {{ if eq .Language.Lang "en" }}English{{ else }}Tiếng Việt{{ end }}
-              </span>
-            </a>
+              <a href="{{ .RelPermalink }}" class="lp-lang-switch" aria-label="Switch language">
+                <span>🌐</span>
+                <span>
+                  {{ if eq .Language.Lang "en" }}English{{ else }}Tiếng Việt{{ end }}
+                </span>
+              </a>
             {{ end }}
           {{ end }}
         </div>
@@ -71,10 +91,39 @@
   <div id="menumobile" class="lp-menumobile hidden lg:hidden">
     <div>
       {{ range .Site.Menus.main }}
-        {{ $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
-        <a href="{{ .URL }}" class="lp-menumobile-link {{ if $active }}is-active{{ end }}">
-          {{ .Name }}
-        </a>
+        {{ if not .Parent }}
+          {{ $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+
+          {{ if .HasChildren }}
+            <div class="lp-menumobile-group">
+              <button
+                type="button"
+                class="lp-menumobile-link lp-menumobile-parent {{ if $active }}is-active{{ end }}"
+                onclick="this.closest('.lp-menumobile-group').classList.toggle('is-open')"
+              >
+                <span>{{ .Name }}</span>
+                <span class="lp-menumobile-arrow">⌄</span>
+              </button>
+
+              <div class="lp-menumobile-submenu">
+                <a href="{{ .URL }}" class="lp-menumobile-sublink lp-menumobile-viewall">
+                  {{ if eq $siteLanguage "vi" }}Xem tất cả{{ else }}View all{{ end }}
+                </a>
+
+                {{ range .Children }}
+                  {{ $childActive := $.IsMenuCurrent "main" . }}
+                  <a href="{{ .URL }}" class="lp-menumobile-sublink {{ if $childActive }}is-active{{ end }}">
+                    {{ .Name }}
+                  </a>
+                {{ end }}
+              </div>
+            </div>
+          {{ else }}
+            <a href="{{ .URL }}" class="lp-menumobile-link {{ if $active }}is-active{{ end }}">
+              {{ .Name }}
+            </a>
+          {{ end }}
+        {{ end }}
       {{ end }}
 
       <a
@@ -89,12 +138,12 @@
       <div class="mt-4 border-t border-pink-100 pt-4">
         {{ range .Site.Home.AllTranslations }}
           {{ if ne .Language.Lang $siteLanguage }}
-          <a href="{{ .RelPermalink }}" class="lp-menumobile-lang-switch" aria-label="Switch language">
-            <span>🌐</span>
-            <span>
-              {{ if eq .Language.Lang "en" }}English{{ else }}Tiếng Việt{{ end }}
-            </span>
-          </a>
+            <a href="{{ .RelPermalink }}" class="lp-menumobile-lang-switch" aria-label="Switch language">
+              <span>🌐</span>
+              <span>
+                {{ if eq .Language.Lang "en" }}English{{ else }}Tiếng Việt{{ end }}
+              </span>
+            </a>
           {{ end }}
         {{ end }}
       </div>

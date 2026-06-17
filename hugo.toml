@@ -1,133 +1,292 @@
 baseURL = "https://lanpinktattoo.com/"
-languageCode = 'vi-vn'
-title = 'Lan Pink Tattoo'
-defaultContentLanguage = 'vi'
+languageCode = "vi-vn"
+title = "Lan Pink Tattoo"
+defaultContentLanguage = "vi"
 defaultContentLanguageInSubdir = false
 hasCJKLanguage = false
-enableRobotsTXT = false
+enableRobotsTXT = true
 
 [languages]
   [languages.vi]
-    languageName = 'Tiếng Việt'
+    languageName = "Tiếng Việt"
     weight = 1
-    title = 'Lan Pink Tattoo'
-    contentDir = 'content/vi'
+    title = "Lan Pink Tattoo"
+    contentDir = "content/vi"
 
     [languages.vi.params]
-      description = 'Studio xăm nghệ thuật tại TP.HCM - Chuyên Fine Line, Mini Tattoo, Blackwork và thiết kế hình xăm độc bản'
-      flag = '🇻🇳'
+      description = "Studio xăm nghệ thuật tại TP.HCM - Chuyên Fine Line, Mini Tattoo, Blackwork và thiết kế hình xăm độc bản"
+      flag = "🇻🇳"
 
     [[languages.vi.menu.main]]
-      name = 'Tác phẩm'
-      pageRef = '/tac-pham'
+      name = "Tác phẩm"
+      pageRef = "/tac-pham"
       weight = 1
 
     [[languages.vi.menu.main]]
-      name = 'Phong cách xăm'
-      pageRef = '/phong-cach-xam'
+      name = "Phong cách xăm"
+      pageRef = "/phong-cach-xam"
       weight = 2
 
     [[languages.vi.menu.main]]
-      name = 'Bảng giá'
-      pageRef = '/bang-gia'
+      name = "Bảng giá"
+      pageRef = "/bang-gia"
       weight = 3
 
     [[languages.vi.menu.main]]
-      name = 'Cẩm nang Tattoo'
-      pageRef = '/cam-nang-tattoo'
+      name = "Cẩm nang Tattoo"
+      pageRef = "/cam-nang-tattoo"
       weight = 4
 
     [[languages.vi.menu.main]]
-      name = 'Đánh giá'
-      pageRef = '/danh-gia'
+      name = "Ý tưởng xăm"
+      identifier = "y-tuong-xam"
+      pageRef = "/y-tuong-xam"
       weight = 5
 
     [[languages.vi.menu.main]]
-      name = 'FAQ'
-      pageRef = '/faq'
+      name = "Hình xăm mini"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-mini"
+      weight = 1
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm Fine Line"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-fine-line"
+      weight = 2
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm rắn"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-ran"
+      weight = 3
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm mèo"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-meo"
+      weight = 4
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm chó"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-cho"
+      weight = 5
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm hoa sen"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-hoa-sen"
+      weight = 6
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm Mandala"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-mandala"
+      weight = 7
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm Blackwork"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-blackwork"
+      weight = 8
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm Nhật cổ"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-nhat-co"
+      weight = 9
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm cổ tay"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-co-tay"
+      weight = 10
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm bắp tay"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-bap-tay"
+      weight = 11
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm cho nữ"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-cho-nu"
+      weight = 12
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm cho nam"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-cho-nam"
+      weight = 13
+
+    [[languages.vi.menu.main]]
+      name = "FAQ"
+      pageRef = "/faq"
       weight = 6
 
   [languages.en]
-    languageName = 'English'
+    languageName = "English"
     weight = 2
-    title = 'Lan Pink Tattoo'
-    contentDir = 'content/en'
+    title = "Lan Pink Tattoo"
+    contentDir = "content/en"
 
     [languages.en.params]
-      description = 'Private tattoo studio in Ho Chi Minh City - Fine Line, Mini Tattoo, Blackwork and custom tattoo design'
-      flag = '🇺🇸'
+      description = "Private tattoo studio in Ho Chi Minh City - Fine Line, Mini Tattoo, Blackwork and custom tattoo design"
+      flag = "🇺🇸"
 
     [[languages.en.menu.main]]
-      name = 'Portfolio'
-      pageRef = '/portfolio'
+      name = "Portfolio"
+      pageRef = "/portfolio"
       weight = 1
 
     [[languages.en.menu.main]]
-      name = 'Tattoo Styles'
-      pageRef = '/tattoo-styles'
+      name = "Tattoo Styles"
+      pageRef = "/tattoo-styles"
       weight = 2
 
     [[languages.en.menu.main]]
-      name = 'Pricing'
-      pageRef = '/pricing'
+      name = "Pricing"
+      pageRef = "/pricing"
       weight = 3
 
     [[languages.en.menu.main]]
-      name = 'Tattoo Guide'
-      pageRef = '/tattoo-guide'
+      name = "Tattoo Guide"
+      pageRef = "/tattoo-guide"
       weight = 4
 
     [[languages.en.menu.main]]
-      name = 'Reviews'
-      pageRef = '/reviews'
+      name = "Tattoo Ideas"
+      identifier = "tattoo-ideas"
+      pageRef = "/tattoo-ideas"
       weight = 5
 
     [[languages.en.menu.main]]
-      name = 'FAQ'
-      pageRef = '/faq'
+      name = "Mini Tattoos"
+      parent = "tattoo-ideas"
+      pageRef = "/tattoo-ideas/mini-tattoos"
+      weight = 1
+
+    [[languages.en.menu.main]]
+      name = "Fine Line Tattoos"
+      parent = "tattoo-ideas"
+      pageRef = "/tattoo-ideas/fine-line-tattoos"
+      weight = 2
+
+    [[languages.en.menu.main]]
+      name = "Snake Tattoos"
+      parent = "tattoo-ideas"
+      pageRef = "/tattoo-ideas/snake-tattoos"
+      weight = 3
+
+    [[languages.en.menu.main]]
+      name = "Cat Tattoos"
+      parent = "tattoo-ideas"
+      pageRef = "/tattoo-ideas/cat-tattoos"
+      weight = 4
+
+    [[languages.en.menu.main]]
+      name = "Dog Tattoos"
+      parent = "tattoo-ideas"
+      pageRef = "/tattoo-ideas/dog-tattoos"
+      weight = 5
+
+    [[languages.en.menu.main]]
+      name = "Lotus Tattoos"
+      parent = "tattoo-ideas"
+      pageRef = "/tattoo-ideas/lotus-tattoos"
+      weight = 6
+
+    [[languages.en.menu.main]]
+      name = "Mandala Tattoos"
+      parent = "tattoo-ideas"
+      pageRef = "/tattoo-ideas/mandala-tattoos"
+      weight = 7
+
+    [[languages.en.menu.main]]
+      name = "Blackwork Tattoos"
+      parent = "tattoo-ideas"
+      pageRef = "/tattoo-ideas/blackwork-tattoos"
+      weight = 8
+
+    [[languages.en.menu.main]]
+      name = "Japanese Tattoos"
+      parent = "tattoo-ideas"
+      pageRef = "/tattoo-ideas/japanese-tattoos"
+      weight = 9
+
+    [[languages.en.menu.main]]
+      name = "Wrist Tattoos"
+      parent = "tattoo-ideas"
+      pageRef = "/tattoo-ideas/wrist-tattoos"
+      weight = 10
+
+    [[languages.en.menu.main]]
+      name = "Arm Tattoos"
+      parent = "tattoo-ideas"
+      pageRef = "/tattoo-ideas/arm-tattoos"
+      weight = 11
+
+    [[languages.en.menu.main]]
+      name = "Tattoos For Women"
+      parent = "tattoo-ideas"
+      pageRef = "/tattoo-ideas/tattoos-for-women"
+      weight = 12
+
+    [[languages.en.menu.main]]
+      name = "Tattoos For Men"
+      parent = "tattoo-ideas"
+      pageRef = "/tattoo-ideas/tattoos-for-men"
+      weight = 13
+
+    [[languages.en.menu.main]]
+      name = "FAQ"
+      pageRef = "/faq"
       weight = 6
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
   [markup.highlight]
     noClasses = false
-    style = 'monokai'
+    style = "monokai"
 
 [params]
-  author = 'Lan Pink'
-  studio = 'Lan Pink Tattoo'
-  city = 'Ho Chi Minh City'
-  email = 'hello@lanpinktattoo.com'
-  phone = '+84 703 659 902'
-  instagram = 'https://www.instagram.com/lanpink.ink/'
-  facebook = 'https://www.facebook.com/LanPinkInk'
+  author = "Lan Pink"
+  studio = "Lan Pink Tattoo"
+  city = "Ho Chi Minh City"
+  email = "hello@lanpinktattoo.com"
+  phone = "+84 703 659 902"
+  instagram = "https://www.instagram.com/lanpink.ink/"
+  facebook = "https://www.facebook.com/LanPinkInk"
   messenger = "https://m.me/LanPinkInk"
-  googleBusiness = 'https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9'
+  googleBusiness = "https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9"
   bookingUrl = "https://m.me/LanPinkInk"
 
 [outputs]
-  home = ['HTML', 'RSS']
+  home = ["HTML", "RSS"]
 
 [sitemap]
-  changefreq = 'weekly'
+  changefreq = "weekly"
   priority = 0.5
-  filename = 'sitemap.xml'
+  filename = "sitemap.xml"
 
 [related]
-threshold = 50
-includeNewer = true
-toLower = true
+  threshold = 50
+  includeNewer = true
+  toLower = true
 
-[[related.indices]]
-name = "tags"
-weight = 100
+  [[related.indices]]
+    name = "tags"
+    weight = 100
 
-[[related.indices]]
-name = "title"
-weight = 70
+  [[related.indices]]
+    name = "title"
+    weight = 70
 
-[[related.indices]]
-name = "description"
-weight = 50
+  [[related.indices]]
+    name = "description"
+    weight = 50

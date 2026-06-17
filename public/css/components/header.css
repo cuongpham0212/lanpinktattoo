@@ -6,9 +6,16 @@
 .lp-mobile-nav-link,
 .lp-booking-btn,
 .lp-lang,
-.lp-mobile-lang {
+.lp-mobile-lang,
+.lp-lang-switch,
+.lp-nav-dropdown-link,
+.lp-menumobile-sublink {
   font-family: "Nunito", "Inter", system-ui, sans-serif;
 }
+
+/* =========================
+   LIGHT HEADER
+========================= */
 
 html[data-theme="light"] .lp-header,
 html[data-theme="light"] header {
@@ -56,6 +63,10 @@ html[data-theme="light"] .lp-nav-link.is-active {
   transform: translateY(-1px);
 }
 
+/* =========================
+   BOOKING BUTTON
+========================= */
+
 html[data-theme="light"] .lp-booking-btn {
   font-weight: 900;
   letter-spacing: .01em;
@@ -76,6 +87,10 @@ html[data-theme="light"] .lp-booking-btn:hover {
     inset 0 1px 0 rgba(255,255,255,.32);
   transform: translateY(-1px);
 }
+
+/* =========================
+   LANGUAGE / ICON BUTTON
+========================= */
 
 html[data-theme="light"] .lp-lang,
 html[data-theme="light"] .lp-icon-btn {
@@ -110,12 +125,16 @@ html[data-theme="light"] .lp-icon-btn:hover {
   gap: .42rem;
   border-radius: 999px;
   padding: .58rem .9rem;
-  font-family: "Nunito", "Inter", system-ui, sans-serif;
   font-size: .86rem;
   font-weight: 950;
   line-height: 1;
   white-space: nowrap;
-  transition: transform .22s ease, background .22s ease, color .22s ease, box-shadow .22s ease, border-color .22s ease;
+  transition:
+    transform .22s ease,
+    background .22s ease,
+    color .22s ease,
+    box-shadow .22s ease,
+    border-color .22s ease;
 }
 
 .lp-lang-switch:hover {
@@ -150,4 +169,100 @@ html[data-theme="dark"] .lp-lang-switch:hover {
   color: #fff;
   background: linear-gradient(135deg, #831843, #ec4899);
   border-color: rgba(249,168,212,.3);
+}
+
+/* =========================
+   DESKTOP DROPDOWN MENU
+========================= */
+
+.lp-nav-dropdown {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.lp-nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  min-width: 260px;
+  padding: 10px;
+  border-radius: 18px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition:
+    opacity .18s ease,
+    visibility .18s ease,
+    transform .18s ease;
+  z-index: 80;
+}
+
+.lp-nav-dropdown:hover .lp-nav-dropdown-menu,
+.lp-nav-dropdown:focus-within .lp-nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.lp-nav-dropdown-link {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.25;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    color .18s ease,
+    background .18s ease,
+    transform .18s ease;
+}
+
+.lp-nav-dropdown-link:hover,
+.lp-nav-dropdown-link.is-active {
+  transform: translateX(2px);
+}
+
+/* Light dropdown */
+
+html[data-theme="light"] .lp-nav-dropdown-menu {
+  background: rgba(255,255,255,.96);
+  border: 1px solid rgba(236,72,153,.18);
+  box-shadow:
+    0 20px 50px rgba(236,72,153,.16),
+    inset 0 1px 0 rgba(255,255,255,.7);
+  backdrop-filter: blur(18px);
+}
+
+html[data-theme="light"] .lp-nav-dropdown-link {
+  color: #6a4658;
+}
+
+html[data-theme="light"] .lp-nav-dropdown-link:hover,
+html[data-theme="light"] .lp-nav-dropdown-link.is-active {
+  color: #be185d;
+  background: rgba(253,242,248,.95);
+}
+
+/* Dark dropdown */
+
+html[data-theme="dark"] .lp-nav-dropdown-menu {
+  background: rgba(24,22,27,.96);
+  border: 1px solid rgba(249,168,212,.18);
+  box-shadow:
+    0 20px 55px rgba(0,0,0,.38),
+    inset 0 1px 0 rgba(255,255,255,.05);
+  backdrop-filter: blur(18px);
+}
+
+html[data-theme="dark"] .lp-nav-dropdown-link {
+  color: #fce7f3;
+}
+
+html[data-theme="dark"] .lp-nav-dropdown-link:hover,
+html[data-theme="dark"] .lp-nav-dropdown-link.is-active {
+  color: #ff7ac2;
+  background: rgba(249,168,212,.11);
 }
