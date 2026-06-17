@@ -1,128 +1,144 @@
 ---
-title: "Lan Pink Tattoo Artist in District 12, Ho Chi Minh City"
-description: "Learn about Lan, the artist who directly consults, designs, and tattoos at Lan Pink Tattoo (Lan Pink Ink), a private tattoo space in District 12, Ho Chi Minh City."
+title: "Who Is Lan Pink? The Tattoo Artist Behind Lan Pink Tattoo"
+description: "Lan Pink is the tattoo artist and founder of Lan Pink Tattoo (Lan Pink Ink), a private tattoo studio in District 12, Ho Chi Minh City. Learn the meaning behind the name Lan Pink Ink and the story behind the brand."
+
 slug: "lan-pink-tattoo-artist"
+
+date: 2026-06-17
+draft: false
+
+tags:
+  - who is lan pink
+  - lan pink ink
+  - lan pink tattoo
+  - tattoo artist district 12
+  - female tattoo artist
+  - female tattoo artist ho chi minh city
+  - fine line tattoo artist
+  - tattoo artist ho chi minh city
+  - private tattoo studio
+  - lan pink
+
+image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-artist.webp"
+image_alt: "Lan Pink tattoo artist and founder of Lan Pink Tattoo in District 12 Ho Chi Minh City"
 ---
 
-# Lan Pink – The Artist Who Consults, Designs, and Tattoos
+# Who Is Lan Pink?
 
-Lan Pink Tattoo, also known by many clients as Lan Pink Ink, is a private tattoo space in District 12, Ho Chi Minh City.
+If you search for "Lan Pink" on Google, you may sometimes see results related to pink orchids or other content that has nothing to do with tattooing.
 
-At Lan Pink Tattoo, Lan is the person who directly consults, designs, and performs the tattoo for each client. From the first conversation to the finished piece, clients work directly with Lan so the tattoo can follow the original idea and suit the placement on the body.
+This page was created to introduce Lan Pink, the artist behind Lan Pink Tattoo and Lan Pink Ink in Ho Chi Minh City.
 
-To Lan, a tattoo is not just an image on the skin. It can be a memory, a meaningful milestone, a personal interest, or something that carries a private meaning for each person.
+Lan Pink is a tattoo artist, founder, and the person who personally consults, designs, and tattoos every client at Lan Pink Tattoo, a private tattoo studio located in District 12, Ho Chi Minh City.
 
----
-
-## A Private Tattoo Space in District 12
-
-Lan Pink Tattoo mainly works by appointment so each client has enough time to discuss the idea, placement, size, and preferred style.
-
-Walk-in clients are still welcome if the schedule allows. However, clients with confirmed appointments will always be prioritized to keep each session comfortable and on time.
-
-The working space is kept clean, comfortable, and private enough for clients to freely discuss their ideas and relax throughout the tattoo session.
-
-[Photo of Lan preparing the working area]
+Unlike many tattoo studios that operate with multiple artists, clients at Lan Pink Tattoo work directly with Lan from the first consultation until the final tattoo is completed.
 
 ---
 
-## Tattoo Styles Lan Often Works On
+## Are Lan Pink Tattoo and Lan Pink Ink the Same?
 
-Many clients know Lan Pink Tattoo through Fine Line Tattoo or Mini Tattoo pieces. However, Lan also consults and works on many different tattoo styles, from small delicate tattoos to larger pieces with more details.
+Yes.
 
-Some styles clients often choose include:
+Lan Pink Tattoo and Lan Pink Ink are two names used for the same brand.
+
+Lan Pink Tattoo is the primary brand name used on the website and online platforms.
+
+Meanwhile, many long-time clients affectionately refer to the studio as Lan Pink Ink.
+
+Whether someone says Lan Pink Tattoo or Lan Pink Ink, they are referring to the same tattoo artist and the same private tattoo studio in District 12, Ho Chi Minh City.
+
+---
+
+## The Meaning Behind the Name Lan Pink Ink
+
+One of the questions Lan often receives is:
+
+> Why is it called Lan Pink Ink?
+
+The name is made up of three simple parts.
+
+### Lan
+
+Lan is the artist's real name and the person who personally creates every tattoo at the studio.
+
+### Pink
+
+Pink has been Lan's favorite color since childhood.
+
+It represents softness, elegance, and attention to detail, qualities that also reflect the Fine Line Tattoo style and artistic direction Lan enjoys creating.
+
+### Ink
+
+In English, "ink" refers to tattoo ink.
+
+Combined together, Lan Pink Ink can be understood as:
+
+> Lan's Ink.
+
+It is a personal brand built around the artist herself and has nothing to do with pink orchids or pink-colored tattoo ink.
+
+---
+
+## What Tattoo Styles Does Lan Pink Tattoo Specialize In?
+
+Many clients first discover Lan Pink Tattoo through Fine Line Tattoo and Mini Tattoo designs.
+
+However, the studio is not limited to those styles.
+
+Lan regularly works on:
 
 - Fine Line Tattoo
 - Mini Tattoo
 - Blackwork Tattoo
-- Lettering Tattoo
-- Decorative Patterns
-- Asian-inspired Style
-- European-inspired Style
-- Traditional Japanese Style
-- Large-size Tattoo
+- Lettering Tattoos
+- Floral Tattoos
 - Custom Tattoo Design
+- Meaningful Personal Tattoos
+- Japanese Style Tattoos
+- Asian and European Inspired Tattoo Designs
+- Decorative and Ornamental Tattoo Designs
 
-Each design is adjusted based on the tattoo placement, body proportion, and the client’s real expectations.
-
-[Photo of Lan working on a tattoo piece]
-
----
-
-## How Lan Consults Before Tattooing
-
-Some clients come with a very clear idea. Others only bring a few reference images or are not completely sure what they want yet.
-
-That is why before tattooing, Lan usually spends time discussing the idea with each client, choosing a suitable design direction, adjusting the composition, and balancing the size.
-
-Clients often say that Lan explains things clearly, talks in a cheerful and friendly way, and does not create pressure during consultation. This helps many clients, especially first-timers, feel more comfortable sharing what they truly want.
-
-[Photo of Lan consulting a client]
+The common goal behind every tattoo is creating a design that fits the client's body, personal story, and long-term vision.
 
 ---
 
-## Selected Tattoo Works
+## Is Lan Pink Related to Qilin or Mythical Beast Tattoos?
 
-### Fine Line Tattoo
+No.
 
-[Fine Line Photo 1]
+This is a common misunderstanding, especially because Vietnamese words can look similar when written without accent marks.
 
-[Fine Line Photo 2]
+As a result, some people may confuse "Lan Tattoo" with searches related to Qilin tattoos or mythical beast designs.
 
-[Fine Line Photo 3]
+In reality:
 
----
+- Lan is the artist's name.
+- Qilin is a mythical creature in East Asian culture.
 
-### Large-size Tattoo
+They are completely unrelated concepts.
 
-[Large Tattoo Photo 1]
-
-[Large Tattoo Photo 2]
-
-[Large Tattoo Photo 3]
+Lan Pink Tattoo was not named after the Qilin and is not a studio focused on Qilin or Feng Shui-themed tattoos.
 
 ---
 
-### Blackwork Tattoo
+## Why Do Clients Choose Lan Pink Tattoo?
 
-[Blackwork Photo 1]
+Many clients choose Lan Pink Tattoo because they want a private tattoo experience where they can communicate directly with the artist and receive a design tailored specifically to them rather than selecting a generic template.
 
-[Blackwork Photo 2]
+The studio primarily operates by appointment to ensure every client has enough time to discuss ideas, placement, size, and design details before getting tattooed.
 
-[Blackwork Photo 3]
-
----
-
-### Asian-inspired, European-inspired, and Traditional Japanese Styles
-
-[Asian-inspired Style Photo]
-
-[European-inspired Style Photo]
-
-[Traditional Japanese Style Photo]
+For Lan, a great tattoo is not only about technical skill but also about creating something meaningful for the person wearing it.
 
 ---
 
-## Contact Lan Pink Tattoo
+## Where Is Lan Pink Tattoo Located?
 
-If you are looking for a tattoo artist in District 12 or a private tattoo space in Ho Chi Minh City to bring your own idea to life, Lan Pink Tattoo is always ready to listen and consult.
+Lan Pink Tattoo is a private tattoo studio in District 12, Ho Chi Minh City, Vietnam.
 
-### Messenger
+The studio was founded and is personally operated by tattoo artist Lan Pink.
 
-[Messenger Link]
+Clients are encouraged to contact the studio in advance for consultations regarding tattoo ideas, placement, size, and scheduling.
 
-### Instagram
+If you are looking for a tattoo artist in Ho Chi Minh City for Fine Line Tattoo, Mini Tattoo, or Custom Tattoo Design, Lan Pink is always happy to listen and help bring your idea to life.
 
-[Instagram Link]
-
-### Facebook
-
-[Facebook Link]
-
-### Google Maps
-
-[Google Maps Link]
-
----
-
-Lan Pink Tattoo, also known as Lan Pink Ink, is a private tattoo space in District 12, Ho Chi Minh City, specializing in consultation and custom tattoo work across many styles.
+{{< explore-more >}}

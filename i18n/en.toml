@@ -49,6 +49,9 @@ other = "Table of contents"
 [collapse]
 other = "Collapse"
 
+[expand]
+other = "Open"
+
 [share]
 other = "Share"
 
@@ -66,9 +69,6 @@ other = "Tags"
 
 [relatedPosts]
 other = "Related Posts"
-
-[expand]
-other = "Open"
 
 [consult_now]
 other = "Free Consultation"
@@ -124,5 +124,14 @@ other = "Meaning"
 [artwork_created_by]
 other = "Created by"
 
+[artwork_created_by_value]
+other = "Lan Pink Tattoo (Lan Pink Ink)"
+
+[artwork_studio_intro]
+other = "Lan Pink Tattoo (Lan Pink Ink) is a private tattoo studio in District 12, Ho Chi Minh City, founded and personally operated by tattoo artist Lan Pink."
+
 [artwork_location]
 other = "Location"
+
+[artwork_location_value]
+other = "Near Tan Thoi Hiep overpass, District 12, Ho Chi Minh City"

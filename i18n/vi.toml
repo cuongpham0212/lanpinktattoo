@@ -49,14 +49,11 @@ other = "Mục lục"
 [collapse]
 other = "Thu gọn"
 
-[share]
-other = "Chia sẻ"
-
-[on_this_page]
-other = "Trong bài viết"
-
 [expand]
 other = "Mở"
+
+[share]
+other = "Chia sẻ"
 
 [copy_link]
 other = "Copy link"
@@ -124,5 +121,14 @@ other = "Ý nghĩa"
 [artwork_created_by]
 other = "Thực hiện bởi"
 
+[artwork_created_by_value]
+other = "Lan Pink Tattoo (Lan Pink Ink)"
+
+[artwork_studio_intro]
+other = "Lan Pink Tattoo (Lan Pink Ink) là private tattoo studio tại Quận 12, TP.HCM, được thành lập và trực tiếp vận hành bởi tattoo artist Lan Pink."
+
 [artwork_location]
 other = "Địa điểm"
+
+[artwork_location_value]
+other = "Gần cầu vượt Tân Thới Hiệp, Quận 12, TP.HCM"

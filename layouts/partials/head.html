@@ -163,6 +163,8 @@
 </script>
 {{ end }}
 
+{{ partial "schema-person-lan-pink.html" . }}
+
 {{ if not .IsHome }}
 {{ $homeName := cond (eq .Language.Lang "vi") "Trang chủ" "Home" }}
 

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Lan Pink Tattoo</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://lanpinktattoo.com/categories/</link>
     <description>Recent content in Categories on Lan Pink Tattoo</description>
     <generator>Hugo</generator>
     <language>vi</language>
     <lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lanpinktattoo.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tác Phẩm</title>
-      <link>http://localhost:1313/categories/t%C3%A1c-ph%E1%BA%A9m/</link>
+      <link>https://lanpinktattoo.com/categories/t%C3%A1c-ph%E1%BA%A9m/</link>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/t%C3%A1c-ph%E1%BA%A9m/</guid>
+      <guid>https://lanpinktattoo.com/categories/t%C3%A1c-ph%E1%BA%A9m/</guid>
       <description></description>
     </item>
     <item>
       <title>Cẩm Nang Tattoo</title>
-      <link>http://localhost:1313/categories/c%E1%BA%A9m-nang-tattoo/</link>
+      <link>https://lanpinktattoo.com/categories/c%E1%BA%A9m-nang-tattoo/</link>
       <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/c%E1%BA%A9m-nang-tattoo/</guid>
+      <guid>https://lanpinktattoo.com/categories/c%E1%BA%A9m-nang-tattoo/</guid>
       <description></description>
     </item>
     <item>
       <title>Bảng Giá</title>
-      <link>http://localhost:1313/categories/b%E1%BA%A3ng-gi%C3%A1/</link>
+      <link>https://lanpinktattoo.com/categories/b%E1%BA%A3ng-gi%C3%A1/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/b%E1%BA%A3ng-gi%C3%A1/</guid>
+      <guid>https://lanpinktattoo.com/categories/b%E1%BA%A3ng-gi%C3%A1/</guid>
       <description></description>
     </item>
     <item>
       <title>FAQ</title>
-      <link>http://localhost:1313/categories/faq/</link>
+      <link>https://lanpinktattoo.com/categories/faq/</link>
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/faq/</guid>
+      <guid>https://lanpinktattoo.com/categories/faq/</guid>
       <description></description>
     </item>
   </channel>

@@ -25,8 +25,19 @@
       <div><dt class="inline font-bold">{{ i18n "artwork_meaning" }}:</dt> <dd class="inline">{{ . }}</dd></div>
     {{ end }}
 
-    <div><dt class="inline font-bold">{{ i18n "artwork_created_by" }}:</dt> <dd class="inline">Lan Pink Ink</dd></div>
-    <div><dt class="inline font-bold">{{ i18n "artwork_location" }}:</dt> <dd class="inline">{{ i18n "artwork_location_value" }}</dd></div>
+    <div>
+      <dt class="inline font-bold">{{ i18n "artwork_created_by" }}:</dt>
+      <dd class="inline">{{ i18n "artwork_created_by_value" }}</dd>
+    </div>
+
+    <div class="pt-2">
+      <dd>{{ i18n "artwork_studio_intro" }}</dd>
+    </div>
+
+    <div>
+      <dt class="inline font-bold">{{ i18n "artwork_location" }}:</dt>
+      <dd class="inline">{{ i18n "artwork_location_value" }}</dd>
+    </div>
   </dl>
 </section>
 {{ end }}

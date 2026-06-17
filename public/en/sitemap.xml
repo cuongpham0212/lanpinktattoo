@@ -2,451 +2,517 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/tags/blackwork-tattoo/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/female-tattoo-artist/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lanpinktattoo.com/en/tags/female-tattoo-artist-ho-chi-minh-city/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lanpinktattoo.com/en/tags/fine-line-tattoo-artist/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://lanpinktattoo.com/tags/fine-line-tattoo-artist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lanpinktattoo.com/en/tags/fine-line-tattoo-artist/"
+                />
+  </url><url>
+    <loc>https://lanpinktattoo.com/en/tags/lan-pink/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://lanpinktattoo.com/tags/lan-pink/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lanpinktattoo.com/en/tags/lan-pink/"
+                />
+  </url><url>
+    <loc>https://lanpinktattoo.com/en/tags/lan-pink-ink/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://lanpinktattoo.com/tags/lan-pink-ink/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lanpinktattoo.com/en/tags/lan-pink-ink/"
+                />
+  </url><url>
+    <loc>https://lanpinktattoo.com/en/tags/lan-pink-tattoo/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://lanpinktattoo.com/tags/lan-pink-tattoo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lanpinktattoo.com/en/tags/lan-pink-tattoo/"
+                />
+  </url><url>
+    <loc>https://lanpinktattoo.com/en/tags/private-tattoo-studio/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://lanpinktattoo.com/tags/private-tattoo-studio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lanpinktattoo.com/en/tags/private-tattoo-studio/"
+                />
+  </url><url>
+    <loc>https://lanpinktattoo.com/en/tags/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://lanpinktattoo.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lanpinktattoo.com/en/tags/"
+                />
+  </url><url>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-artist-district-12/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-artist-ho-chi-minh-city/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lanpinktattoo.com/en/tags/who-is-lan-pink/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lanpinktattoo.com/en/lan-pink-tattoo-artist/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://lanpinktattoo.com/lan-pink-tattoo-artist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lanpinktattoo.com/en/lan-pink-tattoo-artist/"
+                />
+  </url><url>
+    <loc>https://lanpinktattoo.com/en/tags/blackwork-tattoo/</loc>
     <lastmod>2026-06-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/tags/blackwork-tattoo/"
+                href="https://lanpinktattoo.com/tags/blackwork-tattoo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/blackwork-tattoo/"
+                href="https://lanpinktattoo.com/en/tags/blackwork-tattoo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/custom-tattoo-design/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/custom-tattoo-design/</loc>
     <lastmod>2026-06-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/tags/custom-tattoo-design/"
+                href="https://lanpinktattoo.com/tags/custom-tattoo-design/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/custom-tattoo-design/"
+                href="https://lanpinktattoo.com/en/tags/custom-tattoo-design/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/female-tattoo-artist-district-12/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/female-tattoo-artist-district-12/</loc>
     <lastmod>2026-06-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/fine-line-tattoo/</loc>
-    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/tags/fine-line-tattoo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/fine-line-tattoo/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/lan-pink-ink/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/fine-line-tattoo/</loc>
     <lastmod>2026-06-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/tags/lan-pink-ink/"
+                href="https://lanpinktattoo.com/tags/fine-line-tattoo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/lan-pink-ink/"
+                href="https://lanpinktattoo.com/en/tags/fine-line-tattoo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/portfolio/</loc>
+    <loc>https://lanpinktattoo.com/en/portfolio/</loc>
     <lastmod>2026-06-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/snake-tattoo/</loc>
-    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/tags/snake-tattoo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/snake-tattoo/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/snake-tattoo/</loc>
     <lastmod>2026-06-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/tags/"
+                href="https://lanpinktattoo.com/tags/snake-tattoo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://lanpinktattoo.com/en/tags/snake-tattoo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-artist-ho-chi-minh-city/</loc>
+    <loc>https://lanpinktattoo.com/en/portfolio/vietnam-inspired-snake-tattoo-custom-design/</loc>
     <lastmod>2026-06-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/portfolio/vietnam-inspired-snake-tattoo-custom-design/</loc>
-    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/black-and-grey-tattoo/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/black-and-grey-tattoo/</loc>
     <lastmod>2026-06-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/cat-portrait-tattoo/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/cat-portrait-tattoo/</loc>
     <lastmod>2026-06-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/tags/cat-portrait-tattoo/"
+                href="https://lanpinktattoo.com/tags/cat-portrait-tattoo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/cat-portrait-tattoo/"
+                href="https://lanpinktattoo.com/en/tags/cat-portrait-tattoo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://lanpinktattoo.com/en/categories/</loc>
     <lastmod>2026-06-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/categories/"
+                href="https://lanpinktattoo.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://lanpinktattoo.com/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/female-tattoo-artist/</loc>
+    <loc>https://lanpinktattoo.com/en/portfolio/gonzo-memorial-parrot-tattoo-custom-design/</loc>
     <lastmod>2026-06-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/female-tattoo-artist-ho-chi-minh-city/</loc>
+    <loc>https://lanpinktattoo.com/en/portfolio/misa-cat-portrait-tattoo/</loc>
     <lastmod>2026-06-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/portfolio/gonzo-memorial-parrot-tattoo-custom-design/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/personalized-tattoo/</loc>
     <lastmod>2026-06-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/lan-pink-tattoo/</loc>
-    <lastmod>2026-06-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/en/portfolio/misa-cat-portrait-tattoo/</loc>
-    <lastmod>2026-06-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/personalized-tattoo/</loc>
-    <lastmod>2026-06-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/pet-memorial-tattoo/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/pet-memorial-tattoo/</loc>
     <lastmod>2026-06-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/tags/pet-memorial-tattoo/"
+                href="https://lanpinktattoo.com/tags/pet-memorial-tattoo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/pet-memorial-tattoo/"
+                href="https://lanpinktattoo.com/en/tags/pet-memorial-tattoo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/pet-portrait-tattoo/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/pet-portrait-tattoo/</loc>
     <lastmod>2026-06-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/tags/pet-portrait-tattoo/"
+                href="https://lanpinktattoo.com/tags/pet-portrait-tattoo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/pet-portrait-tattoo/"
+                href="https://lanpinktattoo.com/en/tags/pet-portrait-tattoo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/portfolio/</loc>
+    <loc>https://lanpinktattoo.com/en/categories/portfolio/</loc>
     <lastmod>2026-06-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/service-policy/</loc>
+    <loc>https://lanpinktattoo.com/en/service-policy/</loc>
     <lastmod>2026-06-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-studio-district-12/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-studio-district-12/</loc>
     <lastmod>2026-06-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/beginner-tattoo-guide/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/beginner-tattoo-guide/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/does-getting-a-tattoo-hurt/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/does-getting-a-tattoo-hurt/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tattoo-guide/does-getting-a-tattoo-hurt/</loc>
+    <loc>https://lanpinktattoo.com/en/tattoo-guide/does-getting-a-tattoo-hurt/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/first-tattoo/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/first-tattoo/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/lining-needle/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/lining-needle/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tattoo-guide/lining-vs-shading-needles-which-hurts-more/</loc>
+    <loc>https://lanpinktattoo.com/en/tattoo-guide/lining-vs-shading-needles-which-hurts-more/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/shading-needle/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/shading-needle/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-experience/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-experience/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/categories/tattoo-guide/</loc>
+    <loc>https://lanpinktattoo.com/en/categories/tattoo-guide/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-pain/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-pain/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-pain-level/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-pain-level/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-placement/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-placement/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-preparation/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-preparation/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-tips/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-tips/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tattoo-guide/what-to-prepare-before-your-first-tattoo/</loc>
+    <loc>https://lanpinktattoo.com/en/tattoo-guide/what-to-prepare-before-your-first-tattoo/</loc>
     <lastmod>2026-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/reviews/</loc>
+    <loc>https://lanpinktattoo.com/en/reviews/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/cosmetic-tattoo/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/cosmetic-tattoo/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/japanese-tattoo/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/japanese-tattoo/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/mini-tattoo/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/mini-tattoo/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/tags/mini-tattoo/"
+                href="https://lanpinktattoo.com/tags/mini-tattoo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/mini-tattoo/"
+                href="https://lanpinktattoo.com/en/tags/mini-tattoo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/pricing/</loc>
+    <loc>https://lanpinktattoo.com/en/categories/pricing/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-district-12/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-district-12/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tattoo-guide/</loc>
+    <loc>https://lanpinktattoo.com/en/tattoo-guide/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-price-ho-chi-minh-city/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-price-ho-chi-minh-city/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-price-list/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-price-list/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tattoo-price-list-ho-chi-minh-city/</loc>
+    <loc>https://lanpinktattoo.com/en/tattoo-price-list-ho-chi-minh-city/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-studio-hcmc/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-studio-hcmc/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tattoo-styles/</loc>
+    <loc>https://lanpinktattoo.com/en/tattoo-styles/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/categories/faq/</loc>
+    <loc>https://lanpinktattoo.com/en/categories/faq/</loc>
     <lastmod>2026-06-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/categories/faq/"
+                href="https://lanpinktattoo.com/categories/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/faq/"
+                href="https://lanpinktattoo.com/en/categories/faq/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-aftercare/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-aftercare/</loc>
     <lastmod>2026-06-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-faq/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-faq/</loc>
     <lastmod>2026-06-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/faq/</loc>
+    <loc>https://lanpinktattoo.com/en/faq/</loc>
     <lastmod>2026-06-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/faq/"
+                href="https://lanpinktattoo.com/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/faq/"
+                href="https://lanpinktattoo.com/en/faq/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-guide/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-guide/</loc>
     <lastmod>2026-06-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-pricing/</loc>
+    <loc>https://lanpinktattoo.com/en/tags/tattoo-pricing/</loc>
     <lastmod>2026-06-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/about-lan-pink-ink-studio/</loc>
+    <loc>https://lanpinktattoo.com/en/about-lan-pink-ink-studio/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/contact/</loc>
+    <loc>https://lanpinktattoo.com/en/contact/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/contact/"
+                href="https://lanpinktattoo.com/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/contact/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/lan-pink-tattoo-artist/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/lan-pink-tattoo-artist/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/lan-pink-tattoo-artist/"
+                href="https://lanpinktattoo.com/en/contact/"
                 />
   </url>
 </urlset>

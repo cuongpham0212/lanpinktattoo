@@ -2,41 +2,61 @@
 {
   "@context": "https://schema.org",
   "@type": "TattooParlor",
-  "@id": "{{ .Site.BaseURL }}#localbusiness",
+  "@id": "{{ .Site.BaseURL }}#lan-pink-tattoo",
+
   "name": "Lan Pink Tattoo",
-  "alternateName": "Lan Pink Ink",
+  "alternateName": [
+    "Lan Pink Ink",
+    "LanPinkInk"
+  ],
+
   "url": "{{ .Site.BaseURL }}",
+
   "description": "Private tattoo studio in Ho Chi Minh City specializing in fine line tattoo, mini tattoo, blackwork tattoo and custom tattoo design.",
+
   "image": "{{ .Site.BaseURL }}images/og/lan-pink-tattoo-og.jpg",
+
   "telephone": "+84703659902",
+
   "priceRange": "59.000₫ - 30.000.000₫",
-  "hasMap": "https://www.google.com/maps/place/lanpink+ink+-+Private+Tattoo+studio/@10.8649478,106.6456056,17z/data=!3m1!4b1!4m6!3m5!1s0x3175297e1d5f90ad:0x6dcd055198206b25!8m2!3d10.8649425!4d106.6481805!16s%2Fg%2F11kh9k2x_s?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+
+  "hasMap": "https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9",
+
+  "founder": {
+    "@type": "Person",
+    "@id": "{{ .Site.BaseURL }}#lan-pink",
+    "name": "Lan Pink"
+  },
+
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Gần cầu vượt Tân Thới Hiệp",
-    "addressLocality": "Quận 12",
-    "addressRegion": "Hồ Chí Minh",
+    "addressLocality": "District 12",
+    "addressRegion": "Ho Chi Minh City",
     "addressCountry": "VN"
   },
+
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": 10.8649425,
     "longitude": 106.6481805
   },
+
   "areaServed": [
     {
       "@type": "City",
-      "name": "Hồ Chí Minh"
+      "name": "Ho Chi Minh City"
     },
     {
       "@type": "Place",
-      "name": "Quận 12"
+      "name": "District 12"
     },
     {
       "@type": "Place",
-      "name": "Tân Thới Hiệp"
+      "name": "Tan Thoi Hiep"
     }
   ],
+
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+84703659902",
@@ -46,38 +66,40 @@
       "English"
     ]
   },
+
   "sameAs": [
     "https://www.facebook.com/LanPinkInk",
     "https://www.instagram.com/lanpink.ink/",
-    "https://www.google.com/maps/place/lanpink+ink+-+Private+Tattoo+studio/@10.8649478,106.6456056,17z/data=!3m1!4b1!4m6!3m5!1s0x3175297e1d5f90ad:0x6dcd055198206b25!8m2!3d10.8649425!4d106.6481805!16s%2Fg%2F11kh9k2x_s?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D"
+    "https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9"
   ],
+
   "makesOffer": [
     {
       "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
-        "name": "Fine line tattoo"
+        "name": "Fine Line Tattoo"
       }
     },
     {
       "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
-        "name": "Mini tattoo"
+        "name": "Mini Tattoo"
       }
     },
     {
       "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
-        "name": "Blackwork tattoo"
+        "name": "Blackwork Tattoo"
       }
     },
     {
       "@type": "Offer",
       "itemOffered": {
         "@type": "Service",
-        "name": "Custom tattoo design"
+        "name": "Custom Tattoo Design"
       }
     }
   ]
