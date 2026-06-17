@@ -106,10 +106,7 @@
               </button>
 
               <div class="lp-menumobile-submenu">
-                <a href="{{ .URL }}" class="lp-menumobile-sublink lp-menumobile-viewall">
-                  {{ if eq $siteLanguage "vi" }}Xem tất cả{{ else }}View all{{ end }}
-                </a>
-
+                
                 {{ range .Children }}
                   {{ $childActive := $.IsMenuCurrent "main" . }}
                   <a href="{{ .URL }}" class="lp-menumobile-sublink {{ if $childActive }}is-active{{ end }}">

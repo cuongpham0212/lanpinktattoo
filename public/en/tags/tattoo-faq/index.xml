@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tattoo Faq on Lan Pink Tattoo</title>
-    <link>https://lanpinktattoo.com/en/tags/tattoo-faq/</link>
+    <link>http://localhost:1313/en/tags/tattoo-faq/</link>
     <description>Recent content in Tattoo Faq on Lan Pink Tattoo</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lanpinktattoo.com/en/tags/tattoo-faq/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/tattoo-faq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tattoo FAQ | Frequently Asked Questions</title>
-      <link>https://lanpinktattoo.com/en/faq/</link>
+      <link>http://localhost:1313/en/faq/</link>
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://lanpinktattoo.com/en/faq/</guid>
-      <description>&lt;h1 id=&#34;tattoo-faq--frequently-asked-questions&#34;&gt;Tattoo FAQ | Frequently Asked Questions&lt;/h1&gt;&#xA;&lt;p&gt;Have questions before getting a tattoo? This FAQ covers the most common things clients ask Lan Pink Tattoo, from pain level and pricing to aftercare, healing time, touch-ups, and booking.&lt;/p&gt;&#xA;&lt;p&gt;If this is your first tattoo, you may also want to read our &lt;a href=&#34;https://lanpinktattoo.com/en/tattoo-guide/what-to-prepare-before-your-first-tattoo/&#34;&gt;first tattoo preparation guide&lt;/a&gt; before your appointment.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;does-getting-a-tattoo-hurt&#34;&gt;Does getting a tattoo hurt?&lt;/h2&gt;&#xA;&lt;p&gt;Yes, getting a tattoo involves some discomfort, but the pain level depends on the placement, tattoo size, session length, and your personal pain tolerance.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/faq/</guid>
+      <description>&lt;h1 id=&#34;tattoo-faq--frequently-asked-questions&#34;&gt;Tattoo FAQ | Frequently Asked Questions&lt;/h1&gt;&#xA;&lt;p&gt;Have questions before getting a tattoo? This FAQ covers the most common things clients ask Lan Pink Tattoo, from pain level and pricing to aftercare, healing time, touch-ups, and booking.&lt;/p&gt;&#xA;&lt;p&gt;If this is your first tattoo, you may also want to read our &lt;a href=&#34;http://localhost:1313/en/tattoo-guide/what-to-prepare-before-your-first-tattoo/&#34;&gt;first tattoo preparation guide&lt;/a&gt; before your appointment.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;does-getting-a-tattoo-hurt&#34;&gt;Does getting a tattoo hurt?&lt;/h2&gt;&#xA;&lt;p&gt;Yes, getting a tattoo involves some discomfort, but the pain level depends on the placement, tattoo size, session length, and your personal pain tolerance.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
