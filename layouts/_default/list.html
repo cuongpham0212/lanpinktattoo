@@ -1,5 +1,8 @@
 {{ define "main" }}
 
+{{ $isPortfolio := in (slice "tac-pham" "portfolio") .Section }}
+{{ $isGuide := in (slice "cam-nang-tattoo" "tattoo-guide") .Section }}
+
 <section class="lp-page-header">
   <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
 
@@ -24,29 +27,33 @@
     </h1>
 
     {{ with .Description }}
-    <p class="mt-4 max-w-2xl text-lg lp-muted">{{ . }}</p>
+      <p class="mt-4 max-w-2xl text-lg lp-muted">{{ . }}</p>
     {{ end }}
 
     {{ with .Params.subtitle }}
-    <p class="mt-3 max-w-2xl text-base lp-muted">{{ . }}</p>
+      <p class="mt-3 max-w-2xl text-base lp-muted">{{ . }}</p>
     {{ end }}
 
   </div>
 </section>
 
-{{ with .Content }}
+{{ if and .Content (not $isPortfolio) }}
 <section class="lp-list-intro-wrap">
   <div class="lp-list-intro-card">
     <div class="lp-list-intro-badge">
-      {{ if eq $.Language.Lang "vi" }}
-        Cẩm nang từ Lan Pink
+      {{ if $isGuide }}
+        {{ if eq $.Language.Lang "vi" }}
+          Cẩm nang từ Lan Pink
+        {{ else }}
+          From Lan Pink Guide
+        {{ end }}
       {{ else }}
-        From Lan Pink Guide
+        Lan Pink Tattoo
       {{ end }}
     </div>
 
     <div class="lp-list-intro-content">
-      {{ . }}
+      {{ .Content }}
     </div>
   </div>
 </section>
@@ -60,7 +67,7 @@
 
   {{ if $paginator.Pages }}
 
-    {{ if not (in (slice "gallery" "tattoo") .Section) }}
+    {{ if $isGuide }}
       <div class="mb-8">
         <p class="lp-eyebrow">
           {{ if eq .Language.Lang "vi" }}
@@ -78,9 +85,27 @@
           {{ end }}
         </h2>
       </div>
+    {{ else if $isPortfolio }}
+      <div class="mb-8">
+        <p class="lp-eyebrow">
+          {{ if eq .Language.Lang "vi" }}
+            Portfolio
+          {{ else }}
+            Portfolio
+          {{ end }}
+        </p>
+
+        <h2 class="mt-2 text-2xl font-black tracking-tight lp-heading sm:text-3xl">
+          {{ if eq .Language.Lang "vi" }}
+            Tác phẩm mới nhất
+          {{ else }}
+            Latest Tattoo Works
+          {{ end }}
+        </h2>
+      </div>
     {{ end }}
 
-    {{ if in (slice "gallery" "tattoo") .Section }}
+    {{ if $isPortfolio }}
       <div class="grid grid-cols-1 gap-x-7 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
         {{ range $paginator.Pages }}
           <article class="group relative lp-card overflow-hidden rounded-3xl p-3">
@@ -91,7 +116,7 @@
 
                 <img
                   src="{{ $images.thumb.src }}"
-                  alt="{{ .Title }}"
+                  alt="{{ with .Params.image_alt }}{{ . }}{{ else }}{{ .Title }}{{ end }}"
                   class="h-full w-full object-cover object-center transition duration-500 group-hover:scale-105"
                   loading="lazy"
                   width="{{ $images.thumb.width }}"
@@ -104,12 +129,16 @@
                   {{ .Title }}
                 </h3>
 
-                {{ with .Params.style }}
-                <p class="mt-1 text-sm lp-pink-text">{{ . }}</p>
+                {{ with .Params.artwork_style }}
+                  <p class="mt-1 text-sm lp-pink-text">{{ . }}</p>
+                {{ else }}
+                  {{ with .Params.style }}
+                    <p class="mt-1 text-sm lp-pink-text">{{ . }}</p>
+                  {{ end }}
                 {{ end }}
 
                 {{ with .Summary }}
-                <p class="mt-2 text-sm lp-muted line-clamp-2">{{ . | plainify }}</p>
+                  <p class="mt-2 text-sm lp-muted line-clamp-2">{{ . | plainify }}</p>
                 {{ end }}
               </div>
             </a>
@@ -137,7 +166,7 @@
               <a href="{{ .RelPermalink }}" class="lp-post-card-image relative overflow-hidden rounded-2xl lp-image-bg lg:aspect-square lg:w-64 lg:shrink-0">
                 <img
                   src="{{ $images.thumb.src }}"
-                  alt="{{ .Title }}"
+                  alt="{{ with .Params.image_alt }}{{ . }}{{ else }}{{ .Title }}{{ end }}"
                   class="transition duration-500 hover:scale-105"
                   loading="lazy"
                   width="{{ $images.thumb.width }}"
@@ -149,15 +178,15 @@
             <div class="flex-1">
               <div class="flex flex-wrap items-center gap-3 text-xs lp-muted">
                 {{ if not .Date.IsZero }}
-                <time datetime="{{ .Date.Format "2006-01-02" }}">
-                  {{ .Date.Format "02/01/2006" }}
-                </time>
+                  <time datetime="{{ .Date.Format "2006-01-02" }}">
+                    {{ .Date.Format "02/01/2006" }}
+                  </time>
                 {{ end }}
 
                 {{ with .Params.categories }}
-                <span class="relative z-10 rounded-full lp-pill px-3 py-1.5 font-semibold">
-                  {{ index . 0 }}
-                </span>
+                  <span class="relative z-10 rounded-full lp-pill px-3 py-1.5 font-semibold">
+                    {{ index . 0 }}
+                  </span>
                 {{ end }}
               </div>
 
