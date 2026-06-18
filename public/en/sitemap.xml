@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/en/tags/blackwork-tattoo/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/tags/blackwork-tattoo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/blackwork-tattoo/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/categories/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/custom-tattoo-design/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/tags/custom-tattoo-design/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/custom-tattoo-design/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/tags/female-tattoo-artist/</loc>
     <lastmod>2026-06-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -11,6 +56,21 @@
     <lastmod>2026-06-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/fine-line-tattoo/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/tags/fine-line-tattoo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/fine-line-tattoo/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/tags/fine-line-tattoo-artist/</loc>
     <lastmod>2026-06-17T00:00:00+00:00</lastmod>
@@ -72,6 +132,11 @@
                 href="http://localhost:1313/en/tags/lan-pink-tattoo/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/tags/mini-snake-tattoo/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/en/tags/private-tattoo-studio/</loc>
     <lastmod>2026-06-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -86,6 +151,51 @@
                 hreflang="en"
                 href="http://localhost:1313/en/tags/private-tattoo-studio/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/snake-tattoo/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/tags/snake-tattoo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/snake-tattoo/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/snake-tattoo-for-men/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/snake-tattoo-for-women/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/snake-tattoo-ideas/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/en/tattoo-ideas/snake-tattoos/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/snake-tattoo-meaning/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/en/tattoo-ideas/snake-tattoos/snake-tattoo-meaning/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
     <lastmod>2026-06-17T00:00:00+00:00</lastmod>
@@ -112,6 +222,21 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/en/categories/tattoo-ideas/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/en/tattoo-ideas/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/tattoo-studio-district-12/</loc>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/en/tags/who-is-lan-pink/</loc>
     <lastmod>2026-06-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -132,75 +257,15 @@
                 href="http://localhost:1313/en/lan-pink-tattoo-artist/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/blackwork-tattoo/</loc>
-    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/tags/blackwork-tattoo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/blackwork-tattoo/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/custom-tattoo-design/</loc>
-    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/tags/custom-tattoo-design/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/custom-tattoo-design/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/tags/female-tattoo-artist-district-12/</loc>
     <lastmod>2026-06-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tags/fine-line-tattoo/</loc>
-    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/tags/fine-line-tattoo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/fine-line-tattoo/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/portfolio/</loc>
     <lastmod>2026-06-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/snake-tattoo/</loc>
-    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/tags/snake-tattoo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/snake-tattoo/"
-                />
   </url><url>
     <loc>http://localhost:1313/en/portfolio/vietnam-inspired-snake-tattoo-custom-design/</loc>
     <lastmod>2026-06-15T00:00:00+00:00</lastmod>
@@ -225,21 +290,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/tags/cat-portrait-tattoo/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
-    <lastmod>2026-06-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/categories/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/portfolio/gonzo-memorial-parrot-tattoo-custom-design/</loc>
@@ -293,11 +343,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/en/service-policy/</loc>
-    <lastmod>2026-06-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/tattoo-studio-district-12/</loc>
     <lastmod>2026-06-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -497,10 +542,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/en/tattoo-ideas/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/en/tattoo-ideas/arm-tattoos/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -534,10 +575,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/en/tattoo-ideas/mini-tattoos/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/en/tattoo-ideas/snake-tattoos/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
