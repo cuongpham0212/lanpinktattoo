@@ -7,28 +7,39 @@ draft: false
 description: "Tìm hiểu ý nghĩa hình xăm rắn và các gợi ý mẫu xăm rắn đẹp theo phong cách Fine Line, Blackwork, mini tattoo và thiết kế hình xăm theo yêu cầu tại Lan Pink Tattoo."
 
 categories:
-  - Ý tưởng xăm
+  - "Ý tưởng xăm"
 
 tags:
-  - ý nghĩa hình xăm rắn
-  - hình xăm rắn
-  - snake tattoo
-  - hình xăm rắn đẹp
-  - hình xăm rắn mini
-  - hình xăm rắn cho nữ
-  - hình xăm rắn cho nam
-  - fine line tattoo
-  - blackwork tattoo
-  - custom tattoo design
-  - thợ xăm nữ
-  - nữ thợ xăm
-  - tattoo artist tp hcm
-  - tattoo quận 12
-  - lan pink tattoo
-  - lan pink ink
+  - "ý nghĩa hình xăm rắn"
+  - "hình xăm rắn"
+  - "snake tattoo"
+  - "hình xăm rắn đẹp"
+  - "hình xăm rắn mini"
+  - "hình xăm rắn cho nữ"
+  - "hình xăm rắn cho nam"
+  - "fine line tattoo"
+  - "blackwork tattoo"
+  - "custom tattoo design"
+  - "thợ xăm nữ"
+  - "nữ thợ xăm"
+  - "tattoo artist tp hcm"
+  - "tattoo quận 12"
+  - "lan pink tattoo"
+  - "lan pink ink"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-ran-lan-pink-tattoo.webp"
 image_alt: "Ý nghĩa hình xăm rắn và mẫu xăm rắn đẹp tại Lan Pink Tattoo TP.HCM"
+
+seo_cluster_id: "snake_tattoo"
+seo_cluster: "Hình xăm rắn"
+seo_intent: "Ý nghĩa"
+seo_target_keyword: "ý nghĩa hình xăm rắn"
+
+artwork_subject: ""
+artwork_style: ""
+artwork_position: ""
+artwork_client: ""
+artwork_meaning: ""
 ---
 
 # Ý Nghĩa Hình Xăm Rắn Và Gợi Ý Mẫu Xăm Đẹp
