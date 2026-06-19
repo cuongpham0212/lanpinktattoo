@@ -74,52 +74,70 @@ enableRobotsTXT = true
       weight = 5
 
     [[languages.vi.menu.main]]
+      name = "Hình xăm vẹt"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-vet"
+      weight = 6
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm thú cưng"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-thu-cung"
+      weight = 7
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm tưởng niệm thú cưng"
+      parent = "y-tuong-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-tuong-niem-thu-cung"
+      weight = 8
+
+    [[languages.vi.menu.main]]
       name = "Hình xăm hoa sen"
       parent = "y-tuong-xam"
       pageRef = "/y-tuong-xam/hinh-xam-hoa-sen"
-      weight = 6
+      weight = 9
 
     [[languages.vi.menu.main]]
       name = "Hình xăm Mandala"
       parent = "y-tuong-xam"
       pageRef = "/y-tuong-xam/hinh-xam-mandala"
-      weight = 7
+      weight = 10
 
     [[languages.vi.menu.main]]
       name = "Hình xăm Blackwork"
       parent = "y-tuong-xam"
       pageRef = "/y-tuong-xam/hinh-xam-blackwork"
-      weight = 8
+      weight = 11
 
     [[languages.vi.menu.main]]
       name = "Hình xăm Nhật cổ"
       parent = "y-tuong-xam"
       pageRef = "/y-tuong-xam/hinh-xam-nhat-co"
-      weight = 9
+      weight = 12
 
     [[languages.vi.menu.main]]
       name = "Hình xăm cổ tay"
       parent = "y-tuong-xam"
       pageRef = "/y-tuong-xam/hinh-xam-co-tay"
-      weight = 10
+      weight = 13
 
     [[languages.vi.menu.main]]
       name = "Hình xăm bắp tay"
       parent = "y-tuong-xam"
       pageRef = "/y-tuong-xam/hinh-xam-bap-tay"
-      weight = 11
+      weight = 14
 
     [[languages.vi.menu.main]]
       name = "Hình xăm cho nữ"
       parent = "y-tuong-xam"
       pageRef = "/y-tuong-xam/hinh-xam-cho-nu"
-      weight = 12
+      weight = 15
 
     [[languages.vi.menu.main]]
       name = "Hình xăm cho nam"
       parent = "y-tuong-xam"
       pageRef = "/y-tuong-xam/hinh-xam-cho-nam"
-      weight = 13
+      weight = 16
 
     [[languages.vi.menu.main]]
       name = "FAQ"
