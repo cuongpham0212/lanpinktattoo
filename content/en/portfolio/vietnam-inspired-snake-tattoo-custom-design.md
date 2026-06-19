@@ -23,6 +23,11 @@ artwork_style: "Custom Tattoo Design, Fine Line Tattoo, Blackwork Tattoo"
 artwork_position: "Calf"
 artwork_client: "Male, international client"
 artwork_meaning: "A lasting tribute to the client's love for Vietnam through the powerful and symbolic image of a snake"
+
+seo_cluster_id: "snake_tattoo"
+seo_cluster: "Snake Tattoo"
+seo_intent: "Portfolio"
+seo_target_keyword: "Vietnam inspired snake tattoo"
 ---
 
 # Vietnam-Inspired Snake Tattoo – A Custom Design for an International Client

@@ -22,6 +22,11 @@ artwork_style: "Custom Tattoo Design"
 artwork_position: "Cổ tay"
 artwork_client: "Nam, khách quốc tế"
 artwork_meaning: "Tưởng nhớ thú cưng và người bạn đồng hành đặc biệt"
+
+seo_cluster_id: "pet_memorial_tattoo"
+seo_cluster: "Hình xăm tưởng niệm thú cưng"
+seo_intent: "Tác phẩm"
+seo_target_keyword: "hình xăm chú vẹt tưởng niệm"
 ---
 
 ## Hình Xăm Chú Vẹt Tưởng Niệm – Một Câu Chuyện Thật Từ Khách Hàng Của Lan Pink Ink

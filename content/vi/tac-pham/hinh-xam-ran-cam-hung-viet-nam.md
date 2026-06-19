@@ -24,6 +24,11 @@ artwork_style: "Custom Tattoo Design, Fine Line Tattoo, Blackwork Tattoo"
 artwork_position: "Bắp chân"
 artwork_client: "Nam, khách quốc tế"
 artwork_meaning: "Lưu giữ tình yêu dành cho Việt Nam qua hình tượng rắn mạnh mẽ, bí ẩn và giàu ý nghĩa cá nhân"
+
+seo_cluster_id: "snake_tattoo"
+seo_cluster: "Hình xăm rắn"
+seo_intent: "Tác phẩm"
+seo_target_keyword: "hình xăm rắn mang cảm hứng Việt Nam"
 ---
 
 # Hình Xăm Rắn Mang Cảm Hứng Việt Nam - Thiết Kế Riêng Cho Một Vị Khách Quốc Tế

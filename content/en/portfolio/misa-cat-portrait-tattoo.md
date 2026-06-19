@@ -43,6 +43,11 @@ artwork_style: "Pet Portrait Tattoo, Fine Line Tattoo, Black & Grey Tattoo"
 artwork_position: "Forearm"
 artwork_client: "Returning client and pet lover"
 artwork_meaning: "Preserving the memory and unique personality of Misa, a beloved companion"
+
+seo_cluster_id: "pet_portrait_tattoo"
+seo_cluster: "Pet Portrait Tattoo"
+seo_intent: "Portfolio"
+seo_target_keyword: "cat portrait tattoo"
 ---
 
 ![Misa cat portrait tattoo by Lan Pink Tattoo in Ho Chi Minh City](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-chan-dung-meo-misa.webp)

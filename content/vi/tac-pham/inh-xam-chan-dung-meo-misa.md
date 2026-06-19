@@ -42,6 +42,11 @@ artwork_style: "Pet Portrait Tattoo, Fine Line Tattoo, Black & Grey Tattoo"
 artwork_position: "Bắp tay"
 artwork_client: "Khách hàng yêu thú cưng, khách quen của Lan Pink Tattoo"
 artwork_meaning: "Lưu giữ hình ảnh và ký ức về mèo Misa, người bạn đồng hành đặc biệt của khách hàng"
+
+seo_cluster_id: "pet_portrait_tattoo"
+seo_cluster: "Hình xăm thú cưng"
+seo_intent: "Tác phẩm"
+seo_target_keyword: "hình xăm chân dung mèo"
 ---
 
 # Hình Xăm Chân Dung Mèo Misa – Ký Ức Về Người Bạn Đặc Biệt
