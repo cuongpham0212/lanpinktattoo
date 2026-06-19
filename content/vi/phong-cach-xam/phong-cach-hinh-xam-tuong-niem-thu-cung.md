@@ -183,7 +183,7 @@ Bạn nên chuẩn bị:
 
 - [Hình Xăm Chú Vẹt Tưởng Niệm – Custom Tattoo Design tại Lan Pink Ink](/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/)
 - [Hình Xăm Tưởng Niệm Thú Cưng Có Ý Nghĩa Gì?](/cam-nang-tattoo/hinh-xam-tuong-niem-thu-cung-noi-len-dieu-gi/)
-- [Ý Tưởng Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa](/y-tuong-xam/hinh-xam-tuong-niem-thu-cung/y-tuong-hinh-xam-tuong-niem-thu-cung/)
+- [Ý Tưởng Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa](/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-tuong-niem-thu-cung/)
 - [Tác phẩm tại Lan Pink Tattoo](/tac-pham/)
 - [FAQ xăm hình](/faq/)
 - [Bảng giá tattoo](/bang-gia/)

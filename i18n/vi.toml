@@ -2,13 +2,13 @@
 other = "Liên hệ"
 
 [studio_name]
-other = "Lan Pink Ink Studio"
+other = "Lan Pink Tattoo"
 
 [studio_description]
-other = "Không gian xăm riêng tư tại TP.HCM. Chuyên Fine Line, Blackwork, Mini Tattoo và thiết kế hình xăm theo yêu cầu."
+other = "Private tattoo studio tại TP.HCM, chuyên Fine Line, Blackwork, Mini Tattoo và thiết kế hình xăm theo yêu cầu."
 
 [address]
-other = "📍 Lan Pink Ink - Không gian xăm riêng tư"
+other = "📍 Lan Pink Tattoo - Private Tattoo Studio"
 
 [working_hours]
 other = "🕒 Làm việc theo lịch hẹn, vẫn tiếp khách ghé trực tiếp nếu có thời gian"
@@ -41,7 +41,7 @@ other = "Đặt lịch"
 other = "Xem tác phẩm"
 
 [private_tattoo_studio]
-other = "Không gian xăm riêng tư"
+other = "Private Tattoo Studio"
 
 [toc]
 other = "Mục lục"
@@ -54,6 +54,9 @@ other = "Mở"
 
 [share]
 other = "Chia sẻ"
+
+[on_this_page]
+other = "Trong bài viết"
 
 [copy_link]
 other = "Copy link"
@@ -80,7 +83,7 @@ other = "Về Lan Pink"
 other = "Về Lan Pink Tattoo Studio"
 
 [reviews]
-other = "Ý tưởng xăm"
+other = "Đánh giá"
 
 [connect_lanpink]
 other = "Kết nối với Lan Pink Tattoo"

@@ -38,7 +38,7 @@ enableRobotsTXT = true
       weight = 4
 
     [[languages.vi.menu.main]]
-      name = "Ý tưởng xăm"
+      name = "Chủ đề hình xăm"
       identifier = "y-tuong-xam"
       pageRef = "/y-tuong-xam"
       weight = 5
@@ -62,82 +62,22 @@ enableRobotsTXT = true
       weight = 3
 
     [[languages.vi.menu.main]]
-      name = "Hình xăm mèo"
-      parent = "y-tuong-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-meo"
-      weight = 4
-
-    [[languages.vi.menu.main]]
-      name = "Hình xăm chó"
-      parent = "y-tuong-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-cho"
-      weight = 5
-
-    [[languages.vi.menu.main]]
-      name = "Hình xăm vẹt"
-      parent = "y-tuong-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-vet"
-      weight = 6
-
-    [[languages.vi.menu.main]]
       name = "Hình xăm thú cưng"
       parent = "y-tuong-xam"
       pageRef = "/y-tuong-xam/hinh-xam-thu-cung"
-      weight = 7
-
-    [[languages.vi.menu.main]]
-      name = "Hình xăm tưởng niệm thú cưng"
-      parent = "y-tuong-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-tuong-niem-thu-cung"
-      weight = 8
-
-    [[languages.vi.menu.main]]
-      name = "Hình xăm hoa sen"
-      parent = "y-tuong-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-hoa-sen"
-      weight = 9
-
-    [[languages.vi.menu.main]]
-      name = "Hình xăm Mandala"
-      parent = "y-tuong-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-mandala"
-      weight = 10
-
-    [[languages.vi.menu.main]]
-      name = "Hình xăm Blackwork"
-      parent = "y-tuong-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-blackwork"
-      weight = 11
-
-    [[languages.vi.menu.main]]
-      name = "Hình xăm Nhật cổ"
-      parent = "y-tuong-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-nhat-co"
-      weight = 12
-
-    [[languages.vi.menu.main]]
-      name = "Hình xăm cổ tay"
-      parent = "y-tuong-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-co-tay"
-      weight = 13
-
-    [[languages.vi.menu.main]]
-      name = "Hình xăm bắp tay"
-      parent = "y-tuong-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-bap-tay"
-      weight = 14
+      weight = 4
 
     [[languages.vi.menu.main]]
       name = "Hình xăm cho nữ"
       parent = "y-tuong-xam"
       pageRef = "/y-tuong-xam/hinh-xam-cho-nu"
-      weight = 15
+      weight = 5
 
     [[languages.vi.menu.main]]
       name = "Hình xăm cho nam"
       parent = "y-tuong-xam"
       pageRef = "/y-tuong-xam/hinh-xam-cho-nam"
-      weight = 16
+      weight = 6
 
     [[languages.vi.menu.main]]
       name = "FAQ"
@@ -175,7 +115,7 @@ enableRobotsTXT = true
       weight = 4
 
     [[languages.en.menu.main]]
-      name = "Tattoo Ideas"
+      name = "Tattoo Topics"
       identifier = "tattoo-ideas"
       pageRef = "/tattoo-ideas"
       weight = 5
@@ -199,64 +139,22 @@ enableRobotsTXT = true
       weight = 3
 
     [[languages.en.menu.main]]
-      name = "Cat Tattoos"
+      name = "Pet Tattoos"
       parent = "tattoo-ideas"
-      pageRef = "/tattoo-ideas/cat-tattoos"
+      pageRef = "/tattoo-ideas/pet-tattoos"
       weight = 4
-
-    [[languages.en.menu.main]]
-      name = "Dog Tattoos"
-      parent = "tattoo-ideas"
-      pageRef = "/tattoo-ideas/dog-tattoos"
-      weight = 5
-
-    [[languages.en.menu.main]]
-      name = "Lotus Tattoos"
-      parent = "tattoo-ideas"
-      pageRef = "/tattoo-ideas/lotus-tattoos"
-      weight = 6
-
-    [[languages.en.menu.main]]
-      name = "Mandala Tattoos"
-      parent = "tattoo-ideas"
-      pageRef = "/tattoo-ideas/mandala-tattoos"
-      weight = 7
-
-    [[languages.en.menu.main]]
-      name = "Blackwork Tattoos"
-      parent = "tattoo-ideas"
-      pageRef = "/tattoo-ideas/blackwork-tattoos"
-      weight = 8
-
-    [[languages.en.menu.main]]
-      name = "Japanese Tattoos"
-      parent = "tattoo-ideas"
-      pageRef = "/tattoo-ideas/japanese-tattoos"
-      weight = 9
-
-    [[languages.en.menu.main]]
-      name = "Wrist Tattoos"
-      parent = "tattoo-ideas"
-      pageRef = "/tattoo-ideas/wrist-tattoos"
-      weight = 10
-
-    [[languages.en.menu.main]]
-      name = "Arm Tattoos"
-      parent = "tattoo-ideas"
-      pageRef = "/tattoo-ideas/arm-tattoos"
-      weight = 11
 
     [[languages.en.menu.main]]
       name = "Tattoos For Women"
       parent = "tattoo-ideas"
       pageRef = "/tattoo-ideas/tattoos-for-women"
-      weight = 12
+      weight = 5
 
     [[languages.en.menu.main]]
       name = "Tattoos For Men"
       parent = "tattoo-ideas"
       pageRef = "/tattoo-ideas/tattoos-for-men"
-      weight = 13
+      weight = 6
 
     [[languages.en.menu.main]]
       name = "FAQ"

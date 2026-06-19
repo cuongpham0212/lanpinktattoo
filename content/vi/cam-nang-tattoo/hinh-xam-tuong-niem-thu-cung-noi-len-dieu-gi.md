@@ -195,7 +195,7 @@ Càng nhiều thông tin, thiết kế càng có thể phản ánh chính xác c
 ## Khám Phá Thêm Tại Lan Pink Tattoo
 
 - [Hình Xăm Chú Vẹt Tưởng Niệm – Custom Tattoo Design tại Lan Pink Ink](/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/)
-- [Ý Tưởng Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa](/y-tuong-xam/hinh-xam-tuong-niem-thu-cung/y-tuong-hinh-xam-tuong-niem-thu-cung/)
+- [Ý Tưởng Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa](/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-tuong-niem-thu-cung/)
 - [Các Phong Cách Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa](/phong-cach-xam/phong-cach-hinh-xam-tuong-niem-thu-cung/)
 - [Tác phẩm tại Lan Pink Tattoo](/tac-pham/)
 - [FAQ xăm hình](/faq/)
