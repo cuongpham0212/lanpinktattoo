@@ -1,16 +1,152 @@
 {{ $siteLanguage := .Site.Language.Lang }}
+{{ $memberProgramUrl := .Site.Params.memberProgramUrl | default "/lan-pink-member/" }}
+{{ $memberAppUrl := .Site.Params.memberAppUrl | default "lanpinkmember://open" }}
+
+<style>
+  .lp-header .lp-header-shell {
+    width: 100%;
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .lp-header .lp-header-inner {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    min-height: 66px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .lp-header .lp-brand {
+    display: inline-flex;
+    align-items: center;
+    flex: 0 0 auto;
+    min-width: 0;
+    text-decoration: none;
+  }
+  .lp-header .lp-header-logo {
+    white-space: nowrap;
+    line-height: 1;
+    font-size: clamp(20px, 1.75vw, 28px);
+    letter-spacing: -0.04em;
+  }
+  .lp-header .lp-main-nav {
+    display: none;
+    flex: 1 1 auto;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+  }
+  .lp-header .lp-nav-dropdown { flex: 0 0 auto; }
+  .lp-header .lp-nav-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px;
+    padding: 7px 9px;
+    border-radius: 999px;
+    white-space: nowrap;
+    line-height: 1.1;
+    font-size: 14px;
+    font-weight: 850;
+    transform: none !important;
+  }
+  .lp-header .lp-nav-link.is-active {
+    min-width: auto !important;
+    padding: 7px 10px !important;
+    box-shadow: 0 8px 22px rgba(219, 39, 119, .14);
+  }
+  .lp-header .lp-nav-dropdown-menu {
+    min-width: 210px;
+    z-index: 80;
+  }
+  .lp-header .lp-header-actions {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+  .lp-header .lp-member-app-btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-radius: 999px;
+    padding: 8px 13px;
+    font-size: 13px;
+    font-weight: 900;
+    min-height: 38px;
+    box-shadow: 0 10px 24px rgba(24,24,27,.10);
+    transition: transform .18s ease, box-shadow .18s ease;
+  }
+  .lp-header .lp-member-app-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 14px 34px rgba(219,39,119,.18);
+  }
+  .lp-header .lp-booking-btn {
+    min-height: 38px;
+    padding: 8px 15px !important;
+    font-size: 13px !important;
+  }
+  .lp-header .lp-lang-switch {
+    min-height: 38px;
+    padding: 8px 12px;
+    white-space: nowrap;
+  }
+  .lp-header .lp-icon-btn {
+    width: 38px !important;
+    height: 38px !important;
+    flex: 0 0 auto;
+  }
+  @media (min-width: 1280px) {
+    .lp-header .lp-main-nav { display: flex; }
+  }
+  @media (min-width: 1380px) {
+    .lp-header .lp-member-app-btn { display: inline-flex; }
+    .lp-header .lp-nav-link { font-size: 14.5px; padding-left: 10px; padding-right: 10px; }
+  }
+  @media (min-width: 1536px) {
+    .lp-header .lp-nav-link { font-size: 15px; padding-left: 12px; padding-right: 12px; }
+    .lp-header .lp-member-app-btn { font-size: 14px; padding-left: 15px; padding-right: 15px; }
+    .lp-header .lp-booking-btn { font-size: 14px !important; padding-left: 17px !important; padding-right: 17px !important; }
+  }
+  @media (max-width: 1279px) {
+    .lp-header .lp-header-inner { justify-content: space-between; }
+    .lp-header .lp-header-shell { padding-left: 16px; padding-right: 16px; }
+  }
+</style>
+
+<script>
+  window.openLanPinkMemberApp = function () {
+    var appUrl = {{ $memberAppUrl }};
+    var fallbackUrl = {{ $memberProgramUrl }};
+    var openedAt = Date.now();
+
+    window.location.href = appUrl;
+
+    window.setTimeout(function () {
+      if (Date.now() - openedAt < 1800 && !document.hidden) {
+        window.location.href = fallbackUrl;
+      }
+    }, 900);
+  };
+</script>
 
 <header class="lp-header sticky top-0 z-50 border-b backdrop-blur-xl">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="flex min-h-16 items-center gap-6 py-3">
+  <div class="lp-header-shell">
+    <div class="lp-header-inner">
 
-      <a href="{{ .Site.Home.RelPermalink }}" class="flex shrink-0 items-center">
-        <span class="lp-header-logo text-xl font-black tracking-tight sm:text-2xl">
+      <a href="{{ .Site.Home.RelPermalink }}" class="lp-brand" aria-label="Lan Pink Tattoo">
+        <span class="lp-header-logo font-black tracking-tight">
           LAN PINK <span>TATTOO</span>
         </span>
       </a>
 
-      <nav class="hidden min-w-0 flex-1 items-center justify-center gap-1.5 xl:gap-2 lg:flex" aria-label="Main navigation">
+      <nav class="lp-main-nav" aria-label="Main navigation">
         {{ range .Site.Menus.main }}
           {{ if not .Parent }}
             {{ $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
@@ -18,7 +154,7 @@
             {{ if .HasChildren }}
               <div class="lp-nav-dropdown relative">
                 <a href="{{ .URL }}" class="lp-nav-link {{ if $active }}is-active{{ end }}">
-                  {{ .Name }}
+                  {{ .Name }} <span class="ml-1 opacity-70">⌄</span>
                 </a>
 
                 <div class="lp-nav-dropdown-menu">
@@ -39,13 +175,22 @@
         {{ end }}
       </nav>
 
-      <div class="flex shrink-0 items-center justify-end gap-3">
+      <div class="lp-header-actions">
+
+        <button
+          type="button"
+          onclick="window.openLanPinkMemberApp()"
+          class="lp-member-app-btn"
+          aria-label="{{ i18n "member_app" | default "Tích điểm" }}"
+        >
+          {{ i18n "member_app" | default "Tích điểm" }}
+        </button>
 
         <a
           href="{{ .Site.Params.messenger | default .Site.Params.bookingUrl }}"
           target="_blank"
           rel="noopener"
-          class="lp-booking-btn hidden whitespace-nowrap rounded-full px-4 py-2 text-sm font-extrabold shadow-md transition hover:-translate-y-0.5 md:inline-flex"
+          class="lp-booking-btn hidden whitespace-nowrap rounded-full text-sm font-extrabold shadow-md transition hover:-translate-y-0.5 md:inline-flex"
         >
           {{ i18n "book_now" | default "Đặt lịch" }}
         </a>
@@ -67,7 +212,7 @@
           id="theme-toggle"
           type="button"
           onclick="window.toggleTheme()"
-          class="lp-icon-btn flex h-10 w-10 items-center justify-center rounded-full text-xl shadow-sm transition hover:-translate-y-0.5"
+          class="lp-icon-btn flex items-center justify-center rounded-full text-xl shadow-sm transition hover:-translate-y-0.5"
           aria-label="Đổi theme"
         >
           <span id="theme-icon">🌙</span>
@@ -75,7 +220,7 @@
 
         <button
           type="button"
-          class="lp-menumobile-toggle lp-icon-btn inline-flex h-10 w-10 items-center justify-center rounded-full shadow-sm transition hover:-translate-y-0.5 lg:hidden"
+          class="lp-menumobile-toggle lp-icon-btn inline-flex items-center justify-center rounded-full shadow-sm transition hover:-translate-y-0.5 xl:hidden"
           onclick="document.getElementById('menumobile').classList.toggle('hidden')"
           aria-label="Mở menu"
         >
@@ -88,7 +233,7 @@
     </div>
   </div>
 
-  <div id="menumobile" class="lp-menumobile hidden lg:hidden">
+  <div id="menumobile" class="lp-menumobile hidden xl:hidden">
     <div>
       {{ range .Site.Menus.main }}
         {{ if not .Parent }}
@@ -106,7 +251,6 @@
               </button>
 
               <div class="lp-menumobile-submenu">
-                
                 {{ range .Children }}
                   {{ $childActive := $.IsMenuCurrent "main" . }}
                   <a href="{{ .URL }}" class="lp-menumobile-sublink {{ if $childActive }}is-active{{ end }}">
@@ -122,6 +266,14 @@
           {{ end }}
         {{ end }}
       {{ end }}
+
+      <button
+        type="button"
+        onclick="window.openLanPinkMemberApp()"
+        class="lp-menumobile-booking mt-3 w-full text-left"
+      >
+        {{ i18n "member_app" | default "Tích điểm" }}
+      </button>
 
       <a
         href="{{ .Site.Params.messenger | default .Site.Params.bookingUrl }}"

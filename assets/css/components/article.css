@@ -251,3 +251,433 @@
     margin-right: auto;
   }
 }
+/* =========================
+   Lan Pink Member rank table
+   ========================= */
+.lp-content .member-rank-table,
+.prose .member-rank-table {
+  width: 100%;
+  max-width: 720px;
+  margin: 36px auto 44px auto !important;
+  border: 1px solid rgba(236, 72, 153, 0.45) !important;
+  border-radius: 18px !important;
+  overflow: hidden !important;
+  background: rgba(236, 72, 153, 0.045) !important;
+}
+
+.lp-content .member-rank-table table,
+.prose .member-rank-table table {
+  width: 100% !important;
+  margin: 0 !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+
+.lp-content .member-rank-table th,
+.lp-content .member-rank-table td,
+.prose .member-rank-table th,
+.prose .member-rank-table td {
+  padding: 18px 26px !important;
+  border-bottom: 1px solid rgba(236, 72, 153, 0.25) !important;
+  border-right: 1px solid rgba(236, 72, 153, 0.18) !important;
+  text-align: left !important;
+  vertical-align: middle !important;
+}
+
+.lp-content .member-rank-table th:last-child,
+.lp-content .member-rank-table td:last-child,
+.prose .member-rank-table th:last-child,
+.prose .member-rank-table td:last-child {
+  border-right: 0 !important;
+}
+
+.lp-content .member-rank-table tr:last-child td,
+.prose .member-rank-table tr:last-child td {
+  border-bottom: 0 !important;
+}
+
+.lp-content .member-rank-table th,
+.prose .member-rank-table th {
+  background: rgba(236, 72, 153, 0.18) !important;
+  color: var(--text-main, #ffffff) !important;
+  font-weight: 800 !important;
+}
+
+.lp-content .member-rank-table td:first-child,
+.prose .member-rank-table td:first-child {
+  color: var(--primary-strong, #ec4899) !important;
+  font-weight: 800 !important;
+}
+
+/* =====================================
+   Lan Pink Member Table
+===================================== */
+
+.lp-content table,
+.prose table {
+  width: 100%;
+  margin: 2rem 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid rgba(236,72,153,.22);
+}
+
+.lp-content table thead,
+.prose table thead {
+  background: rgba(236,72,153,.15);
+}
+
+.lp-content table th,
+.prose table th {
+  padding: 14px 18px;
+  font-weight: 700;
+  text-align: left;
+  border-bottom: 1px solid rgba(236,72,153,.22);
+}
+
+.lp-content table td,
+.prose table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid rgba(236,72,153,.12);
+}
+
+.lp-content table tr:last-child td,
+.prose table tr:last-child td {
+  border-bottom: 0;
+}
+
+.lp-content table tbody tr:hover,
+.prose table tbody tr:hover {
+  background: rgba(236,72,153,.05);
+}
+
+@media (max-width:768px){
+
+  .lp-content table,
+  .prose table{
+    display:block;
+    overflow-x:auto;
+    white-space:nowrap;
+  }
+
+}
+
+/* =========================
+   Lan Pink public member table
+========================= */
+.lp-content .member-public-table,
+.prose .member-public-table {
+  width: 100%;
+  margin: 2rem auto 2.5rem;
+  overflow-x: auto;
+  border: 1px solid rgba(236,72,153,.28);
+  border-radius: 18px;
+  background: rgba(255,255,255,.045);
+}
+
+.lp-content .member-public-table table,
+.prose .member-public-table table {
+  width: 100%;
+  min-width: 920px;
+  margin: 0 !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+
+.lp-content .member-public-table th,
+.lp-content .member-public-table td,
+.prose .member-public-table th,
+.prose .member-public-table td {
+  padding: 15px 18px !important;
+  border-bottom: 1px solid rgba(236,72,153,.16) !important;
+  border-right: 1px solid rgba(236,72,153,.12) !important;
+  text-align: left !important;
+  vertical-align: middle !important;
+}
+
+.lp-content .member-public-table th,
+.prose .member-public-table th {
+  background: rgba(236,72,153,.18) !important;
+  font-weight: 800 !important;
+}
+
+.lp-content .member-public-table tr:last-child td,
+.prose .member-public-table tr:last-child td {
+  border-bottom: 0 !important;
+}
+
+.lp-content .member-public-table td:last-child,
+.lp-content .member-public-table th:last-child,
+.prose .member-public-table td:last-child,
+.prose .member-public-table th:last-child {
+  border-right: 0 !important;
+}
+
+.member-name {
+  font-weight: 800;
+  color: var(--primary-strong, #ec4899);
+}
+
+.rank-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 78px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: .9rem;
+  border: 1px solid rgba(236,72,153,.25);
+}
+
+.rank-member { background: rgba(255,255,255,.08); color: #f9fafb; }
+.rank-silver { background: rgba(203,213,225,.18); color: #e5e7eb; }
+.rank-gold { background: rgba(250,204,21,.18); color: #fde68a; }
+.rank-vip { background: rgba(168,85,247,.18); color: #d8b4fe; }
+.rank-diamond { background: rgba(236,72,153,.22); color: #f9a8d4; }
+
+/* Fix Lan Pink Member badges for light/dark */
+.rank-badge {
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+
+.rank-member {
+  background: #6b7280 !important;
+  border-color: #9ca3af !important;
+  color: #ffffff !important;
+}
+
+.rank-silver {
+  background: #64748b !important;
+  border-color: #94a3b8 !important;
+  color: #ffffff !important;
+}
+
+.rank-gold {
+  background: #ca8a04 !important;
+  border-color: #eab308 !important;
+  color: #ffffff !important;
+}
+
+.rank-vip {
+  background: #7e22ce !important;
+  border-color: #a855f7 !important;
+  color: #ffffff !important;
+}
+
+.rank-diamond {
+  background: #db2777 !important;
+  border-color: #ec4899 !important;
+  color: #ffffff !important;
+}
+
+html.dark .rank-member,
+[data-theme="dark"] .rank-member {
+  background: rgba(107,114,128,.35) !important;
+}
+
+html.dark .rank-silver,
+[data-theme="dark"] .rank-silver {
+  background: rgba(100,116,139,.45) !important;
+}
+
+html.dark .rank-gold,
+[data-theme="dark"] .rank-gold {
+  background: rgba(202,138,4,.45) !important;
+}
+
+html.dark .rank-vip,
+[data-theme="dark"] .rank-vip {
+  background: rgba(126,34,206,.55) !important;
+}
+
+html.dark .rank-diamond,
+[data-theme="dark"] .rank-diamond {
+  background: rgba(219,39,119,.55) !important;
+}
+
+/* Fix Lan Pink Member badges for light/dark */
+.rank-badge {
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+
+.rank-member {
+  background: #6b7280 !important;
+  border-color: #9ca3af !important;
+  color: #ffffff !important;
+}
+
+.rank-silver {
+  background: #64748b !important;
+  border-color: #94a3b8 !important;
+  color: #ffffff !important;
+}
+
+.rank-gold {
+  background: #ca8a04 !important;
+  border-color: #eab308 !important;
+  color: #ffffff !important;
+}
+
+.rank-vip {
+  background: #7e22ce !important;
+  border-color: #a855f7 !important;
+  color: #ffffff !important;
+}
+
+.rank-diamond {
+  background: #db2777 !important;
+  border-color: #ec4899 !important;
+  color: #ffffff !important;
+}
+
+html.dark .rank-member,
+[data-theme="dark"] .rank-member {
+  background: rgba(107,114,128,.35) !important;
+}
+
+html.dark .rank-silver,
+[data-theme="dark"] .rank-silver {
+  background: rgba(100,116,139,.45) !important;
+}
+
+html.dark .rank-gold,
+[data-theme="dark"] .rank-gold {
+  background: rgba(202,138,4,.45) !important;
+}
+
+html.dark .rank-vip,
+[data-theme="dark"] .rank-vip {
+  background: rgba(126,34,206,.55) !important;
+}
+
+html.dark .rank-diamond,
+[data-theme="dark"] .rank-diamond {
+  background: rgba(219,39,119,.55) !important;
+}
+
+/* Fix Lan Pink Member badges for light/dark */
+.rank-badge {
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+
+.rank-member {
+  background: #6b7280 !important;
+  border-color: #9ca3af !important;
+  color: #ffffff !important;
+}
+
+.rank-silver {
+  background: #64748b !important;
+  border-color: #94a3b8 !important;
+  color: #ffffff !important;
+}
+
+.rank-gold {
+  background: #ca8a04 !important;
+  border-color: #eab308 !important;
+  color: #ffffff !important;
+}
+
+.rank-vip {
+  background: #7e22ce !important;
+  border-color: #a855f7 !important;
+  color: #ffffff !important;
+}
+
+.rank-diamond {
+  background: #db2777 !important;
+  border-color: #ec4899 !important;
+  color: #ffffff !important;
+}
+
+html.dark .rank-member,
+[data-theme="dark"] .rank-member {
+  background: rgba(107,114,128,.35) !important;
+}
+
+html.dark .rank-silver,
+[data-theme="dark"] .rank-silver {
+  background: rgba(100,116,139,.45) !important;
+}
+
+html.dark .rank-gold,
+[data-theme="dark"] .rank-gold {
+  background: rgba(202,138,4,.45) !important;
+}
+
+html.dark .rank-vip,
+[data-theme="dark"] .rank-vip {
+  background: rgba(126,34,206,.55) !important;
+}
+
+html.dark .rank-diamond,
+[data-theme="dark"] .rank-diamond {
+  background: rgba(219,39,119,.55) !important;
+}
+
+/* Fix Lan Pink Member badges for light/dark */
+.rank-badge {
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+
+.rank-member {
+  background: #6b7280 !important;
+  border-color: #9ca3af !important;
+  color: #ffffff !important;
+}
+
+.rank-silver {
+  background: #64748b !important;
+  border-color: #94a3b8 !important;
+  color: #ffffff !important;
+}
+
+.rank-gold {
+  background: #ca8a04 !important;
+  border-color: #eab308 !important;
+  color: #ffffff !important;
+}
+
+.rank-vip {
+  background: #7e22ce !important;
+  border-color: #a855f7 !important;
+  color: #ffffff !important;
+}
+
+.rank-diamond {
+  background: #db2777 !important;
+  border-color: #ec4899 !important;
+  color: #ffffff !important;
+}
+
+html.dark .rank-member,
+[data-theme="dark"] .rank-member {
+  background: rgba(107,114,128,.35) !important;
+}
+
+html.dark .rank-silver,
+[data-theme="dark"] .rank-silver {
+  background: rgba(100,116,139,.45) !important;
+}
+
+html.dark .rank-gold,
+[data-theme="dark"] .rank-gold {
+  background: rgba(202,138,4,.45) !important;
+}
+
+html.dark .rank-vip,
+[data-theme="dark"] .rank-vip {
+  background: rgba(126,34,206,.55) !important;
+}
+
+html.dark .rank-diamond,
+[data-theme="dark"] .rank-diamond {
+  background: rgba(219,39,119,.55) !important;
+}
