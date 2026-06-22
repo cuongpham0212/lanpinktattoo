@@ -1,4 +1,4 @@
-/* Custom overrides only. Core layout/theme/header/hero/gallery/buttons/contact/footer live in their own files. */
+/* Custom hotfixes only. Base/theme/layout/components are handled by dedicated CSS files. */
 
 /* =====================================
    DARK ARTICLE READABILITY FIX
@@ -100,43 +100,6 @@ html[data-theme="dark"] .lp-content hr {
 .lp-article-cta__button {
   color: #ffffff !important;
 }
-/* Lan Pink Member - bảng hạng thành viên */
-.member-rank-table {
-  max-width: 640px;
-  margin: 32px auto;
-  overflow: hidden;
-  border: 1px solid rgba(255, 105, 180, 0.35);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.04);
-}
-
-.member-rank-table table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 0;
-}
-
-.member-rank-table th,
-.member-rank-table td {
-  padding: 16px 22px;
-  border-bottom: 1px solid rgba(255, 105, 180, 0.22);
-  text-align: left;
-}
-
-.member-rank-table th {
-  font-weight: 800;
-  background: rgba(255, 105, 180, 0.16);
-}
-
-.member-rank-table tr:last-child td {
-  border-bottom: 0;
-}
-
-.member-rank-table td:first-child {
-  font-weight: 800;
-  color: #ff4fa3;
-}
-
 /* Lan Pink Member - Rank table */
 .content .member-rank-table,
 .member-rank-table {
@@ -196,4 +159,62 @@ html[data-theme="dark"] .lp-content hr {
 .content .member-rank-table tbody tr:hover,
 .member-rank-table tbody tr:hover {
   background: rgba(255, 79, 163, 0.08) !important;
+}
+
+/* =========================
+   Lan Pink Member pink info box dark-mode readability
+========================= */
+
+html[data-theme="dark"] .lp-content div[style*="background"],
+html[data-theme="dark"] .lp-content div[style*="background-color"] {
+  color: #4a2c3a !important;
+}
+
+html[data-theme="dark"] .lp-content div[style*="background"] *,
+html[data-theme="dark"] .lp-content div[style*="background-color"] * {
+  color: #4a2c3a !important;
+}
+
+html[data-theme="dark"] .lp-content div[style*="background"] h1,
+html[data-theme="dark"] .lp-content div[style*="background"] h2,
+html[data-theme="dark"] .lp-content div[style*="background"] h3,
+html[data-theme="dark"] .lp-content div[style*="background"] strong,
+html[data-theme="dark"] .lp-content div[style*="background-color"] h1,
+html[data-theme="dark"] .lp-content div[style*="background-color"] h2,
+html[data-theme="dark"] .lp-content div[style*="background-color"] h3,
+html[data-theme="dark"] .lp-content div[style*="background-color"] strong {
+  color: #2b1721 !important;
+}
+
+html[data-theme="dark"] .lp-content div[style*="background"] a,
+html[data-theme="dark"] .lp-content div[style*="background-color"] a {
+  color: #ec4899 !important;
+}
+
+/* =========================
+   Lan Pink Member floating CTA
+   Avoid overlapping back-to-top button
+========================= */
+
+#lpm-float,
+.lpm-float {
+  right: 24px !important;
+  bottom: 112px !important;
+  z-index: 55 !important;
+}
+
+@media (max-width: 768px) {
+  #lpm-float,
+  .lpm-float {
+    right: 12px !important;
+    bottom: 92px !important;
+    transform: scale(.88) !important;
+    transform-origin: bottom right !important;
+  }
+
+  #lpm-float .lpm-float-text,
+  .lpm-float .lpm-float-text {
+    font-size: 12px !important;
+    line-height: 1.15 !important;
+  }
 }

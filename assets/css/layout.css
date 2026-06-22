@@ -140,8 +140,7 @@ img {
   margin-bottom: 3rem;
 }
 
-.section-subtitle,
-.lp-eyebrow {
+.section-subtitle {
   color: var(--primary-strong);
   text-transform: uppercase;
   letter-spacing: 2.8px;
@@ -258,25 +257,7 @@ html[data-theme="dark"] .lp-page-header {
   border-color: var(--border) !important;
 }
 
-.lp-btn-secondary {
-  display: inline-flex;
-  align-items: center;
-  border-radius: 999px;
-  background: var(--surface);
-  padding: .65rem 1.1rem;
-  font-size: .875rem;
-  font-weight: 750;
-  color: var(--text-heading);
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow);
-  transition: transform .25s ease, box-shadow .25s ease, background .25s ease;
-}
 
-.lp-btn-secondary:hover {
-  transform: translateY(-2px);
-  background: var(--surface-2);
-  box-shadow: var(--shadow-pink);
-}
 
 /* =========================
 OVERRIDE TAILWIND NEUTRAL + ZINC

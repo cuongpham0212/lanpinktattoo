@@ -91,5 +91,120 @@
      Other files load separately to avoid @import issue
 ========================= */}}
 
-{{ partial "lp-css-bundle.html" . }}
+{{ $mainCSS := resources.Get "css/main.css" }}
+{{ if $mainCSS }}
+  {{ $mainCSS = $mainCSS | css.PostCSS }}
+  {{ if hugo.IsProduction }}
+    {{ $mainCSS = $mainCSS | minify | fingerprint }}
+  {{ end }}
+  <link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $mainCSS.Data.Integrity }}"{{ end }}>
+{{ else }}
+  {{ errorf "Không tìm thấy assets/css/main.css" }}
+{{ end }}
 
+{{ $cssFiles := slice
+  "css/layout.css"
+  "css/custom.css"
+  "css/contact.css"
+  "css/gallery.css"
+  "css/components/components.css"
+  "css/components/article-images.css"
+  "css/components/hero.css"
+  "css/components/portfolio.css"
+  "css/components/header.css"
+  "css/components/menumobile.css"
+  "css/components/footer.css"
+  "css/components/toc.css"
+  "css/components/article.css"
+}}
+
+{{ range $cssFiles }}
+  {{ $file := resources.Get . }}
+  {{ if $file }}
+    {{ if hugo.IsProduction }}
+      {{ $file = $file | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ $file.RelPermalink }}" integrity="{{ $file.Data.Integrity }}">
+    {{ else }}
+      <link rel="stylesheet" href="{{ $file.RelPermalink }}">
+    {{ end }}
+  {{ else }}
+    {{ warnf "Không tìm thấy CSS asset: %s" . }}
+  {{ end }}
+{{ end }}
+
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+{{ if .IsHome }}
+{{ partial "schema-localbusiness.html" . }}
+{{ end }}
+
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ .Title | plainify | jsonify }},
+  "description": {{ $description | plainify | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  "image": {{ $ogImages.og.abs | jsonify }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Lan Pink Tattoo",
+    "url": {{ .Site.BaseURL | jsonify }}
+  },
+  "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+  "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | jsonify }}
+}
+</script>
+{{ end }}
+
+{{ partial "schema-person-lan-pink.html" . }}
+
+{{ if not .IsHome }}
+{{ $homeName := cond (eq .Language.Lang "vi") "Trang chủ" "Home" }}
+{{ $currentName := .Title | plainify }}
+{{ if not $currentName }}
+  {{ $currentName = .LinkTitle | plainify }}
+{{ end }}
+{{ if not $currentName }}
+  {{ $currentName = .Site.Title }}
+{{ end }}
+
+{{ $breadcrumb := dict
+  "@context" "https://schema.org"
+  "@type" "BreadcrumbList"
+  "itemListElement" (slice
+    (dict
+      "@type" "ListItem"
+      "position" 1
+      "name" $homeName
+      "item" .Site.Home.Permalink
+    )
+    (dict
+      "@type" "ListItem"
+      "position" 2
+      "name" $currentName
+      "item" .Permalink
+    )
+  )
+}}
+
+<script type="application/ld+json">
+{{ $breadcrumb | jsonify | safeJS }}
+</script>
+{{ end }}
+
+{{ if hugo.IsProduction }}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YHDTF0NDK7"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
+gtag('js', new Date());
+gtag('config', 'G-YHDTF0NDK7');
+</script>
+{{ end }}

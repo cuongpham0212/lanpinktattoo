@@ -69,12 +69,6 @@
   color: var(--text-muted);
 }
 
-.lp-content img,
-.prose img {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  border-radius: 1.5rem;
-}
 
 .lp-content blockquote,
 .prose blockquote {
@@ -239,13 +233,6 @@
   .prose ul,
   .prose ol,
   .prose blockquote {
-    max-width: 880px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .lp-content img,
-  .prose img {
     max-width: 880px;
     margin-left: auto;
     margin-right: auto;
