@@ -167,13 +167,6 @@
 
 {{ if not .IsHome }}
 {{ $homeName := cond (eq .Language.Lang "vi") "Trang chủ" "Home" }}
-{{ $currentName := .Title | plainify }}
-{{ if not $currentName }}
-  {{ $currentName = .LinkTitle | plainify }}
-{{ end }}
-{{ if not $currentName }}
-  {{ $currentName = .Site.Title }}
-{{ end }}
 
 {{ $breadcrumb := dict
   "@context" "https://schema.org"
@@ -188,7 +181,7 @@
     (dict
       "@type" "ListItem"
       "position" 2
-      "name" $currentName
+      "name" (.Title | plainify)
       "item" .Permalink
     )
   )

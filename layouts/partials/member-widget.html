@@ -1,0 +1,359 @@
+<!-- Lan Pink Member Widget -->
+<div id="lpm-overlay" class="lpm-overlay" hidden></div>
+
+<div id="lpm-popup" class="lpm-popup" hidden>
+  <button class="lpm-close" type="button" aria-label="Đóng">×</button>
+
+  <div class="lpm-icon">💎</div>
+  <h2>Kết Nối Dài Lâu</h2>
+  <p class="lpm-subtitle">Lan Pink Member</p>
+
+  <p class="lpm-text">
+    Tích điểm, nhận voucher sinh nhật, ưu đãi dành cho khách quay lại
+    và quà tặng khi giới thiệu bạn bè đến Lan Pink Tattoo.
+  </p>
+
+  <div class="lpm-new-code">
+    <span>Mã ưu đãi khách mới</span>
+    <strong>SITELANPINKTATTOO</strong>
+    <small>Giảm 10% tối đa 200.000đ cho hóa đơn từ 400.000đ. Áp dụng 1 lần cho khách mới từ website. Vẫn được tham gia Kết Nối Dài Lâu và tích điểm thành viên. Không áp dụng đồng thời với voucher hoặc mã ưu đãi khác.</small>
+  </div>
+
+  <div class="lpm-actions">
+    <a href="{{ "quy-tac-tich-diem/" | relLangURL }}" class="lpm-primary">Tìm hiểu ngay</a>
+    <button class="lpm-secondary" type="button">Để sau</button>
+  </div>
+</div>
+
+<div id="lpm-float" class="lpm-float" role="button" tabindex="0" aria-label="Kết Nối Dài Lâu">
+  <span class="lpm-float-icon">��</span>
+  <span class="lpm-float-text">Kết Nối<br>Dài Lâu</span>
+</div>
+
+<div id="lpm-panel" class="lpm-panel" hidden>
+  <button class="lpm-panel-close" type="button" aria-label="Đóng">×</button>
+
+  <h3>💎 Kết Nối Dài Lâu</h3>
+  <p class="lpm-panel-note">Lan Pink Member</p>
+
+  <div class="lpm-panel-section">
+    <strong>Bạn là thành viên?</strong>
+    <a href="{{ "lan-pink-member/" | relLangURL }}" class="lpm-panel-btn">Tra cứu điểm</a>
+  </div>
+
+  <div class="lpm-panel-section">
+    <strong>Bạn chưa là thành viên?</strong>
+    <a href="{{ "quy-tac-tich-diem/" | relLangURL }}" class="lpm-panel-btn">Tìm hiểu quyền lợi</a>
+  </div>
+
+  <div class="lpm-panel-section">
+    <strong>Giới thiệu bạn bè</strong>
+    <p>Nhận thưởng điểm khi giới thiệu khách mới.</p>
+    <a href="{{ "chuong-trinh-gioi-thieu-ban-be/" | relLangURL }}" class="lpm-panel-link">Xem chi tiết</a>
+  </div>
+
+  <div class="lpm-panel-section">
+    <strong>Voucher sinh nhật</strong>
+    <p>Ưu đãi đặc biệt dành cho thành viên.</p>
+    <a href="{{ "quy-tac-tich-diem/" | relLangURL }}" class="lpm-panel-link">Xem điều kiện</a>
+  </div>
+
+  <div class="lpm-panel-code">
+    <span>Mã khách mới lần đầu</span>
+    <strong>SITELANPINKTATTOO</strong>
+  </div>
+</div>
+
+<style>
+  .lpm-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9997;
+    background: rgba(0, 0, 0, .42);
+    backdrop-filter: blur(3px);
+  }
+
+  .lpm-popup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 9998;
+    transform: translate(-50%, -50%);
+    width: min(92vw, 420px);
+    padding: 28px 24px 24px;
+    border-radius: 24px;
+    background: #fff;
+    color: #24151b;
+    box-shadow: 0 24px 70px rgba(0,0,0,.24);
+    text-align: center;
+    animation: lpmPop .32s ease-out;
+  }
+
+  .lpm-close,
+  .lpm-panel-close {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    border: 0;
+    background: transparent;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+    color: #7a5966;
+  }
+
+  .lpm-icon {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 12px;
+    border-radius: 999px;
+    background: #fff0f6;
+    font-size: 30px;
+  }
+
+  .lpm-popup h2 {
+    margin: 0;
+    font-size: 26px;
+    letter-spacing: -.02em;
+  }
+
+  .lpm-subtitle {
+    margin: 4px 0 14px;
+    color: #c44b7a;
+    font-weight: 700;
+  }
+
+  .lpm-text {
+    margin: 0 0 18px;
+    line-height: 1.55;
+    color: #5f4650;
+  }
+
+  .lpm-new-code,
+  .lpm-panel-code {
+    margin: 16px 0;
+    padding: 14px;
+    border: 1px dashed #d85c8d;
+    border-radius: 18px;
+    background: #fff7fa;
+  }
+
+  .lpm-new-code span,
+  .lpm-panel-code span {
+    display: block;
+    font-size: 13px;
+    color: #7a5966;
+    margin-bottom: 6px;
+  }
+
+  .lpm-new-code strong,
+  .lpm-panel-code strong {
+    display: inline-block;
+    padding: 7px 14px;
+    border-radius: 999px;
+    background: #24151b;
+    color: #fff;
+    letter-spacing: .08em;
+  }
+
+  .lpm-new-code small {
+    display: block;
+    margin-top: 9px;
+    color: #7a5966;
+    line-height: 1.4;
+  }
+
+  .lpm-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 18px;
+  }
+
+  .lpm-primary,
+  .lpm-secondary {
+    border-radius: 999px;
+    padding: 11px 18px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .lpm-primary {
+    background: #d85c8d;
+    color: #fff;
+  }
+
+  .lpm-secondary {
+    border: 1px solid #ead0da;
+    background: #fff;
+    color: #7a5966;
+  }
+
+  .lpm-float {
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    z-index: 9996;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 15px;
+    border-radius: 999px;
+    background: #24151b;
+    color: #fff;
+    box-shadow: 0 14px 36px rgba(0,0,0,.25);
+    cursor: pointer;
+    user-select: none;
+    animation: lpmPulse 3.8s infinite;
+  }
+
+  .lpm-float::after {
+    content: "";
+    position: absolute;
+    inset: -7px;
+    border-radius: 999px;
+    border: 1px solid rgba(216, 92, 141, .55);
+    animation: lpmRing 3.8s infinite;
+  }
+
+  .lpm-float-icon {
+    font-size: 24px;
+  }
+
+  .lpm-float-text {
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.05;
+  }
+
+  .lpm-panel {
+    position: fixed;
+    right: 18px;
+    bottom: 88px;
+    z-index: 9998;
+    width: min(92vw, 340px);
+    padding: 22px;
+    border-radius: 24px;
+    background: #fff;
+    color: #24151b;
+    box-shadow: 0 18px 55px rgba(0,0,0,.22);
+    animation: lpmSlide .24s ease-out;
+  }
+
+  .lpm-panel h3 {
+    margin: 0;
+    font-size: 21px;
+  }
+
+  .lpm-panel-note {
+    margin: 4px 0 16px;
+    color: #c44b7a;
+    font-weight: 700;
+  }
+
+  .lpm-panel-section {
+    padding: 14px 0;
+    border-top: 1px solid #f0dce4;
+  }
+
+  .lpm-panel-section p {
+    margin: 6px 0 10px;
+    color: #654b55;
+    line-height: 1.45;
+  }
+
+  .lpm-panel-btn,
+  .lpm-panel-link {
+    display: inline-block;
+    margin-top: 8px;
+    color: #d85c8d;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  @keyframes lpmPop {
+    from { opacity: 0; transform: translate(-50%, -46%) scale(.96); }
+    to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  }
+
+  @keyframes lpmSlide {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes lpmPulse {
+    0%, 72%, 100% { transform: scale(1); }
+    78% { transform: scale(1.055); }
+    84% { transform: scale(1); }
+  }
+
+  @keyframes lpmRing {
+    0%, 72%, 100% { opacity: 0; transform: scale(.92); }
+    78% { opacity: 1; transform: scale(1); }
+    92% { opacity: 0; transform: scale(1.18); }
+  }
+
+  @media (max-width: 520px) {
+    .lpm-float {
+      right: 14px;
+      bottom: 14px;
+      padding: 11px 13px;
+    }
+
+    .lpm-panel {
+      right: 12px;
+      bottom: 78px;
+    }
+  }
+</style>
+
+<script>
+  (function () {
+    var popupKey = "lanPinkMemberPopupShownThisSession";
+
+    var overlay = document.getElementById("lpm-overlay");
+    var popup = document.getElementById("lpm-popup");
+    var panel = document.getElementById("lpm-panel");
+    var floatBtn = document.getElementById("lpm-float");
+
+    function showPopup() {
+      if (!sessionStorage.getItem(popupKey)) {
+        setTimeout(function () {
+          overlay.hidden = false;
+          popup.hidden = false;
+          sessionStorage.setItem(popupKey, "1");
+        }, 1800);
+      }
+    }
+
+    function closePopup() {
+      overlay.hidden = true;
+      popup.hidden = true;
+    }
+
+    function togglePanel() {
+      panel.hidden = !panel.hidden;
+    }
+
+    popup.querySelector(".lpm-close").addEventListener("click", closePopup);
+    popup.querySelector(".lpm-secondary").addEventListener("click", closePopup);
+    overlay.addEventListener("click", closePopup);
+
+    floatBtn.addEventListener("click", togglePanel);
+    floatBtn.addEventListener("keydown", function (event) {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        togglePanel();
+      }
+    });
+
+    panel.querySelector(".lpm-panel-close").addEventListener("click", function () {
+      panel.hidden = true;
+    });
+
+    showPopup();
+  })();
+</script>

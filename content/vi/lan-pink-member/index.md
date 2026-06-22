@@ -9,7 +9,7 @@ description: "Tra cứu hạng thành viên và voucher khả dụng tại Lan P
 
 Danh sách này chỉ dùng để khách tra cứu hạng thành viên và số voucher khả dụng. Thành viên được Lan Pink Tattoo đăng ký thủ công sau khi khách sử dụng dịch vụ và hoàn tất thanh toán tại studio.
 
-**Cập nhật lần cuối:** 2026-06-22 17:12:04
+**Cập nhật lần cuối:** 2026-06-23 01:58:23
 
 <div style="margin:18px 0 24px;padding:16px 18px;border:1px solid #f7b6d6;border-radius:18px;background:#fff7fb;">
 <strong>Khu vực thành viên Lan Pink</strong><br>
@@ -42,7 +42,25 @@ Danh sách này chỉ dùng để khách tra cứu hạng thành viên và số 
 <td class="member-name">Chó Jery</td>
 <td><span class="rank-badge rank-silver">Silver</span></td>
 <td>07xxxxx902</td>
-<td>1.380</td>
+<td>460</td>
+<td><strong>0 voucher</strong></td>
+<td><strong>0đ</strong></td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td class="member-name">Chó momo</td>
+<td><span class="rank-badge rank-member">Member</span></td>
+<td>09xxxxx487</td>
+<td>0</td>
+<td><strong>0 voucher</strong></td>
+<td><strong>0đ</strong></td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td class="member-name">Mèo Fanta</td>
+<td><span class="rank-badge rank-member">Member</span></td>
+<td>09xxxxx486</td>
+<td>36</td>
 <td><strong>0 voucher</strong></td>
 <td><strong>0đ</strong></td>
 <td><strong>0</strong></td>

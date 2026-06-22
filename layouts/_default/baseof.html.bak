@@ -39,7 +39,6 @@ document.addEventListener('click', function (event) {
 </script>
 
 {{ partial "back-to-top.html" . }}
-  {{ partial "member-widget.html" . }}
 </body>
 
 </html>
