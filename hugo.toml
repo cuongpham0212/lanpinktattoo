@@ -81,7 +81,7 @@ enableRobotsTXT = true
 
     [[languages.vi.menu.main]]
       name = "Thành viên"
-      pageRef = "/lan-pink-member"
+      pageRef = "/quy-tac-tich-diem"
       weight = 6
 
     [[languages.vi.menu.main]]
@@ -229,7 +229,7 @@ enableRobotsTXT = true
   messenger = "https://m.me/LanPinkInk"
   googleBusiness = "https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9"
   bookingUrl = "https://m.me/LanPinkInk"
-  memberProgramUrl = "/lan-pink-member/"
+  memberProgramUrl = "/quy-tac-tich-diem/"
   memberAppUrl = "lanpinkmember://open"
 
 [outputs]

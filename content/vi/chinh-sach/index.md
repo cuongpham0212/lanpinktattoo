@@ -102,7 +102,71 @@ Lan Pink Tattoo có quyền từ chối thực hiện các thiết kế:
 - Xâm phạm quyền sở hữu trí tuệ hoặc quyền riêng tư của cá nhân khác.
 - Các nội dung không phù hợp với định hướng hoạt động của studio.
 
-## 6. Thông tin liên hệ
+## 6. Chính Sách Thành Viên Lan Pink Tattoo
+
+Lan Pink Tattoo có chương trình thành viên dành cho khách hàng đã sử dụng dịch vụ thực tế tại studio.
+
+Thông tin thành viên được sử dụng nhằm:
+
+* Quản lý lịch sử tích điểm.
+* Quản lý hạng thành viên.
+* Quản lý voucher sinh nhật và voucher ưu đãi.
+* Quản lý chương trình giới thiệu bạn bè.
+* Hỗ trợ chăm sóc khách hàng sau dịch vụ.
+
+Khách hàng không tự đăng ký thành viên trên website. Việc tạo tài khoản thành viên được thực hiện thủ công bởi Lan Pink Tattoo sau khi khách sử dụng dịch vụ và hoàn tất thanh toán.
+
+Khách hàng tham gia chương trình thành viên, tích điểm hoặc giới thiệu bạn bè sẽ được áp dụng theo các quy định riêng của chương trình Lan Pink Member tại từng thời điểm.
+
+Thông tin chi tiết về chương trình thành viên được công bố tại:
+
+👉 [Quy Tắc Tích Điểm Thành Viên](/quy-tac-tich-diem/)
+
+---
+
+## 7. Chính Sách Quyền Riêng Tư Và Dữ Liệu Khách Hàng
+
+Lan Pink Tattoo tôn trọng quyền riêng tư của khách hàng và chỉ thu thập những thông tin cần thiết cho việc cung cấp dịch vụ.
+
+Các thông tin có thể được lưu trữ bao gồm:
+
+* Họ và tên.
+* Số điện thoại.
+* Ngày sinh (nếu khách cung cấp).
+* Thông tin thành viên.
+* Lịch sử điểm thưởng và voucher.
+* Lịch sử sử dụng dịch vụ.
+
+Cam kết: Thông tin khách hàng không được bán, trao đổi hoặc chia sẻ cho bên thứ ba nhằm mục đích thương mại.
+
+Đối với chương trình thành viên, một phần thông tin có thể được hiển thị công khai trên trang tra cứu thành viên nhằm giúp khách hàng kiểm tra quyền lợi của mình. Thông tin công khai được giới hạn ở mức cần thiết và có thể bao gồm:
+
+* Họ tên thành viên.
+* Hạng thành viên.
+* Điểm khả dụng.
+* Voucher khả dụng.
+* Số điện thoại đã được ẩn một phần.
+
+Lan Pink Tattoo không công khai địa chỉ email, lịch sử giao dịch hoặc các thông tin nhạy cảm khác của khách hàng.
+
+---
+
+## 8. Miễn Trừ Trách Nhiệm Về Thông Tin Sức Khỏe
+
+Khách hàng có trách nhiệm cung cấp trung thực các thông tin liên quan đến sức khỏe, dị ứng, bệnh nền hoặc các yếu tố có thể ảnh hưởng đến quá trình thực hiện hình xăm và hồi phục sau xăm.
+
+Lan Pink Tattoo không chịu trách nhiệm đối với các vấn đề phát sinh do khách hàng:
+
+* Che giấu hoặc cung cấp sai thông tin sức khỏe.
+* Không tuân thủ hướng dẫn chăm sóc sau xăm.
+* Tự ý sử dụng thuốc hoặc sản phẩm chăm sóc không phù hợp.
+* Không tham khảo ý kiến bác sĩ trong các trường hợp cần thiết.
+
+Trong trường hợp có bất kỳ nghi ngờ nào liên quan đến sức khỏe, khách hàng nên tham khảo ý kiến chuyên gia y tế trước khi thực hiện dịch vụ.
+
+---
+
+## 9. Thông Tin Liên Hệ
 
 Nếu cần hỗ trợ hoặc có bất kỳ thắc mắc nào về dịch vụ, vui lòng liên hệ:
 
@@ -114,4 +178,4 @@ Nếu cần hỗ trợ hoặc có bất kỳ thắc mắc nào về dịch vụ,
 
 ---
 
-*Cập nhật lần cuối: 14/06/2026*
+*Cập nhật lần cuối: 22/06/2026*

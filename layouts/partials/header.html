@@ -122,8 +122,8 @@
 
 <script>
   window.openLanPinkMemberApp = function () {
-    var appUrl = {{ $memberAppUrl }};
-    var fallbackUrl = {{ $memberProgramUrl }};
+    var appUrl = {{ $memberAppUrl | jsonify | safeJS }};
+    var fallbackUrl = {{ $memberProgramUrl | jsonify | safeJS }};
     var openedAt = Date.now();
 
     window.location.href = appUrl;
