@@ -1,6 +1,28 @@
-
-# Internal SEO Tools
-lanpink-seo-tool/
+# Hugo
 public/
 resources/_gen/
 .hugo_build.lock
+
+# Internal tools
+lanpink-seo-tool/
+
+# Backup files
+*.bak
+*.bak_*
+*.backup
+*.backup_*
+
+# MacOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Local env
+.env
+.venv/
+venv/
+
+# Temporary exports
+backups/

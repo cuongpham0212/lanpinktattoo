@@ -1,0 +1,27 @@
+{{ $cssFiles := slice
+  "css/layout.css"
+  "css/components/theme.css"
+  "css/components/header.css"
+  "css/components/menumobile.css"
+  "css/components/hero.css"
+  "css/components/components.css"
+  "css/components/article.css"
+  "css/components/article-images.css"
+  "css/components/toc.css"
+  "css/components/portfolio.css"
+  "css/components/footer.css"
+  "css/contact.css"
+  "css/gallery.css"
+  "css/custom.css"
+}}
+
+{{ $resources := slice }}
+{{ range $cssFiles }}
+  {{ with resources.Get . }}
+    {{ $resources = $resources | append . }}
+  {{ end }}
+{{ end }}
+
+{{ $bundle := $resources | resources.Concat "css/lanpink.bundle.css" | minify | fingerprint }}
+<link rel="preload" href="{{ $bundle.RelPermalink }}" as="style">
+<link rel="stylesheet" href="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}">

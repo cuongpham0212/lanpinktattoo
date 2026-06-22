@@ -177,41 +177,6 @@ html[data-theme="dark"] .lp-btn-secondary:hover {
 }
 
 /* =========================
-   TOC LINK HOVER
-========================= */
-
-.lp-toc-content nav a {
-  position: relative;
-  overflow: hidden;
-  border: 1px solid transparent;
-  transition:
-    color .22s ease,
-    background .22s ease,
-    border-color .22s ease,
-    box-shadow .22s ease,
-    transform .22s ease;
-}
-
-.lp-toc-content nav a:hover {
-  color: #be185d;
-  background: rgba(253,242,248,.86);
-  border-color: rgba(236,72,153,.16);
-  box-shadow:
-    0 10px 24px rgba(236,72,153,.1),
-    inset 0 1px 0 rgba(255,255,255,.7);
-  transform: translateX(4px);
-}
-
-html[data-theme="dark"] .lp-toc-content nav a:hover {
-  color: #fbcfe8;
-  background: rgba(236,72,153,.12);
-  border-color: rgba(249,168,212,.16);
-  box-shadow:
-    0 10px 24px rgba(0,0,0,.24),
-    inset 0 1px 0 rgba(255,255,255,.05);
-}
-
-/* =========================
    RESPONSIVE
 ========================= */
 
