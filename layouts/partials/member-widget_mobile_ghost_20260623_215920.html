@@ -90,12 +90,12 @@
   .lpm-primary, .lpm-secondary { border-radius: 999px; padding: 11px 18px; font-weight: 700; text-decoration: none; cursor: pointer; }
   .lpm-primary { background: #d85c8d; color: #fff; }
   .lpm-secondary { border: 1px solid #ead0da; background: #fff; color: #7a5966; }
-  .lpm-float { position: fixed; right: 18px; bottom: 18px; z-index: 9996; display: flex; align-items: center; gap: 9px; padding: 12px 15px; border-radius: 999px; background: rgba(255,255,255,.18);
-color: rgba(190,24,93,.92);
-backdrop-filter: blur(6px);
--webkit-backdrop-filter: blur(6px);
-border: 1px solid rgba(236,72,153,.16);
-box-shadow: none; cursor: pointer; user-select: none; animation: lpmPulse 3.8s infinite; }
+  .lpm-float { position: fixed; right: 18px; bottom: 18px; z-index: 9996; display: flex; align-items: center; gap: 9px; padding: 12px 15px; border-radius: 999px; background: rgba(36,21,27,.58);
+color: #fff;
+backdrop-filter: blur(14px);
+-webkit-backdrop-filter: blur(14px);
+border: 1px solid rgba(255,255,255,.12);
+box-shadow: 0 14px 36px rgba(0,0,0,.18); cursor: pointer; user-select: none; animation: lpmPulse 3.8s infinite; }
   .lpm-float::after { content: ""; position: absolute; inset: -7px; border-radius: 999px; border: 1px solid rgba(216, 92, 141, .55); animation: lpmRing 3.8s infinite; }
   .lpm-float-icon { font-size: 24px; }
   .lpm-float-text { font-size: 13px; font-weight: 800; line-height: 1.05; }
@@ -212,38 +212,3 @@ box-shadow: none; cursor: pointer; user-select: none; animation: lpmPulse 3.8s i
     showPopup();
   })();
 </script>
-
-
-<style>
-@media (max-width: 640px) {
-  .lpm-float {
-    right: 12px !important;
-    bottom: 74px !important;
-    padding: 8px 10px !important;
-    background: rgba(255,255,255,.14) !important;
-    color: rgba(190,24,93,.78) !important;
-    border: 1px solid rgba(236,72,153,.14) !important;
-    box-shadow: none !important;
-    backdrop-filter: blur(5px) !important;
-    -webkit-backdrop-filter: blur(5px) !important;
-    opacity: .72 !important;
-  }
-
-  .lpm-float:hover,
-  .lpm-float:focus {
-    opacity: .95 !important;
-    background: rgba(255,255,255,.28) !important;
-  }
-
-  .lpm-float-text {
-    font-size: 11px !important;
-    line-height: 1.05 !important;
-  }
-
-  html[data-theme="dark"] .lpm-float {
-    background: rgba(9,9,11,.16) !important;
-    color: rgba(251,207,232,.76) !important;
-  }
-}
-/* MOBILE GHOST FLOAT BUTTON */
-</style>

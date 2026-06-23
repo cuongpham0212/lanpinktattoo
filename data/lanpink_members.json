@@ -1,0 +1,61 @@
+{
+  "updated_at": "2026-06-23 21:40:18",
+  "total_members": 5,
+  "members": [
+    {
+      "name": "Jonathan",
+      "masked_phone": "09xxxxx234",
+      "membership_level": "Member",
+      "available_points": "830",
+      "lifetime_points": "830",
+      "unused_vouchers": 0,
+      "unused_voucher_value": "0đ",
+      "referral_count": 0,
+      "updated_at": "2026-06-23 20:40:55"
+    },
+    {
+      "name": "Mary",
+      "masked_phone": "08xxxxx202",
+      "membership_level": "Member",
+      "available_points": "125",
+      "lifetime_points": "125",
+      "unused_vouchers": 0,
+      "unused_voucher_value": "0đ",
+      "referral_count": 0,
+      "updated_at": "2026-06-23 21:15:04"
+    },
+    {
+      "name": "Nguyễn Phạm Phúc Khoa",
+      "masked_phone": "08xxxxx212",
+      "membership_level": "VIP",
+      "available_points": "2.140",
+      "lifetime_points": "6.540",
+      "unused_vouchers": 0,
+      "unused_voucher_value": "0đ",
+      "referral_count": 1,
+      "updated_at": "2026-06-23 20:40:55"
+    },
+    {
+      "name": "Nguyễn Thị Ngọc Ngoan",
+      "masked_phone": "09xxxxx307",
+      "membership_level": "Diamond",
+      "available_points": "13.167",
+      "lifetime_points": "13.167",
+      "unused_vouchers": 1,
+      "unused_voucher_value": "50.000đ",
+      "referral_count": 0,
+      "updated_at": "2026-06-22 17:03:51"
+    },
+    {
+      "name": "Phạm Huy Cường",
+      "masked_phone": "09xxxxx485",
+      "membership_level": "VIP",
+      "available_points": "7.924",
+      "lifetime_points": "7.924",
+      "unused_vouchers": 1,
+      "unused_voucher_value": "100.000đ",
+      "referral_count": 1,
+      "updated_at": "2026-06-23 20:52:23"
+    }
+  ]
+}
