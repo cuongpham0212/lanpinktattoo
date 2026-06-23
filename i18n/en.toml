@@ -140,3 +140,42 @@ other = "Rewards"
 
 [member_rewards]
 other = "Member Rewards"
+
+[member_widget_title]
+other = "Lan Pink Member"
+
+[member_widget_subtitle]
+other = "Rewards Program"
+
+[member_widget_check_points]
+other = "Check Points"
+
+[member_widget_member_benefits]
+other = "View Benefits"
+
+[member_widget_referral]
+other = "Refer a Friend"
+
+[member_widget_referral_desc]
+other = "Earn reward points when referring a new client."
+
+[member_widget_birthday]
+other = "Birthday Voucher"
+
+[member_widget_birthday_desc]
+other = "Special benefits for members."
+
+[member_widget_details]
+other = "View Details"
+
+[member_widget_conditions]
+other = "View Conditions"
+
+[member_widget_new_customer_code]
+other = "First-Time Client Code"
+
+[member_widget_are_member]
+other = "Already a Member?"
+
+[member_widget_not_member]
+other = "Not a Member Yet?"

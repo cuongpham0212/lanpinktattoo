@@ -141,3 +141,42 @@ other = "Tích điểm"
 
 [member_rewards]
 other = "Tích điểm thành viên"
+
+[member_widget_title]
+other = "Kết Nối Dài Lâu"
+
+[member_widget_subtitle]
+other = "Lan Pink Member"
+
+[member_widget_check_points]
+other = "Tra cứu điểm"
+
+[member_widget_member_benefits]
+other = "Tìm hiểu quyền lợi"
+
+[member_widget_referral]
+other = "Giới thiệu bạn bè"
+
+[member_widget_referral_desc]
+other = "Nhận thưởng điểm khi giới thiệu khách mới."
+
+[member_widget_birthday]
+other = "Voucher sinh nhật"
+
+[member_widget_birthday_desc]
+other = "Ưu đãi đặc biệt dành cho thành viên."
+
+[member_widget_details]
+other = "Xem chi tiết"
+
+[member_widget_conditions]
+other = "Xem điều kiện"
+
+[member_widget_new_customer_code]
+other = "Mã khách mới lần đầu"
+
+[member_widget_are_member]
+other = "Bạn là thành viên?"
+
+[member_widget_not_member]
+other = "Bạn chưa là thành viên?"

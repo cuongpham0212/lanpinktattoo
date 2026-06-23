@@ -4,320 +4,170 @@
 <div id="lpm-popup" class="lpm-popup" hidden>
   <button class="lpm-close" type="button" aria-label="Đóng">×</button>
 
+  <div class="lpm-lang-switch" aria-label="Language switch">
+    <button type="button" data-lpm-set-lang="vi">VI</button>
+    <button type="button" data-lpm-set-lang="en">EN</button>
+  </div>
+
   <div class="lpm-icon">💎</div>
-  <h2>Kết Nối Dài Lâu</h2>
+  <h2 data-lpm="popupTitle">Kết Nối Dài Lâu</h2>
   <p class="lpm-subtitle">Lan Pink Member</p>
 
-  <p class="lpm-text">
+  <p class="lpm-text" data-lpm="popupText">
     Tích điểm, nhận voucher sinh nhật, ưu đãi dành cho khách quay lại
     và quà tặng khi giới thiệu bạn bè đến Lan Pink Tattoo.
   </p>
 
   <div class="lpm-new-code">
-    <span>Mã ưu đãi khách mới</span>
+    <span data-lpm="newCodeLabel">Mã ưu đãi khách mới</span>
     <strong>SITELANPINKTATTOO</strong>
-    <small>Giảm 10% tối đa 200.000đ cho hóa đơn từ 400.000đ. Áp dụng 1 lần cho khách mới từ website. Vẫn được tham gia Kết Nối Dài Lâu và tích điểm thành viên. Không áp dụng đồng thời với voucher hoặc mã ưu đãi khác.</small>
+    <small data-lpm="newCodeNote">Giảm 10% tối đa 200.000đ cho hóa đơn từ 400.000đ. Áp dụng 1 lần cho khách mới từ website. Vẫn được tham gia Kết Nối Dài Lâu và tích điểm thành viên. Không áp dụng đồng thời với voucher hoặc mã ưu đãi khác.</small>
   </div>
 
   <div class="lpm-actions">
-    <a href="{{ "quy-tac-tich-diem/" | relLangURL }}" class="lpm-primary">Tìm hiểu ngay</a>
-    <button class="lpm-secondary" type="button">Để sau</button>
+    <a href="{{ if eq .Site.Language.Lang "en" }}{{ "member-rules/" | relLangURL }}{{ else }}{{ "quy-tac-tich-diem/" | relLangURL }}{{ end }}" class="lpm-primary" data-lpm="learnNow">Tìm hiểu ngay</a>
+    <button class="lpm-secondary" type="button" data-lpm="later">Để sau</button>
   </div>
 </div>
 
-<div id="lpm-float" class="lpm-float" role="button" tabindex="0" aria-label="Kết Nối Dài Lâu">
-  <span class="lpm-float-icon">��</span>
-  <span class="lpm-float-text">Kết Nối<br>Dài Lâu</span>
+<div id="lpm-float" class="lpm-float" role="button" tabindex="0" aria-label="{{ i18n "member_widget_title" }}">
+  <span class="lpm-float-icon">💎</span>
+  <span class="lpm-float-text">
+    {{ if eq .Site.Language.Lang "en" }}Lan Pink<br>Member{{ else }}Kết Nối<br>Dài Lâu{{ end }}
+  </span>
 </div>
 
 <div id="lpm-panel" class="lpm-panel" hidden>
   <button class="lpm-panel-close" type="button" aria-label="Đóng">×</button>
 
-  <h3>💎 Kết Nối Dài Lâu</h3>
-  <p class="lpm-panel-note">Lan Pink Member</p>
+  <h3>{{ i18n "member_widget_panel_title" }}</h3>
+  <p class="lpm-panel-note">{{ i18n "member_widget_panel_note" }}</p>
 
   <div class="lpm-panel-section">
-    <strong>Bạn là thành viên?</strong>
-    <a href="{{ "lan-pink-member/" | relLangURL }}" class="lpm-panel-btn">Tra cứu điểm</a>
+    <strong>{{ i18n "member_widget_are_member" }}</strong>
+    <a href="{{ if eq .Site.Language.Lang "en" }}{{ "member/" | relLangURL }}{{ else }}{{ "lan-pink-member/" | relLangURL }}{{ end }}" class="lpm-panel-btn">{{ i18n "member_widget_check_points" }}</a>
   </div>
 
   <div class="lpm-panel-section">
-    <strong>Bạn chưa là thành viên?</strong>
-    <a href="{{ "quy-tac-tich-diem/" | relLangURL }}" class="lpm-panel-btn">Tìm hiểu quyền lợi</a>
+    <strong>{{ i18n "member_widget_not_member" }}</strong>
+    <a href="{{ if eq .Site.Language.Lang "en" }}{{ "member-rules/" | relLangURL }}{{ else }}{{ "quy-tac-tich-diem/" | relLangURL }}{{ end }}" class="lpm-panel-btn">{{ i18n "member_widget_member_benefits" }}</a>
   </div>
 
   <div class="lpm-panel-section">
-    <strong>Giới thiệu bạn bè</strong>
-    <p>Nhận thưởng điểm khi giới thiệu khách mới.</p>
-    <a href="{{ "chuong-trinh-gioi-thieu-ban-be/" | relLangURL }}" class="lpm-panel-link">Xem chi tiết</a>
+    <strong>{{ i18n "member_widget_referral" }}</strong>
+    <p>{{ i18n "member_widget_referral_desc" }}</p>
+    <a href="{{ if eq .Site.Language.Lang "en" }}{{ "friend-referral-program/" | relLangURL }}{{ else }}{{ "chuong-trinh-gioi-thieu-ban-be/" | relLangURL }}{{ end }}" class="lpm-panel-link">{{ i18n "member_widget_details" }}</a>
   </div>
 
   <div class="lpm-panel-section">
-    <strong>Voucher sinh nhật</strong>
-    <p>Ưu đãi đặc biệt dành cho thành viên.</p>
-    <a href="{{ "quy-tac-tich-diem/" | relLangURL }}" class="lpm-panel-link">Xem điều kiện</a>
+    <strong>{{ i18n "member_widget_birthday" }}</strong>
+    <p>{{ i18n "member_widget_birthday_desc" }}</p>
+    <a href="{{ if eq .Site.Language.Lang "en" }}{{ "member-rules/" | relLangURL }}{{ else }}{{ "quy-tac-tich-diem/" | relLangURL }}{{ end }}" class="lpm-panel-link">{{ i18n "member_widget_conditions" }}</a>
   </div>
 
   <div class="lpm-panel-code">
-    <span>Mã khách mới lần đầu</span>
+    <span>{{ i18n "member_widget_new_customer_code" }}</span>
     <strong>SITELANPINKTATTOO</strong>
   </div>
 </div>
 
 <style>
-  .lpm-overlay {
-    position: fixed;
-    inset: 0;
-    z-index: 9997;
-    background: rgba(0, 0, 0, .42);
-    backdrop-filter: blur(3px);
-  }
-
-  .lpm-popup {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    z-index: 9998;
-    transform: translate(-50%, -50%);
-    width: min(92vw, 420px);
-    padding: 28px 24px 24px;
-    border-radius: 24px;
-    background: #fff;
-    color: #24151b;
-    box-shadow: 0 24px 70px rgba(0,0,0,.24);
-    text-align: center;
-    animation: lpmPop .32s ease-out;
-  }
-
-  .lpm-close,
-  .lpm-panel-close {
-    position: absolute;
-    top: 12px;
-    right: 14px;
-    border: 0;
-    background: transparent;
-    font-size: 28px;
-    line-height: 1;
-    cursor: pointer;
-    color: #7a5966;
-  }
-
-  .lpm-icon {
-    width: 58px;
-    height: 58px;
-    display: grid;
-    place-items: center;
-    margin: 0 auto 12px;
-    border-radius: 999px;
-    background: #fff0f6;
-    font-size: 30px;
-  }
-
-  .lpm-popup h2 {
-    margin: 0;
-    font-size: 26px;
-    letter-spacing: -.02em;
-  }
-
-  .lpm-subtitle {
-    margin: 4px 0 14px;
-    color: #c44b7a;
-    font-weight: 700;
-  }
-
-  .lpm-text {
-    margin: 0 0 18px;
-    line-height: 1.55;
-    color: #5f4650;
-  }
-
-  .lpm-new-code,
-  .lpm-panel-code {
-    margin: 16px 0;
-    padding: 14px;
-    border: 1px dashed #d85c8d;
-    border-radius: 18px;
-    background: #fff7fa;
-  }
-
-  .lpm-new-code span,
-  .lpm-panel-code span {
-    display: block;
-    font-size: 13px;
-    color: #7a5966;
-    margin-bottom: 6px;
-  }
-
-  .lpm-new-code strong,
-  .lpm-panel-code strong {
-    display: inline-block;
-    padding: 7px 14px;
-    border-radius: 999px;
-    background: #24151b;
-    color: #fff;
-    letter-spacing: .08em;
-  }
-
-  .lpm-new-code small {
-    display: block;
-    margin-top: 9px;
-    color: #7a5966;
-    line-height: 1.4;
-  }
-
-  .lpm-actions {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin-top: 18px;
-  }
-
-  .lpm-primary,
-  .lpm-secondary {
-    border-radius: 999px;
-    padding: 11px 18px;
-    font-weight: 700;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-  .lpm-primary {
-    background: #d85c8d;
-    color: #fff;
-  }
-
-  .lpm-secondary {
-    border: 1px solid #ead0da;
-    background: #fff;
-    color: #7a5966;
-  }
-
-  .lpm-float {
-    position: fixed;
-    right: 18px;
-    bottom: 18px;
-    z-index: 9996;
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    padding: 12px 15px;
-    border-radius: 999px;
-    background: #24151b;
-    color: #fff;
-    box-shadow: 0 14px 36px rgba(0,0,0,.25);
-    cursor: pointer;
-    user-select: none;
-    animation: lpmPulse 3.8s infinite;
-  }
-
-  .lpm-float::after {
-    content: "";
-    position: absolute;
-    inset: -7px;
-    border-radius: 999px;
-    border: 1px solid rgba(216, 92, 141, .55);
-    animation: lpmRing 3.8s infinite;
-  }
-
-  .lpm-float-icon {
-    font-size: 24px;
-  }
-
-  .lpm-float-text {
-    font-size: 13px;
-    font-weight: 800;
-    line-height: 1.05;
-  }
-
-  .lpm-panel {
-    position: fixed;
-    right: 18px;
-    bottom: 88px;
-    z-index: 9998;
-    width: min(92vw, 340px);
-    padding: 22px;
-    border-radius: 24px;
-    background: #fff;
-    color: #24151b;
-    box-shadow: 0 18px 55px rgba(0,0,0,.22);
-    animation: lpmSlide .24s ease-out;
-  }
-
-  .lpm-panel h3 {
-    margin: 0;
-    font-size: 21px;
-  }
-
-  .lpm-panel-note {
-    margin: 4px 0 16px;
-    color: #c44b7a;
-    font-weight: 700;
-  }
-
-  .lpm-panel-section {
-    padding: 14px 0;
-    border-top: 1px solid #f0dce4;
-  }
-
-  .lpm-panel-section p {
-    margin: 6px 0 10px;
-    color: #654b55;
-    line-height: 1.45;
-  }
-
-  .lpm-panel-btn,
-  .lpm-panel-link {
-    display: inline-block;
-    margin-top: 8px;
-    color: #d85c8d;
-    font-weight: 800;
-    text-decoration: none;
-  }
-
-  @keyframes lpmPop {
-    from { opacity: 0; transform: translate(-50%, -46%) scale(.96); }
-    to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
-  }
-
-  @keyframes lpmSlide {
-    from { opacity: 0; transform: translateY(12px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  @keyframes lpmPulse {
-    0%, 72%, 100% { transform: scale(1); }
-    78% { transform: scale(1.055); }
-    84% { transform: scale(1); }
-  }
-
-  @keyframes lpmRing {
-    0%, 72%, 100% { opacity: 0; transform: scale(.92); }
-    78% { opacity: 1; transform: scale(1); }
-    92% { opacity: 0; transform: scale(1.18); }
-  }
-
-  @media (max-width: 520px) {
-    .lpm-float {
-      right: 14px;
-      bottom: 14px;
-      padding: 11px 13px;
-    }
-
-    .lpm-panel {
-      right: 12px;
-      bottom: 78px;
-    }
-  }
+  .lpm-overlay { position: fixed; inset: 0; z-index: 9997; background: rgba(0, 0, 0, .42); backdrop-filter: blur(3px); }
+  .lpm-popup { position: fixed; left: 50%; top: 50%; z-index: 9998; transform: translate(-50%, -50%); width: min(92vw, 420px); padding: 28px 24px 24px; border-radius: 24px; background: #fff; color: #24151b; box-shadow: 0 24px 70px rgba(0,0,0,.24); text-align: center; animation: lpmPop .32s ease-out; }
+  .lpm-close, .lpm-panel-close { position: absolute; top: 12px; right: 14px; border: 0; background: transparent; font-size: 28px; line-height: 1; cursor: pointer; color: #7a5966; }
+  .lpm-icon { width: 58px; height: 58px; display: grid; place-items: center; margin: 0 auto 12px; border-radius: 999px; background: #fff0f6; font-size: 30px; }
+  .lpm-lang-switch { display:flex; justify-content:center; gap:8px; margin:-6px 0 12px; }
+  .lpm-lang-switch button { border:1px solid #ead0da; background:#fff; color:#7a5966; border-radius:999px; padding:5px 10px; font-weight:800; cursor:pointer; }
+  .lpm-lang-switch button.is-active { background:#24151b; color:#fff; border-color:#24151b; }
+  .lpm-popup h2 { margin: 0; font-size: 26px; letter-spacing: -.02em; }
+  .lpm-subtitle { margin: 4px 0 14px; color: #c44b7a; font-weight: 700; }
+  .lpm-text { margin: 0 0 18px; line-height: 1.55; color: #5f4650; }
+  .lpm-new-code, .lpm-panel-code { margin: 16px 0; padding: 14px; border: 1px dashed #d85c8d; border-radius: 18px; background: #fff7fa; }
+  .lpm-new-code span, .lpm-panel-code span { display: block; font-size: 13px; color: #7a5966; margin-bottom: 6px; }
+  .lpm-new-code strong, .lpm-panel-code strong { display: inline-block; padding: 7px 14px; border-radius: 999px; background: #24151b; color: #fff; letter-spacing: .08em; }
+  .lpm-new-code small { display: block; margin-top: 9px; color: #7a5966; line-height: 1.4; }
+  .lpm-actions { display: flex; gap: 10px; justify-content: center; margin-top: 18px; }
+  .lpm-primary, .lpm-secondary { border-radius: 999px; padding: 11px 18px; font-weight: 700; text-decoration: none; cursor: pointer; }
+  .lpm-primary { background: #d85c8d; color: #fff; }
+  .lpm-secondary { border: 1px solid #ead0da; background: #fff; color: #7a5966; }
+  .lpm-float { position: fixed; right: 18px; bottom: 18px; z-index: 9996; display: flex; align-items: center; gap: 9px; padding: 12px 15px; border-radius: 999px; background: #24151b; color: #fff; box-shadow: 0 14px 36px rgba(0,0,0,.25); cursor: pointer; user-select: none; animation: lpmPulse 3.8s infinite; }
+  .lpm-float::after { content: ""; position: absolute; inset: -7px; border-radius: 999px; border: 1px solid rgba(216, 92, 141, .55); animation: lpmRing 3.8s infinite; }
+  .lpm-float-icon { font-size: 24px; }
+  .lpm-float-text { font-size: 13px; font-weight: 800; line-height: 1.05; }
+  .lpm-panel { position: fixed; right: 18px; bottom: 88px; z-index: 9998; width: min(92vw, 340px); padding: 22px; border-radius: 24px; background: #fff; color: #24151b; box-shadow: 0 18px 55px rgba(0,0,0,.22); animation: lpmSlide .24s ease-out; }
+  .lpm-panel h3 { margin: 0; font-size: 21px; }
+  .lpm-panel-note { margin: 4px 0 16px; color: #c44b7a; font-weight: 700; }
+  .lpm-panel-section { padding: 14px 0; border-top: 1px solid #f0dce4; }
+  .lpm-panel-section p { margin: 6px 0 10px; color: #654b55; line-height: 1.45; }
+  .lpm-panel-btn, .lpm-panel-link { display: inline-block; margin-top: 8px; color: #d85c8d; font-weight: 800; text-decoration: none; }
+  @keyframes lpmPop { from { opacity: 0; transform: translate(-50%, -46%) scale(.96); } to { opacity: 1; transform: translate(-50%, -50%) scale(1); } }
+  @keyframes lpmSlide { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes lpmPulse { 0%, 72%, 100% { transform: scale(1); } 78% { transform: scale(1.055); } 84% { transform: scale(1); } }
+  @keyframes lpmRing { 0%, 72%, 100% { opacity: 0; transform: scale(.92); } 78% { opacity: 1; transform: scale(1); } 92% { opacity: 0; transform: scale(1.18); } }
+  @media (max-width: 520px) { .lpm-float { right: 14px; bottom: 14px; padding: 11px 13px; } .lpm-panel { right: 12px; bottom: 78px; } }
 </style>
 
 <script>
   (function () {
     var popupKey = "lanPinkMemberPopupShownThisSession";
-
     var overlay = document.getElementById("lpm-overlay");
     var popup = document.getElementById("lpm-popup");
     var panel = document.getElementById("lpm-panel");
     var floatBtn = document.getElementById("lpm-float");
+
+    if (!overlay || !popup || !panel || !floatBtn) return;
+
+    var htmlLang = (document.documentElement.lang || "").toLowerCase();
+    var browserLang = (navigator.language || navigator.userLanguage || "").toLowerCase();
+    var pathLangIsEnglish = location.pathname.indexOf("/en/") === 0;
+    var savedLang = localStorage.getItem("lanPinkMemberLang");
+
+    var useEnglish = savedLang
+      ? savedLang === "en"
+      : (pathLangIsEnglish || browserLang.indexOf("en") === 0 || htmlLang.indexOf("en") === 0);
+
+    var i18n = {
+      vi: {
+        popupTitle: "Kết Nối Dài Lâu",
+        popupText: "Tích điểm, nhận voucher sinh nhật, ưu đãi dành cho khách quay lại và quà tặng khi giới thiệu bạn bè đến Lan Pink Tattoo.",
+        newCodeLabel: "Mã ưu đãi khách mới",
+        newCodeNote: "Giảm 10% tối đa 200.000đ cho hóa đơn từ 400.000đ. Áp dụng 1 lần cho khách mới từ website. Vẫn được tham gia Kết Nối Dài Lâu và tích điểm thành viên. Không áp dụng đồng thời với voucher hoặc mã ưu đãi khác.",
+        learnNow: "Tìm hiểu ngay",
+        later: "Để sau"
+      },
+      en: {
+        popupTitle: "Long-Term Connection",
+        popupText: "Earn points, receive birthday vouchers, enjoy returning-client benefits, and get rewards when referring friends to Lan Pink Tattoo.",
+        newCodeLabel: "New client promo code",
+        newCodeNote: "Get 10% off, up to 200,000 VND, for invoices from 400,000 VND. Valid once for new website clients. You can still join Lan Pink Member and earn points. Cannot be combined with other vouchers or promo codes.",
+        learnNow: "Learn more",
+        later: "Maybe later"
+      }
+    };
+
+    function applyLang(lang) {
+      useEnglish = lang === "en";
+      var text = useEnglish ? i18n.en : i18n.vi;
+
+      popup.querySelectorAll("[data-lpm]").forEach(function (el) {
+        var key = el.getAttribute("data-lpm");
+        if (text[key]) el.textContent = text[key];
+      });
+
+      popup.querySelectorAll("[data-lpm-set-lang]").forEach(function (btn) {
+        btn.classList.toggle("is-active", btn.getAttribute("data-lpm-set-lang") === lang);
+      });
+    }
+
+    applyLang(useEnglish ? "en" : "vi");
+
+    popup.querySelectorAll("[data-lpm-set-lang]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var lang = btn.getAttribute("data-lpm-set-lang");
+        localStorage.setItem("lanPinkMemberLang", lang);
+        applyLang(lang);
+      });
+    });
 
     function showPopup() {
       if (!sessionStorage.getItem(popupKey)) {
