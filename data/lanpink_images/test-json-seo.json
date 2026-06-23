@@ -1,0 +1,51 @@
+{
+  "slug": "test-json-seo",
+  "title": "Test Json Seo",
+  "alt": "Test Json Seo",
+  "description": "Bộ ảnh Test Json Seo tại Lan Pink Tattoo.",
+  "cover": {
+    "index": 1,
+    "src": "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/test-json-seo.webp",
+    "alt": "Test Json Seo",
+    "caption": "Test Json Seo",
+    "repo_path": "images/test-json-seo.webp",
+    "source": "/Users/MN/Desktop/Ảnh màn hình 2026-06-23 lúc 15.24.37.png",
+    "width": 1200,
+    "height": 780
+  },
+  "images": [
+    {
+      "index": 1,
+      "src": "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/test-json-seo.webp",
+      "alt": "Test Json Seo",
+      "caption": "Test Json Seo",
+      "repo_path": "images/test-json-seo.webp",
+      "source": "/Users/MN/Desktop/Ảnh màn hình 2026-06-23 lúc 15.24.37.png",
+      "width": 1200,
+      "height": 780
+    },
+    {
+      "index": 2,
+      "src": "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/test-json-seo-2.webp",
+      "alt": "Test Json Seo 2",
+      "caption": "Test Json Seo - ảnh 2",
+      "repo_path": "images/test-json-seo-2.webp",
+      "source": "/Users/MN/Desktop/Ảnh màn hình 2026-06-24 lúc 02.23.49.png",
+      "width": 1200,
+      "height": 780
+    },
+    {
+      "index": 3,
+      "src": "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/test-json-seo-3.webp",
+      "alt": "Test Json Seo 3",
+      "caption": "Test Json Seo - ảnh 3",
+      "repo_path": "images/test-json-seo-3.webp",
+      "source": "/Users/MN/Desktop/Ảnh màn hình 2026-06-24 lúc 03.25.49.png",
+      "width": 1200,
+      "height": 780
+    }
+  ],
+  "shortcode": "{{< lp-gallery slug=\"test-json-seo\" >}}",
+  "updated_at": "2026-06-24T04:07:11",
+  "source": "Lan Pink Image Tool"
+}

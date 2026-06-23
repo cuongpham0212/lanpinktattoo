@@ -1,0 +1,42 @@
+{{- $slug := .Get "slug" -}}
+{{- $data := index site.Data.lanpink_images $slug -}}
+
+{{- if $data }}
+<section class="lp-json-gallery" aria-label="{{ $data.alt | default $slug }}">
+
+  {{- with $data.cover }}
+  <figure class="lp-json-gallery-cover">
+    <img
+      src="{{ .src | safeURL }}"
+      alt="{{ .alt | default $data.alt | default $slug }}"
+      loading="eager"
+      {{ with .width }}width="{{ . }}"{{ end }}
+      {{ with .height }}height="{{ . }}"{{ end }}>
+    {{- with .caption }}
+    <figcaption>{{ . }}</figcaption>
+    {{- end }}
+  </figure>
+  {{- end }}
+
+  {{- with $data.images }}
+  <div class="lp-json-gallery-grid">
+    {{- range . }}
+    <figure>
+      <img
+        src="{{ .src | safeURL }}"
+        alt="{{ .alt | default $data.alt | default $slug }}"
+        loading="lazy"
+        {{ with .width }}width="{{ . }}"{{ end }}
+        {{ with .height }}height="{{ . }}"{{ end }}>
+      {{- with .caption }}
+      <figcaption>{{ . }}</figcaption>
+      {{- end }}
+    </figure>
+    {{- end }}
+  </div>
+  {{- end }}
+
+</section>
+{{- else }}
+<p style="color:red;">Không tìm thấy gallery JSON cho slug: {{ $slug }}</p>
+{{- end }}
