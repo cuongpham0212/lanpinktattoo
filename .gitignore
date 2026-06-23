@@ -6,6 +6,9 @@ resources/_gen/
 # Internal tools
 lanpink-seo-tool/
 
+# Local launcher
+main.py
+
 # Backup files
 *.bak
 *.bak_*
@@ -26,3 +29,11 @@ venv/
 
 # Temporary exports
 backups/
+
+# Mac tree exports
+content-tree.txt
+vi-tree.txt
+en-tree.txt
+
+# MacOS
+.DS_Store
