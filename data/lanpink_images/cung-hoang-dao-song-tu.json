@@ -1,0 +1,103 @@
+{
+  "slug": "cung-hoang-dao-song-tu",
+  "title": "Cung Hoang Dao Song Tu",
+  "description": "Bộ ảnh Cung Hoang Dao Song Tu tại Lan Pink Tattoo.",
+  "cover": {
+    "index": 1,
+    "src": "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/cung-hoang-dao-song-tu.webp",
+    "alt": "Cung Hoang Dao Song Tu",
+    "caption": "Cung Hoang Dao Song Tu",
+    "repo_path": "images/cung-hoang-dao-song-tu.webp",
+    "source": "/Users/MN/upload/la-bai/cung-hoang-dao-song-tu.webp",
+    "width": 832,
+    "height": 1248
+  },
+  "images": [
+    {
+      "index": 1,
+      "src": "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/cung-hoang-dao-song-tu.webp",
+      "alt": "Cung Hoang Dao Song Tu",
+      "caption": "Cung Hoang Dao Song Tu",
+      "repo_path": "images/cung-hoang-dao-song-tu.webp",
+      "source": "/Users/MN/upload/la-bai/cung-hoang-dao-song-tu.webp",
+      "width": 832,
+      "height": 1248
+    },
+    {
+      "index": 2,
+      "src": "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/cung-hoang-dao-song-tu-2.webp",
+      "alt": "Cung Hoang Dao Song Tu - ảnh 2",
+      "caption": "Cung Hoang Dao Song Tu - ảnh 2",
+      "repo_path": "images/cung-hoang-dao-song-tu-2.webp",
+      "source": "/Users/MN/upload/la-bai/cung-hoang-dao-su-tu.webp",
+      "width": 832,
+      "height": 1248
+    },
+    {
+      "index": 3,
+      "src": "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/cung-hoang-dao-song-tu-3.webp",
+      "alt": "Cung Hoang Dao Song Tu - ảnh 3",
+      "caption": "Cung Hoang Dao Song Tu - ảnh 3",
+      "repo_path": "images/cung-hoang-dao-song-tu-3.webp",
+      "source": "/Users/MN/upload/la-bai/cung-hoang-dao-thien-binh.webp",
+      "width": 832,
+      "height": 1248
+    },
+    {
+      "index": 4,
+      "src": "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/cung-hoang-dao-song-tu-4.webp",
+      "alt": "Cung Hoang Dao Song Tu - ảnh 4",
+      "caption": "Cung Hoang Dao Song Tu - ảnh 4",
+      "repo_path": "images/cung-hoang-dao-song-tu-4.webp",
+      "source": "/Users/MN/upload/la-bai/cung-hoang-dao-xu-nu.webp",
+      "width": 832,
+      "height": 1248
+    }
+  ],
+  "shortcode": "{{< lp-gallery slug=\"cung-hoang-dao-song-tu\" >}}",
+  "seo": {
+    "og_image": "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/cung-hoang-dao-song-tu.webp",
+    "image_alt": "Cung Hoang Dao Song Tu",
+    "image_count": 4
+  },
+  "schema": {
+    "@type": "ImageGallery",
+    "name": "Cung Hoang Dao Song Tu",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/cung-hoang-dao-song-tu.webp",
+        "caption": "Cung Hoang Dao Song Tu",
+        "description": "Cung Hoang Dao Song Tu",
+        "width": 832,
+        "height": 1248
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/cung-hoang-dao-song-tu-2.webp",
+        "caption": "Cung Hoang Dao Song Tu - ảnh 2",
+        "description": "Cung Hoang Dao Song Tu - ảnh 2",
+        "width": 832,
+        "height": 1248
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/cung-hoang-dao-song-tu-3.webp",
+        "caption": "Cung Hoang Dao Song Tu - ảnh 3",
+        "description": "Cung Hoang Dao Song Tu - ảnh 3",
+        "width": 832,
+        "height": 1248
+      },
+      {
+        "@type": "ImageObject",
+        "contentUrl": "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/cung-hoang-dao-song-tu-4.webp",
+        "caption": "Cung Hoang Dao Song Tu - ảnh 4",
+        "description": "Cung Hoang Dao Song Tu - ảnh 4",
+        "width": 832,
+        "height": 1248
+      }
+    ]
+  },
+  "updated_at": "2026-06-24T19:59:37",
+  "source": "Lan Pink Image Tool"
+}
