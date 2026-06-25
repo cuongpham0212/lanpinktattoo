@@ -21,13 +21,13 @@
   {{- end -}}
 
   {{- if gt (len $active) 0 -}}
-    {{- $sorted := sort $active "priority" "desc" -}}
-    {{- $promo := index $sorted 0 -}}
-
+    {{- $promo := index (sort $active "priority" "desc") 0 -}}
     <aside class="lanpink-promo-sticky" aria-label="Khuyến mãi Lan Pink Tattoo">
-      <div class="lanpink-promo-sticky__badge">✦ {{ $promo.badge }}</div>
-      <div class="lanpink-promo-sticky__title">{{ $promo.title }}</div>
-      <p>{{ $promo.summary }}</p>
+      <div class="lanpink-promo-sticky__text">
+        <span class="lanpink-promo-sticky__badge">✦ {{ $promo.badge }}</span>
+        <strong class="lanpink-promo-sticky__title">{{ $promo.title }}</strong>
+        <p>{{ $promo.summary }}</p>
+      </div>
       <a class="lanpink-promo-sticky__btn" href="{{ $promo.url }}">{{ $promo.button }}</a>
     </aside>
   {{- end -}}
