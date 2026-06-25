@@ -2,7 +2,7 @@
   display: none;
 }
 
-/* Desktop: card nổi bên trái, không blur */
+/* Desktop single promo: xanh biển nhẹ, nổi trên nền hồng */
 @media (min-width: 1280px) {
   .lanpink-promo-sticky {
     display: block;
@@ -13,9 +13,16 @@
     z-index: 30;
     padding: 15px;
     border-radius: 22px;
-    background: transparent !important;
-    border: 1px solid rgba(236, 72, 153, .38);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, .08);
+    background: rgba(240, 249, 255, .72) !important;
+    border: 1px solid rgba(14, 165, 233, .42);
+    box-shadow:
+      0 14px 34px rgba(14, 165, 233, .12),
+      0 8px 20px rgba(0, 0, 0, .06);
+  }
+
+  html[data-theme="dark"] .lanpink-promo-sticky {
+    background: rgba(8, 47, 73, .38) !important;
+    border-color: rgba(125, 211, 252, .34);
   }
 
   .lanpink-promo-sticky__badge {
@@ -23,26 +30,39 @@
     margin-bottom: 8px;
     padding: 4px 9px;
     border-radius: 999px;
-    background: rgba(236, 72, 153, .10);
-    color: var(--primary-strong);
+    background: rgba(14, 165, 233, .12);
+    color: #0284c7;
     font-size: 12px;
     font-weight: 900;
+  }
+
+  html[data-theme="dark"] .lanpink-promo-sticky__badge {
+    background: rgba(125, 211, 252, .12);
+    color: #7dd3fc;
   }
 
   .lanpink-promo-sticky__title {
     display: block;
     margin-bottom: 7px;
-    color: var(--text-heading);
+    color: #075985;
     font-size: 17px;
     line-height: 1.25;
     font-weight: 950;
   }
 
+  html[data-theme="dark"] .lanpink-promo-sticky__title {
+    color: #e0f2fe;
+  }
+
   .lanpink-promo-sticky p {
     margin: 0 0 12px;
-    color: var(--text-muted);
+    color: #466477;
     font-size: 13px;
     line-height: 1.45;
+  }
+
+  html[data-theme="dark"] .lanpink-promo-sticky p {
+    color: #bae6fd;
   }
 
   .lanpink-promo-sticky__btn {
@@ -52,55 +72,26 @@
     padding: 9px 10px;
     border-radius: 999px;
     color: #fff;
-    background: linear-gradient(135deg, #f9a8d4, #ec4899, #db2777);
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9, #0284c7);
     font-size: 13px;
     font-weight: 900;
+    box-shadow: 0 10px 22px rgba(14, 165, 233, .24);
+    transition:
+      transform .22s ease,
+      background .22s ease,
+      box-shadow .22s ease;
+  }
+
+  .lanpink-promo-sticky__btn:hover {
+    transform: translateY(-1px);
+    background: linear-gradient(135deg, #0ea5e9, #0284c7, #0369a1);
+    box-shadow: 0 14px 28px rgba(14, 165, 233, .34);
   }
 }
 
-/* Mobile: banner thường dưới menu, không fixed */
-@media (max-width: 767px) {
+/* Tạm tắt mobile */
+@media (max-width: 1279px) {
   .lanpink-promo-sticky {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    gap: 10px;
-    margin: 10px 12px 0;
-    padding: 10px 11px 10px 13px;
-    border-radius: 18px;
-    background: rgba(255, 247, 251, .96);
-    border: 1px solid rgba(236, 72, 153, .20);
-    box-shadow: 0 10px 24px rgba(236, 72, 153, .10);
-  }
-
-  html[data-theme="dark"] .lanpink-promo-sticky {
-    background: rgba(24, 24, 27, .92);
-    border-color: rgba(249, 168, 212, .16);
-  }
-
-  .lanpink-promo-sticky__badge,
-  .lanpink-promo-sticky p {
-    display: none;
-  }
-
-  .lanpink-promo-sticky__title {
-    display: block;
-    overflow: hidden;
-    color: var(--text-heading);
-    font-size: 13px;
-    font-weight: 950;
-    line-height: 1.25;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
-
-  .lanpink-promo-sticky__btn {
-    padding: 8px 12px;
-    border-radius: 999px;
-    color: #fff;
-    background: linear-gradient(135deg, #f9a8d4, #ec4899, #db2777);
-    font-size: 12px;
-    font-weight: 950;
-    white-space: nowrap;
+    display: none !important;
   }
 }
