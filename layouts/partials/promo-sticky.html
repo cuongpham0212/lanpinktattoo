@@ -1,4 +1,4 @@
-{{- if .IsPage -}}
+{{- if and .IsPage (ne .Section "khuyen-mai") -}}
   {{- $promos := where .Site.RegularPages "Section" "khuyen-mai" -}}
   {{- $active := slice -}}
   {{- $today := now.Format "2006-01-02" -}}

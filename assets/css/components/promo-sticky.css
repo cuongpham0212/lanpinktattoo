@@ -2,7 +2,7 @@
   display: none;
 }
 
-/* Desktop: card nổi bên trái, trong suốt thật, không blur */
+/* Desktop: card nổi bên trái, không blur */
 @media (min-width: 1280px) {
   .lanpink-promo-sticky {
     display: block;
@@ -13,14 +13,9 @@
     z-index: 30;
     padding: 15px;
     border-radius: 22px;
-    background: rgba(255, 255, 255, .045) !important;
-    border: 1px solid rgba(236, 72, 153, .34);
-    box-shadow: 0 14px 34px rgba(0, 0, 0, .10);
-  }
-
-  html[data-theme="dark"] .lanpink-promo-sticky {
-    background: rgba(255, 255, 255, .035) !important;
-    border-color: rgba(249, 168, 212, .28);
+    background: transparent !important;
+    border: 1px solid rgba(236, 72, 153, .38);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .08);
   }
 
   .lanpink-promo-sticky__badge {
@@ -63,7 +58,7 @@
   }
 }
 
-/* Mobile: banner thường dưới menu, không fixed, không che gì */
+/* Mobile: banner thường dưới menu, không fixed */
 @media (max-width: 767px) {
   .lanpink-promo-sticky {
     display: grid;
@@ -79,7 +74,7 @@
   }
 
   html[data-theme="dark"] .lanpink-promo-sticky {
-    background: rgba(24, 24, 27, .88);
+    background: rgba(24, 24, 27, .92);
     border-color: rgba(249, 168, 212, .16);
   }
 
