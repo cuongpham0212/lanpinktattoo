@@ -16,6 +16,15 @@ tags:
 
 categories:
   - Cẩm nang Tattoo
+
+image_alt: "Kim đi nét và kim tô cái nào đau hơn? Trải nghiệm thực tế khi xăm hình"
+keywords:
+  - "Kim đi nét và kim tô cái nào đau hơn? Trải nghiệm thực tế khi xăm hình"
+artwork_subject: ""
+artwork_style: ""
+artwork_position: ""
+artwork_client: ""
+artwork_meaning: ""
 ---
 
 # Kim đi nét và kim tô cái nào đau hơn? Trải nghiệm thực tế khi xăm hình

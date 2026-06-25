@@ -1,0 +1,108 @@
+<footer class="lp-footer">
+  <div class="lp-footer-glow"></div>
+
+  <div class="lp-footer-wrap">
+    <div class="lp-footer-card">
+      <div class="lp-footer-grid">
+
+        <div class="lp-footer-brand">
+          <h3>
+            LAN PINK <span>TATTOO</span>
+          </h3>
+
+          <p>
+            {{ if eq .Language.Lang "vi" }}
+              Lan Pink Tattoo, còn được biết đến với tên Lan Pink Ink, là không gian xăm riêng tư tại TP.HCM. Studio chuyên Fine Line Tattoo, Mini Tattoo, Blackwork và thiết kế hình xăm cá nhân theo yêu cầu.
+            {{ else }}
+              Lan Pink Tattoo, also known as Lan Pink Ink, is a private tattoo space in Ho Chi Minh City. The studio specializes in Fine Line Tattoo, Mini Tattoo, Blackwork, and custom tattoo designs.
+            {{ end }}
+          </p>
+
+          <div class="lp-footer-tags">
+            Lan Pink Tattoo · Lan Pink Ink · Tattoo Studio TP.HCM · Fine Line · Mini Tattoo · Blackwork
+          </div>
+        </div>
+
+        <div class="lp-footer-col">
+          <h4>{{ i18n "footer_studio" | default "Studio" }}</h4>
+
+          <nav class="lp-footer-links">
+            {{ if eq .Language.Lang "vi" }}
+              <a href="{{ "/ve-lan-pink-ink-studio/" | relLangURL }}">
+                {{ i18n "about_studio" | default "Về Lan Pink Tattoo Studio" }}
+              </a>
+
+              <a href="{{ "/lan-pink-tattoo-artist/" | relLangURL }}">
+                {{ i18n "about_lan" | default "Về Lan Pink" }}
+              </a>
+
+              <a href="{{ "/contact/" | relLangURL }}">
+                {{ i18n "contact" | default "Liên hệ" }}
+              </a>
+
+              <a href="{{ "/chinh-sach/" | relLangURL }}">
+                {{ i18n "service_policy" | default "Chính sách dịch vụ" }}
+              </a>
+            {{ else }}
+              <a href="{{ "/about-lan-pink-ink-studio/" | relLangURL }}">
+                {{ i18n "about_studio" | default "About Lan Pink Tattoo Studio" }}
+              </a>
+
+              <a href="{{ "/lan-pink-tattoo-artist/" | relLangURL }}">
+                {{ i18n "about_lan" | default "About Lan Pink" }}
+              </a>
+
+              <a href="{{ "/contact/" | relLangURL }}">
+                {{ i18n "contact" | default "Contact" }}
+              </a>
+
+              <a href="{{ "/service-policy/" | relLangURL }}">
+                {{ i18n "service_policy" | default "Service Policy" }}
+              </a>
+            {{ end }}
+          </nav>
+        </div>
+
+        <div class="lp-footer-col">
+          <h4>{{ i18n "connect_lanpink" | default "Connect with Lan Pink Tattoo" }}</h4>
+
+          <nav class="lp-footer-social">
+            <a href="{{ .Site.Params.facebook }}" target="_blank" rel="noopener" class="lp-footer-pill">Facebook</a>
+            <a href="{{ .Site.Params.instagram }}" target="_blank" rel="noopener" class="lp-footer-pill">Instagram</a>
+            <a href="{{ .Site.Params.googleBusiness }}" target="_blank" rel="noopener" class="lp-footer-pill">Google Business</a>
+          </nav>
+
+          <p class="lp-footer-note">
+            {{ if eq .Language.Lang "vi" }}
+              Theo dõi Lan Pink Tattoo / Lan Pink Ink để xem tác phẩm mới, ý tưởng Fine Line Tattoo, Mini Tattoo và feedback khách hàng tại TP.HCM.
+            {{ else }}
+              Follow Lan Pink Tattoo / Lan Pink Ink for new works, Fine Line Tattoo ideas, Mini Tattoo designs, and client feedback in Ho Chi Minh City.
+            {{ end }}
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="lp-footer-bottom">
+    <div>
+      <p>
+        © {{ now.Year }} Lan Pink Tattoo · Lan Pink Ink ·
+        {{ if eq .Language.Lang "vi" }}
+          Không gian xăm riêng tư tại TP.HCM
+        {{ else }}
+          Private Tattoo Space in Ho Chi Minh City
+        {{ end }}
+      </p>
+
+      <p>
+        {{ if eq .Language.Lang "vi" }}
+          Fine Line Tattoo, Mini Tattoo, Blackwork và thiết kế hình xăm theo yêu cầu tại TP.HCM.
+        {{ else }}
+          Fine Line Tattoo, Mini Tattoo, Blackwork, and custom tattoo designs in Ho Chi Minh City.
+        {{ end }}
+      </p>
+    </div>
+  </div>
+</footer>

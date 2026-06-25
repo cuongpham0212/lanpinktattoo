@@ -27,6 +27,11 @@ seo_cluster_id: "pet_memorial_tattoo"
 seo_cluster: "Pet Memorial Tattoo"
 seo_intent: "Portfolio"
 seo_target_keyword: "parrot memorial tattoo"
+
+categories:
+  - "Portfolio"
+keywords:
+  - "Gonzo Memorial Parrot Tattoo – Custom Tattoo Design at Lan Pink Ink"
 ---
 
 ## Gonzo Memorial Parrot Tattoo – A Real Story From a Lan Pink Ink Client

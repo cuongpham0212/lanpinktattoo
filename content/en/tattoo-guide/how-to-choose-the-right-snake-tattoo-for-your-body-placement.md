@@ -30,6 +30,9 @@ artwork_style: ""
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: ""
+
+keywords:
+  - "How To Choose The Right Snake Tattoo For Your Body Placement"
 ---
 
 # How To Choose The Right Snake Tattoo For Your Body Placement

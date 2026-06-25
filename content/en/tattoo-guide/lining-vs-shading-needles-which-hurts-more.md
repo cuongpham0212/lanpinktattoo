@@ -16,6 +16,15 @@ tags:
 
 categories:
   - Tattoo Guide
+
+image_alt: "Lining Needles vs Shading Needles: Which One Hurts More?"
+keywords:
+  - "Lining Needles vs Shading Needles: Which One Hurts More?"
+artwork_subject: ""
+artwork_style: ""
+artwork_position: ""
+artwork_client: ""
+artwork_meaning: ""
 ---
 
 # Lining Needles vs Shading Needles: Which One Hurts More?

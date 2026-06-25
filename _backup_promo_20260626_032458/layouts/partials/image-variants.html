@@ -1,0 +1,47 @@
+{{- $src := .src -}}
+
+{{- $originalFallback := dict "src" $src "abs" ($src | absURL) "width" 0 "height" 0 -}}
+{{- $heroFallback := dict "src" $src "abs" ($src | absURL) "width" 1600 "height" 900 -}}
+{{- $ogFallback := dict "src" $src "abs" ($src | absURL) "width" 1200 "height" 630 -}}
+{{- $thumbFallback := dict "src" $src "abs" ($src | absURL) "width" 800 "height" 600 -}}
+
+{{- $result := dict
+  "original" $originalFallback
+  "hero" $heroFallback
+  "og" $ogFallback
+  "thumb" $thumbFallback
+-}}
+
+{{- if $src -}}
+  {{- $img := false -}}
+
+  {{- if or (hasPrefix $src "http://") (hasPrefix $src "https://") -}}
+    {{- with try (resources.GetRemote $src) -}}
+      {{- with .Err -}}
+        {{- warnf "Không tải được ảnh remote: %s" $src -}}
+      {{- else with .Value -}}
+        {{- $img = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $local := strings.TrimPrefix "/" $src -}}
+    {{- with resources.Get $local -}}
+      {{- $img = . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with $img -}}
+    {{- $hero := .Fill "1600x900 q85" -}}
+    {{- $og := .Fill "1200x630 q90" -}}
+    {{- $thumb := .Fit "1000x1000 q85" -}}
+
+    {{- $result = dict
+      "original" (dict "src" .RelPermalink "abs" .Permalink "width" .Width "height" .Height)
+      "hero" (dict "src" $hero.RelPermalink "abs" $hero.Permalink "width" $hero.Width "height" $hero.Height)
+      "og" (dict "src" $og.RelPermalink "abs" $og.Permalink "width" $og.Width "height" $og.Height)
+      "thumb" (dict "src" $thumb.RelPermalink "abs" $thumb.Permalink "width" $thumb.Width "height" $thumb.Height)
+    -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $result -}}

@@ -14,6 +14,15 @@ tags:
 
 categories:
   - Cẩm nang Tattoo
+
+image_alt: "Xăm hình có đau không? Vị trí nào đau ít cho người mới"
+keywords:
+  - "Xăm hình có đau không? Vị trí nào đau ít cho người mới"
+artwork_subject: ""
+artwork_style: ""
+artwork_position: ""
+artwork_client: ""
+artwork_meaning: ""
 ---
 
 # Xăm hình có đau không? Vị trí nào đau ít cho người mới

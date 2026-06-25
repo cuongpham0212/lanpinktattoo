@@ -30,6 +30,9 @@ artwork_style: ""
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: ""
+
+keywords:
+  - "Snake Tattoo FAQ: Common Questions Before Getting Tattooed"
 ---
 
 # Snake Tattoo FAQ: Common Questions Before Getting Tattooed

@@ -12,6 +12,15 @@ tags:
   - tattoo cho người mới
 categories:
   - Cẩm nang Tattoo
+
+image_alt: "Xăm hình lần đầu cần chuẩn bị gì? Kinh nghiệm cho người mới"
+keywords:
+  - "Xăm hình lần đầu cần chuẩn bị gì? Kinh nghiệm cho người mới"
+artwork_subject: ""
+artwork_style: ""
+artwork_position: ""
+artwork_client: ""
+artwork_meaning: ""
 ---
 
 # Xăm hình lần đầu cần chuẩn bị gì? Kinh nghiệm cho người mới

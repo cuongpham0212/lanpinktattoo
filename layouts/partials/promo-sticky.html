@@ -1,0 +1,34 @@
+{{- if .IsPage -}}
+  {{- $promos := where .Site.RegularPages "Section" "khuyen-mai" -}}
+  {{- $active := slice -}}
+  {{- $today := now.Format "2006-01-02" -}}
+
+  {{- range $promos -}}
+    {{- if .Params.promo_hero -}}
+      {{- $start := .Params.promo_start | default "2000-01-01" -}}
+      {{- $end := .Params.promo_end | default "2099-12-31" -}}
+      {{- if and (le $start $today) (ge $end $today) -}}
+        {{- $active = $active | append (dict
+          "title" (.Params.promo_hero_title | default .Params.promo_popup_title | default .Title)
+          "summary" (.Params.promo_hero_summary | default .Params.promo_popup_summary | default .Description)
+          "badge" (.Params.promo_badge | default "Khuyến mãi")
+          "button" (.Params.promo_button_text | default "Xem ưu đãi")
+          "url" .RelPermalink
+          "priority" (.Params.promo_priority | default 0)
+        ) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if gt (len $active) 0 -}}
+    {{- $sorted := sort $active "priority" "desc" -}}
+    {{- $promo := index $sorted 0 -}}
+
+    <aside class="lanpink-promo-sticky" aria-label="Khuyến mãi Lan Pink Tattoo">
+      <div class="lanpink-promo-sticky__badge">✦ {{ $promo.badge }}</div>
+      <div class="lanpink-promo-sticky__title">{{ $promo.title }}</div>
+      <p>{{ $promo.summary }}</p>
+      <a class="lanpink-promo-sticky__btn" href="{{ $promo.url }}">{{ $promo.button }}</a>
+    </aside>
+  {{- end -}}
+{{- end -}}

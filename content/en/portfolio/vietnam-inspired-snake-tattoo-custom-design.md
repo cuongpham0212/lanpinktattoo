@@ -28,6 +28,11 @@ seo_cluster_id: "snake_tattoo"
 seo_cluster: "Snake Tattoo"
 seo_intent: "Portfolio"
 seo_target_keyword: "Vietnam inspired snake tattoo"
+
+categories:
+  - "Portfolio"
+keywords:
+  - "Vietnam-Inspired Snake Tattoo | Custom Tattoo Design at Lan Pink Ink"
 ---
 
 # Vietnam-Inspired Snake Tattoo – A Custom Design for an International Client

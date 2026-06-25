@@ -29,6 +29,11 @@ seo_cluster_id: "snake_tattoo"
 seo_cluster: "Hình xăm rắn"
 seo_intent: "Tác phẩm"
 seo_target_keyword: "hình xăm rắn mang cảm hứng Việt Nam"
+
+categories:
+  - "Tác phẩm"
+keywords:
+  - "Hình Xăm Rắn Mang Cảm Hứng Việt Nam | Custom Tattoo Design Tại Lan Pink Ink"
 ---
 
 # Hình Xăm Rắn Mang Cảm Hứng Việt Nam - Thiết Kế Riêng Cho Một Vị Khách Quốc Tế

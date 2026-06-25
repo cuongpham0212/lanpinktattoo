@@ -15,6 +15,15 @@ tags:
 
 categories:
   - Tattoo Guide
+
+image_alt: "What Should You Prepare Before Getting Your First Tattoo?"
+keywords:
+  - "What Should You Prepare Before Getting Your First Tattoo?"
+artwork_subject: ""
+artwork_style: ""
+artwork_position: ""
+artwork_client: ""
+artwork_meaning: ""
 ---
 
 # What Should You Prepare Before Getting Your First Tattoo?

@@ -14,6 +14,15 @@ tags:
 
 categories:
   - Tattoo Guide
+
+image_alt: "Does Getting a Tattoo Hurt? Best Tattoo Placements for Beginners"
+keywords:
+  - "Does Getting a Tattoo Hurt? Best Tattoo Placements for Beginners"
+artwork_subject: ""
+artwork_style: ""
+artwork_position: ""
+artwork_client: ""
+artwork_meaning: ""
 ---
 
 # Does Getting a Tattoo Hurt? Best Tattoo Placements for Beginners

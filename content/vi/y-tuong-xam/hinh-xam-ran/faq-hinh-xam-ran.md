@@ -30,6 +30,9 @@ artwork_style: ""
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: ""
+
+keywords:
+  - "FAQ Hình Xăm Rắn: Những Câu Hỏi Thường Gặp Trước Khi Xăm"
 ---
 
 # FAQ Hình Xăm Rắn: Những Câu Hỏi Thường Gặp Trước Khi Xăm

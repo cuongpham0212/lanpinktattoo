@@ -1,0 +1,77 @@
+/* PROMO HERO - extracted from layouts/partials/promo-hero.html */
+
+.lanpink-promo-hero {
+  max-width: 1180px;
+  margin: 28px auto;
+  padding: 0 18px;
+}
+.lanpink-promo-hero__inner {
+  display: grid;
+  grid-template-columns: 1.5fr .6fr;
+  gap: 24px;
+  align-items: center;
+  border-radius: 28px;
+  padding: clamp(24px, 5vw, 46px);
+  color: #fff;
+  background: linear-gradient(135deg, #ff4fa3 0%, #a855f7 45%, #111827 100%);
+  box-shadow: 0 24px 70px rgba(168,85,247,.28);
+  overflow: hidden;
+}
+.lanpink-promo-hero__badge {
+  display: inline-flex;
+  margin-bottom: 12px;
+  padding: 7px 13px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.18);
+  font-weight: 800;
+}
+.lanpink-promo-hero h2 {
+  margin: 0;
+  font-size: clamp(26px, 5vw, 46px);
+  line-height: 1.08;
+}
+.lanpink-promo-hero p {
+  margin: 14px 0 18px;
+  max-width: 680px;
+  font-size: 17px;
+  line-height: 1.7;
+}
+.lanpink-promo-hero__meta {
+  display: inline-flex;
+  margin-bottom: 20px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.15);
+  font-weight: 700;
+}
+.lanpink-promo-hero__btn {
+  display: inline-flex;
+  padding: 12px 20px;
+  border-radius: 999px;
+  background: #fff;
+  color: #b4235a;
+  text-decoration: none;
+  font-weight: 900;
+}
+.lanpink-promo-hero__sale {
+  display: grid;
+  place-items: center;
+  width: 190px;
+  height: 190px;
+  margin: auto;
+  border-radius: 999px;
+  background: rgba(255,255,255,.18);
+  border: 1px solid rgba(255,255,255,.32);
+  font-size: 44px;
+  font-weight: 1000;
+  transform: rotate(-10deg);
+  animation: lanpinkSaleFloat 3.8s ease-in-out infinite;
+}
+@keyframes lanpinkSaleFloat {
+  0%,100% { transform: translateY(0) rotate(-10deg); }
+  50% { transform: translateY(-12px) rotate(-5deg); }
+}
+@media (max-width: 760px) {
+  .lanpink-promo-hero__inner { grid-template-columns: 1fr; }
+  .lanpink-promo-hero__sale { width: 120px; height: 120px; font-size: 28px; }
+}

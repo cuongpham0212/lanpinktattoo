@@ -1,0 +1,98 @@
+<footer class="lp-footer">
+  <div class="lp-footer-glow"></div>
+
+  <div class="lp-footer-wrap">
+    <div class="lp-footer-card">
+      <div class="lp-footer-grid">
+
+        <div class="lp-footer-brand">
+          <h3>LAN PINK <span>TATTOO</span></h3>
+
+          <p>
+            {{ if eq .Language.Lang "vi" }}
+              Lan Pink Tattoo là studio xăm riêng tư tại TP.HCM, nhận thiết kế hình xăm cá nhân theo câu chuyện, vị trí và phong cách riêng của từng khách. Studio thực hiện đa dạng thể loại hình xăm, hiện chưa nhận các thiết kế siêu thực và chân dung người.
+            {{ else }}
+              Lan Pink Tattoo is a private tattoo studio in Ho Chi Minh City, creating custom tattoo designs based on each client’s story, placement, and personal style. The studio works across many tattoo styles, except hyperrealism and human portrait tattoos.
+            {{ end }}
+          </p>
+
+          <div class="lp-footer-tags">
+            Lan Pink Tattoo · Lan Pink Ink · Tattoo Studio TP.HCM · Custom Tattoo · Private Tattoo Studio
+          </div>
+        </div>
+
+        <div class="lp-footer-col">
+          <h4>Studio</h4>
+
+          <nav class="lp-footer-links">
+            {{ if eq .Language.Lang "vi" }}
+              <a href="{{ "/ve-lan-pink-ink-studio/" | relLangURL }}">Về Lan Pink Studio</a>
+              <a href="{{ "/lan-pink-tattoo-artist/" | relLangURL }}">Về Lan Pink</a>
+              <a href="{{ "/contact/" | relLangURL }}">Liên hệ</a>
+              <a href="{{ "/danh-gia/" | relLangURL }}">Đánh giá</a>
+              <a href="{{ "/faq/" | relLangURL }}">FAQ</a>
+              <a href="{{ "/chinh-sach/" | relLangURL }}">Chính sách</a>
+            {{ else }}
+              <a href="{{ "/about-lan-pink-ink-studio/" | relLangURL }}">About Lan Pink Studio</a>
+              <a href="{{ "/lan-pink-tattoo-artist/" | relLangURL }}">About Lan Pink</a>
+              <a href="{{ "/contact/" | relLangURL }}">Contact</a>
+              <a href="{{ "/reviews/" | relLangURL }}">Reviews</a>
+              <a href="{{ "/faq/" | relLangURL }}">FAQ</a>
+              <a href="{{ "/service-policy/" | relLangURL }}">Policy</a>
+            {{ end }}
+          </nav>
+        </div>
+
+        <div class="lp-footer-col lp-footer-connect">
+          <h4>{{ if eq .Language.Lang "vi" }}Tìm hiểu thêm{{ else }}Learn More{{ end }}</h4>
+
+          <nav class="lp-footer-links lp-footer-learn-links">
+            {{ if eq .Language.Lang "vi" }}
+              <a href="{{ "/phong-cach-xam/" | relLangURL }}">Phong cách xăm</a>
+            {{ else }}
+              <a href="{{ "/tattoo-styles/" | relLangURL }}">Tattoo Styles</a>
+            {{ end }}
+          </nav>
+
+          <div class="lp-footer-contact-card">
+            <div class="lp-footer-social-title">
+              {{ if eq .Language.Lang "vi" }}Kết nối với Lan Pink{{ else }}Connect with Lan Pink{{ end }}
+            </div>
+
+            <p class="lp-footer-note">
+              {{ if eq .Language.Lang "vi" }}
+                Xem tác phẩm mới, feedback khách hàng và gửi ý tưởng hình xăm để Lan Pink tư vấn hướng thiết kế phù hợp.
+              {{ else }}
+                See new works, client feedback, and send your tattoo idea so Lan Pink can suggest a suitable design direction.
+              {{ end }}
+            </p>
+
+            <nav class="lp-footer-social">
+              <a href="{{ .Site.Params.facebook }}" target="_blank" rel="noopener" class="lp-footer-pill">Facebook</a>
+              <a href="{{ .Site.Params.instagram }}" target="_blank" rel="noopener" class="lp-footer-pill">Instagram</a>
+              <a href="{{ .Site.Params.googleBusiness }}" target="_blank" rel="noopener" class="lp-footer-pill">Google</a>
+            </nav>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="lp-footer-bottom">
+    <div>
+      <p>
+        © {{ now.Year }} Lan Pink Tattoo · Lan Pink Ink ·
+        {{ if eq .Language.Lang "vi" }}Không gian xăm riêng tư tại TP.HCM{{ else }}Private Tattoo Space in Ho Chi Minh City{{ end }}
+      </p>
+
+      <p>
+        {{ if eq .Language.Lang "vi" }}
+          Thiết kế hình xăm cá nhân theo câu chuyện, vị trí và phong cách riêng của từng khách.
+        {{ else }}
+          Custom tattoo designs based on each client’s story, placement, and personal style.
+        {{ end }}
+      </p>
+    </div>
+  </div>
+</footer>

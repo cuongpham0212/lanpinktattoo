@@ -1,4 +1,7 @@
 {{ define "main" }}
+  {{ if .IsHome }}
+    {{ partial "promo-hero.html" . }}
+  {{ end }}
 
 {{ $isPortfolio := in (slice "tac-pham" "portfolio") .Section }}
 {{ $isGuide := in (slice "cam-nang-tattoo" "tattoo-guide") .Section }}

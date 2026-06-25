@@ -1,4 +1,5 @@
 ---
+seo_content_type: "Ý nghĩa"
 title: "Ý Nghĩa Hình Xăm Rắn Và Gợi Ý Mẫu Xăm Đẹp"
 slug: "y-nghia-hinh-xam-ran"
 date: 2026-06-17
@@ -7,7 +8,7 @@ draft: false
 description: "Tìm hiểu ý nghĩa hình xăm rắn và các gợi ý mẫu xăm rắn đẹp theo phong cách Fine Line, Blackwork, mini tattoo và thiết kế hình xăm theo yêu cầu tại Lan Pink Tattoo."
 
 categories:
-  - "Ý tưởng xăm"
+  - "Ý nghĩa hình xăm"
 
 tags:
   - "ý nghĩa hình xăm rắn"
@@ -40,6 +41,9 @@ artwork_style: ""
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: ""
+
+keywords:
+  - "Ý Nghĩa Hình Xăm Rắn Và Gợi Ý Mẫu Xăm Đẹp"
 ---
 
 # Ý Nghĩa Hình Xăm Rắn Và Gợi Ý Mẫu Xăm Đẹp

@@ -27,6 +27,11 @@ seo_cluster_id: "pet_memorial_tattoo"
 seo_cluster: "Hình xăm tưởng niệm thú cưng"
 seo_intent: "Tác phẩm"
 seo_target_keyword: "hình xăm chú vẹt tưởng niệm"
+
+categories:
+  - "Tác phẩm"
+keywords:
+  - "Hình Xăm Chú Vẹt Tưởng Niệm – Custom Tattoo Design tại Lan Pink Ink"
 ---
 
 ## Hình Xăm Chú Vẹt Tưởng Niệm – Một Câu Chuyện Thật Từ Khách Hàng Của Lan Pink Ink

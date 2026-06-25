@@ -31,6 +31,9 @@ artwork_style: ""
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: ""
+
+keywords:
+  - "100+ Ý Tưởng Hình Xăm Vẹt Đẹp Và Ý Nghĩa Cho Người Yêu Chim Cảnh"
 ---
 
 # 100+ Ý Tưởng Hình Xăm Vẹt Đẹp Và Ý Nghĩa Cho Người Yêu Chim Cảnh

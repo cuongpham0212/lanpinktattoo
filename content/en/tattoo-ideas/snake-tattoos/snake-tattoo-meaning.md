@@ -27,6 +27,14 @@ tags:
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-ran-lan-pink-tattoo.webp"
 image_alt: "Snake tattoo meaning and snake tattoo ideas at Lan Pink Tattoo in Ho Chi Minh City"
+
+keywords:
+  - "Snake Tattoo Meaning And Beautiful Design Ideas"
+artwork_subject: ""
+artwork_style: ""
+artwork_position: ""
+artwork_client: ""
+artwork_meaning: ""
 ---
 
 # Snake Tattoo Meaning And Beautiful Design Ideas

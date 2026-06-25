@@ -23,95 +23,14 @@ enableRobotsTXT = true
       weight = 1
 
     [[languages.vi.menu.main]]
-      name = "Phong cách"
-      pageRef = "/phong-cach-xam"
+      name = "Ý nghĩa hình xăm"
+      pageRef = "/y-nghia-hinh-xam"
       weight = 2
 
     [[languages.vi.menu.main]]
-      name = "Chủ đề"
-      identifier = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam"
+      name = "Mẫu hình xăm đẹp"
+      pageRef = "/mau-hinh-xam-dep"
       weight = 3
-
-    [[languages.vi.menu.main]]
-      name = "Hinh Xam Bap Tay"
-      parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-bap-tay"
-      weight = 1
-
-    [[languages.vi.menu.main]]
-      name = "Hinh Xam Blackwork"
-      parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-blackwork"
-      weight = 2
-
-    [[languages.vi.menu.main]]
-      name = "Hinh Xam Cho"
-      parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-cho"
-      weight = 3
-
-    [[languages.vi.menu.main]]
-      name = "Cho nam"
-      parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-cho-nam"
-      weight = 4
-
-    [[languages.vi.menu.main]]
-      name = "Cho nữ"
-      parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-cho-nu"
-      weight = 5
-
-    [[languages.vi.menu.main]]
-      name = "Fine Line"
-      parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-fine-line"
-      weight = 6
-
-    [[languages.vi.menu.main]]
-      name = "Hinh Xam Mandala"
-      parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-mandala"
-      weight = 7
-
-    [[languages.vi.menu.main]]
-      name = "Hình xăm mini"
-      parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-mini"
-      weight = 8
-
-    [[languages.vi.menu.main]]
-      name = "Phượng hoàng"
-      parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-phuong-hoang"
-      weight = 9
-
-    [[languages.vi.menu.main]]
-      name = "Hình xăm rắn"
-      parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-ran"
-      weight = 10
-
-    [[languages.vi.menu.main]]
-      name = "Thú cưng"
-      parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-thu-cung"
-      weight = 11
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     [[languages.vi.menu.main]]
       name = "Cẩm nang"
@@ -128,35 +47,7 @@ enableRobotsTXT = true
       pageRef = "/quy-tac-tich-diem"
       weight = 6
 
-    [[languages.vi.menu.main]]
-      name = "Studio"
-      identifier = "studio"
-      pageRef = "/ve-lan-pink-ink-studio"
-      weight = 7
 
-    [[languages.vi.menu.main]]
-      name = "Giới thiệu"
-      parent = "studio"
-      pageRef = "/ve-lan-pink-ink-studio"
-      weight = 1
-
-    [[languages.vi.menu.main]]
-      name = "Liên hệ"
-      parent = "studio"
-      pageRef = "/contact"
-      weight = 2
-
-    [[languages.vi.menu.main]]
-      name = "Đánh giá"
-      parent = "studio"
-      pageRef = "/danh-gia"
-      weight = 3
-
-    [[languages.vi.menu.main]]
-      name = "FAQ"
-      parent = "studio"
-      pageRef = "/faq"
-      weight = 4
 
   [languages.en]
     languageName = "English"
@@ -174,51 +65,14 @@ enableRobotsTXT = true
       weight = 1
 
     [[languages.en.menu.main]]
-      name = "Styles"
-      pageRef = "/tattoo-styles"
+      name = "Tattoo Meanings"
+      pageRef = "/tattoo-meanings"
       weight = 2
 
     [[languages.en.menu.main]]
-      name = "Topics"
-      identifier = "tattoo-topics"
-      pageRef = "/tattoo-ideas"
+      name = "Tattoo Ideas"
+      pageRef = "/tattoo-designs"
       weight = 3
-
-    [[languages.en.menu.main]]
-      name = "Mini Tattoos"
-      parent = "tattoo-topics"
-      pageRef = "/tattoo-ideas/mini-tattoos"
-      weight = 1
-
-    [[languages.en.menu.main]]
-      name = "Fine Line"
-      parent = "tattoo-topics"
-      pageRef = "/tattoo-ideas/fine-line-tattoos"
-      weight = 2
-
-    [[languages.en.menu.main]]
-      name = "Snake Tattoos"
-      parent = "tattoo-topics"
-      pageRef = "/tattoo-ideas/snake-tattoos"
-      weight = 3
-
-    [[languages.en.menu.main]]
-      name = "Pet Tattoos"
-      parent = "tattoo-topics"
-      pageRef = "/tattoo-ideas/pet-tattoos"
-      weight = 4
-
-    [[languages.en.menu.main]]
-      name = "For Women"
-      parent = "tattoo-topics"
-      pageRef = "/tattoo-ideas/tattoos-for-women"
-      weight = 5
-
-    [[languages.en.menu.main]]
-      name = "For Men"
-      parent = "tattoo-topics"
-      pageRef = "/tattoo-ideas/tattoos-for-men"
-      weight = 6
 
     [[languages.en.menu.main]]
       name = "Guide"
@@ -235,23 +89,6 @@ enableRobotsTXT = true
       pageRef = "/lan-pink-member"
       weight = 6
 
-    [[languages.en.menu.main]]
-      name = "Studio"
-      identifier = "studio-en"
-      pageRef = "/"
-      weight = 7
-
-    [[languages.en.menu.main]]
-      name = "Contact"
-      parent = "studio-en"
-      pageRef = "/contact"
-      weight = 1
-
-    [[languages.en.menu.main]]
-      name = "FAQ"
-      parent = "studio-en"
-      pageRef = "/faq"
-      weight = 2
 
 [markup]
   [markup.goldmark]
@@ -300,3 +137,9 @@ enableRobotsTXT = true
   [[related.indices]]
     name = "description"
     weight = 50
+
+
+[[menus.footer]]
+name = "Chương trình khuyến mãi"
+url = "/khuyen-mai/"
+weight = 30

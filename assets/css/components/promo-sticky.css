@@ -1,0 +1,114 @@
+/* Promo sticky / mobile bar */
+
+.lanpink-promo-sticky {
+  display: none;
+}
+
+/* Desktop: ô trong suốt bên trái */
+@media (min-width: 1280px) {
+  .lanpink-promo-sticky {
+    display: block;
+    position: fixed;
+    left: 18px;
+    top: 128px;
+    width: 230px;
+    z-index: 30;
+    padding: 15px;
+    border-radius: 22px;
+    color: var(--text-heading);
+    background: color-mix(in srgb, var(--surface) 72%, transparent);
+    border: 1px solid color-mix(in srgb, var(--primary-strong) 22%, transparent);
+    box-shadow: 0 18px 44px rgba(0,0,0,.14);
+    backdrop-filter: blur(18px);
+  }
+
+  .lanpink-promo-sticky__badge {
+    display: inline-flex;
+    margin-bottom: 8px;
+    padding: 4px 9px;
+    border-radius: 999px;
+    background: var(--primary-soft);
+    color: var(--primary-strong);
+    font-size: 12px;
+    font-weight: 900;
+  }
+
+  .lanpink-promo-sticky__title {
+    margin-bottom: 7px;
+    font-size: 17px;
+    line-height: 1.25;
+    font-weight: 900;
+  }
+
+  .lanpink-promo-sticky p {
+    margin: 0 0 12px;
+    color: var(--text-muted);
+    font-size: 13px;
+    line-height: 1.45;
+  }
+
+  .lanpink-promo-sticky__btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 9px 10px;
+    border-radius: 999px;
+    color: #fff;
+    background: linear-gradient(135deg, #f9a8d4, #ec4899, #db2777);
+    font-size: 13px;
+    font-weight: 900;
+  }
+}
+
+/* Mobile: thanh ngang dưới màn hình */
+@media (max-width: 767px) {
+  .lanpink-promo-sticky {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    align-items: center;
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    bottom: 12px;
+    z-index: 70;
+    min-height: 56px;
+    padding: 9px 10px 9px 13px;
+    border-radius: 999px;
+    color: var(--text-heading);
+    background: color-mix(in srgb, var(--surface) 88%, transparent);
+    border: 1px solid color-mix(in srgb, var(--primary-strong) 22%, transparent);
+    box-shadow: 0 16px 40px rgba(0,0,0,.22);
+    backdrop-filter: blur(18px);
+  }
+
+  .lanpink-promo-sticky__badge,
+  .lanpink-promo-sticky p {
+    display: none;
+  }
+
+  .lanpink-promo-sticky__title {
+    min-width: 0;
+    overflow: hidden;
+    color: var(--text-heading);
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 1.25;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .lanpink-promo-sticky__btn {
+    padding: 8px 12px;
+    border-radius: 999px;
+    color: #fff;
+    background: linear-gradient(135deg, #f9a8d4, #ec4899, #db2777);
+    font-size: 12px;
+    font-weight: 900;
+    white-space: nowrap;
+  }
+
+  body {
+    padding-bottom: 78px;
+  }
+}

@@ -30,6 +30,9 @@ artwork_style: ""
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: ""
+
+keywords:
+  - "Hướng Dẫn Chọn Hình Xăm Rắn Phù Hợp Với Từng Vị Trí Trên Cơ Thể"
 ---
 
 Hình xăm rắn là một trong những chủ đề tattoo có khả năng biến hóa rất cao. Cùng là hình ảnh con rắn, nhưng khi đặt ở cẳng tay, bắp tay, chân, lưng hay sườn, cảm giác của thiết kế có thể thay đổi hoàn toàn.

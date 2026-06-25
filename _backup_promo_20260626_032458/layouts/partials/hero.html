@@ -1,0 +1,74 @@
+{{- $title := .Title -}}
+{{- $desc := .Params.description | default .Summary -}}
+
+<header class="relative overflow-hidden border-b border-current/10 bg-[var(--color-bg)]" itemscope itemtype="https://schema.org/WPHeader">
+  <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-12 lg:px-8 lg:py-14">
+    <div class="grid items-center gap-8 lg:grid-cols-[0.95fr_1.05fr]">
+
+      <div class="max-w-2xl text-left">
+        <p class="lp-eyebrow">
+          {{ i18n "private_tattoo_studio" }}
+        </p>
+
+        <h1 class="mt-4 max-w-2xl text-[1.5rem] font-black leading-[1.2] tracking-tight lp-heading sm:text-[1.9rem] lg:text-[2.1rem]" itemprop="headline">
+          {{ $title }}
+        </h1>
+
+        {{- with $desc -}}
+          <p class="mt-4 max-w-xl text-sm leading-7 lp-muted sm:text-base" itemprop="description">
+            {{ . | plainify | truncate 145 }}
+          </p>
+        {{- end -}}
+
+        <div class="mt-5 flex flex-wrap gap-3">
+          <a href="{{ if eq .Language.Lang "vi" }}{{ "tac-pham/" | relLangURL }}{{ else }}{{ "portfolio/" | relLangURL }}{{ end }}" class="lp-btn-primary">
+            {{ i18n "view_gallery" }}
+          </a>
+
+          <a
+            href="{{ .Site.Params.messenger | default .Site.Params.bookingUrl }}"
+            target="_blank"
+            rel="noopener"
+            class="lp-btn-secondary">
+            {{ i18n "consult_now" | default "Tư vấn miễn phí" }}
+          </a>
+        </div>
+      </div>
+
+      <aside class="hidden lg:flex justify-end">
+        <div class="lp-card w-full max-w-xl rounded-3xl border border-current/10 p-6 shadow-xl">
+          <p class="lp-eyebrow">
+            Lan Pink Tattoo
+          </p>
+
+          <div class="mt-5 space-y-4 text-sm leading-7 lp-muted">
+            <p>
+              {{ if eq .Language.Lang "vi" }}
+                Tác phẩm được thực hiện trực tiếp bởi tattoo artist Lan Pink tại private tattoo studio ở Quận 12, TP.HCM.
+              {{ else }}
+                Tattoo work created directly by tattoo artist Lan Pink at a private tattoo studio in District 12, Ho Chi Minh City.
+              {{ end }}
+            </p>
+
+            <div class="flex flex-wrap gap-2">
+              <span class="lp-pill rounded-full px-3 py-1 text-xs font-bold">Fine Line</span>
+              <span class="lp-pill rounded-full px-3 py-1 text-xs font-bold">Mini Tattoo</span>
+              <span class="lp-pill rounded-full px-3 py-1 text-xs font-bold">Blackwork</span>
+              <span class="lp-pill rounded-full px-3 py-1 text-xs font-bold">Custom Design</span>
+              <span class="lp-pill rounded-full px-3 py-1 text-xs font-bold">
+                {{ if eq .Language.Lang "vi" }}Nhật Cổ{{ else }}Japanese Style{{ end }}
+              </span>
+              <span class="lp-pill rounded-full px-3 py-1 text-xs font-bold">
+                {{ if eq .Language.Lang "vi" }}Á Đông{{ else }}Asian Style{{ end }}
+              </span>
+              <span class="lp-pill rounded-full px-3 py-1 text-xs font-bold">
+                {{ if eq .Language.Lang "vi" }}Phong cách Âu{{ else }}European Style{{ end }}
+              </span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</header>

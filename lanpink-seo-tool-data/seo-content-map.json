@@ -1,0 +1,2416 @@
+[
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/contact.md",
+    "rel_url": "/contact/",
+    "abs_url": "https://lanpinktattoo.com/contact/",
+    "title": "Liên hệ Lan Pink Ink",
+    "slug": "contact",
+    "description": "Liên hệ đặt lịch xăm tại Quận 12, TP.HCM. Tư vấn miễn phí qua Instagram, Facebook hoặc đến trực tiếp studio.",
+    "categories": [],
+    "tags": [],
+    "keywords": [],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 221,
+    "h1_count": 3,
+    "h2_count": 3,
+    "image_count": 0,
+    "internal_links": [],
+    "score": 43,
+    "issues": [
+      "Title nên khoảng 35–75 ký tự",
+      "Description nên khoảng 120–180 ký tự",
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Internal link/backlink nội bộ còn ít",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/faq.md",
+    "rel_url": "/faq/",
+    "abs_url": "https://lanpinktattoo.com/faq/",
+    "title": "FAQ Xăm Hình | Câu hỏi thường gặp về Tattoo",
+    "slug": "faq",
+    "description": "Giải đáp những câu hỏi thường gặp về xăm hình tại Lan Pink Tattoo: xăm có đau không, giá bao nhiêu, cách chăm sóc, thời gian hồi phục, dặm lại hình xăm và nhiều thông tin hữu ích khác.",
+    "categories": [
+      "FAQ"
+    ],
+    "tags": [
+      "faq tattoo",
+      "câu hỏi thường gặp",
+      "chăm sóc hình xăm",
+      "xăm hình có đau không",
+      "kinh nghiệm xăm hình"
+    ],
+    "keywords": [],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 1145,
+    "h1_count": 20,
+    "h2_count": 19,
+    "image_count": 0,
+    "internal_links": [
+      "/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/",
+      "/cam-nang-tattoo/xam-hinh-co-dau-khong/",
+      "/cam-nang-tattoo/kim-di-net-va-kim-to-cai-nao-dau-hon/",
+      "/bang-gia/",
+      "/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/",
+      "/phong-cach-xam/",
+      "/gallery/",
+      "/bang-gia/",
+      "/gallery/",
+      "/gioi-thieu/",
+      "/cam-nang-tattoo/"
+    ],
+    "score": 76,
+    "issues": [
+      "Description nên khoảng 120–180 ký tự",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/lan-pink-member-admin/index.md",
+    "rel_url": "/lan-pink-member-admin/",
+    "abs_url": "https://lanpinktattoo.com/lan-pink-member-admin/",
+    "title": "Khu vực quản trị thành viên",
+    "slug": "lan-pink-member-admin",
+    "description": "",
+    "categories": [],
+    "tags": [],
+    "keywords": [],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 114,
+    "h1_count": 2,
+    "h2_count": 1,
+    "image_count": 0,
+    "internal_links": [
+      "/lan-pink-member/",
+      "/quy-tac-tich-diem/",
+      "/bang-gia/"
+    ],
+    "score": 43,
+    "issues": [
+      "Title nên khoảng 35–75 ký tự",
+      "Description nên khoảng 120–180 ký tự",
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Nên có ít nhất 3 heading H2",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/chinh-sach/index.md",
+    "rel_url": "/chinh-sach/",
+    "abs_url": "https://lanpinktattoo.com/chinh-sach/",
+    "title": "Chính sách dịch vụ | Lan Pink Tattoo",
+    "slug": "chinh-sach",
+    "description": "Chính sách đặt lịch, bảo hành hình xăm, chăm sóc sau xăm và điều khoản dịch vụ tại Lan Pink Tattoo - Private Tattoo Studio tại TP.HCM.",
+    "categories": [],
+    "tags": [],
+    "keywords": [],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 1313,
+    "h1_count": 17,
+    "h2_count": 16,
+    "image_count": 0,
+    "internal_links": [
+      "/quy-tac-tich-diem/"
+    ],
+    "score": 78,
+    "issues": [
+      "Thiếu shortcode {{< explore-more >}}",
+      "Internal link/backlink nội bộ còn ít",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/bang-gia/index.md",
+    "rel_url": "/bang-gia/",
+    "abs_url": "https://lanpinktattoo.com/bang-gia/",
+    "title": "Bảng giá xăm hình tại TP.HCM mới nhất 2026",
+    "slug": "bang-gia",
+    "description": "Cập nhật bảng giá xăm hình tại Lan Pink Tattoo Studio. Tham khảo giá Mini Tattoo, Fine Line Tattoo, Nhật Cổ, Âu Mỹ và dịch vụ tattoo tại TP.HCM.",
+    "categories": [
+      "Bảng giá"
+    ],
+    "tags": [
+      "bảng giá xăm hình",
+      "giá tattoo tphcm",
+      "mini tattoo",
+      "fine line tattoo",
+      "tattoo quận 12"
+    ],
+    "keywords": [],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 814,
+    "h1_count": 9,
+    "h2_count": 8,
+    "image_count": 1,
+    "internal_links": [],
+    "score": 78,
+    "issues": [
+      "Thiếu shortcode {{< explore-more >}}",
+      "Internal link/backlink nội bộ còn ít",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/chuong-trinh-gioi-thieu-ban-be/index.md",
+    "rel_url": "/chuong-trinh-gioi-thieu-ban-be/",
+    "abs_url": "https://lanpinktattoo.com/chuong-trinh-gioi-thieu-ban-be/",
+    "title": "Chương Trình Giới Thiệu Bạn Bè Nhận Thưởng | Lan Pink Tattoo",
+    "slug": "chuong-trinh-gioi-thieu-ban-be",
+    "description": "Giới thiệu bạn bè đến Lan Pink Tattoo để nhận điểm thưởng thành viên. Thành viên có thể tích điểm từ khách mới và từ những lần đồng hành cùng bạn bè quay lại studio.",
+    "categories": [
+      "Thành viên"
+    ],
+    "tags": [
+      "giới thiệu bạn bè",
+      "Lan Pink Member",
+      "tích điểm thành viên",
+      "voucher tattoo",
+      "Lan Pink Tattoo"
+    ],
+    "keywords": [
+      "giới thiệu bạn bè Lan Pink Tattoo",
+      "chương trình giới thiệu tattoo",
+      "Lan Pink Member nhận thưởng",
+      "tích điểm giới thiệu bạn bè"
+    ],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 1220,
+    "h1_count": 11,
+    "h2_count": 10,
+    "image_count": 0,
+    "internal_links": [
+      "/lan-pink-member/",
+      "/quy-tac-tich-diem/",
+      "/bang-gia/",
+      "/contact/"
+    ],
+    "score": 86,
+    "issues": [
+      "Thiếu shortcode {{< explore-more >}}",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/lan-pink-tattoo-artist/index.md",
+    "rel_url": "/lan-pink-tattoo-artist/",
+    "abs_url": "https://lanpinktattoo.com/lan-pink-tattoo-artist/",
+    "title": "Lan Pink là ai? Tattoo Artist đứng sau Lan Pink Tattoo",
+    "slug": "lan-pink-tattoo-artist",
+    "description": "Lan Pink là tattoo artist và founder của Lan Pink Tattoo (Lan Pink Ink), private tattoo studio tại Quận 12, TP.HCM. Tìm hiểu ý nghĩa tên Lan Pink Ink và câu chuyện đằng sau thương hiệu.",
+    "categories": [],
+    "tags": [
+      "lan pink là ai",
+      "lan pink ink",
+      "lan pink tattoo",
+      "tattoo artist quận 12",
+      "nữ tattoo artist",
+      "thợ xăm nữ tp hcm",
+      "fine line tattoo artist",
+      "tattoo artist tp hcm",
+      "private tattoo studio",
+      "lan pink"
+    ],
+    "keywords": [],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 803,
+    "h1_count": 10,
+    "h2_count": 9,
+    "image_count": 0,
+    "internal_links": [],
+    "score": 74,
+    "issues": [
+      "Description nên khoảng 120–180 ký tự",
+      "Internal link/backlink nội bộ còn ít",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design.md",
+    "rel_url": "/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/",
+    "abs_url": "https://lanpinktattoo.com/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/",
+    "title": "Hình Xăm Chú Vẹt Tưởng Niệm – Custom Tattoo Design tại Lan Pink Ink",
+    "slug": "hinh-xam-chu-vet-tuong-niem-custom-tattoo-design",
+    "description": "Câu chuyện về hình xăm chú vẹt Gonzo được thiết kế theo yêu cầu tại Lan Pink Ink, private tattoo studio và thợ xăm nữ tại Quận 12, TP.HCM.",
+    "categories": [
+      "Tác phẩm"
+    ],
+    "tags": [
+      "Custom Tattoo Design",
+      "Hình xăm theo yêu cầu",
+      "Thợ xăm nữ Quận 12",
+      "Pet Memorial Tattoo",
+      "Lan Pink Ink",
+      "Tattoo Artist TP.HCM"
+    ],
+    "keywords": [
+      "Hình Xăm Chú Vẹt Tưởng Niệm – Custom Tattoo Design tại Lan Pink Ink"
+    ],
+    "seo_cluster_id": "pet_memorial_tattoo",
+    "seo_cluster": "Hình xăm tưởng niệm thú cưng",
+    "seo_intent": "Tác phẩm",
+    "seo_target_keyword": "hình xăm chú vẹt tưởng niệm",
+    "word_count": 660,
+    "h1_count": 2,
+    "h2_count": 2,
+    "image_count": 1,
+    "internal_links": [],
+    "score": 84,
+    "issues": [
+      "Nên có ít nhất 3 heading H2",
+      "Internal link/backlink nội bộ còn ít"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/tac-pham/hinh-xam-ran-cam-hung-viet-nam.md",
+    "rel_url": "/tac-pham/hinh-xam-ran-cam-hung-viet-nam/",
+    "abs_url": "https://lanpinktattoo.com/tac-pham/hinh-xam-ran-cam-hung-viet-nam/",
+    "title": "Hình Xăm Rắn Mang Cảm Hứng Việt Nam | Custom Tattoo Design Tại Lan Pink Ink",
+    "slug": "hinh-xam-ran-cam-hung-viet-nam",
+    "description": "Tác phẩm hình xăm rắn được thiết kế riêng cho một vị khách quốc tế yêu mến Việt Nam. Thực hiện bởi Lan Pink Ink, private tattoo studio và thợ xăm nữ tại Quận 12, TP.HCM.",
+    "categories": [
+      "Tác phẩm"
+    ],
+    "tags": [
+      "Hình Xăm Rắn",
+      "Snake Tattoo",
+      "Custom Tattoo Design",
+      "Fine Line Tattoo",
+      "Blackwork Tattoo",
+      "Thợ xăm nữ Quận 12",
+      "Lan Pink Ink",
+      "Tattoo Artist TP.HCM"
+    ],
+    "keywords": [
+      "Hình Xăm Rắn Mang Cảm Hứng Việt Nam | Custom Tattoo Design Tại Lan Pink Ink"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "Tác phẩm",
+    "seo_target_keyword": "hình xăm rắn mang cảm hứng Việt Nam",
+    "word_count": 580,
+    "h1_count": 5,
+    "h2_count": 4,
+    "image_count": 1,
+    "internal_links": [],
+    "score": 77,
+    "issues": [
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Internal link/backlink nội bộ còn ít"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/tac-pham/hinh-xam-phuong-hoang-o-bap-tay.md",
+    "rel_url": "/tac-pham/hinh-xam-phuong-hoang-o-bap-tay/",
+    "abs_url": "https://lanpinktattoo.com/tac-pham/hinh-xam-phuong-hoang-o-bap-tay/",
+    "title": "Hình Xăm Phượng Hoàng Ở Bắp Tay | Tác Phẩm Lan Pink Tattoo",
+    "slug": "hinh-xam-phuong-hoang-o-bap-tay",
+    "description": "Tác phẩm hình xăm phượng hoàng ở bắp tay được thiết kế riêng và thực hiện tại Lan Pink Tattoo, Quận 12, TP.HCM.",
+    "categories": [
+      "Tác phẩm"
+    ],
+    "tags": [
+      "Lan Pink Tattoo",
+      "Lan Pink Ink",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM"
+    ],
+    "keywords": [
+      "Hình xăm phượng hoàng ở bắp tay",
+      "lan pink tattoo",
+      "lan pink ink",
+      "tattoo artist tp hcm",
+      "thợ xăm nữ quận 12"
+    ],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 807,
+    "h1_count": 6,
+    "h2_count": 5,
+    "image_count": 1,
+    "internal_links": [
+      "/cam-nang-tattoo/xam-hinh-co-dau-khong/",
+      "/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/",
+      "/contact/"
+    ],
+    "score": 66,
+    "issues": [
+      "Thiếu frontmatter: seo_cluster_id, seo_cluster, seo_intent, seo_target_keyword",
+      "Description nên khoảng 120–180 ký tự",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/tac-pham/hinh-xam-chan-dung-meo-misa.md",
+    "rel_url": "/tac-pham/hinh-xam-chan-dung-meo-misa/",
+    "abs_url": "https://lanpinktattoo.com/tac-pham/hinh-xam-chan-dung-meo-misa/",
+    "title": "Hình Xăm Chân Dung Mèo Misa – Ký Ức Về Người Bạn Đặc Biệt",
+    "slug": "hinh-xam-chan-dung-meo-misa",
+    "description": "Tác phẩm hình xăm chân dung mèo Misa được thực hiện bởi Lan Pink Tattoo tại TP.HCM. Thiết kế Pet Portrait Tattoo cá nhân hóa giúp lưu giữ hình ảnh và ký ức về thú cưng bằng phong cách Fine Line Tattoo kết hợp Black & Grey.",
+    "categories": [
+      "Tác phẩm"
+    ],
+    "tags": [
+      "Hình xăm thú cưng",
+      "Hình xăm mèo",
+      "Pet Portrait Tattoo",
+      "Cat Portrait Tattoo",
+      "Pet Memorial Tattoo",
+      "Fine Line Tattoo",
+      "Black & Grey Tattoo",
+      "Thợ xăm nữ Quận 12",
+      "Lan Pink Ink",
+      "Tattoo Artist TP.HCM"
+    ],
+    "keywords": [
+      "hình xăm chân dung mèo",
+      "hình xăm thú cưng",
+      "pet portrait tattoo ho chi minh city",
+      "cat portrait tattoo vietnam",
+      "pet memorial tattoo",
+      "fine line tattoo tphcm",
+      "black and grey tattoo tphcm",
+      "nữ thợ xăm tp hcm",
+      "tattoo artist ho chi minh city",
+      "lan pink tattoo",
+      "lan pink ink"
+    ],
+    "seo_cluster_id": "pet_portrait_tattoo",
+    "seo_cluster": "Hình xăm thú cưng",
+    "seo_intent": "Tác phẩm",
+    "seo_target_keyword": "hình xăm chân dung mèo",
+    "word_count": 910,
+    "h1_count": 6,
+    "h2_count": 5,
+    "image_count": 1,
+    "internal_links": [],
+    "score": 82,
+    "issues": [
+      "Description nên khoảng 120–180 ký tự",
+      "Internal link/backlink nội bộ còn ít"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/lan-pink-member/index.md",
+    "rel_url": "/lan-pink-member/",
+    "abs_url": "https://lanpinktattoo.com/lan-pink-member/",
+    "title": "Chương trình thành viên Lan Pink",
+    "slug": "lan-pink-member",
+    "description": "Tra cứu hạng thành viên, điểm khả dụng và voucher khả dụng tại Lan Pink Tattoo.",
+    "categories": [],
+    "tags": [],
+    "keywords": [],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 334,
+    "h1_count": 2,
+    "h2_count": 1,
+    "image_count": 0,
+    "internal_links": [
+      "/quy-tac-tich-diem/",
+      "/bang-gia/",
+      "/contact/",
+      "/chuong-trinh-gioi-thieu-ban-be/",
+      "/quy-tac-tich-diem/",
+      "/bang-gia/",
+      "/contact/"
+    ],
+    "score": 43,
+    "issues": [
+      "Title nên khoảng 35–75 ký tự",
+      "Description nên khoảng 120–180 ký tự",
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Nên có ít nhất 3 heading H2",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/ve-lan-pink-ink-studio/index.md",
+    "rel_url": "/ve-lan-pink-ink-studio/",
+    "abs_url": "https://lanpinktattoo.com/ve-lan-pink-ink-studio/",
+    "title": "Về Lan Pink Tattoo Studio",
+    "slug": "ve-lan-pink-ink-studio",
+    "description": "Lan Pink Tattoo, còn được biết đến với tên Lan Pink Ink, là không gian xăm riêng tư tại TP.HCM, chuyên Fine Line Tattoo, Mini Tattoo, Blackwork và thiết kế hình xăm theo yêu cầu.",
+    "categories": [],
+    "tags": [],
+    "keywords": [],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 1014,
+    "h1_count": 13,
+    "h2_count": 12,
+    "image_count": 6,
+    "internal_links": [
+      "/phong-cach-xam/",
+      "/phong-cach-xam/",
+      "/phong-cach-xam/",
+      "/gallery/",
+      "/bang-gia/",
+      "/faq/",
+      "/faq/",
+      "/phong-cach-xam/",
+      "/phong-cach-xam/",
+      "/phong-cach-xam/",
+      "/gallery/",
+      "/phong-cach-xam/",
+      "/bang-gia/",
+      "/faq/",
+      "/contact/",
+      "/gallery/",
+      "/phong-cach-xam/",
+      "/bang-gia/",
+      "/danh-gia/",
+      "/faq/"
+    ],
+    "score": 76,
+    "issues": [
+      "Title nên khoảng 35–75 ký tự",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/y-nghia-hinh-xam/y-nghia-hinh-xam-ran.md",
+    "rel_url": "/y-nghia-hinh-xam/y-nghia-hinh-xam-ran/",
+    "abs_url": "https://lanpinktattoo.com/y-nghia-hinh-xam/y-nghia-hinh-xam-ran/",
+    "title": "Ý Nghĩa Hình Xăm Rắn Và Gợi Ý Mẫu Xăm Đẹp",
+    "slug": "y-nghia-hinh-xam-ran",
+    "description": "Tìm hiểu ý nghĩa hình xăm rắn và các gợi ý mẫu xăm rắn đẹp theo phong cách Fine Line, Blackwork, mini tattoo và thiết kế hình xăm theo yêu cầu tại Lan Pink Tattoo.",
+    "categories": [
+      "Ý nghĩa hình xăm"
+    ],
+    "tags": [
+      "ý nghĩa hình xăm rắn",
+      "hình xăm rắn",
+      "snake tattoo",
+      "hình xăm rắn đẹp",
+      "hình xăm rắn mini",
+      "hình xăm rắn cho nữ",
+      "hình xăm rắn cho nam",
+      "fine line tattoo",
+      "blackwork tattoo",
+      "custom tattoo design",
+      "thợ xăm nữ",
+      "nữ thợ xăm",
+      "tattoo artist tp hcm",
+      "tattoo quận 12",
+      "lan pink tattoo",
+      "lan pink ink"
+    ],
+    "keywords": [
+      "Ý Nghĩa Hình Xăm Rắn Và Gợi Ý Mẫu Xăm Đẹp"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "Ý nghĩa",
+    "seo_target_keyword": "ý nghĩa hình xăm rắn",
+    "word_count": 1437,
+    "h1_count": 20,
+    "h2_count": 19,
+    "image_count": 0,
+    "internal_links": [
+      "/tac-pham/hinh-xam-ran-cam-hung-viet-nam/",
+      "/y-tuong-xam/hinh-xam-ran/",
+      "/y-tuong-xam/hinh-xam-mini/",
+      "/y-tuong-xam/hinh-xam-fine-line/",
+      "/y-tuong-xam/hinh-xam-blackwork/",
+      "/y-tuong-xam/hinh-xam-cho-nu/",
+      "/tac-pham/"
+    ],
+    "score": 94,
+    "issues": [
+      "Thiếu shortcode {{< explore-more >}}"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/y-nghia-hinh-xam/hinh-xam-phuong-hoang-o-bap-tay.md",
+    "rel_url": "/y-nghia-hinh-xam/hinh-xam-phuong-hoang-o-bap-tay/",
+    "abs_url": "https://lanpinktattoo.com/y-nghia-hinh-xam/hinh-xam-phuong-hoang-o-bap-tay/",
+    "title": "Hình Xăm Phượng Hoàng Ở Bắp Tay Có Gì Đặc Biệt? Gợi Ý Thiết Kế Và Ý Nghĩa",
+    "slug": "hinh-xam-phuong-hoang-o-bap-tay",
+    "description": "Khám phá ý nghĩa hình xăm phượng hoàng ở bắp tay, những phong cách phù hợp, ưu nhược điểm của vị trí xăm và kinh nghiệm lựa chọn thiết kế cân đối với vóc dáng.",
+    "categories": [
+      "Ý nghĩa hình xăm"
+    ],
+    "tags": [
+      "Lan Pink Tattoo",
+      "Lan Pink Ink",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM"
+    ],
+    "keywords": [
+      "Hình xăm phượng hoàng ở bắp tay",
+      "lan pink tattoo",
+      "lan pink ink",
+      "tattoo artist tp hcm",
+      "thợ xăm nữ quận 12"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 2325,
+    "h1_count": 23,
+    "h2_count": 22,
+    "image_count": 0,
+    "internal_links": [
+      "/cam-nang-tattoo/xam-hinh-co-dau-khong/",
+      "/cam-nang-tattoo/huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri/",
+      "/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/",
+      "/tac-pham/hinh-xam-phuong-hoang-o-bap-tay/",
+      "/faq/"
+    ],
+    "score": 92,
+    "issues": [
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/cam-nang-tattoo/xam-hinh-500k-duoc-gi.md",
+    "rel_url": "/cam-nang-tattoo/xam-hinh-500k-duoc-gi/",
+    "abs_url": "https://lanpinktattoo.com/cam-nang-tattoo/xam-hinh-500k-duoc-gi/",
+    "title": "Xăm Hình 500K Được Gì? Cách Chọn Thiết Kế Phù Hợp Với Ngân Sách",
+    "slug": "xam-hinh-500k-duoc-gi",
+    "description": "Xăm hình 500K được gì? Tìm hiểu những mẫu tattoo phù hợp với ngân sách 500.000đ, các yếu tố ảnh hưởng đến giá và cách chọn hình xăm hợp lý.",
+    "categories": [
+      "Cẩm nang Tattoo"
+    ],
+    "tags": [
+      "Lan Pink Tattoo",
+      "Lan Pink Ink",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM"
+    ],
+    "keywords": [
+      "xăm hình 500k được gì",
+      "giá xăm mini",
+      "xăm hình bao nhiêu tiền",
+      "bảng giá tattoo",
+      "thợ xăm nữ quận 12"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 799,
+    "h1_count": 8,
+    "h2_count": 7,
+    "image_count": 0,
+    "internal_links": [
+      "/bang-gia/",
+      "/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-meo/",
+      "/cam-nang-tattoo/vi-sao-gia-xam-ngay-cang-re/",
+      "/cam-nang-tattoo/hinh-xam-gia-re/",
+      "/tac-pham/hinh-xam-ran-cam-hung-viet-nam/",
+      "/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/",
+      "/bang-gia/"
+    ],
+    "score": 60,
+    "issues": [
+      "Thiếu frontmatter: guide_topic, guide_audience, guide_problem, guide_solution, seo_cluster_id, seo_cluster, seo_intent, seo_target_keyword",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/cam-nang-tattoo/huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri.md",
+    "rel_url": "/cam-nang-tattoo/huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri/",
+    "abs_url": "https://lanpinktattoo.com/cam-nang-tattoo/huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri/",
+    "title": "Hướng Dẫn Chọn Hình Xăm Rắn Phù Hợp Với Từng Vị Trí Trên Cơ Thể",
+    "slug": "huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri",
+    "description": "Hướng dẫn chọn hình xăm rắn phù hợp với từng vị trí trên cơ thể, từ cẳng tay, bắp tay, chân, lưng đến sườn. Gợi ý thiết kế hình xăm rắn đẹp, dễ ứng dụng và phù hợp với phong cách cá nhân tại Lan Pink Tattoo.",
+    "categories": [
+      "Ý tưởng xăm"
+    ],
+    "tags": [
+      "hình xăm rắn",
+      "hình xăm theo yêu cầu",
+      "thợ xăm nữ Quận 12",
+      "tattoo artist TP.HCM",
+      "Lan Pink Tattoo",
+      "Lan Pink Ink"
+    ],
+    "keywords": [
+      "Hướng Dẫn Chọn Hình Xăm Rắn Phù Hợp Với Từng Vị Trí Trên Cơ Thể"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "Hướng dẫn",
+    "seo_target_keyword": "hình xăm rắn",
+    "word_count": 2074,
+    "h1_count": 18,
+    "h2_count": 18,
+    "image_count": 0,
+    "internal_links": [
+      "/y-tuong-xam/hinh-xam-ran/",
+      "/tac-pham/hinh-xam-ran-cam-hung-viet-nam/",
+      "/y-tuong-xam/hinh-xam-ran/y-nghia-hinh-xam-ran/"
+    ],
+    "score": 84,
+    "issues": [
+      "Description nên khoảng 120–180 ký tự",
+      "Thiếu shortcode {{< explore-more >}}"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/cam-nang-tattoo/hinh-xam-gia-re.md",
+    "rel_url": "/cam-nang-tattoo/hinh-xam-gia-re/",
+    "abs_url": "https://lanpinktattoo.com/cam-nang-tattoo/hinh-xam-gia-re/",
+    "title": "Hình Xăm Giá Rẻ Có Thực Sự Tiết Kiệm? Những Điều Ít Người Nói Với Bạn",
+    "slug": "hinh-xam-gia-re",
+    "description": "Hình xăm giá rẻ có thật sự tiết kiệm? Tìm hiểu những ảnh hưởng đến độ bền màu, cảm giác đau, chất lượng đường nét và chi phí sửa hình về sau trước khi quyết định xăm.",
+    "categories": [
+      "Cẩm nang Tattoo"
+    ],
+    "tags": [
+      "Lan Pink Tattoo",
+      "Lan Pink Ink",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM"
+    ],
+    "keywords": [
+      "hình xăm giá rẻ",
+      "xăm giá rẻ",
+      "xăm hình giá rẻ",
+      "lan pink tattoo",
+      "lan pink ink",
+      "tattoo artist tp hcm",
+      "thợ xăm nữ quận 12"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 1254,
+    "h1_count": 10,
+    "h2_count": 9,
+    "image_count": 0,
+    "internal_links": [
+      "/tac-pham/hinh-xam-chan-dung-meo-misa/",
+      "/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/",
+      "/cam-nang-tattoo/xam-hinh-co-dau-khong/",
+      "/cam-nang-tattoo/kim-di-net-va-kim-to-cai-nao-dau-hon/",
+      "/cam-nang-tattoo/vi-sao-gia-xam-ngay-cang-re/",
+      "/tac-pham/hinh-xam-ran-cam-hung-viet-nam/",
+      "/faq/"
+    ],
+    "score": 60,
+    "issues": [
+      "Thiếu frontmatter: guide_topic, guide_audience, guide_problem, guide_solution, seo_cluster_id, seo_cluster, seo_intent, seo_target_keyword",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/cam-nang-tattoo/hinh-xam-tuong-niem-thu-cung-noi-len-dieu-gi.md",
+    "rel_url": "/cam-nang-tattoo/hinh-xam-tuong-niem-thu-cung-noi-len-dieu-gi/",
+    "abs_url": "https://lanpinktattoo.com/cam-nang-tattoo/hinh-xam-tuong-niem-thu-cung-noi-len-dieu-gi/",
+    "title": "Hình Xăm Tưởng Niệm Thú Cưng Có Ý Nghĩa Gì? Những Điều Cần Biết Trước Khi Xăm",
+    "slug": "hinh-xam-tuong-niem-thu-cung-noi-len-dieu-gi",
+    "description": "Tìm hiểu ý nghĩa của hình xăm tưởng niệm thú cưng, các thiết kế phổ biến, vị trí phù hợp và cách lưu giữ ký ức về người bạn đồng hành đặc biệt thông qua Pet Memorial Tattoo.",
+    "categories": [
+      "Cẩm nang Tattoo"
+    ],
+    "tags": [
+      "hình xăm tưởng niệm thú cưng",
+      "Pet Memorial Tattoo",
+      "Hình xăm theo yêu cầu",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM",
+      "Lan Pink Tattoo",
+      "Lan Pink Ink"
+    ],
+    "keywords": [
+      "Hình Xăm Tưởng Niệm Thú Cưng Có Ý Nghĩa Gì? Những Điều Cần Biết Trước Khi Xăm"
+    ],
+    "seo_cluster_id": "pet_memorial_tattoo",
+    "seo_cluster": "Hình xăm tưởng niệm thú cưng",
+    "seo_intent": "",
+    "seo_target_keyword": "hình xăm tưởng niệm thú cưng",
+    "word_count": 961,
+    "h1_count": 25,
+    "h2_count": 24,
+    "image_count": 0,
+    "internal_links": [
+      "/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/",
+      "/phong-cach-xam/phong-cach-hinh-xam-tuong-niem-thu-cung/",
+      "/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/",
+      "/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-tuong-niem-thu-cung/",
+      "/phong-cach-xam/phong-cach-hinh-xam-tuong-niem-thu-cung/",
+      "/tac-pham/",
+      "/faq/",
+      "/bang-gia/"
+    ],
+    "score": 64,
+    "issues": [
+      "Thiếu frontmatter: guide_topic, guide_audience, guide_problem, guide_solution, seo_intent",
+      "Title nên khoảng 35–75 ký tự",
+      "Thiếu shortcode {{< explore-more >}}"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/cam-nang-tattoo/xam-hinh-co-dau-khong.md",
+    "rel_url": "/cam-nang-tattoo/xam-hinh-co-dau-khong/",
+    "abs_url": "https://lanpinktattoo.com/cam-nang-tattoo/xam-hinh-co-dau-khong/",
+    "title": "Xăm hình có đau không? Vị trí nào đau ít cho người mới",
+    "slug": "xam-hinh-co-dau-khong",
+    "description": "Xăm hình có đau không? Tìm hiểu mức độ đau khi xăm, các vị trí đau ít, vị trí nhạy cảm hơn và kinh nghiệm giúp người mới đi xăm thoải mái hơn.",
+    "categories": [
+      "Cẩm nang Tattoo"
+    ],
+    "tags": [
+      "xăm hình có đau không",
+      "vị trí xăm đau ít",
+      "kinh nghiệm đi xăm",
+      "tattoo cho người mới"
+    ],
+    "keywords": [
+      "Xăm hình có đau không? Vị trí nào đau ít cho người mới"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 1111,
+    "h1_count": 12,
+    "h2_count": 11,
+    "image_count": 1,
+    "internal_links": [
+      "/phong-cach-xam/",
+      "/gallery/",
+      "/phong-cach-xam/",
+      "/phong-cach-xam/",
+      "/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/",
+      "/faq/",
+      "/bang-gia/",
+      "/gallery/",
+      "/bang-gia/",
+      "/gioi-thieu/",
+      "/contact/"
+    ],
+    "score": 60,
+    "issues": [
+      "Thiếu frontmatter: guide_topic, guide_audience, guide_problem, guide_solution, seo_cluster_id, seo_cluster, seo_intent, seo_target_keyword",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/cam-nang-tattoo/hinh-xam-thu-cung-noi-len-dieu-gi.md",
+    "rel_url": "/cam-nang-tattoo/hinh-xam-thu-cung-noi-len-dieu-gi/",
+    "abs_url": "https://lanpinktattoo.com/cam-nang-tattoo/hinh-xam-thu-cung-noi-len-dieu-gi/",
+    "title": "Hình Xăm Thú Cưng Có Ý Nghĩa Gì? Gợi Ý Thiết Kế Và Vị Trí Phù Hợp",
+    "slug": "hinh-xam-thu-cung-co-y-nghia-gi",
+    "description": "Tìm hiểu ý nghĩa hình xăm thú cưng, các phong cách phổ biến, vị trí phù hợp và những điều cần chuẩn bị trước khi thực hiện Pet Portrait Tattoo tại Lan Pink Tattoo TP.HCM.",
+    "categories": [
+      "Cẩm nang Tattoo"
+    ],
+    "tags": [
+      "hình xăm thú cưng",
+      "Pet Portrait Tattoo",
+      "Hình xăm theo yêu cầu",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM",
+      "Lan Pink Tattoo",
+      "Lan Pink Ink"
+    ],
+    "keywords": [
+      "Hình Xăm Thú Cưng Có Ý Nghĩa Gì? Gợi Ý Thiết Kế Và Vị Trí Phù Hợp"
+    ],
+    "seo_cluster_id": "pet_portrait_tattoo",
+    "seo_cluster": "Hình xăm thú cưng",
+    "seo_intent": "",
+    "seo_target_keyword": "hình xăm thú cưng",
+    "word_count": 1060,
+    "h1_count": 27,
+    "h2_count": 26,
+    "image_count": 0,
+    "internal_links": [
+      "/tac-pham/hinh-xam-chan-dung-meo-misa/",
+      "/phong-cach-xam/phong-cach-hinh-xam-thu-cung/",
+      "/phong-cach-xam/phong-cach-hinh-xam-thu-cung/",
+      "/tac-pham/hinh-xam-chan-dung-meo-misa/",
+      "/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-thu-cung/",
+      "/tac-pham/",
+      "/faq/",
+      "/bang-gia/"
+    ],
+    "score": 74,
+    "issues": [
+      "Thiếu frontmatter: guide_topic, guide_audience, guide_problem, guide_solution, seo_intent",
+      "Thiếu shortcode {{< explore-more >}}"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/cam-nang-tattoo/huong-dan-hinh-xam-tuong-niem-thu-cung.md",
+    "rel_url": "/cam-nang-tattoo/huong-dan-hinh-xam-tuong-niem-thu-cung/",
+    "abs_url": "https://lanpinktattoo.com/cam-nang-tattoo/huong-dan-hinh-xam-tuong-niem-thu-cung/",
+    "title": "Huong Dan Hinh Xam Tuong Niem Thu Cung",
+    "slug": "huong-dan-hinh-xam-tuong-niem-thu-cung",
+    "description": "",
+    "categories": [
+      "Cẩm nang Tattoo"
+    ],
+    "tags": [
+      "Lan Pink Tattoo",
+      "Lan Pink Ink",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM"
+    ],
+    "keywords": [
+      "Huong Dan Hinh Xam Tuong Niem Thu Cung"
+    ],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 0,
+    "h1_count": 0,
+    "h2_count": 0,
+    "image_count": 0,
+    "internal_links": [],
+    "score": 10,
+    "issues": [
+      "Thiếu frontmatter: description, guide_topic, guide_audience, guide_problem, guide_solution, seo_cluster_id, seo_cluster, seo_intent, seo_target_keyword",
+      "Description nên khoảng 120–180 ký tự",
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Nên có ít nhất 3 heading H2",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Internal link/backlink nội bộ còn ít",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/cam-nang-tattoo/kim-di-net-va-kim-to-cai-nao-dau-hon.md",
+    "rel_url": "/cam-nang-tattoo/kim-di-net-va-kim-to-cai-nao-dau-hon/",
+    "abs_url": "https://lanpinktattoo.com/cam-nang-tattoo/kim-di-net-va-kim-to-cai-nao-dau-hon/",
+    "title": "Kim đi nét và kim tô cái nào đau hơn? Trải nghiệm thực tế khi xăm hình",
+    "slug": "kim-di-net-va-kim-to-cai-nao-dau-hon",
+    "description": "Kim đi nét và kim tô cái nào đau hơn? Tìm hiểu sự khác biệt về cảm giác đau khi đi nét, tô bóng, xăm trên vùng da sát xương và vùng nhiều thịt.",
+    "categories": [
+      "Cẩm nang Tattoo"
+    ],
+    "tags": [
+      "kim đi nét",
+      "kim tô tattoo",
+      "xăm đau không",
+      "cảm giác khi xăm",
+      "tattoo cho người mới"
+    ],
+    "keywords": [
+      "Kim đi nét và kim tô cái nào đau hơn? Trải nghiệm thực tế khi xăm hình"
+    ],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 936,
+    "h1_count": 13,
+    "h2_count": 12,
+    "image_count": 0,
+    "internal_links": [
+      "/gallery/",
+      "/phong-cach-xam/",
+      "/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/",
+      "/cam-nang-tattoo/xam-hinh-co-dau-khong/",
+      "/gallery/",
+      "/bang-gia/",
+      "/gioi-thieu/",
+      "/contact/"
+    ],
+    "score": 60,
+    "issues": [
+      "Thiếu frontmatter: guide_topic, guide_audience, guide_problem, guide_solution, seo_cluster_id, seo_cluster, seo_intent, seo_target_keyword",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/cam-nang-tattoo/huong-dan-chon-hinh-xam-thu-cung.md",
+    "rel_url": "/cam-nang-tattoo/huong-dan-chon-hinh-xam-thu-cung/",
+    "abs_url": "https://lanpinktattoo.com/cam-nang-tattoo/huong-dan-chon-hinh-xam-thu-cung/",
+    "title": "Huong Dan Chon Hinh Xam Thu Cung",
+    "slug": "huong-dan-chon-hinh-xam-thu-cung",
+    "description": "",
+    "categories": [
+      "Cẩm nang Tattoo"
+    ],
+    "tags": [
+      "Lan Pink Tattoo",
+      "Lan Pink Ink",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM"
+    ],
+    "keywords": [
+      "Huong Dan Chon Hinh Xam Thu Cung"
+    ],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 0,
+    "h1_count": 0,
+    "h2_count": 0,
+    "image_count": 0,
+    "internal_links": [],
+    "score": 0,
+    "issues": [
+      "Thiếu frontmatter: description, guide_topic, guide_audience, guide_problem, guide_solution, seo_cluster_id, seo_cluster, seo_intent, seo_target_keyword",
+      "Title nên khoảng 35–75 ký tự",
+      "Description nên khoảng 120–180 ký tự",
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Nên có ít nhất 3 heading H2",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Internal link/backlink nội bộ còn ít",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi.md",
+    "rel_url": "/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/",
+    "abs_url": "https://lanpinktattoo.com/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/",
+    "title": "Xăm hình lần đầu cần chuẩn bị gì? Kinh nghiệm cho người mới",
+    "slug": "xam-hinh-lan-dau-can-chuan-bi-gi",
+    "description": "Lần đầu đi xăm cần chuẩn bị gì? Tìm hiểu kinh nghiệm trước khi xăm hình, cách chọn mẫu, ăn uống, nghỉ ngơi và chăm sóc để có trải nghiệm tốt nhất.",
+    "categories": [
+      "Cẩm nang Tattoo"
+    ],
+    "tags": [
+      "xăm hình lần đầu",
+      "kinh nghiệm xăm hình",
+      "chuẩn bị trước khi xăm",
+      "tattoo cho người mới"
+    ],
+    "keywords": [
+      "Xăm hình lần đầu cần chuẩn bị gì? Kinh nghiệm cho người mới"
+    ],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 674,
+    "h1_count": 10,
+    "h2_count": 9,
+    "image_count": 1,
+    "internal_links": [
+      "/phong-cach-xam/",
+      "/gallery/",
+      "/faq/",
+      "/bang-gia/",
+      "/gallery/",
+      "/gioi-thieu/",
+      "/contact/"
+    ],
+    "score": 60,
+    "issues": [
+      "Thiếu frontmatter: guide_topic, guide_audience, guide_problem, guide_solution, seo_cluster_id, seo_cluster, seo_intent, seo_target_keyword",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/cam-nang-tattoo/vi-sao-gia-xam-ngay-cang-re.md",
+    "rel_url": "/cam-nang-tattoo/vi-sao-gia-xam-ngay-cang-re/",
+    "abs_url": "https://lanpinktattoo.com/cam-nang-tattoo/vi-sao-gia-xam-ngay-cang-re/",
+    "title": "Vì Sao Giá Xăm Ngày Càng Rẻ? Cách Nhìn Đúng Trước Khi Chọn Studio",
+    "slug": "vi-sao-gia-xam-ngay-cang-re",
+    "description": "Vì sao giá xăm ngày càng rẻ và khách nên nhìn giá xăm như thế nào cho đúng? Cùng Lan Pink Tattoo phân tích chi phí thật phía sau một hình xăm đẹp, an toàn và bền màu.",
+    "categories": [
+      "Cẩm nang Tattoo"
+    ],
+    "tags": [
+      "Lan Pink Tattoo",
+      "Lan Pink Ink",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM"
+    ],
+    "keywords": [
+      "vì sao giá xăm ngày càng rẻ",
+      "giá xăm hình",
+      "giá xăm mini",
+      "bảng giá xăm hình",
+      "thợ xăm nữ quận 12",
+      "thợ xăm nữ hcm",
+      "lan pink tattoo",
+      "lan pink ink"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 1662,
+    "h1_count": 11,
+    "h2_count": 10,
+    "image_count": 0,
+    "internal_links": [
+      "/bang-gia/",
+      "/tac-pham/hinh-xam-ran-cam-hung-viet-nam/",
+      "/cam-nang-tattoo/kim-di-net-va-kim-to-cai-nao-dau-hon/",
+      "/bang-gia/",
+      "/bang-gia/"
+    ],
+    "score": 60,
+    "issues": [
+      "Thiếu frontmatter: guide_topic, guide_audience, guide_problem, guide_solution, seo_cluster_id, seo_cluster, seo_intent, seo_target_keyword",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/quy-tac-tich-diem/index.md",
+    "rel_url": "/quy-tac-tich-diem/",
+    "abs_url": "https://lanpinktattoo.com/quy-tac-tich-diem/",
+    "title": "Quy Tắc Tích Điểm Thành Viên Lan Pink Tattoo",
+    "slug": "quy-tac-tich-diem",
+    "description": "Quy tắc tích điểm, hạng thành viên trọn đời, voucher đổi điểm, voucher sinh nhật và chương trình giới thiệu bạn bè tại Lan Pink Tattoo.",
+    "categories": [
+      "Thành viên"
+    ],
+    "tags": [
+      "tích điểm thành viên",
+      "voucher tattoo",
+      "chương trình thành viên",
+      "Lan Pink Tattoo",
+      "Lan Pink Ink",
+      "tattoo quận 12",
+      "private tattoo studio"
+    ],
+    "keywords": [
+      "tích điểm Lan Pink Tattoo",
+      "quy tắc thành viên Lan Pink",
+      "voucher sinh nhật tattoo",
+      "chương trình khách hàng thân thiết tattoo"
+    ],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 1036,
+    "h1_count": 11,
+    "h2_count": 10,
+    "image_count": 0,
+    "internal_links": [
+      "/chuong-trinh-gioi-thieu-ban-be/",
+      "/lan-pink-member/",
+      "/lan-pink-member/",
+      "/bang-gia/",
+      "/contact/"
+    ],
+    "score": 86,
+    "issues": [
+      "Thiếu shortcode {{< explore-more >}}",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/phong-cach-xam/phong-cach-hinh-xam-tuong-niem-thu-cung.md",
+    "rel_url": "/phong-cach-xam/phong-cach-hinh-xam-tuong-niem-thu-cung/",
+    "abs_url": "https://lanpinktattoo.com/phong-cach-xam/phong-cach-hinh-xam-tuong-niem-thu-cung/",
+    "title": "Các Phong Cách Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa",
+    "slug": "phong-cach-hinh-xam-tuong-niem-thu-cung",
+    "description": "Khám phá các phong cách hình xăm tưởng niệm thú cưng phổ biến như Fine Line Tattoo, Black & Grey Tattoo, Mini Tattoo và Custom Pet Memorial Tattoo tại Lan Pink Tattoo TP.HCM.",
+    "categories": [
+      "Phong cách xăm"
+    ],
+    "tags": [
+      "hình xăm tưởng niệm thú cưng",
+      "Pet Memorial Tattoo",
+      "Fine Line Tattoo",
+      "Black & Grey Tattoo",
+      "Mini Tattoo",
+      "Custom Tattoo Design",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM",
+      "Lan Pink Tattoo",
+      "Lan Pink Ink"
+    ],
+    "keywords": [
+      "Các Phong Cách Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa"
+    ],
+    "seo_cluster_id": "pet_memorial_tattoo",
+    "seo_cluster": "Hình xăm tưởng niệm thú cưng",
+    "seo_intent": "",
+    "seo_target_keyword": "hình xăm tưởng niệm thú cưng",
+    "word_count": 872,
+    "h1_count": 23,
+    "h2_count": 22,
+    "image_count": 0,
+    "internal_links": [
+      "/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/",
+      "/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/",
+      "/cam-nang-tattoo/hinh-xam-tuong-niem-thu-cung-noi-len-dieu-gi/",
+      "/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-tuong-niem-thu-cung/",
+      "/tac-pham/",
+      "/faq/",
+      "/bang-gia/"
+    ],
+    "score": 78,
+    "issues": [
+      "Thiếu frontmatter: style_name, style_summary, best_for, seo_intent",
+      "Thiếu shortcode {{< explore-more >}}"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/phong-cach-xam/phong-cach-hinh-xam-ran.md",
+    "rel_url": "/phong-cach-xam/phong-cach-hinh-xam-ran/",
+    "abs_url": "https://lanpinktattoo.com/phong-cach-xam/phong-cach-hinh-xam-ran/",
+    "title": "Các Phong Cách Hình Xăm Rắn Đẹp Và Phù Hợp Với Từng Cá Tính",
+    "slug": "phong-cach-hinh-xam-ran",
+    "description": "Gợi ý các phong cách hình xăm rắn như Fine Line, Mini Tattoo, Blackwork và thiết kế theo yêu cầu tại Lan Pink Tattoo TP.HCM.",
+    "categories": [
+      "Phong cách xăm"
+    ],
+    "tags": [
+      "hình xăm rắn",
+      "Fine Line Tattoo",
+      "Blackwork Tattoo",
+      "Mini Tattoo",
+      "Hình xăm theo yêu cầu",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM",
+      "Lan Pink Tattoo",
+      "Lan Pink Ink"
+    ],
+    "keywords": [
+      "Các Phong Cách Hình Xăm Rắn Đẹp Và Phù Hợp Với Từng Cá Tính"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "",
+    "seo_target_keyword": "hình xăm rắn",
+    "word_count": 1686,
+    "h1_count": 26,
+    "h2_count": 25,
+    "image_count": 0,
+    "internal_links": [
+      "/y-tuong-xam/hinh-xam-ran/y-nghia-hinh-xam-ran/",
+      "/y-tuong-xam/hinh-xam-ran/faq-hinh-xam-ran/",
+      "/tac-pham/hinh-xam-ran-cam-hung-viet-nam/",
+      "/cam-nang-tattoo/huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri/",
+      "/y-tuong-xam/hinh-xam-ran/faq-hinh-xam-ran/",
+      "/y-tuong-xam/hinh-xam-ran/y-nghia-hinh-xam-ran/",
+      "/tac-pham/hinh-xam-ran-cam-hung-viet-nam/",
+      "/cam-nang-tattoo/huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri/",
+      "/bang-gia/",
+      "/tac-pham/"
+    ],
+    "score": 78,
+    "issues": [
+      "Thiếu frontmatter: style_name, style_summary, best_for, seo_intent",
+      "Thiếu shortcode {{< explore-more >}}"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/phong-cach-xam/phong-cach-hinh-xam-thu-cung.md",
+    "rel_url": "/phong-cach-xam/phong-cach-hinh-xam-thu-cung/",
+    "abs_url": "https://lanpinktattoo.com/phong-cach-xam/phong-cach-hinh-xam-thu-cung/",
+    "title": "Các Phong Cách Hình Xăm Thú Cưng Đẹp Và Phù Hợp Với Từng Cá Tính",
+    "slug": "phong-cach-hinh-xam-thu-cung",
+    "description": "Khám phá các phong cách hình xăm thú cưng phổ biến như Fine Line Tattoo, Mini Tattoo, Blackwork và Custom Tattoo Design. Gợi ý lựa chọn phù hợp tại Lan Pink Tattoo TP.HCM.",
+    "categories": [
+      "Phong cách xăm"
+    ],
+    "tags": [
+      "hình xăm thú cưng",
+      "Pet Portrait Tattoo",
+      "Fine Line Tattoo",
+      "Mini Tattoo",
+      "Blackwork Tattoo",
+      "Hình xăm theo yêu cầu",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM",
+      "Lan Pink Tattoo",
+      "Lan Pink Ink"
+    ],
+    "keywords": [
+      "Các Phong Cách Hình Xăm Thú Cưng Đẹp Và Phù Hợp Với Từng Cá Tính"
+    ],
+    "seo_cluster_id": "pet_portrait_tattoo",
+    "seo_cluster": "Hình xăm thú cưng",
+    "seo_intent": "",
+    "seo_target_keyword": "hình xăm thú cưng",
+    "word_count": 1038,
+    "h1_count": 27,
+    "h2_count": 26,
+    "image_count": 0,
+    "internal_links": [
+      "/tac-pham/hinh-xam-chan-dung-meo-misa/",
+      "/tac-pham/hinh-xam-chan-dung-meo-misa/",
+      "/tac-pham/",
+      "/cam-nang-tattoo/",
+      "/faq/",
+      "/bang-gia/"
+    ],
+    "score": 78,
+    "issues": [
+      "Thiếu frontmatter: style_name, style_summary, best_for, seo_intent",
+      "Thiếu shortcode {{< explore-more >}}"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/y-tuong-xam/hinh-xam-ran/faq-hinh-xam-ran.md",
+    "rel_url": "/y-tuong-xam/hinh-xam-ran/faq-hinh-xam-ran/",
+    "abs_url": "https://lanpinktattoo.com/y-tuong-xam/hinh-xam-ran/faq-hinh-xam-ran/",
+    "title": "FAQ Hình Xăm Rắn: Những Câu Hỏi Thường Gặp Trước Khi Xăm",
+    "slug": "faq-hinh-xam-ran",
+    "description": "Giải đáp những câu hỏi thường gặp về hình xăm rắn: ý nghĩa, vị trí xăm, mức độ đau, chi phí, kích thước và cách lựa chọn thiết kế phù hợp.",
+    "categories": [
+      "FAQ"
+    ],
+    "tags": [
+      "hình xăm rắn",
+      "Hình xăm theo yêu cầu",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM",
+      "Lan Pink Tattoo",
+      "Lan Pink Ink"
+    ],
+    "keywords": [
+      "FAQ Hình Xăm Rắn: Những Câu Hỏi Thường Gặp Trước Khi Xăm"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "FAQ",
+    "seo_target_keyword": "hình xăm rắn",
+    "word_count": 899,
+    "h1_count": 17,
+    "h2_count": 16,
+    "image_count": 0,
+    "internal_links": [
+      "/y-tuong-xam/hinh-xam-ran/y-nghia-hinh-xam-ran/",
+      "/y-tuong-xam/hinh-xam-ran/huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri/",
+      "/cam-nang-tattoo/xam-hinh-co-dau-khong/",
+      "/bang-gia/bang-gia/",
+      "/tac-pham/hinh-xam-ran-cam-hung-viet-nam/",
+      "/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/",
+      "/y-tuong-xam/hinh-xam-ran/",
+      "/y-tuong-xam/hinh-xam-ran/y-nghia-hinh-xam-ran/",
+      "/y-tuong-xam/hinh-xam-ran/huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri/",
+      "/tac-pham/hinh-xam-ran-cam-hung-viet-nam/"
+    ],
+    "score": 94,
+    "issues": [
+      "Thiếu shortcode {{< explore-more >}}"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-meo.md",
+    "rel_url": "/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-meo/",
+    "abs_url": "https://lanpinktattoo.com/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-meo/",
+    "title": "100+ Ý Tưởng Hình Xăm Mèo Đẹp Và Ý Nghĩa Cho Người Yêu Thú Cưng",
+    "slug": "y-tuong-hinh-xam-meo",
+    "description": "Khám phá hơn 100 ý tưởng hình xăm mèo đẹp, từ mèo mini, mèo thần tài, mèo đen, mèo hoạt hình đến hình xăm chân dung thú cưng. Gợi ý thiết kế phù hợp cho nam và nữ.",
+    "categories": [
+      "Ý Tưởng Xăm"
+    ],
+    "tags": [
+      "hình xăm mèo",
+      "ý tưởng hình xăm mèo",
+      "cat tattoo",
+      "hình xăm thú cưng",
+      "pet tattoo",
+      "pet portrait tattoo",
+      "hình xăm mèo mini",
+      "hình xăm mèo thần tài",
+      "hình xăm mèo đen",
+      "fine line tattoo",
+      "tattoo nữ",
+      "tattoo nam",
+      "nữ thợ xăm",
+      "tattoo artist tp hcm",
+      "lan pink tattoo",
+      "lan pink ink"
+    ],
+    "keywords": [
+      "100+ Ý Tưởng Hình Xăm Mèo Đẹp Và Ý Nghĩa Cho Người Yêu Thú Cưng"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 979,
+    "h1_count": 22,
+    "h2_count": 21,
+    "image_count": 0,
+    "internal_links": [
+      "/tac-pham/hinh-xam-chan-dung-meo-misa/",
+      "/cam-nang-tattoo/y-nghia-hinh-xam-meo/",
+      "/cam-nang-tattoo/pet-portrait-tattoo-la-gi/",
+      "/tac-pham/hinh-xam-chan-dung-meo-misa/",
+      "/y-tuong-xam/hinh-xam-cho/",
+      "/cam-nang-tattoo/cach-cham-soc-hinh-xam-moi/"
+    ],
+    "score": 86,
+    "issues": [
+      "Thiếu shortcode {{< explore-more >}}",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-vet.md",
+    "rel_url": "/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-vet/",
+    "abs_url": "https://lanpinktattoo.com/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-vet/",
+    "title": "100+ Ý Tưởng Hình Xăm Vẹt Đẹp Và Ý Nghĩa Cho Người Yêu Chim Cảnh",
+    "slug": "y-tuong-hinh-xam-vet",
+    "description": "Khám phá hơn 100 ý tưởng hình xăm vẹt đẹp, từ vẹt mini, vẹt màu sắc, vẹt Fine Line đến hình xăm tưởng niệm thú cưng. Gợi ý thiết kế phù hợp cho nam và nữ tại Lan Pink Tattoo.",
+    "categories": [
+      "Ý tưởng xăm"
+    ],
+    "tags": [
+      "hình xăm vẹt",
+      "Hình xăm tưởng niệm thú cưng",
+      "Hình xăm theo yêu cầu",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM",
+      "Lan Pink Tattoo",
+      "Lan Pink Ink"
+    ],
+    "keywords": [
+      "100+ Ý Tưởng Hình Xăm Vẹt Đẹp Và Ý Nghĩa Cho Người Yêu Chim Cảnh"
+    ],
+    "seo_cluster_id": "pet_memorial_tattoo",
+    "seo_cluster": "Hình xăm tưởng niệm thú cưng",
+    "seo_intent": "",
+    "seo_target_keyword": "ý tưởng hình xăm vẹt",
+    "word_count": 1107,
+    "h1_count": 23,
+    "h2_count": 22,
+    "image_count": 0,
+    "internal_links": [
+      "/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/",
+      "/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/",
+      "/tac-pham/",
+      "/cam-nang-tattoo/",
+      "/faq/",
+      "/bang-gia/"
+    ],
+    "score": 94,
+    "issues": [
+      "Thiếu shortcode {{< explore-more >}}"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-thu-cung.md",
+    "rel_url": "/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-thu-cung/",
+    "abs_url": "https://lanpinktattoo.com/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-thu-cung/",
+    "title": "100+ Ý Tưởng Hình Xăm Thú Cưng Đẹp Và Ý Nghĩa Cho Người Yêu Động Vật",
+    "slug": "y-tuong-hinh-xam-thu-cung",
+    "description": "Khám phá hơn 100 ý tưởng hình xăm thú cưng đẹp và ý nghĩa dành cho chó, mèo, vẹt và các người bạn đồng hành đặc biệt. Gợi ý thiết kế phù hợp cho nam và nữ tại Lan Pink Tattoo TP.HCM.",
+    "categories": [
+      "Ý tưởng xăm"
+    ],
+    "tags": [
+      "hình xăm thú cưng",
+      "Pet Portrait Tattoo",
+      "Hình xăm theo yêu cầu",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM",
+      "Lan Pink Tattoo",
+      "Lan Pink Ink"
+    ],
+    "keywords": [
+      "100+ Ý Tưởng Hình Xăm Thú Cưng Đẹp Và Ý Nghĩa Cho Người Yêu Động Vật"
+    ],
+    "seo_cluster_id": "pet_portrait_tattoo",
+    "seo_cluster": "Hình xăm thú cưng",
+    "seo_intent": "",
+    "seo_target_keyword": "ý tưởng hình xăm thú cưng",
+    "word_count": 957,
+    "h1_count": 23,
+    "h2_count": 22,
+    "image_count": 0,
+    "internal_links": [
+      "/tac-pham/hinh-xam-chan-dung-meo-misa/",
+      "/phong-cach-xam/phong-cach-hinh-xam-thu-cung/",
+      "/phong-cach-xam/phong-cach-hinh-xam-thu-cung/",
+      "/tac-pham/hinh-xam-chan-dung-meo-misa/",
+      "/tac-pham/",
+      "/cam-nang-tattoo/",
+      "/faq/",
+      "/bang-gia/"
+    ],
+    "score": 84,
+    "issues": [
+      "Description nên khoảng 120–180 ký tự",
+      "Thiếu shortcode {{< explore-more >}}"
+    ]
+  },
+  {
+    "lang": "vi",
+    "path": "/Users/MN/lanpinktattoo/content/vi/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-tuong-niem-thu-cung.md",
+    "rel_url": "/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-tuong-niem-thu-cung/",
+    "abs_url": "https://lanpinktattoo.com/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-tuong-niem-thu-cung/",
+    "title": "100+ Ý Tưởng Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa",
+    "slug": "y-tuong-hinh-xam-tuong-niem-thu-cung",
+    "description": "Khám phá hơn 100 ý tưởng hình xăm tưởng niệm thú cưng dành cho chó, mèo, chim và các người bạn đồng hành đặc biệt. Gợi ý thiết kế ý nghĩa, giàu cảm xúc tại Lan Pink Tattoo TP.HCM.",
+    "categories": [
+      "Ý tưởng xăm"
+    ],
+    "tags": [
+      "hình xăm tưởng niệm thú cưng",
+      "Pet Memorial Tattoo",
+      "Hình xăm theo yêu cầu",
+      "Thợ xăm nữ Quận 12",
+      "Tattoo Artist TP.HCM",
+      "Lan Pink Tattoo",
+      "Lan Pink Ink"
+    ],
+    "keywords": [
+      "100+ Ý Tưởng Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa"
+    ],
+    "seo_cluster_id": "pet_memorial_tattoo",
+    "seo_cluster": "Hình xăm tưởng niệm thú cưng",
+    "seo_intent": "",
+    "seo_target_keyword": "ý tưởng hình xăm tưởng niệm thú cưng",
+    "word_count": 1111,
+    "h1_count": 25,
+    "h2_count": 24,
+    "image_count": 0,
+    "internal_links": [
+      "/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/",
+      "/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/",
+      "/tac-pham/",
+      "/cam-nang-tattoo/",
+      "/faq/",
+      "/bang-gia/"
+    ],
+    "score": 94,
+    "issues": [
+      "Thiếu shortcode {{< explore-more >}}"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/contact.md",
+    "rel_url": "/contact/",
+    "abs_url": "https://lanpinktattoo.com/en/contact/",
+    "title": "Contact Lan Pink Ink",
+    "slug": "contact",
+    "description": "Book your tattoo appointment in District 12, HCMC. Free consultation via Instagram, Facebook or visit our studio.",
+    "categories": [],
+    "tags": [],
+    "keywords": [],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 174,
+    "h1_count": 3,
+    "h2_count": 3,
+    "image_count": 0,
+    "internal_links": [],
+    "score": 43,
+    "issues": [
+      "Title nên khoảng 35–75 ký tự",
+      "Description nên khoảng 120–180 ký tự",
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Internal link/backlink nội bộ còn ít",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/faq.md",
+    "rel_url": "/faq/",
+    "abs_url": "https://lanpinktattoo.com/en/faq/",
+    "title": "Tattoo FAQ | Frequently Asked Questions",
+    "slug": "faq",
+    "description": "Common tattoo questions answered by Lan Pink Tattoo in Ho Chi Minh City: pain level, pricing, aftercare, healing time, touch-ups, tattoo placement, and booking tips.",
+    "categories": [
+      "FAQ"
+    ],
+    "tags": [
+      "tattoo faq",
+      "tattoo aftercare",
+      "tattoo pain",
+      "tattoo pricing",
+      "tattoo guide"
+    ],
+    "keywords": [],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 1016,
+    "h1_count": 19,
+    "h2_count": 18,
+    "image_count": 0,
+    "internal_links": [
+      "/en/tattoo-guide/what-to-prepare-before-your-first-tattoo/",
+      "/en/tattoo-guide/does-getting-a-tattoo-hurt/",
+      "/en/tattoo-guide/lining-vs-shading-needles-which-hurts-more/",
+      "/en/pricing/",
+      "/en/contact/",
+      "/en/tattoo-guide/what-to-prepare-before-your-first-tattoo/",
+      "/en/tattoo-styles/",
+      "/en/portfolio/",
+      "/en/contact/",
+      "/en/pricing/",
+      "/en/portfolio/",
+      "/en/about/",
+      "/en/tattoo-guide/"
+    ],
+    "score": 86,
+    "issues": [
+      "Thiếu shortcode {{< explore-more >}}",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/friend-referral-program/index.md",
+    "rel_url": "/friend-referral-program/",
+    "abs_url": "https://lanpinktattoo.com/en/friend-referral-program/",
+    "title": "Friend Referral Rewards Program | Lan Pink Tattoo",
+    "slug": "friend-referral-program",
+    "description": "Refer your friends to Lan Pink Tattoo and earn member reward points. Members can earn points from new referrals and from returning visits made together with referred friends.",
+    "categories": [
+      "Membership"
+    ],
+    "tags": [
+      "friend referral",
+      "Lan Pink Member",
+      "member rewards",
+      "tattoo voucher",
+      "Lan Pink Tattoo"
+    ],
+    "keywords": [
+      "Lan Pink Tattoo referral program",
+      "tattoo referral rewards",
+      "Lan Pink Member rewards",
+      "earn points by referring friends"
+    ],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 875,
+    "h1_count": 11,
+    "h2_count": 10,
+    "image_count": 0,
+    "internal_links": [
+      "/lan-pink-member/",
+      "/quy-tac-tich-diem/",
+      "/pricing/",
+      "/contact/"
+    ],
+    "score": 86,
+    "issues": [
+      "Thiếu shortcode {{< explore-more >}}",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/member-admin/index.md",
+    "rel_url": "/member-admin/",
+    "abs_url": "https://lanpinktattoo.com/en/member-admin/",
+    "title": "Member Administration Area",
+    "slug": "member-admin",
+    "description": "",
+    "categories": [],
+    "tags": [],
+    "keywords": [],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 95,
+    "h1_count": 2,
+    "h2_count": 1,
+    "image_count": 0,
+    "internal_links": [
+      "/member/",
+      "/member-rules/",
+      "/pricing/"
+    ],
+    "score": 43,
+    "issues": [
+      "Title nên khoảng 35–75 ký tự",
+      "Description nên khoảng 120–180 ký tự",
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Nên có ít nhất 3 heading H2",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/member/index.md",
+    "rel_url": "/member/",
+    "abs_url": "https://lanpinktattoo.com/en/member/",
+    "title": "",
+    "slug": "index",
+    "description": "",
+    "categories": [],
+    "tags": [],
+    "keywords": [],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 286,
+    "h1_count": 2,
+    "h2_count": 1,
+    "image_count": 0,
+    "internal_links": [
+      "/en/member-rules/",
+      "/en/pricing/",
+      "/en/contact/",
+      "/en/friend-referral-program/",
+      "/en/member-rules/",
+      "/en/pricing/",
+      "/en/contact/"
+    ],
+    "score": 43,
+    "issues": [
+      "Title nên khoảng 35–75 ký tự",
+      "Description nên khoảng 120–180 ký tự",
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Nên có ít nhất 3 heading H2",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/lan-pink-tattoo-artist/index.md",
+    "rel_url": "/lan-pink-tattoo-artist/",
+    "abs_url": "https://lanpinktattoo.com/en/lan-pink-tattoo-artist/",
+    "title": "Who Is Lan Pink? The Tattoo Artist Behind Lan Pink Tattoo",
+    "slug": "lan-pink-tattoo-artist",
+    "description": "Lan Pink is the tattoo artist and founder of Lan Pink Tattoo (Lan Pink Ink), a private tattoo studio in District 12, Ho Chi Minh City. Learn the meaning behind the name Lan Pink Ink and the story behind the brand.",
+    "categories": [],
+    "tags": [
+      "who is lan pink",
+      "lan pink ink",
+      "lan pink tattoo",
+      "tattoo artist district 12",
+      "female tattoo artist",
+      "female tattoo artist ho chi minh city",
+      "fine line tattoo artist",
+      "tattoo artist ho chi minh city",
+      "private tattoo studio",
+      "lan pink"
+    ],
+    "keywords": [],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 690,
+    "h1_count": 10,
+    "h2_count": 9,
+    "image_count": 0,
+    "internal_links": [],
+    "score": 74,
+    "issues": [
+      "Description nên khoảng 120–180 ký tự",
+      "Internal link/backlink nội bộ còn ít",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/about-lan-pink-ink-studio/index.md",
+    "rel_url": "/about-lan-pink-ink-studio/",
+    "abs_url": "https://lanpinktattoo.com/en/about-lan-pink-ink-studio/",
+    "title": "About Lan Pink Tattoo Studio",
+    "slug": "about-lan-pink-ink-studio",
+    "description": "Lan Pink Tattoo, also known as Lan Pink Ink, is a private tattoo space in Ho Chi Minh City specializing in Fine Line Tattoo, Mini Tattoo, Blackwork, and custom tattoo designs.",
+    "categories": [],
+    "tags": [],
+    "keywords": [],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 565,
+    "h1_count": 14,
+    "h2_count": 13,
+    "image_count": 6,
+    "internal_links": [],
+    "score": 53,
+    "issues": [
+      "Title nên khoảng 35–75 ký tự",
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Internal link/backlink nội bộ còn ít",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/lan-pink-member/index.md",
+    "rel_url": "/lan-pink-member/",
+    "abs_url": "https://lanpinktattoo.com/en/lan-pink-member/",
+    "title": "Lan Pink Membership Program",
+    "slug": "lan-pink-member",
+    "description": "Check your membership tier, available points, and active vouchers at Lan Pink Tattoo.",
+    "categories": [],
+    "tags": [],
+    "keywords": [],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 280,
+    "h1_count": 2,
+    "h2_count": 1,
+    "image_count": 0,
+    "internal_links": [
+      "/en/member-points-rules/",
+      "/en/pricing/",
+      "/en/contact/",
+      "/en/referral-program/",
+      "/en/member-points-rules/",
+      "/en/pricing/",
+      "/en/contact/"
+    ],
+    "score": 43,
+    "issues": [
+      "Title nên khoảng 35–75 ký tự",
+      "Description nên khoảng 120–180 ký tự",
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Nên có ít nhất 3 heading H2",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/tattoo-guide/how-to-choose-the-right-snake-tattoo-for-your-body-placement.md",
+    "rel_url": "/tattoo-guide/how-to-choose-the-right-snake-tattoo-for-your-body-placement/",
+    "abs_url": "https://lanpinktattoo.com/en/tattoo-guide/how-to-choose-the-right-snake-tattoo-for-your-body-placement/",
+    "title": "How To Choose The Right Snake Tattoo For Your Body Placement",
+    "slug": "how-to-choose-the-right-snake-tattoo-for-your-body-placement",
+    "description": "A complete guide to choosing the right snake tattoo for different body placements, styles, sizes, and personal meanings.",
+    "categories": [
+      "Tattoo Guide"
+    ],
+    "tags": [
+      "snake tattoo",
+      "custom tattoo design",
+      "female tattoo artist",
+      "tattoo artist ho chi minh city",
+      "lan pink tattoo",
+      "lan pink ink"
+    ],
+    "keywords": [
+      "How To Choose The Right Snake Tattoo For Your Body Placement"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Snake Tattoo",
+    "seo_intent": "Guide",
+    "seo_target_keyword": "snake tattoo",
+    "word_count": 356,
+    "h1_count": 12,
+    "h2_count": 11,
+    "image_count": 0,
+    "internal_links": [
+      "/en/portfolio/vietnam-inspired-snake-tattoo-custom-design/",
+      "/en/tattoo-ideas/snake-tattoos/",
+      "/en/tattoo-ideas/snake-tattoos/snake-tattoo-meaning/",
+      "/en/portfolio/vietnam-inspired-snake-tattoo-custom-design/"
+    ],
+    "score": 79,
+    "issues": [
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Thiếu shortcode {{< explore-more >}}"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/tattoo-guide/lining-vs-shading-needles-which-hurts-more.md",
+    "rel_url": "/tattoo-guide/lining-vs-shading-needles-which-hurts-more/",
+    "abs_url": "https://lanpinktattoo.com/en/tattoo-guide/lining-vs-shading-needles-which-hurts-more/",
+    "title": "Lining Needles vs Shading Needles: Which One Hurts More?",
+    "slug": "lining-vs-shading-needles-which-hurts-more",
+    "description": "Do lining needles hurt more than shading needles? Learn the difference between lining and shading pain, how tattoo placement affects discomfort, and what first-time clients can expect.",
+    "categories": [
+      "Tattoo Guide"
+    ],
+    "tags": [
+      "lining needle",
+      "shading needle",
+      "tattoo pain",
+      "tattoo experience",
+      "beginner tattoo guide"
+    ],
+    "keywords": [
+      "Lining Needles vs Shading Needles: Which One Hurts More?"
+    ],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 843,
+    "h1_count": 13,
+    "h2_count": 12,
+    "image_count": 0,
+    "internal_links": [
+      "/en/portfolio/",
+      "/en/tattoo-styles/",
+      "/en/tattoo-guide/how-to-prepare-for-your-first-tattoo/",
+      "/en/tattoo-guide/does-getting-a-tattoo-hurt/",
+      "/en/portfolio/",
+      "/en/pricing/",
+      "/en/about/",
+      "/en/contact/"
+    ],
+    "score": 82,
+    "issues": [
+      "Description nên khoảng 120–180 ký tự",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/tattoo-guide/what-to-prepare-before-your-first-tattoo.md",
+    "rel_url": "/tattoo-guide/what-to-prepare-before-your-first-tattoo/",
+    "abs_url": "https://lanpinktattoo.com/en/tattoo-guide/what-to-prepare-before-your-first-tattoo/",
+    "title": "What Should You Prepare Before Getting Your First Tattoo?",
+    "slug": "what-to-prepare-before-your-first-tattoo",
+    "description": "Planning your first tattoo? Learn what to prepare before your appointment, how to choose a design, what to eat, and how to ensure a comfortable tattoo experience.",
+    "categories": [
+      "Tattoo Guide"
+    ],
+    "tags": [
+      "first tattoo",
+      "tattoo preparation",
+      "tattoo tips",
+      "beginner tattoo guide"
+    ],
+    "keywords": [
+      "What Should You Prepare Before Getting Your First Tattoo?"
+    ],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 558,
+    "h1_count": 10,
+    "h2_count": 9,
+    "image_count": 1,
+    "internal_links": [
+      "/en/tattoo-styles/",
+      "/en/gallery/",
+      "/en/faq/",
+      "/en/pricing/",
+      "/en/gallery/",
+      "/en/about/",
+      "/en/contact/"
+    ],
+    "score": 77,
+    "issues": [
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/tattoo-guide/does-getting-a-tattoo-hurt.md",
+    "rel_url": "/tattoo-guide/does-getting-a-tattoo-hurt/",
+    "abs_url": "https://lanpinktattoo.com/en/tattoo-guide/does-getting-a-tattoo-hurt/",
+    "title": "Does Getting a Tattoo Hurt? Best Tattoo Placements for Beginners",
+    "slug": "does-getting-a-tattoo-hurt",
+    "description": "Does getting a tattoo hurt? Learn about tattoo pain levels, beginner-friendly placements, sensitive areas, and practical tips to make your first tattoo experience more comfortable.",
+    "categories": [
+      "Tattoo Guide"
+    ],
+    "tags": [
+      "does getting a tattoo hurt",
+      "tattoo pain level",
+      "beginner tattoo guide",
+      "tattoo placement"
+    ],
+    "keywords": [
+      "Does Getting a Tattoo Hurt? Best Tattoo Placements for Beginners"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 859,
+    "h1_count": 12,
+    "h2_count": 11,
+    "image_count": 1,
+    "internal_links": [
+      "/en/tattoo-styles/",
+      "/en/portfolio/",
+      "/en/tattoo-styles/",
+      "/en/tattoo-styles/",
+      "/en/tattoo-guide/how-to-prepare-for-your-first-tattoo/",
+      "/en/faq/",
+      "/en/pricing/",
+      "/en/portfolio/",
+      "/en/pricing/",
+      "/en/about/",
+      "/en/contact/"
+    ],
+    "score": 92,
+    "issues": [
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/member-rules/index.md",
+    "rel_url": "/member-rules/",
+    "abs_url": "https://lanpinktattoo.com/en/member-rules/",
+    "title": "Lan Pink Tattoo Membership Points Rules",
+    "slug": "member-rules",
+    "description": "Membership point rules, lifetime tiers, point redemption vouchers, birthday vouchers, and friend referral rewards at Lan Pink Tattoo.",
+    "categories": [
+      "Membership"
+    ],
+    "tags": [
+      "membership points",
+      "tattoo voucher",
+      "membership program",
+      "Lan Pink Tattoo",
+      "Lan Pink Ink",
+      "tattoo district 12",
+      "private tattoo studio"
+    ],
+    "keywords": [
+      "Lan Pink Tattoo membership points",
+      "Lan Pink membership rules",
+      "tattoo birthday voucher",
+      "tattoo loyalty program"
+    ],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 817,
+    "h1_count": 11,
+    "h2_count": 10,
+    "image_count": 0,
+    "internal_links": [
+      "/friend-referral-program/",
+      "/member/",
+      "/member/",
+      "/pricing/",
+      "/contact/"
+    ],
+    "score": 86,
+    "issues": [
+      "Thiếu shortcode {{< explore-more >}}",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/portfolio/misa-cat-portrait-tattoo.md",
+    "rel_url": "/portfolio/misa-cat-portrait-tattoo/",
+    "abs_url": "https://lanpinktattoo.com/en/portfolio/misa-cat-portrait-tattoo/",
+    "title": "Misa Cat Portrait Tattoo – A Permanent Memory of a Special Companion",
+    "slug": "misa-cat-portrait-tattoo",
+    "description": "A custom cat portrait tattoo of Misa, created by Lan Pink Tattoo in Ho Chi Minh City. This personalized Pet Portrait Tattoo captures the details, expression, and memory of a beloved cat through Fine Line Tattoo and Black & Grey Tattoo techniques.",
+    "categories": [
+      "Portfolio"
+    ],
+    "tags": [
+      "pet portrait tattoo",
+      "cat portrait tattoo",
+      "pet memorial tattoo",
+      "fine line tattoo",
+      "black and grey tattoo",
+      "female tattoo artist",
+      "female tattoo artist ho chi minh city",
+      "tattoo artist ho chi minh city",
+      "tattoo studio district 12",
+      "lan pink tattoo",
+      "lan pink ink"
+    ],
+    "keywords": [
+      "cat portrait tattoo",
+      "pet portrait tattoo",
+      "pet memorial tattoo",
+      "custom tattoo ho chi minh city",
+      "female tattoo artist ho chi minh city",
+      "fine line tattoo ho chi minh city",
+      "tattoo studio district 12",
+      "lan pink tattoo",
+      "lan pink ink"
+    ],
+    "seo_cluster_id": "pet_portrait_tattoo",
+    "seo_cluster": "Pet Portrait Tattoo",
+    "seo_intent": "Portfolio",
+    "seo_target_keyword": "cat portrait tattoo",
+    "word_count": 692,
+    "h1_count": 6,
+    "h2_count": 5,
+    "image_count": 1,
+    "internal_links": [],
+    "score": 82,
+    "issues": [
+      "Description nên khoảng 120–180 ký tự",
+      "Internal link/backlink nội bộ còn ít"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/portfolio/vietnam-inspired-snake-tattoo-custom-design.md",
+    "rel_url": "/portfolio/vietnam-inspired-snake-tattoo-custom-design/",
+    "abs_url": "https://lanpinktattoo.com/en/portfolio/vietnam-inspired-snake-tattoo-custom-design/",
+    "title": "Vietnam-Inspired Snake Tattoo | Custom Tattoo Design at Lan Pink Ink",
+    "slug": "vietnam-inspired-snake-tattoo-custom-design",
+    "description": "A custom snake tattoo created for an international client who fell in love with Vietnam. Designed by Lan Pink Ink, a private tattoo studio and female tattoo artist in District 12, Ho Chi Minh City.",
+    "categories": [
+      "Portfolio"
+    ],
+    "tags": [
+      "Snake Tattoo",
+      "Custom Tattoo Design",
+      "Fine Line Tattoo",
+      "Blackwork Tattoo",
+      "Female Tattoo Artist District 12",
+      "Lan Pink Ink",
+      "Tattoo Artist Ho Chi Minh City"
+    ],
+    "keywords": [
+      "Vietnam-Inspired Snake Tattoo | Custom Tattoo Design at Lan Pink Ink"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Snake Tattoo",
+    "seo_intent": "Portfolio",
+    "seo_target_keyword": "Vietnam inspired snake tattoo",
+    "word_count": 469,
+    "h1_count": 5,
+    "h2_count": 4,
+    "image_count": 1,
+    "internal_links": [],
+    "score": 67,
+    "issues": [
+      "Description nên khoảng 120–180 ký tự",
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Internal link/backlink nội bộ còn ít"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/portfolio/memorial-parrot-tattoo-custom-design-lan-pink-ink.md",
+    "rel_url": "/portfolio/memorial-parrot-tattoo-custom-design-lan-pink-ink/",
+    "abs_url": "https://lanpinktattoo.com/en/portfolio/memorial-parrot-tattoo-custom-design-lan-pink-ink/",
+    "title": "Gonzo Memorial Parrot Tattoo – Custom Tattoo Design at Lan Pink Ink",
+    "slug": "gonzo-memorial-parrot-tattoo-custom-design",
+    "description": "The story of Gonzo, a memorial parrot tattoo custom designed at Lan Pink Ink, a private tattoo studio and female tattoo artist in District 12, Ho Chi Minh City.",
+    "categories": [
+      "Portfolio"
+    ],
+    "tags": [
+      "Custom Tattoo Design",
+      "Personalized Tattoo",
+      "Female Tattoo Artist District 12",
+      "Pet Memorial Tattoo",
+      "Lan Pink Ink",
+      "Tattoo Artist Ho Chi Minh City"
+    ],
+    "keywords": [
+      "Gonzo Memorial Parrot Tattoo – Custom Tattoo Design at Lan Pink Ink"
+    ],
+    "seo_cluster_id": "pet_memorial_tattoo",
+    "seo_cluster": "Pet Memorial Tattoo",
+    "seo_intent": "Portfolio",
+    "seo_target_keyword": "parrot memorial tattoo",
+    "word_count": 507,
+    "h1_count": 2,
+    "h2_count": 2,
+    "image_count": 1,
+    "internal_links": [],
+    "score": 69,
+    "issues": [
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Nên có ít nhất 3 heading H2",
+      "Internal link/backlink nội bộ còn ít"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/portfolio/custom-phoenix-tattoo-upper-arm.md",
+    "rel_url": "/portfolio/custom-phoenix-tattoo-upper-arm/",
+    "abs_url": "https://lanpinktattoo.com/en/portfolio/custom-phoenix-tattoo-upper-arm/",
+    "title": "Custom Phoenix Tattoo on the Upper Arm | Lan Pink Tattoo Portfolio",
+    "slug": "custom-phoenix-tattoo-upper-arm",
+    "description": "Explore a custom phoenix tattoo on the upper arm designed and tattooed by Lan Pink Tattoo in Ho Chi Minh City, featuring a personalized composition inspired by rebirth and resilience.",
+    "categories": [
+      "Portfolio"
+    ],
+    "tags": [
+      "Lan Pink Tattoo",
+      "Lan Pink Ink",
+      "Female Tattoo Artist",
+      "Tattoo Artist Ho Chi Minh City"
+    ],
+    "keywords": [
+      "custom phoenix tattoo",
+      "phoenix tattoo on upper arm",
+      "phoenix tattoo vietnam",
+      "lan pink tattoo",
+      "tattoo artist ho chi minh city",
+      "custom phoenix tattoo"
+    ],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 825,
+    "h1_count": 7,
+    "h2_count": 6,
+    "image_count": 1,
+    "internal_links": [
+      "/en/tattoo-guide/what-to-prepare-before-your-first-tattoo/",
+      "/en/tattoo-guide/does-getting-a-tattoo-hurt/",
+      "/en/contact/"
+    ],
+    "score": 82,
+    "issues": [
+      "Description nên khoảng 120–180 ký tự",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/service-policy/index.md",
+    "rel_url": "/service-policy/",
+    "abs_url": "https://lanpinktattoo.com/en/service-policy/",
+    "title": "Service Policy | Lan Pink Tattoo",
+    "slug": "service-policy",
+    "description": "Booking policy, tattoo touch-up policy, aftercare instructions and service terms at Lan Pink Tattoo - Private Tattoo Studio in Ho Chi Minh City.",
+    "categories": [],
+    "tags": [],
+    "keywords": [],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 565,
+    "h1_count": 14,
+    "h2_count": 13,
+    "image_count": 0,
+    "internal_links": [],
+    "score": 53,
+    "issues": [
+      "Title nên khoảng 35–75 ký tự",
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Internal link/backlink nội bộ còn ít",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/pricing/index.md",
+    "rel_url": "/pricing/",
+    "abs_url": "https://lanpinktattoo.com/en/pricing/",
+    "title": "Tattoo Price List in Ho Chi Minh City 2026",
+    "slug": "tattoo-price-list-ho-chi-minh-city",
+    "description": "Updated tattoo price list at Lan Pink Tattoo Studio. Mini Tattoo, Fine Line Tattoo, Japanese Tattoo, Blackwork, cosmetic tattoo and custom tattoo pricing in Ho Chi Minh City.",
+    "categories": [
+      "Pricing"
+    ],
+    "tags": [
+      "tattoo price ho chi minh city",
+      "tattoo price list",
+      "mini tattoo",
+      "fine line tattoo",
+      "blackwork tattoo",
+      "japanese tattoo",
+      "cosmetic tattoo",
+      "female tattoo artist",
+      "tattoo studio hcmc",
+      "tattoo district 12",
+      "lan pink tattoo",
+      "lan pink ink"
+    ],
+    "keywords": [
+      "tattoo price ho chi minh city",
+      "tattoo price list vietnam",
+      "mini tattoo price",
+      "fine line tattoo price",
+      "japanese tattoo price",
+      "cosmetic tattoo price",
+      "female tattoo artist ho chi minh city",
+      "tattoo studio district 12",
+      "lan pink tattoo",
+      "lan pink ink"
+    ],
+    "seo_cluster_id": "",
+    "seo_cluster": "",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 591,
+    "h1_count": 9,
+    "h2_count": 8,
+    "image_count": 1,
+    "internal_links": [],
+    "score": 63,
+    "issues": [
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Internal link/backlink nội bộ còn ít",
+      "Thiếu seo_cluster_id"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/tattoo-ideas/snake-tattoos/faq-snake-tattoo.md",
+    "rel_url": "/tattoo-ideas/snake-tattoos/faq-snake-tattoo/",
+    "abs_url": "https://lanpinktattoo.com/en/tattoo-ideas/snake-tattoos/faq-snake-tattoo/",
+    "title": "Snake Tattoo FAQ: Common Questions Before Getting Tattooed",
+    "slug": "faq-snake-tattoo",
+    "description": "Answers to the most common questions about snake tattoos, including meaning, placement, pain level, pricing, and design ideas.",
+    "categories": [
+      "FAQ"
+    ],
+    "tags": [
+      "snake tattoo",
+      "custom tattoo design",
+      "female tattoo artist",
+      "tattoo artist ho chi minh city",
+      "lan pink tattoo",
+      "lan pink ink"
+    ],
+    "keywords": [
+      "Snake Tattoo FAQ: Common Questions Before Getting Tattooed"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Snake Tattoo",
+    "seo_intent": "FAQ",
+    "seo_target_keyword": "snake tattoo",
+    "word_count": 356,
+    "h1_count": 11,
+    "h2_count": 10,
+    "image_count": 0,
+    "internal_links": [
+      "/en/tattoo-ideas/snake-tattoos/snake-tattoo-meaning/",
+      "/en/portfolio/vietnam-inspired-snake-tattoo-custom-design/",
+      "/en/pricing/tattoo-price-list-ho-chi-minh-city/",
+      "/en/tattoo-ideas/snake-tattoos/",
+      "/en/tattoo-ideas/snake-tattoos/snake-tattoo-meaning/",
+      "/en/portfolio/vietnam-inspired-snake-tattoo-custom-design/",
+      "/en/tattoo-guide/how-to-choose-the-right-snake-tattoo-for-your-body-placement/"
+    ],
+    "score": 79,
+    "issues": [
+      "Nội dung hơi mỏng, nên trên 600 từ",
+      "Thiếu shortcode {{< explore-more >}}"
+    ]
+  },
+  {
+    "lang": "en",
+    "path": "/Users/MN/lanpinktattoo/content/en/tattoo-ideas/snake-tattoos/snake-tattoo-meaning.md",
+    "rel_url": "/tattoo-ideas/snake-tattoos/snake-tattoo-meaning/",
+    "abs_url": "https://lanpinktattoo.com/en/tattoo-ideas/snake-tattoos/snake-tattoo-meaning/",
+    "title": "Snake Tattoo Meaning And Beautiful Design Ideas",
+    "slug": "snake-tattoo-meaning",
+    "description": "Discover the meaning behind snake tattoos and explore popular snake tattoo ideas in Fine Line, Blackwork, mini tattoo, and custom tattoo design styles at Lan Pink Tattoo in Ho Chi Minh City.",
+    "categories": [
+      "Tattoo Ideas"
+    ],
+    "tags": [
+      "snake tattoo meaning",
+      "snake tattoo",
+      "snake tattoo ideas",
+      "mini snake tattoo",
+      "snake tattoo for women",
+      "snake tattoo for men",
+      "fine line tattoo",
+      "blackwork tattoo",
+      "custom tattoo design",
+      "female tattoo artist",
+      "tattoo artist ho chi minh city",
+      "tattoo studio district 12",
+      "lan pink tattoo",
+      "lan pink ink"
+    ],
+    "keywords": [
+      "Snake Tattoo Meaning And Beautiful Design Ideas"
+    ],
+    "seo_cluster_id": "snake_tattoo",
+    "seo_cluster": "Hình xăm rắn",
+    "seo_intent": "",
+    "seo_target_keyword": "",
+    "word_count": 1124,
+    "h1_count": 20,
+    "h2_count": 19,
+    "image_count": 0,
+    "internal_links": [
+      "/en/portfolio/vietnam-inspired-snake-tattoo-custom-design/",
+      "/en/tattoo-ideas/snake-tattoos/",
+      "/en/tattoo-ideas/mini-tattoos/",
+      "/en/tattoo-ideas/fine-line-tattoos/",
+      "/en/tattoo-ideas/blackwork-tattoos/",
+      "/en/tattoo-ideas/tattoos-for-women/",
+      "/en/portfolio/"
+    ],
+    "score": 76,
+    "issues": [
+      "Description nên khoảng 120–180 ký tự",
+      "Thiếu shortcode {{< explore-more >}}",
+      "Thiếu seo_cluster_id"
+    ]
+  }
+]
