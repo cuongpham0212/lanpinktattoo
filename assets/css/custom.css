@@ -218,3 +218,87 @@ html[data-theme="dark"] .lp-content div[style*="background-color"] a {
     line-height: 1.15 !important;
   }
 }
+
+/* =====================================
+   ARTICLE INTERNAL LINKS - THEME AWARE
+   Giúp backlink nổi bật hơn ở light/dark mode
+===================================== */
+
+.lp-content a,
+.prose a {
+  color: var(--primary-strong) !important;
+  font-weight: 750;
+  text-decoration: none !important;
+  border-bottom: 1.5px solid color-mix(in srgb, var(--primary-strong) 38%, transparent);
+  background:
+    linear-gradient(
+      to top,
+      color-mix(in srgb, var(--primary-soft) 72%, transparent) 0%,
+      color-mix(in srgb, var(--primary-soft) 72%, transparent) 42%,
+      transparent 42%
+    );
+  border-radius: 5px;
+  padding: 0 .08em;
+  transition:
+    color .22s ease,
+    border-color .22s ease,
+    background .22s ease,
+    box-shadow .22s ease;
+}
+
+.lp-content a:hover,
+.prose a:hover {
+  color: var(--primary-hover) !important;
+  border-bottom-color: currentColor;
+  background:
+    linear-gradient(
+      to top,
+      color-mix(in srgb, var(--primary-soft) 100%, transparent) 0%,
+      color-mix(in srgb, var(--primary-soft) 100%, transparent) 62%,
+      transparent 62%
+    );
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--primary-strong) 14%, transparent);
+}
+
+/* Không áp dụng style backlink cho ảnh, button, card, footer, header, toc */
+.lp-content a:has(img),
+.prose a:has(img),
+.lp-content .lp-btn-primary,
+.lp-content .lp-btn-secondary,
+.lp-content .btn,
+.prose .lp-btn-primary,
+.prose .lp-btn-secondary,
+.prose .btn,
+.lp-article-cta a,
+.lp-toc-content a,
+.lp-footer a {
+  background: unset !important;
+  border-bottom: 0 !important;
+  padding: unset !important;
+}
+
+/* Dark mode tinh chỉnh nhẹ cho mềm mắt */
+html[data-theme="dark"] .lp-content a,
+html[data-theme="dark"] .prose a {
+  color: #f9a8d4 !important;
+  border-bottom-color: rgba(249,168,212,.42);
+  background:
+    linear-gradient(
+      to top,
+      rgba(236,72,153,.16) 0%,
+      rgba(236,72,153,.16) 44%,
+      transparent 44%
+    );
+}
+
+html[data-theme="dark"] .lp-content a:hover,
+html[data-theme="dark"] .prose a:hover {
+  color: #fbcfe8 !important;
+  background:
+    linear-gradient(
+      to top,
+      rgba(236,72,153,.24) 0%,
+      rgba(236,72,153,.24) 62%,
+      transparent 62%
+    );
+}

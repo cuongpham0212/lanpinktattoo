@@ -34,27 +34,27 @@ enableRobotsTXT = true
       weight = 3
 
     [[languages.vi.menu.main]]
-      name = "Hình xăm mini"
+      name = "Hinh Xam Bap Tay"
       parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-mini"
+      pageRef = "/y-tuong-xam/hinh-xam-bap-tay"
       weight = 1
 
     [[languages.vi.menu.main]]
-      name = "Fine Line"
+      name = "Hinh Xam Blackwork"
       parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-fine-line"
+      pageRef = "/y-tuong-xam/hinh-xam-blackwork"
       weight = 2
 
     [[languages.vi.menu.main]]
-      name = "Hình xăm rắn"
+      name = "Hinh Xam Cho"
       parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-ran"
+      pageRef = "/y-tuong-xam/hinh-xam-cho"
       weight = 3
 
     [[languages.vi.menu.main]]
-      name = "Thú cưng"
+      name = "Cho nam"
       parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-thu-cung"
+      pageRef = "/y-tuong-xam/hinh-xam-cho-nam"
       weight = 4
 
     [[languages.vi.menu.main]]
@@ -64,10 +64,54 @@ enableRobotsTXT = true
       weight = 5
 
     [[languages.vi.menu.main]]
-      name = "Cho nam"
+      name = "Fine Line"
       parent = "chu-de-hinh-xam"
-      pageRef = "/y-tuong-xam/hinh-xam-cho-nam"
+      pageRef = "/y-tuong-xam/hinh-xam-fine-line"
       weight = 6
+
+    [[languages.vi.menu.main]]
+      name = "Hinh Xam Mandala"
+      parent = "chu-de-hinh-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-mandala"
+      weight = 7
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm mini"
+      parent = "chu-de-hinh-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-mini"
+      weight = 8
+
+    [[languages.vi.menu.main]]
+      name = "Phượng hoàng"
+      parent = "chu-de-hinh-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-phuong-hoang"
+      weight = 9
+
+    [[languages.vi.menu.main]]
+      name = "Hình xăm rắn"
+      parent = "chu-de-hinh-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-ran"
+      weight = 10
+
+    [[languages.vi.menu.main]]
+      name = "Thú cưng"
+      parent = "chu-de-hinh-xam"
+      pageRef = "/y-tuong-xam/hinh-xam-thu-cung"
+      weight = 11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     [[languages.vi.menu.main]]
       name = "Cẩm nang"
