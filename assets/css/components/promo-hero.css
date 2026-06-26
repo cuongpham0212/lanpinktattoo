@@ -75,3 +75,303 @@
   .lanpink-promo-hero__inner { grid-template-columns: 1fr; }
   .lanpink-promo-hero__sale { width: 120px; height: 120px; font-size: 28px; }
 }
+
+/* Mobile fix: promo hero gọn, không dồn cục */
+@media (max-width: 767px) {
+  .lanpink-promo-hero {
+    padding: 1rem .75rem !important;
+  }
+
+  .lanpink-promo-hero__inner {
+    display: block !important;
+    min-height: auto !important;
+    padding: 1.35rem 1.15rem !important;
+    border-radius: 1.35rem !important;
+  }
+
+  .lanpink-promo-hero__badge {
+    width: fit-content;
+    margin-bottom: .85rem !important;
+    padding: .45rem .75rem !important;
+    font-size: .82rem !important;
+  }
+
+  .lanpink-promo-hero h2,
+  .lanpink-promo-hero__title {
+    max-width: 100% !important;
+    margin: 0 !important;
+    font-size: 1.45rem !important;
+    line-height: 1.12 !important;
+    letter-spacing: -.03em !important;
+  }
+
+  .lanpink-promo-hero p,
+  .lanpink-promo-hero__summary {
+    max-width: 100% !important;
+    margin-top: .8rem !important;
+    font-size: .95rem !important;
+    line-height: 1.55 !important;
+  }
+
+  .lanpink-promo-hero__meta {
+    display: inline-flex !important;
+    width: auto !important;
+    margin-top: 1rem !important;
+    padding: .55rem .8rem !important;
+    font-size: .82rem !important;
+  }
+
+  .lanpink-promo-hero__btn {
+    display: inline-flex !important;
+    width: auto !important;
+    max-width: 100% !important;
+    margin-top: .9rem !important;
+    padding: .7rem 1rem !important;
+    font-size: .86rem !important;
+  }
+
+  .lanpink-promo-hero__sale {
+    display: none !important;
+  }
+}
+
+/* Mobile refine: giữ vòng SALE động, cân bố cục */
+@media (max-width: 767px) {
+  .lanpink-promo-hero {
+    padding: 1.15rem .75rem 1.35rem !important;
+  }
+
+  .lanpink-promo-hero__inner {
+    position: relative !important;
+    overflow: hidden !important;
+    min-height: 390px !important;
+    padding: 1.35rem 1.15rem 1.45rem !important;
+    border-radius: 1.45rem !important;
+  }
+
+  .lanpink-promo-hero__content {
+    position: relative !important;
+    z-index: 2 !important;
+    max-width: 100% !important;
+  }
+
+  .lanpink-promo-hero__badge {
+    margin-bottom: 1rem !important;
+    padding: .48rem .78rem !important;
+    font-size: .82rem !important;
+  }
+
+  .lanpink-promo-hero h2,
+  .lanpink-promo-hero__title {
+    max-width: 92% !important;
+    font-size: 1.48rem !important;
+    line-height: 1.12 !important;
+  }
+
+  .lanpink-promo-hero p,
+  .lanpink-promo-hero__summary {
+    max-width: 92% !important;
+    margin-top: .9rem !important;
+    font-size: .94rem !important;
+    line-height: 1.55 !important;
+  }
+
+  .lanpink-promo-hero__meta {
+    margin-top: 1.2rem !important;
+    padding: .55rem .82rem !important;
+    font-size: .82rem !important;
+  }
+
+  .lanpink-promo-hero__btn {
+    margin-top: .95rem !important;
+    padding: .72rem 1.05rem !important;
+    font-size: .86rem !important;
+  }
+
+  .lanpink-promo-hero__sale {
+    display: flex !important;
+    position: absolute !important;
+    right: 1rem !important;
+    bottom: 1rem !important;
+    z-index: 1 !important;
+    width: 86px !important;
+    height: 86px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 1.25rem !important;
+    opacity: .82 !important;
+    pointer-events: none !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .lanpink-promo-hero__inner {
+    min-height: 410px !important;
+  }
+
+  .lanpink-promo-hero__sale {
+    width: 76px !important;
+    height: 76px !important;
+    font-size: 1.08rem !important;
+  }
+}
+
+/* Mobile SALE motion */
+@keyframes lanpinkPromoSaleFloatMobile {
+  0%, 100% {
+    transform: translateY(0) rotate(-10deg) scale(1);
+  }
+  50% {
+    transform: translateY(-7px) rotate(-5deg) scale(1.04);
+  }
+}
+
+@media (max-width: 767px) {
+  .lanpink-promo-hero__sale {
+    animation: lanpinkPromoSaleFloatMobile 3.2s ease-in-out infinite !important;
+    transform-origin: center !important;
+  }
+}
+
+/* Mobile SALE motion */
+@keyframes lanpinkPromoSaleFloatMobile {
+  0%, 100% {
+    transform: translateY(0) rotate(-10deg) scale(1);
+  }
+  50% {
+    transform: translateY(-7px) rotate(-5deg) scale(1.04);
+  }
+}
+
+@media (max-width: 767px) {
+  .lanpink-promo-hero__sale {
+    animation: lanpinkPromoSaleFloatMobile 3.2s ease-in-out infinite !important;
+    transform-origin: center !important;
+  }
+}
+
+/* Fix SALE mobile animation: không dùng transform !important tĩnh */
+@keyframes lanpinkPromoSaleFloatMobileFinal {
+  0%, 100% {
+    transform: translateY(0) rotate(-10deg) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) rotate(-4deg) scale(1.05);
+  }
+}
+
+@media (max-width: 767px) {
+  .lanpink-promo-hero__sale {
+    animation-name: lanpinkPromoSaleFloatMobileFinal !important;
+    animation-duration: 3s !important;
+    animation-timing-function: ease-in-out !important;
+    animation-iteration-count: infinite !important;
+    transform-origin: center center !important;
+    will-change: transform !important;
+  }
+}
+
+/* Mobile compact final: hero ngắn hơn, bố cục chặt hơn */
+@media (max-width: 767px) {
+  .lanpink-promo-hero {
+    padding: .75rem .75rem .9rem !important;
+  }
+
+  .lanpink-promo-hero__inner {
+    min-height: 250px !important;
+    padding: 1rem 1rem 1.05rem !important;
+    border-radius: 1.25rem !important;
+  }
+
+  .lanpink-promo-hero__badge {
+    margin-bottom: .65rem !important;
+    padding: .38rem .65rem !important;
+    font-size: .76rem !important;
+    line-height: 1 !important;
+  }
+
+  .lanpink-promo-hero h2,
+  .lanpink-promo-hero__title {
+    max-width: 88% !important;
+    font-size: 1.25rem !important;
+    line-height: 1.08 !important;
+    letter-spacing: -.035em !important;
+  }
+
+  .lanpink-promo-hero p,
+  .lanpink-promo-hero__summary {
+    max-width: 82% !important;
+    margin-top: .55rem !important;
+    font-size: .82rem !important;
+    line-height: 1.38 !important;
+  }
+
+  .lanpink-promo-hero__meta {
+    margin-top: .8rem !important;
+    padding: .42rem .68rem !important;
+    font-size: .74rem !important;
+    line-height: 1 !important;
+  }
+
+  .lanpink-promo-hero__btn {
+    margin-top: .68rem !important;
+    padding: .56rem .82rem !important;
+    font-size: .76rem !important;
+    line-height: 1 !important;
+  }
+
+  .lanpink-promo-hero__sale {
+    right: .85rem !important;
+    bottom: .85rem !important;
+    width: 64px !important;
+    height: 64px !important;
+    font-size: .92rem !important;
+    opacity: .78 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .lanpink-promo-hero__inner {
+    min-height: 265px !important;
+  }
+
+  .lanpink-promo-hero h2,
+  .lanpink-promo-hero__title {
+    font-size: 1.16rem !important;
+  }
+
+  .lanpink-promo-hero p,
+  .lanpink-promo-hero__summary {
+    font-size: .78rem !important;
+  }
+
+  .lanpink-promo-hero__sale {
+    width: 58px !important;
+    height: 58px !important;
+    font-size: .84rem !important;
+  }
+}
+
+/* Mobile: nâng SALE lên cao hơn để không đè CTA */
+@media (max-width: 767px) {
+
+  .lanpink-promo-hero__sale {
+    right: .9rem !important;
+    bottom: 2.6rem !important;   /* trước là ~0.85rem */
+    width: 64px !important;
+    height: 64px !important;
+    z-index: 1 !important;
+    opacity: .78 !important;
+  }
+
+  /* đảm bảo nút CTA luôn nổi phía trên */
+  .lanpink-promo-hero__btn {
+    position: relative !important;
+    z-index: 3 !important;
+  }
+
+  .lanpink-promo-hero__meta {
+    position: relative !important;
+    z-index: 3 !important;
+  }
+}
