@@ -179,3 +179,68 @@ other = "Already a Member?"
 
 [member_widget_not_member]
 other = "Not a Member Yet?"
+[home_hero_badge]
+other = "Female tattoo artist · Private studio in District 12"
+
+[home_hero_title]
+other = "Lan Pink Tattoo"
+
+[home_hero_lead]
+other = "A female tattoo artist near Tan Thoi Hiep overpass, District 12, Ho Chi Minh City."
+
+[home_hero_text]
+other = "Lan Pink offers thoughtful tattoo consultation, personal custom designs and a comfortable private studio experience for clients who want a beautiful and meaningful tattoo."
+
+[home_cta_primary]
+other = "Book a consultation"
+
+[home_cta_portfolio]
+other = "View real work"
+
+[home_stat_artist]
+other = "Female artist"
+
+[home_stat_artist_desc]
+other = "Gentle consultation"
+
+[home_stat_location]
+other = "District 12"
+
+[home_stat_location_desc]
+other = "Near Tan Thoi Hiep overpass"
+
+[home_stat_custom]
+other = "Custom design"
+
+[home_stat_custom_desc]
+other = "Based on your idea"
+
+[home_real_badge]
+other = "Studio work"
+
+[home_real_title]
+other = "Completed tattoos"
+
+[home_real_desc]
+other = "A few real tattoos completed at Lan Pink, so you can see the linework, composition and actual studio style."
+
+[home_real_more]
+other = "View more work"
+
+[home_real_card]
+other = "Real tattoo"
+
+[home_gallery_badge]
+other = "Tattoo design library"
+
+[home_gallery_title]
+other = "Tattoo designs by category"
+
+[home_gallery_desc]
+other = "Browse tattoo design groups quickly and choose a style before booking your consultation."
+
+[home_gallery_more]
+other = "View full library"
+
+[home_gallery_card]
+other = "Tattoo design"

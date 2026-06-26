@@ -1,0 +1,195 @@
+{{ define "main" }}
+
+<main class="lp-home">
+
+  <section class="lp-mobile-hero-bar" aria-label="Lan Pink Tattoo mobile booking bar">
+    <a class="lp-mobile-hero-brand" href="{{ relLangURL "" }}">
+      Lan Pink Tattoo
+    </a>
+    <a class="lp-mobile-hero-cta" href="{{ relLangURL "contact/" }}">
+      {{ i18n "home_cta_primary" }}
+    </a>
+  </section>
+
+  <section class="lp-home-hero">
+    <div class="lp-home-container">
+      <div class="lp-hero-compact">
+        <div class="lp-hero-main">
+          <p class="lp-eyebrow">{{ i18n "home_hero_badge" }}</p>
+
+          <h1>{{ i18n "home_hero_title" }}</h1>
+
+          <p class="lp-hero-lead">
+            {{ i18n "home_hero_lead" }}
+          </p>
+
+          <p class="lp-hero-text">
+            {{ i18n "home_hero_text" }}
+          </p>
+
+          <div class="lp-hero-actions">
+            <a class="lp-btn lp-btn-primary" href="{{ relLangURL "contact/" }}">
+              {{ i18n "home_cta_primary" }}
+            </a>
+            <a class="lp-btn lp-btn-ghost" href="{{ relLangURL "portfolio/" }}">
+              {{ i18n "home_cta_portfolio" }}
+            </a>
+          </div>
+        </div>
+
+        <div class="lp-hero-mini-info">
+          <div>
+            <strong>{{ i18n "home_stat_artist" }}</strong>
+            <span>{{ i18n "home_stat_artist_desc" }}</span>
+          </div>
+          <div>
+            <strong>{{ i18n "home_stat_location" }}</strong>
+            <span>{{ i18n "home_stat_location_desc" }}</span>
+          </div>
+          <div>
+            <strong>{{ i18n "home_stat_custom" }}</strong>
+            <span>{{ i18n "home_stat_custom_desc" }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ partial "promo-hero.html" . }}
+
+  <section class="lp-mobile-work-strip">
+    <div class="lp-mobile-section-head">
+      <p>{{ if eq .Language.Lang "vi" }}TÁC PHẨM MỚI{{ else }}NEW WORKS{{ end }}</p>
+      <h2>{{ if eq .Language.Lang "vi" }}Hình xăm tại Lan Pink{{ else }}Tattoo works by Lan Pink{{ end }}</h2>
+    </div>
+
+    <div class="lp-mobile-two-grid">
+      {{ $portfolioSection := cond (eq .Site.Language.Lang "vi") "tac-pham" "portfolio" }}
+      {{ range first 2 ((where site.RegularPages "Section" $portfolioSection).ByDate.Reverse) }}
+        <a class="lp-mobile-photo-card" href="{{ .RelPermalink }}">
+          {{ with .Params.image }}
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+          {{ end }}
+          <span>{{ .Title }}</span>
+        </a>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="lp-mobile-local-seo">
+    {{ if eq .Language.Lang "vi" }}
+      <h1>Lan Pink Tattoo – tiệm xăm nữ private studio tại Quận 12</h1>
+      <p>
+        Lan Pink Tattoo là studio xăm riêng tư gần cầu vượt Tân Thới Hiệp, Quận 12, TP.HCM.
+        Lan Pink tư vấn kỹ trước khi xăm, thiết kế hình theo câu chuyện cá nhân và tập trung vào
+        mini tattoo, fine line, pet portrait, hình xăm tưởng niệm thú cưng và custom tattoo design.
+      </p>
+    {{ else }}
+      <h1>Lan Pink Tattoo – female tattoo artist in District 12</h1>
+      <p>
+        Lan Pink Tattoo is a private tattoo studio near Tan Thoi Hiep overpass, District 12,
+        Ho Chi Minh City. Lan Pink offers thoughtful consultation, personal custom tattoo designs,
+        mini tattoos, fine line tattoos, pet portraits, memorial pet tattoos, and meaningful custom work.
+      </p>
+    {{ end }}
+  </section>
+
+  <section class="lp-mobile-gallery-strip">
+    <div class="lp-mobile-section-head">
+      <p>{{ if eq .Language.Lang "vi" }}MẪU HÌNH XĂM{{ else }}TATTOO IDEAS{{ end }}</p>
+      <h2>{{ if eq .Language.Lang "vi" }}Gallery ý tưởng mới{{ else }}New tattoo design gallery{{ end }}</h2>
+    </div>
+
+    <div class="lp-mobile-two-grid">
+      {{ $gallerySection := cond (eq .Site.Language.Lang "vi") "mau-hinh-xam-dep" "tattoo-designs" }}
+      {{ range first 12 ((where site.RegularPages "Section" $gallerySection).ByDate.Reverse) }}
+        <a class="lp-mobile-photo-card" href="{{ .RelPermalink }}">
+          {{ with .Params.image }}
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+          {{ end }}
+          <span>{{ .Title }}</span>
+        </a>
+      {{ end }}
+    </div>
+  </section>
+
+
+  <section class="lp-real-work-row">
+    <div class="lp-home-container">
+      <div class="lp-section-head">
+        <div>
+          <p class="lp-eyebrow">{{ i18n "home_real_badge" }}</p>
+          <h2>{{ i18n "home_real_title" }}</h2>
+          <p class="lp-section-desc">{{ i18n "home_real_desc" }}</p>
+        </div>
+
+        <a class="lp-section-link" href="{{ relLangURL "portfolio/" }}">
+          {{ i18n "home_real_more" }}
+        </a>
+      </div>
+
+      <div class="lp-real-grid">
+        {{ $portfolioSection := cond (eq .Site.Language.Lang "vi") "tac-pham" "portfolio" }}
+        {{ range first 3 (where site.RegularPages "Section" $portfolioSection) }}
+          <article class="lp-real-card">
+            <a href="{{ .RelPermalink }}">
+              {{ with .Params.image }}
+                <img src="{{ . }}" alt="{{ $.Params.image_alt | default $.Title }}">
+              {{ else }}
+                <div class="lp-image-placeholder">Lan Pink Tattoo</div>
+              {{ end }}
+
+              <div class="lp-card-shade"></div>
+
+              <div class="lp-card-content">
+                <span>{{ i18n "home_real_card" }}</span>
+                <h3>{{ .Title }}</h3>
+              </div>
+            </a>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-gallery-first">
+    <div class="lp-home-container">
+      <div class="lp-section-head">
+        <div>
+          <p class="lp-eyebrow">{{ i18n "home_gallery_badge" }}</p>
+          <h2>{{ i18n "home_gallery_title" }}</h2>
+          <p class="lp-section-desc">{{ i18n "home_gallery_desc" }}</p>
+        </div>
+
+        <a class="lp-section-link" href="{{ relLangURL "tattoo-designs/" }}">
+          {{ i18n "home_gallery_more" }}
+        </a>
+      </div>
+
+      <div class="lp-card-grid">
+        {{ $gallerySection := cond (eq .Site.Language.Lang "vi") "mau-hinh-xam-dep" "tattoo-designs" }}
+        {{ range first 18 (where site.RegularPages "Section" $gallerySection) }}
+          <article class="lp-image-card">
+            <a href="{{ .RelPermalink }}">
+              {{ with .Params.image }}
+                <img src="{{ . }}" alt="{{ $.Params.image_alt | default $.Title }}">
+              {{ else }}
+                <div class="lp-image-placeholder">Lan Pink Tattoo</div>
+              {{ end }}
+
+              <div class="lp-card-shade"></div>
+
+              <div class="lp-card-content">
+                <span>{{ i18n "home_gallery_card" }}</span>
+                <h3>{{ .Title }}</h3>
+              </div>
+            </a>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+</main>
+
+{{ end }}

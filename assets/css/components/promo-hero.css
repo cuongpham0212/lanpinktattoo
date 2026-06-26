@@ -1,377 +1,398 @@
-/* PROMO HERO - extracted from layouts/partials/promo-hero.html */
+/* Lan Pink Promo Hero - Premium Clean */
 
-.lanpink-promo-hero {
-  max-width: 1180px;
-  margin: 28px auto;
-  padding: 0 18px;
-}
-.lanpink-promo-hero__inner {
-  display: grid;
-  grid-template-columns: 1.5fr .6fr;
-  gap: 24px;
-  align-items: center;
-  border-radius: 28px;
-  padding: clamp(24px, 5vw, 46px);
-  color: #fff;
-  background: linear-gradient(135deg, #ff4fa3 0%, #a855f7 45%, #111827 100%);
-  box-shadow: 0 24px 70px rgba(168,85,247,.28);
-  overflow: hidden;
-}
-.lanpink-promo-hero__badge {
-  display: inline-flex;
-  margin-bottom: 12px;
-  padding: 7px 13px;
-  border-radius: 999px;
-  background: rgba(255,255,255,.18);
-  font-weight: 800;
-}
-.lanpink-promo-hero h2 {
-  margin: 0;
-  font-size: clamp(26px, 5vw, 46px);
-  line-height: 1.08;
-}
-.lanpink-promo-hero p {
-  margin: 14px 0 18px;
-  max-width: 680px;
-  font-size: 17px;
-  line-height: 1.7;
-}
-.lanpink-promo-hero__meta {
-  display: inline-flex;
-  margin-bottom: 20px;
-  padding: 8px 12px;
-  border-radius: 999px;
-  background: rgba(255,255,255,.15);
-  font-weight: 700;
-}
-.lanpink-promo-hero__btn {
-  display: inline-flex;
-  padding: 12px 20px;
-  border-radius: 999px;
-  background: #fff;
-  color: #b4235a;
-  text-decoration: none;
-  font-weight: 900;
-}
-.lanpink-promo-hero__sale {
-  display: grid;
-  place-items: center;
-  width: 190px;
-  height: 190px;
-  margin: auto;
-  border-radius: 999px;
-  background: rgba(255,255,255,.18);
-  border: 1px solid rgba(255,255,255,.32);
-  font-size: 44px;
-  font-weight: 1000;
-  transform: rotate(-10deg);
-  animation: lanpinkSaleFloat 3.8s ease-in-out infinite;
-}
-@keyframes lanpinkSaleFloat {
-  0%,100% { transform: translateY(0) rotate(-10deg); }
-  50% { transform: translateY(-12px) rotate(-5deg); }
-}
-@media (max-width: 760px) {
-  .lanpink-promo-hero__inner { grid-template-columns: 1fr; }
-  .lanpink-promo-hero__sale { width: 120px; height: 120px; font-size: 28px; }
+.lanpink-promo-hero{
+  max-width:1180px;
+  margin:34px auto 48px;
+  padding:0 18px;
 }
 
-/* Mobile fix: promo hero gọn, không dồn cục */
-@media (max-width: 767px) {
-  .lanpink-promo-hero {
-    padding: 1rem .75rem !important;
+.lanpink-promo-hero__inner{
+  position:relative;
+  display:grid;
+  grid-template-columns:1.35fr .65fr;
+  gap:28px;
+  align-items:center;
+  overflow:hidden;
+  border-radius:34px;
+  padding:clamp(32px,5vw,58px);
+  color:#fff;
+  background:
+    radial-gradient(circle at 82% 18%, rgba(255,115,184,.30), transparent 20rem),
+    radial-gradient(circle at 8% 12%, rgba(255,210,235,.16), transparent 18rem),
+    linear-gradient(135deg,#21111d 0%,#3a172d 48%,#6f2554 100%);
+  border:1px solid rgba(255,154,205,.30);
+  box-shadow:
+    0 30px 90px rgba(58,23,45,.24),
+    inset 0 1px 0 rgba(255,255,255,.18);
+}
+
+.lanpink-promo-hero__inner::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(115deg,transparent 0%,rgba(255,255,255,.14) 44%,transparent 58%);
+  transform:translateX(-120%);
+  animation:lanpinkPromoShine 6s ease-in-out infinite;
+  pointer-events:none;
+}
+
+.lanpink-promo-hero__content{
+  position:relative;
+  z-index:2;
+}
+
+.lanpink-promo-hero__badge{
+  display:inline-flex;
+  margin-bottom:14px;
+  padding:8px 14px;
+  border-radius:999px;
+  background:rgba(255,255,255,.13);
+  border:1px solid rgba(255,255,255,.16);
+  color:#ffd7e8;
+  font-size:13px;
+  font-weight:900;
+}
+
+.lanpink-promo-hero h2{
+  max-width:760px;
+  margin:0;
+  color:#fff;
+  font-size:clamp(30px,5vw,54px);
+  line-height:1.02;
+  letter-spacing:-.055em;
+}
+
+.lanpink-promo-hero p{
+  max-width:680px;
+  margin:16px 0 20px;
+  color:rgba(255,255,255,.78);
+  font-size:17px;
+  line-height:1.68;
+}
+
+.lanpink-promo-hero__meta{
+  display:inline-flex;
+  margin:0 12px 0 0;
+  padding:10px 14px;
+  border-radius:999px;
+  background:rgba(255,255,255,.12);
+  color:#fff;
+  font-weight:850;
+}
+
+.lanpink-promo-hero__btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:12px 20px;
+  border-radius:999px;
+  background:linear-gradient(135deg,#ff5ca8,#ff8cc7);
+  color:#fff;
+  text-decoration:none;
+  font-weight:950;
+  box-shadow:0 14px 34px rgba(255,92,168,.25);
+  transition:transform .22s ease, box-shadow .22s ease;
+}
+
+.lanpink-promo-hero__btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 18px 42px rgba(255,92,168,.34);
+}
+
+.lanpink-promo-hero__sale{
+  position:relative;
+  z-index:2;
+  display:grid;
+  place-items:center;
+  width:190px;
+  height:190px;
+  margin:auto;
+  border-radius:999px;
+  background:
+    radial-gradient(circle at 30% 25%,rgba(255,255,255,.36),transparent 32%),
+    linear-gradient(135deg,#ff5ca8,#7d2c61);
+  border:1px solid rgba(255,255,255,.28);
+  color:#fff;
+  font-size:44px;
+  font-weight:1000;
+  letter-spacing:-.04em;
+  box-shadow:
+    0 22px 54px rgba(0,0,0,.22),
+    0 0 0 12px rgba(255,255,255,.08);
+  animation:lanpinkSaleFloat 3.8s ease-in-out infinite;
+}
+
+@keyframes lanpinkPromoShine{
+  0%,52%{transform:translateX(-120%);opacity:0;}
+  62%{opacity:.75;}
+  82%,100%{transform:translateX(120%);opacity:0;}
+}
+
+@keyframes lanpinkSaleFloat{
+  0%,100%{transform:translateY(0) rotate(-8deg) scale(1);}
+  50%{transform:translateY(-10px) rotate(-4deg) scale(1.035);}
+}
+
+@media(max-width:767px){
+  .lanpink-promo-hero{
+    padding:.75rem .75rem .9rem;
+    margin:18px auto 26px;
   }
 
-  .lanpink-promo-hero__inner {
-    display: block !important;
-    min-height: auto !important;
-    padding: 1.35rem 1.15rem !important;
-    border-radius: 1.35rem !important;
+  .lanpink-promo-hero__inner{
+    display:block;
+    min-height:250px;
+    padding:1rem 1rem 1.05rem;
+    border-radius:1.25rem;
   }
 
-  .lanpink-promo-hero__badge {
-    width: fit-content;
-    margin-bottom: .85rem !important;
-    padding: .45rem .75rem !important;
-    font-size: .82rem !important;
+  .lanpink-promo-hero__badge{
+    margin-bottom:.65rem;
+    padding:.38rem .65rem;
+    font-size:.76rem;
+    line-height:1;
   }
 
   .lanpink-promo-hero h2,
-  .lanpink-promo-hero__title {
-    max-width: 100% !important;
-    margin: 0 !important;
-    font-size: 1.45rem !important;
-    line-height: 1.12 !important;
-    letter-spacing: -.03em !important;
+  .lanpink-promo-hero__title{
+    max-width:88%;
+    font-size:1.25rem;
+    line-height:1.08;
+    letter-spacing:-.035em;
   }
 
   .lanpink-promo-hero p,
-  .lanpink-promo-hero__summary {
-    max-width: 100% !important;
-    margin-top: .8rem !important;
-    font-size: .95rem !important;
-    line-height: 1.55 !important;
+  .lanpink-promo-hero__summary{
+    max-width:82%;
+    margin-top:.55rem;
+    font-size:.82rem;
+    line-height:1.38;
   }
 
-  .lanpink-promo-hero__meta {
-    display: inline-flex !important;
-    width: auto !important;
-    margin-top: 1rem !important;
-    padding: .55rem .8rem !important;
-    font-size: .82rem !important;
+  .lanpink-promo-hero__meta{
+    margin-top:.8rem;
+    padding:.42rem .68rem;
+    font-size:.74rem;
+    line-height:1;
   }
 
-  .lanpink-promo-hero__btn {
-    display: inline-flex !important;
-    width: auto !important;
-    max-width: 100% !important;
-    margin-top: .9rem !important;
-    padding: .7rem 1rem !important;
-    font-size: .86rem !important;
+  .lanpink-promo-hero__btn{
+    margin-top:.68rem;
+    padding:.56rem .82rem;
+    font-size:.76rem;
+    line-height:1;
   }
 
-  .lanpink-promo-hero__sale {
+  .lanpink-promo-hero__sale{
+    position:absolute;
+    right:.9rem;
+    bottom:2.6rem;
+    width:64px;
+    height:64px;
+    font-size:.92rem;
+    opacity:.82;
+    pointer-events:none;
+  }
+}
+
+/* Promo Hero - 3D floating box effect */
+
+@media (min-width: 768px){
+
+  .lanpink-promo-hero{
+    perspective:1200px;
+  }
+
+  .lanpink-promo-hero__inner{
+    transform:translateY(-2px);
+    border:1px solid rgba(255,190,222,.46);
+    box-shadow:
+      0 2px 0 rgba(255,255,255,.22) inset,
+      0 -1px 0 rgba(0,0,0,.18) inset,
+      0 18px 0 -10px rgba(58,23,45,.18),
+      0 34px 80px rgba(58,23,45,.28),
+      0 55px 120px rgba(232,62,140,.14);
+  }
+
+  .lanpink-promo-hero__inner::after{
+    content:"";
+    position:absolute;
+    left:4%;
+    right:4%;
+    bottom:-24px;
+    height:38px;
+    z-index:-1;
+    border-radius:50%;
+    background:radial-gradient(ellipse at center, rgba(58,23,45,.34), transparent 70%);
+    filter:blur(10px);
+    pointer-events:none;
+  }
+
+  .lanpink-promo-hero__inner:hover{
+    transform:translateY(-8px) rotateX(.8deg);
+    box-shadow:
+      0 2px 0 rgba(255,255,255,.26) inset,
+      0 -1px 0 rgba(0,0,0,.20) inset,
+      0 24px 0 -12px rgba(58,23,45,.20),
+      0 42px 95px rgba(58,23,45,.32),
+      0 70px 140px rgba(232,62,140,.18);
+  }
+
+  .lanpink-promo-hero__inner,
+  .lanpink-promo-hero__inner:hover{
+    transition:
+      transform .28s ease,
+      box-shadow .28s ease,
+      border-color .28s ease;
+  }
+
+}
+
+/* Promo hero light/dark polish */
+
+html[data-theme="dark"] .lanpink-promo-hero,
+body.dark .lanpink-promo-hero,
+body.dark-mode .lanpink-promo-hero{
+  background:transparent;
+}
+
+html[data-theme="dark"] .lanpink-promo-hero__inner,
+body.dark .lanpink-promo-hero__inner,
+body.dark-mode .lanpink-promo-hero__inner{
+  background:
+    radial-gradient(circle at 82% 18%, rgba(255,115,184,.26), transparent 20rem),
+    radial-gradient(circle at 8% 12%, rgba(255,210,235,.10), transparent 18rem),
+    linear-gradient(135deg,#120912 0%,#25101f 48%,#542043 100%);
+  border-color:rgba(255,154,205,.34);
+  box-shadow:
+    0 30px 90px rgba(0,0,0,.34),
+    0 55px 120px rgba(232,62,140,.10),
+    inset 0 1px 0 rgba(255,255,255,.16);
+}
+
+html[data-theme="dark"] .lanpink-promo-hero p,
+body.dark .lanpink-promo-hero p,
+body.dark-mode .lanpink-promo-hero p{
+  color:rgba(255,255,255,.76);
+}
+
+html[data-theme="dark"] .lanpink-promo-hero__meta,
+body.dark .lanpink-promo-hero__meta,
+body.dark-mode .lanpink-promo-hero__meta{
+  background:rgba(255,255,255,.10);
+}
+
+html[data-theme="dark"] .lanpink-promo-hero__sale,
+body.dark .lanpink-promo-hero__sale,
+body.dark-mode .lanpink-promo-hero__sale{
+  box-shadow:
+    0 22px 54px rgba(0,0,0,.34),
+    0 0 0 12px rgba(255,255,255,.06);
+}
+
+/* Promo hero: vệt sáng rõ hơn + lặp nhanh hơn */
+
+.lanpink-promo-hero__inner::before{
+  background:
+    linear-gradient(
+      112deg,
+      transparent 0%,
+      transparent 31%,
+      rgba(255,255,255,.18) 39%,
+      rgba(255,255,255,.68) 48%,
+      rgba(255,214,238,.42) 54%,
+      transparent 66%,
+      transparent 100%
+    ) !important;
+  animation:lanpinkPromoShineFast 3.2s ease-in-out infinite !important;
+  mix-blend-mode:screen;
+}
+
+@keyframes lanpinkPromoShineFast{
+  0%{
+    transform:translateX(-125%);
+    opacity:0;
+  }
+  16%{
+    opacity:.95;
+  }
+  42%{
+    transform:translateX(125%);
+    opacity:.95;
+  }
+  54%{
+    opacity:0;
+  }
+  100%{
+    transform:translateX(125%);
+    opacity:0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .lanpink-promo-hero__inner::before{
+    animation:none !important;
+    opacity:.18;
+  }
+}
+
+
+/* =========================================================
+   MOBILE PROMO AS SHORT AD BAR - không ảnh hưởng desktop
+   ========================================================= */
+@media (max-width: 768px) {
+  .promo-hero,
+  .lp-promo-hero,
+  section[class*="promo"] {
+    margin: 6px 12px 10px !important;
+    padding: 0 !important;
+  }
+
+  .promo-hero *,
+  .lp-promo-hero * {
+    box-shadow: none !important;
+  }
+
+  .promo-hero__inner,
+  .lp-promo-hero__inner,
+  .promo-hero .container,
+  .lp-promo-hero .container,
+  section[class*="promo"] > div {
+    min-height: 0 !important;
+    padding: 10px 12px !important;
+    border-radius: 16px !important;
+  }
+
+  .promo-hero h2,
+  .lp-promo-hero h2,
+  section[class*="promo"] h2 {
+    font-size: 15px !important;
+    line-height: 1.15 !important;
+    margin: 0 !important;
+  }
+
+  .promo-hero p,
+  .lp-promo-hero p,
+  section[class*="promo"] p {
     display: none !important;
   }
-}
 
-/* Mobile refine: giữ vòng SALE động, cân bố cục */
-@media (max-width: 767px) {
-  .lanpink-promo-hero {
-    padding: 1.15rem .75rem 1.35rem !important;
-  }
-
-  .lanpink-promo-hero__inner {
-    position: relative !important;
-    overflow: hidden !important;
-    min-height: 390px !important;
-    padding: 1.35rem 1.15rem 1.45rem !important;
-    border-radius: 1.45rem !important;
+  .promo-hero a,
+  .lp-promo-hero a,
+  section[class*="promo"] a {
+    min-height: 32px !important;
+    padding: 7px 12px !important;
+    font-size: 12px !important;
+    border-radius: 999px !important;
   }
 
-  .lanpink-promo-hero__content {
-    position: relative !important;
-    z-index: 2 !important;
-    max-width: 100% !important;
-  }
-
-  .lanpink-promo-hero__badge {
-    margin-bottom: 1rem !important;
-    padding: .48rem .78rem !important;
-    font-size: .82rem !important;
-  }
-
-  .lanpink-promo-hero h2,
-  .lanpink-promo-hero__title {
-    max-width: 92% !important;
-    font-size: 1.48rem !important;
-    line-height: 1.12 !important;
-  }
-
-  .lanpink-promo-hero p,
-  .lanpink-promo-hero__summary {
-    max-width: 92% !important;
-    margin-top: .9rem !important;
-    font-size: .94rem !important;
-    line-height: 1.55 !important;
-  }
-
-  .lanpink-promo-hero__meta {
-    margin-top: 1.2rem !important;
-    padding: .55rem .82rem !important;
-    font-size: .82rem !important;
-  }
-
-  .lanpink-promo-hero__btn {
-    margin-top: .95rem !important;
-    padding: .72rem 1.05rem !important;
-    font-size: .86rem !important;
-  }
-
-  .lanpink-promo-hero__sale {
-    display: flex !important;
-    position: absolute !important;
-    right: 1rem !important;
-    bottom: 1rem !important;
-    z-index: 1 !important;
-    width: 86px !important;
-    height: 86px !important;
-    align-items: center !important;
-    justify-content: center !important;
-    font-size: 1.25rem !important;
-    opacity: .82 !important;
-    pointer-events: none !important;
-  }
-}
-
-@media (max-width: 380px) {
-  .lanpink-promo-hero__inner {
-    min-height: 410px !important;
-  }
-
-  .lanpink-promo-hero__sale {
-    width: 76px !important;
-    height: 76px !important;
-    font-size: 1.08rem !important;
-  }
-}
-
-/* Mobile SALE motion */
-@keyframes lanpinkPromoSaleFloatMobile {
-  0%, 100% {
-    transform: translateY(0) rotate(-10deg) scale(1);
-  }
-  50% {
-    transform: translateY(-7px) rotate(-5deg) scale(1.04);
-  }
-}
-
-@media (max-width: 767px) {
-  .lanpink-promo-hero__sale {
-    animation: lanpinkPromoSaleFloatMobile 3.2s ease-in-out infinite !important;
-    transform-origin: center !important;
-  }
-}
-
-/* Mobile SALE motion */
-@keyframes lanpinkPromoSaleFloatMobile {
-  0%, 100% {
-    transform: translateY(0) rotate(-10deg) scale(1);
-  }
-  50% {
-    transform: translateY(-7px) rotate(-5deg) scale(1.04);
-  }
-}
-
-@media (max-width: 767px) {
-  .lanpink-promo-hero__sale {
-    animation: lanpinkPromoSaleFloatMobile 3.2s ease-in-out infinite !important;
-    transform-origin: center !important;
-  }
-}
-
-/* Fix SALE mobile animation: không dùng transform !important tĩnh */
-@keyframes lanpinkPromoSaleFloatMobileFinal {
-  0%, 100% {
-    transform: translateY(0) rotate(-10deg) scale(1);
-  }
-  50% {
-    transform: translateY(-8px) rotate(-4deg) scale(1.05);
-  }
-}
-
-@media (max-width: 767px) {
-  .lanpink-promo-hero__sale {
-    animation-name: lanpinkPromoSaleFloatMobileFinal !important;
-    animation-duration: 3s !important;
-    animation-timing-function: ease-in-out !important;
-    animation-iteration-count: infinite !important;
-    transform-origin: center center !important;
-    will-change: transform !important;
-  }
-}
-
-/* Mobile compact final: hero ngắn hơn, bố cục chặt hơn */
-@media (max-width: 767px) {
-  .lanpink-promo-hero {
-    padding: .75rem .75rem .9rem !important;
-  }
-
-  .lanpink-promo-hero__inner {
-    min-height: 250px !important;
-    padding: 1rem 1rem 1.05rem !important;
-    border-radius: 1.25rem !important;
-  }
-
-  .lanpink-promo-hero__badge {
-    margin-bottom: .65rem !important;
-    padding: .38rem .65rem !important;
-    font-size: .76rem !important;
-    line-height: 1 !important;
-  }
-
-  .lanpink-promo-hero h2,
-  .lanpink-promo-hero__title {
-    max-width: 88% !important;
-    font-size: 1.25rem !important;
-    line-height: 1.08 !important;
-    letter-spacing: -.035em !important;
-  }
-
-  .lanpink-promo-hero p,
-  .lanpink-promo-hero__summary {
-    max-width: 82% !important;
-    margin-top: .55rem !important;
-    font-size: .82rem !important;
-    line-height: 1.38 !important;
-  }
-
-  .lanpink-promo-hero__meta {
-    margin-top: .8rem !important;
-    padding: .42rem .68rem !important;
-    font-size: .74rem !important;
-    line-height: 1 !important;
-  }
-
-  .lanpink-promo-hero__btn {
-    margin-top: .68rem !important;
-    padding: .56rem .82rem !important;
-    font-size: .76rem !important;
-    line-height: 1 !important;
-  }
-
-  .lanpink-promo-hero__sale {
-    right: .85rem !important;
-    bottom: .85rem !important;
-    width: 64px !important;
-    height: 64px !important;
-    font-size: .92rem !important;
-    opacity: .78 !important;
-  }
-}
-
-@media (max-width: 380px) {
-  .lanpink-promo-hero__inner {
-    min-height: 265px !important;
-  }
-
-  .lanpink-promo-hero h2,
-  .lanpink-promo-hero__title {
-    font-size: 1.16rem !important;
-  }
-
-  .lanpink-promo-hero p,
-  .lanpink-promo-hero__summary {
-    font-size: .78rem !important;
-  }
-
-  .lanpink-promo-hero__sale {
-    width: 58px !important;
-    height: 58px !important;
-    font-size: .84rem !important;
-  }
-}
-
-/* Mobile: nâng SALE lên cao hơn để không đè CTA */
-@media (max-width: 767px) {
-
-  .lanpink-promo-hero__sale {
-    right: .9rem !important;
-    bottom: 2.6rem !important;   /* trước là ~0.85rem */
-    width: 64px !important;
-    height: 64px !important;
-    z-index: 1 !important;
-    opacity: .78 !important;
-  }
-
-  /* đảm bảo nút CTA luôn nổi phía trên */
-  .lanpink-promo-hero__btn {
-    position: relative !important;
-    z-index: 3 !important;
-  }
-
-  .lanpink-promo-hero__meta {
-    position: relative !important;
-    z-index: 3 !important;
+  .promo-hero [class*="sale"],
+  .lp-promo-hero [class*="sale"],
+  section[class*="promo"] [class*="sale"] {
+    width: 42px !important;
+    height: 42px !important;
+    font-size: 11px !important;
+    right: 10px !important;
+    bottom: 8px !important;
   }
 }

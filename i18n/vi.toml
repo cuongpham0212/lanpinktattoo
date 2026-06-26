@@ -180,3 +180,68 @@ other = "Bạn là thành viên?"
 
 [member_widget_not_member]
 other = "Bạn chưa là thành viên?"
+[home_hero_badge]
+other = "Tiệm xăm nữ · Studio riêng tư tại Quận 12"
+
+[home_hero_title]
+other = "Lan Pink Tattoo"
+
+[home_hero_lead]
+other = "Tiệm xăm nữ gần cầu vượt Tân Thới Hiệp, Quận 12, TP. Hồ Chí Minh."
+
+[home_hero_text]
+other = "Lan Pink tư vấn kỹ trước khi xăm, thiết kế theo câu chuyện cá nhân và tạo trải nghiệm nhẹ nhàng cho khách muốn một hình xăm đẹp, tinh tế."
+
+[home_cta_primary]
+other = "Đặt lịch tư vấn"
+
+[home_cta_portfolio]
+other = "Xem tác phẩm thật"
+
+[home_stat_artist]
+other = "Thợ xăm nữ"
+
+[home_stat_artist_desc]
+other = "Tư vấn nhẹ nhàng"
+
+[home_stat_location]
+other = "Quận 12"
+
+[home_stat_location_desc]
+other = "Gần cầu vượt Tân Thới Hiệp"
+
+[home_stat_custom]
+other = "Thiết kế riêng"
+
+[home_stat_custom_desc]
+other = "Theo ý tưởng cá nhân"
+
+[home_real_badge]
+other = "Tác phẩm tại tiệm"
+
+[home_real_title]
+other = "Hình xăm đã hoàn thành"
+
+[home_real_desc]
+other = "Một vài hình xăm thật tại Lan Pink để bạn tham khảo nét đi kim, bố cục và phong cách thực tế."
+
+[home_real_more]
+other = "Xem thêm tác phẩm"
+
+[home_real_card]
+other = "Tác phẩm thật"
+
+[home_gallery_badge]
+other = "Thư viện mẫu hình xăm"
+
+[home_gallery_title]
+other = "Mẫu hình xăm đẹp theo thể loại"
+
+[home_gallery_desc]
+other = "Xem nhanh các nhóm mẫu hình xăm để chọn phong cách phù hợp trước khi đặt lịch tư vấn."
+
+[home_gallery_more]
+other = "Xem toàn bộ thư viện"
+
+[home_gallery_card]
+other = "Mẫu hình xăm"

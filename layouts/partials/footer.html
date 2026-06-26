@@ -10,23 +10,25 @@
 
           <p>
             {{ if eq .Language.Lang "vi" }}
-              Lan Pink Tattoo là studio xăm riêng tư gần cầu vượt Tân Thới Hiệp, Quận 12, TP.HCM. Studio nhận thiết kế hình xăm cá nhân theo câu chuyện, vị trí và phong cách riêng của từng khách, thực hiện đa dạng thể loại hình xăm, hiện chưa nhận các thiết kế siêu thực và chân dung người.
+              Studio xăm riêng tư gần cầu vượt Tân Thới Hiệp, Quận 12, TP.HCM. Lan Pink nhận thiết kế hình xăm cá nhân theo câu chuyện, vị trí và phong cách riêng của từng khách.
             {{ else }}
-              Lan Pink Tattoo is a private tattoo studio near Tan Thoi Hiep overpass, District 12, Ho Chi Minh City. The studio creates custom tattoo designs based on each client’s story, placement, and personal style, working across many tattoo styles except hyperrealism and human portrait tattoos.
+              A private tattoo studio near Tan Thoi Hiep overpass, District 12, Ho Chi Minh City. Lan Pink creates custom tattoo designs based on each client’s story, placement, and personal style.
             {{ end }}
           </p>
 
           <div class="lp-footer-tags">
-            Lan Pink Tattoo · Lan Pink Ink · Tattoo Studio Quận 12 · Custom Tattoo · Private Tattoo Studio
+            Private Tattoo Studio · Tattoo Studio Quận 12 · Custom Tattoo · Lan Pink Ink
           </div>
 
-          <nav class="lp-footer-brand-link">
-            {{ if eq .Language.Lang "vi" }}
-              <a href="{{ "/phong-cach-xam/" | relLangURL }}">Phong cách xăm</a>
-            {{ else }}
-              <a href="{{ "/tattoo-styles/" | relLangURL }}">Tattoo Styles</a>
-            {{ end }}
-          </nav>
+          <div class="lp-footer-quick-actions">
+            <a href="https://maps.app.goo.gl/FWkCMzaZBN5G6rZJ9" target="_blank" rel="noopener">
+              {{ if eq .Language.Lang "vi" }}Chỉ đường{{ else }}Directions{{ end }}
+            </a>
+
+            <a href="{{ .Site.Params.messenger | default .Site.Params.bookingUrl }}" target="_blank" rel="noopener">
+              {{ if eq .Language.Lang "vi" }}Đặt lịch{{ else }}Book now{{ end }}
+            </a>
+          </div>
         </div>
 
         <div class="lp-footer-col">
@@ -34,14 +36,14 @@
 
           <nav class="lp-footer-links">
             {{ if eq .Language.Lang "vi" }}
-              <a href="{{ "/ve-lan-pink-ink-studio/" | relLangURL }}">Về Lan Pink Studio</a>
+              <a href="{{ "/ve-lan-pink-ink-studio/" | relLangURL }}">Về studio</a>
               <a href="{{ "/lan-pink-tattoo-artist/" | relLangURL }}">Về Lan Pink</a>
               <a href="{{ "/contact/" | relLangURL }}">Liên hệ</a>
               <a href="{{ "/danh-gia/" | relLangURL }}">Đánh giá</a>
               <a href="{{ "/faq/" | relLangURL }}">FAQ</a>
               <a href="{{ "/chinh-sach/" | relLangURL }}">Chính sách</a>
             {{ else }}
-              <a href="{{ "/about-lan-pink-ink-studio/" | relLangURL }}">About Lan Pink Studio</a>
+              <a href="{{ "/about-lan-pink-ink-studio/" | relLangURL }}">About studio</a>
               <a href="{{ "/lan-pink-tattoo-artist/" | relLangURL }}">About Lan Pink</a>
               <a href="{{ "/contact/" | relLangURL }}">Contact</a>
               <a href="{{ "/reviews/" | relLangURL }}">Reviews</a>
@@ -54,14 +56,14 @@
         <div class="lp-footer-col lp-footer-connect">
           <div class="lp-footer-contact-card">
             <div class="lp-footer-social-title">
-              {{ if eq .Language.Lang "vi" }}Kết nối với Lan Pink{{ else }}Connect with Lan Pink{{ end }}
+              {{ if eq .Language.Lang "vi" }}Kết nối{{ else }}Connect{{ end }}
             </div>
 
             <p class="lp-footer-note">
               {{ if eq .Language.Lang "vi" }}
-                Xem tác phẩm mới, feedback khách hàng và gửi ý tưởng hình xăm để Lan Pink tư vấn hướng thiết kế phù hợp.
+                Theo dõi Lan Pink để xem tác phẩm mới, cảm nhận của khách hàng và nhắn ý tưởng hình xăm bạn đang thích.
               {{ else }}
-                See new works, client feedback, and send your tattoo idea so Lan Pink can suggest a suitable design direction.
+                Follow Lan Pink for new works, client stories, and message your tattoo idea whenever you are ready.
               {{ end }}
             </p>
 
@@ -78,19 +80,9 @@
   </div>
 
   <div class="lp-footer-bottom">
-    <div>
-      <p>
-        © {{ now.Year }} Lan Pink Tattoo · Lan Pink Ink ·
-        {{ if eq .Language.Lang "vi" }}Studio xăm riêng tư gần cầu vượt Tân Thới Hiệp, Quận 12, TP.HCM{{ else }}Private tattoo studio near Tan Thoi Hiep overpass, District 12, Ho Chi Minh City{{ end }}
-      </p>
-
-      <p>
-        {{ if eq .Language.Lang "vi" }}
-          Thiết kế hình xăm cá nhân theo câu chuyện, vị trí và phong cách riêng của từng khách.
-        {{ else }}
-          Custom tattoo designs based on each client’s story, placement, and personal style.
-        {{ end }}
-      </p>
-    </div>
+    <p>
+      © {{ now.Year }} Lan Pink Tattoo ·
+      {{ if eq .Language.Lang "vi" }}Private Tattoo Studio tại Quận 12, TP.HCM{{ else }}Private Tattoo Studio in District 12, Ho Chi Minh City{{ end }}
+    </p>
   </div>
 </footer>

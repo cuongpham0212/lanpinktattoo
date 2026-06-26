@@ -418,3 +418,156 @@ html[data-theme="dark"] .lp-footer-bottom p:last-child {
     background: rgba(255,255,255,.045);
   }
 }
+
+
+/* =========================================================
+   COMPACT MOBILE FOOTER + HIDE MOBILE MAP
+   Desktop giữ nguyên tinh thần, mobile nhẹ hơn
+   ========================================================= */
+@media (max-width: 768px) {
+  .lp-map-section {
+    display: none !important;
+  }
+
+  .lp-footer {
+    padding-top: 24px !important;
+  }
+
+  .lp-footer-wrap {
+    padding: 0 12px !important;
+  }
+
+  .lp-footer-card {
+    border-radius: 22px !important;
+  }
+
+  .lp-footer-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  .lp-footer-brand h3 {
+    font-size: 26px !important;
+    line-height: 1 !important;
+    margin-bottom: 10px !important;
+  }
+
+  .lp-footer-brand p {
+    font-size: 14px !important;
+    line-height: 1.55 !important;
+    margin-bottom: 12px !important;
+  }
+
+  .lp-footer-tags {
+    font-size: 12px !important;
+    line-height: 1.4 !important;
+    opacity: .78 !important;
+  }
+
+  .lp-footer-quick-actions {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 10px !important;
+    margin-top: 16px !important;
+  }
+
+  .lp-footer-quick-actions a {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 42px !important;
+    border-radius: 999px !important;
+    background: linear-gradient(135deg, #f2389a, #ff6db8) !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    text-decoration: none !important;
+  }
+
+  .lp-footer-col h4,
+  .lp-footer-social-title {
+    font-size: 15px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .lp-footer-links {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 8px 12px !important;
+  }
+
+  .lp-footer-links a {
+    font-size: 14px !important;
+  }
+
+  .lp-footer-contact-card {
+    padding: 14px !important;
+    border-radius: 18px !important;
+  }
+
+  .lp-footer-note {
+    font-size: 13px !important;
+    line-height: 1.45 !important;
+  }
+
+  .lp-footer-social {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+  }
+
+  .lp-footer-pill {
+    min-height: 34px !important;
+    padding: 8px 12px !important;
+    font-size: 13px !important;
+  }
+
+  .lp-footer-bottom {
+    padding: 16px 14px 24px !important;
+    text-align: center !important;
+  }
+
+  .lp-footer-bottom p {
+    font-size: 12px !important;
+    line-height: 1.45 !important;
+  }
+}
+
+
+/* =========================================================
+   MOBILE FOOTER CONNECT BOX POLISH
+   Làm box kết nối gọn, thân thiện, căn giữa social
+   ========================================================= */
+@media (max-width: 768px) {
+  .lp-footer-contact-card {
+    max-width: 100% !important;
+    padding: 14px 14px 16px !important;
+    text-align: center !important;
+  }
+
+  .lp-footer-social-title {
+    text-align: center !important;
+    margin-bottom: 8px !important;
+  }
+
+  .lp-footer-note {
+    max-width: 300px !important;
+    margin: 0 auto 14px !important;
+    text-align: center !important;
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+  }
+
+  .lp-footer-social {
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 12px !important;
+  }
+
+  .lp-footer-pill {
+    min-width: 82px !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+}
