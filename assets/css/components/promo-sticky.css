@@ -1,27 +1,91 @@
+/* Promo sticky/banner */
+
+@keyframes lanpinkStickyGlow {
+  0%, 100% {
+    box-shadow: 0 10px 24px rgba(14, 165, 233, .18), 0 0 0 rgba(56, 189, 248, 0);
+  }
+  50% {
+    box-shadow: 0 14px 34px rgba(14, 165, 233, .28), 0 0 22px rgba(56, 189, 248, .28);
+  }
+}
+
+@keyframes lanpinkStickyDot {
+  0%, 100% {
+    transform: translateY(0) rotate(-8deg) scale(1);
+  }
+  50% {
+    transform: translateY(-3px) rotate(-3deg) scale(1.06);
+  }
+}
+
+/* Mobile: banner quảng cáo nổi bật dưới menu */
 .lanpink-promo-sticky {
-  display: block !important;
+  display: grid !important;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 10px;
   position: relative !important;
   margin: 10px 12px 0 !important;
-  padding: 10px 12px !important;
-  border-radius: 18px !important;
-  background: #e0f2fe !important;
-  border: 1px solid #38bdf8 !important;
-  box-shadow: 0 10px 24px rgba(14,165,233,.14) !important;
+  padding: 11px 12px !important;
+  overflow: hidden;
+  border-radius: 20px !important;
+  background:
+    radial-gradient(circle at 88% 18%, rgba(255,255,255,.42), transparent 28%),
+    linear-gradient(135deg, #e0f2fe 0%, #bae6fd 42%, #fdf2f8 100%) !important;
+  border: 1px solid rgba(14, 165, 233, .42) !important;
   color: #075985 !important;
   z-index: 20 !important;
+  animation: lanpinkStickyGlow 3.4s ease-in-out infinite;
+}
+
+.lanpink-promo-sticky::before {
+  content: "SALE";
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9, #0284c7);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: .03em;
+  opacity: .92;
+  pointer-events: none;
+  animation: lanpinkStickyDot 2.8s ease-in-out infinite;
+}
+
+.lanpink-promo-sticky__text {
+  min-width: 0;
+  padding-right: 48px;
 }
 
 .lanpink-promo-sticky__badge {
-  display: none !important;
+  display: inline-flex !important;
+  width: fit-content;
+  margin-bottom: 5px !important;
+  padding: 3px 8px !important;
+  border-radius: 999px;
+  background: rgba(255,255,255,.58);
+  color: #0284c7 !important;
+  font-size: 11px !important;
+  line-height: 1 !important;
+  font-weight: 950 !important;
 }
 
 .lanpink-promo-sticky__title {
   display: block !important;
-  margin: 0 0 8px !important;
+  margin: 0 !important;
   color: #075985 !important;
   font-size: 14px !important;
-  line-height: 1.25 !important;
+  line-height: 1.22 !important;
   font-weight: 950 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .lanpink-promo-sticky p {
@@ -30,28 +94,124 @@
 
 .lanpink-promo-sticky__btn {
   display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  align-self: end;
   padding: 8px 12px !important;
   border-radius: 999px !important;
-  background: linear-gradient(135deg, #38bdf8, #0284c7) !important;
+  background: linear-gradient(135deg, #0284c7, #0369a1) !important;
   color: #fff !important;
   font-size: 12px !important;
-  font-weight: 900 !important;
+  font-weight: 950 !important;
+  line-height: 1 !important;
   text-decoration: none !important;
+  box-shadow: 0 8px 18px rgba(14, 165, 233, .28);
 }
 
-/* Desktop */
+/* Desktop: trở lại dạng card bên trái */
 @media (min-width: 1024px) {
   .lanpink-promo-sticky {
+    display: block !important;
     position: fixed !important;
     left: 18px !important;
     top: 132px !important;
     width: 228px !important;
     margin: 0 !important;
     padding: 15px !important;
+    border-radius: 22px !important;
   }
 
-  .lanpink-promo-sticky__badge,
+  .lanpink-promo-sticky::before {
+    right: 12px;
+    top: 12px;
+  }
+
+  .lanpink-promo-sticky__text {
+    padding-right: 0;
+  }
+
+  .lanpink-promo-sticky__badge {
+    margin-bottom: 8px !important;
+  }
+
+  .lanpink-promo-sticky__title {
+    margin-bottom: 8px !important;
+    white-space: normal;
+    font-size: 17px !important;
+    line-height: 1.25 !important;
+  }
+
   .lanpink-promo-sticky p {
     display: block !important;
+    margin: 0 0 12px !important;
+    color: #466477 !important;
+    font-size: 13px !important;
+    line-height: 1.45 !important;
   }
+
+  .lanpink-promo-sticky__btn {
+    width: 100%;
+  }
+}
+
+/* Stronger promo glow: viền sáng chớp nhẹ */
+@keyframes lanpinkStickyBorderPulse {
+  0%, 100% {
+    opacity: .38;
+    filter: brightness(1);
+  }
+  50% {
+    opacity: 1;
+    filter: brightness(1.35);
+  }
+}
+
+@keyframes lanpinkStickyShineMove {
+  0% {
+    transform: translateX(-130%) rotate(12deg);
+    opacity: 0;
+  }
+  35% {
+    opacity: .7;
+  }
+  65% {
+    opacity: .7;
+  }
+  100% {
+    transform: translateX(130%) rotate(12deg);
+    opacity: 0;
+  }
+}
+
+.lanpink-promo-sticky {
+  position: relative !important;
+  isolation: isolate;
+  box-shadow:
+    0 12px 28px rgba(14, 165, 233, .24),
+    0 0 0 1px rgba(255,255,255,.35) inset,
+    0 0 24px rgba(56,189,248,.26) !important;
+}
+
+.lanpink-promo-sticky::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #38bdf8, #ffffff, #ec4899, #38bdf8);
+  opacity: .55;
+  animation: lanpinkStickyBorderPulse 2.2s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.lanpink-promo-sticky__text::after {
+  content: "";
+  position: absolute;
+  top: -40%;
+  bottom: -40%;
+  left: 0;
+  width: 32px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.8), transparent);
+  animation: lanpinkStickyShineMove 3.4s ease-in-out infinite;
+  pointer-events: none;
 }
