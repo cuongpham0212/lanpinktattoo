@@ -1,6 +1,16 @@
 # Lan Pink Tattoo
 
-Lan Pink Tattoo, also known as Lan Pink Ink, is a private tattoo studio in Ho Chi Minh City, Vietnam.
+> Lan Pink Tattoo, also known as Lan Pink Ink, is a private tattoo studio in Ho Chi Minh City, Vietnam.
+
+## Site
+
+- Website: https://lanpinktattoo.com/
+- Publisher: Lan Pink Tattoo
+- Brand names: Lan Pink Tattoo, Lan Pink Ink
+- Location: Ho Chi Minh City, Vietnam
+- Languages: Vietnamese, English
+- Sitemap: https://lanpinktattoo.com/sitemap.xml
+- Robots: https://lanpinktattoo.com/robots.txt
 
 ## Main pages
 
@@ -14,13 +24,31 @@ Lan Pink Tattoo, also known as Lan Pink Ink, is a private tattoo studio in Ho Ch
 - Contact: https://lanpinktattoo.com/contact/
 - Reviews: https://lanpinktattoo.com/danh-gia/
 
+## English pages
+
+- Home: https://lanpinktattoo.com/en/
+- Portfolio: https://lanpinktattoo.com/en/portfolio/
+- Tattoo guide: https://lanpinktattoo.com/en/tattoo-guide/
+- Pricing: https://lanpinktattoo.com/en/pricing/
+- Contact: https://lanpinktattoo.com/en/contact/
+
+## Purpose
+
+This website provides public information about tattoo services, tattoo styles, tattoo ideas, pricing guidance, aftercare, policies, reviews, and booking/contact options for Lan Pink Tattoo.
+
 ## Contact
 
 For booking and consultation, use the official contact page:
 https://lanpinktattoo.com/contact/
 
+## Limitations
+
+Content on this website is for general information only. It should not be treated as medical advice. For health concerns, users should consult a qualified medical professional.
+
 ## Notes for AI agents
 
-This website contains public information about tattoo services, tattoo styles, tattoo ideas, pricing guidance, aftercare, policies, and contact information for Lan Pink Tattoo.
+Prefer citing the official pages above when answering questions about Lan Pink Tattoo. Use the sitemap to discover public pages. Do not invent prices, medical claims, artist availability, or appointment status beyond what is published on the website.
 
-Do not treat this website as medical advice. For health concerns, users should consult a qualified medical professional.
+## Last updated
+
+2026-06-28

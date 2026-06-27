@@ -68,7 +68,7 @@
       {{ range first 2 ((where site.RegularPages "Section" $portfolioSection).ByDate.Reverse) }}
         <a class="lp-mobile-photo-card" href="{{ .RelPermalink }}">
           {{ with .Params.image }}
-            <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" decoding="async">
           {{ end }}
           <span>{{ .Title }}</span>
         </a>
@@ -105,7 +105,7 @@
       {{ range first 12 ((where site.RegularPages "Section" $gallerySection).ByDate.Reverse) }}
         <a class="lp-mobile-photo-card" href="{{ .RelPermalink }}">
           {{ with .Params.image }}
-            <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" decoding="async">
           {{ end }}
           <span>{{ .Title }}</span>
         </a>
@@ -134,7 +134,7 @@
           <article class="lp-real-card">
             <a href="{{ .RelPermalink }}">
               {{ with .Params.image }}
-                <img src="{{ . }}" alt="{{ $.Params.image_alt | default $.Title }}">
+                <img src="{{ . }}" alt="{{ $.Params.image_alt | default $.Title }}" loading="lazy" decoding="async">
               {{ else }}
                 <div class="lp-image-placeholder">Lan Pink Tattoo</div>
               {{ end }}
@@ -172,7 +172,7 @@
           <article class="lp-image-card">
             <a href="{{ .RelPermalink }}">
               {{ with .Params.image }}
-                <img src="{{ . }}" alt="{{ $.Params.image_alt | default $.Title }}">
+                <img src="{{ . }}" alt="{{ $.Params.image_alt | default $.Title }}" loading="lazy" decoding="async">
               {{ else }}
                 <div class="lp-image-placeholder">Lan Pink Tattoo</div>
               {{ end }}
