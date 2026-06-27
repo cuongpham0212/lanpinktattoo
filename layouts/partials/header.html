@@ -187,7 +187,7 @@
         </button>
 
         <a
-          href="{{ .Site.Params.messenger | default .Site.Params.bookingUrl }}"
+          href="{{ if eq .Language.Lang "vi" }}{{ "/dat-lich/" | relLangURL }}{{ else }}{{ "/booking/" | relLangURL }}{{ end }}"
           target="_blank"
           rel="noopener"
           class="lp-booking-btn hidden whitespace-nowrap rounded-full text-sm font-extrabold shadow-md transition hover:-translate-y-0.5 md:inline-flex"
@@ -276,7 +276,7 @@
       </button>
 
       <a
-        href="{{ .Site.Params.messenger | default .Site.Params.bookingUrl }}"
+        href="{{ if eq .Language.Lang "vi" }}{{ "/dat-lich/" | relLangURL }}{{ else }}{{ "/booking/" | relLangURL }}{{ end }}"
         target="_blank"
         rel="noopener"
         class="lp-menumobile-booking"

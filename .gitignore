@@ -55,3 +55,14 @@ venv/
 content-tree.txt
 vi-tree.txt
 en-tree.txt
+
+# Local booking admin tool
+tools/
+
+# Local-only booking admin
+tools/
+static/admin-local/
+
+# Local-only booking admin
+tools/
+static/admin-local/

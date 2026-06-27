@@ -1,0 +1,232 @@
+.lp-booking{
+  --lp-card:#f5edf3;
+  --lp-soft:#eadde7;
+  --lp-soft-2:#dfd0dc;
+  --lp-border:rgba(55,35,50,.24);
+  --lp-text:#211722;
+  --lp-muted:rgba(33,23,34,.74);
+  --lp-shadow:0 18px 45px rgba(55,35,50,.14);
+  max-width:1120px;margin:0 auto;padding:32px 16px 56px;color:var(--lp-text)
+}
+html[data-theme="dark"] .lp-booking,html.dark .lp-booking,body.dark .lp-booking,body[data-theme="dark"] .lp-booking,[data-theme="dark"] .lp-booking{
+  --lp-card:rgba(255,255,255,.055);
+  --lp-soft:rgba(255,255,255,.07);
+  --lp-soft-2:rgba(255,255,255,.1);
+  --lp-border:rgba(255,255,255,.13);
+  --lp-text:#fff;
+  --lp-muted:rgba(255,255,255,.76);
+  --lp-shadow:0 18px 50px rgba(0,0,0,.18)
+}
+.lp-booking-hero{max-width:760px;margin-bottom:24px}
+.lp-eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;opacity:.72;margin-bottom:8px}
+.lp-booking h1,.lp-booking h2{color:var(--lp-text)}
+.lp-booking-hero h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.08;margin:0 0 12px}
+.lp-booking p{line-height:1.7;color:var(--lp-muted)}
+.lp-booking-layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);gap:20px;align-items:start}
+.lp-calendar-card,.lp-booking-panel{border:1px solid var(--lp-border);border-radius:22px;background:var(--lp-card);box-shadow:var(--lp-shadow);padding:18px}
+.lp-calendar-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}
+.lp-calendar-head h2{margin:0;font-size:1.18rem;text-align:center}
+.lp-calendar-head button{width:42px;height:42px;border-radius:999px;border:1px solid var(--lp-border);background:var(--lp-soft-2);color:var(--lp-text);font-size:1.8rem;line-height:1;cursor:pointer}
+.lp-calendar-legend{display:flex;gap:16px;flex-wrap:wrap;margin:8px 0 16px;color:var(--lp-muted)}
+.lp-dot{display:inline-block;width:11px;height:11px;border-radius:999px;margin-right:6px;vertical-align:-1px}
+.lp-free{background:#1f9d63}.lp-busy{background:#c73d3d}
+.lp-weekdays,.lp-calendar-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}
+.lp-weekdays{margin-bottom:8px;font-weight:800;font-size:.85rem;color:var(--lp-muted);text-align:center}
+.lp-day{min-height:76px;border-radius:16px;border:1px solid var(--lp-border);background:var(--lp-soft);color:var(--lp-text);cursor:pointer;padding:10px;text-align:left;display:flex;flex-direction:column;justify-content:space-between}
+.lp-day:hover{transform:translateY(-2px);border-color:rgba(240,106,166,.55)}
+.lp-day.is-empty{visibility:hidden;pointer-events:none}
+.lp-day-number{font-weight:900;font-size:1rem}
+.lp-day-status{width:max-content;border-radius:999px;padding:3px 8px;font-size:.74rem;font-weight:900}
+.lp-day.is-free .lp-day-status{background:rgba(31,157,99,.18);color:#087443}
+.lp-day.is-busy .lp-day-status{background:rgba(199,61,61,.18);color:#ae2e2e}
+html[data-theme="dark"] .lp-day.is-free .lp-day-status,body.dark .lp-day.is-free .lp-day-status{color:#43d78b}
+html[data-theme="dark"] .lp-day.is-busy .lp-day-status,body.dark .lp-day.is-busy .lp-day-status{color:#ff7777}
+.lp-day.is-today{outline:2px solid rgba(240,106,166,.48)}
+.lp-form{display:grid;gap:12px;margin-top:14px}
+.lp-form label{display:grid;gap:6px;font-weight:800;color:var(--lp-text)}
+.lp-form input,.lp-form textarea{width:100%;box-sizing:border-box;border-radius:14px;border:1px solid var(--lp-border);background:var(--lp-soft);color:var(--lp-text);padding:12px 13px;font:inherit}
+.lp-form textarea{min-height:110px;resize:vertical}
+.lp-busy-form{margin-top:16px;padding-top:14px;border-top:1px solid var(--lp-border)}
+.lp-actions{display:grid;gap:10px;margin-top:8px}
+.lp-primary-btn,.lp-messenger-btn{display:inline-flex;justify-content:center;align-items:center;border-radius:999px;padding:13px 18px;font-weight:900;text-decoration:none;border:0;cursor:pointer;font:inherit}
+.lp-primary-btn{background:#d94f91;color:#fff}
+.lp-messenger-btn{background:var(--lp-soft-2);color:var(--lp-text);border:1px solid var(--lp-border)}
+.lp-note-box{border-radius:18px;padding:14px;background:rgba(199,61,61,.11);border:1px solid rgba(199,61,61,.26)}
+.lp-admin-secret{position:fixed;left:14px;bottom:14px;width:38px;height:38px;border-radius:999px;z-index:9999;display:flex;align-items:center;justify-content:center;background:#d94f91;color:#fff;text-decoration:none;font-size:18px;box-shadow:0 10px 30px rgba(0,0,0,.24);opacity:.76}
+.lp-admin-secret:hover{opacity:1}
+.lp-admin-warning{max-width:620px;margin:40px auto;text-align:center}
+@media(max-width:860px){.lp-booking-layout{grid-template-columns:1fr}.lp-calendar-card,.lp-booking-panel{padding:14px;border-radius:18px}.lp-weekdays,.lp-calendar-grid{gap:6px}.lp-day{min-height:62px;border-radius:13px;padding:8px}.lp-day-status{font-size:.68rem;padding:2px 6px}}
+
+.lp-contact-channels{
+  display:grid;
+  gap:10px;
+  margin-top:14px;
+}
+
+.lp-zalo-btn{
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:999px;
+  padding:13px 18px;
+  font-weight:900;
+  text-decoration:none;
+  border:0;
+  cursor:pointer;
+  font:inherit;
+  background:#0068ff;
+  color:#fff;
+}
+
+.lp-contact-channels a{
+  min-height:48px;
+}
+
+.lp-instagram-btn{
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:999px;
+  padding:13px 18px;
+  font-weight:900;
+  text-decoration:none;
+  border:0;
+  cursor:pointer;
+  font:inherit;
+  background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045);
+  color:#fff;
+}
+
+/* Booking layout hard fix: English text + mobile overflow */
+.lp-booking,
+.lp-booking *{
+  box-sizing:border-box;
+}
+
+.lp-booking{
+  width:100%;
+  max-width:1120px;
+  overflow-x:hidden;
+}
+
+.lp-booking-layout{
+  width:100%;
+  min-width:0;
+}
+
+.lp-calendar-card,
+.lp-booking-panel{
+  min-width:0;
+  width:100%;
+}
+
+.lp-calendar-grid,
+.lp-weekdays{
+  width:100%;
+  min-width:0;
+}
+
+.lp-day{
+  min-width:0;
+  overflow:hidden;
+}
+
+.lp-day-status{
+  max-width:100%;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  line-height:1.15;
+}
+
+html[lang="en"] .lp-day-status,
+body:lang(en) .lp-day-status{
+  font-size:.66rem;
+  padding:3px 6px;
+}
+
+html[lang="en"] .lp-weekdays,
+body:lang(en) .lp-weekdays{
+  font-size:.78rem;
+}
+
+@media(max-width:980px){
+  .lp-booking-layout{
+    grid-template-columns:1fr;
+  }
+}
+
+@media(max-width:640px){
+  .lp-booking{
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  .lp-calendar-card,
+  .lp-booking-panel{
+    padding:12px;
+    border-radius:18px;
+  }
+
+  .lp-weekdays,
+  .lp-calendar-grid{
+    gap:5px;
+  }
+
+  .lp-day{
+    min-height:54px;
+    border-radius:12px;
+    padding:7px 5px;
+  }
+
+  .lp-day-number{
+    font-size:.9rem;
+  }
+
+  .lp-day-status{
+    font-size:.58rem !important;
+    padding:3px 5px;
+  }
+
+  .lp-calendar-head h2{
+    font-size:1rem;
+  }
+
+  .lp-calendar-head button{
+    width:38px;
+    height:38px;
+  }
+}
+
+@media(max-width:390px){
+  .lp-booking{
+    padding-left:8px;
+    padding-right:8px;
+  }
+
+  .lp-weekdays,
+  .lp-calendar-grid{
+    gap:4px;
+  }
+
+  .lp-day{
+    min-height:50px;
+    padding:6px 4px;
+  }
+
+  .lp-day-status{
+    font-size:.52rem !important;
+    padding:2px 4px;
+  }
+}
+
+.lp-form select{
+  width:100%;
+  box-sizing:border-box;
+  border-radius:14px;
+  border:1px solid var(--lp-border);
+  background:var(--lp-soft);
+  color:var(--lp-text);
+  padding:12px 13px;
+  font:inherit;
+}

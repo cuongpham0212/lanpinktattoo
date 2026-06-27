@@ -26,7 +26,7 @@
           </a>
 
           <a
-            href="{{ .Site.Params.messenger | default .Site.Params.bookingUrl }}"
+            href="{{ if eq .Language.Lang "vi" }}{{ "/dat-lich/" | relLangURL }}{{ else }}{{ "/booking/" | relLangURL }}{{ end }}"
             target="_blank"
             rel="noopener"
             class="lp-btn-secondary">

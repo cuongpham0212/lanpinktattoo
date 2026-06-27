@@ -99,7 +99,7 @@
           </div>
 
           <a
-            href="{{ .Site.Params.messenger | default .Site.Params.bookingUrl }}"
+            href="{{ if eq .Language.Lang "vi" }}{{ "/dat-lich/" | relLangURL }}{{ else }}{{ "/booking/" | relLangURL }}{{ end }}"
             target="_blank"
             rel="noopener"
             class="inline-flex w-fit items-center justify-center rounded-full bg-pink-500 px-5 py-2.5 text-sm font-extrabold text-white shadow-lg shadow-pink-500/20 transition hover:bg-pink-600">
