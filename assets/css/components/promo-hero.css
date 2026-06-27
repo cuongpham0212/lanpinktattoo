@@ -447,3 +447,23 @@ body.dark-mode .lanpink-promo-hero__sale{
   }
 }
 
+
+/* =========================
+   PERFORMANCE PHASE 2 SELECTIVE
+   Promo hero only - mobile safe
+========================= */
+@media (max-width: 768px) {
+  .lanpink-promo-hero__inner::before {
+    display: none !important;
+  }
+
+  .lanpink-promo-hero__sale {
+    animation: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  .lanpink-promo-hero__btn:hover {
+    transform: none !important;
+  }
+}

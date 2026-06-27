@@ -287,3 +287,29 @@
   }
 }
 
+
+/* =========================
+   PERFORMANCE PHASE 2 SELECTIVE
+   Promo sticky only - mobile safe
+========================= */
+@media (max-width: 768px) {
+  .lanpink-promo-sticky,
+  .lanpink-promo-sticky::before,
+  .lanpink-promo-sticky::after,
+  .lanpink-promo-sticky__text::after {
+    animation: none !important;
+  }
+
+  .lanpink-promo-sticky::after,
+  .lanpink-promo-sticky__text::after {
+    display: none !important;
+  }
+
+  .lanpink-promo-sticky {
+    box-shadow: 0 8px 22px rgba(14, 165, 233, .18) !important;
+  }
+
+  .lanpink-promo-sticky__btn:hover {
+    transform: none !important;
+  }
+}
