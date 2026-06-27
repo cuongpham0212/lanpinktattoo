@@ -238,3 +238,226 @@ html[data-theme="dark"] .lp-menumobile-lang-switch:hover {
   color: #fff;
   background: linear-gradient(135deg, #831843, #ec4899);
 }
+
+
+/* =========================================================
+   MOBILE MENU FINAL - COMPACT PREMIUM
+   Gọn, không rối, không chiếm màn hình
+   ========================================================= */
+@media (max-width: 768px) {
+  .lp-menumobile {
+    position: fixed !important;
+    top: 74px !important;
+    right: 14px !important;
+    left: auto !important;
+
+    width: 272px !important;
+    max-width: calc(100vw - 28px) !important;
+    max-height: calc(100dvh - 96px) !important;
+
+    padding: 14px !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+
+    border-radius: 22px !important;
+    background: rgba(16, 13, 17, 0.97) !important;
+    border: 1px solid rgba(255, 122, 194, 0.22) !important;
+
+    box-shadow:
+      0 22px 60px rgba(0, 0, 0, 0.48),
+      0 0 0 1px rgba(255, 255, 255, 0.04) inset !important;
+
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+
+    transform: none !important;
+  }
+
+  .lp-menumobile > div {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 4px !important;
+  }
+
+  .lp-menumobile-link {
+    width: 100% !important;
+    min-height: 34px !important;
+    padding: 7px 12px !important;
+
+    border-radius: 12px !important;
+
+    font-size: 14px !important;
+    line-height: 1.2 !important;
+    font-weight: 750 !important;
+
+    background: transparent !important;
+  }
+
+  .lp-menumobile-link:hover,
+  .lp-menumobile-link.is-active {
+    background: rgba(255, 255, 255, 0.06) !important;
+  }
+
+  .lp-menumobile-submenu {
+    margin: 4px 0 6px !important;
+    padding: 6px !important;
+    border-radius: 14px !important;
+    background: rgba(255, 255, 255, 0.035) !important;
+  }
+
+  .lp-menumobile-sublink {
+    min-height: 30px !important;
+    padding: 6px 10px !important;
+    font-size: 13px !important;
+    border-radius: 10px !important;
+  }
+
+  .lp-menumobile-booking {
+    width: 100% !important;
+    min-height: 36px !important;
+    height: 36px !important;
+    margin-top: 6px !important;
+    padding: 0 12px !important;
+
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    border-radius: 999px !important;
+    font-size: 13px !important;
+    font-weight: 850 !important;
+    line-height: 36px !important;
+
+    box-shadow: 0 10px 22px rgba(242, 56, 154, 0.18) !important;
+  }
+
+  .lp-menumobile-lang {
+    margin-top: 10px !important;
+    padding-top: 10px !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+  }
+
+  .lp-menumobile-lang-switch {
+    width: 100% !important;
+    min-height: 36px !important;
+    border-radius: 999px !important;
+
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    font-size: 13px !important;
+    background: rgba(255, 255, 255, 0.055) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  }
+}
+
+
+/* =========================================================
+   MOBILE MENU THEME PANEL FINAL
+   Tự đổi sáng/tối + nhìn như panel menu thật, không bị đè
+   ========================================================= */
+@media (max-width: 768px) {
+  .lp-menumobile {
+    right: 14px !important;
+    left: auto !important;
+    top: 76px !important;
+    width: 272px !important;
+    max-width: calc(100vw - 28px) !important;
+
+    padding: 14px !important;
+    border-radius: 22px !important;
+    overflow: hidden !important;
+
+    background: #fff8fc !important;
+    border: 1px solid rgba(215, 70, 150, 0.22) !important;
+    box-shadow:
+      0 24px 70px rgba(72, 18, 52, 0.22),
+      0 0 0 1px rgba(255,255,255,.75) inset !important;
+
+    color: #25121f !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  html[data-theme="dark"] .lp-menumobile {
+    background: #120b11 !important;
+    border-color: rgba(255, 122, 194, 0.24) !important;
+    box-shadow:
+      0 24px 70px rgba(0,0,0,.58),
+      0 0 0 1px rgba(255,255,255,.045) inset !important;
+    color: #fff !important;
+  }
+
+  .lp-menumobile::before {
+    content: "Menu";
+    display: block;
+    margin: 0 0 8px;
+    padding: 0 4px 9px;
+    border-bottom: 1px solid rgba(215, 70, 150, 0.16);
+    color: #f2389a;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+
+  html[data-theme="dark"] .lp-menumobile::before {
+    border-bottom-color: rgba(255,255,255,.11);
+  }
+
+  .lp-menumobile-link {
+    min-height: 33px !important;
+    padding: 7px 10px !important;
+    border-radius: 11px !important;
+    color: #25121f !important;
+    background: transparent !important;
+    font-size: 14px !important;
+  }
+
+  html[data-theme="dark"] .lp-menumobile-link {
+    color: #fff !important;
+  }
+
+  .lp-menumobile-link:hover,
+  .lp-menumobile-link.is-active {
+    background: rgba(242, 56, 154, .09) !important;
+  }
+
+  html[data-theme="dark"] .lp-menumobile-link:hover,
+  html[data-theme="dark"] .lp-menumobile-link.is-active {
+    background: rgba(255,255,255,.065) !important;
+  }
+
+  .lp-menumobile-booking {
+    min-height: 35px !important;
+    height: 35px !important;
+    margin-top: 6px !important;
+    border-radius: 999px !important;
+    font-size: 13px !important;
+  }
+
+  .lp-menumobile-lang {
+    margin-top: 10px !important;
+    padding-top: 10px !important;
+    border-top: 1px solid rgba(215, 70, 150, 0.16) !important;
+  }
+
+  html[data-theme="dark"] .lp-menumobile-lang {
+    border-top-color: rgba(255,255,255,.11) !important;
+  }
+
+  .lp-menumobile-lang-switch {
+    min-height: 35px !important;
+    border-radius: 999px !important;
+    background: rgba(242, 56, 154, .07) !important;
+    border: 1px solid rgba(215, 70, 150, .16) !important;
+    color: #25121f !important;
+  }
+
+  html[data-theme="dark"] .lp-menumobile-lang-switch {
+    background: rgba(255,255,255,.055) !important;
+    border-color: rgba(255,255,255,.1) !important;
+    color: #fff !important;
+  }
+}
