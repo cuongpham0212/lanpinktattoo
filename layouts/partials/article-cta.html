@@ -8,11 +8,9 @@
   </p>
 
   <a
-    href="https://m.me/LanPinkInk"
-    target="_blank"
-    rel="noopener noreferrer"
+    href="{{ if eq .Language.Lang "vi" }}{{ "/dat-lich/" | relLangURL }}{{ else }}{{ "/booking/" | relLangURL }}{{ end }}"
     class="inline-block rounded-xl bg-pink-600 px-6 py-3 font-semibold text-white transition hover:bg-pink-700"
   >
-    {{ i18n "ctaButton" }}
+    {{ if eq .Language.Lang "vi" }}Đặt lịch{{ else }}Book Consultation{{ end }}
   </a>
 </section>

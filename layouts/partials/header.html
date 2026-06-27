@@ -188,8 +188,6 @@
 
         <a
           href="{{ if eq .Language.Lang "vi" }}{{ "/dat-lich/" | relLangURL }}{{ else }}{{ "/booking/" | relLangURL }}{{ end }}"
-          target="_blank"
-          rel="noopener"
           class="lp-booking-btn hidden whitespace-nowrap rounded-full text-sm font-extrabold shadow-md transition hover:-translate-y-0.5 md:inline-flex"
         >
           {{ i18n "book_now" | default "Đặt lịch" }}
@@ -277,8 +275,6 @@
 
       <a
         href="{{ if eq .Language.Lang "vi" }}{{ "/dat-lich/" | relLangURL }}{{ else }}{{ "/booking/" | relLangURL }}{{ end }}"
-        target="_blank"
-        rel="noopener"
         class="lp-menumobile-booking"
       >
         {{ i18n "book_now" | default "Đặt lịch" }}
