@@ -3,6 +3,7 @@ title: "Xăm Hình 500K Được Gì? Cách Chọn Thiết Kế Phù Hợp Với
 slug: "xam-hinh-500k-duoc-gi"
 date: 2026-06-22
 draft: false
+translation_id: "tattoo_pricing_guide_xam-hinh-500k-duoc-gi"
 
 description: "Xăm hình 500K được gì? Tìm hiểu những mẫu tattoo phù hợp với ngân sách 500.000đ, các yếu tố ảnh hưởng đến giá và cách chọn hình xăm hợp lý."
 

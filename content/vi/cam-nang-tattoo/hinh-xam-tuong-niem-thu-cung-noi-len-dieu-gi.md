@@ -3,6 +3,7 @@ title: "Hình Xăm Tưởng Niệm Thú Cưng Có Ý Nghĩa Gì? Những Điều
 description: "Tìm hiểu ý nghĩa của hình xăm tưởng niệm thú cưng, các thiết kế phổ biến, vị trí phù hợp và cách lưu giữ ký ức về người bạn đồng hành đặc biệt thông qua Pet Memorial Tattoo."
 date: 2026-06-19
 draft: false
+translation_id: "pet_memorial_tattoo_guide"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-tuong-niem-thu-cung-co-y-nghia-gi.webp"
 image_alt: "Hình xăm tưởng niệm thú cưng Pet Memorial Tattoo tại Lan Pink Tattoo TP.HCM"

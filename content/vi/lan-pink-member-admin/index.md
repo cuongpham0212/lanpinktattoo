@@ -2,6 +2,7 @@
 title: "Khu vực quản trị thành viên"
 slug: "lan-pink-member-admin"
 draft: false
+translation_id: "lan-pink-member-admin_member"
 robots: "noindex, nofollow"
 ---
 

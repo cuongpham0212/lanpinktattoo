@@ -3,6 +3,7 @@ title: "100+ Ý Tưởng Hình Xăm Vẹt Đẹp Và Ý Nghĩa Cho Người Yêu
 description: "Khám phá hơn 100 ý tưởng hình xăm vẹt đẹp, từ vẹt mini, vẹt màu sắc, vẹt Fine Line đến hình xăm tưởng niệm thú cưng. Gợi ý thiết kế phù hợp cho nam và nữ tại Lan Pink Tattoo."
 date: 2026-06-19
 draft: false
+translation_id: "pet_memorial_tattoo_ideas_y-tuong-hinh-xam-vet"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/y-tuong-hinh-xam-vet.webp"
 image_alt: "Ý tưởng hình xăm vẹt đẹp tại Lan Pink Tattoo TP.HCM"

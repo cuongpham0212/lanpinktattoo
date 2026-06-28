@@ -3,6 +3,7 @@ title: "Chương Trình Giới Thiệu Bạn Bè Nhận Thưởng | Lan Pink Tat
 slug: "chuong-trinh-gioi-thieu-ban-be"
 date: 2026-06-21
 draft: false
+translation_id: "chuong-trinh-gioi-thieu-ban-be_page"
 description: "Giới thiệu bạn bè đến Lan Pink Tattoo để nhận điểm thưởng thành viên. Thành viên có thể tích điểm từ khách mới và từ những lần đồng hành cùng bạn bè quay lại studio."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-price-guide.webp"
 image_alt: "Chương trình giới thiệu bạn bè nhận thưởng tại Lan Pink Tattoo"

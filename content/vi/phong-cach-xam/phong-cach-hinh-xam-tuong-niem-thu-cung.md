@@ -3,6 +3,7 @@ title: "Các Phong Cách Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Ngh
 description: "Khám phá các phong cách hình xăm tưởng niệm thú cưng phổ biến như Fine Line Tattoo, Black & Grey Tattoo, Mini Tattoo và Custom Pet Memorial Tattoo tại Lan Pink Tattoo TP.HCM."
 date: 2026-06-19
 draft: false
+translation_id: "pet_memorial_tattoo_style"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/phong-cach-hinh-xam-tuong-niem-thu-cung.webp"
 image_alt: "Các phong cách hình xăm tưởng niệm thú cưng tại Lan Pink Tattoo TP.HCM"

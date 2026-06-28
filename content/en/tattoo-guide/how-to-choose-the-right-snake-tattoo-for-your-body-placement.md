@@ -3,6 +3,7 @@ title: "How To Choose The Right Snake Tattoo For Your Body Placement"
 description: "A complete guide to choosing the right snake tattoo for different body placements, styles, sizes, and personal meanings."
 date: 2026-06-18
 draft: false
+translation_id: "snake_tattoo_guide_how-to-choose-the-right-snake-tattoo-for-your-body-placement"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-ran-lan-pink-tattoo.webp"
 image_alt: "Custom snake tattoo designed by Lan Pink Tattoo in Ho Chi Minh City"

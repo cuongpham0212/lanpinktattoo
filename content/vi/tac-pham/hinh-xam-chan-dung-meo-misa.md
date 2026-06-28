@@ -3,7 +3,7 @@ title: "Hình Xăm Chân Dung Mèo Misa – Ký Ức Về Người Bạn Đặc 
 slug: "hinh-xam-chan-dung-meo-misa"
 date: 2026-06-14
 draft: false
-translation_id: "misa_cat_portrait_portfolio"
+translation_id: "pet_portrait_tattoo_portfolio"
 
 description: "Tác phẩm hình xăm chân dung mèo Misa được thực hiện bởi Lan Pink Tattoo tại TP.HCM. Thiết kế Pet Portrait Tattoo cá nhân hóa giúp lưu giữ hình ảnh và ký ức về thú cưng bằng phong cách Fine Line Tattoo kết hợp Black & Grey."
 

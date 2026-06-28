@@ -2,6 +2,7 @@
 title: "Contact Lan Pink Ink"
 description: "Book your tattoo appointment in District 12, HCMC. Free consultation via Instagram, Facebook or visit our studio."
 layout: "contact"
+translation_id: "contact_contact_contact"
 ---
 
 ## Visit Lan Pink's Tattoo Studio

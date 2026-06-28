@@ -4,6 +4,7 @@ description: "Does getting a tattoo hurt? Learn about tattoo pain levels, beginn
 slug: "does-getting-a-tattoo-hurt"
 date: 2026-06-12
 draft: false
+translation_id: "tattoo_pain_guide_does-getting-a-tattoo-hurt"
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/ran-mini-cotay.webp"
 
 tags:

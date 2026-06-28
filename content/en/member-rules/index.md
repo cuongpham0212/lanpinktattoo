@@ -3,6 +3,7 @@ title: "Lan Pink Tattoo Membership Points Rules"
 slug: "member-rules"
 date: 2026-06-21
 draft: false
+translation_id: "member-rules_member"
 description: "Membership point rules, lifetime tiers, point redemption vouchers, birthday vouchers, and friend referral rewards at Lan Pink Tattoo."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-price-guide.webp"
 image_alt: "Lan Pink Tattoo membership points rules in District 12, Ho Chi Minh City"

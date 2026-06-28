@@ -3,6 +3,7 @@ title: "Why Are Tattoos in Vietnam So Affordable? The Story Behind Lan Pink Ink 
 slug: "why-are-tattoos-in-vietnam-so-affordable-at-lan-pink-ink"
 date: 2026-06-27
 draft: false
+translation_id: "pricing_en_trust_guide_why-are-tattoos-in-vietnam-so-affordable-at-lan-pink-ink"
 
 description: "Learn why Lan Pink Ink Studio offers affordable tattoos near Tan Thoi Hiep Overpass, District 12, Ho Chi Minh City, while still using professional materials, safe hygiene and a female tattoo artist."
 

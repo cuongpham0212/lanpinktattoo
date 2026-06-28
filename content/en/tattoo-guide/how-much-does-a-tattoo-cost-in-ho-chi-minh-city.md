@@ -3,6 +3,7 @@ title: "How Much Does a Tattoo Cost in Ho Chi Minh City in 2026?"
 slug: "how-much-does-a-tattoo-cost-in-ho-chi-minh-city"
 date: 2026-06-27
 draft: false
+translation_id: "pricing_en_trust_guide_how-much-does-a-tattoo-cost-in-ho-chi-minh-city"
 
 description: "A practical guide for international clients asking how much tattoos cost in Ho Chi Minh City, including mini tattoos, fine line tattoos, custom tattoos, anime tattoos and larger tattoo projects."
 

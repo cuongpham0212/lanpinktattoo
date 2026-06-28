@@ -4,6 +4,7 @@ description: "Booking policy, tattoo touch-up policy, aftercare instructions and
 slug: "service-policy"
 date: 2026-06-14
 draft: false
+translation_id: "service-policy_policy"
 robots: "index, follow"
 ---
 

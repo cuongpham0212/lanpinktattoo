@@ -3,6 +3,7 @@ title: "Hướng Dẫn Chọn Hình Xăm Rắn Phù Hợp Với Từng Vị Trí
 description: "Hướng dẫn chọn hình xăm rắn phù hợp với từng vị trí trên cơ thể, từ cẳng tay, bắp tay, chân, lưng đến sườn. Gợi ý thiết kế hình xăm rắn đẹp, dễ ứng dụng và phù hợp với phong cách cá nhân tại Lan Pink Tattoo."
 date: 2026-06-18
 draft: false
+translation_id: "snake_tattoo_guide_huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri"
 
 image: ""
 image_alt: "Hướng dẫn chọn hình xăm rắn phù hợp với từng vị trí trên cơ thể tại Lan Pink Tattoo"

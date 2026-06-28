@@ -5,4 +5,5 @@ slug: "admin-booking"
 layout: "admin-warning"
 build:
   list: never
+translation_id: "admin-booking_page"
 ---

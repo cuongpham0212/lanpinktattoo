@@ -3,6 +3,7 @@ title: "100+ Ý Tưởng Hình Xăm Mèo Đẹp Và Ý Nghĩa Cho Người Yêu 
 slug: "y-tuong-hinh-xam-meo"
 date: 2026-06-19
 draft: false
+translation_id: "pet_portrait_tattoo_ideas_y-tuong-hinh-xam-meo"
 
 description: "Khám phá hơn 100 ý tưởng hình xăm mèo đẹp, từ mèo mini, mèo thần tài, mèo đen, mèo hoạt hình đến hình xăm chân dung thú cưng. Gợi ý thiết kế phù hợp cho nam và nữ."
 

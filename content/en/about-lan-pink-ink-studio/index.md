@@ -3,6 +3,7 @@ title: "About Lan Pink Tattoo Studio"
 description: "Lan Pink Tattoo, also known as Lan Pink Ink, is a private tattoo space in Ho Chi Minh City specializing in Fine Line Tattoo, Mini Tattoo, Blackwork, and custom tattoo designs."
 slug: "about-lan-pink-ink-studio"
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp"
+translation_id: "about-lan-pink-ink-studio_about"
 ---
 
 # Lan Pink Tattoo – Private Tattoo Studio in Ho Chi Minh City

@@ -4,6 +4,7 @@ description: "Cập nhật bảng giá xăm hình tại Lan Pink Tattoo Studio. 
 slug: "bang-gia"
 date: 2026-06-11
 draft: false
+translation_id: "bang-gia_pricing"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/menu.png"
 

@@ -2,6 +2,7 @@
 title: "Member Administration Area"
 slug: "member-admin"
 draft: false
+translation_id: "member-admin_member"
 robots: "noindex, nofollow"
 ---
 

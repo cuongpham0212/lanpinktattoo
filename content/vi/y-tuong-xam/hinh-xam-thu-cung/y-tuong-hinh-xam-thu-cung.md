@@ -3,6 +3,7 @@ title: "100+ Ý Tưởng Hình Xăm Thú Cưng Đẹp Và Ý Nghĩa Cho Người
 description: "Khám phá hơn 100 ý tưởng hình xăm thú cưng đẹp và ý nghĩa dành cho chó, mèo, vẹt và các người bạn đồng hành đặc biệt. Gợi ý thiết kế phù hợp cho nam và nữ tại Lan Pink Tattoo TP.HCM."
 date: 2026-06-19
 draft: false
+translation_id: "pet_portrait_tattoo_ideas_y-tuong-hinh-xam-thu-cung"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/y-tuong-hinh-xam-thu-cung.webp"
 image_alt: "Ý tưởng hình xăm thú cưng đẹp tại Lan Pink Tattoo TP.HCM"

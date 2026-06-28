@@ -3,6 +3,7 @@ title: "100+ Ý Tưởng Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Ngh
 description: "Khám phá hơn 100 ý tưởng hình xăm tưởng niệm thú cưng dành cho chó, mèo, chim và các người bạn đồng hành đặc biệt. Gợi ý thiết kế ý nghĩa, giàu cảm xúc tại Lan Pink Tattoo TP.HCM."
 date: 2026-06-19
 draft: false
+translation_id: "pet_memorial_tattoo_ideas_y-tuong-hinh-xam-tuong-niem-thu-cung"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/y-tuong-hinh-xam-tuong-niem-thu-cung.webp"
 image_alt: "Ý tưởng hình xăm tưởng niệm thú cưng tại Lan Pink Tattoo TP.HCM"

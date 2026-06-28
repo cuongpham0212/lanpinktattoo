@@ -4,6 +4,7 @@ description: "Common tattoo questions answered by Lan Pink Tattoo in Ho Chi Minh
 slug: "faq"
 date: 2026-06-09
 draft: false
+translation_id: "faq_faq_faq"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp"
 

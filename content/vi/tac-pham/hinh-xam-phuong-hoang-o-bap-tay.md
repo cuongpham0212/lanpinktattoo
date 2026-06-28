@@ -3,7 +3,7 @@ title: "Hình Xăm Phượng Hoàng Ở Bắp Tay | Tác Phẩm Lan Pink Tattoo"
 slug: "hinh-xam-phuong-hoang-o-bap-tay"
 date: 2026-06-24
 draft: false
-translation_id: "phoenix_upper_arm_portfolio"
+translation_id: "phoenix_tattoo_portfolio"
 
 description: "Tác phẩm hình xăm phượng hoàng ở bắp tay được thiết kế riêng và thực hiện tại Lan Pink Tattoo, Quận 12, TP.HCM."
 

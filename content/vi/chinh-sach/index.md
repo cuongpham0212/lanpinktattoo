@@ -4,6 +4,7 @@ description: "Chính sách đặt lịch, bảo hành hình xăm, chăm sóc sau
 slug: "chinh-sach"
 date: 2026-06-13
 draft: false
+translation_id: "chinh-sach_policy"
 robots: "index, follow"
 ---
 

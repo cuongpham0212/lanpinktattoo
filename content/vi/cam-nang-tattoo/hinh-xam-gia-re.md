@@ -3,6 +3,7 @@ title: "Hình Xăm Giá Rẻ Có Thực Sự Tiết Kiệm? Những Điều Ít 
 slug: "hinh-xam-gia-re"
 date: 2026-06-22
 draft: false
+translation_id: "tattoo_pricing_guide_hinh-xam-gia-re"
 
 description: "Hình xăm giá rẻ có thật sự tiết kiệm? Tìm hiểu những ảnh hưởng đến độ bền màu, cảm giác đau, chất lượng đường nét và chi phí sửa hình về sau trước khi quyết định xăm."
 
