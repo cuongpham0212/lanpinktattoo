@@ -4,6 +4,7 @@ slug: "misa-cat-portrait-tattoo"
 
 date: 2026-06-14
 draft: false
+translation_id: "misa_cat_portrait_portfolio"
 
 description: "A custom cat portrait tattoo of Misa, created by Lan Pink Tattoo in Ho Chi Minh City. This personalized Pet Portrait Tattoo captures the details, expression, and memory of a beloved cat through Fine Line Tattoo and Black & Grey Tattoo techniques."
 

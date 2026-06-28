@@ -3,6 +3,7 @@ title: "Hình Xăm Chú Vẹt Tưởng Niệm – Custom Tattoo Design tại Lan
 description: "Câu chuyện về hình xăm chú vẹt Gonzo được thiết kế theo yêu cầu tại Lan Pink Ink, private tattoo studio và thợ xăm nữ tại Quận 12, TP.HCM."
 date: 2026-06-14
 draft: false
+translation_id: "gonzo_parrot_memorial_portfolio"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-vet-gonzo-thiet-ke-quan-12.webp"
 image_alt: "Hình xăm chú vẹt Gonzo thiết kế theo yêu cầu tại Lan Pink Ink Quận 12 TP.HCM"

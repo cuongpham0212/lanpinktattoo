@@ -3,6 +3,7 @@ title: "Vietnam Inspired Snake Tattoo | Custom Snake Tattoo Design at Lan Pink I
 description: "A Vietnam inspired snake tattoo created for an international client by Lan Pink Ink, a private tattoo studio and female tattoo artist in District 12, Ho Chi Minh City."
 date: 2026-06-15
 draft: false
+translation_id: "snake_vietnam_portfolio"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-ran-lan-pink-tattoo.webp"
 image_alt: "Vietnam inspired snake tattoo custom designed by Lan Pink Ink female tattoo artist in Ho Chi Minh City"

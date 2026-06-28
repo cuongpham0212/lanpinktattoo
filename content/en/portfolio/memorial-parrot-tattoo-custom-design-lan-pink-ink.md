@@ -3,6 +3,7 @@ title: "Parrot Memorial Tattoo for Gonzo | Custom Pet Memorial Tattoo at Lan Pin
 description: "A meaningful parrot memorial tattoo for Gonzo, custom designed by Lan Pink Ink, a private tattoo studio and female tattoo artist in District 12, Ho Chi Minh City."
 date: 2026-06-14
 draft: false
+translation_id: "gonzo_parrot_memorial_portfolio"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-vet-gonzo-thiet-ke-quan-12.webp"
 image_alt: "Parrot memorial tattoo for Gonzo custom designed at Lan Pink Ink District 12 Ho Chi Minh City"
