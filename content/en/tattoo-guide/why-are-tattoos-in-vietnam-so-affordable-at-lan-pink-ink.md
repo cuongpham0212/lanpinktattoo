@@ -1,6 +1,6 @@
 ---
 title: "Why Are Tattoos in Vietnam So Affordable? The Story Behind Lan Pink Ink Studio"
-date: 2026-06-28T15:00:00+07:00
+date: 2026-06-27
 draft: false
 
 description: "Learn why Lan Pink Ink Studio offers affordable tattoos near Tan Thoi Hiep Overpass, District 12, Ho Chi Minh City, while still using professional materials and a female tattoo artist."
