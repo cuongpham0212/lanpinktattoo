@@ -21,6 +21,11 @@ artwork_style: ""
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: ""
+seo_content_type: "guide"
+seo_cluster_id: "first_tattoo_guide"
+seo_cluster: "Kinh nghiệm xăm lần đầu"
+seo_intent: "Cẩm nang Tattoo"
+seo_target_keyword: "xăm hình lần đầu cần chuẩn bị gì"
 ---
 
 # Xăm hình lần đầu cần chuẩn bị gì? Kinh nghiệm cho người mới
@@ -153,3 +158,37 @@ Nếu bạn cần tư vấn mẫu hoặc báo giá, hãy tham khảo:
 - [Tác phẩm đã thực hiện](/gallery/)
 - [Giới thiệu về Lan Pink Tattoo](/gioi-thieu/)
 - [Liên hệ đặt lịch](/contact/)
+
+## Checklist nhanh trước buổi xăm đầu tiên
+
+Trước khi đến buổi hẹn, bạn nên chuẩn bị vài điều cơ bản để quá trình xăm thoải mái hơn:
+
+- Ăn nhẹ hoặc ăn đủ bữa trước khi xăm
+- Ngủ đủ giấc
+- Chuẩn bị hình tham khảo nếu có
+- Mặc trang phục dễ để lộ vùng cần xăm
+- Không uống rượu bia trước buổi xăm
+- Hỏi rõ về giá, vị trí xăm và cách chăm sóc sau xăm
+
+Nếu bạn chưa rõ mức đau ở từng vị trí, có thể đọc thêm bài [xăm hình có đau không](/cam-nang-tattoo/xam-hinh-co-dau-khong/).
+
+## Nên hỏi gì trước khi đặt lịch?
+
+Với người mới xăm lần đầu, đừng ngại hỏi trước về:
+
+- Kích thước hình phù hợp
+- Vị trí xăm dễ chịu hơn
+- Thời gian thực hiện
+- Giá dự kiến
+- Cách chăm sóc sau xăm
+- Trường hợp nào cần dặm lại
+
+Bạn có thể tham khảo thêm [bảng giá xăm hình tại Lan Pink Tattoo](/bang-gia/) để dễ chuẩn bị ngân sách trước khi đặt lịch.
+
+## Khi nào nên đặt lịch tư vấn?
+
+Nếu bạn còn phân vân giữa nhiều mẫu, chưa biết vị trí nào hợp hoặc sợ đau, tốt nhất nên đặt lịch tư vấn trước.
+
+Lan Pink Tattoo sẽ giúp bạn điều chỉnh ý tưởng theo cơ thể, kích thước và phong cách phù hợp thay vì chọn vội một mẫu trên mạng.
+
+👉 [Đặt lịch tư vấn tại Lan Pink](/dat-lich/)
