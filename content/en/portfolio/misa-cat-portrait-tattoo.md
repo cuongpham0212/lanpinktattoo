@@ -127,3 +127,15 @@ If you are looking for:
 - A tattoo artist in District 12, Ho Chi Minh City.
 
 Lan Pink Tattoo is ready to help you create a personal piece with long-lasting meaning.
+
+## Related Guides
+
+If you are considering a pet portrait or memorial tattoo, these guides may help:
+
+👉 [Pet Memorial Tattoo Ideas](/en/tattoo-guide/is-it-safe-to-get-a-tattoo-in-vietnam/)
+
+👉 [Tattoo Price List in Ho Chi Minh City](/en/pricing/)
+
+👉 [Tattoo Portfolio](/en/portfolio/)
+
+👉 [Book a Tattoo Consultation](/en/booking/)
