@@ -23,6 +23,11 @@ artwork_style: ""
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: ""
+seo_content_type: "guide"
+seo_cluster_id: "tattoo_pain"
+seo_cluster: "Mức độ đau khi xăm"
+seo_intent: "Cẩm nang Tattoo"
+seo_target_keyword: "xăm hình có đau không"
 ---
 
 # Xăm hình có đau không? Vị trí nào đau ít cho người mới

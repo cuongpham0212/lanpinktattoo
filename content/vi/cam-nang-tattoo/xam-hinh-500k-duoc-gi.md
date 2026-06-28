@@ -30,6 +30,11 @@ artwork_style: "Cẩm nang Tattoo"
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: "Giúp khách hiểu ngân sách 500.000đ có thể thực hiện được những kiểu tattoo nào."
+seo_content_type: "guide"
+seo_cluster_id: "tattoo_pricing"
+seo_cluster: "Bảng giá xăm hình"
+seo_intent: "Cẩm nang Tattoo"
+seo_target_keyword: "xăm hình 500k được gì"
 ---
 
 # Xăm Hình 500K Được Gì?

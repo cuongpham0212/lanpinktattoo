@@ -25,6 +25,11 @@ artwork_style: ""
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: ""
+seo_content_type: "guide"
+seo_cluster_id: "tattoo_pain"
+seo_cluster: "Mức độ đau khi xăm"
+seo_intent: "Cẩm nang Tattoo"
+seo_target_keyword: "kim đi nét và kim tô cái nào đau hơn"
 ---
 
 # Kim đi nét và kim tô cái nào đau hơn? Trải nghiệm thực tế khi xăm hình

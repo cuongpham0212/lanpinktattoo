@@ -32,6 +32,11 @@ artwork_style: "Cẩm nang Tattoo"
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: "Giúp khách hiểu đúng về chất lượng, độ bền và chi phí thực sự của một hình xăm."
+seo_content_type: "guide"
+seo_cluster_id: "tattoo_pricing"
+seo_cluster: "Bảng giá xăm hình"
+seo_intent: "Cẩm nang Tattoo"
+seo_target_keyword: "hình xăm giá rẻ"
 ---
 
 # Hình Xăm Giá Rẻ Có Thực Sự Tiết Kiệm?

@@ -33,6 +33,11 @@ artwork_style: "Cẩm nang Tattoo"
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: "Giúp khách hiểu đúng về giá xăm, chất lượng, an toàn và giá trị thật của một hình xăm."
+seo_content_type: "guide"
+seo_cluster_id: "tattoo_pricing"
+seo_cluster: "Bảng giá xăm hình"
+seo_intent: "Cẩm nang Tattoo"
+seo_target_keyword: "vì sao giá xăm ngày càng rẻ"
 ---
 
 # Vì sao giá xăm ngày càng rẻ?
