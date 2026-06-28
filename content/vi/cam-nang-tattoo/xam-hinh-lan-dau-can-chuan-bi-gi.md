@@ -16,7 +16,13 @@ categories:
 
 image_alt: "Xăm hình lần đầu cần chuẩn bị gì? Kinh nghiệm cho người mới"
 keywords:
-  - "Xăm hình lần đầu cần chuẩn bị gì? Kinh nghiệm cho người mới"
+  - "xăm hình lần đầu cần chuẩn bị gì"
+  - "kinh nghiệm xăm hình lần đầu"
+  - "chuẩn bị trước khi xăm"
+  - "xăm hình có đau không"
+  - "chăm sóc sau khi xăm"
+  - "đặt lịch xăm hình"
+  - "Lan Pink Tattoo"
 artwork_subject: ""
 artwork_style: ""
 artwork_position: ""
@@ -49,7 +55,7 @@ Một số phong cách phổ biến hiện nay:
 - Floral Tattoo
 - Lettering Tattoo
 
-Nếu chưa biết nên chọn phong cách nào, bạn có thể tham khảo trang [Phong cách xăm](/phong-cach-xam/) hoặc xem các tác phẩm thực tế tại [Gallery Lan Pink Tattoo](/gallery/).
+Nếu chưa biết nên chọn phong cách nào, bạn có thể tham khảo trang [Phong cách xăm](/phong-cach-xam/) hoặc xem các tác phẩm thực tế tại [Tác phẩm Lan Pink Tattoo](/tac-pham/).
 
 ---
 
@@ -156,8 +162,8 @@ Việc lựa chọn studio phù hợp, chuẩn bị sức khỏe tốt và hiể
 Nếu bạn cần tư vấn mẫu hoặc báo giá, hãy tham khảo:
 
 - [Bảng giá hình xăm](/bang-gia/)
-- [Tác phẩm đã thực hiện](/gallery/)
-- [Giới thiệu về Lan Pink Tattoo](/gioi-thieu/)
+- [Tác phẩm đã thực hiện](/tac-pham/)
+- [Giới thiệu về Lan Pink Tattoo](/ve-lan-pink-ink-studio/)
 - [Liên hệ đặt lịch](/contact/)
 
 ## Checklist nhanh trước buổi xăm đầu tiên
@@ -191,5 +197,14 @@ Bạn có thể tham khảo thêm [bảng giá xăm hình tại Lan Pink Tattoo]
 Nếu bạn còn phân vân giữa nhiều mẫu, chưa biết vị trí nào hợp hoặc sợ đau, tốt nhất nên đặt lịch tư vấn trước.
 
 Lan Pink Tattoo sẽ giúp bạn điều chỉnh ý tưởng theo cơ thể, kích thước và phong cách phù hợp thay vì chọn vội một mẫu trên mạng.
+
+👉 [Đặt lịch tư vấn tại Lan Pink](/dat-lich/)
+
+
+## Vì sao nên tư vấn trước khi xăm lần đầu?
+
+Với người mới, buổi tư vấn giúp bạn tránh chọn sai kích thước, sai vị trí hoặc chọn mẫu không phù hợp với cơ thể. Artist có thể giúp bạn chỉnh lại bố cục, độ dày nét, phong cách và vị trí xăm để hình lên da hài hòa hơn.
+
+Nếu bạn chưa chắc nên chọn mini tattoo, fine line hay một thiết kế custom, hãy chuẩn bị ý tưởng trước rồi trao đổi cùng Lan Pink trước khi chốt lịch.
 
 👉 [Đặt lịch tư vấn tại Lan Pink](/dat-lich/)

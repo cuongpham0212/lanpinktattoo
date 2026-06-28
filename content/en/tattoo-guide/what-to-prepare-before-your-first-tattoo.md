@@ -224,3 +224,12 @@ Learn more here:
 Or book a consultation:
 
 👉 [Book a Tattoo Consultation](/en/booking/)
+
+
+## Why Consultation Matters for Your First Tattoo
+
+For a first tattoo, consultation helps you avoid choosing the wrong size, placement or style. A tattoo artist can adjust the design so it fits your body better and still keeps the meaning you want.
+
+If you are unsure whether to choose a mini tattoo, fine line tattoo or a custom design, prepare your idea first and discuss it with Lan Pink before booking.
+
+👉 [Book a Tattoo Consultation](/en/booking/)
