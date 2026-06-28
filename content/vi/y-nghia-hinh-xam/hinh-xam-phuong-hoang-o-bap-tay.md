@@ -1,5 +1,5 @@
 ---
-seo_content_type: "Ý nghĩa"
+seo_content_type: "meaning"
 title: "Hình Xăm Phượng Hoàng Ở Bắp Tay Có Gì Đặc Biệt? Gợi Ý Thiết Kế Và Ý Nghĩa"
 slug: "hinh-xam-phuong-hoang-o-bap-tay"
 date: 2026-06-20
@@ -31,6 +31,10 @@ artwork_style: "Neo Traditional, Fine Line, Blackwork hoặc Color"
 artwork_position: "Bắp tay"
 artwork_client: "Nam và nữ yêu thích biểu tượng tái sinh, sức mạnh và sự trưởng thành"
 artwork_meaning: "Tái sinh, vượt qua thử thách, khởi đầu mới và khát vọng vươn lên"
+seo_cluster_id: "phoenix_tattoo"
+seo_cluster: "Hình xăm phượng hoàng"
+seo_intent: "Ý nghĩa hình xăm"
+seo_target_keyword: "ý nghĩa hình xăm phượng hoàng ở bắp tay"
 ---
 
 # Hình Xăm Phượng Hoàng Ở Bắp Tay Có Gì Đặc Biệt? Gợi Ý Thiết Kế Và Ý Nghĩa

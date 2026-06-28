@@ -37,6 +37,11 @@ artwork_style: ""
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: ""
+seo_content_type: "ideas"
+seo_cluster_id: "pet_portrait_tattoo"
+seo_cluster: "Hình xăm thú cưng"
+seo_intent: "Ý tưởng xăm"
+seo_target_keyword: "ý tưởng hình xăm mèo"
 ---
 
 # 100+ Ý Tưởng Hình Xăm Mèo Đẹp Và Ý Nghĩa Cho Người Yêu Thú Cưng
