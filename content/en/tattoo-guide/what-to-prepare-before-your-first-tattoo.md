@@ -1,5 +1,5 @@
 ---
-title: "What to Prepare Before Your First Tattoo | First Tattoo Preparation Guide"
+title: "What to Prepare Before Your First Tattoo"
 description: "A beginner-friendly guide for first tattoo preparation, including how to choose a design, what to eat, what to wear, pain expectations, safety, pricing and aftercare."
 slug: "what-to-prepare-before-your-first-tattoo"
 date: 2026-06-12
@@ -40,7 +40,7 @@ seo_content_type: "guide"
 seo_cluster_id: "first_tattoo_guide"
 seo_cluster: "First Tattoo Guide"
 seo_intent: "Tattoo Guide"
-seo_target_keyword: "what to prepare before first tattoo"
+seo_target_keyword: "what to prepare before your first tattoo"
 ---
 
 # What to Prepare Before Your First Tattoo
