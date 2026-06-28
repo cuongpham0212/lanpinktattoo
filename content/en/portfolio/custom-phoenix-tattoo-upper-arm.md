@@ -31,6 +31,12 @@ artwork_style: "Custom Tattoo Design"
 artwork_position: "Upper Arm"
 artwork_client: "Male International Client"
 artwork_meaning: "A symbol of rebirth, resilience, and embracing a new chapter in life."
+
+seo_content_type: "portfolio"
+seo_cluster_id: "phoenix_tattoo"
+seo_cluster: "Phoenix Tattoo"
+seo_intent: "Portfolio"
+seo_target_keyword: "custom phoenix tattoo upper arm"
 ---
 
 # Custom Phoenix Tattoo on the Upper Arm

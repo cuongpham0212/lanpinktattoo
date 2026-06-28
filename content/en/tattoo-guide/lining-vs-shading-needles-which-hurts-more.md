@@ -25,6 +25,12 @@ artwork_style: ""
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: ""
+
+seo_content_type: "guide"
+seo_cluster_id: "tattoo_pain"
+seo_cluster: "Tattoo Pain Guide"
+seo_intent: "Tattoo Guide"
+seo_target_keyword: "lining needles vs shading needles which hurts more"
 ---
 
 # Lining Needles vs Shading Needles: Which One Hurts More?

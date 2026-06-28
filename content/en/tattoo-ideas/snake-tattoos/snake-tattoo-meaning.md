@@ -35,6 +35,12 @@ artwork_style: ""
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: ""
+
+seo_content_type: "meaning"
+seo_cluster_id: "snake_tattoo"
+seo_cluster: "Snake Tattoo"
+seo_intent: "Tattoo Ideas"
+seo_target_keyword: "snake tattoo meaning"
 ---
 
 # Snake Tattoo Meaning And Beautiful Design Ideas

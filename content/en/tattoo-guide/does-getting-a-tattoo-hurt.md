@@ -23,6 +23,12 @@ artwork_style: ""
 artwork_position: ""
 artwork_client: ""
 artwork_meaning: ""
+
+seo_content_type: "guide"
+seo_cluster_id: "tattoo_pain"
+seo_cluster: "Tattoo Pain Guide"
+seo_intent: "Tattoo Guide"
+seo_target_keyword: "does getting a tattoo hurt"
 ---
 
 # Does Getting a Tattoo Hurt? Best Tattoo Placements for Beginners
