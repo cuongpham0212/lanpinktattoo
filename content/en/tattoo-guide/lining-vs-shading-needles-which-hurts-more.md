@@ -4,7 +4,7 @@ description: "Do lining needles hurt more than shading needles? Learn the differ
 slug: "lining-vs-shading-needles-which-hurts-more"
 date: 2026-06-12
 draft: false
-translation_id: "tattoo_pain_guide_lining-vs-shading-needles-which-hurts-more"
+translation_id: "tattoo_pain_needles_guide"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/ran-mini-cotay.webp"
 

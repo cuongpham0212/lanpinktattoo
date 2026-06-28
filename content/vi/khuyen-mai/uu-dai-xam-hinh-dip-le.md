@@ -4,7 +4,7 @@ title: "Ưu Đãi Xăm Hình Dịp Lễ Tại Lan Pink Tattoo"
 slug: "uu-dai-xam-hinh-dip-le"
 date: 2026-06-25
 draft: false
-translation_id: "promotion_promotion_uu-dai-xam-hinh-dip-le"
+translation_id: "holiday_promotion_page"
 
 description: "Chương trình ưu đãi xăm hình dịp lễ tại Lan Pink Tattoo dành cho khách hàng muốn thực hiện Mini Tattoo, Fine Line Tattoo hoặc thiết kế hình xăm cá nhân hóa tại TP.HCM."
 image: ""

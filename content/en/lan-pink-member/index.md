@@ -2,7 +2,7 @@
 title: "Lan Pink Membership Program"
 slug: "lan-pink-member"
 draft: false
-translation_id: "lan-pink-member_member_lan-pink-member"
+translation_id: "member_page"
 description: "Check your membership tier, available points, and active vouchers at Lan Pink Tattoo."
 ----------------------------------------------------------------------------------------------------
 

@@ -2,7 +2,7 @@
 title: "Liên hệ Lan Pink Ink"
 description: "Liên hệ đặt lịch xăm tại Quận 12, TP.HCM. Tư vấn miễn phí qua Instagram, Facebook hoặc đến trực tiếp studio."
 layout: "contact"
-translation_id: "contact_contact_contact"
+translation_id: "contact_page"
 ---
 
 ## Ghé Studio Xăm Của Lan Pink

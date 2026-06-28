@@ -3,7 +3,7 @@ title: "Về Lan Pink Tattoo Studio"
 description: "Lan Pink Tattoo, còn được biết đến với tên Lan Pink Ink, là không gian xăm riêng tư tại TP.HCM, chuyên Fine Line Tattoo, Mini Tattoo, Blackwork và thiết kế hình xăm theo yêu cầu."
 slug: "ve-lan-pink-ink-studio"
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp"
-translation_id: "ve-lan-pink-ink-studio_about"
+translation_id: "studio_about_page"
 ---
 
 # Lan Pink Tattoo – Private Tattoo Studio tại TP.HCM

@@ -6,7 +6,7 @@ slug: "tattoo-price-list-ho-chi-minh-city"
 
 date: 2026-06-11
 draft: false
-translation_id: "tattoo-price-list-ho-chi-minh-city_pricing"
+translation_id: "pricing_page"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-price-list-ho-chi-minh-city.webp"
 

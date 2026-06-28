@@ -2,7 +2,7 @@
 title: "Chương trình thành viên Lan Pink"
 slug: "lan-pink-member"
 draft: false
-translation_id: "lan-pink-member_member_lan-pink-member"
+translation_id: "member_page"
 description: "Tra cứu hạng thành viên, điểm khả dụng và voucher khả dụng tại Lan Pink Tattoo."
 ---
 

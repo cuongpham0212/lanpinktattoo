@@ -6,7 +6,7 @@ slug: "lan-pink-tattoo-artist"
 
 date: 2026-06-17
 draft: false
-translation_id: "lan-pink-tattoo-artist_artist_lan-pink-tattoo-artist"
+translation_id: "artist_profile_page"
 
 tags:
   - lan pink là ai

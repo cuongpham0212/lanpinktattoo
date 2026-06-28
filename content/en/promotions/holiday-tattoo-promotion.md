@@ -4,7 +4,7 @@ title: "Holiday Tattoo Promotion At Lan Pink Tattoo"
 slug: "holiday-tattoo-promotion"
 date: 2026-06-25
 draft: false
-translation_id: "promotion_promotion_holiday-tattoo-promotion"
+translation_id: "holiday_promotion_page"
 
 description: "A limited-time holiday tattoo promotion at Lan Pink Tattoo for clients interested in custom tattoos, fine line tattoos, mini tattoos and personal tattoo designs in Ho Chi Minh City."
 image: ""
