@@ -43,9 +43,6 @@ seo_cluster: "Chương trình khuyến mãi"
 seo_intent: "Khuyến mãi"
 seo_target_keyword: "khuyến mãi xăm hình"
 ---
-
-# Ưu Đãi Xăm Hình Dịp Lễ Tại Lan Pink Tattoo
-
 Đây là trang mẫu cho chương trình khuyến mãi tại Lan Pink Tattoo.
 
 Trong thời gian chương trình còn hiệu lực, bài viết này có thể được hiển thị dưới dạng popup để giới thiệu nhanh ưu đãi cho khách truy cập website.

@@ -35,9 +35,6 @@ artwork_meaning: ""
 keywords:
   - "Snake Tattoo FAQ: Common Questions Before Getting Tattooed"
 ---
-
-# Snake Tattoo FAQ: Common Questions Before Getting Tattooed
-
 ## What Does A Snake Tattoo Mean?
 
 Snake tattoos commonly symbolize:

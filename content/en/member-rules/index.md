@@ -23,9 +23,6 @@ keywords:
   - "tattoo birthday voucher"
   - "tattoo loyalty program"
 ---
-
-# Lan Pink Tattoo Membership Points Rules
-
 The **Lan Pink Tattoo** membership program is designed as a way to maintain long-term connection with clients who have trusted and chosen the studio. Each tattoo is not only a completed service, but also a personal milestone, a memory, and part of the journey shared between the client and Lan Pink.
 
 For that reason, the Lan Pink Tattoo points program is not open for public self-registration on the website. Members are registered by the studio after completing their first tattoo service and payment at any service value. This helps keep member information accurate, point accumulation transparent, and benefits more carefully managed.

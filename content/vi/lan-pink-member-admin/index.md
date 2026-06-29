@@ -5,9 +5,6 @@ draft: false
 translation_id: "member_admin_page"
 robots: "noindex, nofollow"
 ---
-
-# Khu vực quản trị thành viên
-
 Trang này dành cho BQT Lan Pink Tattoo mở nhanh app quản trị thành viên trên máy local.
 
 <p>

@@ -16,8 +16,5 @@ seo_cluster: "Tattoo promotions"
 seo_intent: "Promotion"
 seo_target_keyword: "tattoo promotion ho chi minh city"
 ---
-
-# Tattoo Promotions
-
 Explore seasonal tattoo promotions, limited-time offers and special deals at Lan Pink Tattoo.
 

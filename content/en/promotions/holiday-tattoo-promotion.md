@@ -43,9 +43,6 @@ seo_cluster: "Tattoo promotions"
 seo_intent: "Promotion"
 seo_target_keyword: "tattoo promotion ho chi minh city"
 ---
-
-# Holiday Tattoo Promotion At Lan Pink Tattoo
-
 This is a sample promotion page for Lan Pink Tattoo.
 
 During the active campaign period, this promotion can be displayed as a hero promotion on the website to introduce the offer quickly to visitors.

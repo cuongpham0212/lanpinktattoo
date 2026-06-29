@@ -74,3 +74,10 @@ public/admin-booking/
 content/admin-booking/
 content/vi/admin-booking/
 content/en/admin-booking/
+
+# Local/private admin booking - do not publish
+admin-booking/
+public/admin-booking/
+content/admin-booking/
+content/vi/admin-booking/
+content/en/admin-booking/

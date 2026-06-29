@@ -18,9 +18,6 @@ tags:
 categories:
   - FAQ
 ---
-
-# FAQ Xăm Hình | Câu hỏi thường gặp về Tattoo
-
 Bạn đang chuẩn bị cho hình xăm đầu tiên hoặc muốn tìm hiểu kỹ hơn trước khi đặt lịch? Dưới đây là những câu hỏi mà Lan Pink Tattoo thường nhận được từ khách hàng.
 
 Nếu bạn là người mới, hãy đọc thêm bài viết: [Xăm hình lần đầu cần chuẩn bị gì?](/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/)

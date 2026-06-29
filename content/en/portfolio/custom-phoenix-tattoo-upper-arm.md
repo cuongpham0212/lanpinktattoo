@@ -39,9 +39,6 @@ seo_cluster: "Phoenix Tattoo"
 seo_intent: "Portfolio"
 seo_target_keyword: "custom phoenix tattoo upper arm"
 ---
-
-# Custom Phoenix Tattoo Upper Arm
-
 Some tattoos are admired for their technical execution, while others become memorable because of the story behind them. This phoenix tattoo on the upper arm belongs to the second category. It represents resilience, growth, and the courage to leave the past behind while moving confidently toward a new beginning.
 
 ![Custom phoenix tattoo on the upper arm by Lan Pink Tattoo in Ho Chi Minh City](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-phuong-hoang-bap-tay-lan-pink-tattoo.webp)

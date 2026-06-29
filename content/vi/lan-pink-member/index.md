@@ -5,9 +5,6 @@ draft: false
 translation_id: "member_page"
 description: "Tra cứu hạng thành viên, điểm khả dụng và voucher khả dụng tại Lan Pink Tattoo."
 ---
-
-# Chương trình thành viên Lan Pink
-
 Danh sách này chỉ dùng để khách tra cứu hạng thành viên, điểm khả dụng và số voucher khả dụng. Thành viên được Lan Pink Tattoo đăng ký thủ công sau khi khách sử dụng dịch vụ và hoàn tất thanh toán tại studio.
 
 <div style="margin:18px 0 24px;padding:16px 18px;border:1px solid #f7b6d6;border-radius:18px;background:#fff7fb;">

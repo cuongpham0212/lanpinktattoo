@@ -7,9 +7,6 @@ draft: false
 translation_id: "service_policy_page"
 robots: "index, follow"
 ---
-
-# Chính sách dịch vụ tại Lan Pink Tattoo
-
 Cảm ơn bạn đã quan tâm đến Lan Pink Tattoo.
 
 Để đảm bảo trải nghiệm tốt nhất cho khách hàng và giúp quá trình tư vấn, thiết kế và thực hiện hình xăm diễn ra thuận lợi, vui lòng tham khảo các chính sách dưới đây trước khi sử dụng dịch vụ.

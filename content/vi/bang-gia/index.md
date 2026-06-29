@@ -18,9 +18,6 @@ tags:
 categories:
   - Bảng giá
 ---
-
-# Bảng giá xăm hình tại TP.HCM mới nhất 2026
-
 Nếu bạn đang tìm **bảng giá xăm hình tại TP.HCM**, đặc biệt là các phong cách như **Mini Tattoo**, **Fine Line Tattoo**, **Blackwork** hoặc hình xăm thiết kế riêng, Lan Pink Tattoo Studio sẽ giúp bạn tham khảo chi phí rõ ràng trước khi đặt lịch.
 
 Tại Lan Pink Tattoo, mỗi hình xăm được tư vấn dựa trên kích thước, vị trí xăm, độ chi tiết và phong cách mong muốn. Vì vậy bảng giá dưới đây mang tính tham khảo, giúp bạn dễ dự trù ngân sách trước khi trao đổi mẫu cụ thể.

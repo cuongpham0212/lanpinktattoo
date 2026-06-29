@@ -21,9 +21,6 @@ keywords:
   - "Lan Pink Member rewards"
   - "earn points by referring friends"
 ---
-
-# Friend Referral Rewards Program
-
 At **Lan Pink Tattoo**, loyal clients are more than customers. They are people who trust our studio enough to recommend it to friends, family members, and others who share a passion for tattoos.
 
 To recognize that support, **Lan Pink Member** offers a **Friend Referral Rewards Program** for members.

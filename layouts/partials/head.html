@@ -1,12 +1,14 @@
 {{ $title := "" }}
 {{ if .IsHome }}
   {{ if eq .Language.Lang "vi" }}
-    {{ $title = "Lan Pink Tattoo | Lan Pink Ink - Private Tattoo Studio TP.HCM" }}
+    {{ $title = "Lan Pink Tattoo | Private Tattoo Studio TP.HCM" }}
   {{ else }}
-    {{ $title = "Lan Pink Tattoo | Lan Pink Ink - Private Tattoo Studio in Ho Chi Minh City" }}
+    {{ $title = "Lan Pink Tattoo | Private Tattoo Studio HCMC" }}
   {{ end }}
 {{ else }}
-  {{ $title = printf "%s | %s" .Title .Site.Title }}
+  {{ $pageTitle := .Params.seo_title | default .Title }}
+  {{ $title = printf "%s | Lan Pink Tattoo" $pageTitle }}
+  {{ $title = $title | plainify | truncate 60 }}
 {{ end }}
 
 {{ $description := "" }}

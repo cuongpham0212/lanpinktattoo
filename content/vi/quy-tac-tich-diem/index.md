@@ -23,9 +23,6 @@ keywords:
   - "voucher sinh nhật tattoo"
   - "chương trình khách hàng thân thiết tattoo"
 ---
-
-# Quy Tắc Tích Điểm Thành Viên Lan Pink Tattoo
-
 Chương trình thành viên của **Lan Pink Tattoo** được xây dựng như một cách giữ kết nối lâu dài với những khách hàng đã tin tưởng lựa chọn studio. Mỗi hình xăm không chỉ là một dịch vụ đã hoàn thành, mà còn là một dấu mốc cá nhân, một kỷ niệm và một phần trong hành trình đồng hành giữa khách hàng với Lan Pink.
 
 Vì vậy, chương trình tích điểm tại Lan Pink Tattoo không mở đăng ký đại trà trên website. Thành viên sẽ được studio đăng ký sau khi khách hoàn thành tác phẩm đầu tiên ở tiệm và hoàn tất thanh toán với bất kỳ gía tiền nào. Cách làm này giúp thông tin thành viên luôn chính xác, điểm tích lũy minh bạch và quyền lợi được quản lý cẩn thận hơn.

@@ -18,9 +18,6 @@ tags:
 categories:
   - FAQ
 ---
-
-# Tattoo FAQ | Frequently Asked Questions
-
 Have questions before getting a tattoo? This FAQ covers the most common things clients ask Lan Pink Tattoo, from pain level and pricing to aftercare, healing time, touch-ups, and booking.
 
 If this is your first tattoo, you may also want to read our [first tattoo preparation guide](/en/tattoo-guide/what-to-prepare-before-your-first-tattoo/) before your appointment.

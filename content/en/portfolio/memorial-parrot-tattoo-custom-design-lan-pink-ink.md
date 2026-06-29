@@ -49,9 +49,6 @@ seo_cluster: "Pet Memorial Tattoo"
 seo_intent: "Portfolio"
 seo_target_keyword: "parrot memorial tattoo"
 ---
-
-# Parrot Memorial Tattoo for Gonzo
-
 Every tattoo carries its own story. For this piece, the story began with a male international client who was traveling in Vietnam and wanted to create a meaningful **parrot memorial tattoo** in memory of his special companion.
 
 That companion was Gonzo, a Green Cheek Conure who had shared many meaningful moments with him. After Gonzo passed away, the client wanted a wrist tattoo that he could see every day, as a way to keep those memories and that special bond close.

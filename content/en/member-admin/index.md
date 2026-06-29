@@ -5,9 +5,6 @@ draft: false
 translation_id: "member_admin_page"
 robots: "noindex, nofollow"
 ---
-
-# Member Administration Area
-
 This page allows the Lan Pink Tattoo management team to quickly launch the local member management application.
 
 <p>

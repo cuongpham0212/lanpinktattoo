@@ -21,9 +21,6 @@ keywords:
   - "Lan Pink Member nhận thưởng"
   - "tích điểm giới thiệu bạn bè"
 ---
-
-# Chương Trình Giới Thiệu Bạn Bè Nhận Thưởng
-
 Tại **Lan Pink Tattoo**, những khách hàng thân thiết không chỉ là người sử dụng dịch vụ, mà còn là những người đã tin tưởng giới thiệu studio đến bạn bè, người thân và những người có cùng sở thích xăm hình.
 
 Để ghi nhận sự đồng hành đó, **Lan Pink Member** có chương trình **Giới Thiệu Bạn Bè Nhận Thưởng** dành cho thành viên.

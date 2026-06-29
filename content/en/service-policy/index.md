@@ -7,9 +7,6 @@ draft: false
 translation_id: "service_policy_page"
 robots: "index, follow"
 ---
-
-# Service Policy at Lan Pink Tattoo
-
 Thank you for your interest in Lan Pink Tattoo.
 
 To ensure the best experience for every client and help the consultation, design, and tattoo process run smoothly, please take a moment to review the policies below before using our services.

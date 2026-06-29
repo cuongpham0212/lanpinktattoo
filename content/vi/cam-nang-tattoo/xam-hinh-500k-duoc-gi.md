@@ -37,9 +37,6 @@ seo_cluster: "Bảng giá xăm hình"
 seo_intent: "Cẩm nang Tattoo"
 seo_target_keyword: "xăm hình 500k được gì"
 ---
-
-# Xăm Hình 500K Được Gì?
-
 Một trong những câu hỏi tụi mình nhận được nhiều nhất tại Lan Pink Tattoo là:
 
 > Em có khoảng 500.000đ thì xăm được gì?

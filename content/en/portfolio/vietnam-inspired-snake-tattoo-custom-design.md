@@ -50,9 +50,6 @@ seo_cluster: "Snake Tattoo"
 seo_intent: "Portfolio"
 seo_target_keyword: "Vietnam inspired snake tattoo"
 ---
-
-# Vietnam Inspired Snake Tattoo
-
 This **Vietnam inspired snake tattoo** was created for an international male client who spent an extended period traveling across Vietnam.
 
 During his journey, he experienced the country's culture, food, landscapes and the warmth of its people. He wanted a custom tattoo that could preserve that personal connection in a permanent and symbolic way.

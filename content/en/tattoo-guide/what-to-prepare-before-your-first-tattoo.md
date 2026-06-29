@@ -43,9 +43,6 @@ seo_cluster: "First Tattoo Guide"
 seo_intent: "Tattoo Guide"
 seo_target_keyword: "what to prepare before your first tattoo"
 ---
-
-# What to Prepare Before Your First Tattoo
-
 Getting your first tattoo can be exciting and a little nerve-racking at the same time. Many people worry about pain, aftercare, pricing or simply do not know what to expect before their appointment.
 
 This guide will help you prepare properly and enjoy a more comfortable tattoo experience.

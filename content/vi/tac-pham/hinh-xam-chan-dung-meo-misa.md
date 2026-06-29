@@ -49,9 +49,6 @@ seo_cluster: "Hình xăm thú cưng"
 seo_intent: "Tác phẩm"
 seo_target_keyword: "hình xăm chân dung mèo"
 ---
-
-# Hình Xăm Chân Dung Mèo Misa – Ký Ức Về Người Bạn Đặc Biệt
-
 ![Hình xăm chân dung mèo Misa thực hiện bởi Lan Pink Tattoo Lan Pink Ink tại TP.HCM](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-chan-dung-meo-misa.webp)
 
 *Tác phẩm hình xăm chân dung mèo Misa được thiết kế và thực hiện bởi Lan Pink – nữ tattoo artist đứng sau thương hiệu Lan Pink Tattoo tại TP.HCM. Thiết kế Cat Portrait Tattoo được cá nhân hóa nhằm lưu giữ hình ảnh và ký ức về thú cưng bằng phong cách Fine Line Tattoo kết hợp Black & Grey Tattoo.*
