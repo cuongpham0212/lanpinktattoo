@@ -34,7 +34,11 @@
 {{ $ogImages := partial "image-variants.html" (dict "src" $ogImage) }}
 
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+{{ if .IsHome }}
+<link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/maori-tattoo-restoration-half-back-shoulder-cover.webp" fetchpriority="high">
+{{ end }}
 <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 
 <title>{{ $title }}</title>
