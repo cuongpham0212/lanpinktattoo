@@ -2,16 +2,12 @@
 {{- $data := index site.Data.lanpink_images $slug -}}
 
 <style>
-.lp-json-gallery {
-  margin: 30px auto 38px;
-}
-
+.lp-json-gallery { margin: 30px auto 38px; }
 .lp-json-gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
 }
-
 .lp-json-gallery-grid button {
   display: block;
   width: 100%;
@@ -23,12 +19,10 @@
   cursor: zoom-in;
   transition: .22s ease;
 }
-
 .lp-json-gallery-grid button:hover {
   transform: translateY(-5px);
   box-shadow: 0 22px 42px rgba(177,62,119,.17);
 }
-
 .lp-json-gallery-grid img {
   display: block;
   width: 100%;
@@ -38,7 +32,6 @@
   object-position: center;
   border-radius: 16px;
 }
-
 .lp-gallery-lightbox {
   position: fixed !important;
   inset: 0 !important;
@@ -48,11 +41,7 @@
   justify-content: center;
   background: rgba(18,8,14,.92);
 }
-
-.lp-gallery-lightbox.is-open {
-  display: flex;
-}
-
+.lp-gallery-lightbox.is-open { display: flex; }
 .lp-gallery-lightbox-img {
   display: block;
   user-select: none;
@@ -66,7 +55,6 @@
   border-radius: 18px;
   box-shadow: 0 28px 80px rgba(0,0,0,.46);
 }
-
 .lp-gallery-close,
 .lp-gallery-prev,
 .lp-gallery-next,
@@ -81,7 +69,6 @@
   color: #7a224c;
   cursor: pointer;
 }
-
 .lp-gallery-close {
   top: 18px;
   right: 22px;
@@ -89,7 +76,6 @@
   height: 46px;
   font-size: 32px;
 }
-
 .lp-gallery-prev,
 .lp-gallery-next {
   top: 50%;
@@ -98,10 +84,8 @@
   transform: translateY(-50%);
   font-size: 34px;
 }
-
 .lp-gallery-prev { left: 22px; }
 .lp-gallery-next { right: 22px; }
-
 .lp-gallery-zoom-controls {
   position: fixed !important;
   top: 18px;
@@ -111,7 +95,6 @@
   display: flex;
   gap: 10px;
 }
-
 .lp-gallery-zoom-in,
 .lp-gallery-zoom-out,
 .lp-gallery-zoom-reset {
@@ -120,17 +103,12 @@
   font-size: 22px;
   font-weight: 800;
 }
-
 .lp-gallery-zoom-reset {
   width: auto;
   padding: 0 14px;
   font-size: 14px;
 }
-
-.lp-gallery-lightbox-img.is-zoomed {
-  cursor: grab;
-}
-
+.lp-gallery-lightbox-img.is-zoomed { cursor: grab; }
 .lp-gallery-counter {
   position: fixed !important;
   top: 24px;
@@ -139,18 +117,11 @@
   color: #fff;
   font-weight: 700;
 }
-
 @media (max-width: 900px) {
-  .lp-json-gallery-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+  .lp-json-gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
-
 @media (max-width: 560px) {
-  .lp-json-gallery-grid {
-    grid-template-columns: 1fr;
-  }
-
+  .lp-json-gallery-grid { grid-template-columns: 1fr; }
   .lp-gallery-lightbox-img {
     max-width: 92vw;
     max-height: 74vh;
@@ -159,13 +130,24 @@
 </style>
 
 {{- if $data }}
-<section class="lp-json-gallery" aria-label="{{ $data.alt | default $slug }}">
+<section class="lp-json-gallery" aria-label="{{ $data.keyword | default $slug }}">
   {{- with $data.images }}
   <div class="lp-json-gallery-grid">
-    {{- range $index, $src := . }}
-    <button type="button" class="lp-gallery-open" data-src="{{ $src | safeURL }}" data-index="{{ $index }}">
-      <img src="{{ $src | safeURL }}" alt="{{ $data.alt | default $slug }}" loading="lazy">
-    </button>
+    {{- range $index, $item := . }}
+      {{- $src := "" -}}
+      {{- $alt := $data.keyword | default $slug -}}
+      {{- if reflect.IsMap $item -}}
+        {{- $src = $item.src -}}
+        {{- with $item.alt }}{{- $alt = . -}}{{- end -}}
+      {{- else -}}
+        {{- $src = $item -}}
+      {{- end -}}
+
+      {{- if $src }}
+      <button type="button" class="lp-gallery-open" data-src="{{ $src | safeURL }}" data-index="{{ $index }}">
+        <img src="{{ $src | safeURL }}" alt="{{ $alt }}" loading="lazy">
+      </button>
+      {{- end }}
     {{- end }}
   </div>
   {{- end }}
@@ -186,9 +168,10 @@
 
 <script>
 (function () {
-  const gallery = document.currentScript.previousElementSibling.previousElementSibling;
+  const script = document.currentScript;
+  const lightbox = script.previousElementSibling;
+  const gallery = lightbox.previousElementSibling;
   const buttons = Array.from(gallery.querySelectorAll('.lp-gallery-open'));
-  const lightbox = document.currentScript.previousElementSibling;
 
   document.body.appendChild(lightbox);
 
@@ -235,8 +218,9 @@
   function show(index) {
     current = (index + buttons.length) % buttons.length;
     const btn = buttons[current];
+    const thumb = btn.querySelector('img');
     img.src = btn.dataset.src;
-    img.alt = btn.querySelector('img')?.alt || '';
+    img.alt = thumb ? thumb.alt : '';
     counter.textContent = (current + 1) + ' / ' + buttons.length;
     resetZoom();
   }
@@ -274,10 +258,7 @@
   });
 
   img.setAttribute('draggable', 'false');
-
-  img.addEventListener('dragstart', function (e) {
-    e.preventDefault();
-  });
+  img.addEventListener('dragstart', function (e) { e.preventDefault(); });
 
   img.addEventListener('pointerdown', function (e) {
     if (zoom <= 1) return;

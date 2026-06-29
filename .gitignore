@@ -66,3 +66,4 @@ static/admin-local/
 # Local-only booking admin
 tools/
 static/admin-local/
+hugo_image.sh
