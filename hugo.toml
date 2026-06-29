@@ -33,19 +33,24 @@ enableRobotsTXT = true
       weight = 3
 
     [[languages.vi.menu.main]]
+      name = "Phong cách xăm"
+      pageRef = "/phong-cach-xam"
+      weight = 4
+
+    [[languages.vi.menu.main]]
       name = "Cẩm nang"
       pageRef = "/cam-nang-tattoo"
-      weight = 4
+      weight = 5
 
     [[languages.vi.menu.main]]
       name = "Bảng giá"
       pageRef = "/bang-gia"
-      weight = 5
+      weight = 6
 
     [[languages.vi.menu.main]]
       name = "Thành viên"
       pageRef = "/quy-tac-tich-diem"
-      weight = 6
+      weight = 7
 
 
 
@@ -75,19 +80,24 @@ enableRobotsTXT = true
       weight = 3
 
     [[languages.en.menu.main]]
+      name = "Tattoo Styles"
+      pageRef = "/tattoo-styles"
+      weight = 4
+
+    [[languages.en.menu.main]]
       name = "Guide"
       pageRef = "/tattoo-guide"
-      weight = 4
+      weight = 5
 
     [[languages.en.menu.main]]
       name = "Pricing"
       pageRef = "/pricing"
-      weight = 5
+      weight = 6
 
     [[languages.en.menu.main]]
       name = "Rewards"
       pageRef = "/lan-pink-member"
-      weight = 6
+      weight = 7
 
 
 [markup]
