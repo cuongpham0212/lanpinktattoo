@@ -55,6 +55,7 @@ seo_target_keyword: "cat portrait tattoo"
 
 *A custom cat portrait tattoo of Misa, designed and created by Lan Pink – the female tattoo artist behind Lan Pink Tattoo (Lan Pink Ink) in Ho Chi Minh City. This personalized Cat Portrait Tattoo preserves the image and memory of a beloved companion through Fine Line Tattoo and Black & Grey Tattoo techniques.*
 
+# Misa Cat Portrait Tattoo – A Permanent Memory of a Special Companion
 
 Some tattoos are more than artwork on skin.
 

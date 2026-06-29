@@ -50,6 +50,7 @@ keywords:
 
 *Official price guide from Lan Pink Tattoo, also known as Lan Pink Ink, a private tattoo studio near Tan Thoi Hiep Overpass, District 12, Ho Chi Minh City, offering Mini Tattoo, Fine Line Tattoo, Japanese Tattoo, Blackwork Tattoo and Cosmetic Tattoo services.*
 
+# Tattoo Price List in Ho Chi Minh City 2026
 
 If you are looking for a clear and transparent **tattoo price list in Ho Chi Minh City**, Lan Pink Tattoo provides reference pricing for popular styles including **Mini Tattoo**, **Fine Line Tattoo**, **Japanese Tattoo**, **Blackwork Tattoo**, **Cosmetic Tattoo** and custom tattoo designs.
 

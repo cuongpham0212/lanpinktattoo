@@ -6,7 +6,6 @@ translation_id: "member_page"
 description: "Check your membership tier, available points, and active vouchers at Lan Pink Tattoo."
 ----------------------------------------------------------------------------------------------------
 
-# Lan Pink Membership Program
 
 This page allows customers to check their membership tier, available points, and active vouchers. Members are registered manually by Lan Pink Tattoo after completing a service and payment at the studio.
 
