@@ -97,18 +97,12 @@
      Other files load separately to avoid @import issue
 ========================= */}}
 
-{{ $mainCSS := resources.Get "css/main.css" }}
-{{ if $mainCSS }}
-  {{ $mainCSS = $mainCSS | css.PostCSS }}
-  {{ if hugo.IsProduction }}
-    {{ $mainCSS = $mainCSS | minify | fingerprint }}
-  {{ end }}
-  <link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $mainCSS.Data.Integrity }}"{{ end }}>
-{{ else }}
-  {{ errorf "Không tìm thấy assets/css/main.css" }}
-{{ end }}
+{{/* =========================
+     CSS BUNDLE - PageSpeed fix
+========================= */}}
 
 {{ $cssFiles := slice
+  "css/main.css"
   "css/layout.css"
   "css/custom.css"
   "css/contact.css"
@@ -127,18 +121,24 @@
   "css/components/article.css"
 }}
 
+{{ $cssResources := slice }}
 {{ range $cssFiles }}
   {{ $file := resources.Get . }}
   {{ if $file }}
-    {{ if hugo.IsProduction }}
-      {{ $file = $file | minify | fingerprint }}
-      <link rel="stylesheet" href="{{ $file.RelPermalink }}" integrity="{{ $file.Data.Integrity }}">
-    {{ else }}
-      <link rel="stylesheet" href="{{ $file.RelPermalink }}">
-    {{ end }}
+    {{ $cssResources = $cssResources | append $file }}
   {{ else }}
     {{ warnf "Không tìm thấy CSS asset: %s" . }}
   {{ end }}
+{{ end }}
+
+{{ if gt (len $cssResources) 0 }}
+  {{ $bundle := $cssResources | resources.Concat "css/lanpink-bundle.css" | css.PostCSS }}
+  {{ if hugo.IsProduction }}
+    {{ $bundle = $bundle | minify | fingerprint }}
+  {{ end }}
+  <link rel="stylesheet" href="{{ $bundle.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $bundle.Data.Integrity }}"{{ end }}>
+{{ else }}
+  {{ errorf "Không tìm thấy CSS nào để build bundle" }}
 {{ end }}
 
 <link rel="icon" type="image/png" href="/favicon.png">
