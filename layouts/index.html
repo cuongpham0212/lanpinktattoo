@@ -68,7 +68,7 @@
       {{ range first 2 ((where site.RegularPages "Section" $portfolioSection).ByDate.Reverse) }}
         <a class="lp-mobile-photo-card" href="{{ .RelPermalink }}">
           {{ with .Params.image }}
-            <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="eager" fetchpriority="high" decoding="async">
+            <img src="{{ . }}" alt="{{ $.Title }}" loading="eager" fetchpriority="high" decoding="async">
           {{ end }}
           <span>{{ .Title }}</span>
         </a>
@@ -105,7 +105,7 @@
       {{ range first 12 ((where site.RegularPages "Section" $gallerySection).ByDate.Reverse) }}
         <a class="lp-mobile-photo-card" href="{{ .RelPermalink }}">
           {{ with .Params.image }}
-            <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" decoding="async">
+            <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" decoding="async">
           {{ end }}
           <span>{{ .Title }}</span>
         </a>

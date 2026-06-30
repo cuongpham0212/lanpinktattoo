@@ -1,8 +1,41 @@
 {{- $slug := .Get "slug" -}}
 {{- $data := index site.Data.lanpink_images $slug -}}
+{{- $initial := 24 -}}
+{{- $step := 24 -}}
 
 <style>
 .lp-json-gallery { margin: 30px auto 38px; }
+
+.lp-json-gallery-item.is-hidden{
+  display:none;
+}
+
+.lp-gallery-load-more-wrap{
+  margin-top:22px;
+  text-align:center;
+}
+
+.lp-gallery-load-more{
+  background:none;
+  border:0;
+  color:#db2777;
+  font-weight:800;
+  cursor:pointer;
+  font-size:15px;
+}
+
+.lp-gallery-load-more:after{
+  content:" ↓";
+}
+
+.lp-gallery-mobile-hidden{
+  display:none!important;
+}
+
+.lp-gallery-mobile-more{
+  display:none;
+}
+
 .lp-json-gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -121,7 +154,10 @@
   .lp-json-gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 560px) {
-  .lp-json-gallery-grid { grid-template-columns: 1fr; }
+  .lp-json-gallery-grid {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 12px;
+  }
   .lp-gallery-lightbox-img {
     max-width: 92vw;
     max-height: 74vh;
@@ -144,12 +180,24 @@
       {{- end -}}
 
       {{- if $src }}
+      <div class="lp-json-gallery-item{{ if ge $index $initial }} is-hidden{{ end }}">
       <button type="button" class="lp-gallery-open" data-src="{{ $src | safeURL }}" data-index="{{ $index }}">
         <img src="{{ $src | safeURL }}" alt="{{ $alt }}" loading="lazy">
       </button>
+      </div>
       {{- end }}
     {{- end }}
+
   </div>
+
+  {{ if gt (len .) $initial }}
+  <div class="lp-gallery-load-more-wrap">
+    <button class="lp-gallery-load-more">
+      Xem tiếp
+    </button>
+  </div>
+  {{ end }}
+
   {{- end }}
 </section>
 
@@ -174,6 +222,105 @@
   const buttons = Array.from(gallery.querySelectorAll('.lp-gallery-open'));
 
   document.body.appendChild(lightbox);
+
+
+  /* load more */
+  const items=Array.from(
+    gallery.querySelectorAll(
+      '.lp-json-gallery-item'
+    )
+  );
+
+  const loadBtn=
+    gallery.querySelector(
+      '.lp-gallery-load-more'
+    );
+
+  let visible=24;
+
+  if(loadBtn){
+    loadBtn.onclick=function(){
+
+      visible+=24;
+
+      items.forEach((el,i)=>{
+        el.classList.toggle(
+          'is-hidden',
+          i>=visible
+        );
+      });
+
+      if(
+        visible>=items.length
+      ){
+        loadBtn.parentNode.remove();
+      }
+    };
+  }
+
+  /* mobile intro */
+  if(window.innerWidth<=760){
+
+    const before=[];
+    let n=gallery.previousElementSibling;
+
+    while(n){
+      before.unshift(n);
+      n=n.previousElementSibling;
+    }
+
+    const paragraphs=
+      before.filter(
+        e=>e.tagName==="P"
+      );
+
+    const keep=
+      paragraphs.slice(0,1);
+
+    const hide=
+      before.filter(
+        e=>!keep.includes(e)
+      );
+
+    if(hide.length){
+
+      hide.forEach(
+        e=>e.classList.add(
+          'lp-gallery-mobile-hidden'
+        )
+      );
+
+      const more=
+        document.createElement(
+          'div'
+        );
+
+      more.className=
+        'lp-gallery-mobile-more';
+
+      more.style.display='flex';
+      more.style.justifyContent='center';
+      more.style.margin='12px 0';
+
+      more.innerHTML=
+        '<button style="background:none;border:0;color:#db2777;font-weight:800">Đọc thêm →</button>';
+
+      gallery.parentNode.insertBefore(
+        more,
+        gallery
+      );
+
+      more.onclick=function(){
+        hide.forEach(
+          e=>e.classList.remove(
+            'lp-gallery-mobile-hidden'
+          )
+        );
+        more.remove();
+      };
+    }
+  }
+
 
   const img = lightbox.querySelector('.lp-gallery-lightbox-img');
   const closeBtn = lightbox.querySelector('.lp-gallery-close');
