@@ -1,6 +1,10 @@
 ---
-title: "Hình Xăm Rắn Mang Cảm Hứng Việt Nam | Custom Tattoo Design Tại Lan Pink Ink"
-description: "Tác phẩm hình xăm rắn được thiết kế riêng cho một vị khách quốc tế yêu mến Việt Nam. Thực hiện bởi Lan Pink Ink, private tattoo studio và thợ xăm nữ tại Quận 12, TP.HCM."
+seo_keyword: "hình xăm rắn custom"
+primary_keyword: "hình xăm rắn custom"
+main_keyword: "hình xăm rắn custom"
+keyword: "hình xăm rắn custom"
+title: "Hình Xăm Rắn Custom Mang Cảm Hứng Việt Nam | Lan Pink Tattoo"
+description: "Tác phẩm hình xăm rắn custom lấy cảm hứng Việt Nam tại Lan Pink Tattoo, phù hợp với người muốn thiết kế rắn cá tính, có ý nghĩa riêng và bố cục độc bản."
 date: 2026-06-15
 draft: false
 translation_id: "snake_tattoo_portfolio"
@@ -110,3 +114,15 @@ Trước khi đặt lịch, bạn nên chuẩn bị:
 Bạn cũng có thể xem thêm [FAQ hình xăm rắn](/y-tuong-xam/hinh-xam-ran/faq-hinh-xam-ran/) để chuẩn bị tốt hơn trước khi xăm.
 
 👉 [Đặt lịch tư vấn tại Lan Pink](/dat-lich/)
+
+## Điểm nổi bật của hình xăm rắn custom
+
+Hình xăm rắn custom cho phép biến một ý tưởng quen thuộc thành thiết kế riêng, phù hợp với dáng cơ thể, vị trí xăm và cá tính của từng khách hàng.
+
+## Vì sao chọn cảm hứng Việt Nam?
+
+Các chi tiết lấy cảm hứng Việt Nam giúp hình xăm rắn có chiều sâu hơn, không chỉ đẹp về bố cục mà còn mang cảm giác gần gũi, cá nhân và khác biệt so với mẫu đại trà.
+
+### Phù hợp với vị trí nào?
+
+Thiết kế rắn thường hợp với bắp tay, cẳng tay, vai, lưng hoặc đùi vì các vị trí này đủ không gian để tạo chuyển động mềm và giữ được chi tiết của hình.

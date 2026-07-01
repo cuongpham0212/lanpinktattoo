@@ -180,3 +180,27 @@ At Lan Pink Tattoo, affordable pricing comes from a practical private studio mod
 👉 Pricing explanation: [Why Are Tattoos in Vietnam So Affordable at Lan Pink Ink Studio?](/en/tattoo-guide/why-are-tattoos-in-vietnam-so-affordable-at-lan-pink-ink/)
 
 👉 Cost guide: [How Much Does a Tattoo Cost in Ho Chi Minh City?](/en/tattoo-guide/how-much-does-a-tattoo-cost-in-ho-chi-minh-city/)
+
+
+## How to choose a safe tattoo studio in Vietnam
+
+A safe tattoo studio should use clean equipment, disposable needles, proper hygiene procedures, and clear communication before the session.
+
+### Safety checklist before getting tattooed
+
+- ask about needle hygiene
+- check the studio environment
+- review healed tattoo examples
+- confirm aftercare instructions
+- avoid rushed decisions
+- make sure the artist understands your design clearly
+
+## What international clients should prepare
+
+If you are visiting Vietnam, prepare reference images, your preferred placement, estimated size, and any medical or skin concerns you want the artist to know.
+
+## More guides for international clients
+
+- [How much does a tattoo cost in Ho Chi Minh City?](/en/tattoo-guide/how-much-does-a-tattoo-cost-in-ho-chi-minh-city/)
+- [What to prepare before your first tattoo](/en/tattoo-guide/what-to-prepare-before-your-first-tattoo/)
+- [Tattoo FAQ](/en/faq/)

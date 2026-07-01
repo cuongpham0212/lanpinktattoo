@@ -177,3 +177,26 @@ Hãy hỏi:
 Đó mới là cách tiếp cận giúp bạn có trải nghiệm tattoo tốt và tránh những chi phí sửa chữa về sau.
 
 Nếu chưa biết bắt đầu từ đâu, hãy xem [bảng giá xăm hình](/bang-gia/) hoặc liên hệ Lan Pink Tattoo để được tư vấn phương án phù hợp với ngân sách và ý tưởng của mình.
+
+
+## Với ngân sách 500K nên chọn kiểu hình nào?
+
+Với ngân sách khoảng 500K, bạn nên ưu tiên các thiết kế nhỏ, ít chi tiết và có bố cục rõ ràng. Những hình mini, chữ ngắn, biểu tượng đơn giản hoặc linework nhẹ thường phù hợp hơn các hình lớn cần nhiều shading.
+
+### Những yếu tố ảnh hưởng đến giá 500K
+
+- kích thước hình xăm
+- độ phức tạp của chi tiết
+- vị trí xăm
+- thời gian thực hiện
+- phong cách linework, mini hay shading
+
+## Khi nào không nên chọn hình quá rẻ?
+
+Bạn không nên chọn giá thấp nếu thiết kế cần nhiều chi tiết, diện tích lớn hoặc cần che/sửa hình cũ. Trường hợp đó nên tư vấn kỹ để tránh phải sửa lại sau này.
+
+## Xem thêm trước khi chọn hình
+
+- [Bảng giá xăm hình tại TP.HCM](/vi/bang-gia/)
+- [Hình xăm giá rẻ có thực sự tiết kiệm?](/vi/cam-nang-tattoo/hinh-xam-gia-re/)
+- [FAQ xăm hình](/vi/faq/)

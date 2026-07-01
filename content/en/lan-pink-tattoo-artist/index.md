@@ -1,4 +1,10 @@
 ---
+primary_keyword: "Lan Pink tattoo artist"
+main_keyword: "Lan Pink tattoo artist"
+keyword: "Lan Pink tattoo artist"
+seo_target_keyword: "Lan Pink tattoo artist"
+keywords: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City", "tattoo booking", "tattoo pricing", "tattoo consultation"]
+category: "Site Information"
 title: "Who Is Lan Pink? The Tattoo Artist Behind Lan Pink Tattoo"
 description: "Lan Pink is the tattoo artist and founder of Lan Pink Tattoo (Lan Pink Ink), a private tattoo studio in District 12, Ho Chi Minh City. Learn the meaning behind the name Lan Pink Ink and the story behind the brand."
 
@@ -8,17 +14,7 @@ date: 2026-06-17
 draft: false
 translation_id: "artist_profile_page"
 
-tags:
-  - who is lan pink
-  - lan pink ink
-  - lan pink tattoo
-  - tattoo artist district 12
-  - female tattoo artist
-  - female tattoo artist ho chi minh city
-  - fine line tattoo artist
-  - tattoo artist ho chi minh city
-  - private tattoo studio
-  - lan pink
+tags: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City"]
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-artist.webp"
 image_alt: "Lan Pink tattoo artist and founder of Lan Pink Tattoo in District 12 Ho Chi Minh City"
@@ -140,3 +136,21 @@ Clients are encouraged to contact the studio in advance for consultations regard
 If you are looking for a tattoo artist in Ho Chi Minh City for Fine Line Tattoo, Mini Tattoo, or Custom Tattoo Design, Lan Pink is always happy to listen and help bring your idea to life.
 
 {{< explore-more >}}
+
+## Helpful related information
+
+This page is part of Lan Pink Tattoo's website information system, helping clients understand the service before contacting, booking, or asking for a quote.
+
+### Why this page is useful
+
+- helps clients prepare better before messaging
+- reduces confusion about pricing or booking
+- explains the service flow more clearly
+- connects visitors to important pages on the website
+
+## Suggested next pages
+
+- [Contact Lan Pink](/en/contact/)
+- [Book a consultation](/en/booking/)
+- [Tattoo price list](/en/pricing/)
+- [Tattoo FAQ](/en/faq/)

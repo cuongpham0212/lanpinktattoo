@@ -133,3 +133,25 @@ If you are planning a snake tattoo, these guides may help:
 If you want a custom snake tattoo in Ho Chi Minh City, prepare your idea, preferred placement, size and reference images before booking.
 
 👉 [Book a Tattoo Consultation](/en/booking/)
+
+
+## Design notes for this custom snake tattoo
+
+This Vietnam inspired snake tattoo was designed as a custom piece, so the final composition depends on placement, body flow, and the amount of detail the client wants to keep.
+
+### What makes a custom snake tattoo work well?
+
+A strong snake tattoo usually needs:
+
+- clear movement through the body placement
+- enough space for scales or decorative details
+- a balanced head and tail direction
+- a style that matches the client’s personality
+
+## Explore more snake tattoo ideas
+
+You may also want to read:
+
+- [Snake tattoo meaning](/en/tattoo-ideas/snake-tattoos/snake-tattoo-meaning/)
+- [Snake tattoo FAQ](/en/tattoo-ideas/snake-tattoos/faq-snake-tattoo/)
+- [Does getting a tattoo hurt?](/en/tattoo-guide/does-getting-a-tattoo-hurt/)

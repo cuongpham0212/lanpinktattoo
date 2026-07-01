@@ -1,11 +1,15 @@
 ---
-title: "FAQ Phục Hồi Hình Xăm Cũ: Tô Lại, Cover Up Và Những Điều Cần Biết"
+seo_keyword: "phục hồi hình xăm cũ"
+primary_keyword: "phục hồi hình xăm cũ"
+main_keyword: "phục hồi hình xăm cũ"
+keyword: "phục hồi hình xăm cũ"
+title: "Phục Hồi Hình Xăm Cũ FAQ: Tô Lại Hình Xăm Và Cover Up"
 slug: "phuc-hoi-hinh-xam-cu-faq"
 date: 2026-06-29
 draft: false
 translation_id: "to-lai-cu_tattoo_faq"
 
-description: "Giải đáp các câu hỏi thường gặp về phục hồi hình xăm cũ, tô lại hình bị phai màu, cover up, chi phí, độ đau và thời điểm nên làm lại hình xăm."
+description: "FAQ phục hồi hình xăm cũ: khi nào nên tô lại, khi nào nên cover up, chi phí phụ thuộc yếu tố nào và cần chuẩn bị gì trước khi sửa tattoo."
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/maori-tattoo-restoration-half-back-shoulder-cover.webp"
 image_alt: "FAQ phục hồi hình xăm cũ và tô lại hình xăm bị phai màu tại Lan Pink Tattoo"
@@ -168,3 +172,15 @@ FAQ không thay thế được tư vấn trực tiếp, nhưng có thể giúp b
 Nếu bạn đang có một hình xăm cũ bị phai màu, mất nét hoặc không còn đẹp như trước, Lan Pink Tattoo có thể xem tình trạng hình và gợi ý hướng xử lý phù hợp nhất.
 
 Bạn có thể đọc thêm [Tattoo Restoration Là Gì?](/cam-nang-tattoo/tattoo-restoration-la-gi/) hoặc xem [Chính sách dịch vụ | Lan Pink Tattoo](/chinh-sach/) trước khi đặt lịch.
+
+## Khi nào nên phục hồi hình xăm cũ?
+
+Bạn nên cân nhắc phục hồi hình xăm cũ khi đường nét bị mờ, màu xuống tông, bố cục vẫn còn giữ được và bạn vẫn thích ý tưởng ban đầu. Trường hợp này thường phù hợp với tô lại tattoo hoặc chỉnh nét nhẹ.
+
+## Khi nào nên cover up thay vì tô lại?
+
+Cover up phù hợp hơn nếu hình cũ quá đậm, sai bố cục, không còn hợp phong cách hoặc có chi tiết khó cứu bằng cách tô lại. Artist cần xem ảnh thật để đánh giá có thể phục hồi trực tiếp hay cần thiết kế hình mới phủ lên.
+
+### Nên gửi gì trước khi tư vấn?
+
+Bạn nên gửi ảnh hình xăm hiện tại dưới ánh sáng rõ, vị trí xăm, kích thước gần đúng và mong muốn của mình: muốn giữ ý tưởng cũ, làm đậm lại hay đổi sang thiết kế mới.

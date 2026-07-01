@@ -1,9 +1,16 @@
 ---
-title: "Chương trình thành viên Lan Pink"
+primary_keyword: "chương trình thành viên Lan Pink"
+main_keyword: "chương trình thành viên Lan Pink"
+keyword: "chương trình thành viên Lan Pink"
+seo_target_keyword: "chương trình thành viên Lan Pink"
+keywords: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM", "đặt lịch xăm", "bảng giá xăm", "tư vấn hình xăm"]
+tags: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM"]
+category: "Thông tin website"
+title: "Chương Trình Thành Viên Lan Pink Tattoo"
 slug: "lan-pink-member"
 draft: false
 translation_id: "member_page"
-description: "Tra cứu hạng thành viên, điểm khả dụng và voucher khả dụng tại Lan Pink Tattoo."
+description: "Chương trình thành viên Lan Pink Tattoo dành cho khách quay lại, tích điểm, nhận ưu đãi và theo dõi quyền lợi sau mỗi lần xăm."
 ---
 Danh sách này chỉ dùng để khách tra cứu hạng thành viên, điểm khả dụng và số voucher khả dụng. Thành viên được Lan Pink Tattoo đăng ký thủ công sau khi khách sử dụng dịch vụ và hoàn tất thanh toán tại studio.
 
@@ -29,3 +36,38 @@ Danh sách này chỉ dùng để khách tra cứu hạng thành viên, điểm 
 - Điểm xét hạng là điểm trọn đời; điểm khả dụng có thể giảm sau khi đổi voucher.
 
 [Xem quy tắc tích điểm, đổi voucher và xét hạng thành viên](/quy-tac-tich-diem/) · [Xem bảng giá dịch vụ](/bang-gia/) · [Liên hệ Lan Pink](/contact/)
+
+## Chương trình thành viên phù hợp với ai?
+
+Chương trình thành viên phù hợp với khách đã từng xăm tại Lan Pink và muốn tích điểm cho các lần quay lại sau.
+
+### Quyền lợi thường được quan tâm
+
+- tích điểm sau khi sử dụng dịch vụ
+- nhận ưu đãi theo chương trình
+- theo dõi quyền lợi thành viên
+- nhận thông tin khuyến mãi phù hợp
+
+## Xem thêm
+
+- [Quy tắc tích điểm](/vi/quy-tac-tich-diem/)
+- [Chương trình giới thiệu bạn bè](/vi/chuong-trinh-gioi-thieu-ban-be/)
+- [Đặt lịch tư vấn](/vi/dat-lich/)
+
+## Thông tin nên xem thêm
+
+Trang này là một phần trong hệ thống thông tin của Lan Pink Tattoo, giúp khách hiểu rõ hơn trước khi liên hệ, đặt lịch hoặc sử dụng dịch vụ.
+
+### Vì sao nội dung này hữu ích?
+
+- giúp khách chuẩn bị thông tin trước khi nhắn tin
+- giảm nhầm lẫn khi hỏi giá hoặc đặt lịch
+- hỗ trợ hiểu rõ quy trình dịch vụ
+- kết nối sang các trang quan trọng khác trên website
+
+## Gợi ý đọc tiếp
+
+- [Liên hệ Lan Pink](/vi/contact/)
+- [Đặt lịch tư vấn](/vi/dat-lich/)
+- [Bảng giá xăm hình](/vi/bang-gia/)
+- [FAQ xăm hình](/vi/faq/)

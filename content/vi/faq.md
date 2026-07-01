@@ -1,4 +1,10 @@
 ---
+primary_keyword: "FAQ xăm hình"
+main_keyword: "FAQ xăm hình"
+keyword: "FAQ xăm hình"
+seo_target_keyword: "FAQ xăm hình"
+keywords: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM", "đặt lịch xăm", "bảng giá xăm", "tư vấn hình xăm"]
+category: "Thông tin website"
 title: "FAQ Xăm Hình | Câu hỏi thường gặp về Tattoo"
 description: "Giải đáp những câu hỏi thường gặp về xăm hình tại Lan Pink Tattoo: xăm có đau không, giá bao nhiêu, cách chăm sóc, thời gian hồi phục, dặm lại hình xăm và nhiều thông tin hữu ích khác."
 slug: "faq"
@@ -8,12 +14,7 @@ translation_id: "faq_faq_faq"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp"
 
-tags:
-  - faq tattoo
-  - câu hỏi thường gặp
-  - chăm sóc hình xăm
-  - xăm hình có đau không
-  - kinh nghiệm xăm hình
+tags: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM"]
 
 categories:
   - FAQ
@@ -309,3 +310,43 @@ Trước khi đặt lịch, bạn có thể tham khảo thêm:
 - [Tác phẩm Tattoo](/gallery/)
 - [Giới thiệu Lan Pink Tattoo](/gioi-thieu/)
 - [Cẩm nang Tattoo](/cam-nang-tattoo/)
+
+## Câu hỏi ít người hỏi nhưng rất quan trọng
+
+Ngoài chuyện đau hay giá bao nhiêu, bạn nên hỏi hình xăm sau khi lành có còn rõ không, kích thước hiện tại có đủ cho chi tiết không và vị trí đó có dễ biến dạng theo thời gian không.
+
+### FAQ nhanh cho người mới
+
+- Có nên xăm hình quá nhỏ nhưng nhiều chi tiết không?
+- Hình ở cổ tay có dễ mờ không?
+- Có cần dặm lại sau khi lành không?
+- Nên gửi ảnh tham khảo kiểu gì?
+- Có thể chỉnh mẫu trước khi xăm không?
+
+## Khi nào nên tư vấn trực tiếp?
+
+Bạn nên tư vấn trực tiếp nếu muốn xăm hình lớn, hình custom, hình tưởng niệm thú cưng, cover up hoặc phục hồi hình xăm cũ.
+
+## Xem thêm
+
+- [Xăm hình có đau không?](/vi/cam-nang-tattoo/xam-hinh-co-dau-khong/)
+- [Xăm hình lần đầu cần chuẩn bị gì?](/vi/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/)
+- [Đặt lịch tư vấn](/vi/dat-lich/)
+
+## Thông tin nên xem thêm
+
+Trang này là một phần trong hệ thống thông tin của Lan Pink Tattoo, giúp khách hiểu rõ hơn trước khi liên hệ, đặt lịch hoặc sử dụng dịch vụ.
+
+### Vì sao nội dung này hữu ích?
+
+- giúp khách chuẩn bị thông tin trước khi nhắn tin
+- giảm nhầm lẫn khi hỏi giá hoặc đặt lịch
+- hỗ trợ hiểu rõ quy trình dịch vụ
+- kết nối sang các trang quan trọng khác trên website
+
+## Gợi ý đọc tiếp
+
+- [Liên hệ Lan Pink](/vi/contact/)
+- [Đặt lịch tư vấn](/vi/dat-lich/)
+- [Bảng giá xăm hình](/vi/bang-gia/)
+- [FAQ xăm hình](/vi/faq/)

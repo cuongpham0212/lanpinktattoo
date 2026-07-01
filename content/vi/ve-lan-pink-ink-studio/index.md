@@ -1,4 +1,11 @@
 ---
+primary_keyword: "Lan Pink Tattoo Studio"
+main_keyword: "Lan Pink Tattoo Studio"
+keyword: "Lan Pink Tattoo Studio"
+seo_target_keyword: "Lan Pink Tattoo Studio"
+keywords: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM", "đặt lịch xăm", "bảng giá xăm", "tư vấn hình xăm"]
+tags: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM"]
+category: "Thông tin website"
 title: "Về Lan Pink Tattoo Studio"
 description: "Lan Pink Tattoo, còn được biết đến với tên Lan Pink Ink, là không gian xăm riêng tư tại TP.HCM, chuyên Fine Line Tattoo, Mini Tattoo, Blackwork và thiết kế hình xăm theo yêu cầu."
 slug: "ve-lan-pink-ink-studio"
@@ -132,3 +139,21 @@ Trước khi đặt lịch, bạn có thể xem thêm:
 - [FAQ hình xăm](/faq/)
 
 Chúng tôi luôn sẵn sàng đồng hành cùng bạn trong hành trình lưu giữ những dấu ấn ý nghĩa bằng nghệ thuật xăm mình.
+
+## Thông tin nên xem thêm
+
+Trang này là một phần trong hệ thống thông tin của Lan Pink Tattoo, giúp khách hiểu rõ hơn trước khi liên hệ, đặt lịch hoặc sử dụng dịch vụ.
+
+### Vì sao nội dung này hữu ích?
+
+- giúp khách chuẩn bị thông tin trước khi nhắn tin
+- giảm nhầm lẫn khi hỏi giá hoặc đặt lịch
+- hỗ trợ hiểu rõ quy trình dịch vụ
+- kết nối sang các trang quan trọng khác trên website
+
+## Gợi ý đọc tiếp
+
+- [Liên hệ Lan Pink](/vi/contact/)
+- [Đặt lịch tư vấn](/vi/dat-lich/)
+- [Bảng giá xăm hình](/vi/bang-gia/)
+- [FAQ xăm hình](/vi/faq/)

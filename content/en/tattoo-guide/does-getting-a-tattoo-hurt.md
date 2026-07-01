@@ -185,3 +185,27 @@ You may also like:
 - [Tattoo Pricing Guide](/en/pricing/)
 - [About Lan Pink Tattoo](/en/about/)
 - [Contact & Booking](/en/contact/)
+
+
+## Why does tattoo pain feel different for everyone?
+
+Tattoo pain depends on placement, session length, skin sensitivity, and how relaxed you feel during the appointment.
+
+### Factors that affect tattoo pain
+
+- tattoo placement
+- tattoo size
+- session duration
+- linework or shading
+- personal pain tolerance
+- sleep, food, and stress before the session
+
+## Best placements for a first tattoo
+
+For a first tattoo, many people choose areas such as the outer arm, forearm, shoulder, or calf because they are usually easier to manage than ribs, hands, neck, or feet.
+
+## More beginner tattoo guides
+
+- [What to prepare before your first tattoo](/en/tattoo-guide/what-to-prepare-before-your-first-tattoo/)
+- [Tattoo price list in Ho Chi Minh City](/en/pricing/)
+- [Tattoo FAQ](/en/faq/)

@@ -1,6 +1,13 @@
 ---
-title: "Chính sách dịch vụ | Lan Pink Tattoo"
-description: "Chính sách đặt lịch, bảo hành hình xăm, chăm sóc sau xăm và điều khoản dịch vụ tại Lan Pink Tattoo - Private Tattoo Studio tại TP.HCM."
+primary_keyword: "chính sách dịch vụ Lan Pink"
+main_keyword: "chính sách dịch vụ Lan Pink"
+keyword: "chính sách dịch vụ Lan Pink"
+seo_target_keyword: "chính sách dịch vụ Lan Pink"
+keywords: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM", "đặt lịch xăm", "bảng giá xăm", "tư vấn hình xăm"]
+tags: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM"]
+category: "Thông tin website"
+title: "Chính Sách Dịch Vụ Lan Pink Tattoo"
+description: "Chính sách dịch vụ tại Lan Pink Tattoo: đặt lịch, tư vấn, chỉnh sửa thiết kế, chăm sóc sau xăm và các lưu ý trước khi sử dụng dịch vụ."
 slug: "chinh-sach"
 date: 2026-06-13
 draft: false
@@ -177,3 +184,39 @@ Nếu cần hỗ trợ hoặc có bất kỳ thắc mắc nào về dịch vụ,
 ---
 
 *Cập nhật lần cuối: 22/06/2026*
+
+## Vì sao nên đọc chính sách trước khi xăm?
+
+Chính sách dịch vụ giúp khách hiểu rõ cách đặt lịch, tư vấn, thay đổi thiết kế và chăm sóc sau khi xăm.
+
+### Những phần nên chú ý
+
+- quy trình đặt lịch
+- thay đổi ý tưởng
+- tư vấn thiết kế
+- chăm sóc sau xăm
+- hỗ trợ sau dịch vụ
+
+## Trang liên quan
+
+- [FAQ xăm hình](/vi/faq/)
+- [Đặt lịch tư vấn](/vi/dat-lich/)
+- [Liên hệ Lan Pink](/vi/contact/)
+
+## Thông tin nên xem thêm
+
+Trang này là một phần trong hệ thống thông tin của Lan Pink Tattoo, giúp khách hiểu rõ hơn trước khi liên hệ, đặt lịch hoặc sử dụng dịch vụ.
+
+### Vì sao nội dung này hữu ích?
+
+- giúp khách chuẩn bị thông tin trước khi nhắn tin
+- giảm nhầm lẫn khi hỏi giá hoặc đặt lịch
+- hỗ trợ hiểu rõ quy trình dịch vụ
+- kết nối sang các trang quan trọng khác trên website
+
+## Gợi ý đọc tiếp
+
+- [Liên hệ Lan Pink](/vi/contact/)
+- [Đặt lịch tư vấn](/vi/dat-lich/)
+- [Bảng giá xăm hình](/vi/bang-gia/)
+- [FAQ xăm hình](/vi/faq/)

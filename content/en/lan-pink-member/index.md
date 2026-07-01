@@ -1,10 +1,18 @@
 ---
-title: "Lan Pink Membership Program"
+primary_keyword: "Lan Pink Tattoo membership program"
+main_keyword: "Lan Pink Tattoo membership program"
+keyword: "Lan Pink Tattoo membership program"
+seo_target_keyword: "Lan Pink Tattoo membership program"
+keywords: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City", "tattoo booking", "tattoo pricing", "tattoo consultation"]
+tags: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City"]
+category: "Site Information"
+title: "Lan Pink Tattoo Membership Program"
 slug: "lan-pink-member"
 draft: false
 translation_id: "member_page"
-description: "Check your membership tier, available points, and active vouchers at Lan Pink Tattoo."
-----------------------------------------------------------------------------------------------------
+description: "Lan Pink Tattoo membership program for returning clients, reward points, member benefits, and loyalty offers."
+---
+-------------------------------------------------------------------------------------------------
 
 
 This page allows customers to check their membership tier, available points, and active vouchers. Members are registered manually by Lan Pink Tattoo after completing a service and payment at the studio.
@@ -36,3 +44,38 @@ Lan Pink Tattoo appreciates every referral and rewards members with bonus points
 * Membership tiers are based on lifetime accumulated points. Available points may decrease after voucher redemption.
 
 [View Membership Rules](/en/member-points-rules/) · [View Service Pricing](/en/pricing/) · [Contact Lan Pink Tattoo](/en/contact/)
+
+## Who is the membership program for?
+
+The membership program is for returning clients who want to collect points and receive benefits for future tattoo services.
+
+### Common member benefits
+
+- reward points
+- loyalty benefits
+- special offers
+- easier follow-up for future sessions
+
+## More member pages
+
+- [Member points rules](/en/member-rules/)
+- [Friend referral program](/en/friend-referral-program/)
+- [Book a consultation](/en/booking/)
+
+## Helpful related information
+
+This page is part of Lan Pink Tattoo's website information system, helping clients understand the service before contacting, booking, or asking for a quote.
+
+### Why this page is useful
+
+- helps clients prepare better before messaging
+- reduces confusion about pricing or booking
+- explains the service flow more clearly
+- connects visitors to important pages on the website
+
+## Suggested next pages
+
+- [Contact Lan Pink](/en/contact/)
+- [Book a consultation](/en/booking/)
+- [Tattoo price list](/en/pricing/)
+- [Tattoo FAQ](/en/faq/)

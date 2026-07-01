@@ -122,3 +122,25 @@ If you're looking for a custom phoenix tattoo or another personalized design in 
 
 Feel free to [contact Lan Pink Tattoo](/en/contact/) to discuss your ideas and book a private consultation.
 
+
+## Why choose a phoenix tattoo?
+
+A phoenix tattoo often represents rebirth, transformation, and inner strength. It is a meaningful choice for clients who want a design connected to growth or a new chapter in life.
+
+### What makes a phoenix tattoo work well on the upper arm?
+
+- enough space for wing movement
+- a clear direction for the body flow
+- balanced tail and feather details
+- a style that matches the client's personality
+- a composition that fits the arm naturally
+
+## Planning a custom phoenix tattoo
+
+For a custom phoenix tattoo, the artist can adjust the wing shape, feather flow, and overall movement so the design feels personal rather than copied from a generic reference.
+
+## More phoenix tattoo inspiration
+
+- [Phoenix tattoo meaning](/en/tattoo-ideas/phoenix-tattoos/phoenix-tattoo-meaning/)
+- [Tattoo pain guide for beginners](/en/tattoo-guide/does-getting-a-tattoo-hurt/)
+- [What to prepare before your first tattoo](/en/tattoo-guide/what-to-prepare-before-your-first-tattoo/)

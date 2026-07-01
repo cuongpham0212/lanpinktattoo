@@ -1,4 +1,8 @@
 ---
+primary_keyword: "holiday tattoo promotion"
+main_keyword: "holiday tattoo promotion"
+keyword: "holiday tattoo promotion"
+category: "Site Information"
 url: "/en/promotions/holiday-tattoo-promotion/"
 title: "Holiday Tattoo Promotion At Lan Pink Tattoo"
 slug: "holiday-tattoo-promotion"
@@ -13,18 +17,9 @@ image_alt: "Holiday tattoo promotion at Lan Pink Tattoo Ho Chi Minh City"
 categories:
   - "Promotions"
 
-tags:
-  - "Tattoo promotion"
-  - "Tattoo offer"
-  - "Lan Pink Tattoo"
-  - "Tattoo studio Ho Chi Minh City"
+tags: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City"]
 
-keywords:
-  - "tattoo promotion"
-  - "holiday tattoo promotion"
-  - "tattoo promotion ho chi minh city"
-  - "lan pink tattoo"
-  - "lan pink ink"
+keywords: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City", "tattoo booking", "tattoo pricing", "tattoo consultation"]
 
 promo_popup: false
 promo_hero: true
@@ -41,7 +36,7 @@ promo_button_text: "View promotion details"
 seo_cluster_id: "promotion"
 seo_cluster: "Tattoo promotions"
 seo_intent: "Promotion"
-seo_target_keyword: "tattoo promotion ho chi minh city"
+seo_target_keyword: "holiday tattoo promotion"
 ---
 This is a sample promotion page for Lan Pink Tattoo.
 
@@ -59,3 +54,38 @@ This promotion is suitable for clients who are considering a mini tattoo, fine l
 
 Each promotion may have its own campaign period, booking conditions and available appointment slots. Clients should check the details carefully before booking.
 
+## Helpful related information
+
+This page is part of Lan Pink Tattoo's website information system, helping clients understand the service before contacting, booking, or asking for a quote.
+
+### Why this page is useful
+
+- helps clients prepare better before messaging
+- reduces confusion about pricing or booking
+- explains the service flow more clearly
+- connects visitors to important pages on the website
+
+## Suggested next pages
+
+- [Contact Lan Pink](/en/contact/)
+- [Book a consultation](/en/booking/)
+- [Tattoo price list](/en/pricing/)
+- [Tattoo FAQ](/en/faq/)
+
+## When should you use a tattoo promotion?
+
+A tattoo promotion works best when you already have a clear idea, preferred placement, and need help choosing the right size or style.
+
+## What to prepare before using the offer
+
+- reference images
+- preferred placement
+- approximate size
+- budget range
+- ideal booking date
+
+## Related pages
+
+- [Book a consultation](/en/booking/)
+- [Tattoo price list](/en/pricing/)
+- [Tattoo FAQ](/en/faq/)
