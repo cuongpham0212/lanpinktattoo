@@ -163,6 +163,17 @@
     max-height: 74vh;
   }
 }
+
+@media (max-width: 760px) {
+  .lp-gallery-zoom-controls {
+    display: none !important;
+  }
+
+  .lp-gallery-lightbox-img {
+    touch-action: none !important;
+  }
+}
+
 </style>
 
 {{- if $data }}
@@ -438,6 +449,76 @@
     img.style.cursor = zoom > 1 ? 'grab' : '';
     applyZoom();
   });
+
+
+  let pinchStartDistance = 0;
+  let pinchStartZoom = 1;
+  let touchStartX = 0;
+  let touchStartY = 0;
+
+  function getTouchDistance(touches) {
+    const dx = touches[0].clientX - touches[1].clientX;
+    const dy = touches[0].clientY - touches[1].clientY;
+    return Math.sqrt(dx * dx + dy * dy);
+  }
+
+  img.addEventListener('touchstart', function (e) {
+    if (!lightbox.classList.contains('is-open')) return;
+
+    if (e.touches.length === 2) {
+      e.preventDefault();
+      dragging = false;
+      pinchStartDistance = getTouchDistance(e.touches);
+      pinchStartZoom = zoom;
+    }
+
+    if (e.touches.length === 1 && zoom > 1) {
+      e.preventDefault();
+      dragging = true;
+      touchStartX = e.touches[0].clientX - posX;
+      touchStartY = e.touches[0].clientY - posY;
+    }
+  }, { passive: false });
+
+  img.addEventListener('touchmove', function (e) {
+    if (!lightbox.classList.contains('is-open')) return;
+
+    if (e.touches.length === 2) {
+      e.preventDefault();
+
+      const currentDistance = getTouchDistance(e.touches);
+      const ratio = currentDistance / pinchStartDistance;
+
+      zoom = Math.max(1, Math.min(4, +(pinchStartZoom * ratio).toFixed(3)));
+
+      if (zoom === 1) {
+        posX = 0;
+        posY = 0;
+      }
+
+      applyZoom();
+    }
+
+    if (e.touches.length === 1 && dragging && zoom > 1) {
+      e.preventDefault();
+      posX = e.touches[0].clientX - touchStartX;
+      posY = e.touches[0].clientY - touchStartY;
+      applyZoom();
+    }
+  }, { passive: false });
+
+  img.addEventListener('touchend', function (e) {
+    if (e.touches.length === 0) {
+      dragging = false;
+
+      if (zoom <= 1.02) {
+        resetZoom();
+      }
+
+      applyZoom();
+    }
+  }, { passive: false });
+
 
   lightbox.addEventListener('wheel', function (e) {
     if (!lightbox.classList.contains('is-open')) return;
