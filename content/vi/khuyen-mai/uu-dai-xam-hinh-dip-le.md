@@ -1,4 +1,8 @@
 ---
+primary_keyword: "ưu đãi xăm hình"
+main_keyword: "ưu đãi xăm hình"
+keyword: "ưu đãi xăm hình"
+category: "Thông tin website"
 url: "/khuyen-mai/uu-dai-xam-hinh-dip-le/"
 title: "Ưu Đãi Xăm Hình Dịp Lễ Tại Lan Pink Tattoo"
 slug: "uu-dai-xam-hinh-dip-le"
@@ -13,18 +17,9 @@ image_alt: "Ưu đãi xăm hình dịp lễ tại Lan Pink Tattoo TP.HCM"
 categories:
   - "Khuyến mãi"
 
-tags:
-  - "Khuyến mãi xăm hình"
-  - "Ưu đãi tattoo"
-  - "Lan Pink Tattoo"
-  - "Tattoo TP.HCM"
+tags: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM"]
 
-keywords:
-  - "khuyến mãi xăm hình"
-  - "ưu đãi xăm hình dịp lễ"
-  - "khuyến mãi tattoo tphcm"
-  - "lan pink tattoo"
-  - "lan pink ink"
+keywords: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM", "đặt lịch xăm", "bảng giá xăm", "tư vấn hình xăm"]
 
 promo_popup: false
 promo_hero: true
@@ -41,7 +36,7 @@ promo_button_text: "Xem chi tiết ưu đãi"
 seo_cluster_id: "promotion"
 seo_cluster: "Chương trình khuyến mãi"
 seo_intent: "Khuyến mãi"
-seo_target_keyword: "khuyến mãi xăm hình"
+seo_target_keyword: "ưu đãi xăm hình"
 ---
 Đây là trang mẫu cho chương trình khuyến mãi tại Lan Pink Tattoo.
 
@@ -58,3 +53,39 @@ Chương trình phù hợp với khách hàng đang tìm hiểu về Mini Tattoo
 ## Lưu Ý Khi Tham Gia Ưu Đãi
 
 Mỗi chương trình khuyến mãi có thể có thời gian áp dụng, điều kiện và số lượng lịch hẹn khác nhau. Khách hàng nên xem kỹ thông tin trước khi đặt lịch.
+
+## Thông tin nên xem thêm
+
+Trang này là một phần trong hệ thống thông tin của Lan Pink Tattoo, giúp khách hiểu rõ hơn trước khi liên hệ, đặt lịch hoặc sử dụng dịch vụ.
+
+### Vì sao nội dung này hữu ích?
+
+- giúp khách chuẩn bị thông tin trước khi nhắn tin
+- giảm nhầm lẫn khi hỏi giá hoặc đặt lịch
+- hỗ trợ hiểu rõ quy trình dịch vụ
+- kết nối sang các trang quan trọng khác trên website
+
+## Gợi ý đọc tiếp
+
+- [Liên hệ Lan Pink](/vi/contact/)
+- [Đặt lịch tư vấn](/vi/dat-lich/)
+- [Bảng giá xăm hình](/vi/bang-gia/)
+- [FAQ xăm hình](/vi/faq/)
+
+## Khi nào nên dùng ưu đãi xăm hình?
+
+Ưu đãi phù hợp nhất với khách đã có ý tưởng rõ, biết vị trí muốn xăm và cần tư vấn thêm về kích thước hoặc phong cách.
+
+## Trước khi nhận ưu đãi nên chuẩn bị gì?
+
+- mẫu tham khảo
+- vị trí muốn xăm
+- kích thước dự kiến
+- ngân sách mong muốn
+- thời gian muốn đặt lịch
+
+## Trang liên quan
+
+- [Đặt lịch tư vấn](/vi/dat-lich/)
+- [Bảng giá xăm hình](/vi/bang-gia/)
+- [FAQ xăm hình](/vi/faq/)

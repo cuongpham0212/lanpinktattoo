@@ -1,4 +1,9 @@
 ---
+primary_keyword: "friend referral rewards program"
+main_keyword: "friend referral rewards program"
+keyword: "friend referral rewards program"
+seo_target_keyword: "friend referral rewards program"
+category: "Site Information"
 title: "Friend Referral Rewards Program | Lan Pink Tattoo"
 slug: "friend-referral-program"
 date: 2026-06-21
@@ -9,17 +14,8 @@ image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/image
 image_alt: "Friend referral rewards program at Lan Pink Tattoo"
 categories:
   - "Membership"
-tags:
-  - "friend referral"
-  - "Lan Pink Member"
-  - "member rewards"
-  - "tattoo voucher"
-  - "Lan Pink Tattoo"
-keywords:
-  - "Lan Pink Tattoo referral program"
-  - "tattoo referral rewards"
-  - "Lan Pink Member rewards"
-  - "earn points by referring friends"
+tags: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City"]
+keywords: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City", "tattoo booking", "tattoo pricing", "tattoo consultation"]
 ---
 At **Lan Pink Tattoo**, loyal clients are more than customers. They are people who trust our studio enough to recommend it to friends, family members, and others who share a passion for tattoos.
 
@@ -194,3 +190,21 @@ The Friend Referral Rewards Program was created to recognize that support in a f
 * [View membership point rules](/quy-tac-tich-diem/)
 * [View tattoo pricing](/pricing/)
 * [Contact Lan Pink Tattoo](/contact/)
+
+## Helpful related information
+
+This page is part of Lan Pink Tattoo's website information system, helping clients understand the service before contacting, booking, or asking for a quote.
+
+### Why this page is useful
+
+- helps clients prepare better before messaging
+- reduces confusion about pricing or booking
+- explains the service flow more clearly
+- connects visitors to important pages on the website
+
+## Suggested next pages
+
+- [Contact Lan Pink](/en/contact/)
+- [Book a consultation](/en/booking/)
+- [Tattoo price list](/en/pricing/)
+- [Tattoo FAQ](/en/faq/)

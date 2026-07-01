@@ -1,4 +1,11 @@
 ---
+primary_keyword: "Lan Pink Tattoo Studio"
+main_keyword: "Lan Pink Tattoo Studio"
+keyword: "Lan Pink Tattoo Studio"
+seo_target_keyword: "Lan Pink Tattoo Studio"
+keywords: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City", "tattoo booking", "tattoo pricing", "tattoo consultation"]
+tags: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City"]
+category: "Site Information"
 title: "About Lan Pink Tattoo Studio"
 description: "Lan Pink Tattoo, also known as Lan Pink Ink, is a private tattoo space in Ho Chi Minh City specializing in Fine Line Tattoo, Mini Tattoo, Blackwork, and custom tattoo designs."
 slug: "about-lan-pink-ink-studio"
@@ -152,3 +159,21 @@ Many international clients are surprised that tattoo prices at Lan Pink Ink Stud
 Our pricing comes from a small private studio model, lower rental costs in District 12 near Tan Thoi Hiep Overpass, and direct work with Lan Pink herself — not from reducing hygiene, materials or tattoo quality.
 
 👉 Read more: [Why Are Tattoos in Vietnam So Affordable at Lan Pink Ink Studio?](/en/tattoo-guide/why-are-tattoos-in-vietnam-so-affordable-at-lan-pink-ink/)
+
+## Helpful related information
+
+This page is part of Lan Pink Tattoo's website information system, helping clients understand the service before contacting, booking, or asking for a quote.
+
+### Why this page is useful
+
+- helps clients prepare better before messaging
+- reduces confusion about pricing or booking
+- explains the service flow more clearly
+- connects visitors to important pages on the website
+
+## Suggested next pages
+
+- [Contact Lan Pink](/en/contact/)
+- [Book a consultation](/en/booking/)
+- [Tattoo price list](/en/pricing/)
+- [Tattoo FAQ](/en/faq/)

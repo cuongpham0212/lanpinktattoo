@@ -1,4 +1,9 @@
 ---
+primary_keyword: "membership points rules"
+main_keyword: "membership points rules"
+keyword: "membership points rules"
+seo_target_keyword: "membership points rules"
+category: "Site Information"
 title: "Lan Pink Tattoo Membership Points Rules"
 slug: "member-rules"
 date: 2026-06-21
@@ -9,19 +14,8 @@ image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/image
 image_alt: "Lan Pink Tattoo membership points rules in District 12, Ho Chi Minh City"
 categories:
   - "Membership"
-tags:
-  - "membership points"
-  - "tattoo voucher"
-  - "membership program"
-  - "Lan Pink Tattoo"
-  - "Lan Pink Ink"
-  - "tattoo district 12"
-  - "private tattoo studio"
-keywords:
-  - "Lan Pink Tattoo membership points"
-  - "Lan Pink membership rules"
-  - "tattoo birthday voucher"
-  - "tattoo loyalty program"
+tags: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City"]
+keywords: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City", "tattoo booking", "tattoo pricing", "tattoo consultation"]
 ---
 The **Lan Pink Tattoo** membership program is designed as a way to maintain long-term connection with clients who have trusted and chosen the studio. Each tattoo is not only a completed service, but also a personal milestone, a memory, and part of the journey shared between the client and Lan Pink.
 
@@ -157,3 +151,21 @@ If you would like tattoo consultation or need to check your membership informati
 - [Check membership tier, available points, and vouchers](/member/)
 - [View tattoo pricing at Lan Pink Tattoo](/pricing/)
 - [Contact Lan Pink Tattoo to check membership information](/contact/)
+
+## Helpful related information
+
+This page is part of Lan Pink Tattoo's website information system, helping clients understand the service before contacting, booking, or asking for a quote.
+
+### Why this page is useful
+
+- helps clients prepare better before messaging
+- reduces confusion about pricing or booking
+- explains the service flow more clearly
+- connects visitors to important pages on the website
+
+## Suggested next pages
+
+- [Contact Lan Pink](/en/contact/)
+- [Book a consultation](/en/booking/)
+- [Tattoo price list](/en/pricing/)
+- [Tattoo FAQ](/en/faq/)

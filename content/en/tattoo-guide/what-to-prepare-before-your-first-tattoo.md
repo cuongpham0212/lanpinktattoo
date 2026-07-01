@@ -230,3 +230,26 @@ For a first tattoo, consultation helps you avoid choosing the wrong size, placem
 If you are unsure whether to choose a mini tattoo, fine line tattoo or a custom design, prepare your idea first and discuss it with Lan Pink before booking.
 
 👉 [Book a Tattoo Consultation](/en/booking/)
+
+
+## How to prepare on the day of your tattoo
+
+Before your first tattoo appointment, try to sleep well, eat properly, and wear comfortable clothes that make the tattoo area easy to access.
+
+### Quick first tattoo checklist
+
+- eat before the session
+- bring clear reference images
+- wear comfortable clothing
+- avoid alcohol before your appointment
+- ask questions if anything feels unclear
+
+## What happens after your first tattoo?
+
+After the session, follow your artist's aftercare instructions and avoid touching, scratching, or soaking the tattoo while it heals.
+
+## More beginner tattoo guides
+
+- [Does getting a tattoo hurt?](/en/tattoo-guide/does-getting-a-tattoo-hurt/)
+- [Tattoo price list in Ho Chi Minh City](/en/pricing/)
+- [Tattoo FAQ](/en/faq/)

@@ -1,6 +1,13 @@
 ---
+primary_keyword: "Lan Pink Tattoo service policy"
+main_keyword: "Lan Pink Tattoo service policy"
+keyword: "Lan Pink Tattoo service policy"
+seo_target_keyword: "Lan Pink Tattoo service policy"
+keywords: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City", "tattoo booking", "tattoo pricing", "tattoo consultation"]
+tags: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City"]
+category: "Site Information"
 title: "Service Policy | Lan Pink Tattoo"
-description: "Booking policy, tattoo touch-up policy, aftercare instructions and service terms at Lan Pink Tattoo - Private Tattoo Studio in Ho Chi Minh City."
+description: "Lan Pink Tattoo service policy covering booking, consultation, design changes, tattoo aftercare, and client support before and after the session."
 slug: "service-policy"
 date: 2026-06-14
 draft: false
@@ -113,3 +120,39 @@ If you have any questions regarding our services, please feel free to contact:
 ---
 
 *Last updated: June 14, 2026*
+
+## Why read the service policy before booking?
+
+The service policy helps clients understand booking, consultation, design changes, and aftercare support before getting tattooed.
+
+### Important points to review
+
+- booking process
+- design changes
+- consultation details
+- aftercare guidance
+- client support
+
+## Related pages
+
+- [Tattoo FAQ](/en/faq/)
+- [Book a consultation](/en/booking/)
+- [Contact Lan Pink](/en/contact/)
+
+## Helpful related information
+
+This page is part of Lan Pink Tattoo's website information system, helping clients understand the service before contacting, booking, or asking for a quote.
+
+### Why this page is useful
+
+- helps clients prepare better before messaging
+- reduces confusion about pricing or booking
+- explains the service flow more clearly
+- connects visitors to important pages on the website
+
+## Suggested next pages
+
+- [Contact Lan Pink](/en/contact/)
+- [Book a consultation](/en/booking/)
+- [Tattoo price list](/en/pricing/)
+- [Tattoo FAQ](/en/faq/)

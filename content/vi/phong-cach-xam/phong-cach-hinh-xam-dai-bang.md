@@ -132,3 +132,35 @@ Bạn nên tìm hiểu thêm:
 Tại Lan Pink Tattoo, thay vì chọn một mẫu có sẵn, bạn có thể trao đổi trực tiếp với Lan Pink về câu chuyện, sở thích và cảm giác bạn muốn giữ lại trong hình xăm.
 
 Từ đó, Lan Pink sẽ giúp bạn xác định phong cách phù hợp nhất để hình xăm đại bàng không chỉ đẹp khi mới xăm, mà còn là tác phẩm bạn muốn giữ lại trong nhiều năm sau.
+
+
+## Hình xăm đại bàng phù hợp với ai?
+
+Hình xăm đại bàng thường phù hợp với người thích hình ảnh mạnh mẽ, tự do và có cảm giác quyết đoán. Chủ đề này có thể đi theo hướng tối giản, blackwork, realism hoặc custom tattoo tùy cá tính của người xăm.
+
+### Nam và nữ nên chọn phong cách nào?
+
+- Với nam: đại bàng blackwork, realism hoặc bố cục bắp tay thường tạo cảm giác mạnh.
+- Với nữ: đại bàng fine line, mini hoặc kết hợp hoa lá sẽ mềm mại hơn.
+- Với người thích thiết kế riêng: custom tattoo giúp điều chỉnh cánh, đầu chim và hướng bay theo vị trí cơ thể.
+
+## Vị trí hợp để xăm hình đại bàng
+
+Một số vị trí thường hợp với hình xăm đại bàng gồm:
+
+- Bắp tay
+- Vai
+- Ngực
+- Lưng
+- Cẳng tay
+- Đùi
+
+Nếu muốn thể hiện rõ đôi cánh, nên chọn vùng da đủ rộng để hình không bị bí và giữ được chuyển động.
+
+## Xem thêm trước khi chọn mẫu đại bàng
+
+Bạn có thể tham khảo thêm:
+
+- [Hình xăm đại bàng ở bắp tay](/vi/tac-pham/hinh-xam-dai-bang/)
+- [Ý nghĩa hình xăm đại bàng](/vi/y-nghia-hinh-xam/y-nghia-hinh-xam-dai-bang/)
+- [Cẩm nang chọn hình xăm đại bàng](/vi/cam-nang-tattoo/huong-dan-chon-hinh-xam-dai-bang-phu-hop/)

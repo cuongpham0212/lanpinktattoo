@@ -139,3 +139,26 @@ If you are considering a pet portrait or memorial tattoo, these guides may help:
 👉 [Tattoo Portfolio](/en/portfolio/)
 
 👉 [Book a Tattoo Consultation](/en/booking/)
+
+
+## Why choose a cat portrait tattoo?
+
+A cat portrait tattoo is a personal way to keep the memory, personality, and expression of a beloved companion close.
+
+### What makes a pet portrait tattoo feel accurate?
+
+- a clear reference photo
+- visible eyes and facial details
+- natural proportions
+- a style that fits the pet's personality
+- enough space for soft shading or fine details
+
+## Planning a custom cat tattoo
+
+Before starting a custom cat tattoo, it helps to prepare several photos and explain which expression or memory matters most to you.
+
+## More pet tattoo inspiration
+
+- [Parrot memorial tattoo for Gonzo](/en/portfolio/memorial-parrot-tattoo-custom-design-lan-pink-ink/)
+- [What to prepare before your first tattoo](/en/tattoo-guide/what-to-prepare-before-your-first-tattoo/)
+- [Does getting a tattoo hurt?](/en/tattoo-guide/does-getting-a-tattoo-hurt/)

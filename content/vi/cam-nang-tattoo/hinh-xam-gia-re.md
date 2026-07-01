@@ -223,3 +223,26 @@ Nhưng giá thấp không nên là tiêu chí duy nhất khi quyết định.
 Nếu bạn đang chuẩn bị cho hình xăm đầu tiên, hãy dành thời gian tìm hiểu kỹ, xem portfolio và tham khảo [FAQ Xăm Hình](/faq/) trước khi đưa ra quyết định.
 
 Một hình xăm đẹp là hình xăm khiến bạn vẫn hài lòng khi nhìn lại sau nhiều năm, chứ không chỉ là hình xăm có mức giá thấp nhất ở thời điểm hiện tại.
+
+
+## Khi nào hình xăm giá rẻ là lựa chọn hợp lý?
+
+Hình xăm giá rẻ có thể phù hợp nếu thiết kế nhỏ, ít chi tiết và không yêu cầu nhiều thời gian xử lý. Ví dụ như chữ ngắn, biểu tượng mini hoặc linework đơn giản.
+
+### Những rủi ro khi chọn giá quá thấp
+
+- thiết kế bị đơn giản hóa quá mức
+- đường nét thiếu ổn định
+- khó sửa nếu lên da không đẹp
+- không đủ thời gian tư vấn kỹ
+- chi phí sửa lại có thể cao hơn ban đầu
+
+## Nên hỏi gì trước khi quyết định?
+
+Trước khi chọn một mức giá thấp, bạn nên hỏi rõ kích thước, độ chi tiết, thời gian thực hiện và hình sau khi lành có cần dặm lại không.
+
+## Xem thêm về chi phí xăm hình
+
+- [Xăm hình 500K được gì?](/vi/cam-nang-tattoo/xam-hinh-500k-duoc-gi/)
+- [Bảng giá xăm hình tại TP.HCM](/vi/bang-gia/)
+- [Vì sao giá xăm ngày càng rẻ?](/vi/cam-nang-tattoo/vi-sao-gia-xam-ngay-cang-re/)

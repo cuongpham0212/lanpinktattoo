@@ -1,4 +1,10 @@
 ---
+primary_keyword: "tattoo FAQ"
+main_keyword: "tattoo FAQ"
+keyword: "tattoo FAQ"
+seo_target_keyword: "tattoo FAQ"
+keywords: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City", "tattoo booking", "tattoo pricing", "tattoo consultation"]
+category: "Site Information"
 title: "Tattoo FAQ | Frequently Asked Questions"
 description: "Common tattoo questions answered by Lan Pink Tattoo in Ho Chi Minh City: pain level, pricing, aftercare, healing time, touch-ups, tattoo placement, and booking tips."
 slug: "faq"
@@ -8,12 +14,7 @@ translation_id: "faq_faq_faq"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp"
 
-tags:
-  - tattoo faq
-  - tattoo aftercare
-  - tattoo pain
-  - tattoo pricing
-  - tattoo guide
+tags: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City"]
 
 categories:
   - FAQ
@@ -211,3 +212,43 @@ Before booking, you may also want to check:
 - [Tattoo Portfolio](/en/portfolio/)
 - [About Lan Pink Tattoo](/en/about/)
 - [Tattoo Guide](/en/tattoo-guide/)
+
+## Questions people rarely ask but should
+
+Besides pain and price, you should ask whether the tattoo will stay clear after healing, whether the size is enough for the details, and whether the placement may distort over time.
+
+### Quick FAQ for first-time clients
+
+- Should a small tattoo include many details?
+- Do wrist tattoos fade faster?
+- Will I need a touch-up after healing?
+- What kind of reference images should I send?
+- Can the design be adjusted before tattooing?
+
+## When should you ask for a consultation?
+
+Ask for a consultation if you want a large tattoo, custom design, pet memorial tattoo, cover up, or tattoo restoration.
+
+## Read more
+
+- [Does getting a tattoo hurt?](/en/tattoo-guide/does-getting-a-tattoo-hurt/)
+- [What to prepare before your first tattoo](/en/tattoo-guide/what-to-prepare-before-your-first-tattoo/)
+- [Book a consultation](/en/booking/)
+
+## Helpful related information
+
+This page is part of Lan Pink Tattoo's website information system, helping clients understand the service before contacting, booking, or asking for a quote.
+
+### Why this page is useful
+
+- helps clients prepare better before messaging
+- reduces confusion about pricing or booking
+- explains the service flow more clearly
+- connects visitors to important pages on the website
+
+## Suggested next pages
+
+- [Contact Lan Pink](/en/contact/)
+- [Book a consultation](/en/booking/)
+- [Tattoo price list](/en/pricing/)
+- [Tattoo FAQ](/en/faq/)

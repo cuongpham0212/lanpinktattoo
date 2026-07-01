@@ -1,4 +1,9 @@
 ---
+primary_keyword: "quy tắc tích điểm"
+main_keyword: "quy tắc tích điểm"
+keyword: "quy tắc tích điểm"
+seo_target_keyword: "quy tắc tích điểm"
+category: "Thông tin website"
 title: "Quy Tắc Tích Điểm Thành Viên Lan Pink Tattoo"
 slug: "quy-tac-tich-diem"
 date: 2026-06-21
@@ -9,19 +14,8 @@ image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/image
 image_alt: "Quy tắc tích điểm thành viên Lan Pink Tattoo tại Quận 12 TP.HCM"
 categories:
   - "Thành viên"
-tags:
-  - "tích điểm thành viên"
-  - "voucher tattoo"
-  - "chương trình thành viên"
-  - "Lan Pink Tattoo"
-  - "Lan Pink Ink"
-  - "tattoo quận 12"
-  - "private tattoo studio"
-keywords:
-  - "tích điểm Lan Pink Tattoo"
-  - "quy tắc thành viên Lan Pink"
-  - "voucher sinh nhật tattoo"
-  - "chương trình khách hàng thân thiết tattoo"
+tags: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM"]
+keywords: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM", "đặt lịch xăm", "bảng giá xăm", "tư vấn hình xăm"]
 ---
 Chương trình thành viên của **Lan Pink Tattoo** được xây dựng như một cách giữ kết nối lâu dài với những khách hàng đã tin tưởng lựa chọn studio. Mỗi hình xăm không chỉ là một dịch vụ đã hoàn thành, mà còn là một dấu mốc cá nhân, một kỷ niệm và một phần trong hành trình đồng hành giữa khách hàng với Lan Pink.
 
@@ -157,3 +151,39 @@ Nếu bạn muốn tư vấn hình xăm hoặc kiểm tra thông tin thành viê
 - [Tra cứu hạng thành viên, điểm khả dụng và voucher](/lan-pink-member/)
 - [Xem bảng giá dịch vụ tại Lan Pink Tattoo](/bang-gia/)
 - [Liên hệ Lan Pink Tattoo để kiểm tra thông tin thành viên](/contact/)
+
+## Thông tin nên xem thêm
+
+Trang này là một phần trong hệ thống thông tin của Lan Pink Tattoo, giúp khách hiểu rõ hơn trước khi liên hệ, đặt lịch hoặc sử dụng dịch vụ.
+
+### Vì sao nội dung này hữu ích?
+
+- giúp khách chuẩn bị thông tin trước khi nhắn tin
+- giảm nhầm lẫn khi hỏi giá hoặc đặt lịch
+- hỗ trợ hiểu rõ quy trình dịch vụ
+- kết nối sang các trang quan trọng khác trên website
+
+## Gợi ý đọc tiếp
+
+- [Liên hệ Lan Pink](/vi/contact/)
+- [Đặt lịch tư vấn](/vi/dat-lich/)
+- [Bảng giá xăm hình](/vi/bang-gia/)
+- [FAQ xăm hình](/vi/faq/)
+
+## Vì sao cần hiểu quy tắc tích điểm?
+
+Hiểu rõ quy tắc tích điểm giúp thành viên biết cách nhận điểm, sử dụng ưu đãi và theo dõi quyền lợi sau mỗi lần xăm tại Lan Pink.
+
+## Những điểm cần chú ý
+
+- cách tính điểm
+- điều kiện nhận điểm
+- thời điểm sử dụng ưu đãi
+- chương trình giới thiệu bạn bè
+- quyền lợi cho khách quay lại
+
+## Trang liên quan
+
+- [Chương trình thành viên](/vi/lan-pink-member/)
+- [Chương trình giới thiệu bạn bè](/vi/chuong-trinh-gioi-thieu-ban-be/)
+- [Liên hệ Lan Pink](/vi/contact/)
