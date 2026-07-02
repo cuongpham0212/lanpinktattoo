@@ -6,7 +6,7 @@
   <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
     <div class="lp-article-shell rounded-[2rem] bg-white/80 p-5 shadow-xl shadow-pink-500/10 ring-1 ring-pink-200/60 backdrop-blur md:p-8 lg:p-10">
 
-      {{ if .TableOfContents }}
+      {{ if and .TableOfContents (ne .Params.show_toc false) (ne .Params.hide_toc true) }}
 
       <details class="lp-toc lp-toc-desktop group mb-8 rounded-3xl border border-pink-200/70 bg-white/75 p-4 shadow-lg shadow-pink-500/10 backdrop-blur md:p-5" open>
         <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
