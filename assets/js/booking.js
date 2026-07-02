@@ -174,7 +174,7 @@ if(location.hostname==="localhost" || location.hostname==="127.0.0.1"){
 }
 
 try{
-  const res=await fetch("/",{
+  const res=await fetch("/.netlify/functions/booking-consultation",{
     method:"POST",
     headers:{"Content-Type":"application/x-www-form-urlencoded"},
     body:new URLSearchParams(formData).toString()
