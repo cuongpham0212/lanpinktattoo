@@ -1,3 +1,9 @@
 {
-  "busyDates": {}
+  "busyDates": {
+    "2026-07-03": {
+      "note": "Đã có lịch tư vấn lúc 16:00 - Phạm Huy Cường.",
+      "source": "booking_form",
+      "lead_id": "booking_1783016388606_j9vs7p"
+    }
+  }
 }
