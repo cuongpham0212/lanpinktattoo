@@ -308,6 +308,19 @@
   cursor:pointer;
 }
 
+.lp-field-error{
+  margin:7px 2px 0;
+  color:#be185d!important;
+  font-size:13px;
+  font-weight:750;
+  line-height:1.45;
+}
+
+.lp-form-field input.lp-input-error{
+  border-color:#be185d!important;
+  box-shadow:0 0 0 4px rgba(190,24,93,.12)!important;
+}
+
 </style>
 
 <div class="lp-pay-page">
@@ -343,12 +356,12 @@
 
         <div class="lp-form-field">
           <label for="phone_zalo" data-i18n="phone">Số điện thoại/Zalo nhận hoá đơn thanh toán</label>
-          <input id="phone_zalo" name="phone_zalo" type="tel" autocomplete="tel" required>
+          <input id="phone_zalo" name="phone_zalo" type="tel" autocomplete="tel" inputmode="numeric" placeholder="0901234567" maxlength="12" required>
         </div>
 
         <div class="lp-form-field full">
           <label for="referral_phone" data-i18n="referral">Số điện thoại người giới thiệu nếu có</label>
-          <input id="referral_phone" name="referral_phone" type="tel">
+          <input id="referral_phone" name="referral_phone" type="tel" autocomplete="tel" inputmode="numeric" placeholder="0901234567" maxlength="12">
         </div>
       </div>
 
@@ -401,6 +414,120 @@ function phoneVariants(phone){
     if(d.startsWith("84")) arr.add("0" + d.slice(2));
   }
   return Array.from(arr);
+}
+
+const LP_MIN_AGE = 16;
+const LP_MAX_AGE = 70;
+
+function pad2(n){
+  return String(n).padStart(2, "0");
+}
+
+function dateToInputValue(d){
+  return d.getFullYear() + "-" + pad2(d.getMonth() + 1) + "-" + pad2(d.getDate());
+}
+
+function addYears(date, years){
+  const d = new Date(date);
+  d.setFullYear(d.getFullYear() + years);
+  return d;
+}
+
+function getBirthdayLimits(){
+  const today = new Date();
+  today.setHours(0,0,0,0);
+  return {
+    minDate: addYears(today, -LP_MAX_AGE),
+    maxDate: addYears(today, -LP_MIN_AGE)
+  };
+}
+
+function setFieldError(input, text){
+  if(!input) return;
+  input.classList.toggle("lp-input-error", !!text);
+
+  let box = input.parentElement ? input.parentElement.querySelector(".lp-field-error") : null;
+  if(!box && input.parentElement){
+    box = document.createElement("div");
+    box.className = "lp-field-error";
+    input.parentElement.appendChild(box);
+  }
+  if(box) box.textContent = text || "";
+}
+
+function normalizeVietnamPhone(raw){
+  let d = String(raw || "").trim().replace(/[^0-9+]/g, "");
+
+  if(d.startsWith("+84")) d = "0" + d.slice(3);
+  else if(d.startsWith("84")) d = "0" + d.slice(2);
+
+  d = d.replace(/\D+/g, "");
+  return d;
+}
+
+function validateVietnamPhone(input, opts){
+  opts = opts || {};
+  const required = !!opts.required;
+  const label = opts.label || "Số điện thoại";
+  const raw = input ? input.value : "";
+  const phone = normalizeVietnamPhone(raw);
+
+  if(!phone){
+    const msg = required ? label + " là bắt buộc." : "";
+    setFieldError(input, msg);
+    return {ok: !required, phone: ""};
+  }
+
+  if(!/^0[35789]\d{8}$/.test(phone)){
+    setFieldError(input, label + " chưa đúng. Vui lòng nhập số Việt Nam 10 số, ví dụ 0901234567 hoặc +84901234567.");
+    return {ok:false, phone};
+  }
+
+  input.value = phone;
+  setFieldError(input, "");
+  return {ok:true, phone};
+}
+
+function validateBirthday(input){
+  if(!input) return true;
+  const value = input.value;
+  const limits = getBirthdayLimits();
+
+  if(!value){
+    setFieldError(input, "Ngày sinh là bắt buộc.");
+    return false;
+  }
+
+  const picked = new Date(value + "T00:00:00");
+  if(Number.isNaN(picked.getTime())){
+    setFieldError(input, "Ngày sinh chưa hợp lệ.");
+    return false;
+  }
+
+  if(picked < limits.minDate || picked > limits.maxDate){
+    setFieldError(input, "Ngày sinh chỉ nhận khách từ " + LP_MIN_AGE + " đến " + LP_MAX_AGE + " tuổi.");
+    return false;
+  }
+
+  setFieldError(input, "");
+  return true;
+}
+
+function setupBirthdayLimit(){
+  const birthdayInput = document.getElementById("birthday");
+  if(!birthdayInput) return;
+  const limits = getBirthdayLimits();
+  birthdayInput.min = dateToInputValue(limits.minDate);
+  birthdayInput.max = dateToInputValue(limits.maxDate);
+  birthdayInput.addEventListener("change", function(){ validateBirthday(birthdayInput); });
+}
+
+function setupPhoneNormalize(input, opts){
+  if(!input) return;
+  input.addEventListener("input", function(){
+    input.value = input.value.replace(/[^0-9+\s().-]/g, "").slice(0, 16);
+  });
+  input.addEventListener("blur", function(){ validateVietnamPhone(input, opts); });
 }
 
 async function phoneExistsInMemberIndex(phone){
@@ -477,6 +604,10 @@ async function phoneExistsInMemberIndex(phone){
 
   setLang(detectLang());
 
+  setupBirthdayLimit();
+  setupPhoneNormalize(document.getElementById("phone_zalo"), {required:true, label:"Số điện thoại/Zalo"});
+  setupPhoneNormalize(document.getElementById("referral_phone"), {required:false, label:"Số điện thoại người giới thiệu"});
+
   const form = document.getElementById("lp-payment-info-form");
   const msg = document.getElementById("lp-payment-message");
 
@@ -486,6 +617,17 @@ async function phoneExistsInMemberIndex(phone){
       msg.textContent = "Đang gửi thông tin...";
 
       const payload = Object.fromEntries(new FormData(form).entries());
+      const birthdayOk = validateBirthday(document.getElementById("birthday"));
+      const phoneCheck = validateVietnamPhone(document.getElementById("phone_zalo"), {required:true, label:"Số điện thoại/Zalo"});
+      const referralCheck = validateVietnamPhone(document.getElementById("referral_phone"), {required:false, label:"Số điện thoại người giới thiệu"});
+
+      if(!birthdayOk || !phoneCheck.ok || !referralCheck.ok){
+        msg.textContent = "Vui lòng kiểm tra lại ngày sinh và số điện thoại trước khi gửi.";
+        return;
+      }
+
+      payload.phone_zalo = phoneCheck.phone;
+      payload.referral_phone = referralCheck.phone;
 
       try {
         const res = await fetch("/.netlify/functions/payment-info", {
