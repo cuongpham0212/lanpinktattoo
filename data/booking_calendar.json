@@ -2,6 +2,11 @@
   "busyDates": {
     "2026-07-02": {
       "note": "Tiệm đang có lịch xăm trong ngày này."
+    },
+    "2026-07-03": {
+      "note": "Đã có lịch tư vấn lúc 10:00 - Test Booking.",
+      "source": "booking_form",
+      "lead_id": "booking_1783011744758_2j4wow"
     }
   }
 }
