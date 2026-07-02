@@ -1,9 +1,12 @@
+{{ $utilitySections := slice "bang-gia" "pricing" "quy-tac-tich-diem" "member-rules" "lan-pink-member" "lan-pink-member-admin" "member" "member-admin" "dat-lich" "booking" "contact" "faq" "chinh-sach" "service-policy" "ve-lan-pink-ink-studio" "about-lan-pink-ink-studio" "chuong-trinh-gioi-thieu-ban-be" "friend-referral-program" }}
+{{ $isUtilityHero := in $utilitySections .Section }}
+
 {{ $bookingURL := "/booking/" | relLangURL }}
 {{ if eq .Language.Lang "vi" }}
   {{ $bookingURL = "/dat-lich/" | relLangURL }}
 {{ end }}
 
-<section class="lp-hero">
+<section class="lp-hero{{ if $isUtilityHero }} lp-hero-utility{{ end }}">
   <div class="mx-auto max-w-7xl px-4 py-12 lg:py-20">
     <div class="grid gap-10 lg:grid-cols-2 lg:items-center">
       <div>

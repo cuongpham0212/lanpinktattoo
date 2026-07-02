@@ -115,7 +115,7 @@
 
   {{ $sameLangPages := where .Site.RegularPages "Lang" .Lang }}
   {{ $sameSectionPages := where $sameLangPages "Section" .Section }}
-  {{ $related := first 3 (where $sameSectionPages "Permalink" "ne" .Permalink) }}
+  {{ $related := first 9 (where $sameSectionPages "Permalink" "ne" .Permalink) }}
 
   {{ with $related }}
   <section class="lp-related-section bg-pink-50/70 py-12">
@@ -134,7 +134,7 @@
         </h2>
       </div>
 
-      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="lp-related-carousel" aria-label="Bài viết liên quan tự chạy"><div class="lp-related-track">
         {{ range . }}
         {{ $rel := . }}
         <article class="group overflow-hidden rounded-3xl lp-card transition duration-300 hover:-translate-y-1">
@@ -163,7 +163,7 @@
           </a>
         </article>
         {{ end }}
-      </div>
+      </div></div>
     </div>
   </section>
   {{ end }}

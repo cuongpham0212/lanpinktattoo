@@ -695,3 +695,136 @@ body.dark-mode .lp-real-card{
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28) !important;
   }
 }
+
+
+/* ===== HOME + LIST PREMIUM MOTION PATCH ===== */
+.lp-page-header,
+.lp-home-hero,
+.home-hero,
+.hero-home{
+  position:relative!important;
+  overflow:hidden!important;
+}
+
+.lp-page-header::before,
+.lp-home-hero::before,
+.home-hero::before,
+.hero-home::before{
+  content:"";
+  position:absolute;
+  inset:-35%;
+  pointer-events:none;
+  background:
+    radial-gradient(circle at 18% 28%, rgba(236,72,153,.16), transparent 26%),
+    radial-gradient(circle at 78% 18%, rgba(249,168,212,.14), transparent 25%),
+    radial-gradient(circle at 55% 82%, rgba(190,24,93,.08), transparent 23%);
+  filter:blur(12px);
+  animation:lpSoftGlowDrift 9s ease-in-out infinite alternate;
+}
+
+.lp-page-header > *,
+.lp-home-hero > *,
+.home-hero > *,
+.hero-home > *{
+  position:relative;
+  z-index:1;
+}
+
+.lp-page-header .lp-eyebrow,
+.lp-page-header h1,
+.lp-page-header p,
+.lp-home-hero h1,
+.lp-home-hero p,
+.home-hero h1,
+.home-hero p,
+.hero-home h1,
+.hero-home p{
+  animation:lpSoftFadeUp .55s ease-out both;
+}
+
+.lp-page-header h1,
+.lp-home-hero h1,
+.home-hero h1,
+.hero-home h1{
+  animation-delay:.06s;
+}
+
+.lp-page-header p,
+.lp-home-hero p,
+.home-hero p,
+.hero-home p{
+  animation-delay:.12s;
+}
+
+.lp-card,
+.lp-post-card{
+  animation:lpCardLiftIn .5s ease-out both;
+}
+
+.lp-card:nth-child(2),
+.lp-post-card:nth-child(2){animation-delay:.05s;}
+
+.lp-card:nth-child(3),
+.lp-post-card:nth-child(3){animation-delay:.1s;}
+
+.lp-card:nth-child(4),
+.lp-post-card:nth-child(4){animation-delay:.15s;}
+
+.lp-post-card:hover,
+.lp-card:hover{
+  transform:translateY(-3px);
+}
+
+@keyframes lpSoftFadeUp{
+  from{
+    opacity:0;
+    transform:translateY(12px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+@keyframes lpCardLiftIn{
+  from{
+    opacity:0;
+    transform:translateY(12px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+@keyframes lpSoftGlowDrift{
+  0%{
+    transform:translate3d(-1.5%, -1%, 0) scale(1);
+    opacity:.72;
+  }
+  100%{
+    transform:translate3d(2%, 1.5%, 0) scale(1.04);
+    opacity:1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .lp-page-header::before,
+  .lp-home-hero::before,
+  .home-hero::before,
+  .hero-home::before,
+  .lp-page-header .lp-eyebrow,
+  .lp-page-header h1,
+  .lp-page-header p,
+  .lp-home-hero h1,
+  .lp-home-hero p,
+  .home-hero h1,
+  .home-hero p,
+  .hero-home h1,
+  .hero-home p,
+  .lp-card,
+  .lp-post-card{
+    animation:none!important;
+  }
+}
+

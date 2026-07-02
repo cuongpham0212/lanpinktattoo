@@ -306,3 +306,280 @@ html[data-theme="dark"] .lp-btn-secondary:hover {
     line-height: 1.65;
   }
 }
+
+
+/* ===== UTILITY / MAIN SINGLE HERO FIX ===== */
+.lp-hero.lp-hero-utility{
+  min-height: auto !important;
+  aspect-ratio: auto !important;
+  align-items: center !important;
+  background:
+    radial-gradient(circle at 10% 12%, rgba(236,72,153,.13), transparent 30%),
+    radial-gradient(circle at 86% 14%, rgba(249,168,212,.13), transparent 30%),
+    linear-gradient(135deg, var(--bg) 0%, var(--surface) 56%, var(--bg-soft) 100%) !important;
+}
+
+.lp-hero.lp-hero-utility > .mx-auto{
+  padding-top: clamp(3.5rem, 7vw, 5.75rem) !important;
+  padding-bottom: clamp(3rem, 6vw, 5rem) !important;
+}
+
+.lp-hero.lp-hero-utility h1{
+  max-width: 760px !important;
+  font-size: clamp(2.25rem, 5.6vw, 4rem) !important;
+  line-height: .98 !important;
+  letter-spacing: -.06em !important;
+}
+
+.lp-hero.lp-hero-utility p{
+  max-width: 640px !important;
+}
+
+.lp-hero.lp-hero-utility aside .lp-card{
+  padding: 2rem !important;
+}
+
+@media (max-width: 640px){
+  .lp-hero.lp-hero-utility,
+  .lp-hero.lp-hero-utility.lp-hero-compact{
+    min-height: auto !important;
+    aspect-ratio: auto !important;
+    align-items: center !important;
+  }
+
+  .lp-hero.lp-hero-utility > .mx-auto{
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  .lp-hero.lp-hero-utility h1{
+    font-size: clamp(2rem, 11vw, 3.05rem) !important;
+    line-height: 1 !important;
+  }
+
+  .lp-hero.lp-hero-utility .grid{
+    gap: 1.5rem !important;
+  }
+}
+
+
+
+
+/* ==================================================
+   SINGLE HERO = SAME SCALE AS LIST HEADER
+================================================== */
+
+.lp-hero{
+  min-height:auto !important;
+  aspect-ratio:auto !important;
+  align-items:center !important;
+}
+
+.lp-hero > .mx-auto{
+  padding-top:3rem !important;
+  padding-bottom:3rem !important;
+}
+
+.lp-hero .grid{
+  gap:2rem !important;
+}
+
+.lp-hero h1,
+.lp-hero-title{
+  font-size:clamp(2rem,4vw,3.5rem) !important;
+  line-height:1.02 !important;
+  letter-spacing:-0.05em !important;
+  max-width:900px !important;
+}
+
+.lp-hero p,
+.lp-hero-desc{
+  max-width:680px !important;
+  font-size:1.05rem !important;
+  line-height:1.7 !important;
+}
+
+.lp-hero aside .lp-card{
+  padding:1.75rem !important;
+}
+
+@media (max-width:1024px){
+  .lp-hero aside{
+    display:none !important;
+  }
+}
+
+@media (max-width:640px){
+
+  .lp-hero,
+  .lp-hero-compact{
+    min-height:auto !important;
+    aspect-ratio:auto !important;
+    align-items:center !important;
+  }
+
+  .lp-hero > .mx-auto{
+    padding-top:2.25rem !important;
+    padding-bottom:2.25rem !important;
+  }
+
+  .lp-hero h1,
+  .lp-hero-title{
+    font-size:clamp(2rem,9vw,3rem) !important;
+    line-height:1.04 !important;
+  }
+
+  .lp-hero p,
+  .lp-hero-desc{
+    font-size:.98rem !important;
+  }
+}
+
+
+/* ===== HERO PREMIUM MOTION PATCH ===== */
+.lp-hero{
+  position:relative !important;
+  overflow:hidden !important;
+}
+
+.lp-hero::before{
+  content:"";
+  position:absolute;
+  inset:-35%;
+  z-index:0;
+  pointer-events:none;
+  background:
+    radial-gradient(circle at 20% 35%, rgba(236,72,153,.18), transparent 28%),
+    radial-gradient(circle at 78% 20%, rgba(249,168,212,.16), transparent 26%),
+    radial-gradient(circle at 52% 82%, rgba(190,24,93,.10), transparent 24%);
+  filter:blur(10px);
+  animation:lpHeroGlowDrift 9s ease-in-out infinite alternate;
+}
+
+.lp-hero > *{
+  position:relative;
+  z-index:1;
+}
+
+.lp-hero .lp-eyebrow,
+.lp-hero .lp-hero-kicker,
+.lp-hero p.mb-3{
+  animation:lpHeroFadeUp .46s ease-out both;
+}
+
+.lp-hero h1,
+.lp-hero .lp-hero-title{
+  animation:lpHeroFadeUp .52s ease-out .08s both;
+}
+
+.lp-hero p,
+.lp-hero .lp-hero-desc{
+  animation:lpHeroFadeUp .58s ease-out .16s both;
+}
+
+.lp-hero .hero-actions,
+.lp-hero .mt-6{
+  animation:lpHeroFadeUp .62s ease-out .24s both;
+}
+
+.lp-hero aside .lp-card{
+  animation:
+    lpHeroFadeUp .64s ease-out .2s both,
+    lpHeroFloat 4.2s ease-in-out 1.4s infinite;
+}
+
+.lp-hero .lp-btn-primary,
+.lp-hero .lp-btn-secondary{
+  position:relative;
+  overflow:hidden;
+}
+
+.lp-hero .lp-btn-primary::after,
+.lp-hero .lp-btn-secondary::after{
+  content:"";
+  position:absolute;
+  top:-40%;
+  bottom:-40%;
+  width:36%;
+  left:-55%;
+  transform:rotate(18deg);
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,.38), transparent);
+  animation:lpHeroButtonShine 3.6s ease-in-out infinite;
+}
+
+@keyframes lpHeroFadeUp{
+  from{
+    opacity:0;
+    transform:translateY(14px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+@keyframes lpHeroGlowDrift{
+  0%{
+    transform:translate3d(-1.5%, -1%, 0) scale(1);
+    opacity:.72;
+  }
+  100%{
+    transform:translate3d(2%, 1.5%, 0) scale(1.04);
+    opacity:1;
+  }
+}
+
+@keyframes lpHeroFloat{
+  0%,100%{
+    transform:translateY(0);
+  }
+  50%{
+    transform:translateY(-7px);
+  }
+}
+
+@keyframes lpHeroButtonShine{
+  0%, 62%{
+    left:-55%;
+    opacity:0;
+  }
+  70%{
+    opacity:1;
+  }
+  86%, 100%{
+    left:120%;
+    opacity:0;
+  }
+}
+
+@media (max-width:640px){
+  .lp-hero::before{
+    inset:-45%;
+    filter:blur(14px);
+    opacity:.86;
+  }
+
+  .lp-hero .lp-btn-primary::after,
+  .lp-hero .lp-btn-secondary::after{
+    animation-duration:4.2s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .lp-hero::before,
+  .lp-hero .lp-eyebrow,
+  .lp-hero .lp-hero-kicker,
+  .lp-hero p.mb-3,
+  .lp-hero h1,
+  .lp-hero .lp-hero-title,
+  .lp-hero p,
+  .lp-hero .lp-hero-desc,
+  .lp-hero .hero-actions,
+  .lp-hero .mt-6,
+  .lp-hero aside .lp-card,
+  .lp-hero .lp-btn-primary::after,
+  .lp-hero .lp-btn-secondary::after{
+    animation:none!important;
+  }
+}
+
