@@ -522,3 +522,76 @@ html[data-theme="dark"] .lp-google-review-text{
     min-height:280px !important;
   }
 }
+
+/* Lan Pink Payment Form - light/dark auto fix */
+.lp-payment-form-wrap{
+  background: var(--color-bg, #fff);
+  color: var(--color-text, #222);
+  border-color: var(--color-border, #eee);
+}
+
+.lp-payment-form-wrap input{
+  background: var(--color-bg, #fff);
+  color: var(--color-text, #222);
+  border-color: var(--color-border, #ddd);
+}
+
+.lp-payment-form-wrap input::placeholder{
+  color: var(--color-muted, #777);
+}
+
+.lp-form-note{
+  background: rgba(127,127,127,.08);
+  color: var(--color-text, #333);
+}
+
+.lp-small{
+  color: var(--color-muted, #777);
+}
+
+.lp-lang-switch button{
+  background: rgba(127,127,127,.08);
+  color: var(--color-text, #222);
+  border-color: var(--color-border, #ddd);
+}
+
+.lp-lang-switch button.active,
+.lp-submit{
+  background: var(--color-text, #111);
+  color: var(--color-bg, #fff);
+}
+
+@media (prefers-color-scheme: dark){
+  .lp-payment-form-wrap{
+    background:#151515;
+    color:#f4f4f4;
+    border-color:#333;
+  }
+
+  .lp-payment-form-wrap input{
+    background:#202020;
+    color:#fff;
+    border-color:#444;
+  }
+
+  .lp-form-note{
+    background:#202020;
+    color:#eee;
+  }
+
+  .lp-small{
+    color:#bbb;
+  }
+
+  .lp-lang-switch button{
+    background:#202020;
+    color:#eee;
+    border-color:#444;
+  }
+
+  .lp-lang-switch button.active,
+  .lp-submit{
+    background:#fff;
+    color:#111;
+  }
+}

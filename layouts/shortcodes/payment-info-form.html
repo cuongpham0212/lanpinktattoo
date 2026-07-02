@@ -1,0 +1,419 @@
+<style>
+.lp-pay-page{
+  max-width:860px;
+  margin:34px auto;
+  padding:0 18px;
+}
+
+.lp-payment-form-wrap{
+  position:relative;
+  overflow:hidden;
+  padding:34px;
+  border-radius:30px;
+  background:linear-gradient(145deg,#fff,#fff7fb);
+  border:1px solid rgba(236,72,153,.18);
+  box-shadow:0 24px 70px rgba(236,72,153,.14);
+  color:#321625;
+}
+
+.lp-payment-form-wrap:before{
+  content:"";
+  position:absolute;
+  inset:-120px -120px auto auto;
+  width:260px;
+  height:260px;
+  background:radial-gradient(circle,rgba(236,72,153,.22),transparent 68%);
+  pointer-events:none;
+}
+
+.lp-pay-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:9px 14px;
+  border-radius:999px;
+  background:#fff;
+  color:#db2777;
+  font-weight:800;
+  font-size:14px;
+  box-shadow:0 10px 28px rgba(236,72,153,.12);
+  margin-bottom:16px;
+}
+
+.lp-payment-form-wrap h1{
+  margin:0 0 10px;
+  font-size:clamp(32px,4vw,52px);
+  line-height:1.02;
+  letter-spacing:-.04em;
+  color:#2b1320;
+}
+
+.lp-pay-intro{
+  margin:0 0 24px;
+  max-width:680px;
+  color:#735064;
+  font-size:17px;
+  line-height:1.7;
+}
+
+.lp-lang-switch{
+  display:flex;
+  gap:8px;
+  margin:0 0 22px;
+  padding:6px;
+  width:max-content;
+  border-radius:999px;
+  background:#fff;
+  border:1px solid rgba(236,72,153,.18);
+}
+
+.lp-lang-switch button{
+  padding:9px 15px;
+  border-radius:999px;
+  border:0;
+  background:transparent;
+  color:#8a5a72;
+  cursor:pointer;
+  font-weight:800;
+}
+
+.lp-lang-switch button.active{
+  background:#ec4899;
+  color:#fff;
+  box-shadow:0 8px 18px rgba(236,72,153,.28);
+}
+
+.lp-form-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+}
+
+.lp-form-field{
+  margin:0;
+}
+
+.lp-form-field.full{
+  grid-column:1 / -1;
+}
+
+.lp-form-field label{
+  display:block;
+  font-size:14px;
+  font-weight:850;
+  margin:0 0 8px;
+  color:#4b2638;
+}
+
+.lp-form-field input{
+  width:100%;
+  box-sizing:border-box;
+  height:54px;
+  padding:0 16px;
+  border:1px solid rgba(120,60,90,.18);
+  border-radius:17px;
+  font-size:16px;
+  background:#fff;
+  color:#2b1320;
+  outline:none;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.8);
+}
+
+.lp-form-field input:focus{
+  border-color:#ec4899;
+  box-shadow:0 0 0 4px rgba(236,72,153,.14);
+}
+
+.lp-form-note{
+  margin:20px 0 14px;
+  padding:17px 18px;
+  border-radius:20px;
+  background:rgba(255,255,255,.72);
+  border:1px solid rgba(236,72,153,.14);
+  color:#5d4050;
+  font-size:15px;
+  line-height:1.65;
+}
+
+.lp-form-note a{
+  color:#db2777;
+  font-weight:850;
+  text-decoration:none;
+  border-bottom:1px solid currentColor;
+}
+
+.lp-consent{
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+  margin:17px 0;
+  padding:15px 16px;
+  border-radius:18px;
+  background:#fff;
+  border:1px solid rgba(236,72,153,.14);
+  color:#604254;
+  font-size:14px;
+  line-height:1.55;
+}
+
+.lp-consent input{
+  margin-top:4px;
+  accent-color:#ec4899;
+}
+
+.lp-submit{
+  width:100%;
+  height:56px;
+  border:0;
+  border-radius:999px;
+  background:linear-gradient(135deg,#ec4899,#f472b6);
+  color:#fff;
+  font-weight:900;
+  font-size:17px;
+  cursor:pointer;
+  box-shadow:0 18px 34px rgba(236,72,153,.28);
+}
+
+.lp-submit:hover{
+  transform:translateY(-1px);
+}
+
+.lp-small{
+  font-size:13px;
+  color:#806175;
+  margin-top:12px;
+  line-height:1.55;
+}
+
+.lp-hidden{
+  display:none!important;
+}
+
+
+
+@media (max-width:720px){
+  .lp-payment-form-wrap{
+    padding:24px 18px;
+    border-radius:24px;
+  }
+
+  .lp-form-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+/* Force payment form light luxury theme */
+.lp-payment-form-wrap,
+.lp-payment-form-wrap *{
+  color-scheme: light;
+}
+
+.lp-payment-form-wrap{
+  background:linear-gradient(145deg,#ffffff,#fff8fb)!important;
+  color:#33202a!important;
+  border-color:rgba(222,120,170,.24)!important;
+}
+
+.lp-payment-form-wrap h1{
+  color:#2b1320!important;
+}
+
+.lp-pay-intro,
+.lp-small{
+  color:#765568!important;
+}
+
+.lp-form-field label{
+  color:#4b2638!important;
+}
+
+.lp-form-field input{
+  background:#ffffff!important;
+  color:#26131d!important;
+  border-color:#e8c7d7!important;
+}
+
+.lp-form-note,
+.lp-consent{
+  background:#fff7fb!important;
+  color:#604254!important;
+  border-color:#f4bfd8!important;
+}
+
+.lp-lang-switch{
+  background:#ffffff!important;
+  border-color:#f4bfd8!important;
+}
+
+.lp-lang-switch button{
+  background:#ffffff!important;
+  color:#8a4264!important;
+}
+
+.lp-lang-switch button.active{
+  background:#ec4899!important;
+  color:#ffffff!important;
+}
+
+.lp-submit{
+  background:linear-gradient(135deg,#ec4899,#f472b6)!important;
+  color:#ffffff!important;
+}
+
+</style>
+
+<div class="lp-pay-page">
+  <div class="lp-payment-form-wrap" id="lpPaymentForm">
+    <div class="lp-lang-switch">
+      <button type="button" data-lang-btn="vi">Tiếng Việt</button>
+      <button type="button" data-lang-btn="en">English</button>
+    </div>
+
+    <div class="lp-pay-badge">💎 Lan Pink Member</div>
+    <h1 data-i18n="title">Nhập thông tin thanh toán</h1>
+    <p class="lp-pay-intro" data-i18n="intro">Bạn chỉ cần nhập thông tin một lần. Những lần thanh toán sau, Lan Pink Tattoo có thể tra cứu bằng số điện thoại/Zalo để hỗ trợ nhanh hơn.</p>
+
+    <form id="lp-payment-info-form" name="lanpink-payment-info">
+      <input type="hidden" name="language" id="lp_payment_language" value="vi">
+      <p class="lp-hidden"><label>Không điền ô này: <input name="bot-field"></label></p>
+
+      <div class="lp-form-grid">
+        <div class="lp-form-field">
+          <label for="full_name" data-i18n="fullName">Họ tên</label>
+          <input id="full_name" name="full_name" type="text" autocomplete="name" required>
+        </div>
+
+        <div class="lp-form-field">
+          <label for="birthday" data-i18n="birthday">Ngày sinh để nhận voucher sinh nhật</label>
+          <input id="birthday" name="birthday" type="date" required>
+        </div>
+
+        <div class="lp-form-field">
+          <label for="email" data-i18n="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email">
+        </div>
+
+        <div class="lp-form-field">
+          <label for="phone_zalo" data-i18n="phone">Số điện thoại/Zalo nhận hoá đơn thanh toán</label>
+          <input id="phone_zalo" name="phone_zalo" type="tel" autocomplete="tel" required>
+        </div>
+
+        <div class="lp-form-field full">
+          <label for="referral_phone" data-i18n="referral">Số điện thoại người giới thiệu nếu có</label>
+          <input id="referral_phone" name="referral_phone" type="tel">
+        </div>
+      </div>
+
+      <div class="lp-form-note">
+        <span data-i18n="note">Thông tin này được dùng để hỗ trợ thanh toán, gửi hoá đơn, lưu hồ sơ thành viên và áp dụng quyền lợi Lan Pink Member. Khi gửi thông tin, bạn đồng ý tham gia chương trình Lan Pink Member của Lan Pink Tattoo.</span>
+        <br>
+        <a href="/chinh-sach/" data-i18n="privacy">Xem chính sách bảo mật thông tin</a>
+      </div>
+
+      <label class="lp-consent">
+        <input type="checkbox" name="member_consent" value="yes" required>
+        <span data-i18n="consent">Tôi đồng ý để Lan Pink Tattoo lưu thông tin cơ bản nhằm hỗ trợ thanh toán, chăm sóc khách hàng và quyền lợi thành viên cho những lần sau.</span>
+      </label>
+
+      <button class="lp-submit" type="submit" data-i18n="submit">Gửi thông tin</button>
+      <div id="lp-payment-message" class="lp-small"></div>
+      <div class="lp-small" data-i18n="small">Lan Pink Tattoo không chia sẻ thông tin cá nhân của khách cho bên thứ ba ngoài mục đích vận hành dịch vụ.</div>
+    </form>
+  </div>
+</div>
+
+<script>
+(function(){
+  const dict = {
+    vi: {
+      title: "Nhập thông tin thanh toán",
+      intro: "Bạn chỉ cần nhập thông tin một lần. Những lần thanh toán sau, Lan Pink Tattoo có thể tra cứu bằng số điện thoại/Zalo để hỗ trợ nhanh hơn.",
+      fullName: "Họ tên",
+      birthday: "Ngày sinh để nhận voucher sinh nhật",
+      email: "Email",
+      phone: "Số điện thoại/Zalo nhận hoá đơn thanh toán",
+      referral: "Số điện thoại người giới thiệu nếu có",
+      note: "Thông tin này được dùng để hỗ trợ thanh toán, gửi hoá đơn, lưu hồ sơ thành viên và áp dụng quyền lợi Lan Pink Member. Khi gửi thông tin, bạn đồng ý tham gia chương trình Lan Pink Member của Lan Pink Tattoo.",
+      privacy: "Xem chính sách bảo mật thông tin",
+      consent: "Tôi đồng ý để Lan Pink Tattoo lưu thông tin cơ bản nhằm hỗ trợ thanh toán, chăm sóc khách hàng và quyền lợi thành viên cho những lần sau.",
+      submit: "Gửi thông tin",
+      small: "Lan Pink Tattoo không chia sẻ thông tin cá nhân của khách cho bên thứ ba ngoài mục đích vận hành dịch vụ."
+    },
+    en: {
+      title: "Payment Information",
+      intro: "You only need to enter your information once. For future payments, Lan Pink Tattoo can look it up by phone/Zalo to support you faster.",
+      fullName: "Full name",
+      birthday: "Birthday for birthday voucher",
+      email: "Email",
+      phone: "Phone/Zalo number for payment invoice",
+      referral: "Referrer phone number, if any",
+      note: "This information is used to support payment, invoice delivery, member profile storage and Lan Pink Member benefits. By submitting this form, you agree to join the Lan Pink Member program.",
+      privacy: "View privacy policy",
+      consent: "I agree that Lan Pink Tattoo may store my basic information to support payment, customer care and member benefits for future visits.",
+      submit: "Submit information",
+      small: "Lan Pink Tattoo does not share customers’ personal information with third parties outside service operation purposes."
+    }
+  };
+
+  function detectLang(){
+    const saved = localStorage.getItem("lp_payment_lang");
+    if(saved === "vi" || saved === "en") return saved;
+    return window.location.pathname.toLowerCase().startsWith("/en/") ? "en" : "vi";
+  }
+
+  function setLang(lang){
+    localStorage.setItem("lp_payment_lang", lang);
+    var langInput = document.getElementById("lp_payment_language");
+    if(langInput) langInput.value = lang;
+
+    document.querySelectorAll("[data-i18n]").forEach(function(el){
+      const key = el.getAttribute("data-i18n");
+      if(dict[lang] && dict[lang][key]) el.textContent = dict[lang][key];
+    });
+
+    document.querySelectorAll("[data-lang-btn]").forEach(function(btn){
+      btn.classList.toggle("active", btn.getAttribute("data-lang-btn") === lang);
+    });
+  }
+
+  document.querySelectorAll("[data-lang-btn]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      setLang(btn.getAttribute("data-lang-btn"));
+    });
+  });
+
+  setLang(detectLang());
+
+  const form = document.getElementById("lp-payment-info-form");
+  const msg = document.getElementById("lp-payment-message");
+
+  if(form){
+    form.addEventListener("submit", async function(e){
+      e.preventDefault();
+      msg.textContent = "Đang gửi thông tin...";
+
+      const payload = Object.fromEntries(new FormData(form).entries());
+
+      try {
+        const res = await fetch("/.netlify/functions/payment-info", {
+          method: "POST",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify(payload)
+        });
+
+        const data = await res.json();
+
+        if(!res.ok || !data.ok){
+          msg.textContent = "Gửi chưa thành công. Vui lòng báo nhân viên Lan Pink Tattoo.";
+          return;
+        }
+
+        form.reset();
+        msg.textContent = "Đã nhận thông tin. Cảm ơn bạn!";
+      } catch(err) {
+        msg.textContent = "Không gửi được thông tin. Vui lòng báo nhân viên Lan Pink Tattoo.";
+      }
+    });
+  }
+})();
+</script>
