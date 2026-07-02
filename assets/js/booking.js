@@ -174,10 +174,12 @@ if(location.hostname==="localhost" || location.hostname==="127.0.0.1"){
 }
 
 try{
+  const payload = Object.fromEntries(formData.entries());
+
   const res=await fetch("/.netlify/functions/booking-consultation",{
     method:"POST",
-    headers:{"Content-Type":"application/x-www-form-urlencoded"},
-    body:new URLSearchParams(formData).toString()
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify(payload)
   });
   if(!res.ok) throw new Error("Netlify form failed");
   panel.innerHTML=`<h2>${lang==="en"?"Request sent":"Đã gửi yêu cầu"}</h2><div class="lp-note-box"><p>${t.success}</p></div>`;
