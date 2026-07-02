@@ -595,3 +595,42 @@ html[data-theme="dark"] .lp-google-review-text{
     color:#111;
   }
 }
+
+
+/* ===== MOBILE HOME WORKS CAROUSEL ===== */
+@media (max-width: 640px){
+  section:has(.lp-home-work-track){
+    overflow:hidden!important;
+  }
+
+  .lp-home-work-track{
+    display:flex!important;
+    gap:1rem!important;
+    width:max-content!important;
+    animation:lpHomeWorksRun 34s linear infinite!important;
+    will-change:transform;
+  }
+
+  .lp-home-work-track:hover{
+    animation-play-state:paused!important;
+  }
+
+  .lp-home-work-track > *{
+    width:calc(100vw - 3rem)!important;
+    max-width:340px!important;
+    min-width:calc(100vw - 3rem)!important;
+    flex:0 0 auto!important;
+  }
+}
+
+@keyframes lpHomeWorksRun{
+  from{transform:translateX(0);}
+  to{transform:translateX(calc(-50% - .5rem));}
+}
+
+@media (prefers-reduced-motion: reduce){
+  .lp-home-work-track{
+    animation:none!important;
+  }
+}
+
