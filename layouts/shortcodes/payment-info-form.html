@@ -322,8 +322,50 @@
   </div>
 </div>
 
+
+<div class="lp-payment-modal" id="lpPaymentSuccessModal">
+  <div class="lp-payment-modal-box">
+    <div class="lp-payment-modal-icon">✓</div>
+    <h3>Lan Pink đã nhận thông tin</h3>
+    <p>Studio sẽ lưu thông tin này để hỗ trợ thanh toán, hóa đơn và quyền lợi Lan Pink Member cho những lần sau.</p>
+    <button type="button" onclick="document.getElementById('lpPaymentSuccessModal').classList.remove('show')">Đã hiểu</button>
+  </div>
+</div>
+
 <script>
 (function(){
+
+async function sha256Text(text){
+  const enc = new TextEncoder();
+  const buf = await crypto.subtle.digest("SHA-256", enc.encode(text));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
+function phoneVariants(phone){
+  const d = String(phone || "").replace(/\D+/g, "");
+  const arr = new Set();
+  if(d){
+    arr.add(d);
+    if(d.startsWith("0")) arr.add("84" + d.slice(1));
+    if(d.startsWith("84")) arr.add("0" + d.slice(2));
+  }
+  return Array.from(arr);
+}
+
+async function phoneExistsInMemberIndex(phone){
+  try{
+    const res = await fetch("/member-phone-index.json?v=" + Date.now());
+    if(!res.ok) return false;
+    const data = await res.json();
+    const phones = new Set(data.phones || []);
+    for(const v of phoneVariants(phone)){
+      const h = await sha256Text(v);
+      if(phones.has(h)) return true;
+    }
+  }catch(e){}
+  return false;
+}
+
   const dict = {
     vi: {
       title: "Nhập thông tin thanh toán",
