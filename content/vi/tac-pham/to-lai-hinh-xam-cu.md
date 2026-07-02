@@ -40,6 +40,8 @@ seo_cluster_id: "to-lai-cu_tattoo"
 seo_cluster: "Hình xăm tô lại cũ"
 seo_intent: "Tác phẩm"
 seo_target_keyword: "tô lại hình xăm cũ"
+
+google_review_id: ""
 ---
 ![Phục hồi và tô lại hình xăm Maori cũ phủ tay, nửa thân trước và nửa thân sau cho khách nước ngoài tại Lan Pink Tattoo](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/maori-tattoo-restoration-half-back-shoulder-cover.webp)
 

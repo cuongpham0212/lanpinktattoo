@@ -49,6 +49,8 @@ seo_cluster_id: "pet_portrait_tattoo"
 seo_cluster: "Pet Portrait Tattoo"
 seo_intent: "Portfolio"
 seo_target_keyword: "cat portrait tattoo"
+
+google_review_id: ""
 ---
 
 ![Misa cat portrait tattoo by Lan Pink Tattoo in Ho Chi Minh City](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-chan-dung-meo-misa.webp)

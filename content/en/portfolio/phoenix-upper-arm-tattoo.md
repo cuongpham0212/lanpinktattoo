@@ -36,6 +36,8 @@ seo_cluster_id: "phoenix_tattoo"
 seo_cluster: "Phoenix Tattoo"
 seo_intent: "Portfolio"
 seo_target_keyword: "phoenix upper arm tattoo"
+
+google_review_id: ""
 ---
 
 ![Phoenix tattoo on the upper arm by Lan Pink Tattoo](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-phuong-hoang-o-bap-tay.webp)

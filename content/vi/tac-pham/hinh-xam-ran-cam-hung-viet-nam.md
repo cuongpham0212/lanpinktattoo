@@ -40,6 +40,9 @@ categories:
 keywords:
   - "Hình Xăm Rắn Mang Cảm Hứng Việt Nam | Custom Tattoo Design Tại Lan Pink Ink"
 seo_content_type: "portfolio"
+
+
+google_review_id: ""
 ---
 ![Hình xăm rắn được thiết kế bởi Lan Pink Tattoo tại TP.HCM](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-ran-lan-pink-tattoo.webp)
 

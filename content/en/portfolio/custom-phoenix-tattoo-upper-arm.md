@@ -34,6 +34,8 @@ artwork_client: "Male International Client"
 artwork_meaning: "A symbol of rebirth, resilience, and embracing a new chapter in life."
 
 seo_content_type: "portfolio"
+
+google_review_id: ""
 seo_cluster_id: "phoenix_tattoo"
 seo_cluster: "Phoenix Tattoo"
 seo_intent: "Portfolio"

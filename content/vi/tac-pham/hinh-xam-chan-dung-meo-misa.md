@@ -48,6 +48,8 @@ seo_cluster_id: "pet_portrait_tattoo"
 seo_cluster: "Hình xăm thú cưng"
 seo_intent: "Tác phẩm"
 seo_target_keyword: "hình xăm chân dung mèo"
+
+google_review_id: ""
 ---
 ![Hình xăm chân dung mèo Misa thực hiện bởi Lan Pink Tattoo Lan Pink Ink tại TP.HCM](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-chan-dung-meo-misa.webp)
 
