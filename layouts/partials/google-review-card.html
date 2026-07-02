@@ -1,0 +1,46 @@
+{{- $reviewID := .Params.google_review_id -}}
+{{- if $reviewID -}}
+  {{- $reviews := site.Data.google_reviews -}}
+  {{- $review := index $reviews $reviewID -}}
+
+  {{- if $review -}}
+<section class="lp-google-review-card">
+  <div class="lp-google-review-intro">
+    <span>Khách hàng nói gì về Lan Pink?</span>
+
+    {{- with $review.google_review_url }}
+    <a class="lp-google-review-verified" href="{{ . }}" target="_blank" rel="nofollow noopener">
+      Đã xác thực từ Google Review →
+    </a>
+    {{- else }}
+      {{- if $review.verified }}
+      <span class="lp-google-review-verified">Đã xác thực từ Google Review</span>
+      {{- end }}
+    {{- end }}
+  </div>
+
+  <div class="lp-google-review-head">
+    <div>
+      <div class="lp-google-review-stars">
+        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+      </div>
+      <strong>{{ $review.reviewer_name }}</strong>
+    </div>
+  </div>
+
+  <p class="lp-google-review-text">“{{ $review.review_text }}”</p>
+
+  {{- with $review.feedback_images }}
+  <div class="lp-google-review-images">
+    {{- range . }}
+    <img src="{{ . }}" alt="Feedback khách hàng Lan Pink Ink Studio" loading="lazy">
+    {{- end }}
+  </div>
+  {{- end }}
+
+  <div class="lp-google-review-foot">
+    <span>Review thật từ khách hàng sau buổi xăm tại Lan Pink Ink Studio</span>
+  </div>
+</section>
+  {{- end -}}
+{{- end -}}

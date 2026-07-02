@@ -61,7 +61,7 @@ Hình xăm thú cưng thông thường có thể được xăm khi bé vẫn cò
 
 Hình xăm tưởng niệm thú cưng thường mang cảm xúc sâu hơn. Nó gắn với sự chia xa, nỗi nhớ và mong muốn lưu giữ hình bóng của bé sau khi bé đã rời đi.
 
-Bạn có thể đọc thêm bài [Ý Nghĩa Hình Xăm Thú Cưng](/y-nghia-hinh-xam/y-nghia-hinh-xam-thu-cung/) để phân biệt rõ hơn giữa hai hướng này.
+Bạn có thể đọc thêm bài [Ý Nghĩa Hình Xăm Thú Cưng](/vi/chu-de-hinh-xam/hinh-xam-thu-cung/y-nghia-hinh-xam-thu-cung/) để phân biệt rõ hơn giữa hai hướng này.
 
 ## Những chi tiết thường dùng trong hình xăm tưởng niệm
 
@@ -115,7 +115,7 @@ Một số vị trí thường được chọn:
 
 Vị trí gần tim thường được chọn khi hình mang cảm xúc rất riêng. Cẳng tay hoặc cổ tay phù hợp nếu bạn muốn thường xuyên nhìn thấy hình.
 
-Bạn có thể xem ca thực tế [Hình Xăm Chú Vẹt Tưởng Niệm](/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/) hoặc đọc thêm [Hình Xăm Tưởng Niệm Thú Cưng Có Ý Nghĩa Gì?](/cam-nang-tattoo/hinh-xam-tuong-niem-thu-cung-noi-len-dieu-gi/).
+Bạn có thể xem ca thực tế [Hình Xăm Chú Vẹt Tưởng Niệm](/vi/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/) hoặc đọc thêm [Hình Xăm Tưởng Niệm Thú Cưng Có Ý Nghĩa Gì?](/vi/cam-nang-tattoo/hinh-xam-tuong-niem-thu-cung-noi-len-dieu-gi/).
 
 ## Kết luận
 

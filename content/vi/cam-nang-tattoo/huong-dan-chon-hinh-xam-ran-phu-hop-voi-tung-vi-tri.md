@@ -54,7 +54,7 @@ Vì vậy, vị trí xăm sẽ ảnh hưởng đến:
 - Cảm giác mạnh, mềm, bí ẩn hay tối giản
 - Khả năng nhìn thấy hình xăm trong sinh hoạt hằng ngày
 
-Nếu bạn chưa chắc mình thích phong cách nào, có thể xem thêm bài [Hình Xăm Rắn](/y-tuong-xam/hinh-xam-ran/) để tham khảo các hướng thiết kế phổ biến trước khi chọn vị trí.
+Nếu bạn chưa chắc mình thích phong cách nào, có thể xem thêm bài [Hình Xăm Rắn](/vi/chu-de-hinh-xam/hinh-xam-ran/) để tham khảo các hướng thiết kế phổ biến trước khi chọn vị trí.
 
 ## Hình xăm rắn ở cẳng tay
 
@@ -113,7 +113,7 @@ Vị trí này phù hợp với:
 - Hình rắn kết hợp hoa hoặc họa tiết văn hóa
 - Tattoo dành cho người thích cảm giác mạnh, rõ và cá tính
 
-Một ví dụ thực tế tại Lan Pink là tác phẩm [Hình Xăm Rắn Mang Cảm Hứng Việt Nam](/tac-pham/hinh-xam-ran-cam-hung-viet-nam/), được thiết kế riêng cho một khách quốc tế yêu thích Việt Nam. Với vị trí ở chân, hình rắn có đủ không gian để thể hiện chuyển động và tinh thần cá nhân của khách.
+Một ví dụ thực tế tại Lan Pink là tác phẩm [Hình Xăm Rắn Mang Cảm Hứng Việt Nam](/vi/tac-pham/hinh-xam-ran-cam-hung-viet-nam/), được thiết kế riêng cho một khách quốc tế yêu thích Việt Nam. Với vị trí ở chân, hình rắn có đủ không gian để thể hiện chuyển động và tinh thần cá nhân của khách.
 
 ## Hình xăm rắn ở đùi
 
@@ -181,7 +181,7 @@ Với hình xăm rắn, nếu muốn giữ được đường thân đẹp và c
 
 Có. Một số người chọn hình xăm rắn vì thích vẻ đẹp bí ẩn, mạnh mẽ hoặc mềm mại của hình ảnh này. Một số khác chọn vì ý nghĩa tái sinh, thay đổi, bảo vệ, trí tuệ hoặc sự chuyển mình.
 
-Nếu bạn quan tâm nhiều đến tầng ý nghĩa, có thể đọc thêm bài [Ý Nghĩa Hình Xăm Rắn Và Gợi Ý Mẫu Xăm Đẹp](/y-tuong-xam/hinh-xam-ran/y-nghia-hinh-xam-ran/) để chọn hướng thiết kế phù hợp hơn.
+Nếu bạn quan tâm nhiều đến tầng ý nghĩa, có thể đọc thêm bài [Ý Nghĩa Hình Xăm Rắn Và Gợi Ý Mẫu Xăm Đẹp](/vi/chu-de-hinh-xam/hinh-xam-ran/y-nghia-hinh-xam-ran/) để chọn hướng thiết kế phù hợp hơn.
 
 Ví dụ:
 

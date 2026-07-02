@@ -21,7 +21,7 @@ categories:
 ---
 Bạn đang chuẩn bị cho hình xăm đầu tiên hoặc muốn tìm hiểu kỹ hơn trước khi đặt lịch? Dưới đây là những câu hỏi mà Lan Pink Tattoo thường nhận được từ khách hàng.
 
-Nếu bạn là người mới, hãy đọc thêm bài viết: [Xăm hình lần đầu cần chuẩn bị gì?](/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/)
+Nếu bạn là người mới, hãy đọc thêm bài viết: [Xăm hình lần đầu cần chuẩn bị gì?](/vi/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/)
 
 ---
 
@@ -33,7 +33,7 @@ Các vị trí gần xương như xương sườn, mắt cá chân, ngón tay, b
 
 Bạn có thể đọc chi tiết tại:
 
-[Xăm hình có đau không?](/cam-nang-tattoo/xam-hinh-co-dau-khong/)
+[Xăm hình có đau không?](/vi/cam-nang-tattoo/xam-hinh-co-dau-khong/)
 
 ---
 
@@ -48,7 +48,7 @@ Nhiều khách hàng cho rằng đi nét khó chịu hơn lúc ban đầu, trong
 
 Tìm hiểu thêm tại:
 
-[Kim đi nét và kim tô cái nào đau hơn?](/cam-nang-tattoo/kim-di-net-va-kim-to-cai-nao-dau-hon/)
+[Kim đi nét và kim tô cái nào đau hơn?](/vi/cam-nang-tattoo/kim-di-net-va-kim-to-cai-nao-dau-hon/)
 
 ---
 
@@ -99,7 +99,7 @@ Trước buổi hẹn, bạn nên:
 
 Hướng dẫn chi tiết:
 
-[Xăm hình lần đầu cần chuẩn bị gì?](/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/)
+[Xăm hình lần đầu cần chuẩn bị gì?](/vi/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/)
 
 ---
 
@@ -240,7 +240,7 @@ Một số phong cách phù hợp với người mới:
 
 Bạn có thể tham khảo:
 
-[Phong cách xăm](/phong-cach-xam/)
+[Phong cách xăm](/vi/phong-cach-xam/)
 
 hoặc xem:
 
@@ -309,7 +309,7 @@ Trước khi đặt lịch, bạn có thể tham khảo thêm:
 - [Bảng giá xăm hình](/bang-gia/)
 - [Tác phẩm Tattoo](/gallery/)
 - [Giới thiệu Lan Pink Tattoo](/gioi-thieu/)
-- [Cẩm nang Tattoo](/cam-nang-tattoo/)
+- [Cẩm nang Tattoo](/vi/cam-nang-tattoo/)
 
 ## Câu hỏi ít người hỏi nhưng rất quan trọng
 

@@ -85,7 +85,7 @@ Một số hình xăm rẻ vì studio dùng mẫu có sẵn, ít chỉnh sửa, 
 
 Nhưng nếu bạn muốn hình xăm có ý nghĩa riêng, hợp vị trí cơ thể, hợp đường nét da và không bị giống quá nhiều người khác, thì thời gian thiết kế là phần rất quan trọng.
 
-Ví dụ, một hình rắn có thể chỉ là mẫu copy từ mạng. Nhưng cũng có thể là một thiết kế riêng, lấy cảm hứng từ dáng cơ thể, câu chuyện cá nhân, hoặc tinh thần Á Đông. Bạn có thể xem một ví dụ trong bài [hình xăm rắn mang cảm hứng Việt Nam tại Lan Pink Ink](/tac-pham/hinh-xam-ran-cam-hung-viet-nam/).
+Ví dụ, một hình rắn có thể chỉ là mẫu copy từ mạng. Nhưng cũng có thể là một thiết kế riêng, lấy cảm hứng từ dáng cơ thể, câu chuyện cá nhân, hoặc tinh thần Á Đông. Bạn có thể xem một ví dụ trong bài [hình xăm rắn mang cảm hứng Việt Nam tại Lan Pink Ink](/vi/tac-pham/hinh-xam-ran-cam-hung-viet-nam/).
 
 Hai kiểu làm này chắc chắn không thể có cùng một mức giá.
 
@@ -108,7 +108,7 @@ Hãy hỏi thêm:
 
 Những câu hỏi này thực tế hơn rất nhiều so với việc chỉ so sánh chỗ nào rẻ hơn 100.000đ.
 
-Nếu bạn còn lo về cảm giác đau hoặc cách đi kim, có thể đọc thêm bài [kim đi nét và kim tô cái nào đau hơn](/cam-nang-tattoo/kim-di-net-va-kim-to-cai-nao-dau-hon/) để hiểu rõ hơn trước khi xăm.
+Nếu bạn còn lo về cảm giác đau hoặc cách đi kim, có thể đọc thêm bài [kim đi nét và kim tô cái nào đau hơn](/vi/cam-nang-tattoo/kim-di-net-va-kim-to-cai-nao-dau-hon/) để hiểu rõ hơn trước khi xăm.
 
 ## Giá xăm rẻ có nên chọn không?
 

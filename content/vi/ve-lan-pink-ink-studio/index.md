@@ -14,7 +14,7 @@ translation_id: "studio_about_page"
 ---
 ![Nữ thợ xăm Lan Pink Tattoo đang thực hiện hình xăm tại TP.HCM](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp)
 
-Lan Pink Tattoo là một **private tattoo studio tại TP.HCM**, chuyên về [Fine Line Tattoo](/phong-cach-xam/), [Mini Tattoo](/phong-cach-xam/), [Blackwork Tattoo](/phong-cach-xam/) và thiết kế hình xăm theo yêu cầu.
+Lan Pink Tattoo là một **private tattoo studio tại TP.HCM**, chuyên về [Fine Line Tattoo](/vi/phong-cach-xam/), [Mini Tattoo](/vi/phong-cach-xam/), [Blackwork Tattoo](/vi/phong-cach-xam/) và thiết kế hình xăm theo yêu cầu.
 
 Chúng tôi tin rằng mỗi hình xăm đều mang một câu chuyện riêng. Vì vậy, mọi thiết kế đều được tư vấn và thực hiện dựa trên ý tưởng, cá tính và mong muốn của từng khách hàng thay vì sử dụng các mẫu đại trà.
 
@@ -40,9 +40,9 @@ Nếu bạn lần đầu xăm, hãy đọc thêm [FAQ về hình xăm](/faq/) đ
 
 Lan Pink Tattoo tập trung vào các phong cách được yêu thích hiện nay:
 
-- [Fine Line Tattoo](/phong-cach-xam/)
-- [Mini Tattoo](/phong-cach-xam/)
-- [Blackwork Tattoo](/phong-cach-xam/)
+- [Fine Line Tattoo](/vi/phong-cach-xam/)
+- [Mini Tattoo](/vi/phong-cach-xam/)
+- [Blackwork Tattoo](/vi/phong-cach-xam/)
 - Floral Tattoo
 - Lettering Tattoo
 - Custom Tattoo Design
@@ -73,7 +73,7 @@ Khác với những tattoo shop đông người, Lan Pink Tattoo hoạt động 
 
 Khách hàng được tư vấn và thực hiện trong không gian riêng tư, yên tĩnh, phù hợp với những người lần đầu xăm hoặc mong muốn có trải nghiệm thoải mái hơn.
 
-Nếu bạn đang cân nhắc giữa nhiều kiểu hình xăm khác nhau, có thể bắt đầu từ trang [Phong cách xăm](/phong-cach-xam/) hoặc xem [bảng giá tham khảo](/bang-gia/) để chuẩn bị trước.
+Nếu bạn đang cân nhắc giữa nhiều kiểu hình xăm khác nhau, có thể bắt đầu từ trang [Phong cách xăm](/vi/phong-cach-xam/) hoặc xem [bảng giá tham khảo](/bang-gia/) để chuẩn bị trước.
 
 ---
 
@@ -133,7 +133,7 @@ Nếu bạn đang tìm kiếm một studio chuyên Fine Line Tattoo, Mini Tattoo
 Trước khi đặt lịch, bạn có thể xem thêm:
 
 - [Tác phẩm đã thực hiện](/gallery/)
-- [Phong cách xăm phổ biến](/phong-cach-xam/)
+- [Phong cách xăm phổ biến](/vi/phong-cach-xam/)
 - [Bảng giá hình xăm](/bang-gia/)
 - [Đánh giá khách hàng](/danh-gia/)
 - [FAQ hình xăm](/faq/)

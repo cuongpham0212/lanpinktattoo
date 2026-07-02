@@ -42,7 +42,7 @@ Có người thích đại bàng vì ánh mắt sắc. Có người thích dáng
 
 *Hình xăm đại bàng cần được chuẩn bị kỹ về ý tưởng, bố cục và phong cách trước khi xăm.*
 
-Nếu muốn xem một tác phẩm đại bàng đã hoàn thiện trên da thật tại studio, bạn có thể tham khảo thêm bài [Hình Xăm Đại Bàng Ở Bắp Tay | Tác Phẩm Lan Pink Tattoo](/tac-pham/hinh-xam-dai-bang/) trước khi bắt đầu chuẩn bị ý tưởng riêng.
+Nếu muốn xem một tác phẩm đại bàng đã hoàn thiện trên da thật tại studio, bạn có thể tham khảo thêm bài [Hình Xăm Đại Bàng Ở Bắp Tay | Tác Phẩm Lan Pink Tattoo](/vi/tac-pham/hinh-xam-dai-bang/) trước khi bắt đầu chuẩn bị ý tưởng riêng.
 
 {{< explore-more >}}
 
@@ -98,7 +98,7 @@ Một mẫu đại bàng đẹp trên màn hình chưa chắc sẽ đẹp y như
 
 Bắp tay thường hợp với bố cục đầu đại bàng hoặc thiết kế dọc. Vai hợp với những hình có hướng ôm theo khối cơ. Ngực và lưng hợp với bố cục lớn hơn, có thể mở rộng phần cánh hoặc nền. Cẳng tay và bắp chân hợp với bố cục rõ, gọn, không quá dày chi tiết.
 
-Nếu đây là lần đầu xăm hoặc bạn còn lo về cảm giác đau, có thể xem thêm bài [Xăm hình có đau không? Vị trí nào đau ít cho người mới](/cam-nang-tattoo/xam-hinh-co-dau-khong/) để chuẩn bị tâm lý tốt hơn.
+Nếu đây là lần đầu xăm hoặc bạn còn lo về cảm giác đau, có thể xem thêm bài [Xăm hình có đau không? Vị trí nào đau ít cho người mới](/vi/cam-nang-tattoo/xam-hinh-co-dau-khong/) để chuẩn bị tâm lý tốt hơn.
 
 ## Kích thước nên đi cùng mức độ chi tiết
 
@@ -108,7 +108,7 @@ Nếu chỉ muốn hình nhỏ, thiết kế nên được đơn giản hóa. Kh
 
 Nói dễ hiểu: hình lớn có thể nhiều chi tiết; hình nhỏ nên thông minh và gọn. Không phải cứ thêm nhiều chi tiết là hình sẽ đẹp hơn.
 
-Nếu bạn đang cân nhắc ngân sách, bài [Xăm Hình 500K Được Gì? Cách Chọn Thiết Kế Phù Hợp Với Ngân Sách](/cam-nang-tattoo/xam-hinh-500k-duoc-gi/) sẽ giúp hiểu rõ hơn vì sao kích thước, thời gian và độ chi tiết ảnh hưởng đến kết quả hình xăm.
+Nếu bạn đang cân nhắc ngân sách, bài [Xăm Hình 500K Được Gì? Cách Chọn Thiết Kế Phù Hợp Với Ngân Sách](/vi/cam-nang-tattoo/xam-hinh-500k-duoc-gi/) sẽ giúp hiểu rõ hơn vì sao kích thước, thời gian và độ chi tiết ảnh hưởng đến kết quả hình xăm.
 
 ## Nên trao đổi gì với tattoo artist trước khi chốt mẫu?
 

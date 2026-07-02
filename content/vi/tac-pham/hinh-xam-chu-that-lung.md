@@ -46,6 +46,8 @@ seo_cluster: "Hình xăm chữ thắt lưng"
 seo_intent: "Tác phẩm"
 seo_target_keyword: "hình xăm chữ thắt lưng"
 seo_content_type: "portfolio"
+
+google_review_id: "review_demo_001"
 ---
 
 Đây là một tác phẩm **hình xăm chữ thắt lưng** được thực hiện tại Lan Pink Tattoo cho một **khách hàng nam người nước ngoài**. Nội dung chữ là **Amy Winehouse**, tên một nghệ sĩ nổi tiếng được khách chọn làm cảm hứng cá nhân cho hình xăm.
@@ -110,4 +112,4 @@ Tại Lan Pink Tattoo, mỗi mẫu chữ sẽ được cân theo nội dung, fon
 
 Bạn có thể xem thêm [FAQ xăm hình](/faq/) nếu cần chuẩn bị trước khi đặt lịch.
 
-Nếu đây là lần đầu bạn xăm, bài [xăm hình lần đầu cần chuẩn bị gì](/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/) sẽ giúp bạn chuẩn bị kỹ hơn trước buổi xăm.
+Nếu đây là lần đầu bạn xăm, bài [xăm hình lần đầu cần chuẩn bị gì](/vi/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/) sẽ giúp bạn chuẩn bị kỹ hơn trước buổi xăm.

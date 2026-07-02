@@ -172,7 +172,7 @@ Lan Pink Tattoo từng thực hiện một thiết kế **hình xăm rắn lấy
 
 Anh/chị có thể xem chi tiết tác phẩm tại đây:
 
-[Hình xăm rắn mang cảm hứng Việt Nam tại Lan Pink Tattoo](/tac-pham/hinh-xam-ran-cam-hung-viet-nam/)
+[Hình xăm rắn mang cảm hứng Việt Nam tại Lan Pink Tattoo](/vi/tac-pham/hinh-xam-ran-cam-hung-viet-nam/)
 
 ## Ai Phù Hợp Với Hình Xăm Rắn?
 
@@ -190,17 +190,17 @@ Nếu anh/chị đang tìm một hình xăm vừa đẹp, vừa có chiều sâu
 
 ## Khám Phá Thêm Tại Lan Pink Tattoo
 
-[Ý tưởng hình xăm rắn](/y-tuong-xam/hinh-xam-ran/)
+[Ý tưởng hình xăm rắn](/vi/chu-de-hinh-xam/hinh-xam-ran/)
 
-[Ý tưởng hình xăm mini](/y-tuong-xam/hinh-xam-mini/)
+[Ý tưởng hình xăm mini](/vi/chu-de-hinh-xam/hinh-xam-mini/)
 
-[Ý tưởng hình xăm Fine Line](/y-tuong-xam/hinh-xam-fine-line/)
+[Ý tưởng hình xăm Fine Line](/vi/chu-de-hinh-xam/hinh-xam-fine-line/)
 
-[Ý tưởng hình xăm Blackwork](/y-tuong-xam/hinh-xam-blackwork/)
+[Ý tưởng hình xăm Blackwork](/vi/chu-de-hinh-xam/hinh-xam-blackwork/)
 
-[Ý tưởng hình xăm cho nữ](/y-tuong-xam/hinh-xam-cho-nu/)
+[Ý tưởng hình xăm cho nữ](/vi/chu-de-hinh-xam/hinh-xam-cho-nu/)
 
-[Tác phẩm đã thực hiện tại Lan Pink Tattoo](/tac-pham/)
+[Tác phẩm đã thực hiện tại Lan Pink Tattoo](/vi/tac-pham/)
 
 ## Tư Vấn Thiết Kế Hình Xăm Rắn
 

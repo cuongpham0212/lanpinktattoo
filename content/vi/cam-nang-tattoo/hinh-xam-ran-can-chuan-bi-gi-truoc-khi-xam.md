@@ -93,7 +93,7 @@ Hình xăm rắn có thể đi theo nhiều phong cách:
 - Rắn kết hợp hoa
 - Rắn kết hợp dao, trăng, lửa hoặc biểu tượng cá nhân
 
-Bạn có thể tham khảo thêm bài [Các Phong Cách Hình Xăm Rắn Đẹp](/phong-cach-xam/phong-cach-hinh-xam-ran/) để chọn hướng phù hợp.
+Bạn có thể tham khảo thêm bài [Các Phong Cách Hình Xăm Rắn Đẹp](/vi/phong-cach-xam/phong-cach-hinh-xam-ran/) để chọn hướng phù hợp.
 
 ## Đừng nhồi quá nhiều chi tiết nếu hình nhỏ
 
@@ -126,7 +126,7 @@ Trước khi xăm, bạn nên nói rõ:
 
 Nếu chưa chắc, artist có thể tư vấn lại bố cục để hình hợp với cơ thể hơn.
 
-Bạn có thể xem thêm ca thực tế [Hình Xăm Rắn Mang Cảm Hứng Việt Nam](/tac-pham/hinh-xam-ran-cam-hung-viet-nam/) và bài [Ý Nghĩa Hình Xăm Rắn](/y-nghia-hinh-xam/y-nghia-hinh-xam-ran/).
+Bạn có thể xem thêm ca thực tế [Hình Xăm Rắn Mang Cảm Hứng Việt Nam](/vi/tac-pham/hinh-xam-ran-cam-hung-viet-nam/) và bài [Ý Nghĩa Hình Xăm Rắn](/vi/chu-de-hinh-xam/hinh-xam-ran/y-nghia-hinh-xam-ran/).
 
 ## Kết luận
 

@@ -94,11 +94,11 @@ Với những hình có nhiều chi tiết như chân dung thú cưng hoặc tat
 
 Bạn có thể xem ví dụ trong bài:
 
-[Hình Xăm Chân Dung Mèo Misa – Ký Ức Về Người Bạn Đặc Biệt](/tac-pham/hinh-xam-chan-dung-meo-misa/)
+[Hình Xăm Chân Dung Mèo Misa – Ký Ức Về Người Bạn Đặc Biệt](/vi/tac-pham/hinh-xam-chan-dung-meo-misa/)
 
 hoặc
 
-[Hình Xăm Chú Vẹt Tưởng Niệm – Custom Tattoo Design tại Lan Pink Ink](/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/)
+[Hình Xăm Chú Vẹt Tưởng Niệm – Custom Tattoo Design tại Lan Pink Ink](/vi/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/)
 
 Những thiết kế này cần độ chính xác và khả năng giữ chi tiết trong thời gian dài.
 
@@ -125,11 +125,11 @@ Nhưng trong cùng một điều kiện, vật tư tốt và kỹ thuật tốt 
 
 Nếu bạn đang lo lắng về cảm giác đau khi xăm, hãy xem thêm:
 
-[Xăm hình có đau không? Vị trí nào đau ít cho người mới](/cam-nang-tattoo/xam-hinh-co-dau-khong/)
+[Xăm hình có đau không? Vị trí nào đau ít cho người mới](/vi/cam-nang-tattoo/xam-hinh-co-dau-khong/)
 
 và
 
-[Kim đi nét và kim tô cái nào đau hơn?](/cam-nang-tattoo/kim-di-net-va-kim-to-cai-nao-dau-hon/)
+[Kim đi nét và kim tô cái nào đau hơn?](/vi/cam-nang-tattoo/kim-di-net-va-kim-to-cai-nao-dau-hon/)
 
 ## Hình xăm giá rẻ đôi khi khiến chi phí cuối cùng cao hơn
 
@@ -156,7 +156,7 @@ Tuy nhiên giá thấp không phải lúc nào cũng phản ánh đúng chất l
 
 Nếu bạn muốn hiểu sâu hơn về xu hướng này, hãy đọc bài:
 
-[Vì Sao Giá Xăm Ngày Càng Rẻ? Cách Nhìn Đúng Trước Khi Chọn Studio](/cam-nang-tattoo/vi-sao-gia-xam-ngay-cang-re/)
+[Vì Sao Giá Xăm Ngày Càng Rẻ? Cách Nhìn Đúng Trước Khi Chọn Studio](/vi/cam-nang-tattoo/vi-sao-gia-xam-ngay-cang-re/)
 
 Bài viết sẽ giúp bạn hiểu rõ hơn sự khác biệt giữa giá và giá trị thực sự của một hình xăm.
 
@@ -193,7 +193,7 @@ Ví dụ như những tác phẩm custom tattoo thường cần thời gian trao
 
 Một ví dụ là:
 
-[Hình Xăm Rắn Mang Cảm Hứng Việt Nam](/tac-pham/hinh-xam-ran-cam-hung-viet-nam/)
+[Hình Xăm Rắn Mang Cảm Hứng Việt Nam](/vi/tac-pham/hinh-xam-ran-cam-hung-viet-nam/)
 
 Mức giá của một thiết kế riêng thường phản ánh cả quá trình chuẩn bị phía sau chứ không chỉ riêng thời gian ngồi xăm.
 

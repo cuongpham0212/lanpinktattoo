@@ -48,6 +48,8 @@ seo_cluster_id: "pet_memorial_tattoo"
 seo_cluster: "Pet Memorial Tattoo"
 seo_intent: "Portfolio"
 seo_target_keyword: "parrot memorial tattoo"
+
+google_review_id: "review_demo_001"
 ---
 Every tattoo carries its own story. For this piece, the story began with a male international client who was traveling in Vietnam and wanted to create a meaningful **parrot memorial tattoo** in memory of his special companion.
 

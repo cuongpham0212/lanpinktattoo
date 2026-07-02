@@ -69,7 +69,7 @@ Không. Đây là điểm rất quan trọng.
 
 Hình xăm thú cưng có thể được xăm khi bé vẫn còn sống, như một cách thể hiện tình yêu và sự gắn bó. Còn hình xăm tưởng niệm thú cưng thường được chọn khi bé đã mất, mang cảm xúc lưu giữ và tưởng nhớ nhiều hơn.
 
-Nếu bạn đang tìm hiểu riêng về ý nghĩa tưởng niệm, có thể đọc bài [Ý Nghĩa Hình Xăm Tưởng Niệm Thú Cưng](/y-nghia-hinh-xam/y-nghia-hinh-xam-tuong-niem-thu-cung/).
+Nếu bạn đang tìm hiểu riêng về ý nghĩa tưởng niệm, có thể đọc bài [Ý Nghĩa Hình Xăm Tưởng Niệm Thú Cưng](/vi/chu-de-hinh-xam/hinh-xam-thu-cung/y-nghia-hinh-xam-tuong-niem-thu-cung/).
 
 ## Những kiểu hình xăm thú cưng thường được chọn
 
@@ -105,7 +105,7 @@ Tùy kích thước, hình xăm thú cưng có thể đặt ở:
 
 Nếu là chân dung chi tiết, nên chọn vị trí có đủ diện tích để giữ rõ nét. Nếu là dấu chân hoặc tên, vị trí nhỏ cũng phù hợp.
 
-Bạn có thể xem thêm bài [Hình Xăm Thú Cưng Có Ý Nghĩa Gì?](/cam-nang-tattoo/hinh-xam-thu-cung-noi-len-dieu-gi/) và ca thực tế [Hình Xăm Chân Dung Mèo Misa](/tac-pham/hinh-xam-chan-dung-meo-misa/).
+Bạn có thể xem thêm bài [Hình Xăm Thú Cưng Có Ý Nghĩa Gì?](/vi/cam-nang-tattoo/hinh-xam-thu-cung-noi-len-dieu-gi/) và ca thực tế [Hình Xăm Chân Dung Mèo Misa](/vi/tac-pham/hinh-xam-chan-dung-meo-misa/).
 
 ## Kết luận
 

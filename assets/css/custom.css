@@ -302,3 +302,223 @@ html[data-theme="dark"] .prose a:hover {
       transparent 62%
     );
 }
+
+/* ===== GOOGLE REVIEW CARD ===== */
+
+.lp-google-review-card{
+  max-width:880px;
+  margin:3rem auto;
+  padding:1.75rem;
+  border-radius:24px;
+  border:1px solid rgba(236,72,153,.14);
+  background:var(--surface);
+  box-shadow:var(--shadow-pink);
+}
+
+.lp-google-review-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:1rem;
+}
+
+.lp-google-review-head strong{
+  display:block;
+  color:var(--text-heading);
+  font-size:1.1rem;
+  font-weight:900;
+}
+
+.lp-google-review-stars{
+  display:flex;
+  gap:.15rem;
+  margin-bottom:.35rem;
+}
+
+.lp-google-review-stars span{
+  color:#fbbc04 !important; /* vàng Google */
+  font-size:1.15rem;
+  line-height:1;
+}
+
+.lp-google-review-verified{
+  padding:.45rem .8rem;
+  border-radius:999px;
+  background:rgba(34,197,94,.1);
+  color:#15803d;
+  font-size:.78rem;
+  font-weight:800;
+}
+
+.lp-google-review-text{
+  margin:1.4rem 0;
+  padding:1.2rem 1.4rem;
+  border-radius:18px;
+  background:rgba(236,72,153,.05);
+  font-size:1.02rem;
+  line-height:1.8;
+  color:var(--text);
+}
+
+.lp-google-review-images{
+  display:grid;
+  grid-template-columns:
+    repeat(auto-fit,minmax(140px,1fr));
+  gap:.8rem;
+}
+
+.lp-google-review-images img{
+  width:100%;
+  aspect-ratio:4/5;
+  object-fit:cover;
+  border-radius:16px;
+  transition:transform .25s;
+}
+
+.lp-google-review-images img:hover{
+  transform:translateY(-3px);
+}
+
+.lp-google-review-foot{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top:1rem;
+  padding-top:1rem;
+  border-top:1px solid var(--border);
+  font-size:.9rem;
+}
+
+.lp-google-review-foot a{
+  color:var(--primary-strong);
+  font-weight:800;
+}
+
+html[data-theme="dark"] .lp-google-review-text{
+  background:rgba(236,72,153,.08);
+}
+/* Google Review card - compact header refinement */
+.lp-google-review-intro{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+  margin-bottom:1rem;
+}
+
+.lp-google-review-intro > span{
+  color:var(--text-heading);
+  font-size:1.05rem;
+  font-weight:900;
+  letter-spacing:-.015em;
+}
+
+.lp-google-review-verified{
+  text-decoration:none;
+  white-space:nowrap;
+}
+
+.lp-google-review-foot{
+  justify-content:flex-start;
+}
+
+@media(max-width:640px){
+  .lp-google-review-intro{
+    align-items:flex-start;
+    flex-direction:column;
+    gap:.7rem;
+  }
+
+  .lp-google-review-verified{
+    white-space:normal;
+  }
+}
+
+/* Booking calendar - lock past dates */
+.lp-day.is-past,
+.lp-day.is-past:hover{
+  cursor:not-allowed;
+  opacity:.38;
+  transform:none;
+  filter:grayscale(1);
+}
+
+.lp-day.is-past .lp-day-status{
+  background:rgba(113,113,122,.14);
+  color:#71717a;
+}
+
+#lpPrevMonth.is-disabled,
+#lpPrevMonth:disabled{
+  cursor:not-allowed;
+  opacity:.35;
+  transform:none;
+}
+
+/* Booking form compact + map compact */
+.lp-booking-layout{
+  gap:16px;
+}
+
+.lp-calendar-card,
+.lp-booking-panel{
+  padding:14px !important;
+}
+
+.lp-form{
+  gap:9px !important;
+}
+
+.lp-form label{
+  font-size:.88rem;
+  font-weight:850;
+}
+
+.lp-form input,
+.lp-form select,
+.lp-form textarea{
+  min-height:42px;
+  padding:9px 11px !important;
+  border-radius:12px !important;
+  font-size:.92rem;
+}
+
+.lp-form textarea{
+  min-height:76px !important;
+}
+
+.lp-form .lp-primary-btn{
+  min-height:42px;
+  padding:10px 14px;
+  font-size:.9rem;
+}
+
+.lp-map-section{
+  padding-top:2.5rem !important;
+  padding-bottom:2.5rem !important;
+}
+
+.lp-map-info{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.lp-map-card{
+  min-height:340px !important;
+}
+
+.lp-map-card iframe{
+  display:block;
+  width:100%;
+  height:100%;
+  min-height:340px !important;
+  border:0;
+}
+
+@media(max-width:768px){
+  .lp-map-card,
+  .lp-map-card iframe{
+    min-height:280px !important;
+  }
+}
