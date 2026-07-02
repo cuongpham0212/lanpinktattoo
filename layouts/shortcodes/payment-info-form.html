@@ -260,6 +260,54 @@
   color:#ffffff!important;
 }
 
+
+.lp-payment-modal{
+  position:fixed!important;
+  inset:0!important;
+  z-index:999999!important;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  background:rgba(20,10,18,.55);
+  backdrop-filter:blur(6px);
+}
+.lp-payment-modal.show{display:flex!important}
+.lp-payment-modal-box{
+  max-width:480px;
+  width:100%;
+  padding:30px;
+  border-radius:28px;
+  background:#fff;
+  color:#2b1320;
+  box-shadow:0 28px 80px rgba(0,0,0,.28);
+  text-align:center;
+}
+.lp-payment-modal-icon{
+  width:60px;
+  height:60px;
+  margin:0 auto 14px;
+  border-radius:999px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#fce7f3;
+  color:#db2777;
+  font-size:30px;
+  font-weight:900;
+}
+.lp-payment-modal-box h3{margin:0 0 10px;font-size:24px}
+.lp-payment-modal-box p{margin:0 0 20px;line-height:1.65;color:#67475a}
+.lp-payment-modal-box button{
+  border:0;
+  border-radius:999px;
+  padding:13px 24px;
+  background:#ec4899;
+  color:#fff;
+  font-weight:900;
+  cursor:pointer;
+}
+
 </style>
 
 <div class="lp-pay-page">
@@ -321,6 +369,9 @@
     </form>
   </div>
 </div>
+
+
+
 
 
 <div class="lp-payment-modal" id="lpPaymentSuccessModal">
