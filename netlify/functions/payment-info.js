@@ -20,7 +20,11 @@ function cleanPhone(value) {
 exports.handler = async function(event) {
   if (event.httpMethod === "OPTIONS") return json(200, { ok: true });
 
-  const store = getStore("lanpink-payment-leads");
+  const store = getStore({
+    name: "lanpink-payment-leads",
+    siteID: process.env.NETLIFY_SITE_ID,
+    token: process.env.NETLIFY_AUTH_TOKEN
+  });
   const key = "payment-leads.json";
 
   if (event.httpMethod === "POST") {
