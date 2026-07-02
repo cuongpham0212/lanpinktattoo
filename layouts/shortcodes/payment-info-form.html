@@ -501,8 +501,25 @@ async function phoneExistsInMemberIndex(phone){
           return;
         }
 
+        const existedPhone = await phoneExistsInMemberIndex(payload.phone_zalo);
+
         form.reset();
-        msg.innerHTML = "Đã nhận thông tin. Cảm ơn bạn!<br>Nếu bạn đã từng là Lan Pink Member, studio sẽ tra cứu bằng số điện thoại/Zalo này. Bạn không cần nhập lại nhiều lần.";
+
+        var modal = document.getElementById("lpPaymentSuccessModal");
+        var modalTitle = modal ? modal.querySelector("h3") : null;
+        var modalText = modal ? modal.querySelector("p") : null;
+
+        if(existedPhone){
+          msg.textContent = "Số điện thoại này đã có hồ sơ Lan Pink Member.";
+          if(modalTitle) modalTitle.textContent = "Số điện thoại đã có trong hệ thống";
+          if(modalText) modalText.textContent = "Lan Pink đã tìm thấy hồ sơ member theo số điện thoại/Zalo này. Khi đến tiệm, bạn chỉ cần đọc số điện thoại để studio tra cứu hồ sơ cũ.";
+        }else{
+          msg.textContent = "Đã nhận thông tin. Cảm ơn bạn!";
+          if(modalTitle) modalTitle.textContent = "Lan Pink đã nhận thông tin";
+          if(modalText) modalText.textContent = "Studio sẽ lưu thông tin này để hỗ trợ thanh toán, hóa đơn và quyền lợi Lan Pink Member cho những lần sau.";
+        }
+
+        if(modal) modal.classList.add("show");
       } catch(err) {
         msg.textContent = "Không gửi được thông tin. Vui lòng báo nhân viên Lan Pink Tattoo.";
       }
