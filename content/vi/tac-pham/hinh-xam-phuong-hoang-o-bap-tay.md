@@ -32,6 +32,8 @@ artwork_position: "Bắp tay"
 artwork_client: "Nam, khách nước ngoài"
 artwork_meaning: "Biểu tượng của sự tái sinh, mạnh mẽ và bước sang một phiên bản mới của bản thân"
 seo_content_type: "portfolio"
+
+google_review_id: ""
 seo_cluster_id: "phoenix_tattoo"
 seo_cluster: "Hình xăm phượng hoàng"
 seo_intent: "Tác phẩm"

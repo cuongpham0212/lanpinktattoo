@@ -4,3 +4,28 @@ publish = "public"
 
 [build.environment]
 HUGO_VERSION = "0.152.2"
+
+
+
+[[redirects]]
+
+from = "https://lanpinktattoo.netlify.app/ *"
+
+to = "https://lanpinktattoo.com/:splat"
+
+status = 301
+
+force = true
+
+
+
+[[redirects]]
+
+from = "http://TEN-SITE-NETLIFY-CUA-ANH.netlify.app/*"
+
+to = "https://lanpinktattoo.com/:splat"
+
+status = 301
+
+force = true
+

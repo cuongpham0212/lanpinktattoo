@@ -39,6 +39,8 @@ seo_cluster_id: "to-lai-cu_tattoo"
 seo_cluster: "Tattoo Restoration"
 seo_intent: "Portfolio"
 seo_target_keyword: "old tattoo restoration"
+
+google_review_id: ""
 ---
 
 ![Restored Maori tattoo covering the arm, shoulder, half front body and half back body for an international client at Lan Pink Tattoo](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/maori-tattoo-restoration-half-back-shoulder-cover.webp)

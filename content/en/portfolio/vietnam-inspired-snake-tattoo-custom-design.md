@@ -45,6 +45,8 @@ topic_position: "calf"
 topic_note: "Created for an international client who wanted a personal tattoo connected to Vietnam"
 
 seo_content_type: "portfolio"
+
+google_review_id: ""
 seo_cluster_id: "snake_tattoo"
 seo_cluster: "Snake Tattoo"
 seo_intent: "Portfolio"
