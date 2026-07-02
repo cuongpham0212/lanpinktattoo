@@ -2,25 +2,6 @@
 {{ $css := resources.Get "css/components/booking.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
-<a class="lp-admin-secret" href="/admin-booking/" title="Mở Booking Admin" aria-label="Mở Booking Admin">⚙</a>
-
-<script>
-(function () {
-  var btn = document.querySelector(".lp-admin-secret");
-  if (!btn) return;
-
-  var isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
-
-  if (isLocal) {
-    btn.href = "http://localhost:8787/";
-    btn.title = "Mở Booking Admin Local";
-    btn.setAttribute("aria-label", "Mở Booking Admin Local");
-  } else {
-    btn.href = "/admin-booking/";
-  }
-})();
-</script>
-
 <section class="lp-booking">
   <div class="lp-booking-hero">
     <p class="lp-eyebrow">Lan Pink Tattoo</p>
