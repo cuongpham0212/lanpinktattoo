@@ -131,7 +131,7 @@ Nhiều khách hàng lựa chọn:
 
 Tham khảo tác phẩm thực tế:
 
-- [Hình Xăm Chú Vẹt Tưởng Niệm – Custom Tattoo Design tại Lan Pink Ink](/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/)
+- [Hình Xăm Chú Vẹt Tưởng Niệm – Custom Tattoo Design tại Lan Pink Ink](/vi/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/)
 
 ## Nên Chọn Phong Cách Nào?
 
@@ -146,7 +146,7 @@ Phổ biến nhất gồm:
 
 Tìm hiểu thêm:
 
-- [Các Phong Cách Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa](/phong-cach-xam/phong-cach-hinh-xam-tuong-niem-thu-cung/)
+- [Các Phong Cách Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa](/vi/phong-cach-xam/phong-cach-hinh-xam-tuong-niem-thu-cung/)
 
 ## Vị Trí Nào Phù Hợp Để Xăm Tưởng Niệm Thú Cưng?
 
@@ -195,10 +195,10 @@ Càng nhiều thông tin, thiết kế càng có thể phản ánh chính xác c
 
 ## Khám Phá Thêm Tại Lan Pink Tattoo
 
-- [Hình Xăm Chú Vẹt Tưởng Niệm – Custom Tattoo Design tại Lan Pink Ink](/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/)
-- [Ý Tưởng Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa](/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-tuong-niem-thu-cung/)
-- [Các Phong Cách Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa](/phong-cach-xam/phong-cach-hinh-xam-tuong-niem-thu-cung/)
-- [Tác phẩm tại Lan Pink Tattoo](/tac-pham/)
+- [Hình Xăm Chú Vẹt Tưởng Niệm – Custom Tattoo Design tại Lan Pink Ink](/vi/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/)
+- [Ý Tưởng Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa](/vi/chu-de-hinh-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-tuong-niem-thu-cung/)
+- [Các Phong Cách Hình Xăm Tưởng Niệm Thú Cưng Đẹp Và Ý Nghĩa](/vi/phong-cach-xam/phong-cach-hinh-xam-tuong-niem-thu-cung/)
+- [Tác phẩm tại Lan Pink Tattoo](/vi/tac-pham/)
 - [FAQ xăm hình](/faq/)
 - [Bảng giá tattoo](/bang-gia/)
 

@@ -53,7 +53,7 @@ Trong bộ sưu tập này, Lan Pink Tattoo tổng hợp nhiều mẫu hình xă
 
 {{< explore-more >}}
 
-Nếu bạn muốn hiểu sâu hơn về biểu tượng phượng hoàng trong tattoo, có thể tham khảo thêm bài [ý nghĩa hình xăm phượng hoàng](/y-nghia-hinh-xam/hinh-xam-phuong-hoang-o-bap-tay/). Ngoài ra, bài viết về [các phong cách hình xăm phượng hoàng](/phong-cach-xam/phong-cach-hinh-xam-phuong-hoang/) sẽ giúp bạn lựa chọn hướng thiết kế phù hợp hơn.
+Nếu bạn muốn hiểu sâu hơn về biểu tượng phượng hoàng trong tattoo, có thể tham khảo thêm bài [ý nghĩa hình xăm phượng hoàng](/vi/chu-de-hinh-xam/hinh-xam-phuong-hoang-o-bap-tay/). Ngoài ra, bài viết về [các phong cách hình xăm phượng hoàng](/vi/phong-cach-xam/phong-cach-hinh-xam-phuong-hoang/) sẽ giúp bạn lựa chọn hướng thiết kế phù hợp hơn.
 
 ## Các phong cách hình xăm phượng hoàng phổ biến
 
@@ -88,9 +88,9 @@ Dưới đây là bộ sưu tập hình ảnh tham khảo:
 
 ## Nên chọn hình xăm phượng hoàng như thế nào?
 
-Nếu bạn đang cân nhắc xăm phượng hoàng, hãy tham khảo thêm bài [hướng dẫn chọn hình xăm phượng hoàng phù hợp](/cam-nang-tattoo/huong-dan-chon-hinh-xam-phuong-hoang-phu-hop/) để lựa chọn phong cách, kích thước và vị trí phù hợp với cơ thể cũng như ý nghĩa cá nhân.
+Nếu bạn đang cân nhắc xăm phượng hoàng, hãy tham khảo thêm bài [hướng dẫn chọn hình xăm phượng hoàng phù hợp](/vi/cam-nang-tattoo/huong-dan-chon-hinh-xam-phuong-hoang-phu-hop/) để lựa chọn phong cách, kích thước và vị trí phù hợp với cơ thể cũng như ý nghĩa cá nhân.
 
-Bạn cũng có thể xem thêm [tác phẩm hình xăm phượng hoàng thực hiện tại Lan Pink Tattoo](/tac-pham/hinh-xam-phuong-hoang-o-bap-tay/) để có thêm góc nhìn thực tế trước khi quyết định.
+Bạn cũng có thể xem thêm [tác phẩm hình xăm phượng hoàng thực hiện tại Lan Pink Tattoo](/vi/tac-pham/hinh-xam-phuong-hoang-o-bap-tay/) để có thêm góc nhìn thực tế trước khi quyết định.
 
 ## Gợi ý nhanh trước khi lưu mẫu
 

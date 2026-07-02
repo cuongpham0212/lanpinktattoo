@@ -106,7 +106,7 @@ Khách hàng thường lựa chọn:
 
 Tham khảo tác phẩm:
 
-- [Hình Xăm Chân Dung Mèo Misa – Ký Ức Về Người Bạn Đặc Biệt](/tac-pham/hinh-xam-chan-dung-meo-misa/)
+- [Hình Xăm Chân Dung Mèo Misa – Ký Ức Về Người Bạn Đặc Biệt](/vi/tac-pham/hinh-xam-chan-dung-meo-misa/)
 
 ### Hình Xăm Chó
 
@@ -164,7 +164,7 @@ Dành cho những khách hàng muốn tạo ra một thiết kế hoàn toàn ri
 
 Tìm hiểu thêm:
 
-- [Các Phong Cách Hình Xăm Thú Cưng Đẹp Và Phù Hợp Với Từng Cá Tính](/phong-cach-xam/phong-cach-hinh-xam-thu-cung/)
+- [Các Phong Cách Hình Xăm Thú Cưng Đẹp Và Phù Hợp Với Từng Cá Tính](/vi/phong-cach-xam/phong-cach-hinh-xam-thu-cung/)
 
 ## Vị Trí Nào Phù Hợp Để Xăm Thú Cưng?
 
@@ -215,10 +215,10 @@ Không cần thiết phải là một hình xăm lớn hay phức tạp. Đôi k
 
 ## Khám Phá Thêm Tại Lan Pink Tattoo
 
-- [Các Phong Cách Hình Xăm Thú Cưng Đẹp Và Phù Hợp Với Từng Cá Tính](/phong-cach-xam/phong-cach-hinh-xam-thu-cung/)
-- [Hình Xăm Chân Dung Mèo Misa – Ký Ức Về Người Bạn Đặc Biệt](/tac-pham/hinh-xam-chan-dung-meo-misa/)
-- [Ý Tưởng Hình Xăm Thú Cưng Đẹp Và Ý Nghĩa](/y-tuong-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-thu-cung/)
-- [Tác phẩm tại Lan Pink Tattoo](/tac-pham/)
+- [Các Phong Cách Hình Xăm Thú Cưng Đẹp Và Phù Hợp Với Từng Cá Tính](/vi/phong-cach-xam/phong-cach-hinh-xam-thu-cung/)
+- [Hình Xăm Chân Dung Mèo Misa – Ký Ức Về Người Bạn Đặc Biệt](/vi/tac-pham/hinh-xam-chan-dung-meo-misa/)
+- [Ý Tưởng Hình Xăm Thú Cưng Đẹp Và Ý Nghĩa](/vi/chu-de-hinh-xam/hinh-xam-thu-cung/y-tuong-hinh-xam-thu-cung/)
+- [Tác phẩm tại Lan Pink Tattoo](/vi/tac-pham/)
 - [FAQ xăm hình](/faq/)
 - [Bảng giá tattoo](/bang-gia/)
 

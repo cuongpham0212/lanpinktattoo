@@ -54,6 +54,7 @@
         {{ .Content }}
       </div>
       {{ partial "artwork-info.html" . }}
+      {{ partial "google-review-card.html" . }}
       {{ partial "article-cta.html" . }}
 
       {{ with .Params.tags }}

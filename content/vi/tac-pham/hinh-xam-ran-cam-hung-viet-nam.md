@@ -85,7 +85,7 @@ Hình xăm rắn không chỉ là một hình ảnh mạnh mẽ. Khi được th
 
 Ở tác phẩm này, cảm hứng Việt Nam được xử lý theo hướng tinh tế, không biến hình xăm thành một mẫu trang trí quá nặng chi tiết. Bố cục được giữ gọn để hình rắn vẫn nổi bật, đồng thời phù hợp với vị trí xăm trên cơ thể.
 
-Bạn có thể đọc thêm [ý nghĩa hình xăm rắn](/y-nghia-hinh-xam/y-nghia-hinh-xam-ran/) để hiểu rõ hơn về biểu tượng này.
+Bạn có thể đọc thêm [ý nghĩa hình xăm rắn](/vi/chu-de-hinh-xam/hinh-xam-ran/y-nghia-hinh-xam-ran/) để hiểu rõ hơn về biểu tượng này.
 
 ## Vì sao nên thiết kế riêng hình xăm rắn?
 
@@ -99,7 +99,7 @@ Thiết kế riêng giúp hình xăm:
 - Cân bằng giữa độ mạnh và tính thẩm mỹ
 - Phù hợp với vị trí xăm thực tế
 
-Nếu bạn chưa biết nên đặt hình rắn ở đâu, hãy xem thêm [hướng dẫn chọn hình xăm rắn theo vị trí cơ thể](/cam-nang-tattoo/huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri/).
+Nếu bạn chưa biết nên đặt hình rắn ở đâu, hãy xem thêm [hướng dẫn chọn hình xăm rắn theo vị trí cơ thể](/vi/cam-nang-tattoo/huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri/).
 
 ## Gợi ý cho khách muốn xăm rắn custom
 
@@ -111,7 +111,7 @@ Trước khi đặt lịch, bạn nên chuẩn bị:
 - Hình tham khảo nếu có
 - Ý nghĩa cá nhân muốn gửi vào thiết kế
 
-Bạn cũng có thể xem thêm [FAQ hình xăm rắn](/y-tuong-xam/hinh-xam-ran/faq-hinh-xam-ran/) để chuẩn bị tốt hơn trước khi xăm.
+Bạn cũng có thể xem thêm [FAQ hình xăm rắn](/vi/chu-de-hinh-xam/hinh-xam-ran/faq-hinh-xam-ran/) để chuẩn bị tốt hơn trước khi xăm.
 
 👉 [Đặt lịch tư vấn tại Lan Pink](/dat-lich/)
 

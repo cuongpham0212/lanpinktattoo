@@ -55,3 +55,29 @@
 </section>
 
 {{ end }}
+<script>
+(function () {
+  var path = window.location.pathname;
+  var target = null;
+
+  if (path.indexOf('/y-tuong-xam/') === 0) {
+    target = path.replace('/y-tuong-xam/', '/vi/chu-de-hinh-xam/');
+  }
+
+  if (path.indexOf('/vi/y-tuong-xam/') === 0) {
+    target = path.replace('/vi/y-tuong-xam/', '/vi/chu-de-hinh-xam/');
+  }
+
+  if (path.indexOf('/y-nghia-hinh-xam/') === 0) {
+    target = path.replace('/y-nghia-hinh-xam/', '/vi/chu-de-hinh-xam/');
+  }
+
+  if (path.indexOf('/vi/y-nghia-hinh-xam/') === 0) {
+    target = path.replace('/vi/y-nghia-hinh-xam/', '/vi/chu-de-hinh-xam/');
+  }
+
+  if (target) {
+    window.location.replace(target + window.location.search + window.location.hash);
+  }
+})();
+</script>

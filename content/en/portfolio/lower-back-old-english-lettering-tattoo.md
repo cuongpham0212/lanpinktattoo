@@ -46,6 +46,8 @@ seo_cluster: "Lower Back Lettering Tattoo"
 seo_intent: "Portfolio"
 seo_target_keyword: "lower back lettering tattoo"
 seo_content_type: "portfolio"
+
+google_review_id: "review_demo_001"
 ---
 
 This **lower back lettering tattoo** was created at Lan Pink Tattoo for an **international male client** who wanted to commemorate a personal inspiration through typography rather than imagery.

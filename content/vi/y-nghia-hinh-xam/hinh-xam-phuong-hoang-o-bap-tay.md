@@ -106,7 +106,7 @@ So với nhiều vị trí khác, bắp tay thường là vùng dễ chịu hơn
 
 Tất nhiên, cảm giác đau còn tùy cơ địa, kích thước hình, thời gian đi nét và mức độ đổ bóng. Nếu hình phượng hoàng có nhiều chi tiết nhỏ, thời gian thực hiện sẽ lâu hơn một hình tối giản.
 
-Nếu bạn mới xăm lần đầu, có thể đọc thêm bài **[Xăm hình có đau không? Vị trí nào đau ít cho người mới](/cam-nang-tattoo/xam-hinh-co-dau-khong/)** để hình dung rõ hơn trước khi đặt lịch.
+Nếu bạn mới xăm lần đầu, có thể đọc thêm bài **[Xăm hình có đau không? Vị trí nào đau ít cho người mới](/vi/cam-nang-tattoo/xam-hinh-co-dau-khong/)** để hình dung rõ hơn trước khi đặt lịch.
 
 ## Nên chọn kích thước nào cho hình xăm phượng hoàng ở bắp tay?
 
@@ -131,7 +131,7 @@ Mặt ngoài bắp tay là vị trí dễ thấy nhất. Nếu bạn muốn hìn
 
 Mặt trong bắp tay kín đáo hơn, cảm giác cá nhân hơn. Vị trí này hợp với người muốn giữ hình xăm riêng tư, chỉ lộ ra khi chủ động khoe. Tuy nhiên, mặt trong thường nhạy cảm hơn mặt ngoài một chút.
 
-Nếu chưa chắc nên chọn vị trí nào, bạn có thể tham khảo thêm bài **[Hướng Dẫn Chọn Hình Xăm Rắn Phù Hợp Với Từng Vị Trí Trên Cơ Thể](/cam-nang-tattoo/huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri/)**. Dù bài viết nói về hình xăm rắn, cách phân tích vị trí, đường cơ và độ phù hợp vẫn có thể áp dụng tốt khi chọn hình phượng hoàng.
+Nếu chưa chắc nên chọn vị trí nào, bạn có thể tham khảo thêm bài **[Hướng Dẫn Chọn Hình Xăm Rắn Phù Hợp Với Từng Vị Trí Trên Cơ Thể](/vi/cam-nang-tattoo/huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri/)**. Dù bài viết nói về hình xăm rắn, cách phân tích vị trí, đường cơ và độ phù hợp vẫn có thể áp dụng tốt khi chọn hình phượng hoàng.
 cat >> /Users/MN/lanpinktattoo/content/vi/chu-de-hinh-xam/hinh-xam-phuong-hoang/hinh-xam-phuong-hoang-o-bap-tay.md <<'EOF'
 
 ## Ai phù hợp với hình xăm phượng hoàng ở bắp tay?
@@ -159,7 +159,7 @@ Trước buổi xăm, bạn nên chuẩn bị vài điều cơ bản:
 - Chuẩn bị hình tham khảo nếu có.
 - Nói rõ với artist về ý nghĩa hoặc cảm giác bạn muốn hình xăm truyền tải.
 
-Nếu đây là lần đầu tiên, bài **[Xăm hình lần đầu cần chuẩn bị gì? Kinh nghiệm cho người mới](/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/)** sẽ rất hữu ích để bạn đỡ bỡ ngỡ.
+Nếu đây là lần đầu tiên, bài **[Xăm hình lần đầu cần chuẩn bị gì? Kinh nghiệm cho người mới](/vi/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/)** sẽ rất hữu ích để bạn đỡ bỡ ngỡ.
 
 ## Có nên copy mẫu phượng hoàng trên mạng không?
 
@@ -173,7 +173,7 @@ Tại Lan Pink Tattoo, hướng làm thường là lấy cảm hứng từ mong 
 
 Nếu muốn xem cách một thiết kế phượng hoàng lên bắp tay thật, bạn có thể tham khảo bài tác phẩm này:
 
-**[Hình Xăm Phượng Hoàng Ở Bắp Tay | Tác Phẩm Lan Pink Tattoo](/tac-pham/hinh-xam-phuong-hoang-o-bap-tay/)**
+**[Hình Xăm Phượng Hoàng Ở Bắp Tay | Tác Phẩm Lan Pink Tattoo](/vi/tac-pham/hinh-xam-phuong-hoang-o-bap-tay/)**
 
 Việc xem tác phẩm thực tế giúp bạn hình dung rõ hơn về kích thước, bố cục, độ ôm cơ tay và cảm giác tổng thể sau khi hoàn thiện.
 

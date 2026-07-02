@@ -1,0 +1,22 @@
+{
+  "review_demo_001": {
+    "review_id": "review_demo_001",
+    "reviewer_name": "Khách hàng Lan Pink",
+    "rating": 5,
+    "review_text": "Dịch vụ rất tốt, artist tư vấn kỹ và hình xăm lên rất đẹp. Mình rất hài lòng với trải nghiệm tại Lan Pink Ink Studio.",
+    "review_date": "2026-07-02",
+    "source": "Google Business Profile",
+    "verified": true,
+    "google_review_url": "https://www.google.com/search?q=Lan+Pink+Ink+Studio+reviews",
+    "feedback_images": [
+      "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-chu-old-english-that-lung-hom-venus/hinh-xam-chu-old-english-that-lung-hom-venus.webp"
+    ],
+    "portfolio_translation_ids": [
+      "chu-that-lung_tattoo_portfolio"
+    ],
+    "created_at": "2026-07-02T00:00:00",
+    "last_sync": "2026-07-02T00:00:00",
+    "status": "published",
+    "language": "vi"
+  }
+}

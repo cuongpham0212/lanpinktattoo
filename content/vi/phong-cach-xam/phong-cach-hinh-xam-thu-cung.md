@@ -184,7 +184,7 @@ Nếu chưa biết nên chọn vị trí nào, bạn có thể tham khảo thêm
 
 Một ví dụ điển hình cho phong cách Pet Portrait Tattoo là tác phẩm:
 
-* [Hình Xăm Chân Dung Mèo Misa – Ký Ức Về Người Bạn Đặc Biệt](/tac-pham/hinh-xam-chan-dung-meo-misa/)
+* [Hình Xăm Chân Dung Mèo Misa – Ký Ức Về Người Bạn Đặc Biệt](/vi/tac-pham/hinh-xam-chan-dung-meo-misa/)
 
 Đây là thiết kế được thực hiện dựa trên hình ảnh thật của thú cưng, kết hợp Fine Line Tattoo và Black & Grey Tattoo để giữ lại những chi tiết đặc trưng nhất.
 
@@ -214,9 +214,9 @@ Mỗi tác phẩm đều được thiết kế riêng dựa trên câu chuyện 
 
 ## Khám Phá Thêm Tại Lan Pink Tattoo
 
-* [Hình Xăm Chân Dung Mèo Misa – Ký Ức Về Người Bạn Đặc Biệt](/tac-pham/hinh-xam-chan-dung-meo-misa/)
-* [Tác phẩm tại Lan Pink Tattoo](/tac-pham/)
-* [Cẩm nang Tattoo](/cam-nang-tattoo/)
+* [Hình Xăm Chân Dung Mèo Misa – Ký Ức Về Người Bạn Đặc Biệt](/vi/tac-pham/hinh-xam-chan-dung-meo-misa/)
+* [Tác phẩm tại Lan Pink Tattoo](/vi/tac-pham/)
+* [Cẩm nang Tattoo](/vi/cam-nang-tattoo/)
 * [FAQ xăm hình](/faq/)
 * [Bảng giá tattoo](/bang-gia/)
 

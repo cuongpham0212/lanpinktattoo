@@ -42,7 +42,7 @@ Tại Lan Pink, khi tư vấn hình xăm đại bàng, điều quan trọng khô
 
 *Hình xăm đại bàng thường gợi đến tự do, bản lĩnh, tầm nhìn và tinh thần vượt qua thử thách.*
 
-Nếu muốn xem một hình xăm đại bàng đã hoàn thiện trên da thật, bạn có thể tham khảo thêm bài [Hình Xăm Đại Bàng Ở Bắp Tay | Tác Phẩm Lan Pink Tattoo](/tac-pham/hinh-xam-dai-bang/).
+Nếu muốn xem một hình xăm đại bàng đã hoàn thiện trên da thật, bạn có thể tham khảo thêm bài [Hình Xăm Đại Bàng Ở Bắp Tay | Tác Phẩm Lan Pink Tattoo](/vi/tac-pham/hinh-xam-dai-bang/).
 
 {{< explore-more >}}
 
@@ -116,7 +116,7 @@ Vị trí xăm sẽ ảnh hưởng nhiều đến cảm giác của hình.
 
 Bắp tay hợp với thiết kế đầu đại bàng hoặc bố cục dọc, rõ điểm nhấn. Vai hợp với những thiết kế ôm theo khối cơ. Ngực và lưng hợp với đại bàng dang cánh hoặc bố cục lớn hơn. Cẳng tay và bắp chân hợp với mẫu gọn, có đường nét rõ.
 
-Nếu bạn chưa chắc nên chọn vị trí nào, có thể đọc thêm bài [Muốn Xăm Hình Đại Bàng Đẹp Cần Chuẩn Bị Gì Trước Khi Xăm?](/cam-nang-tattoo/hinh-xam-dai-bang/) để chuẩn bị ý tưởng trước khi trao đổi với Lan Pink.
+Nếu bạn chưa chắc nên chọn vị trí nào, có thể đọc thêm bài [Muốn Xăm Hình Đại Bàng Đẹp Cần Chuẩn Bị Gì Trước Khi Xăm?](/vi/cam-nang-tattoo/hinh-xam-dai-bang/) để chuẩn bị ý tưởng trước khi trao đổi với Lan Pink.
 
 ## Có nên thêm chữ vào hình xăm đại bàng không?
 
@@ -140,5 +140,5 @@ Tại Lan Pink Tattoo, mỗi hình xăm mang tính biểu tượng như đại b
 
 Nếu bạn đang thích hình xăm đại bàng nhưng chưa biết nên chọn kiểu nào, có thể gửi ảnh tham khảo để Lan Pink tư vấn trước. Một buổi trao đổi kỹ sẽ giúp thiết kế cuối cùng vừa đẹp, vừa đúng với ý nghĩa bạn muốn giữ lại.
 
-Bạn cũng có thể xem thêm [Ý Nghĩa Hình Xăm Rắn Và Gợi Ý Mẫu Xăm Đẹp](/y-nghia-hinh-xam/y-nghia-hinh-xam-ran/) hoặc [Ý Nghĩa Hình Xăm Phượng Hoàng Ở Bắp Tay | Gợi Ý Thiết Kế Đẹp](/y-nghia-hinh-xam/hinh-xam-phuong-hoang-o-bap-tay/) để tham khảo thêm các biểu tượng mạnh khác trong tattoo.
+Bạn cũng có thể xem thêm [Ý Nghĩa Hình Xăm Rắn Và Gợi Ý Mẫu Xăm Đẹp](/vi/chu-de-hinh-xam/hinh-xam-ran/y-nghia-hinh-xam-ran/) hoặc [Ý Nghĩa Hình Xăm Phượng Hoàng Ở Bắp Tay | Gợi Ý Thiết Kế Đẹp](/vi/chu-de-hinh-xam/hinh-xam-phuong-hoang-o-bap-tay/) để tham khảo thêm các biểu tượng mạnh khác trong tattoo.
 

@@ -140,5 +140,5 @@ Một hình xăm thú cưng đẹp thường cần:
 
 - [Phong cách hình xăm thú cưng](/vi/phong-cach-xam/phong-cach-hinh-xam-thu-cung/)
 - [Hình xăm thú cưng có ý nghĩa gì](/vi/cam-nang-tattoo/hinh-xam-thu-cung-noi-len-dieu-gi/)
-- [Hình xăm tưởng niệm thú cưng](/vi/y-nghia-hinh-xam/hinh-xam-tuong-niem-thu-cung/)
+- [Hình xăm tưởng niệm thú cưng](/vi/chu-de-hinh-xam/hinh-xam-tuong-niem-thu-cung/)
 

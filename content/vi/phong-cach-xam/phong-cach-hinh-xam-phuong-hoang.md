@@ -91,7 +91,7 @@ Hướng này phù hợp nếu bạn muốn một hình xăm phượng hoàng ri
 
 Nếu bạn muốn hình mềm và có chuyển động, hãy cân nhắc phong cách Á Đông hoặc fine line. Nếu muốn mạnh và rõ, blackwork sẽ hợp hơn. Nếu muốn nổi bật, hình màu là lựa chọn tốt. Nếu muốn cá nhân hóa, có thể đi theo hướng custom hiện đại.
 
-Bạn có thể xem thêm [Ý Nghĩa Hình Xăm Phượng Hoàng Ở Bắp Tay](/y-nghia-hinh-xam/hinh-xam-phuong-hoang-o-bap-tay/) hoặc tham khảo ca thực tế [Hình Xăm Phượng Hoàng Ở Bắp Tay](/tac-pham/hinh-xam-phuong-hoang-o-bap-tay/) tại Lan Pink Tattoo.
+Bạn có thể xem thêm [Ý Nghĩa Hình Xăm Phượng Hoàng Ở Bắp Tay](/vi/chu-de-hinh-xam/hinh-xam-phuong-hoang-o-bap-tay/) hoặc tham khảo ca thực tế [Hình Xăm Phượng Hoàng Ở Bắp Tay](/vi/tac-pham/hinh-xam-phuong-hoang-o-bap-tay/) tại Lan Pink Tattoo.
 
 ## Kết luận
 
@@ -127,6 +127,6 @@ Những vị trí này giúp thể hiện được chuyển động của đôi 
 Nếu bạn đang tìm ý tưởng trước khi xăm, có thể tham khảo thêm:
 
 - [Hình xăm phượng hoàng ở bắp tay](/vi/tac-pham/hinh-xam-phuong-hoang-o-bap-tay/)
-- [Ý nghĩa hình xăm phượng hoàng](/vi/y-nghia-hinh-xam/y-nghia-hinh-xam-phuong-hoang/)
+- [Ý nghĩa hình xăm phượng hoàng](/vi/chu-de-hinh-xam/hinh-xam-phuong-hoang-o-bap-tay/)
 - [Hướng dẫn chọn hình xăm phượng hoàng phù hợp](/vi/cam-nang-tattoo/huong-dan-chon-hinh-xam-phuong-hoang-phu-hop/)
 

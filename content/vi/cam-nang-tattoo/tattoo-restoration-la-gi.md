@@ -93,11 +93,11 @@ Có thể hiểu đơn giản:
 - Tattoo rework: chỉnh sửa hoặc làm lại một phần thiết kế
 - Cover up: che hình cũ bằng hình mới
 
-Nếu bạn đang phân vân giữa các hướng này, có thể đọc thêm bài [Phục Hồi Hình Xăm Cũ Và Cover Up Khác Nhau Thế Nào?](/cam-nang-tattoo/phuc-hoi-hinh-xam-cu-va-cover-up-khac-nhau-the-nao/).
+Nếu bạn đang phân vân giữa các hướng này, có thể đọc thêm bài [Phục Hồi Hình Xăm Cũ Và Cover Up Khác Nhau Thế Nào?](/vi/cam-nang-tattoo/phuc-hoi-hinh-xam-cu-va-cover-up-khac-nhau-the-nao/).
 
 ## Ví dụ thực tế tại Lan Pink Tattoo
 
-Một ví dụ điển hình là ca [Tô Lại Hình Xăm Maori Cũ Nửa Người Cho Khách Quốc Tế](/tac-pham/to-lai-hinh-xam-cu/). Hình xăm gốc phủ tay, nửa thân trước và nửa thân sau. Sau nhiều năm, các mảng đen bị phai, đường nét mất độ sắc và tổng thể không còn mạnh như trước.
+Một ví dụ điển hình là ca [Tô Lại Hình Xăm Maori Cũ Nửa Người Cho Khách Quốc Tế](/vi/tac-pham/to-lai-hinh-xam-cu/). Hình xăm gốc phủ tay, nửa thân trước và nửa thân sau. Sau nhiều năm, các mảng đen bị phai, đường nét mất độ sắc và tổng thể không còn mạnh như trước.
 
 Lan Pink thực hiện phục hồi theo hướng giữ lại thiết kế Maori ban đầu, tăng độ tương phản và làm mới tổng thể mà không biến hình thành một tác phẩm hoàn toàn khác.
 

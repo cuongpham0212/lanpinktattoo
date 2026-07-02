@@ -52,7 +52,7 @@ Một số phong cách phổ biến hiện nay:
 - Floral Tattoo
 - Lettering Tattoo
 
-Nếu chưa biết nên chọn phong cách nào, bạn có thể tham khảo trang [Phong cách xăm](/phong-cach-xam/) hoặc xem các tác phẩm thực tế tại [Tác phẩm Lan Pink Tattoo](/tac-pham/).
+Nếu chưa biết nên chọn phong cách nào, bạn có thể tham khảo trang [Phong cách xăm](/vi/phong-cach-xam/) hoặc xem các tác phẩm thực tế tại [Tác phẩm Lan Pink Tattoo](/vi/tac-pham/).
 
 ---
 
@@ -159,7 +159,7 @@ Việc lựa chọn studio phù hợp, chuẩn bị sức khỏe tốt và hiể
 Nếu bạn cần tư vấn mẫu hoặc báo giá, hãy tham khảo:
 
 - [Bảng giá hình xăm](/bang-gia/)
-- [Tác phẩm đã thực hiện](/tac-pham/)
+- [Tác phẩm đã thực hiện](/vi/tac-pham/)
 - [Giới thiệu về Lan Pink Tattoo](/ve-lan-pink-ink-studio/)
 - [Liên hệ đặt lịch](/contact/)
 
@@ -174,7 +174,7 @@ Trước khi đến buổi hẹn, bạn nên chuẩn bị vài điều cơ bản
 - Không uống rượu bia trước buổi xăm
 - Hỏi rõ về giá, vị trí xăm và cách chăm sóc sau xăm
 
-Nếu bạn chưa rõ mức đau ở từng vị trí, có thể đọc thêm bài [xăm hình có đau không](/cam-nang-tattoo/xam-hinh-co-dau-khong/).
+Nếu bạn chưa rõ mức đau ở từng vị trí, có thể đọc thêm bài [xăm hình có đau không](/vi/cam-nang-tattoo/xam-hinh-co-dau-khong/).
 
 ## Nên hỏi gì trước khi đặt lịch?
 
