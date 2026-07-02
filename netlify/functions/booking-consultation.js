@@ -41,8 +41,8 @@ exports.handler = async function(event) {
       created_at: new Date().toISOString(),
       name: String(data.name || data.full_name || "").trim(),
       phone: cleanPhone(data.phone || data.phone_zalo),
-      date: String(data.date || "").trim(),
-      date_key: String(data.date_key || "").trim(),
+      date: String(data.date || data.date_key || "").trim(),
+      date_key: String(data.date_key || data.date || "").trim(),
       time: String(data.time || "").trim(),
       description: String(data.description || "").trim(),
       language: String(data.language || "vi").startsWith("en") ? "en" : "vi"
