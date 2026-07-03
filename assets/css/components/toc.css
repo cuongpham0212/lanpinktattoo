@@ -174,8 +174,6 @@ html[data-theme="dark"] .lp-toc-content nav a:hover {
 
   .lp-header,
   .lp-menumobile,
-  .lp-toc-content,
-  .lp-mobile-toc-button,
   .lp-footer-card,
   .lp-hero-main {
     backdrop-filter: none !important;
@@ -204,3 +202,80 @@ html[data-theme="dark"] .lp-toc-content nav a:hover {
   }
 }
 
+
+
+/* Dark mode: active menu rõ hơn, không chìm nền */
+html[data-theme="dark"] .lp-header .lp-nav-link.is-active {
+  color: #ffffff !important;
+  background:
+    linear-gradient(135deg, #f472b6 0%, #ec4899 52%, #be185d 100%) !important;
+  box-shadow:
+    0 12px 30px rgba(236,72,153,.36),
+    inset 0 1px 0 rgba(255,255,255,.34),
+    0 0 0 1px rgba(249,168,212,.26) !important;
+  text-shadow: 0 1px 1px rgba(70, 8, 42, .35) !important;
+}
+
+/* Mobile TOC: không sticky đè nội dung nữa */
+@media (max-width: 768px) {
+  .lp-mobile-toc {
+    position: relative !important;
+    top: auto !important;
+    z-index: 20 !important;
+    margin: 0 0 22px 0 !important;
+  }
+
+  html[data-theme="light"] .lp-mobile-toc-button {
+    color: #ffffff !important;
+    background:
+      linear-gradient(135deg, #ec4899 0%, #db2777 58%, #be185d 100%) !important;
+    border: 1px solid rgba(190,24,93,.32) !important;
+    box-shadow: 0 12px 28px rgba(236,72,153,.26) !important;
+  }
+
+  html[data-theme="dark"] .lp-mobile-toc-button {
+    color: #ffffff !important;
+    background:
+      linear-gradient(135deg, #831843 0%, #be185d 48%, #ec4899 100%) !important;
+    border: 1px solid rgba(249,168,212,.22) !important;
+    box-shadow: 0 14px 32px rgba(0,0,0,.34) !important;
+  }
+
+  .lp-mobile-toc-button *,
+  .lp-mobile-toc-content *,
+  .lp-toc-content * {
+    color: inherit !important;
+  }
+
+  html[data-theme="light"] .lp-toc-content,
+  html[data-theme="light"] .lp-mobile-toc-content {
+    color: #3a1f31 !important;
+    background: rgba(255,255,255,.97) !important;
+  }
+
+  html[data-theme="light"] .lp-toc-content nav a {
+    color: #4a2439 !important;
+    font-weight: 850 !important;
+  }
+}
+
+/* Light mode: chữ trong box Khám phá thêm / CTA đậm lại */
+html[data-theme="light"] .lp-content .lp-article-cta__title,
+html[data-theme="light"] .lp-content .lp-article-cta h2,
+html[data-theme="light"] .lp-content .lp-article-cta h3,
+html[data-theme="light"] .lp-content div[class*="cta"] h2,
+html[data-theme="light"] .lp-content div[class*="cta"] h3,
+html[data-theme="light"] .lp-content div[class*="related"] h2,
+html[data-theme="light"] .lp-content div[class*="related"] h3 {
+  color: #be185d !important;
+  font-weight: 950 !important;
+  opacity: 1 !important;
+}
+
+html[data-theme="light"] .lp-content .lp-article-cta a,
+html[data-theme="light"] .lp-content div[class*="cta"] a,
+html[data-theme="light"] .lp-content div[class*="related"] a {
+  color: #ec4899 !important;
+  font-weight: 900 !important;
+  opacity: 1 !important;
+}

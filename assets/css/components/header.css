@@ -286,8 +286,6 @@ html[data-theme="dark"] .lp-nav-dropdown-link.is-active {
 
   .lp-header,
   .lp-menumobile,
-  .lp-toc-content,
-  .lp-mobile-toc-button,
   .lp-footer-card,
   .lp-hero-main {
     backdrop-filter: none !important;
@@ -316,3 +314,240 @@ html[data-theme="dark"] .lp-nav-dropdown-link.is-active {
   }
 }
 
+
+
+/* làm menu sáng thấp hơn menu tối 1 chút để cân mắt */
+@media (min-width:1280px) {
+  html[data-theme="light"] .lp-header .lp-header-inner {
+    min-height: 62px;
+  }
+}
+
+/* ======================================================
+   HEADER DESKTOP SPACING SYNC - DARK/LIGHT SAME WIDTH
+   Fix light mode bị giãn menu, dính logo và sát lề phải
+   ====================================================== */
+
+@media (min-width: 1280px) {
+  .lp-header .lp-header-shell {
+    max-width: 1480px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .lp-header .lp-header-inner {
+    gap: 14px !important;
+    min-height: 66px !important;
+  }
+
+  .lp-header .lp-brand {
+    flex: 0 0 auto !important;
+    margin-right: 14px !important;
+  }
+
+  .lp-header .lp-main-nav {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    justify-content: flex-start !important;
+    gap: 2px !important;
+  }
+
+  .lp-header .lp-nav-link {
+    min-height: 38px !important;
+    padding: 7px 8px !important;
+    font-size: 14px !important;
+    line-height: 1.1 !important;
+    font-weight: 850 !important;
+    white-space: nowrap !important;
+  }
+
+  .lp-header .lp-header-actions {
+    flex: 0 0 auto !important;
+    gap: 7px !important;
+  }
+
+  .lp-header .lp-booking-btn,
+  .lp-header .lp-lang-switch {
+    min-height: 38px !important;
+    height: 38px !important;
+    padding: 8px 12px !important;
+    font-size: 13px !important;
+    white-space: nowrap !important;
+  }
+
+  .lp-header .lp-icon-btn {
+    width: 38px !important;
+    height: 38px !important;
+  }
+}
+
+/* xoá sự khác biệt spacing riêng của light mode */
+@media (min-width: 1280px) {
+  html[data-theme="light"] .lp-header .lp-header-inner,
+  html[data-theme="dark"] .lp-header .lp-header-inner {
+    gap: 14px !important;
+  }
+
+  html[data-theme="light"] .lp-header .lp-main-nav,
+  html[data-theme="dark"] .lp-header .lp-main-nav {
+    gap: 2px !important;
+  }
+
+  html[data-theme="light"] .lp-header .lp-nav-link,
+  html[data-theme="dark"] .lp-header .lp-nav-link {
+    padding: 7px 8px !important;
+  }
+
+  html[data-theme="light"] .lp-header .lp-header-actions,
+  html[data-theme="dark"] .lp-header .lp-header-actions {
+    gap: 7px !important;
+  }
+}
+
+/* ======================================================
+   LIGHT HEADER GLASS EFFECT
+   ====================================================== */
+
+html[data-theme="light"] .lp-header {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, .72),
+      rgba(255, 247, 251, .56)
+    ) !important;
+  border-bottom: 1px solid rgba(236, 72, 153, .16) !important;
+  box-shadow:
+    0 16px 42px rgba(236, 72, 153, .10),
+    inset 0 1px 0 rgba(255,255,255,.9) !important;
+  backdrop-filter: blur(18px) saturate(1.35) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(1.35) !important;
+}
+
+html[data-theme="light"] .lp-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(255,255,255,.68), transparent 28%),
+    radial-gradient(circle at 82% 0%, rgba(249,168,212,.20), transparent 30%),
+    linear-gradient(110deg, transparent 0%, rgba(255,255,255,.34) 44%, transparent 58%);
+  opacity: .85;
+}
+
+html[data-theme="light"] .lp-header > * {
+  position: relative;
+  z-index: 1;
+}
+
+html[data-theme="light"] .lp-header .lp-nav-link:hover,
+html[data-theme="light"] .lp-header .lp-nav-link.is-active {
+  background:
+    linear-gradient(135deg, rgba(255,255,255,.74), rgba(253,242,248,.72)) !important;
+  box-shadow:
+    inset 0 0 0 1px rgba(236,72,153,.13),
+    0 10px 24px rgba(236,72,153,.09) !important;
+}
+
+html[data-theme="light"] .lp-header .lp-booking-btn,
+html[data-theme="light"] .lp-header .lp-lang-switch,
+html[data-theme="light"] .lp-header .lp-icon-btn {
+  backdrop-filter: blur(14px) saturate(1.25) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(1.25) !important;
+}
+
+/* ======================================================
+   LIGHT HEADER ACTIVE MENU FIX
+   Active tab không bị chìm vào nền sáng/xà cừ
+   ====================================================== */
+
+html[data-theme="light"] .lp-header .lp-nav-link.is-active {
+  color: #ffffff !important;
+  background:
+    linear-gradient(135deg, #ec4899 0%, #db2777 58%, #be185d 100%) !important;
+  box-shadow:
+    0 12px 28px rgba(236,72,153,.28),
+    inset 0 1px 0 rgba(255,255,255,.34) !important;
+  text-shadow: 0 1px 1px rgba(120, 20, 74, .28) !important;
+}
+
+html[data-theme="light"] .lp-header .lp-nav-link.is-active span {
+  color: #ffffff !important;
+}
+
+
+/* Dark mode: active menu rõ hơn, không chìm nền */
+html[data-theme="dark"] .lp-header .lp-nav-link.is-active {
+  color: #ffffff !important;
+  background:
+    linear-gradient(135deg, #f472b6 0%, #ec4899 52%, #be185d 100%) !important;
+  box-shadow:
+    0 12px 30px rgba(236,72,153,.36),
+    inset 0 1px 0 rgba(255,255,255,.34),
+    0 0 0 1px rgba(249,168,212,.26) !important;
+  text-shadow: 0 1px 1px rgba(70, 8, 42, .35) !important;
+}
+
+/* Mobile TOC: không sticky đè nội dung nữa */
+@media (max-width: 768px) {
+  .lp-mobile-toc {
+    position: relative !important;
+    top: auto !important;
+    z-index: 20 !important;
+    margin: 0 0 22px 0 !important;
+  }
+
+  html[data-theme="light"] .lp-mobile-toc-button {
+    color: #ffffff !important;
+    background:
+      linear-gradient(135deg, #ec4899 0%, #db2777 58%, #be185d 100%) !important;
+    border: 1px solid rgba(190,24,93,.32) !important;
+    box-shadow: 0 12px 28px rgba(236,72,153,.26) !important;
+  }
+
+  html[data-theme="dark"] .lp-mobile-toc-button {
+    color: #ffffff !important;
+    background:
+      linear-gradient(135deg, #831843 0%, #be185d 48%, #ec4899 100%) !important;
+    border: 1px solid rgba(249,168,212,.22) !important;
+    box-shadow: 0 14px 32px rgba(0,0,0,.34) !important;
+  }
+
+  .lp-mobile-toc-button *,
+  .lp-mobile-toc-content *,
+  .lp-toc-content * {
+    color: inherit !important;
+  }
+
+  html[data-theme="light"] .lp-toc-content,
+  html[data-theme="light"] .lp-mobile-toc-content {
+    color: #3a1f31 !important;
+    background: rgba(255,255,255,.97) !important;
+  }
+
+  html[data-theme="light"] .lp-toc-content nav a {
+    color: #4a2439 !important;
+    font-weight: 850 !important;
+  }
+}
+
+/* Light mode: chữ trong box Khám phá thêm / CTA đậm lại */
+html[data-theme="light"] .lp-content .lp-article-cta__title,
+html[data-theme="light"] .lp-content .lp-article-cta h2,
+html[data-theme="light"] .lp-content .lp-article-cta h3,
+html[data-theme="light"] .lp-content div[class*="cta"] h2,
+html[data-theme="light"] .lp-content div[class*="cta"] h3,
+html[data-theme="light"] .lp-content div[class*="related"] h2,
+html[data-theme="light"] .lp-content div[class*="related"] h3 {
+  color: #be185d !important;
+  font-weight: 950 !important;
+  opacity: 1 !important;
+}
+
+html[data-theme="light"] .lp-content .lp-article-cta a,
+html[data-theme="light"] .lp-content div[class*="cta"] a,
+html[data-theme="light"] .lp-content div[class*="related"] a {
+  color: #ec4899 !important;
+  font-weight: 900 !important;
+  opacity: 1 !important;
+}

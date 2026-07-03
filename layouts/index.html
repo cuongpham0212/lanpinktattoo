@@ -63,14 +63,25 @@
       <h2>{{ if eq .Language.Lang "vi" }}Hình xăm tại Lan Pink{{ else }}Tattoo works by Lan Pink{{ end }}</h2>
     </div>
 
-    <div class="lp-mobile-two-grid lp-home-work-track">
-      {{ $portfolioSection := cond (eq .Site.Language.Lang "vi") "tac-pham" "portfolio" }}
-      {{ range first 8 ((where site.RegularPages "Section" $portfolioSection).ByDate.Reverse) }}
-        <a class="lp-mobile-photo-card" href="{{ .RelPermalink }}">
-          {{ with .Params.image }}
-            <img src="{{ . }}" alt="{{ $.Title }}" loading="eager" fetchpriority="high" decoding="async">
+    <div class="lp-mobile-two-grid lp-work-marquee-track lp-work-marquee-track--mobile">
+      {{ $mobilePortfolioSection := cond (eq .Site.Language.Lang "vi") "tac-pham" "portfolio" }}
+      {{ $mobilePortfolioPages := ((where site.RegularPages "Section" $mobilePortfolioSection).ByDate.Reverse) }}
+
+      {{ range $work := $mobilePortfolioPages }}
+        <a class="lp-mobile-photo-card" href="{{ $work.RelPermalink }}">
+          {{ with $work.Params.image }}
+            <img src="{{ . }}" alt="{{ $work.Title }}" loading="eager" fetchpriority="high" decoding="async">
           {{ end }}
-          <span>{{ .Title }}</span>
+          <span>{{ $work.Title }}</span>
+        </a>
+      {{ end }}
+
+      {{ range $work := $mobilePortfolioPages }}
+        <a class="lp-mobile-photo-card" href="{{ $work.RelPermalink }}" aria-hidden="true" tabindex="-1">
+          {{ with $work.Params.image }}
+            <img src="{{ . }}" alt="" loading="lazy" decoding="async">
+          {{ end }}
+          <span>{{ $work.Title }}</span>
         </a>
       {{ end }}
     </div>
@@ -128,22 +139,39 @@
         </a>
       </div>
 
-      <div class="lp-real-grid">
-        {{ $portfolioSection := cond (eq .Site.Language.Lang "vi") "tac-pham" "portfolio" }}
-        {{ range first 8 (where site.RegularPages "Section" $portfolioSection) }}
+      <div class="lp-real-grid lp-work-marquee-track lp-work-marquee-track--desktop">
+        {{ $desktopPortfolioSection := cond (eq .Site.Language.Lang "vi") "tac-pham" "portfolio" }}
+        {{ $desktopPortfolioPages := ((where site.RegularPages "Section" $desktopPortfolioSection).ByDate.Reverse) }}
+
+        {{ range $work := $desktopPortfolioPages }}
           <article class="lp-real-card">
-            <a href="{{ .RelPermalink }}">
-              {{ with .Params.image }}
-                <img src="{{ . }}" alt="{{ $.Params.image_alt | default $.Title }}" loading="lazy" decoding="async">
+            <a href="{{ $work.RelPermalink }}">
+              {{ with $work.Params.image }}
+                <img src="{{ . }}" alt="{{ $work.Params.image_alt | default $work.Title }}" loading="lazy" decoding="async">
               {{ else }}
                 <div class="lp-image-placeholder">Lan Pink Tattoo</div>
               {{ end }}
-
               <div class="lp-card-shade"></div>
-
               <div class="lp-card-content">
                 <span>{{ i18n "home_real_card" }}</span>
-                <h3>{{ .Title }}</h3>
+                <h3>{{ $work.Title }}</h3>
+              </div>
+            </a>
+          </article>
+        {{ end }}
+
+        {{ range $work := $desktopPortfolioPages }}
+          <article class="lp-real-card" aria-hidden="true">
+            <a href="{{ $work.RelPermalink }}" tabindex="-1">
+              {{ with $work.Params.image }}
+                <img src="{{ . }}" alt="" loading="lazy" decoding="async">
+              {{ else }}
+                <div class="lp-image-placeholder">Lan Pink Tattoo</div>
+              {{ end }}
+              <div class="lp-card-shade"></div>
+              <div class="lp-card-content">
+                <span>{{ i18n "home_real_card" }}</span>
+                <h3>{{ $work.Title }}</h3>
               </div>
             </a>
           </article>
