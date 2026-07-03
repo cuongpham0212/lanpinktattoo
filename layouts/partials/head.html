@@ -30,7 +30,7 @@
   {{ end }}
 {{ end }}
 
-{{ $ogImage := .Params.og_image | default .Params.image | default .Params.featured_image | default "images/og-cover.jpg" }}
+{{ $ogImage := .Params.og_image | default .Params.image | default .Params.featured_image | default "images/home-og.jpg" }}
 {{ $ogImages := partial "image-variants.html" (dict "src" $ogImage) }}
 
 <meta charset="utf-8">
