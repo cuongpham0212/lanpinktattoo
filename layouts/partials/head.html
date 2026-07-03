@@ -79,6 +79,8 @@
 <meta property="og:site_name" content="Lan Pink Tattoo">
 <meta property="og:locale" content="{{ if eq .Language.Lang "vi" }}vi_VN{{ else }}en_US{{ end }}">
 <meta property="og:image" content="{{ $ogImages.og.abs }}">
+<meta property="og:image:secure_url" content="{{ $ogImages.og.abs }}">
+<meta property="og:image:type" content="{{ $ogImages.og.type }}">
 <meta property="og:image:width" content="{{ $ogImages.og.width }}">
 <meta property="og:image:height" content="{{ $ogImages.og.height }}">
 <meta property="og:image:alt" content="{{ with .Params.image_alt }}{{ . }}{{ else }}{{ if .IsHome }}Lan Pink Tattoo - Lan Pink Ink Private Tattoo Studio TP.HCM{{ else }}{{ .Title }}{{ end }}{{ end }}">
