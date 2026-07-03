@@ -1,0 +1,66 @@
+{{- $page := . -}}
+
+{{- $src := "" -}}
+{{- if $page.IsHome -}}
+  {{- $src = "images/home-og.jpg" -}}
+{{- else -}}
+  {{- $src = $page.Params.og_image | default $page.Params.image | default $page.Params.featured_image | default "images/home-og.jpg" -}}
+{{- end -}}
+
+{{- $fallback := partial "image-variants.html" (dict "src" $src) -}}
+{{- $result := $fallback -}}
+
+{{- $img := false -}}
+
+{{- if $src -}}
+  {{- if or (hasPrefix $src "http://") (hasPrefix $src "https://") -}}
+    {{- with try (resources.GetRemote $src) -}}
+      {{- with .Err -}}
+        {{- warnf "Không tải được ảnh CDN để tạo social card: %s" $src -}}
+      {{- else with .Value -}}
+        {{- $img = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $local := strings.TrimPrefix "/" $src -}}
+    {{- with resources.Get $local -}}
+      {{- $img = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with $img -}}
+  {{- $w := .Width -}}
+  {{- $h := .Height -}}
+
+  {{- if gt $h $w -}}
+    {{/* Ảnh dọc: nền crop mờ + ảnh đầy đủ ở giữa */}}
+    {{- $bg := .Fill "1200x630 Center jpg q80" -}}
+    {{- $bg = $bg.Filter (images.GaussianBlur 18) (images.Brightness -18) -}}
+
+    {{- $fg := .Fit "760x590 jpg q92" -}}
+    {{- $x := div (sub 1200 $fg.Width) 2 -}}
+    {{- $y := div (sub 630 $fg.Height) 2 -}}
+
+    {{- $card := $bg.Filter (images.Overlay $fg $x $y) -}}
+
+    {{- $result = dict
+      "original" (dict "src" .RelPermalink "abs" .Permalink "width" .Width "height" .Height "type" "image/jpeg")
+      "hero" (dict "src" $card.RelPermalink "abs" $card.Permalink "width" $card.Width "height" $card.Height "type" "image/jpeg")
+      "og" (dict "src" $card.RelPermalink "abs" $card.Permalink "width" $card.Width "height" $card.Height "type" "image/jpeg")
+      "thumb" (dict "src" $fg.RelPermalink "abs" $fg.Permalink "width" $fg.Width "height" $fg.Height "type" "image/jpeg")
+    -}}
+  {{- else -}}
+    {{/* Ảnh ngang: crop center chuẩn Facebook */}}
+    {{- $card := .Fill "1200x630 Center jpg q90" -}}
+
+    {{- $result = dict
+      "original" (dict "src" .RelPermalink "abs" .Permalink "width" .Width "height" .Height "type" "image/jpeg")
+      "hero" (dict "src" $card.RelPermalink "abs" $card.Permalink "width" $card.Width "height" $card.Height "type" "image/jpeg")
+      "og" (dict "src" $card.RelPermalink "abs" $card.Permalink "width" $card.Width "height" $card.Height "type" "image/jpeg")
+      "thumb" (dict "src" $card.RelPermalink "abs" $card.Permalink "width" $card.Width "height" $card.Height "type" "image/jpeg")
+    -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $result -}}

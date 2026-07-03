@@ -30,8 +30,7 @@
   {{ end }}
 {{ end }}
 
-{{ $ogImage := .Params.og_image | default .Params.image | default .Params.featured_image | default "images/home-og.jpg" }}
-{{ $ogImages := partial "image-variants.html" (dict "src" $ogImage) }}
+{{ $ogImages := partial "generate-social-card.html" . }}
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
