@@ -41,3 +41,146 @@
   display: block;
   object-fit: cover;
 }
+
+
+/* Riêng trang bài viết: cho mặt nền sáng sang hơn nhưng không chói */
+html[data-theme="light"] .lp-single-page .rounded-\[2rem\] {
+  background:
+    linear-gradient(135deg, rgba(255,255,255,.86), rgba(255,247,251,.72)) !important;
+  border-color: rgba(236,72,153,.14) !important;
+  box-shadow:
+    0 26px 76px rgba(236,72,153,.10),
+    inset 0 1px 0 rgba(255,255,255,.92) !important;
+}
+
+/* Giữ chữ và ảnh luôn nằm trên lớp kim tuyến */
+html[data-theme="light"] .lp-hero-main > *,
+html[data-theme="light"] .lp-content > *,
+html[data-theme="light"] .prose > *,
+html[data-theme="light"] .lp-single-page .rounded-\[2rem\] > *,
+html[data-theme="light"] .lp-real-card > *,
+html[data-theme="light"] .lp-mobile-photo-card > *,
+html[data-theme="light"] .lp-portfolio-card > *,
+html[data-theme="light"] .lp-article-card > *,
+html[data-theme="light"] .lp-card > *,
+html[data-theme="light"] .card > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ======================================================
+   LIGHT PEARL NACRE + MICRO GLITTER SURFACE
+   Bản nổi hơn: xà cừ rõ, kim tuyến li ti không bị chìm nền hồng
+   ====================================================== */
+
+html[data-theme="light"] .lp-hero-main,
+html[data-theme="light"] .lp-content,
+html[data-theme="light"] .prose,
+html[data-theme="light"] .lp-single-page .rounded-\[2rem\],
+html[data-theme="light"] .lp-real-card,
+html[data-theme="light"] .lp-mobile-photo-card,
+html[data-theme="light"] .lp-portfolio-card,
+html[data-theme="light"] .lp-article-card,
+html[data-theme="light"] .lp-card,
+html[data-theme="light"] .card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+html[data-theme="light"] .lp-hero-main::before,
+html[data-theme="light"] .lp-content::before,
+html[data-theme="light"] .prose::before,
+html[data-theme="light"] .lp-single-page .rounded-\[2rem\]::before,
+html[data-theme="light"] .lp-real-card::before,
+html[data-theme="light"] .lp-mobile-photo-card::before,
+html[data-theme="light"] .lp-portfolio-card::before,
+html[data-theme="light"] .lp-article-card::before,
+html[data-theme="light"] .lp-card::before,
+html[data-theme="light"] .card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+  pointer-events: none;
+
+  background:
+    radial-gradient(circle at 14% 18%, rgba(255,255,255,.95) 0 1.35px, transparent 1.9px),
+    radial-gradient(circle at 68% 22%, rgba(255,205,233,.82) 0 1.45px, transparent 2px),
+    radial-gradient(circle at 36% 74%, rgba(255,255,255,.88) 0 1.2px, transparent 1.85px),
+    radial-gradient(circle at 86% 66%, rgba(236,72,153,.30) 0 1.15px, transparent 1.9px),
+    linear-gradient(115deg, rgba(255,255,255,.62), rgba(255,182,222,.26), rgba(255,255,255,.52)),
+    radial-gradient(circle at 18% 0%, rgba(255,255,255,.62), transparent 38%),
+    radial-gradient(circle at 92% 20%, rgba(236,72,153,.20), transparent 36%);
+
+  background-size:
+    23px 23px,
+    31px 31px,
+    39px 39px,
+    47px 47px,
+    150px 150px,
+    100% 100%,
+    100% 100%;
+
+  opacity: .98;
+  mix-blend-mode: normal;
+}
+
+html[data-theme="light"] .lp-hero-main::after,
+html[data-theme="light"] .lp-content::after,
+html[data-theme="light"] .prose::after,
+html[data-theme="light"] .lp-single-page .rounded-\[2rem\]::after,
+html[data-theme="light"] .lp-real-card::after,
+html[data-theme="light"] .lp-mobile-photo-card::after,
+html[data-theme="light"] .lp-portfolio-card::after,
+html[data-theme="light"] .lp-article-card::after,
+html[data-theme="light"] .lp-card::after,
+html[data-theme="light"] .card::after {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  z-index: 0;
+  border-radius: inherit;
+  pointer-events: none;
+
+  background:
+    linear-gradient(120deg, transparent 0%, rgba(255,255,255,.50) 30%, rgba(255,190,228,.36) 43%, rgba(255,255,255,.42) 54%, transparent 72%),
+    repeating-linear-gradient(
+      115deg,
+      rgba(255,255,255,.20) 0px,
+      rgba(255,255,255,.20) 1px,
+      transparent 1px,
+      transparent 8px
+    );
+
+  opacity: .72;
+  mix-blend-mode: screen;
+}
+
+html[data-theme="light"] .lp-single-page .rounded-\[2rem\],
+html[data-theme="light"] .lp-hero-main,
+html[data-theme="light"] .lp-card,
+html[data-theme="light"] .card {
+  background:
+    linear-gradient(135deg, rgba(255,255,255,.88), rgba(255,244,250,.74)) !important;
+  border-color: rgba(236,72,153,.18) !important;
+  box-shadow:
+    0 26px 78px rgba(236,72,153,.13),
+    inset 0 1px 0 rgba(255,255,255,.95) !important;
+}
+
+/* Nội dung nổi lên trên lớp xà cừ */
+html[data-theme="light"] .lp-hero-main > *,
+html[data-theme="light"] .lp-content > *,
+html[data-theme="light"] .prose > *,
+html[data-theme="light"] .lp-single-page .rounded-\[2rem\] > *,
+html[data-theme="light"] .lp-real-card > *,
+html[data-theme="light"] .lp-mobile-photo-card > *,
+html[data-theme="light"] .lp-portfolio-card > *,
+html[data-theme="light"] .lp-article-card > *,
+html[data-theme="light"] .lp-card > *,
+html[data-theme="light"] .card > * {
+  position: relative;
+  z-index: 1;
+}

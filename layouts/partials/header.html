@@ -193,13 +193,16 @@
           {{ i18n "book_now" | default "Đặt lịch" }}
         </a>
 
-        <div class="hidden sm:flex">
+        <div class="lp-header-lang-outside">
           {{ range .Site.Home.AllTranslations }}
             {{ if ne .Language.Lang $siteLanguage }}
-              <a href="{{ .RelPermalink }}" class="lp-lang-switch" aria-label="Switch language">
-                <span>🌐</span>
-                <span>
+              <a href="{{ .RelPermalink }}" class="lp-lang-switch lp-lang-switch-outside" aria-label="Switch language">
+                <span class="lp-lang-icon">🌐</span>
+                <span class="lp-lang-full">
                   {{ if eq .Language.Lang "en" }}English{{ else }}Tiếng Việt{{ end }}
+                </span>
+                <span class="lp-lang-short">
+                  {{ if eq .Language.Lang "en" }}EN{{ else }}VI{{ end }}
                 </span>
               </a>
             {{ end }}
@@ -280,7 +283,7 @@
         {{ i18n "book_now" | default "Đặt lịch" }}
       </a>
 
-      <div class="mt-4 border-t border-pink-100 pt-4">
+      <div class="lp-menumobile-lang-inside mt-4 border-t border-pink-100 pt-4">
         {{ range .Site.Home.AllTranslations }}
           {{ if ne .Language.Lang $siteLanguage }}
             <a href="{{ .RelPermalink }}" class="lp-menumobile-lang-switch" aria-label="Switch language">
