@@ -4,13 +4,12 @@
 {{- $today := now.Format "2006-01-02" -}}
 {{- $startOK := or (not $promo.start_date) (ge $today $promo.start_date) -}}
 {{- $endOK := or (not $promo.end_date) (le $today $promo.end_date) -}}
-{{- if and .IsPage (ne .Section "khuyen-mai") (ne .Section "promotions") $promo $promo.enabled $promo.show_sticky $text -}}
-<aside class="lanpink-promo-sticky" aria-label="Lan Pink Tattoo promotion">
-  <div class="lanpink-promo-sticky__text">
-    <span class="lanpink-promo-sticky__badge">✦ {{ $text.badge }}</span>
-    <strong class="lanpink-promo-sticky__title">{{ $text.title }}</strong>
-    <p>{{ $text.summary }}</p>
-  </div>
-  <a class="lanpink-promo-sticky__btn" href="{{ $text.url }}">{{ $text.button_text }}</a>
-</aside>
+
+{{- if and $promo $promo.enabled $promo.show_sticky $startOK $endOK $text -}}
+<div class="lanpink-promo-sticky">
+  <a href="{{ $text.url }}">
+    <span>{{ $text.badge }}</span>
+    <strong>{{ $text.title }}</strong>
+  </a>
+</div>
 {{- end -}}
