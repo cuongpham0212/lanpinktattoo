@@ -3,6 +3,7 @@ command = "hugo"
 publish = "public"
 
 [build.environment]
+  TZ = "Asia/Ho_Chi_Minh"
 HUGO_VERSION = "0.152.2"
 
 
@@ -28,4 +29,3 @@ to = "https://lanpinktattoo.com/:splat"
 status = 301
 
 force = true
-
