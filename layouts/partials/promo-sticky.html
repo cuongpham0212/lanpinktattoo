@@ -5,11 +5,21 @@
 {{- $startOK := or (not $promo.start_date) (ge $today $promo.start_date) -}}
 {{- $endOK := or (not $promo.end_date) (le $today $promo.end_date) -}}
 
-{{- if and $promo $promo.enabled $promo.show_sticky $startOK $endOK $text -}}
-<div class="lanpink-promo-sticky">
-  <a href="{{ $text.url }}">
-    <span>{{ $text.badge }}</span>
-    <strong>{{ $text.title }}</strong>
-  </a>
-</div>
+{{- if and .IsPage (not .IsHome) $promo $promo.enabled $promo.show_sticky $startOK $endOK $text -}}
+  {{- $currentURL := .RelPermalink -}}
+  {{- $promoURL := $text.url | default "" -}}
+
+  {{- if ne $currentURL $promoURL -}}
+  <aside class="lanpink-promo-sticky" aria-label="{{ $text.badge }}">
+    <a class="lanpink-promo-sticky__link" href="{{ $text.url }}">
+      <span class="lanpink-promo-sticky__badge">{{ $text.badge }}</span>
+      <span class="lanpink-promo-sticky__title">{{ $text.title }}</span>
+      {{- if $promo.end_date -}}
+      <span class="lanpink-promo-sticky__date">
+        {{ if eq $lang "en" }}Valid until{{ else }}Đang áp dụng đến{{ end }} {{ $promo.end_date }}
+      </span>
+      {{- end -}}
+    </a>
+  </aside>
+  {{- end -}}
 {{- end -}}
