@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-05 02:33:45",
-  "enabled": true,
-  "show_hero": true,
-  "show_sticky": true,
+  "updated_at": "2026-07-05 02:37:32",
+  "enabled": false,
+  "show_hero": false,
+  "show_sticky": false,
   "translation_id": "holiday_promotion_page",
   "start_date": "2026-07-04",
-  "end_date": "2026-07-06",
+  "end_date": "2026-07-04",
   "vi": {
     "badge": "Khuyến mãi",
     "title": "Ưu Đãi Xăm Hình Dịp Lễ Tại Lan Pink Tattoo",
