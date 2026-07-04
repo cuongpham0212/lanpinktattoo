@@ -1,11 +1,8 @@
 {
-  "updated_at": "2026-07-05 03:10:12",
+  "updated_at": "2026-07-05 03:25:11",
   "enabled": true,
   "show_hero": true,
   "show_sticky": true,
-  "expired": false,
-  "not_started": false,
-  "active": true,
   "translation_id": "holiday_promotion_page",
   "start_date": "2026-07-04",
   "end_date": "2026-07-25",
