@@ -1,7 +1,7 @@
 {{- $promo := site.Data.promo_settings -}}
 {{- $lang := site.Language.Lang | default "vi" -}}
 {{- $text := index $promo $lang | default $promo.vi -}}
-{{- if and .IsHome $promo $promo.enabled $promo.show_hero $text -}}
+{{- if and .IsHome $promo $promo.enabled $promo.show_hero (not $promo.expired) (not $promo.not_started) $text -}}
 <section class="lanpink-promo-hero">
   <div class="lanpink-promo-hero__inner">
     <div>

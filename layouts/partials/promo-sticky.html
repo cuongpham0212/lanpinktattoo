@@ -1,7 +1,7 @@
 {{- $promo := site.Data.promo_settings -}}
 {{- $lang := site.Language.Lang | default "vi" -}}
 {{- $text := index $promo $lang | default $promo.vi -}}
-{{- if and .IsPage (ne .Section "khuyen-mai") (ne .Section "promotions") $promo $promo.enabled $promo.show_sticky $text -}}
+{{- if and .IsPage (ne .Section "khuyen-mai") (ne .Section "promotions") $promo $promo.enabled $promo.show_sticky (not $promo.expired) (not $promo.not_started) $text -}}
 <aside class="lanpink-promo-sticky" aria-label="Lan Pink Tattoo promotion">
   <div class="lanpink-promo-sticky__text">
     <span class="lanpink-promo-sticky__badge">✦ {{ $text.badge }}</span>
