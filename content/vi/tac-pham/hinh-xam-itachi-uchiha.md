@@ -44,7 +44,7 @@ seo_intent: "tac-pham"
 seo_target_keyword: "hình xăm itachi uchiha"
 seo_content_type: "tac-pham"
 
-google_review_id: "gmb_Ci9DQUlRQUNvZENodHljRjlvT25sb1VqSm5jekZuWmtOUFZuUnBTelo0ZG1GSFEzYxAB"
+#google_review_id: "gmb_Ci9DQUlRQUNvZENodHljRjlvT25sb1VqSm5jekZuWmtOUFZuUnBTelo0ZG1GSFEzYxAB"
 ---
 
 # Hình Xăm Itachi Uchiha Full Bắp Tay Cho Khách Nước Ngoài
