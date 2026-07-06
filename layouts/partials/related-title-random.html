@@ -1,0 +1,6 @@
+{{- $headings := site.Data.related_headings -}}
+{{- if $headings -}}
+  {{- index (shuffle $headings) 0 -}}
+{{- else -}}
+  Bài viết liên quan
+{{- end -}}
