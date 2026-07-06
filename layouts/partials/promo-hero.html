@@ -1,10 +1,7 @@
 {{- $promo := site.Data.promo_settings -}}
 {{- $lang := site.Language.Lang | default "vi" -}}
 {{- $text := index $promo $lang | default $promo.vi -}}
-{{- $today := now.Format "2006-01-02" -}}
-{{- $startOK := or (not $promo.start_date) (ge $today $promo.start_date) -}}
-{{- $endOK := or (not $promo.end_date) (le $today $promo.end_date) -}}
-{{- if and .IsHome $promo $promo.enabled $promo.show_hero $startOK $endOK $text -}}
+{{- if and .IsHome $promo $promo.active $promo.enabled $promo.show_hero $text -}}
 <section class="lanpink-promo-hero">
   <div class="lanpink-promo-hero__inner">
     <div>
