@@ -1,4 +1,9 @@
 {{ define "main" }}
+
+
+
+
+
 <article class="lp-single-page" itemscope itemtype="https://schema.org/Article">
 
   {{ partial "hero.html" . }}
@@ -127,6 +132,44 @@
     border-color: rgba(255,255,255,.16) !important;
   }
 }
+
+/* DARK FIX: TOC desktop + mobile */
+html[data-theme="dark"] article.lp-single-page .lp-toc,
+html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-panel {
+  background: rgba(18, 15, 22, .94) !important;
+  color: #fff7fb !important;
+  border-color: rgba(255, 138, 199, .28) !important;
+}
+
+html[data-theme="dark"] article.lp-single-page .lp-toc *,
+html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-panel * {
+  color: #fff7fb !important;
+}
+
+html[data-theme="dark"] article.lp-single-page .lp-toc a,
+html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-panel a {
+  color: #ffe4f2 !important;
+}
+
+html[data-theme="dark"] article.lp-single-page .lp-toc a:hover,
+html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-panel a:hover {
+  color: #ff8ac7 !important;
+}
+
+html[data-theme="dark"] article.lp-single-page .lp-toc-toggle-text,
+html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-button {
+  background: #ffe4f2 !important;
+  color: #4a102c !important;
+  -webkit-text-fill-color: #4a102c !important;
+  border: 1px solid rgba(255, 138, 199, .35) !important;
+}
+
+html[data-theme="dark"] article.lp-single-page .lp-toc-toggle-text *,
+html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-button * {
+  color: #4a102c !important;
+  -webkit-text-fill-color: #4a102c !important;
+}
+
 </style>
 
 <div class="lp-mobile-toc">
@@ -229,7 +272,6 @@
           {{ partial "related-title-random.html" . }}
         </h2>
       </div>
-
       <div class="lp-related-carousel" aria-label="Bài viết liên quan tự chạy"><div class="lp-related-track">
         {{ range . }}
         {{ $rel := . }}
