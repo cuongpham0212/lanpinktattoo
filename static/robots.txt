@@ -1,4 +1,13 @@
 User-agent: *
 Allow: /
 
+# Không index taxonomy pages
+Disallow: /tags/
+Disallow: /categories/
+Disallow: /en/tags/
+Disallow: /en/categories/
+
+# Không index phân trang
+Disallow: /*/page/
+
 Sitemap: https://lanpinktattoo.com/sitemap.xml

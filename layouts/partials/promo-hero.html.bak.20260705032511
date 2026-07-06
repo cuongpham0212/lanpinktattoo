@@ -1,0 +1,19 @@
+{{- $promo := site.Data.promo_settings -}}
+{{- $lang := site.Language.Lang | default "vi" -}}
+{{- $text := index $promo $lang | default $promo.vi -}}
+{{- if and .IsHome $promo $promo.enabled $promo.show_hero (not $promo.expired) (not $promo.not_started) $text -}}
+<section class="lanpink-promo-hero">
+  <div class="lanpink-promo-hero__inner">
+    <div>
+      <div class="lanpink-promo-hero__badge">✦ {{ $text.badge }}</div>
+      <h2>{{ $text.title }}</h2>
+      <p>{{ $text.summary }}</p>
+      {{- if $promo.end_date -}}
+        <div class="lanpink-promo-hero__meta">{{ if eq $lang "en" }}Valid until{{ else }}Đang áp dụng đến{{ end }} {{ $promo.end_date }}</div>
+      {{- end -}}
+      <a class="lanpink-promo-hero__btn" href="{{ $text.url }}">{{ $text.button_text }}</a>
+    </div>
+    <div class="lanpink-promo-hero__sale">SALE</div>
+  </div>
+</section>
+{{- end -}}

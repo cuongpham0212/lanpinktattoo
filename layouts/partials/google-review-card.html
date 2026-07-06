@@ -2,45 +2,65 @@
 {{- if $reviewID -}}
   {{- $reviews := site.Data.google_reviews -}}
   {{- $review := index $reviews $reviewID -}}
-
   {{- if $review -}}
+
 <section class="lp-google-review-card">
   <div class="lp-google-review-intro">
-    <span>Khách hàng nói gì về Lan Pink?</span>
+    <div>
+      <h2>Khách hàng nói gì về Lan Pink?</h2>
+      <div class="lp-google-review-stars">
+        {{- range seq 1 (int (default 5 $review.rating)) }}<span>★</span>{{ end -}}
+      </div>
+      <strong>{{ $review.reviewer_name }}</strong>
+    </div>
 
     {{- with $review.google_review_url }}
     <a class="lp-google-review-verified" href="{{ . }}" target="_blank" rel="nofollow noopener">
       Đã xác thực từ Google Review →
     </a>
-    {{- else }}
-      {{- if $review.verified }}
-      <span class="lp-google-review-verified">Đã xác thực từ Google Review</span>
-      {{- end }}
     {{- end }}
-  </div>
-
-  <div class="lp-google-review-head">
-    <div>
-      <div class="lp-google-review-stars">
-        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-      </div>
-      <strong>{{ $review.reviewer_name }}</strong>
-    </div>
   </div>
 
   <p class="lp-google-review-text">“{{ $review.review_text }}”</p>
 
-  {{- with $review.feedback_images }}
-  <div class="lp-google-review-images">
-    {{- range . }}
-    <img src="{{ . }}" alt="Feedback khách hàng Lan Pink Ink Studio" loading="lazy">
-    {{- end }}
+  <div class="lp-google-review-details">
+    {{- with $review.service_price }}<div><strong>Giá:</strong><br>{{ . }}</div>{{- end }}
+    {{- with $review.service_note }}<div><strong>Dịch vụ:</strong><br>{{ . }}</div>{{- end }}
+    {{- with $review.style_request }}<div><strong>Phong cách đã yêu cầu:</strong><br>{{ . }}</div>{{- end }}
+    {{- with $review.cleanliness }}<div><strong>Mức độ sạch sẽ:</strong><br>{{ . }}</div>{{- end }}
+    {{- with $review.artist_feedback }}<div><strong>Nhà tạo mẫu:</strong><br>{{ . }}</div>{{- end }}
   </div>
+
+  {{- $gallerySlug := $review.feedback_gallery_slug | default "" -}}
+  {{- $gallery := index site.Data.galleries $gallerySlug -}}
+
+  {{- if and $gallery $gallery.images }}
+    <div class="lp-google-review-images">
+      {{- range $gallery.images }}
+        {{- $src := or .src .url .image .cdn -}}
+        {{- if $src }}
+        <a href="{{ $src }}" target="_blank" rel="nofollow noopener">
+          <img src="{{ $src }}" alt="{{ or .alt "Ảnh feedback khách hàng tại Lan Pink Tattoo" }}" loading="lazy">
+        </a>
+        {{- end }}
+      {{- end }}
+    </div>
+  {{- else }}
+    {{- with $review.feedback_images }}
+    <div class="lp-google-review-images">
+      {{- range . }}
+      <a href="{{ . }}" target="_blank" rel="nofollow noopener">
+        <img src="{{ . }}" alt="Ảnh feedback khách hàng tại Lan Pink Tattoo" loading="lazy">
+      </a>
+      {{- end }}
+    </div>
+    {{- end }}
   {{- end }}
 
   <div class="lp-google-review-foot">
-    <span>Review thật từ khách hàng sau buổi xăm tại Lan Pink Ink Studio</span>
+    Review thật từ khách hàng sau buổi xăm tại Lan Pink Ink Studio
   </div>
 </section>
+
   {{- end -}}
 {{- end -}}
