@@ -1,31 +1,20 @@
 [build]
-command = "hugo"
+command = "rm -rf node_modules && npm ci && hugo --gc --minify"
 publish = "public"
 
 [build.environment]
-  TZ = "Asia/Ho_Chi_Minh"
+TZ = "Asia/Ho_Chi_Minh"
 HUGO_VERSION = "0.152.2"
-
-
+NODE_VERSION = "22"
 
 [[redirects]]
-
-from = "https://lanpinktattoo.netlify.app/ *"
-
+from = "https://lanpinktattoo.netlify.app/*"
 to = "https://lanpinktattoo.com/:splat"
-
 status = 301
-
 force = true
 
-
-
 [[redirects]]
-
 from = "http://TEN-SITE-NETLIFY-CUA-ANH.netlify.app/*"
-
 to = "https://lanpinktattoo.com/:splat"
-
 status = 301
-
 force = true
