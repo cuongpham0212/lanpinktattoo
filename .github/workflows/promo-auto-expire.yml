@@ -1,0 +1,72 @@
+name: Auto expire promo banner
+
+on:
+  schedule:
+    # 17:05 UTC = 00:05 Vietnam time
+    - cron: "5 17 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  expire-promo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Auto expire promo by Vietnam date
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime, timezone, timedelta
+
+          p = Path("data/promo_settings.json")
+          if not p.exists():
+              print("No promo_settings.json")
+              raise SystemExit(0)
+
+          data = json.loads(p.read_text(encoding="utf-8"))
+
+          vn_now = datetime.now(timezone(timedelta(hours=7)))
+          today = vn_now.date().isoformat()
+
+          start_date = str(data.get("start_date", "") or "").strip()
+          end_date = str(data.get("end_date", "") or "").strip()
+          enabled = bool(data.get("enabled"))
+
+          not_started = bool(start_date and today < start_date)
+          expired = bool(end_date and today > end_date)
+          active = bool(enabled and not expired and not not_started)
+
+          data["updated_at"] = vn_now.strftime("%Y-%m-%d %H:%M:%S")
+          data["not_started"] = not_started
+          data["expired"] = expired
+          data["active"] = active
+
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+          print("Vietnam today:", today)
+          print("start_date:", start_date)
+          print("end_date:", end_date)
+          print("enabled:", enabled)
+          print("not_started:", not_started)
+          print("expired:", expired)
+          print("active:", active)
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if git diff --quiet data/promo_settings.json; then
+            echo "No promo change"
+            exit 0
+          fi
+
+          git add data/promo_settings.json
+          git commit -m "auto expire promo banner"
+          git push
