@@ -219,14 +219,14 @@
       <div class="mb-8">
         <p class="lp-eyebrow">
           {{ if eq $.Language.Lang "vi" }}
-            Có thể bạn cũng thích
+            {{ partial "related-title-random.html" . }}
           {{ else }}
             You may also like
           {{ end }}
         </p>
 
         <h2 class="mt-2 text-2xl font-black tracking-tight text-neutral-900 sm:text-3xl">
-          {{ i18n "relatedPosts" | default "Bài viết liên quan" }}
+          {{ partial "related-title-random.html" . }}
         </h2>
       </div>
 
