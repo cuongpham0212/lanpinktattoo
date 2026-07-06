@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05 03:52:51",
+  "updated_at": "2026-07-07 01:48:30",
   "enabled": true,
   "show_hero": true,
   "show_sticky": true,
@@ -19,5 +19,8 @@
     "summary": "A limited-time holiday tattoo promotion at Lan Pink Tattoo for clients interested in custom tattoos, fine line tattoos, mini tattoos and personal tattoo designs in Ho Chi Minh City.",
     "button_text": "View promotion",
     "url": "/en/promotions/holiday-tattoo-promotion/"
-  }
+  },
+  "not_started": false,
+  "expired": true,
+  "active": false
 }
