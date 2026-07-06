@@ -1,7 +1,7 @@
 ---
 title: "Hình Xăm Itachi Uchiha Full Bắp Tay – Anime Tattoo Cho Khách Nước Ngoài"
 slug: "hinh-xam-itachi-uchiha"
-date: 2026-07-06
+date: 2026-07-05
 draft: false
 translation_id: "itachi-uchiha_tattoo_tac-pham"
 
