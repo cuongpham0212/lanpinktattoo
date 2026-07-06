@@ -205,6 +205,103 @@ box-shadow: none; cursor: pointer; user-select: none; animation: lpmPulse 3.8s i
     font-size:18px!important;
 }
 
+
+/* DARK FIX: Lan Pink Member popup + floating button */
+html[data-theme="dark"] .lpm-popup {
+  background: rgba(18, 15, 22, .96) !important;
+  color: #fff7fb !important;
+  border: 1px solid rgba(255, 138, 199, .28) !important;
+}
+
+html[data-theme="dark"] .lpm-popup h2,
+html[data-theme="dark"] .lpm-popup p,
+html[data-theme="dark"] .lpm-popup span,
+html[data-theme="dark"] .lpm-popup strong {
+  color: #fff7fb !important;
+}
+
+html[data-theme="dark"] .lpm-popup .lpm-text {
+  color: #eadce5 !important;
+}
+
+html[data-theme="dark"] .lpm-popup .lpm-primary {
+  background: #ff4fa3 !important;
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .lpm-popup .lpm-secondary,
+html[data-theme="dark"] .lpm-popup .lpm-close {
+  background: rgba(255,255,255,.08) !important;
+  color: #ffe4f2 !important;
+  border-color: rgba(255,138,199,.24) !important;
+}
+
+html[data-theme="dark"] .lpm-float,
+html[data-theme="dark"] .lpm-float * {
+  color: #ff8ac7 !important;
+}
+
+
+/* DARK UPGRADE: mirror glass Lan Pink Member popup */
+html[data-theme="dark"] .lpm-popup {
+  background:
+    radial-gradient(circle at 18% 20%, rgba(255, 138, 199, .24), transparent 34%),
+    radial-gradient(circle at 82% 12%, rgba(255, 255, 255, .18), transparent 26%),
+    linear-gradient(135deg, rgba(255,255,255,.18), rgba(255,255,255,.055)) !important;
+  color: #fff7fb !important;
+  border: 1px solid rgba(255, 138, 199, .45) !important;
+  box-shadow:
+    0 28px 90px rgba(0,0,0,.55),
+    0 0 42px rgba(255,79,163,.24),
+    inset 0 1px 0 rgba(255,255,255,.38),
+    inset 0 -1px 0 rgba(255,255,255,.12) !important;
+  backdrop-filter: blur(26px) saturate(145%);
+  -webkit-backdrop-filter: blur(26px) saturate(145%);
+}
+
+html[data-theme="dark"] .lpm-popup::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background:
+    linear-gradient(115deg, transparent 0 32%, rgba(255,255,255,.28) 44%, transparent 58%),
+    linear-gradient(180deg, rgba(255,255,255,.18), transparent 38%, rgba(255,79,163,.10));
+  opacity: .65;
+}
+
+html[data-theme="dark"] .lpm-popup > * {
+  position: relative;
+  z-index: 1;
+}
+
+html[data-theme="dark"] .lpm-popup h2 {
+  color: #ffffff !important;
+  text-shadow: 0 3px 18px rgba(0,0,0,.45);
+}
+
+html[data-theme="dark"] .lpm-popup .lpm-text,
+html[data-theme="dark"] .lpm-popup p,
+html[data-theme="dark"] .lpm-popup span {
+  color: #fff2f8 !important;
+}
+
+html[data-theme="dark"] .lpm-popup .lpm-primary {
+  background: linear-gradient(135deg, #ff4fa3, #db2777) !important;
+  color: #ffffff !important;
+  box-shadow: 0 14px 34px rgba(255,79,163,.34) !important;
+}
+
+html[data-theme="dark"] .lpm-popup .lpm-secondary,
+html[data-theme="dark"] .lpm-popup .lpm-close {
+  background: rgba(10,8,14,.42) !important;
+  color: #ffe4f2 !important;
+  border: 1px solid rgba(255,138,199,.38) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
 </style>
 
 <script>

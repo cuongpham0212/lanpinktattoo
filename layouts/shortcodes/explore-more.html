@@ -1,10 +1,24 @@
 {{ $related := .Page.Site.RegularPages.Related .Page | first 4 }}
 
 {{ if $related }}
+
+{{ $explorePrompts := slice
+  "Nếu anh/chị muốn mở rộng thêm ý tưởng, Lan Pink chọn vài bài phù hợp ngay dưới đây."
+  "Một vài nội dung gần chủ đề này có thể giúp anh/chị nhìn rõ hơn hướng hình xăm mình thích."
+  "Lan Pink gợi ý thêm vài bài viết để anh/chị khám phá tiếp theo cùng mạch cảm hứng."
+  "Nếu đang tìm thêm chất liệu cho ý tưởng xăm, những bài dưới đây có thể rất đáng xem."
+  "Có thể anh/chị sẽ tìm được thêm một góc nhìn hay từ những nội dung liên quan này."
+  "Mình có thể xem thêm vài chủ đề gần nhau dưới đây trước khi chốt ý tưởng cuối cùng."
+}}
+
+{{ $exploreIdx := mod (add now.Unix 3) (len $explorePrompts) }}
+{{ $explorePrompt := index $explorePrompts $exploreIdx }}
+
 <div class="my-8 rounded-2xl border border-pink-200 bg-pink-50/60 p-5 shadow-sm dark:border-pink-400/30 dark:bg-white/5">
-  <h2 class="mb-3 text-xl font-semibold text-pink-700 dark:text-pink-200">
-    {{ i18n "explore_more" }}
+  <h2 class="mb-4 text-xl font-semibold text-pink-700 dark:text-pink-200">
+    {{ $explorePrompt }}
   </h2>
+
 
   <ul class="list-disc space-y-2 pl-5 text-gray-700 dark:text-gray-100">
     {{ range $related }}
@@ -19,4 +33,5 @@
     {{ end }}
   </ul>
 </div>
+
 {{ end }}

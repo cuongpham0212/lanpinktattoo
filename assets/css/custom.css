@@ -595,3 +595,51 @@ html[data-theme="dark"] .lp-google-review-text{
     color:#111;
   }
 }
+
+.lp-friendly-prompt {
+  margin: 0 0 18px;
+  color: rgba(255,255,255,.78);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Fix section Bài viết liên quan bị mờ / chữ nhạt */
+.lp-related-section {
+  background: #111016 !important;
+}
+
+.lp-related-section::before,
+.lp-related-section::after {
+  opacity: 0.18 !important;
+}
+
+.lp-related-section .lp-eyebrow {
+  background: rgba(255, 105, 180, 0.16) !important;
+  color: #ff7fbd !important;
+}
+
+.lp-related-section h2,
+.lp-related-section .lp-heading {
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+
+.lp-related-section .lp-friendly-prompt,
+.lp-related-section .lp-muted,
+.lp-related-section p {
+  color: rgba(255, 255, 255, 0.82) !important;
+}
+
+.lp-related-section .lp-card {
+  background: rgba(24, 22, 30, 0.96) !important;
+  border-color: rgba(255, 127, 189, 0.28) !important;
+}
+
+.lp-related-section .lp-card a,
+.lp-related-section .lp-card h3 {
+  color: #ffffff !important;
+}
+
+.lp-related-section .lp-card p {
+  color: rgba(255, 255, 255, 0.78) !important;
+}
