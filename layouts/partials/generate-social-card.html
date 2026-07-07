@@ -40,38 +40,29 @@
 
 {{- with $img -}}
 
+  {{/* 
+    OG v3 Mobile-safe layout:
+    - Không overlay title nhỏ lên ảnh nữa.
+    - Facebook mobile đã có title riêng bên dưới thumbnail.
+    - Ảnh tattoo là trọng tâm: rõ, to, ít bị crop.
+    - Dùng blur background để ảnh không bị viền trống khi contain.
+  */}}
+
   {{- $bg := .Fill "1200x630 Center jpg q82" -}}
-  {{- $bg = $bg.Filter (images.GaussianBlur 18) (images.Brightness -34) -}}
+  {{- $bg = $bg.Filter (images.GaussianBlur 24) (images.Brightness -38) -}}
 
-  {{- $overlay := resources.Get "images/og/lanpink-og-v2-overlay.png" -}}
   {{- $card := $bg -}}
-  {{- with $overlay -}}
-    {{- $card = $card.Filter (images.Overlay . 0 0) -}}
-  {{- end -}}
 
-  {{- $piece := .Fit "650x610 jpg q95" -}}
-  {{- $pieceX := sub 1180 $piece.Width -}}
+  {{/* Ảnh chính: fit để giữ trọn hình nhiều nhất có thể */}}
+  {{- $piece := .Fit "1060x570 jpg q95" -}}
+  {{- $pieceX := div (sub 1200 $piece.Width) 2 -}}
   {{- $pieceY := div (sub 630 $piece.Height) 2 -}}
+
   {{- $card = $card.Filter (images.Overlay $piece $pieceX $pieceY) -}}
 
-  {{- $textBaseName := "home" -}}
-  {{- with $page.File -}}
-    {{- $textBaseName = .ContentBaseName -}}
-  {{- else -}}
-    {{- with $page.Slug -}}
-      {{- $textBaseName = . -}}
-    {{- else -}}
-      {{- $textBaseName = anchorize $page.Title -}}
-    {{- end -}}
-  {{- end -}}
-
-  {{- $textPath := printf "images/og/generated/%s-og-text.png" $textBaseName -}}
-  {{- with resources.Get $textPath -}}
+  {{/* Overlay nhận diện thương hiệu nhẹ, không phá ảnh */}}
+  {{- with resources.Get "images/og/lanpink-og-v3-frame.png" -}}
     {{- $card = $card.Filter (images.Overlay . 0 0) -}}
-  {{- else -}}
-    {{- with resources.Get "images/og/lanpink-og-v2-default-text.png" -}}
-      {{- $card = $card.Filter (images.Overlay . 0 0) -}}
-    {{- end -}}
   {{- end -}}
 
   {{- $result = dict
