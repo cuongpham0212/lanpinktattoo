@@ -698,7 +698,6 @@ body.dark-mode .lp-real-card{
 
 
 /* ===== HOME + LIST PREMIUM MOTION PATCH ===== */
-.lp-page-header,
 .lp-home-hero,
 .home-hero,
 .hero-home{
@@ -706,7 +705,6 @@ body.dark-mode .lp-real-card{
   overflow:hidden!important;
 }
 
-.lp-page-header::before,
 .lp-home-hero::before,
 .home-hero::before,
 .hero-home::before{
@@ -722,7 +720,6 @@ body.dark-mode .lp-real-card{
   animation:lpSoftGlowDrift 9s ease-in-out infinite alternate;
 }
 
-.lp-page-header > *,
 .lp-home-hero > *,
 .home-hero > *,
 .hero-home > *{
@@ -730,9 +727,6 @@ body.dark-mode .lp-real-card{
   z-index:1;
 }
 
-.lp-page-header .lp-eyebrow,
-.lp-page-header h1,
-.lp-page-header p,
 .lp-home-hero h1,
 .lp-home-hero p,
 .home-hero h1,
@@ -742,14 +736,12 @@ body.dark-mode .lp-real-card{
   animation:lpSoftFadeUp .55s ease-out both;
 }
 
-.lp-page-header h1,
 .lp-home-hero h1,
 .home-hero h1,
 .hero-home h1{
   animation-delay:.06s;
 }
 
-.lp-page-header p,
 .lp-home-hero p,
 .home-hero p,
 .hero-home p{
@@ -809,14 +801,10 @@ body.dark-mode .lp-real-card{
 }
 
 @media (prefers-reduced-motion: reduce){
-  .lp-page-header::before,
-  .lp-home-hero::before,
+    .lp-home-hero::before,
   .home-hero::before,
   .hero-home::before,
-  .lp-page-header .lp-eyebrow,
-  .lp-page-header h1,
-  .lp-page-header p,
-  .lp-home-hero h1,
+    .lp-home-hero h1,
   .lp-home-hero p,
   .home-hero h1,
   .home-hero p,

@@ -149,46 +149,6 @@ footer {
 LANPINK UI HELPERS
 ========================= */
 
-.lp-page-header {
-  position: relative;
-  overflow: hidden;
-  border-bottom: 1px solid var(--border);
-  background:
-    linear-gradient(135deg, rgba(255,255,255,.72), rgba(253,242,248,.72)),
-    radial-gradient(circle at 20% 20%, rgba(249,168,212,.42), transparent 34%);
-}
-
-html[data-theme="dark"] .lp-page-header {
-  background:
-    linear-gradient(135deg, rgba(24,24,27,.85), rgba(9,9,11,.92)),
-    radial-gradient(circle at 20% 20%, rgba(236,72,153,.18), transparent 34%);
-}
-
-.lp-page-header::after {
-  content: "";
-  position: absolute;
-  right: -80px;
-  top: -120px;
-  width: 320px;
-  height: 320px;
-  border-radius: 999px;
-  background: rgba(249,168,212,.34);
-  filter: blur(4px);
-  pointer-events: none;
-}
-
-.lp-heading {
-  color: var(--text-heading) !important;
-}
-
-.lp-muted {
-  color: var(--text-muted) !important;
-}
-
-.lp-breadcrumb {
-  color: var(--text-muted);
-}
-
 .lp-link {
   color: var(--primary-strong);
   font-weight: 650;
@@ -370,9 +330,6 @@ Theme-aware
     padding: 4rem 0;
   }
 
-  .lp-page-header {
-    border-radius: 0 0 28px 28px;
-  }
 }
 
 /* =========================
