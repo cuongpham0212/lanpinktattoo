@@ -1,7 +1,9 @@
-/* =========================
-   HEADER / MENU
-========================= */
+/* ==========================================================
+   HEADER MODULE
+   Owner: desktop header, nav links, language switch, dropdown
+   ========================================================== */
 
+/* 01. Shared typography */
 .lp-nav-link,
 .lp-mobile-nav-link,
 .lp-booking-btn,
@@ -12,40 +14,7 @@
   font-family: "Nunito", "Inter", system-ui, sans-serif;
 }
 
-/* =========================
-   LIGHT HEADER
-========================= */
-
-
-
-
-
-
-
-
-
-/* =========================
-   BOOKING BUTTON
-========================= */
-
-
-
-
-
-/* =========================
-   LANGUAGE / ICON BUTTON
-========================= */
-
-
-
-
-
-
-
-
-
-
-
+/* 02. Language switch */
 .lp-lang-switch {
   display: inline-flex;
   align-items: center;
@@ -68,10 +37,6 @@
   transform: translateY(-1px);
 }
 
-
-
-
-
 html[data-theme="dark"] .lp-lang-switch {
   color: #fbcfe8;
   background: rgba(255,255,255,.065);
@@ -87,10 +52,7 @@ html[data-theme="dark"] .lp-lang-switch:hover {
   border-color: rgba(249,168,212,.3);
 }
 
-/* =========================
-   DESKTOP DROPDOWN MENU
-========================= */
-
+/* 03. Desktop dropdown */
 .lp-nav-dropdown {
   position: relative;
   display: inline-flex;
@@ -101,6 +63,7 @@ html[data-theme="dark"] .lp-lang-switch:hover {
   position: absolute;
   top: calc(100% + 10px);
   left: 0;
+  z-index: 80;
   min-width: 260px;
   padding: 10px;
   border-radius: 18px;
@@ -111,7 +74,6 @@ html[data-theme="dark"] .lp-lang-switch:hover {
     opacity .18s ease,
     visibility .18s ease,
     transform .18s ease;
-  z-index: 80;
 }
 
 .lp-nav-dropdown:hover .lp-nav-dropdown-menu,
@@ -141,16 +103,7 @@ html[data-theme="dark"] .lp-lang-switch:hover {
   transform: translateX(2px);
 }
 
-/* Light dropdown */
-
-
-
-
-
-
-
-/* Dark dropdown */
-
+/* 04. Dark dropdown */
 html[data-theme="dark"] .lp-nav-dropdown-menu {
   background: rgba(24,22,27,.96);
   border: 1px solid rgba(249,168,212,.18);
@@ -170,66 +123,7 @@ html[data-theme="dark"] .lp-nav-dropdown-link.is-active {
   background: rgba(249,168,212,.11);
 }
 
-/* =========================
-   LIGHTHOUSE PERFORMANCE PHASE 1
-   Safe mobile-only reductions
-========================= */
-
-@media (max-width: 768px) {
-  .lanpink-promo-hero__inner::before,
-  .lanpink-promo-sticky::before,
-  .lanpink-promo-sticky::after,
-  .lanpink-promo-sticky__text::after {
-    animation: none !important;
-  }
-
-  .lanpink-promo-hero__sale,
-  .lanpink-promo-sticky {
-    animation: none !important;
-  }
-
-  .lp-header,
-  .lp-menumobile,
-  .lp-footer-card,
-  .lp-hero-main {
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-  }
-
-  .lp-btn:hover,
-  .lp-nav-link:hover,
-  .lp-menumobile-link:hover,
-  .lp-footer a:hover,
-  .lp-image-card:hover img,
-  .lp-real-card:hover img,
-  .gallery-item:hover img {
-    transform: none !important;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: .01ms !important;
-    animation-iteration-count: 1 !important;
-    scroll-behavior: auto !important;
-    transition-duration: .01ms !important;
-  }
-}
-
-
-
-/* làm menu sáng thấp hơn menu tối 1 chút để cân mắt */
-@media (min-width:1280px) {
-  
-}
-
-/* ======================================================
-   HEADER DESKTOP SPACING SYNC - DARK/LIGHT SAME WIDTH
-   Fix light mode bị giãn menu, dính logo và sát lề phải
-   ====================================================== */
-
+/* 05. Desktop spacing */
 @media (min-width: 1280px) {
   .lp-header .lp-header-shell {
     max-width: 1480px !important;
@@ -282,18 +176,3 @@ html[data-theme="dark"] .lp-nav-dropdown-link.is-active {
     height: 38px !important;
   }
 }
-
-/* xoá sự khác biệt spacing riêng của light mode */
-@media (min-width: 1280px) {
-  
-
-  
-
-  
-
-  
-}
-
-/* ======================================================
-   LIGHT HEADER GLASS EFFECT
-   ====================================================== */
