@@ -194,7 +194,6 @@ LANPINK UI HELPERS
 }
 
 
-
 /* =========================
 OVERRIDE TAILWIND NEUTRAL + ZINC
 Theme-aware
@@ -280,31 +279,6 @@ Theme-aware
 }
 
 /* Prose */
-.prose {
-  color: var(--text-muted);
-}
-
-.prose :where(h1,h2,h3,h4,h5,h6):not(:where([class~="not-prose"] *)) {
-  color: var(--text-heading);
-}
-
-.prose :where(a):not(:where([class~="not-prose"] *)) {
-  color: var(--primary-strong);
-}
-
-.prose :where(strong):not(:where([class~="not-prose"] *)) {
-  color: var(--text-heading);
-}
-
-.prose :where(code):not(:where([class~="not-prose"] *)) {
-  color: var(--primary-strong);
-}
-
-.prose :where(blockquote):not(:where([class~="not-prose"] *)) {
-  color: var(--text-muted);
-  border-left-color: var(--primary-strong);
-}
-
 /* Hero gradient overlay */
 .from-neutral-950 {
   --tw-gradient-from: var(--bg) !important;
@@ -322,7 +296,6 @@ Theme-aware
 .to-neutral-950\/20 {
   --tw-gradient-to: color-mix(in srgb, var(--bg) 40%, transparent) !important;
 }
-
 
 
 @media (max-width: 768px) {
@@ -382,11 +355,6 @@ Theme-aware
 }
 
 
-
-
-
-
-
 @media (max-width: 768px) {
   .lp-list-intro-wrap {
     padding: 1.25rem .85rem .5rem;
@@ -402,4 +370,41 @@ Theme-aware
     font-size: .92rem;
     line-height: 1.7;
   }
+}
+
+/* LP FIX 2026-07-08: list intro card readability */
+.lp-list-intro-wrap {
+  max-width: 1120px;
+  margin: 28px auto 40px;
+  padding: 0 16px;
+}
+
+.lp-list-intro-card {
+  border: 1px solid rgba(92, 174, 236, 0.22) !important;
+  border-radius: 28px !important;
+  background:
+    radial-gradient(circle at 18% 10%, rgba(255, 182, 216, 0.32), transparent 34%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.82), rgba(255, 239, 248, 0.66)) !important;
+  color: #3f2430 !important;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.56),
+    0 24px 70px rgba(190, 24, 93, 0.12) !important;
+}
+
+.lp-list-intro-content,
+.lp-list-intro-content p {
+  color: rgba(63, 36, 48, 0.86) !important;
+  opacity: 1 !important;
+}
+
+html[data-theme="dark"] .lp-list-intro-card {
+  background:
+    radial-gradient(circle at 18% 10%, rgba(236, 72, 153, 0.22), transparent 34%),
+    linear-gradient(145deg, rgba(39, 20, 31, 0.92), rgba(24, 24, 27, 0.88)) !important;
+  color: #fce7f3 !important;
+}
+
+html[data-theme="dark"] .lp-list-intro-content,
+html[data-theme="dark"] .lp-list-intro-content p {
+  color: rgba(252, 231, 243, 0.86) !important;
 }

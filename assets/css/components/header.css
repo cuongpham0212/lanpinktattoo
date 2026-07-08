@@ -123,56 +123,172 @@ html[data-theme="dark"] .lp-nav-dropdown-link.is-active {
   background: rgba(249,168,212,.11);
 }
 
-/* 05. Desktop spacing */
+/* ==========================================================
+   06. Header layout migrated from layouts/partials/header.html
+   Owner: header.css
+   ========================================================== */
+
+.lp-header .lp-header-shell {
+  width: 100%;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.lp-header .lp-header-inner {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  min-height: 66px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.lp-header .lp-brand {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  min-width: 0;
+  text-decoration: none;
+}
+
+.lp-header .lp-header-logo {
+  white-space: nowrap;
+  line-height: 1;
+  font-size: clamp(20px, 1.75vw, 28px);
+  letter-spacing: -0.04em;
+}
+
+.lp-header .lp-main-nav {
+  display: none;
+  flex: 1 1 auto;
+  min-width: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.lp-header .lp-nav-dropdown {
+  flex: 0 0 auto;
+}
+
+.lp-header .lp-nav-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 7px 9px;
+  border-radius: 999px;
+  white-space: nowrap;
+  line-height: 1.1;
+  font-size: 14px;
+  font-weight: 850;
+  transform: none !important;
+}
+
+.lp-header .lp-nav-link.is-active {
+  min-width: auto !important;
+  padding: 7px 10px !important;
+  box-shadow: 0 8px 22px rgba(219, 39, 119, .14);
+}
+
+.lp-header .lp-nav-dropdown-menu {
+  min-width: 210px;
+  z-index: 80;
+}
+
+.lp-header .lp-header-actions {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.lp-header .lp-member-app-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 999px;
+  padding: 8px 13px;
+  font-size: 13px;
+  font-weight: 900;
+  min-height: 38px;
+  box-shadow: 0 10px 24px rgba(24,24,27,.10);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.lp-header .lp-member-app-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 34px rgba(219,39,119,.18);
+}
+
+.lp-header .lp-booking-btn {
+  min-height: 38px;
+  padding: 8px 15px !important;
+  font-size: 13px !important;
+}
+
+.lp-header .lp-lang-switch {
+  min-height: 38px;
+  padding: 8px 12px;
+  white-space: nowrap;
+}
+
+.lp-header .lp-icon-btn {
+  width: 38px !important;
+  height: 38px !important;
+  flex: 0 0 auto;
+}
+
 @media (min-width: 1280px) {
-  .lp-header .lp-header-shell {
-    max-width: 1480px !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-
-  .lp-header .lp-header-inner {
-    gap: 14px !important;
-    min-height: 66px !important;
-  }
-
-  .lp-header .lp-brand {
-    flex: 0 0 auto !important;
-    margin-right: 14px !important;
-  }
-
   .lp-header .lp-main-nav {
-    flex: 1 1 auto !important;
-    min-width: 0 !important;
-    justify-content: flex-start !important;
-    gap: 2px !important;
+    display: flex;
+  }
+}
+
+@media (min-width: 1380px) {
+  .lp-header .lp-member-app-btn {
+    display: inline-flex;
   }
 
   .lp-header .lp-nav-link {
-    min-height: 38px !important;
-    padding: 7px 8px !important;
+    font-size: 14.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .lp-header .lp-nav-link {
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .lp-header .lp-member-app-btn {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .lp-header .lp-booking-btn {
     font-size: 14px !important;
-    line-height: 1.1 !important;
-    font-weight: 850 !important;
-    white-space: nowrap !important;
+    padding-left: 17px !important;
+    padding-right: 17px !important;
+  }
+}
+
+@media (max-width: 1279px) {
+  .lp-header .lp-header-inner {
+    justify-content: space-between;
   }
 
-  .lp-header .lp-header-actions {
-    flex: 0 0 auto !important;
-    gap: 7px !important;
-  }
-
-  .lp-header .lp-booking-btn,
-  .lp-header .lp-lang-switch {
-    min-height: 38px !important;
-    height: 38px !important;
-    padding: 8px 12px !important;
-    font-size: 13px !important;
-    white-space: nowrap !important;
-  }
-
-  .lp-header .lp-icon-btn {
-    width: 38px !important;
-    height: 38px !important;
+  .lp-header .lp-header-shell {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

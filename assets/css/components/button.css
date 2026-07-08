@@ -1,0 +1,518 @@
+/* ==========================================================
+   Lan Pink Tattoo - Button Design System
+   Bing-like Rect Glass
+   Owner: assets/css/components/button.css
+   ========================================================== */
+
+html[data-theme="light"]{
+  --lp-btn-primary-bg:#8f4f68;
+  --lp-btn-primary-bg-hover:#a75b78;
+  --lp-btn-primary-bg-active:#754256;
+  --lp-btn-primary-text:#fff;
+
+  --lp-btn-secondary-bg:rgba(255,255,255,.78);
+  --lp-btn-secondary-bg-hover:rgba(255,255,255,.94);
+  --lp-btn-secondary-text:#8b3f5f;
+
+  --lp-btn-blue-edge:rgba(116,174,220,.46);
+  --lp-btn-white-edge:rgba(255,255,255,.92);
+  --lp-btn-inner-edge:rgba(255,255,255,.64);
+  --lp-btn-dark-edge:rgba(95,45,66,.38);
+
+  --lp-btn-radius:9px;
+  --lp-btn-height:40px;
+  --lp-btn-padding-x:18px;
+
+  --lp-btn-shadow:
+    0 0 0 1px var(--lp-btn-blue-edge),
+    0 0 0 2px var(--lp-btn-white-edge),
+    inset 0 1px 0 rgba(255,255,255,.62),
+    inset 0 -1px 0 rgba(55,24,40,.22),
+    0 8px 18px rgba(75,38,56,.16);
+
+  --lp-btn-shadow-hover:
+    0 0 0 1px rgba(116,174,220,.66),
+    0 0 0 2px rgba(255,255,255,.98),
+    inset 0 1px 0 rgba(255,255,255,.76),
+    inset 0 -1px 0 rgba(55,24,40,.16),
+    0 10px 22px rgba(75,38,56,.20);
+
+  --lp-btn-secondary-shadow:
+    0 0 0 1px rgba(116,174,220,.42),
+    0 0 0 2px rgba(255,255,255,.92),
+    inset 0 1px 0 rgba(255,255,255,.92),
+    inset 0 -1px 0 rgba(141,83,103,.08),
+    0 7px 16px rgba(75,38,56,.10);
+}
+
+.btn,
+.lp-btn,
+.lp-primary-btn,
+.lp-booking-btn,
+.lp-article-cta__button,
+.lp-btn-primary,
+.lp-btn-secondary,
+.lp-btn-ghost,
+.lp-messenger-btn,
+.lp-menumobile-booking,
+.lanpink-promo-hero__btn,
+.lanpink-promo-sticky__btn,
+.member-lookup-cta a,
+.lpm-panel-btn,
+.lp-zalo-btn,
+.lp-instagram-btn{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:.45rem;
+  min-height:var(--lp-btn-height);
+  padding:8px var(--lp-btn-padding-x);
+  border-radius:var(--lp-btn-radius) !important;
+  font-weight:900;
+  line-height:1;
+  text-decoration:none;
+  cursor:pointer;
+  transform:translateZ(0);
+  transition:
+    background-color .16s ease,
+    box-shadow .16s ease,
+    color .16s ease,
+    transform .16s ease,
+    filter .16s ease;
+}
+
+/* Primary */
+html[data-theme="light"] .btn-primary,
+html[data-theme="light"] .lp-primary-btn,
+html[data-theme="light"] .lp-booking-btn,
+html[data-theme="light"] .lp-menumobile-booking,
+html[data-theme="light"] .lp-article-cta__button,
+html[data-theme="light"] .lp-btn-primary,
+html[data-theme="light"] .lanpink-promo-hero__btn,
+html[data-theme="light"] .lanpink-promo-sticky__btn,
+html[data-theme="light"] .member-lookup-cta a,
+html[data-theme="light"] .lpm-panel-btn,
+html[data-theme="light"] .lp-zalo-btn,
+html[data-theme="light"] .lp-instagram-btn{
+  color:var(--lp-btn-primary-text) !important;
+  background:var(--lp-btn-primary-bg) !important;
+  border:1px solid var(--lp-btn-inner-edge) !important;
+  box-shadow:var(--lp-btn-shadow) !important;
+  text-shadow:0 -1px 0 rgba(55,24,40,.20) !important;
+}
+
+/* Secondary */
+html[data-theme="light"] .btn-outline,
+html[data-theme="light"] .lp-btn-secondary,
+html[data-theme="light"] .lp-btn-ghost,
+html[data-theme="light"] .lp-messenger-btn,
+html[data-theme="light"] .lp-member-app-btn{
+  color:var(--lp-btn-secondary-text) !important;
+  background:var(--lp-btn-secondary-bg) !important;
+  border:1px solid rgba(255,255,255,.84) !important;
+  box-shadow:var(--lp-btn-secondary-shadow) !important;
+  text-shadow:none !important;
+}
+
+/* Hover */
+html[data-theme="light"] .btn-primary:hover,
+html[data-theme="light"] .lp-primary-btn:hover,
+html[data-theme="light"] .lp-booking-btn:hover,
+html[data-theme="light"] .lp-menumobile-booking:hover,
+html[data-theme="light"] .lp-article-cta__button:hover,
+html[data-theme="light"] .lp-btn-primary:hover,
+html[data-theme="light"] .lanpink-promo-hero__btn:hover,
+html[data-theme="light"] .lanpink-promo-sticky__btn:hover,
+html[data-theme="light"] .member-lookup-cta a:hover,
+html[data-theme="light"] .lpm-panel-btn:hover,
+html[data-theme="light"] .lp-zalo-btn:hover,
+html[data-theme="light"] .lp-instagram-btn:hover{
+  color:#fff !important;
+  background:var(--lp-btn-primary-bg-hover) !important;
+  box-shadow:var(--lp-btn-shadow-hover) !important;
+  filter:brightness(1.045);
+  transform:translateY(-1px);
+}
+
+html[data-theme="light"] .btn-outline:hover,
+html[data-theme="light"] .lp-btn-secondary:hover,
+html[data-theme="light"] .lp-btn-ghost:hover,
+html[data-theme="light"] .lp-messenger-btn:hover,
+html[data-theme="light"] .lp-member-app-btn:hover{
+  color:#753650 !important;
+  background:var(--lp-btn-secondary-bg-hover) !important;
+  box-shadow:
+    0 0 0 1px rgba(116,174,220,.58),
+    0 0 0 2px rgba(255,255,255,.98),
+    inset 0 1px 0 rgba(255,255,255,.96),
+    inset 0 -1px 0 rgba(141,83,103,.08),
+    0 9px 20px rgba(75,38,56,.13) !important;
+  transform:translateY(-1px);
+}
+
+/* 2 white-glass inner layers like Bing */
+html[data-theme="light"] .btn-primary::before,
+html[data-theme="light"] .lp-primary-btn::before,
+html[data-theme="light"] .lp-booking-btn::before,
+html[data-theme="light"] .lp-article-cta__button::before,
+html[data-theme="light"] .lp-btn-primary::before,
+html[data-theme="light"] .lp-btn-secondary::before,
+html[data-theme="light"] .lp-btn-ghost::before,
+html[data-theme="light"] .lp-messenger-btn::before,
+html[data-theme="light"] .lp-member-app-btn::before,
+html[data-theme="light"] .lanpink-promo-hero__btn::before,
+html[data-theme="light"] .lanpink-promo-sticky__btn::before,
+html[data-theme="light"] .member-lookup-cta a::before,
+html[data-theme="light"] .lpm-panel-btn::before,
+html[data-theme="light"] .lp-zalo-btn::before,
+html[data-theme="light"] .lp-instagram-btn::before{
+  content:"";
+  position:absolute;
+  inset:1px;
+  z-index:-1;
+  border-radius:calc(var(--lp-btn-radius) - 2px);
+  pointer-events:none;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.50), rgba(255,255,255,.10) 44%, transparent 46%),
+    linear-gradient(90deg, rgba(255,255,255,.20), transparent 26%, transparent 74%, rgba(255,255,255,.16));
+  opacity:.78;
+}
+
+html[data-theme="light"] .btn-primary::after,
+html[data-theme="light"] .lp-primary-btn::after,
+html[data-theme="light"] .lp-booking-btn::after,
+html[data-theme="light"] .lp-article-cta__button::after,
+html[data-theme="light"] .lp-btn-primary::after,
+html[data-theme="light"] .lp-btn-secondary::after,
+html[data-theme="light"] .lp-btn-ghost::after,
+html[data-theme="light"] .lp-messenger-btn::after,
+html[data-theme="light"] .lp-member-app-btn::after,
+html[data-theme="light"] .lanpink-promo-hero__btn::after,
+html[data-theme="light"] .lanpink-promo-sticky__btn::after,
+html[data-theme="light"] .member-lookup-cta a::after,
+html[data-theme="light"] .lpm-panel-btn::after,
+html[data-theme="light"] .lp-zalo-btn::after,
+html[data-theme="light"] .lp-instagram-btn::after{
+  content:"";
+  position:absolute;
+  left:7px;
+  right:7px;
+  top:2px;
+  height:1px;
+  border-radius:999px;
+  background:rgba(255,255,255,.88);
+  opacity:.86;
+  pointer-events:none;
+}
+
+/* Header compact */
+.lp-header .lp-booking-btn,
+.lp-header .lp-member-app-btn{
+  min-height:38px;
+  padding-inline:16px;
+  border-radius:9px !important;
+}
+
+/* Home hero buttons */
+.lp-home .lp-btn{
+  min-height:40px;
+  padding-inline:18px;
+  border-radius:9px !important;
+}
+
+/* Calendar arrow buttons */
+html[data-theme="light"] .lp-calendar-head button{
+  border-radius:9px !important;
+  color:var(--lp-btn-secondary-text) !important;
+  background:var(--lp-btn-secondary-bg) !important;
+  border:1px solid rgba(255,255,255,.84) !important;
+  box-shadow:var(--lp-btn-secondary-shadow) !important;
+}
+
+html[data-theme="light"] .lp-calendar-head button:hover{
+  background:var(--lp-btn-secondary-bg-hover) !important;
+  transform:translateY(-1px);
+}
+
+/* Icon buttons stay round */
+.lp-icon-btn,
+.lp-menumobile-toggle{
+  border-radius:999px !important;
+}
+
+@media(prefers-reduced-motion:reduce){
+  .btn,
+  .lp-btn,
+  .lp-primary-btn,
+  .lp-booking-btn,
+  .lp-article-cta__button,
+  .lp-btn-primary,
+  .lp-btn-secondary,
+  .lp-btn-ghost,
+  .lp-messenger-btn,
+  .lp-menumobile-booking,
+  .lanpink-promo-hero__btn,
+  .lanpink-promo-sticky__btn,
+  .member-lookup-cta a,
+  .lpm-panel-btn,
+  .lp-zalo-btn,
+  .lp-instagram-btn{
+    transition:none;
+  }
+}
+
+/* ===== Final override: force Bing-like button geometry ===== */
+html[data-theme="light"] .btn,
+html[data-theme="light"] .lp-btn,
+html[data-theme="light"] .lp-primary-btn,
+html[data-theme="light"] .lp-booking-btn,
+html[data-theme="light"] .lp-menumobile-booking,
+html[data-theme="light"] .lp-article-cta__button,
+html[data-theme="light"] .lp-btn-primary,
+html[data-theme="light"] .lp-btn-secondary,
+html[data-theme="light"] .lp-btn-ghost,
+html[data-theme="light"] .lp-messenger-btn,
+html[data-theme="light"] .lp-menumobile-booking,
+html[data-theme="light"] .lanpink-promo-hero__btn,
+html[data-theme="light"] .lanpink-promo-sticky__btn,
+html[data-theme="light"] .member-lookup-cta a,
+html[data-theme="light"] .lpm-panel-btn,
+html[data-theme="light"] .lp-zalo-btn,
+html[data-theme="light"] .lp-instagram-btn{
+  border-radius:8px !important;
+  min-height:39px !important;
+  padding:8px 17px !important;
+}
+
+html[data-theme="light"] .btn-primary,
+html[data-theme="light"] .lp-primary-btn,
+html[data-theme="light"] .lp-booking-btn,
+html[data-theme="light"] .lp-menumobile-booking,
+html[data-theme="light"] .lp-article-cta__button,
+html[data-theme="light"] .lp-btn-primary,
+html[data-theme="light"] .lanpink-promo-hero__btn,
+html[data-theme="light"] .lanpink-promo-sticky__btn,
+html[data-theme="light"] .member-lookup-cta a,
+html[data-theme="light"] .lpm-panel-btn,
+html[data-theme="light"] .lp-zalo-btn,
+html[data-theme="light"] .lp-instagram-btn{
+  background:#95556e !important;
+  border:1px solid rgba(255,255,255,.88) !important;
+  box-shadow:
+    0 0 0 1px rgba(96,166,214,.58),
+    0 0 0 2px rgba(255,255,255,.98),
+    inset 0 1px 0 rgba(255,255,255,.70),
+    inset 0 -1px 0 rgba(66,28,45,.20),
+    0 9px 18px rgba(80,38,58,.18) !important;
+}
+
+html[data-theme="light"] .btn-outline,
+html[data-theme="light"] .lp-btn-secondary,
+html[data-theme="light"] .lp-btn-ghost,
+html[data-theme="light"] .lp-messenger-btn,
+html[data-theme="light"] .lp-member-app-btn{
+  background:rgba(255,255,255,.84) !important;
+  border:1px solid rgba(255,255,255,.90) !important;
+  box-shadow:
+    0 0 0 1px rgba(96,166,214,.48),
+    0 0 0 2px rgba(255,255,255,.96),
+    inset 0 1px 0 rgba(255,255,255,.95),
+    inset 0 -1px 0 rgba(141,83,103,.08),
+    0 8px 16px rgba(80,38,58,.10) !important;
+}
+
+html[data-theme="light"] .btn-primary:hover,
+html[data-theme="light"] .lp-primary-btn:hover,
+html[data-theme="light"] .lp-booking-btn:hover,
+html[data-theme="light"] .lp-menumobile-booking:hover,
+html[data-theme="light"] .lp-article-cta__button:hover,
+html[data-theme="light"] .lp-btn-primary:hover,
+html[data-theme="light"] .lanpink-promo-hero__btn:hover,
+html[data-theme="light"] .lanpink-promo-sticky__btn:hover,
+html[data-theme="light"] .member-lookup-cta a:hover,
+html[data-theme="light"] .lpm-panel-btn:hover,
+html[data-theme="light"] .lp-zalo-btn:hover,
+html[data-theme="light"] .lp-instagram-btn:hover{
+  background:#aa617c !important;
+  box-shadow:
+    0 0 0 1px rgba(96,166,214,.72),
+    0 0 0 2px rgba(255,255,255,1),
+    inset 0 1px 0 rgba(255,255,255,.82),
+    inset 0 -1px 0 rgba(66,28,45,.15),
+    0 11px 22px rgba(80,38,58,.22) !important;
+}
+
+html[data-theme="light"] .btn::before,
+html[data-theme="light"] .lp-btn::before,
+html[data-theme="light"] .lp-primary-btn::before,
+html[data-theme="light"] .lp-booking-btn::before,
+html[data-theme="light"] .lp-article-cta__button::before,
+html[data-theme="light"] .lp-btn-primary::before,
+html[data-theme="light"] .lp-btn-secondary::before,
+html[data-theme="light"] .lp-btn-ghost::before,
+html[data-theme="light"] .lp-messenger-btn::before,
+html[data-theme="light"] .lp-member-app-btn::before,
+html[data-theme="light"] .lanpink-promo-hero__btn::before,
+html[data-theme="light"] .lanpink-promo-sticky__btn::before,
+html[data-theme="light"] .member-lookup-cta a::before,
+html[data-theme="light"] .lpm-panel-btn::before,
+html[data-theme="light"] .lp-zalo-btn::before,
+html[data-theme="light"] .lp-instagram-btn::before{
+  border-radius:6px !important;
+}
+
+/* ===== Final color tune: Luxury Rose Glass ===== */
+html[data-theme="light"]{
+  --lp-btn-primary-bg:rgba(232,124,178,.68);
+  --lp-btn-primary-bg-hover:rgba(240,143,193,.82);
+  --lp-btn-primary-bg-active:rgba(216,102,163,.78);
+
+  --lp-btn-secondary-bg:rgba(255,255,255,.58);
+  --lp-btn-secondary-bg-hover:rgba(255,255,255,.76);
+
+  --lp-btn-blue-edge:rgba(92,174,236,.74);
+  --lp-btn-white-edge:rgba(255,255,255,.98);
+  --lp-btn-inner-edge:rgba(255,255,255,.86);
+}
+
+html[data-theme="light"] .btn-primary,
+html[data-theme="light"] .lp-primary-btn,
+html[data-theme="light"] .lp-booking-btn,
+html[data-theme="light"] .lp-menumobile-booking,
+html[data-theme="light"] .lp-article-cta__button,
+html[data-theme="light"] .lp-btn-primary,
+html[data-theme="light"] .lanpink-promo-hero__btn,
+html[data-theme="light"] .lanpink-promo-sticky__btn,
+html[data-theme="light"] .member-lookup-cta a,
+html[data-theme="light"] .lpm-panel-btn,
+html[data-theme="light"] .lp-zalo-btn,
+html[data-theme="light"] .lp-instagram-btn{
+  color:#fff !important;
+  background:
+    linear-gradient(180deg, rgba(255,182,216,.72), rgba(226,106,168,.66)) !important;
+  border:1px solid rgba(255,255,255,.90) !important;
+  box-shadow:
+    0 0 0 1px rgba(92,174,236,.78),
+    0 0 0 2px rgba(255,255,255,.98),
+    inset 0 1px 0 rgba(255,255,255,.88),
+    inset 0 -1px 0 rgba(255,255,255,.18),
+    0 7px 16px rgba(232,124,178,.16) !important;
+  text-shadow:0 1px 1px rgba(136,54,99,.22) !important;
+  backdrop-filter:blur(16px) saturate(1.18);
+  -webkit-backdrop-filter:blur(16px) saturate(1.18);
+}
+
+html[data-theme="light"] .btn-outline,
+html[data-theme="light"] .lp-btn-secondary,
+html[data-theme="light"] .lp-btn-ghost,
+html[data-theme="light"] .lp-messenger-btn,
+html[data-theme="light"] .lp-member-app-btn{
+  color:#b74078 !important;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.72), rgba(255,239,248,.48)) !important;
+  border:1px solid rgba(255,255,255,.92) !important;
+  box-shadow:
+    0 0 0 1px rgba(92,174,236,.64),
+    0 0 0 2px rgba(255,255,255,.98),
+    inset 0 1px 0 rgba(255,255,255,.96),
+    inset 0 -1px 0 rgba(232,124,178,.10),
+    0 7px 16px rgba(92,174,236,.08) !important;
+  backdrop-filter:blur(16px) saturate(1.16);
+  -webkit-backdrop-filter:blur(16px) saturate(1.16);
+}
+
+html[data-theme="light"] .btn-primary:hover,
+html[data-theme="light"] .lp-primary-btn:hover,
+html[data-theme="light"] .lp-booking-btn:hover,
+html[data-theme="light"] .lp-menumobile-booking:hover,
+html[data-theme="light"] .lp-article-cta__button:hover,
+html[data-theme="light"] .lp-btn-primary:hover,
+html[data-theme="light"] .lanpink-promo-hero__btn:hover,
+html[data-theme="light"] .lanpink-promo-sticky__btn:hover,
+html[data-theme="light"] .member-lookup-cta a:hover,
+html[data-theme="light"] .lpm-panel-btn:hover,
+html[data-theme="light"] .lp-zalo-btn:hover,
+html[data-theme="light"] .lp-instagram-btn:hover{
+  background:
+    linear-gradient(180deg, rgba(255,197,226,.86), rgba(237,124,181,.78)) !important;
+  box-shadow:
+    0 0 0 1px rgba(92,174,236,.92),
+    0 0 0 2px rgba(255,255,255,1),
+    inset 0 1px 0 rgba(255,255,255,.96),
+    inset 0 -1px 0 rgba(255,255,255,.16),
+    0 9px 20px rgba(232,124,178,.22) !important;
+  filter:brightness(1.035) saturate(1.06);
+}
+
+html[data-theme="light"] .btn-outline:hover,
+html[data-theme="light"] .lp-btn-secondary:hover,
+html[data-theme="light"] .lp-btn-ghost:hover,
+html[data-theme="light"] .lp-messenger-btn:hover,
+html[data-theme="light"] .lp-member-app-btn:hover{
+  color:#a72f68 !important;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.86), rgba(255,236,248,.64)) !important;
+  box-shadow:
+    0 0 0 1px rgba(92,174,236,.82),
+    0 0 0 2px rgba(255,255,255,1),
+    inset 0 1px 0 rgba(255,255,255,1),
+    inset 0 -1px 0 rgba(232,124,178,.10),
+    0 9px 20px rgba(92,174,236,.11) !important;
+}
+
+/* Keep Bing-like rectangular shape after color tune */
+html[data-theme="light"] .btn,
+html[data-theme="light"] .lp-btn,
+html[data-theme="light"] .lp-primary-btn,
+html[data-theme="light"] .lp-booking-btn,
+html[data-theme="light"] .lp-menumobile-booking,
+html[data-theme="light"] .lp-article-cta__button,
+html[data-theme="light"] .lp-btn-primary,
+html[data-theme="light"] .lp-btn-secondary,
+html[data-theme="light"] .lp-btn-ghost,
+html[data-theme="light"] .lp-messenger-btn,
+html[data-theme="light"] .lp-menumobile-booking,
+html[data-theme="light"] .lanpink-promo-hero__btn,
+html[data-theme="light"] .lanpink-promo-sticky__btn,
+html[data-theme="light"] .member-lookup-cta a,
+html[data-theme="light"] .lpm-panel-btn,
+html[data-theme="light"] .lp-zalo-btn,
+html[data-theme="light"] .lp-instagram-btn{
+  border-radius:8px !important;
+}
+
+/* ===== Final button text contrast tune ===== */
+html[data-theme="light"] .btn-primary,
+html[data-theme="light"] .lp-primary-btn,
+html[data-theme="light"] .lp-booking-btn,
+html[data-theme="light"] .lp-menumobile-booking,
+html[data-theme="light"] .lp-article-cta__button,
+html[data-theme="light"] .lp-btn-primary,
+html[data-theme="light"] .lanpink-promo-hero__btn,
+html[data-theme="light"] .lanpink-promo-sticky__btn,
+html[data-theme="light"] .member-lookup-cta a,
+html[data-theme="light"] .lpm-panel-btn,
+html[data-theme="light"] .lp-zalo-btn,
+html[data-theme="light"] .lp-instagram-btn{
+  color:#6f2347 !important;
+  text-shadow:0 1px 0 rgba(255,255,255,.42) !important;
+}
+
+html[data-theme="light"] .btn-primary:hover,
+html[data-theme="light"] .lp-primary-btn:hover,
+html[data-theme="light"] .lp-booking-btn:hover,
+html[data-theme="light"] .lp-menumobile-booking:hover,
+html[data-theme="light"] .lp-article-cta__button:hover,
+html[data-theme="light"] .lp-btn-primary:hover,
+html[data-theme="light"] .lanpink-promo-hero__btn:hover,
+html[data-theme="light"] .lanpink-promo-sticky__btn:hover,
+html[data-theme="light"] .member-lookup-cta a:hover,
+html[data-theme="light"] .lpm-panel-btn:hover,
+html[data-theme="light"] .lp-zalo-btn:hover,
+html[data-theme="light"] .lp-instagram-btn:hover{
+  color:#5b1738 !important;
+  text-shadow:0 1px 0 rgba(255,255,255,.50) !important;
+}

@@ -2,6 +2,14 @@
 
 <main class="lp-home">
 
+  {{ if eq .Site.Language.Lang "vi" }}
+  <section class="lp-mobile-hero-bar lp-mobile-hero-bar--studio" aria-label="Lan Pink Tattoo mobile studio bar">
+    <a class="lp-mobile-hero-brand" href="{{ relLangURL "" }}">
+      Lan Pink Tattoo
+    </a>
+    <span class="lp-mobile-hero-tag">Thợ xăm nữ</span>
+  </section>
+  {{ else }}
   <section class="lp-mobile-hero-bar" aria-label="Lan Pink Tattoo mobile booking bar">
     <a class="lp-mobile-hero-brand" href="{{ relLangURL "" }}">
       Lan Pink Tattoo
@@ -11,6 +19,56 @@
     </a>
   </section>
 
+  {{ end }}
+
+  {{ if eq .Site.Language.Lang "vi" }}
+  <section class="lp-home-hero lp-home-hero--studio-mobile" aria-label="Lan Pink Tattoo hero mobile">
+    <div class="lp-home-container">
+      <div class="lp-hero-compact lp-hero-compact--studio">
+        <div class="lp-hero-main lp-hero-main--studio">
+          <p class="lp-eyebrow lp-eyebrow--studio">
+            <span>Thợ xăm nữ</span>
+            <span>Studio riêng tư</span>
+          </p>
+
+          <h1>Lan Pink Tattoo</h1>
+
+          <p class="lp-hero-lead">
+            Thiết kế hình xăm riêng tư cho từng khách hàng.
+          </p>
+
+          <p class="lp-hero-text">
+            Không gian yên tĩnh tại Quận 12, tư vấn 1:1 cùng thợ xăm nữ để mỗi hình xăm có câu chuyện riêng.
+          </p>
+
+          <div class="lp-hero-actions">
+            <a class="lp-btn lp-btn-primary" href="{{ relLangURL "contact/" }}">
+              Đặt lịch tư vấn
+            </a>
+            <a class="lp-btn lp-btn-ghost" href="{{ relLangURL "tac-pham/" }}">
+              Xem tác phẩm
+            </a>
+          </div>
+        </div>
+
+        <div class="lp-hero-mini-info lp-hero-mini-info--studio">
+          <div>
+            <strong>1:1</strong>
+            <span>Tư vấn riêng</span>
+          </div>
+          <div>
+            <strong>Q12</strong>
+            <span>TP.HCM</span>
+          </div>
+          <div>
+            <strong>Custom</strong>
+            <span>Không xăm đại trà</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ else }}
   <section class="lp-home-hero">
     <div class="lp-home-container">
       <div class="lp-hero-compact">
@@ -55,12 +113,14 @@
     </div>
   </section>
 
+  {{ end }}
+
   {{ partial "promo-hero.html" . }}
 
   <section class="lp-mobile-work-strip">
     <div class="lp-mobile-section-head">
-      <p>{{ if eq .Language.Lang "vi" }}TÁC PHẨM MỚI{{ else }}NEW WORKS{{ end }}</p>
-      <h2>{{ if eq .Language.Lang "vi" }}Hình xăm tại Lan Pink{{ else }}Tattoo works by Lan Pink{{ end }}</h2>
+      <p>{{ if eq .Language.Lang "vi" }}TÁC PHẨM THỰC TẾ{{ else }}NEW WORKS{{ end }}</p>
+      <h2>{{ if eq .Language.Lang "vi" }}Những hình xăm vừa hoàn thành tại Lan Pink{{ else }}Tattoo works by Lan Pink{{ end }}</h2>
     </div>
 
     <div class="lp-mobile-two-grid lp-work-marquee-track lp-work-marquee-track--mobile">
@@ -104,26 +164,6 @@
       </p>
     {{ end }}
   </section>
-
-  <section class="lp-mobile-gallery-strip">
-    <div class="lp-mobile-section-head">
-      <p>{{ if eq .Language.Lang "vi" }}MẪU HÌNH XĂM{{ else }}TATTOO IDEAS{{ end }}</p>
-      <h2>{{ if eq .Language.Lang "vi" }}Gallery ý tưởng mới{{ else }}New tattoo design gallery{{ end }}</h2>
-    </div>
-
-    <div class="lp-mobile-two-grid">
-      {{ $gallerySection := cond (eq .Site.Language.Lang "vi") "mau-hinh-xam-dep" "tattoo-designs" }}
-      {{ range first 12 ((where site.RegularPages "Section" $gallerySection).ByDate.Reverse) }}
-        <a class="lp-mobile-photo-card" href="{{ .RelPermalink }}">
-          {{ with .Params.image }}
-            <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" decoding="async">
-          {{ end }}
-          <span>{{ .Title }}</span>
-        </a>
-      {{ end }}
-    </div>
-  </section>
-
 
   <section class="lp-real-work-row">
     <div class="lp-home-container">

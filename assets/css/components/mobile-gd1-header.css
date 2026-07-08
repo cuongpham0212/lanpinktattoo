@@ -1,0 +1,290 @@
+/* =========================================================
+   Lan Pink Mobile GĐ1 - Header + Menu Mobile Stabilizer
+   Scope: header + mobile menu only
+   ========================================================= */
+
+/* Chống tràn ngang toàn site do header/menu */
+html,
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+@supports not (overflow-x: clip) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* Header container mềm hơn trên mobile/tablet */
+@media (max-width: 1279px) {
+  .lp-header {
+    max-width: 100%;
+  }
+
+  .lp-header .lp-header-inner {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0 !important;
+    padding-left: clamp(12px, 4vw, 20px) !important;
+    padding-right: clamp(12px, 4vw, 20px) !important;
+  }
+
+  .lp-header .lp-brand {
+    min-width: 0 !important;
+    max-width: min(64vw, 260px) !important;
+  }
+
+  .lp-header .lp-header-logo {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .lp-desktop-nav,
+  .desktop-nav,
+  nav[aria-label="Main navigation"] {
+    min-width: 0 !important;
+  }
+}
+
+/* Mobile chuẩn */
+@media (max-width: 768px) {
+  .lp-header {
+    position: sticky;
+    top: 0;
+    z-index: 80;
+    width: 100%;
+  }
+
+  .lp-header .lp-header-inner {
+    min-height: 58px;
+    gap: 10px !important;
+  }
+
+  .lp-header .lp-brand {
+    flex: 1 1 auto;
+    min-width: 0 !important;
+    max-width: calc(100vw - 112px) !important;
+  }
+
+  .lp-logo span,
+  .site-logo span,
+  .brand span,
+  .navbar-brand span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .lp-mobile-toggle,
+  .mobile-menu-toggle,
+  .hamburger,
+  button[aria-label*="menu" i],
+  button[aria-controls*="menu" i] {
+    flex: 0 0 auto;
+    width: 42px !important;
+    height: 42px !important;
+    min-width: 42px !important;
+    min-height: 42px !important;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    touch-action: manipulation;
+  }
+
+  .lp-mobile-menu,
+  .mobile-menu,
+  .mobile-nav,
+  .lp-menu-mobile {
+    width: min(100vw - 24px, 360px) !important;
+    max-width: calc(100vw - 24px) !important;
+    min-width: 0 !important;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .lp-mobile-menu *,
+  .mobile-menu *,
+  .mobile-nav *,
+  .lp-menu-mobile * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .lp-mobile-menu a,
+  .mobile-menu a,
+  .mobile-nav a,
+  .lp-menu-mobile a {
+    min-height: 44px;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    line-height: 1.25;
+  }
+
+  .lp-mobile-menu ul,
+  .mobile-menu ul,
+  .mobile-nav ul,
+  .lp-menu-mobile ul {
+    width: 100%;
+    min-width: 0 !important;
+  }
+
+  .lp-mobile-menu li,
+  .mobile-menu li,
+  .mobile-nav li,
+  .lp-menu-mobile li {
+    min-width: 0 !important;
+  }
+}
+
+/* Màn rất nhỏ: iPhone SE / Android nhỏ */
+@media (max-width: 390px) {
+  .lp-header .lp-header-inner {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    gap: 8px !important;
+  }
+
+  .lp-header .lp-brand {
+    max-width: calc(100vw - 100px) !important;
+  }
+
+  .lp-mobile-menu,
+  .mobile-menu,
+  .mobile-nav,
+  .lp-menu-mobile {
+    width: calc(100vw - 18px) !important;
+    max-width: calc(100vw - 18px) !important;
+  }
+}
+
+/* GĐ1 final: mobile header chỉ giữ logo + theme + menu */
+@media (max-width: 768px) {
+  .lp-header .lp-booking-btn,
+  .lp-header .lp-header-lang-outside {
+    display: none !important;
+  }
+
+  .lp-header .lp-brand {
+    max-width: calc(100vw - 110px) !important;
+  }
+
+  .lp-header .lp-header-logo {
+    font-size: clamp(18px, 5vw, 22px) !important;
+  }
+
+  .lp-header .lp-header-inner {
+    justify-content: space-between !important;
+  }
+
+  .lp-header .lp-header-actions {
+    margin-left: auto !important;
+  }
+}
+
+/* GĐ1 adjust: giữ language trên mobile, chỉ ẩn nút đặt lịch ngoài header */
+@media (max-width: 768px) {
+  .lp-header .lp-booking-btn {
+    display: none !important;
+  }
+
+  .lp-header .lp-header-lang-outside {
+    display: block !important;
+  }
+
+  .lp-header .lp-lang-switch {
+    display: inline-flex !important;
+    width: 38px !important;
+    height: 34px !important;
+    min-height: 34px !important;
+    padding: 0 !important;
+    justify-content: center !important;
+    gap: 0 !important;
+    font-size: 12px !important;
+  }
+
+  .lp-header .lp-lang-icon {
+    display: none !important;
+  }
+
+  .lp-header .lp-lang-full {
+    display: none !important;
+  }
+
+  .lp-header .lp-lang-short {
+    display: inline !important;
+    font-weight: 950 !important;
+  }
+
+  .lp-header .lp-brand {
+    max-width: calc(100vw - 170px) !important;
+  }
+}
+
+/* GĐ1: ẩn mobile hero bar cũ trên homepage vì trùng header */
+@media (max-width: 768px) {
+  .lp-mobile-hero-bar {
+    display: none !important;
+  }
+}
+
+/* GĐ1 polish: language switch nổi bật hơn trên mobile */
+@media (max-width: 768px) {
+  .lp-header .lp-lang-switch {
+    width: auto !important;
+    min-width: 54px !important;
+    height: 34px !important;
+    padding: 0 9px !important;
+    gap: 4px !important;
+    border-radius: 999px !important;
+    color: #be185d !important;
+    background:
+      linear-gradient(180deg, rgba(255,255,255,.94), rgba(255,228,240,.88)) !important;
+    border: 1px solid rgba(56, 189, 248, .72) !important;
+    box-shadow:
+      0 0 0 1px rgba(255,255,255,.95) inset,
+      0 0 0 2px rgba(56,189,248,.18),
+      0 8px 18px rgba(236,72,153,.16) !important;
+    animation: lpLangGlow 2.8s ease-in-out infinite;
+  }
+
+  .lp-header .lp-lang-icon {
+    display: inline !important;
+    font-size: 12px !important;
+    line-height: 1 !important;
+  }
+
+  .lp-header .lp-lang-short {
+    display: inline !important;
+    font-size: 12px !important;
+    font-weight: 950 !important;
+    letter-spacing: .02em !important;
+  }
+
+  .lp-header .lp-lang-full {
+    display: none !important;
+  }
+}
+
+@keyframes lpLangGlow {
+  0%, 100% {
+    box-shadow:
+      0 0 0 1px rgba(255,255,255,.95) inset,
+      0 0 0 2px rgba(56,189,248,.16),
+      0 8px 18px rgba(236,72,153,.14);
+  }
+  50% {
+    box-shadow:
+      0 0 0 1px rgba(255,255,255,1) inset,
+      0 0 0 3px rgba(56,189,248,.34),
+      0 10px 24px rgba(236,72,153,.22);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lp-header .lp-lang-switch {
+    animation: none !important;
+  }
+}

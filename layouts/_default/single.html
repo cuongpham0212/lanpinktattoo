@@ -1,19 +1,15 @@
 {{ define "main" }}
 
-
-
-
-
-<article class="lp-single-page" itemscope itemtype="https://schema.org/Article">
+<article class="lp-single-page section-{{ .Section }}" itemscope itemtype="https://schema.org/Article">
 
   {{ partial "hero.html" . }}
 
-  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
-    <div class="lp-article-shell rounded-[2rem] bg-white/80 p-5 shadow-xl shadow-pink-500/10 ring-1 ring-pink-200/60 backdrop-blur md:p-8 lg:p-10">
+  <div class="lp-single-wrap">
+      <div class="lp-article-shell">
 
-      {{ if and .TableOfContents (ne .Params.show_toc false) (ne .Params.hide_toc true) }}
+      {{ if and .TableOfContents (ne .Params.show_toc false) (ne .Params.hide_toc true) (not (in (slice "mau-hinh-xam-dep" "tattoo-designs") .Section)) }}
 
-      <details class="lp-toc lp-toc-desktop group mb-8 rounded-3xl border border-pink-200/70 bg-white/75 p-4 shadow-lg shadow-pink-500/10 backdrop-blur md:p-5" open>
+      <details class="lp-toc lp-toc-desktop group" open>
         <summary class="flex cursor-pointer list-none items-center justify-between gap-4">
           <div>
             <p class="text-xs font-black uppercase tracking-[0.22em] text-pink-500">
@@ -31,147 +27,12 @@
           </span>
         </summary>
 
-        <div class="mt-4 border-t border-pink-100 pt-4">
+        <div class="lp-toc-inner">
           <div class="lp-toc-content">
             {{ .TableOfContents }}
           </div>
         </div>
       </details>
-
-      
-<style>
-/* ===== LAN PINK INLINE MOBILE TOC GLASS ===== */
-@media (max-width: 768px) {
-  article.lp-single-page,
-  article.lp-single-page .lp-article-shell,
-  article.lp-single-page .lp-content,
-  article.lp-single-page .prose {
-    overflow: visible !important;
-    transform: none !important;
-    contain: none !important;
-  }
-
-  article.lp-single-page .lp-mobile-toc {
-    display: block !important;
-    position: sticky !important;
-    top: 90px !important;
-    z-index: 99999 !important;
-    margin: 0 0 22px !important;
-    padding: 8px 0 !important;
-    background: transparent !important;
-    pointer-events: none !important;
-  }
-
-  article.lp-single-page .lp-mobile-toc-details,
-  article.lp-single-page .lp-mobile-toc-button,
-  article.lp-single-page .lp-mobile-toc-panel,
-  article.lp-single-page .lp-mobile-toc a {
-    pointer-events: auto !important;
-  }
-
-  article.lp-single-page .lp-mobile-toc-button {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    min-height: 48px !important;
-    padding: .72rem 1rem !important;
-    border-radius: 999px !important;
-    list-style: none !important;
-    cursor: pointer !important;
-
-    color: #9d174d !important;
-    font-weight: 950 !important;
-
-    background: rgba(255,255,255,.12) !important;
-    border: 1px solid rgba(255,255,255,.68) !important;
-
-    box-shadow:
-      0 12px 34px rgba(236,72,153,.10),
-      inset 0 1px 0 rgba(255,255,255,.92),
-      inset 0 -1px 0 rgba(255,255,255,.22) !important;
-
-    backdrop-filter: blur(32px) saturate(1.9) !important;
-    -webkit-backdrop-filter: blur(32px) saturate(1.9) !important;
-  }
-
-  article.lp-single-page .lp-mobile-toc-button::-webkit-details-marker {
-    display: none !important;
-  }
-
-  article.lp-single-page .lp-mobile-toc-button * {
-    color: inherit !important;
-    opacity: 1 !important;
-  }
-
-  article.lp-single-page .lp-mobile-toc-panel {
-    margin-top: 10px !important;
-    max-height: 56vh !important;
-    overflow-y: auto !important;
-    border-radius: 22px !important;
-    padding: .75rem !important;
-
-    background: rgba(255,255,255,.18) !important;
-    border: 1px solid rgba(255,255,255,.62) !important;
-
-    box-shadow:
-      0 18px 48px rgba(236,72,153,.12),
-      inset 0 1px 0 rgba(255,255,255,.86) !important;
-
-    backdrop-filter: blur(34px) saturate(1.8) !important;
-    -webkit-backdrop-filter: blur(34px) saturate(1.8) !important;
-  }
-
-  html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-button {
-    color: #fbcfe8 !important;
-    background: rgba(255,255,255,.07) !important;
-    border-color: rgba(255,255,255,.18) !important;
-  }
-
-  html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-panel {
-    background: rgba(255,255,255,.065) !important;
-    border-color: rgba(255,255,255,.16) !important;
-  }
-}
-
-/* DARK FIX: TOC desktop + mobile */
-html[data-theme="dark"] article.lp-single-page .lp-toc,
-html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-panel {
-  background: rgba(18, 15, 22, .94) !important;
-  color: #fff7fb !important;
-  border-color: rgba(255, 138, 199, .28) !important;
-}
-
-html[data-theme="dark"] article.lp-single-page .lp-toc *,
-html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-panel * {
-  color: #fff7fb !important;
-}
-
-html[data-theme="dark"] article.lp-single-page .lp-toc a,
-html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-panel a {
-  color: #ffe4f2 !important;
-}
-
-html[data-theme="dark"] article.lp-single-page .lp-toc a:hover,
-html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-panel a:hover {
-  color: #ff8ac7 !important;
-}
-
-html[data-theme="dark"] article.lp-single-page .lp-toc-toggle-text,
-html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-button {
-  background: #ffe4f2 !important;
-  color: #4a102c !important;
-  -webkit-text-fill-color: #4a102c !important;
-  border: 1px solid rgba(255, 138, 199, .35) !important;
-}
-
-html[data-theme="dark"] article.lp-single-page .lp-toc-toggle-text *,
-html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-button * {
-  color: #4a102c !important;
-  -webkit-text-fill-color: #4a102c !important;
-}
-
-</style>
-
 <div class="lp-mobile-toc">
         <details class="lp-mobile-toc-details">
           <summary class="lp-mobile-toc-button">
@@ -189,8 +50,9 @@ html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-button * {
 
       {{ end }}
 
-      <div class="lp-content" itemprop="articleBody" style="max-width: none;">
+      <div class="lp-content" itemprop="articleBody">
         {{ .Content }}
+        {{ partial "gallery-readmore.html" . }}
       </div>
       {{ partial "artwork-info.html" . }}
       {{ partial "google-review-card.html" . }}
@@ -326,6 +188,9 @@ html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-button * {
       }
     });
   </script>
+
+
+
 
 </article>
 {{ end }}

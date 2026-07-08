@@ -1,0 +1,26 @@
+.lp-gallery-hidden-content[hidden] {
+  display: none;
+}
+
+.lp-gallery-xem-tiep-wrap {
+  margin: 18px 0 28px;
+  text-align: center;
+}
+
+.lp-gallery-xem-tiep {
+  display: inline-block;
+  border: 0;
+  background: none;
+  color: #db2777;
+  font-weight: 800;
+  cursor: pointer;
+  padding: 8px 4px;
+}
+
+.lp-gallery-xem-tiep:hover {
+  text-decoration: underline;
+}
+
+.lp-gallery-xem-tiep.is-open {
+  display: none;
+}
