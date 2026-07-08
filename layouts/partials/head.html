@@ -109,7 +109,10 @@
   "css/custom.css"
   "css/contact.css"
   "css/gallery.css"
+  "css/components/gallery-readmore.css"
   "css/components/components.css"
+  "css/components/button.css"
+  "css/components/member-widget.css"
   "css/components/article-images.css"
   "css/components/hero.css"
   "css/components/home.css"
@@ -118,9 +121,12 @@
   "css/components/portfolio.css"
   "css/components/header.css"
   "css/components/menumobile.css"
+  "css/components/mobile-gd1-header.css"
   "css/components/footer.css"
   "css/components/toc.css"
   "css/components/article.css"
+  "css/components/google-review-card.css"
+  "css/components/performance.css"
   "css/theme/light.css"
   "css/theme/dark.css"
 }}
@@ -218,4 +224,9 @@ function gtag() { dataLayer.push(arguments); }
 gtag('js', new Date());
 gtag('config', 'G-YHDTF0NDK7');
 </script>
+{{ end }}
+
+{{ if in (slice "mau-hinh-xam-dep" "tattoo-designs") .Section }}
+  {{ $galleryReadmoreJS := resources.Get "js/gallery-readmore.js" | js.Build | minify | fingerprint }}
+  <script defer src="{{ $galleryReadmoreJS.RelPermalink }}" integrity="{{ $galleryReadmoreJS.Data.Integrity }}"></script>
 {{ end }}

@@ -2,227 +2,815 @@
    HERO MODULE
    Owner: generic hero, article hero, list page header
    Promo hero stays in promo-hero.css / promo-sticky.css
+   Homepage hero stays in components/home.css
    ========================================================== */
 
-/* 01. Generic hero */
-.hero {
-  position: relative;
-  display: flex;
-  align-items: center;
-  min-height: 72vh;
-  overflow: hidden;
+/* ==========================================================
+   01. Generic legacy hero
+   ========================================================== */
+
+.hero{
+  position:relative;
+  display:flex;
+  align-items:center;
+  min-height:72vh;
+  overflow:hidden;
 }
 
-.hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 800px;
+.hero-content{
+  position:relative;
+  z-index:2;
+  max-width:800px;
 }
 
-.hero p {
-  max-width: 680px;
-  font-size: 1.05rem;
+.hero p{
+  max-width:680px;
+  font-size:1.05rem;
 }
 
-.hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 1.4rem;
+.hero-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:1rem;
+  margin-top:1.4rem;
 }
 
-/* 02. Hero-local buttons */
+/* ==========================================================
+   02. Hero-local buttons
+   Keep synced with Lan Pink Bing-like button direction
+   ========================================================== */
+
 .lp-btn-primary,
-.lp-btn-secondary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 14px;
-  padding: .78rem 1.12rem;
-  font-size: .92rem;
-  font-weight: 850;
+.lp-btn-secondary{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:39px;
+  padding:8px 17px;
+  border-radius:8px;
+  font-size:.92rem;
+  line-height:1;
+  font-weight:900;
+  text-decoration:none;
   transition:
-    transform .22s ease,
-    box-shadow .22s ease,
-    background .22s ease,
-    color .22s ease,
-    border-color .22s ease;
+    transform .2s ease,
+    box-shadow .2s ease,
+    background .2s ease,
+    color .2s ease,
+    border-color .2s ease;
 }
 
-.lp-btn-primary {
-  color: #9d174d;
-  background: linear-gradient(180deg, rgba(255,255,255,.78), rgba(252,231,243,.58));
-  border: 1px solid rgba(255,255,255,.76);
+.lp-btn-primary{
+  color:#6f2347;
+  background:linear-gradient(180deg, rgba(255,182,216,.72), rgba(226,106,168,.66));
+  border:1px solid rgba(255,255,255,.90);
   box-shadow:
-    0 8px 22px rgba(219,39,119,.10),
-    inset 0 1px 0 rgba(255,255,255,.92);
+    0 0 0 1px rgba(92,174,236,.78),
+    0 0 0 2px rgba(255,255,255,.98),
+    inset 0 1px 0 rgba(255,255,255,.88),
+    inset 0 -1px 0 rgba(255,255,255,.18),
+    0 7px 16px rgba(232,124,178,.16);
+  text-shadow:0 1px 0 rgba(255,255,255,.42);
 }
 
-.lp-btn-secondary {
-  color: #493743;
-  background: rgba(255,255,255,.72);
-  border: 1px solid rgba(255,255,255,.72);
+.lp-btn-secondary{
+  color:#b74078;
+  background:linear-gradient(180deg, rgba(255,255,255,.72), rgba(255,239,248,.48));
+  border:1px solid rgba(255,255,255,.92);
   box-shadow:
-    0 8px 22px rgba(15,23,42,.045),
-    inset 0 1px 0 rgba(255,255,255,.86);
-  backdrop-filter: blur(14px);
+    0 0 0 1px rgba(92,174,236,.64),
+    0 0 0 2px rgba(255,255,255,.98),
+    inset 0 1px 0 rgba(255,255,255,.96),
+    inset 0 -1px 0 rgba(232,124,178,.10),
+    0 7px 16px rgba(92,174,236,.08);
 }
 
 .lp-btn-primary:hover,
-.lp-btn-secondary:hover {
-  transform: translateY(-1px);
+.lp-btn-secondary:hover{
+  transform:translateY(-1px);
 }
 
-.lp-btn-secondary:hover {
-  color: #9d174d;
-  background: rgba(252,231,243,.62);
-}
-
-/* 03. Article hero + list page header */
-.lp-hero,
-.lp-page-header {
-  position: relative;
-  max-width: 1080px !important;
-  margin: 1rem auto 1.6rem !important;
-  padding: 1.6rem 1.7rem !important;
-  overflow: hidden;
-  border-radius: 24px !important;
+.lp-btn-primary:hover{
+  color:#5b1738;
+  background:linear-gradient(180deg, rgba(255,197,226,.86), rgba(237,124,181,.78));
   box-shadow:
-    0 14px 34px rgba(15,23,42,.045),
-    inset 0 1px 0 rgba(255,255,255,.88);
+    0 0 0 1px rgba(92,174,236,.92),
+    0 0 0 2px rgba(255,255,255,1),
+    inset 0 1px 0 rgba(255,255,255,.96),
+    inset 0 -1px 0 rgba(255,255,255,.16),
+    0 9px 20px rgba(232,124,178,.22);
+}
+
+.lp-btn-secondary:hover{
+  color:#a72f68;
+  background:linear-gradient(180deg, rgba(255,255,255,.86), rgba(255,236,248,.64));
+  box-shadow:
+    0 0 0 1px rgba(92,174,236,.82),
+    0 0 0 2px rgba(255,255,255,1),
+    inset 0 1px 0 rgba(255,255,255,1),
+    inset 0 -1px 0 rgba(232,124,178,.10),
+    0 9px 20px rgba(92,174,236,.11);
+}
+
+/* ==========================================================
+   03. Shared page hero shell
+   Used by layouts/_default/list.html and layouts/partials/hero.html
+   ========================================================== */
+
+.lp-hero,
+.lp-page-header{
+  position:relative;
+  overflow:visible;
+}
+
+.lp-hero:not(.lp-home-hero){
+  padding:22px 16px 10px;
+  margin:0 0 30px;
+}
+
+.lp-hero:not(.lp-home-hero) > .mx-auto,
+.lp-page-header{
+  position:relative;
+  z-index:1;
+  width:min(1080px, calc(100vw - 40px));
+  max-width:min(1080px, calc(100vw - 40px)) !important;
+  margin-inline:auto !important;
+  padding:32px 44px !important;
+  border-radius:26px !important;
+  overflow:hidden;
+
+  background:
+    radial-gradient(circle at 8% 20%, rgba(255,192,221,.42), transparent 32%),
+    radial-gradient(circle at 94% 10%, rgba(255,255,255,.70), transparent 32%),
+    linear-gradient(135deg, rgba(255,255,255,.86), rgba(255,241,248,.62));
+
+  border:1px solid rgba(255,255,255,.92);
+  box-shadow:
+    0 26px 70px rgba(80,38,58,.18),
+    0 0 0 1px rgba(92,174,236,.28),
+    inset 0 1px 0 rgba(255,255,255,.95);
+
+  backdrop-filter:blur(22px) saturate(1.14);
+  -webkit-backdrop-filter:blur(22px) saturate(1.14);
+
+  transition:
+    transform .24s ease,
+    box-shadow .24s ease,
+    border-color .24s ease,
+    background .24s ease;
+}
+
+.lp-hero:not(.lp-home-hero) > .mx-auto::after,
+.lp-page-header::after{
+  content:"";
+  position:absolute;
+  inset:-40% -22% auto auto;
+  width:52%;
+  height:180%;
+  background:linear-gradient(115deg, transparent, rgba(255,255,255,.48), transparent);
+  transform:rotate(18deg);
+  opacity:.46;
+  pointer-events:none;
+}
+
+.lp-hero:not(.lp-home-hero) > .mx-auto:hover,
+.lp-page-header:hover{
+  transform:translateY(-3px);
+  border-color:rgba(255,255,255,.98);
+  box-shadow:
+    0 34px 88px rgba(80,38,58,.23),
+    0 0 0 1px rgba(92,174,236,.45),
+    inset 0 1px 0 rgba(255,255,255,1);
 }
 
 .lp-hero::before,
-.lp-page-header::before {
-  display: none !important;
+.lp-page-header::before{
+  display:none !important;
 }
 
 .lp-hero > *,
-.lp-page-header > * {
-  position: relative;
-  z-index: 1;
+.lp-page-header > *{
+  position:relative;
+  z-index:1;
 }
 
-.lp-hero > .mx-auto {
-  max-width: 1080px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-top: 1.6rem !important;
-  padding-bottom: 1.7rem !important;
+.lp-hero .grid{
+  position:relative;
+  z-index:1;
+  gap:36px !important;
+  align-items:center !important;
 }
 
-.lp-page-header {
-  background:
-    radial-gradient(circle at 12% 10%, rgba(249,168,212,.17), transparent 30%),
-    linear-gradient(135deg, rgba(255,255,255,.84), rgba(255,247,251,.64));
-  border: 1px solid rgba(236,72,153,.13);
+/* ==========================================================
+   04. Typography base
+   ========================================================== */
+
+.lp-hero .grid > div:first-child{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  min-width:0;
 }
 
-.lp-hero .grid {
-  gap: 1.4rem !important;
+.lp-hero nav{
+  margin-bottom:16px !important;
+  font-size:.93rem !important;
 }
 
-.lp-hero-img,
-.lp-hero-overlay {
-  border-radius: 22px !important;
-}
-
-.lp-hero-kicker {
-  margin-bottom: .55rem !important;
-  color: #be185d;
-  font-size: .72rem !important;
-  letter-spacing: .16em !important;
+.lp-hero-kicker,
+.lp-hero .lp-eyebrow,
+.lp-hero p.mb-3.text-sm.font-bold.uppercase,
+.lp-page-header .lp-eyebrow{
+  margin:0 0 8px !important;
+  color:#806471 !important;
+  font-size:.78rem !important;
+  line-height:1.2 !important;
+  letter-spacing:.32em !important;
+  font-weight:850 !important;
+  text-transform:uppercase !important;
 }
 
 .lp-hero h1,
 .lp-hero-title,
-.lp-page-header h1 {
-  max-width: 900px;
-  margin-bottom: .65rem !important;
-  color: #24151e;
-  font-size: clamp(1.72rem, 3.2vw, 3.05rem) !important;
-  line-height: 1.08 !important;
-  letter-spacing: -0.045em !important;
-  text-wrap: balance;
+.lp-page-header h1{
+  display:block;
+  width:100%;
+  margin:0 0 12px !important;
+  color:#24151e;
+  font-size:clamp(2rem, 2.18vw, 2.55rem) !important;
+  line-height:1.06 !important;
+  letter-spacing:-.045em !important;
+  font-weight:950 !important;
+  text-wrap:balance;
 }
 
 .lp-hero p,
 .lp-hero-desc,
-.lp-page-header p {
-  max-width: 820px;
-  color: #6f5366;
-  font-size: clamp(.98rem, 1.35vw, 1.08rem) !important;
-  line-height: 1.68 !important;
+.lp-page-header p{
+  margin-top:0 !important;
+  color:#76626d;
+  font-size:1rem !important;
+  line-height:1.72 !important;
 }
 
-.lp-hero aside .lp-card {
-  padding: 1rem !important;
+.lp-hero .mt-6,
+.lp-hero .mt-8{
+  margin-top:18px !important;
 }
 
-.lp-hero.lp-hero-utility {
-  margin-bottom: 1.25rem !important;
+/* ==========================================================
+   05. Single hero
+   DOM owner: layouts/partials/hero.html
+   ========================================================== */
+
+.lp-single-page .lp-hero > .mx-auto{
+  width:min(1080px, calc(100vw - 40px));
+  max-width:min(1080px, calc(100vw - 40px)) !important;
 }
 
-/* 04. Dark hero */
-html[data-theme="dark"] .lp-hero,
-html[data-theme="dark"] .lp-page-header {
+.lp-single-page .lp-hero .grid{
+  grid-template-columns:minmax(360px, 1fr) minmax(320px, .92fr) !important;
+  column-gap:46px !important;
+}
+
+/* This is the key balance:
+   left column width is flexible. Long titles create a wider text column;
+   short titles stay compact. */
+.lp-single-page .lp-hero .grid > div:first-child{
+  width:fit-content;
+  max-width:min(620px, 100%);
+}
+
+.lp-single-page .lp-hero h1,
+.lp-single-page .lp-hero .lp-hero-title{
+  max-width:min(19ch, 100%) !important;
+}
+
+.lp-single-page .lp-hero p,
+.lp-single-page .lp-hero .lp-hero-desc,
+.lp-single-page .lp-hero .grid > div:first-child > p{
+  width:100%;
+  max-width:min(100%, 56ch) !important;
+  text-align:justify;
+  text-align-last:left;
+  hyphens:auto;
+}
+
+.lp-single-page .lp-hero aside{
+  align-self:center;
+}
+
+.lp-single-page .lp-hero aside .lp-card,
+.lp-single-page .lp-hero .lp-card{
+  border-radius:22px !important;
+  padding:24px 26px !important;
   background:
-    radial-gradient(circle at 12% 10%, rgba(249,168,212,.12), transparent 30%),
-    linear-gradient(135deg, rgba(24,24,27,.92), rgba(9,9,11,.78));
-  border-color: rgba(249,168,212,.14);
-}
-
-html[data-theme="dark"] .lp-btn-secondary {
-  color: #fce7f3;
-  background: rgba(255,255,255,.07);
-  border-color: rgba(249,168,212,.16);
+    radial-gradient(circle at 14% 16%, rgba(255,255,255,.86), transparent 36%),
+    linear-gradient(145deg, rgba(255,255,255,.70), rgba(255,239,248,.52)) !important;
+  border:1px solid rgba(255,255,255,.86) !important;
   box-shadow:
-    0 8px 22px rgba(0,0,0,.18),
-    inset 0 1px 0 rgba(255,255,255,.06);
+    0 18px 42px rgba(80,38,58,.13),
+    0 0 0 1px rgba(92,174,236,.12),
+    inset 0 1px 0 rgba(255,255,255,.90) !important;
+  backdrop-filter:blur(18px) saturate(1.12);
+  -webkit-backdrop-filter:blur(18px) saturate(1.12);
+  transition:
+    transform .24s ease,
+    box-shadow .24s ease,
+    border-color .24s ease,
+    background .24s ease;
 }
 
-html[data-theme="dark"] .lp-btn-secondary:hover {
-  color: #fff;
-  background: rgba(236,72,153,.16);
+.lp-single-page .lp-hero aside .lp-card:hover,
+.lp-single-page .lp-hero .lp-card:hover{
+  transform:translateY(-3px);
+  border-color:rgba(255,255,255,.98) !important;
+  box-shadow:
+    0 26px 62px rgba(80,38,58,.18),
+    0 0 0 1px rgba(92,174,236,.25),
+    inset 0 1px 0 rgba(255,255,255,.98) !important;
 }
 
-/* 05. Mobile */
-@media (max-width: 768px) {
-  .lp-hero aside {
-    display: none !important;
+/* ==========================================================
+   06. List hero
+   DOM owner: layouts/_default/list.html
+   ========================================================== */
+
+.lp-hero-list > .mx-auto{
+  width:min(1040px, calc(100vw - 40px));
+  max-width:min(1040px, calc(100vw - 40px)) !important;
+  padding:30px 42px !important;
+}
+
+.lp-hero-list .grid{
+  display:grid !important;
+  grid-template-columns:minmax(300px, 430px) minmax(300px, 1fr) !important;
+  gap:42px !important;
+  align-items:center !important;
+}
+
+.lp-hero-list .grid > div:first-child{
+  width:fit-content;
+  max-width:min(560px, 100%);
+}
+
+.lp-hero-list h1,
+.lp-hero-list .lp-hero-title{
+  max-width:min(15ch, 100%) !important;
+  font-size:clamp(1.9rem, 2.05vw, 2.35rem) !important;
+}
+
+.lp-hero-list p,
+.lp-hero-list .lp-hero-desc,
+.lp-hero-list .grid > div:first-child > p{
+  width:100%;
+  max-width:min(100%, 50ch) !important;
+  text-align:justify;
+  text-align-last:left;
+  hyphens:auto;
+}
+
+.lp-hero-list .grid::after{
+  content:"PRIVATE TATTOO STUDIO\A TÆ° váº¥n ká»¹, thiáº¿t káº¿ riĂªng vĂ  thá»±c hiá»‡n trong khĂ´ng gian riĂªng tÆ° táº¡i Lan Pink Tattoo.";
+  white-space:pre-line;
+  position:relative;
+  display:block;
+  overflow:hidden;
+  align-self:center;
+  padding:24px 26px;
+  border-radius:22px;
+  color:#74606b;
+  font-size:.98rem;
+  line-height:1.62;
+  font-weight:650;
+  background:
+    radial-gradient(circle at 14% 16%, rgba(255,255,255,.86), transparent 36%),
+    linear-gradient(145deg, rgba(255,255,255,.76), rgba(255,239,248,.56));
+  border:1px solid rgba(255,255,255,.9);
+  box-shadow:
+    0 18px 42px rgba(80,38,58,.14),
+    0 0 0 1px rgba(92,174,236,.18),
+    inset 0 1px 0 rgba(255,255,255,.92);
+  transition:
+    transform .24s ease,
+    box-shadow .24s ease,
+    border-color .24s ease,
+    background .24s ease;
+}
+
+.lp-hero-list .grid:hover::after{
+  transform:translateY(-3px);
+  border-color:rgba(255,255,255,.98);
+  box-shadow:
+    0 26px 62px rgba(80,38,58,.18),
+    0 0 0 1px rgba(92,174,236,.32),
+    inset 0 1px 0 rgba(255,255,255,.98);
+  background:
+    radial-gradient(circle at 14% 16%, rgba(255,255,255,.92), transparent 36%),
+    linear-gradient(145deg, rgba(255,255,255,.84), rgba(255,236,248,.64));
+}
+
+/* ==========================================================
+   07. Utility hero
+   ========================================================== */
+
+.lp-hero.lp-hero-utility{
+  margin-bottom:22px;
+}
+
+/* ==========================================================
+   08. Entrance animation
+   ========================================================== */
+
+.lp-hero:not(.lp-home-hero) nav,
+.lp-hero:not(.lp-home-hero) .lp-hero-kicker,
+.lp-hero:not(.lp-home-hero) .lp-eyebrow,
+.lp-hero:not(.lp-home-hero) p.mb-3.text-sm.font-bold.uppercase,
+.lp-hero:not(.lp-home-hero) h1,
+.lp-hero:not(.lp-home-hero) .lp-hero-title,
+.lp-hero:not(.lp-home-hero) p,
+.lp-hero:not(.lp-home-hero) .lp-hero-desc,
+.lp-hero:not(.lp-home-hero) .mt-6,
+.lp-hero:not(.lp-home-hero) aside,
+.lp-hero-list .grid::after{
+  opacity:0;
+  transform:translateY(14px);
+  animation:lpHeroReveal .72s cubic-bezier(.16,1,.3,1) forwards;
+  will-change:opacity, transform;
+}
+
+.lp-hero:not(.lp-home-hero) nav{
+  animation-delay:.12s;
+}
+
+.lp-hero:not(.lp-home-hero) .lp-hero-kicker,
+.lp-hero:not(.lp-home-hero) .lp-eyebrow,
+.lp-hero:not(.lp-home-hero) p.mb-3.text-sm.font-bold.uppercase{
+  animation-delay:.24s;
+}
+
+.lp-hero:not(.lp-home-hero) h1,
+.lp-hero:not(.lp-home-hero) .lp-hero-title{
+  animation-delay:.36s;
+}
+
+.lp-hero:not(.lp-home-hero) p,
+.lp-hero:not(.lp-home-hero) .lp-hero-desc{
+  animation-delay:.50s;
+}
+
+.lp-hero:not(.lp-home-hero) .mt-6,
+.lp-hero:not(.lp-home-hero) aside,
+.lp-hero-list .grid::after{
+  animation-delay:.64s;
+}
+
+@keyframes lpHeroReveal{
+  from{
+    opacity:0;
+    transform:translateY(14px);
+    filter:blur(5px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+    filter:blur(0);
+  }
+}
+
+/* ==========================================================
+   09. Dark mode
+   ========================================================== */
+
+html[data-theme="dark"] .lp-hero:not(.lp-home-hero) > .mx-auto,
+html[data-theme="dark"] .lp-page-header{
+  background:
+    radial-gradient(circle at 12% 18%, rgba(255,79,163,.18), transparent 34%),
+    radial-gradient(circle at 92% 8%, rgba(255,255,255,.10), transparent 32%),
+    linear-gradient(145deg, rgba(255,255,255,.10), rgba(255,255,255,.045));
+  border-color:rgba(255,138,199,.22);
+  box-shadow:
+    0 24px 70px rgba(0,0,0,.30),
+    0 0 0 1px rgba(255,138,199,.12),
+    inset 0 1px 0 rgba(255,255,255,.16);
+}
+
+html[data-theme="dark"] .lp-hero h1,
+html[data-theme="dark"] .lp-hero-title,
+html[data-theme="dark"] .lp-page-header h1{
+  color:#fff7fb;
+}
+
+html[data-theme="dark"] .lp-hero p,
+html[data-theme="dark"] .lp-hero-desc,
+html[data-theme="dark"] .lp-page-header p,
+html[data-theme="dark"] .lp-hero-list .grid::after{
+  color:#eadce5;
+}
+
+html[data-theme="dark"] .lp-hero-kicker,
+html[data-theme="dark"] .lp-hero .lp-eyebrow,
+html[data-theme="dark"] .lp-hero p.mb-3.text-sm.font-bold.uppercase{
+  color:#f8dbe9 !important;
+}
+
+html[data-theme="dark"] .lp-single-page .lp-hero aside .lp-card,
+html[data-theme="dark"] .lp-single-page .lp-hero .lp-card,
+html[data-theme="dark"] .lp-hero-list .grid::after{
+  background:
+    radial-gradient(circle at 14% 16%, rgba(255,255,255,.13), transparent 36%),
+    linear-gradient(145deg, rgba(255,255,255,.10), rgba(255,255,255,.05)) !important;
+  border-color:rgba(255,138,199,.22) !important;
+}
+
+/* ==========================================================
+   10. Mobile
+   ========================================================== */
+
+@media(max-width:900px){
+  .lp-hero-list .grid,
+  .lp-single-page .lp-hero .grid{
+    display:block !important;
   }
 
-  .hero {
-    min-height: 62vh;
+  .lp-hero-list .grid::after,
+  .lp-hero aside{
+    display:none !important;
   }
 
-  .hero-actions {
-    flex-direction: column;
+  .lp-hero:not(.lp-home-hero){
+    padding:16px 12px 0;
+    margin-bottom:22px;
   }
 
-  .hero-actions .btn {
-    width: 100%;
+  .lp-hero:not(.lp-home-hero) > .mx-auto,
+  .lp-page-header{
+    width:calc(100vw - 24px);
+    max-width:calc(100vw - 24px) !important;
+    padding:24px 20px !important;
+    border-radius:22px !important;
   }
 
-  .lp-hero > .mx-auto,
-  .lp-page-header {
-    padding: 1.1rem !important;
-    margin: .75rem .75rem 1rem !important;
-    border-radius: 20px !important;
+  .lp-hero .grid > div:first-child,
+  .lp-single-page .lp-hero .grid > div:first-child,
+  .lp-hero-list .grid > div:first-child{
+    width:100%;
+    max-width:100%;
   }
 
   .lp-hero h1,
   .lp-hero-title,
-  .lp-page-header h1 {
-    font-size: clamp(1.55rem, 7vw, 2.1rem) !important;
-    line-height: 1.12 !important;
-    letter-spacing: -0.035em !important;
+  .lp-page-header h1,
+  .lp-single-page .lp-hero h1,
+  .lp-single-page .lp-hero .lp-hero-title,
+  .lp-hero-list h1,
+  .lp-hero-list .lp-hero-title{
+    max-width:none !important;
+    font-size:clamp(1.9rem, 7.8vw, 2.35rem) !important;
+    line-height:1.06 !important;
+    margin-bottom:12px !important;
   }
 
   .lp-hero p,
   .lp-hero-desc,
-  .lp-page-header p {
-    font-size: .95rem !important;
-    line-height: 1.62 !important;
+  .lp-page-header p,
+  .lp-single-page .lp-hero p,
+  .lp-single-page .lp-hero .lp-hero-desc,
+  .lp-hero-list p,
+  .lp-hero-list .lp-hero-desc{
+    width:100%;
+    max-width:none !important;
+    font-size:1rem !important;
+    line-height:1.64 !important;
+    text-align:left;
+  }
+
+  .hero{
+    min-height:62vh;
+  }
+
+  .hero-actions{
+    flex-direction:column;
+  }
+
+  .hero-actions .btn{
+    width:100%;
+  }
+}
+
+/* ==========================================================
+   11. Reduced motion
+   ========================================================== */
+
+@media(prefers-reduced-motion:reduce){
+  .lp-hero:not(.lp-home-hero) > .mx-auto,
+  .lp-page-header,
+  .lp-single-page .lp-hero aside .lp-card,
+  .lp-single-page .lp-hero .lp-card,
+  .lp-hero-list .grid::after,
+  .lp-hero:not(.lp-home-hero) nav,
+  .lp-hero:not(.lp-home-hero) .lp-hero-kicker,
+  .lp-hero:not(.lp-home-hero) .lp-eyebrow,
+  .lp-hero:not(.lp-home-hero) p.mb-3.text-sm.font-bold.uppercase,
+  .lp-hero:not(.lp-home-hero) h1,
+  .lp-hero:not(.lp-home-hero) .lp-hero-title,
+  .lp-hero:not(.lp-home-hero) p,
+  .lp-hero:not(.lp-home-hero) .lp-hero-desc,
+  .lp-hero:not(.lp-home-hero) .mt-6,
+  .lp-hero:not(.lp-home-hero) aside{
+    opacity:1 !important;
+    transform:none !important;
+    animation:none !important;
+    filter:none !important;
+    transition:none !important;
+  }
+}
+
+/* =========================================================
+   HERO TITLE BALANCE FINAL
+   Smarter title width + aligned copy block
+   ========================================================= */
+
+/* Single hero: left title column needs more room */
+.lp-single-page .lp-hero .grid{
+  grid-template-columns:minmax(500px, 1.1fr) minmax(360px, 470px) !important;
+  column-gap:54px !important;
+}
+
+/* Left content column */
+.lp-single-page .lp-hero .grid > div:first-child{
+  width:100% !important;
+  max-width:560px !important;
+}
+
+/* H1: không bó theo ch nữa */
+.lp-single-page .lp-hero h1,
+.lp-single-page .lp-hero .lp-hero-title{
+  width:100% !important;
+  max-width:560px !important;
+  display:block !important;
+
+  font-size:clamp(2rem, 2.18vw, 2.55rem) !important;
+  line-height:1.04 !important;
+  letter-spacing:-.048em !important;
+
+  text-align:left !important;
+  text-wrap:balance !important;
+  word-break:normal !important;
+  overflow-wrap:normal !important;
+  hyphens:none !important;
+}
+
+/* Description: ăn theo đúng trục H1 */
+.lp-single-page .lp-hero p,
+.lp-single-page .lp-hero .lp-hero-desc{
+  width:100% !important;
+  max-width:560px !important;
+
+  text-align:justify !important;
+  text-align-last:left !important;
+  line-height:1.72 !important;
+}
+
+/* CTA theo cùng trục */
+.lp-single-page .lp-hero .mt-6{
+  width:100% !important;
+  max-width:560px !important;
+}
+
+/* Right card cân lại */
+.lp-single-page .lp-hero aside{
+  justify-self:end !important;
+  width:100% !important;
+  max-width:470px !important;
+}
+
+/* List hero: giữ gọn nhưng không bó title quá mức */
+.lp-hero-list .grid > div:first-child{
+  max-width:520px !important;
+}
+
+.lp-hero-list h1,
+.lp-hero-list .lp-hero-title{
+  width:100% !important;
+  max-width:520px !important;
+  text-wrap:balance !important;
+  word-break:normal !important;
+  overflow-wrap:normal !important;
+}
+
+/* Mobile/tablet */
+@media(max-width:900px){
+  .lp-single-page .lp-hero .grid{
+    display:block !important;
+  }
+
+  .lp-single-page .lp-hero .grid > div:first-child,
+  .lp-single-page .lp-hero h1,
+  .lp-single-page .lp-hero .lp-hero-title,
+  .lp-single-page .lp-hero p,
+  .lp-single-page .lp-hero .lp-hero-desc,
+  .lp-single-page .lp-hero .mt-6{
+    max-width:none !important;
+  }
+
+  .lp-single-page .lp-hero p,
+  .lp-single-page .lp-hero .lp-hero-desc{
+    text-align:left !important;
+  }
+}
+
+/* =========================================================
+   LIST HERO REAL CARD
+   Owner: layouts/_default/list.html
+   Replaces old pseudo ::after card
+   ========================================================= */
+
+.lp-hero-list .grid::after{
+  content:none !important;
+  display:none !important;
+}
+
+.lp-hero-list .grid{
+  grid-template-columns:minmax(0, 1fr) minmax(340px, 430px) !important;
+}
+
+.lp-list-hero-card{
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:14px;
+  padding:30px 32px;
+  border-radius:26px;
+  background:
+    radial-gradient(circle at 12% 14%, rgba(255,255,255,.92), transparent 38%),
+    linear-gradient(145deg, rgba(255,255,255,.72), rgba(255,239,248,.54));
+  border:1px solid rgba(255,255,255,.88);
+  box-shadow:
+    0 18px 42px rgba(80,38,58,.13),
+    0 0 0 1px rgba(92,174,236,.18),
+    inset 0 1px 0 rgba(255,255,255,.92);
+  backdrop-filter:blur(18px) saturate(1.14);
+  -webkit-backdrop-filter:blur(18px) saturate(1.14);
+  transition:transform .24s ease, box-shadow .24s ease, border-color .24s ease;
+}
+
+.lp-list-hero-card:hover{
+  transform:translateY(-3px);
+  border-color:rgba(255,255,255,.98);
+  box-shadow:
+    0 26px 62px rgba(80,38,58,.18),
+    0 0 0 1px rgba(92,174,236,.32),
+    inset 0 1px 0 rgba(255,255,255,.98);
+}
+
+.lp-list-hero-card-kicker{
+  margin:0;
+  color:#806471;
+  font-size:.78rem;
+  letter-spacing:.32em;
+  font-weight:850;
+  text-transform:uppercase;
+}
+
+.lp-list-hero-card h3{
+  margin:0;
+  color:#24151e;
+  font-size:clamp(1.25rem,1.6vw,1.58rem);
+  line-height:1.18;
+  letter-spacing:-.035em;
+  font-weight:950;
+}
+
+.lp-list-hero-card p{
+  margin:0;
+  color:#74606b;
+  font-size:1rem;
+  line-height:1.72;
+  font-weight:600;
+}
+
+html[data-theme="dark"] .lp-list-hero-card{
+  background:
+    radial-gradient(circle at 12% 14%, rgba(255,255,255,.13), transparent 38%),
+    linear-gradient(145deg, rgba(255,255,255,.10), rgba(255,255,255,.05));
+  border-color:rgba(255,138,199,.22);
+}
+
+html[data-theme="dark"] .lp-list-hero-card h3,
+html[data-theme="dark"] .lp-list-hero-card p{
+  color:#eadce5;
+}
+
+@media(max-width:900px){
+  .lp-hero-list .grid{
+    display:block !important;
+  }
+
+  .lp-list-hero-card{
+    margin-top:24px;
   }
 }

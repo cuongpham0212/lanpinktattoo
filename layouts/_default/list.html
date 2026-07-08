@@ -6,37 +6,61 @@
 {{ $isPortfolio := in (slice "tac-pham" "portfolio") .Section }}
 {{ $isGuide := in (slice "cam-nang-tattoo" "tattoo-guide") .Section }}
 
-<section class="lp-page-header">
-  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+<section class="lp-hero lp-hero-list">
+  <div class="mx-auto max-w-7xl px-4 py-12 lg:py-20">
+    <div class="grid gap-12 lg:grid-cols-[minmax(0,1fr)_430px] lg:items-center">
+      <div>
+        <nav aria-label="Breadcrumb" class="mb-4">
+          <ol class="flex items-center gap-2 text-sm lp-breadcrumb">
+            <li>
+              <a href="{{ .Site.Home.RelPermalink }}" class="lp-link">
+                {{ i18n "home" | default "Home" }}
+              </a>
+            </li>
+            <li class="opacity-50">/</li>
+            <li aria-current="page" class="font-semibold lp-heading">
+              {{ .Title }}
+            </li>
+          </ol>
+        </nav>
 
-    <nav aria-label="Breadcrumb" class="mb-4">
-      <ol class="flex items-center gap-2 text-sm lp-breadcrumb">
-        <li>
-          <a href="{{ .Site.Home.RelPermalink }}" class="lp-link">
-            {{ i18n "home" | default "Home" }}
-          </a>
-        </li>
-        <li class="opacity-50">/</li>
-        <li aria-current="page" class="font-semibold lp-heading">
+        <p class="mb-3 text-sm font-bold uppercase tracking-[0.24em] text-pink-500">
+          Lan Pink Tattoo
+        </p>
+
+        <h1 class="text-4xl font-black leading-tight md:text-5xl lg:text-6xl">
           {{ .Title }}
-        </li>
-      </ol>
-    </nav>
+        </h1>
 
-    <p class="lp-eyebrow">Lan Pink Tattoo</p>
+        {{ with .Description }}
+          <p class="mt-5 text-lg leading-8 opacity-80">{{ . }}</p>
+        {{ end }}
 
-    <h1 class="mt-3 text-3xl font-extrabold tracking-tight lp-heading sm:text-5xl">
-      {{ .Title }}
-    </h1>
+        {{ with .Params.subtitle }}
+          <p class="mt-3 text-base opacity-80">{{ . }}</p>
+        {{ end }}
+      </div>
 
-    {{ with .Description }}
-      <p class="mt-4 max-w-2xl text-lg lp-muted">{{ . }}</p>
-    {{ end }}
+      <aside class="lp-list-hero-card">
+        <p class="lp-list-hero-card-kicker">Lan Pink Tattoo</p>
 
-    {{ with .Params.subtitle }}
-      <p class="mt-3 max-w-2xl text-base lp-muted">{{ . }}</p>
-    {{ end }}
+        <h3>
+          {{ if eq .Language.Lang "vi" }}
+            Tattoo riêng cho từng khách hàng
+          {{ else }}
+            Custom tattoo for every client
+          {{ end }}
+        </h3>
 
+        <p>
+          {{ if eq .Language.Lang "vi" }}
+            Thiết kế theo câu chuyện cá nhân, tư vấn riêng trước khi xăm và thực hiện trong không gian tattoo studio riêng tư.
+          {{ else }}
+            Personal consultation, custom design and a private tattoo studio experience.
+          {{ end }}
+        </p>
+      </aside>
+    </div>
   </div>
 </section>
 

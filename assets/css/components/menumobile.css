@@ -1,25 +1,59 @@
 /* =========================
    MENUMOBILE
+   Owner: mobile menu panel, links, submenu, booking
 ========================= */
 
 .lp-menumobile,
 .lp-menumobile-link,
 .lp-menumobile-booking,
-.lp-menumobile-lang,
-.lp-menumobile-lang-switch,
 .lp-menumobile-sublink {
   font-family: "Nunito", "Inter", system-ui, sans-serif;
 }
 
 .lp-menumobile {
-  margin: 0 .75rem .75rem;
-  border-radius: 0 0 1.5rem 1.5rem;
-  overflow: hidden;
-  backdrop-filter: blur(18px);
+  position: fixed;
+  z-index: 70;
+  top: 76px;
+  right: 14px;
+  left: auto;
+  width: 284px;
+  max-width: calc(100vw - 28px);
+  max-height: calc(100dvh - 96px);
+  margin: 0;
+  padding: 14px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 24px;
+  color: #2b1422;
+  background:
+    radial-gradient(circle at top left, rgba(255,255,255,.56), rgba(230,230,235,.42) 42%, rgba(190,190,200,.34)),
+    linear-gradient(145deg, rgba(255,255,255,.42), rgba(170,170,180,.26));
+  border: 1px solid rgba(255,255,255,.34);
+  box-shadow:
+    0 26px 70px rgba(30,30,40,.22),
+    0 0 0 1px rgba(255,255,255,.28) inset;
+  backdrop-filter: blur(22px) saturate(130%);
+  -webkit-backdrop-filter: blur(22px) saturate(130%);
+}
+
+.lp-menumobile::before {
+  content: "Lan Pink Menu";
+  display: block;
+  margin: 0 0 10px;
+  padding: 0 4px 10px;
+  border-bottom: 1px solid rgba(215,70,150,.14);
+  color: #d94695;
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: .12em;
+  text-transform: uppercase;
 }
 
 .lp-menumobile > div {
-  padding: .85rem .85rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
 }
 
 .lp-menumobile-link {
@@ -27,30 +61,40 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  min-height: 46px;
-  padding: .75rem .95rem;
-  border-radius: 1rem;
-  font-size: 15.5px;
-  font-weight: 850;
-  letter-spacing: .01em;
+  min-height: 38px;
+  padding: 8px 11px;
+  border-radius: 14px;
+  color: #2b1422;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 820;
+  line-height: 1.2;
+  letter-spacing: .005em;
   text-align: left;
-  transition: color .22s ease, background .22s ease, box-shadow .22s ease, transform .22s ease;
+  transition: background .18s ease, color .18s ease, transform .18s ease, box-shadow .18s ease;
 }
 
 button.lp-menumobile-link {
   border: 0;
-  background: transparent;
   cursor: pointer;
 }
 
+.lp-menumobile-link:hover,
+.lp-menumobile-link.is-active {
+  color: #831843;
+  background: rgba(236,72,153,.09);
+  box-shadow: inset 0 0 0 1px rgba(236,72,153,.08);
+}
+
 .lp-menumobile-link:hover {
-  transform: translateX(3px);
+  transform: translateX(2px);
 }
 
 .lp-menumobile-arrow {
-  font-size: 18px;
-  font-weight: 900;
-  transition: transform .22s ease;
+  font-size: 16px;
+  font-weight: 950;
+  color: #ec4899;
+  transition: transform .2s ease;
 }
 
 .lp-menumobile-group.is-open .lp-menumobile-arrow {
@@ -59,14 +103,19 @@ button.lp-menumobile-link {
 
 .lp-menumobile-submenu {
   display: none;
-  margin: 4px 0 10px 14px;
-  padding: 8px 0 8px 12px;
-  border-left: 1px solid rgba(236,72,153,.24);
-
-  max-height: min(220px, 40vh);
+  max-height: min(230px, 40vh);
+  margin: 3px 0 7px;
+  padding: 7px;
   overflow-y: auto;
   overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
+  border-radius: 16px;
+  background: rgba(255,255,255,.5);
+  box-shadow: inset 0 0 0 1px rgba(236,72,153,.08);
+}
+
+.lp-menumobile-group.is-open .lp-menumobile-submenu {
+  display: block;
 }
 
 .lp-menumobile-submenu::-webkit-scrollbar {
@@ -78,111 +127,94 @@ button.lp-menumobile-link {
 }
 
 .lp-menumobile-submenu::-webkit-scrollbar-thumb {
-  background: rgba(236,72,153,.35);
   border-radius: 999px;
-}
-
-html[data-theme="dark"] .lp-menumobile-submenu::-webkit-scrollbar-thumb {
-  background: rgba(249,168,212,.35);
-}
-
-.lp-menumobile-group.is-open .lp-menumobile-submenu {
-  display: block;
+  background: rgba(236,72,153,.32);
 }
 
 .lp-menumobile-sublink {
   display: block;
-  padding: 8px 0;
-  font-size: 14px;
-  font-weight: 800;
-  line-height: 1.3;
+  min-height: 31px;
+  padding: 7px 10px;
+  border-radius: 11px;
+  color: #4a243b;
+  font-size: 13px;
+  font-weight: 760;
+  line-height: 1.25;
   text-decoration: none;
-  opacity: .88;
-  transition: color .18s ease, opacity .18s ease, transform .18s ease;
+  transition: background .16s ease, color .16s ease, transform .16s ease;
 }
 
 .lp-menumobile-sublink:hover,
 .lp-menumobile-sublink.is-active {
-  opacity: 1;
+  color: #be185d;
+  background: rgba(236,72,153,.08);
   transform: translateX(2px);
 }
 
 .lp-menumobile-viewall {
   font-weight: 950;
+  color: #db2777;
 }
 
 .lp-menumobile-booking {
-  display: block;
-  margin-top: .9rem;
-  border-radius: 999px;
-  padding: .85rem 1rem;
-  text-align: center;
-  font-size: .92rem;
-  font-weight: 950;
-  color: #fff;
-  background: linear-gradient(135deg, #f9a8d4 0%, #ec4899 55%, #db2777 100%);
-  box-shadow: 0 14px 30px rgba(236,72,153,.24);
-}
-
-.lp-menumobile-lang-switch {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: .45rem;
-  width: 100%;
+  align-self: center;
+  width: auto;
+  min-width: 132px;
+  min-height: 36px;
+  margin-top: 10px;
+  padding: 0 18px;
   border-radius: 999px;
-  padding: .78rem 1rem;
-  font-size: .9rem;
+  color: #fff;
+  background: linear-gradient(135deg, #f9a8d4 0%, #ec4899 55%, #db2777 100%);
+  box-shadow: 0 12px 26px rgba(236,72,153,.24);
+  font-size: 13.5px;
   font-weight: 950;
-  transition: transform .22s ease, background .22s ease, color .22s ease, box-shadow .22s ease;
+  line-height: 36px;
+  text-align: center;
+  transition: transform .18s ease, box-shadow .18s ease;
 }
 
-.lp-menumobile-lang-switch:hover {
+.lp-menumobile-booking:hover {
   transform: translateY(-1px);
+  box-shadow: 0 16px 32px rgba(236,72,153,.3);
 }
 
-/* LIGHT */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* DARK */
+/* Dark theme */
 
 html[data-theme="dark"] .lp-menumobile {
-  background: rgba(18,18,21,.96);
-  border: 1px solid rgba(244,114,182,.16);
-  box-shadow: 0 20px 48px rgba(0,0,0,.38);
+  color: #fff;
+  background:
+    radial-gradient(circle at top left, rgba(255,255,255,.14), rgba(86,86,96,.32) 42%, rgba(28,28,34,.58)),
+    linear-gradient(145deg, rgba(120,120,132,.28), rgba(16,16,22,.62));
+  border-color: rgba(255,255,255,.16);
+  box-shadow:
+    0 28px 76px rgba(0,0,0,.52),
+    0 0 0 1px rgba(255,255,255,.07) inset;
+}
+
+html[data-theme="dark"] .lp-menumobile::before {
+  color: #ff7ac2;
+  border-bottom-color: rgba(255,255,255,.1);
 }
 
 html[data-theme="dark"] .lp-menumobile-link {
-  color: #e4d8df;
+  color: #f8eaf2;
 }
 
-html[data-theme="dark"] .lp-menumobile-link:hover {
-  color: #f9a8d4;
-  background: rgba(236,72,153,.12);
-  box-shadow: inset 0 0 0 1px rgba(244,114,182,.14);
-}
-
+html[data-theme="dark"] .lp-menumobile-link:hover,
 html[data-theme="dark"] .lp-menumobile-link.is-active {
   color: #fff;
-  background: linear-gradient(135deg, #831843, #db2777, #ec4899);
-  box-shadow: 0 12px 28px rgba(236,72,153,.22);
+  background: rgba(255,255,255,.07);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.07);
+}
+
+html[data-theme="dark"] .lp-menumobile-submenu {
+  background: rgba(255,255,255,.055);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.07);
 }
 
 html[data-theme="dark"] .lp-menumobile-sublink {
@@ -190,400 +222,34 @@ html[data-theme="dark"] .lp-menumobile-sublink {
 }
 
 html[data-theme="dark"] .lp-menumobile-sublink:hover,
-html[data-theme="dark"] .lp-menumobile-sublink.is-active {
+html[data-theme="dark"] .lp-menumobile-sublink.is-active,
+html[data-theme="dark"] .lp-menumobile-viewall {
   color: #ff7ac2;
 }
 
-html[data-theme="dark"] .lp-menumobile-viewall {
-  color: #f9a8d4;
+/* Mobile menu backdrop overlay
+   Owner: mobile menu background blur layer
+*/
+.lp-menumobile-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background:
+    radial-gradient(circle at 50% 10%, rgba(255,255,255,.28), transparent 34%),
+    rgba(18,18,24,.28);
+  backdrop-filter: blur(12px) saturate(115%);
+  -webkit-backdrop-filter: blur(12px) saturate(115%);
 }
 
-html[data-theme="dark"] .lp-menumobile-lang-switch {
-  color: #fbcfe8;
-  background: rgba(255,255,255,.06);
-  border: 1px solid rgba(249,168,212,.18);
-  box-shadow: 0 14px 30px rgba(0,0,0,.28);
+html.lp-menumobile-open,
+html.lp-menumobile-open body {
+  overflow: hidden;
 }
 
-html[data-theme="dark"] .lp-menumobile-lang-switch:hover {
-  color: #fff;
-  background: linear-gradient(135deg, #831843, #ec4899);
-}
-
-
-/* =========================================================
-   MOBILE MENU FINAL - COMPACT PREMIUM
-   Gọn, không rối, không chiếm màn hình
-   ========================================================= */
-@media (max-width: 768px) {
-  .lp-menumobile {
-    position: fixed !important;
-    top: 74px !important;
-    right: 14px !important;
-    left: auto !important;
-
-    width: 272px !important;
-    max-width: calc(100vw - 28px) !important;
-    max-height: calc(100dvh - 96px) !important;
-
-    padding: 14px !important;
-    overflow-y: auto !important;
-    overflow-x: hidden !important;
-
-    border-radius: 22px !important;
-    background: rgba(16, 13, 17, 0.97) !important;
-    border: 1px solid rgba(255, 122, 194, 0.22) !important;
-
-    box-shadow:
-      0 22px 60px rgba(0, 0, 0, 0.48),
-      0 0 0 1px rgba(255, 255, 255, 0.04) inset !important;
-
-    backdrop-filter: blur(14px) !important;
-    -webkit-backdrop-filter: blur(14px) !important;
-
-    transform: none !important;
-  }
-
-  .lp-menumobile > div {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 4px !important;
-  }
-
-  .lp-menumobile-link {
-    width: 100% !important;
-    min-height: 34px !important;
-    padding: 7px 12px !important;
-
-    border-radius: 12px !important;
-
-    font-size: 14px !important;
-    line-height: 1.2 !important;
-    font-weight: 750 !important;
-
-    background: transparent !important;
-  }
-
-  .lp-menumobile-link:hover,
-  .lp-menumobile-link.is-active {
-    background: rgba(255, 255, 255, 0.06) !important;
-  }
-
-  .lp-menumobile-submenu {
-    margin: 4px 0 6px !important;
-    padding: 6px !important;
-    border-radius: 14px !important;
-    background: rgba(255, 255, 255, 0.035) !important;
-  }
-
-  .lp-menumobile-sublink {
-    min-height: 30px !important;
-    padding: 6px 10px !important;
-    font-size: 13px !important;
-    border-radius: 10px !important;
-  }
-
-  .lp-menumobile-booking {
-    width: 100% !important;
-    min-height: 36px !important;
-    height: 36px !important;
-    margin-top: 6px !important;
-    padding: 0 12px !important;
-
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-
-    border-radius: 999px !important;
-    font-size: 13px !important;
-    font-weight: 850 !important;
-    line-height: 36px !important;
-
-    box-shadow: 0 10px 22px rgba(242, 56, 154, 0.18) !important;
-  }
-
-  .lp-menumobile-lang {
-    margin-top: 10px !important;
-    padding-top: 10px !important;
-    border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
-  }
-
-  .lp-menumobile-lang-switch {
-    width: 100% !important;
-    min-height: 36px !important;
-    border-radius: 999px !important;
-
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-
-    font-size: 13px !important;
-    background: rgba(255, 255, 255, 0.055) !important;
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
-  }
-}
-
-
-/* =========================================================
-   MOBILE MENU THEME PANEL FINAL
-   Tự đổi sáng/tối + nhìn như panel menu thật, không bị đè
-   ========================================================= */
-@media (max-width: 768px) {
-  .lp-menumobile {
-    right: 14px !important;
-    left: auto !important;
-    top: 76px !important;
-    width: 272px !important;
-    max-width: calc(100vw - 28px) !important;
-
-    padding: 14px !important;
-    border-radius: 22px !important;
-    overflow: hidden !important;
-
-    background: #fff8fc !important;
-    border: 1px solid rgba(215, 70, 150, 0.22) !important;
-    box-shadow:
-      0 24px 70px rgba(72, 18, 52, 0.22),
-      0 0 0 1px rgba(255,255,255,.75) inset !important;
-
-    color: #25121f !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-  }
-
-  html[data-theme="dark"] .lp-menumobile {
-    background: #120b11 !important;
-    border-color: rgba(255, 122, 194, 0.24) !important;
-    box-shadow:
-      0 24px 70px rgba(0,0,0,.58),
-      0 0 0 1px rgba(255,255,255,.045) inset !important;
-    color: #fff !important;
-  }
-
-  .lp-menumobile::before {
-    content: "Menu";
-    display: block;
-    margin: 0 0 8px;
-    padding: 0 4px 9px;
-    border-bottom: 1px solid rgba(215, 70, 150, 0.16);
-    color: #f2389a;
-    font-size: 12px;
-    font-weight: 900;
-    letter-spacing: .08em;
-    text-transform: uppercase;
-  }
-
-  html[data-theme="dark"] .lp-menumobile::before {
-    border-bottom-color: rgba(255,255,255,.11);
-  }
-
-  .lp-menumobile-link {
-    min-height: 33px !important;
-    padding: 7px 10px !important;
-    border-radius: 11px !important;
-    color: #25121f !important;
-    background: transparent !important;
-    font-size: 14px !important;
-  }
-
-  html[data-theme="dark"] .lp-menumobile-link {
-    color: #fff !important;
-  }
-
-  .lp-menumobile-link:hover,
-  .lp-menumobile-link.is-active {
-    background: rgba(242, 56, 154, .09) !important;
-  }
-
-  html[data-theme="dark"] .lp-menumobile-link:hover,
-  html[data-theme="dark"] .lp-menumobile-link.is-active {
-    background: rgba(255,255,255,.065) !important;
-  }
-
-  .lp-menumobile-booking {
-    min-height: 35px !important;
-    height: 35px !important;
-    margin-top: 6px !important;
-    border-radius: 999px !important;
-    font-size: 13px !important;
-  }
-
-  .lp-menumobile-lang {
-    margin-top: 10px !important;
-    padding-top: 10px !important;
-    border-top: 1px solid rgba(215, 70, 150, 0.16) !important;
-  }
-
-  html[data-theme="dark"] .lp-menumobile-lang {
-    border-top-color: rgba(255,255,255,.11) !important;
-  }
-
-  .lp-menumobile-lang-switch {
-    min-height: 35px !important;
-    border-radius: 999px !important;
-    background: rgba(242, 56, 154, .07) !important;
-    border: 1px solid rgba(215, 70, 150, .16) !important;
-    color: #25121f !important;
-  }
-
-  html[data-theme="dark"] .lp-menumobile-lang-switch {
-    background: rgba(255,255,255,.055) !important;
-    border-color: rgba(255,255,255,.1) !important;
-    color: #fff !important;
-  }
-}
-
-/* =========================
-   LIGHTHOUSE PERFORMANCE PHASE 1
-   Safe mobile-only reductions
-========================= */
-
-@media (max-width: 768px) {
-  .lanpink-promo-hero__inner::before,
-  .lanpink-promo-sticky::before,
-  .lanpink-promo-sticky::after,
-  .lanpink-promo-sticky__text::after {
-    animation: none !important;
-  }
-
-  .lanpink-promo-hero__sale,
-  .lanpink-promo-sticky {
-    animation: none !important;
-  }
-
-  .lp-header,
-  .lp-menumobile,
-  .lp-footer-card,
-  .lp-hero-main {
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-  }
-
-  .lp-btn:hover,
-  .lp-nav-link:hover,
-  .lp-menumobile-link:hover,
-  .lp-footer a:hover,
-  .lp-image-card:hover img,
-  .lp-real-card:hover img,
-  .gallery-item:hover img {
-    transform: none !important;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: .01ms !important;
-    animation-iteration-count: 1 !important;
-    scroll-behavior: auto !important;
-    transition-duration: .01ms !important;
-  }
-}
-
-/* ===== MOBILE LANGUAGE SWITCH OUTSIDE MENU ===== */
-
-.lp-header-lang-outside {
-  display: flex;
-  align-items: center;
-}
-
-.lp-lang-switch-outside {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: .4rem;
-  min-height: 38px;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 950;
-  white-space: nowrap;
-}
-
-.lp-lang-short {
-  display: none;
-}
-
-@media (max-width: 767px) {
-  .lp-header .lp-header-shell {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-  }
-
-  .lp-header .lp-header-inner {
-    gap: 8px !important;
-    min-height: 58px !important;
-  }
-
-  .lp-header .lp-header-logo {
-    font-size: clamp(17px, 5vw, 20px) !important;
-    letter-spacing: -0.045em !important;
-  }
-
-  .lp-header .lp-header-actions {
-    gap: 6px !important;
-  }
-
-  .lp-header-lang-outside {
-    display: flex !important;
-    flex: 0 0 auto !important;
-  }
-
-  .lp-lang-switch-outside {
-    min-width: 46px !important;
-    height: 36px !important;
-    min-height: 36px !important;
-    padding: 0 10px !important;
-    border-radius: 999px !important;
-    font-size: 12px !important;
-    line-height: 1 !important;
-    background: linear-gradient(135deg, #fff7fb, #ffffff) !important;
-    color: #be185d !important;
-    border: 1px solid rgba(236, 72, 153, .22) !important;
-    box-shadow: 0 10px 24px rgba(236, 72, 153, .12) !important;
-  }
-
-  html[data-theme="dark"] .lp-lang-switch-outside {
-    background: rgba(255,255,255,.07) !important;
-    color: #fbcfe8 !important;
-    border-color: rgba(249,168,212,.2) !important;
-    box-shadow: 0 12px 28px rgba(0,0,0,.25) !important;
-  }
-
-  .lp-lang-switch-outside .lp-lang-icon {
-    font-size: 13px !important;
-  }
-
-  .lp-lang-switch-outside .lp-lang-full {
-    display: none !important;
-  }
-
-  .lp-lang-switch-outside .lp-lang-short {
-    display: inline !important;
-    font-weight: 1000 !important;
-    letter-spacing: .02em !important;
-  }
-
-  .lp-menumobile-lang-inside {
-    display: none !important;
-  }
-
-  .lp-header .lp-icon-btn {
-    width: 36px !important;
-    height: 36px !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .lp-header-lang-outside {
-    display: flex !important;
-  }
-
-  .lp-lang-switch-outside .lp-lang-full {
-    display: inline !important;
-  }
-
-  .lp-lang-switch-outside .lp-lang-short {
-    display: none !important;
-  }
+html[data-theme="dark"] .lp-menumobile-overlay {
+  background:
+    radial-gradient(circle at 50% 10%, rgba(255,255,255,.08), transparent 34%),
+    rgba(0,0,0,.46);
+  backdrop-filter: blur(14px) saturate(112%);
+  -webkit-backdrop-filter: blur(14px) saturate(112%);
 }
