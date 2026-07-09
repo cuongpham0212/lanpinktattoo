@@ -119,7 +119,7 @@
   {{ $related := first 9 (where $sameSectionPages "Permalink" "ne" .Permalink) }}
 
   {{ with $related }}
-  <section class="lp-related-section bg-pink-50/70 py-12">
+  <section class="lp-related-section py-12">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="mb-8">
         <p class="lp-eyebrow">
@@ -131,7 +131,11 @@
         </p>
 
         <h2 class="mt-2 text-2xl font-black tracking-tight text-neutral-900 sm:text-3xl">
-          {{ partial "related-title-random.html" . }}
+          {{ if eq $.Language.Lang "vi" }}
+            {{ partial "related-title-random.html" . }}
+          {{ else }}
+            Related tattoo ideas and guides
+          {{ end }}
         </h2>
       </div>
       <div class="lp-related-carousel" aria-label="Bài viết liên quan tự chạy"><div class="lp-related-track">
