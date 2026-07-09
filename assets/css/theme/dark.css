@@ -158,38 +158,6 @@ html[data-theme="dark"] .lp-content hr {
   border-top-color:rgba(255,138,199,.18) !important;
 }
 
-/* TOC dark colors */
-html[data-theme="dark"] .lp-toc-content,
-html[data-theme="dark"] .lp-mobile-toc-panel,
-html[data-theme="dark"] .lp-mobile-toc-button{
-  background:rgba(14,12,18,.84) !important;
-  color:#fce7f3 !important;
-  border:1px solid rgba(255,138,199,.18) !important;
-  box-shadow:
-    0 18px 48px rgba(0,0,0,.30),
-    inset 0 1px 0 rgba(255,255,255,.05);
-  backdrop-filter:blur(14px);
-  -webkit-backdrop-filter:blur(14px);
-}
-
-html[data-theme="dark"] .lp-toc-content nav a,
-html[data-theme="dark"] .lp-mobile-toc-panel nav a{
-  color:#decbd5 !important;
-  background:transparent !important;
-  border-color:transparent !important;
-}
-
-html[data-theme="dark"] .lp-toc-content nav a:hover,
-html[data-theme="dark"] .lp-mobile-toc-panel nav a:hover{
-  color:#ff8ac7 !important;
-  background:rgba(255,79,163,.12) !important;
-  border-color:rgba(255,138,199,.18) !important;
-}
-
-html[data-theme="dark"] .lp-mobile-toc-button{
-  color:#ffb7dc !important;
-}
-
 /* Footer dark colors */
 html[data-theme="dark"] .lp-footer{
   background:

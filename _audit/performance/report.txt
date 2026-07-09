@@ -1,0 +1,633 @@
+=== CSS bundle size ===
+-rw-r--r--@ 1 MN  staff   262K Jul  9 16:05 public/css/lanpink-bundle.css
+-rw-r--r--@ 1 MN  staff   201K Jul  9 16:05 public/css/lanpink-bundle.min.395c5cbef0512dbebb02ee170c93de7831e8140e22728106468390cf531e8d2b.css
+
+=== Heavy CSS effects ===
+assets/css/contact.css:15:  box-shadow: var(--shadow);
+assets/css/contact.css:17:  transition:
+assets/css/contact.css:28:  transform: translateY(-4px);
+assets/css/contact.css:34:  transition: color .25s;
+assets/css/gallery.css:27:  box-shadow: var(--shadow);
+assets/css/gallery.css:39:  transition:
+assets/css/gallery.css:49:  transform: scale(1.08);
+assets/css/gallery.css:77:  transition: .35s;
+assets/css/README.md:640:grep -nE 'html\[data-theme=|background:|color:|border-color:|box-shadow:' assets/css/components/home.css
+assets/css/components/article-images.css:15:  box-shadow: 0 10px 30px rgba(236, 72, 153, .16);
+assets/css/components/article-images.css:20:  box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
+assets/css/components/promo-sticky.css:6:    box-shadow:
+assets/css/components/promo-sticky.css:12:    box-shadow:
+assets/css/components/promo-sticky.css:21:    transform: translateY(0) rotate(-8deg) scale(1);
+assets/css/components/promo-sticky.css:24:    transform: translateY(-3px) rotate(-3deg) scale(1.06);
+assets/css/components/promo-sticky.css:41:    transform: translateX(-130%) rotate(12deg);
+assets/css/components/promo-sticky.css:48:    transform: translateX(130%) rotate(12deg);
+assets/css/components/promo-sticky.css:71:  animation: lanpinkStickyGlow 3.4s ease-in-out infinite;
+assets/css/components/promo-sticky.css:91:  animation: lanpinkStickyDot 2.8s ease-in-out infinite;
+assets/css/components/promo-sticky.css:102:  animation: lanpinkStickyBorderPulse 2.2s ease-in-out infinite;
+assets/css/components/promo-sticky.css:120:  animation: lanpinkStickyShineMove 3.4s ease-in-out infinite;
+assets/css/components/promo-sticky.css:166:  box-shadow: 0 8px 18px rgba(14, 165, 233, .28);
+assets/css/components/promo-sticky.css:184:    box-shadow: 0 10px 26px rgba(14, 165, 233, .10) !important;
+assets/css/components/promo-sticky.css:185:    animation: none !important;
+assets/css/components/promo-sticky.css:198:    animation: none !important;
+assets/css/components/promo-sticky.css:229:    box-shadow: 0 8px 18px rgba(14, 165, 233, .18);
+assets/css/components/promo-sticky.css:230:    transition: transform .22s ease, box-shadow .22s ease, background .22s ease;
+assets/css/components/promo-sticky.css:234:    transform: translateY(-1px);
+assets/css/components/promo-sticky.css:236:    box-shadow: 0 12px 24px rgba(14, 165, 233, .28);
+assets/css/components/menumobile.css:32:  box-shadow:
+assets/css/components/menumobile.css:35:  backdrop-filter: blur(22px) saturate(130%);
+assets/css/components/menumobile.css:36:  -webkit-backdrop-filter: blur(22px) saturate(130%);
+assets/css/components/menumobile.css:49:  text-transform: uppercase;
+assets/css/components/menumobile.css:74:  transition: background .18s ease, color .18s ease, transform .18s ease, box-shadow .18s ease;
+assets/css/components/menumobile.css:86:  box-shadow: inset 0 0 0 1px rgba(236,72,153,.08);
+assets/css/components/menumobile.css:90:  transform: translateX(2px);
+assets/css/components/menumobile.css:97:  transition: transform .2s ease;
+assets/css/components/menumobile.css:101:  transform: rotate(180deg);
+assets/css/components/menumobile.css:114:  box-shadow: inset 0 0 0 1px rgba(236,72,153,.08);
+assets/css/components/menumobile.css:144:  transition: background .16s ease, color .16s ease, transform .16s ease;
+assets/css/components/menumobile.css:151:  transform: translateX(2px);
+assets/css/components/menumobile.css:172:  box-shadow: 0 12px 26px rgba(236,72,153,.24);
+assets/css/components/menumobile.css:177:  transition: transform .18s ease, box-shadow .18s ease;
+assets/css/components/menumobile.css:181:  transform: translateY(-1px);
+assets/css/components/menumobile.css:182:  box-shadow: 0 16px 32px rgba(236,72,153,.3);
+assets/css/components/menumobile.css:194:  box-shadow:
+assets/css/components/menumobile.css:212:  box-shadow: inset 0 0 0 1px rgba(255,255,255,.07);
+assets/css/components/menumobile.css:217:  box-shadow: inset 0 0 0 1px rgba(255,255,255,.07);
+assets/css/components/menumobile.css:240:  backdrop-filter: blur(12px) saturate(115%);
+assets/css/components/menumobile.css:241:  -webkit-backdrop-filter: blur(12px) saturate(115%);
+assets/css/components/menumobile.css:253:  backdrop-filter: blur(14px) saturate(112%);
+assets/css/components/menumobile.css:254:  -webkit-backdrop-filter: blur(14px) saturate(112%);
+assets/css/components/home.css:76:  text-transform:uppercase;
+assets/css/components/home.css:120:  transition:transform .2s ease, box-shadow .2s ease;
+assets/css/components/home.css:124:  transform:translateY(-2px);
+assets/css/components/home.css:238:  transition:transform .4s ease, opacity .4s ease;
+assets/css/components/home.css:243:  transform:scale(1.055);
+assets/css/components/home.css:265:  text-transform:uppercase;
+assets/css/components/home.css:296:  animation:lpWorkMarquee 42s linear infinite;
+assets/css/components/home.css:297:  will-change:transform;
+assets/css/components/home.css:319:  from{ transform:translateX(0); }
+assets/css/components/home.css:320:  to{ transform:translateX(calc(-50% - 9px)); }
+assets/css/components/home.css:450:    animation:none;
+assets/css/components/home.css:451:    transition:none;
+assets/css/components/home.css:457:    transform:none;
+assets/css/components/home.css:474:  transform: translateY(10px);
+assets/css/components/home.css:475:  animation: lpHomeHeroReveal .42s cubic-bezier(.16, 1, .3, 1) forwards;
+assets/css/components/home.css:509:    transform: translateY(10px);
+assets/css/components/home.css:515:    transform: translateY(0);
+assets/css/components/home.css:529:    transform: none !important;
+assets/css/components/home.css:530:    animation: none !important;
+assets/css/components/home.css:554:  backdrop-filter: blur(24px) saturate(1.18) !important;
+assets/css/components/home.css:555:  -webkit-backdrop-filter: blur(24px) saturate(1.18) !important;
+assets/css/components/home.css:596:  transition:
+assets/css/components/home.css:604:  transform: translateY(-3px) !important;
+assets/css/components/home.css:613:  transform: scale(1.04) !important;
+assets/css/components/home.css:617:  transition:
+assets/css/components/home.css:626:  transform: translateY(-2px) !important;
+assets/css/components/home.css:630:  transform: translateY(0) scale(.985) !important;
+assets/css/components/home.css:634:  transition:
+assets/css/components/home.css:641:  transform: translateY(-1px) !important;
+assets/css/components/home.css:650:    transition: none !important;
+assets/css/components/home.css:651:    transform: none !important;
+assets/css/components/home.css:666:  animation: lpHeroFloatPink 16s ease-in-out infinite alternate !important;
+assets/css/components/home.css:671:  animation: lpHeroFloatBlue 20s ease-in-out infinite alternate !important;
+assets/css/components/home.css:676:  animation: lpHeroGlassGlow 12s ease-in-out infinite !important;
+assets/css/components/home.css:681:  animation: lpHeroHalo 18s ease-in-out infinite alternate !important;
+assets/css/components/home.css:687:    transform: translate3d(0,0,0) scale(1);
+assets/css/components/home.css:691:    transform: translate3d(-18px,-12px,0) scale(1.05);
+assets/css/components/home.css:695:    transform: translate3d(12px,10px,0) scale(.98);
+assets/css/components/home.css:702:    transform: translate3d(0,0,0) scale(1);
+assets/css/components/home.css:706:    transform: translate3d(16px,-16px,0) scale(1.06);
+assets/css/components/home.css:710:    transform: translate3d(-10px,12px,0) scale(.97);
+assets/css/components/home.css:718:    transform: translateX(-2%);
+assets/css/components/home.css:723:    transform: translateX(2%);
+assets/css/components/home.css:728:    transform: translateX(-2%);
+assets/css/components/home.css:735:    transform: scale(1);
+assets/css/components/home.css:740:    transform: scale(1.06);
+assets/css/components/home.css:745:    transform: scale(.98);
+assets/css/components/home.css:756:    animation: none !important;
+assets/css/components/home.css:774:  backdrop-filter: blur(16px) saturate(1.16) !important;
+assets/css/components/home.css:775:  -webkit-backdrop-filter: blur(16px) saturate(1.16) !important;
+assets/css/components/home.css:776:  transition:
+assets/css/components/home.css:788:  transform: translateX(-140%) !important;
+assets/css/components/home.css:794:  transform: translateY(-3px) !important;
+assets/css/components/home.css:799:  transform: translateX(140%) !important;
+assets/css/components/home.css:800:  transition:
+assets/css/components/home.css:806:  transition: color .2s ease, transform .2s ease !important;
+assets/css/components/home.css:810:  transition: color .2s ease !important;
+assets/css/components/home.css:814:  transform: translateX(2px) !important;
+assets/css/components/home.css:827:    transition: none !important;
+assets/css/components/home.css:828:    transform: none !important;
+assets/css/components/home.css:850:  transform:translateX(-150%) skewX(-18deg);
+assets/css/components/home.css:854:  transform:translateX(150%) skewX(-18deg);
+assets/css/components/home.css:855:  transition:transform .8s ease;
+assets/css/components/home.css:878:  will-change:transform;
+assets/css/components/home.css:884:  transition:
+assets/css/components/home.css:892:  transform:scale(1.08);
+assets/css/components/home.css:945:    transition:none !important;
+assets/css/components/home.css:947:    animation:none !important;
+assets/css/components/home.css:949:    transform:none !important;
+assets/css/components/home.css:1319:      text-transform:uppercase;
+assets/css/components/home.css:1404:    box-shadow: 0 14px 36px rgba(40,24,34,.08);
+assets/css/components/home.css:1405:    backdrop-filter: blur(18px) saturate(1.16);
+assets/css/components/home.css:1406:    -webkit-backdrop-filter: blur(18px) saturate(1.16);
+assets/css/components/home.css:1425:    text-transform: uppercase;
+assets/css/components/home.css:1452:    box-shadow:
+assets/css/components/home.css:1455:    backdrop-filter: blur(22px) saturate(1.14);
+assets/css/components/home.css:1456:    -webkit-backdrop-filter: blur(22px) saturate(1.14);
+assets/css/components/home.css:1476:    text-transform: uppercase;
+assets/css/components/home.css:1537:    box-shadow: 0 12px 28px rgba(45,28,38,.07);
+assets/css/components/member-widget.css:15:  backdrop-filter: blur(10px) saturate(1.18);
+assets/css/components/member-widget.css:16:  -webkit-backdrop-filter: blur(10px) saturate(1.18);
+assets/css/components/member-widget.css:27:  transform: translate(-50%, -50%);
+assets/css/components/member-widget.css:37:  box-shadow:
+assets/css/components/member-widget.css:42:  backdrop-filter: blur(30px) saturate(1.42);
+assets/css/components/member-widget.css:43:  -webkit-backdrop-filter: blur(30px) saturate(1.42);
+assets/css/components/member-widget.css:44:  animation: lpmPopPremium .48s cubic-bezier(.16, 1, .3, 1);
+assets/css/components/member-widget.css:68:  transform: rotate(24deg);
+assets/css/components/member-widget.css:71:  animation: lpmMirrorSweep 5.8s ease-in-out infinite;
+assets/css/components/member-widget.css:91:  box-shadow: inset 0 1px 0 rgba(255,255,255,.86);
+assets/css/components/member-widget.css:92:  backdrop-filter: blur(14px);
+assets/css/components/member-widget.css:93:  -webkit-backdrop-filter: blur(14px);
+assets/css/components/member-widget.css:113:  box-shadow: inset 0 1px 0 rgba(255,255,255,.86);
+assets/css/components/member-widget.css:120:  box-shadow: 0 10px 22px rgba(60, 31, 43, .22);
+assets/css/components/member-widget.css:135:  box-shadow:
+assets/css/components/member-widget.css:147:  animation: lpmDiamondGlow 3.8s ease-in-out infinite;
+assets/css/components/member-widget.css:165:  text-transform: uppercase;
+assets/css/components/member-widget.css:185:  box-shadow:
+assets/css/components/member-widget.css:199:  transform: translateY(-50%);
+assets/css/components/member-widget.css:200:  box-shadow: inset 0 1px 3px rgba(60,31,43,.08);
+assets/css/components/member-widget.css:228:  box-shadow:
+assets/css/components/member-widget.css:262:  transition: transform .22s ease, box-shadow .22s ease, background .22s ease;
+assets/css/components/member-widget.css:269:  box-shadow:
+assets/css/components/member-widget.css:278:  transform: translateX(-130%) skewX(-18deg);
+assets/css/components/member-widget.css:280:  transition: transform .72s ease;
+assets/css/components/member-widget.css:284:  transform: translateY(-2px);
+assets/css/components/member-widget.css:285:  box-shadow:
+assets/css/components/member-widget.css:291:  transform: translateX(130%) skewX(-18deg);
+assets/css/components/member-widget.css:298:  box-shadow: inset 0 1px 0 rgba(255,255,255,.86);
+assets/css/components/member-widget.css:302:  transform: translateY(-2px);
+assets/css/components/member-widget.css:319:  box-shadow:
+assets/css/components/member-widget.css:324:  backdrop-filter: blur(12px) saturate(1.22);
+assets/css/components/member-widget.css:325:  -webkit-backdrop-filter: blur(12px) saturate(1.22);
+assets/css/components/member-widget.css:326:  animation: lpmPulse 3.8s infinite;
+assets/css/components/member-widget.css:335:  animation: lpmRing 3.8s infinite;
+assets/css/components/member-widget.css:363:  box-shadow:
+assets/css/components/member-widget.css:366:  backdrop-filter: blur(24px) saturate(1.2);
+assets/css/components/member-widget.css:367:  -webkit-backdrop-filter: blur(24px) saturate(1.2);
+assets/css/components/member-widget.css:368:  animation: lpmSlide .28s cubic-bezier(.16, 1, .3, 1);
+assets/css/components/member-widget.css:407:  box-shadow:
+assets/css/components/member-widget.css:422:  box-shadow: 0 5px 14px rgba(60,48,54,.12);
+assets/css/components/member-widget.css:466:  box-shadow:
+assets/css/components/member-widget.css:481:  transform: translateY(-1px);
+assets/css/components/member-widget.css:483:  box-shadow:
+assets/css/components/member-widget.css:492:  box-shadow:
+assets/css/components/member-widget.css:528:  box-shadow:
+assets/css/components/member-widget.css:559:  box-shadow: 0 14px 34px rgba(255,79,163,.34);
+assets/css/components/member-widget.css:681:    animation: none !important;
+assets/css/components/member-widget.css:682:    transition: none !important;
+assets/css/components/member-widget.css:689:    transform: translate(-50%, -45%) scale(.92);
+assets/css/components/member-widget.css:694:    transform: translate(-50%, -50%) scale(1);
+assets/css/components/member-widget.css:702:    transform: translateY(14px) scale(.98);
+assets/css/components/member-widget.css:707:    transform: translateY(0) scale(1);
+assets/css/components/member-widget.css:714:    transform: translateX(0) rotate(24deg);
+assets/css/components/member-widget.css:721:    transform: translateX(420%) rotate(24deg);
+assets/css/components/member-widget.css:729:    transform: scale(.96);
+assets/css/components/member-widget.css:733:    transform: scale(1.08);
+assets/css/components/member-widget.css:738:  0%, 72%, 100% { transform: scale(1); }
+assets/css/components/member-widget.css:739:  78% { transform: scale(1.055); }
+assets/css/components/member-widget.css:740:  84% { transform: scale(1); }
+assets/css/components/member-widget.css:746:    transform: scale(.92);
+assets/css/components/member-widget.css:750:    transform: scale(1);
+assets/css/components/member-widget.css:754:    transform: scale(1.18);
+assets/css/components/member-widget.css:774:  transition: transform .2s ease, box-shadow .2s ease, background .2s ease !important;
+assets/css/components/member-widget.css:782:  box-shadow:
+assets/css/components/member-widget.css:789:  transform: translateY(-2px) !important;
+assets/css/components/member-widget.css:791:  box-shadow:
+assets/css/components/member-widget.css:801:  box-shadow:
+assets/css/components/member-widget.css:807:  transform: translateY(-2px) !important;
+assets/css/components/member-widget.css:811:  box-shadow:
+assets/css/components/member-widget.css:866:  box-shadow:
+assets/css/components/member-widget.css:880:  box-shadow:
+assets/css/components/member-widget.css:925:  box-shadow:
+assets/css/components/member-widget.css:931:  transform:translateY(-1px) !important;
+assets/css/components/member-widget.css:938:  box-shadow:
+assets/css/components/member-widget.css:944:  transform:translateY(-1px) !important;
+assets/css/components/member-widget.css:967:    box-shadow:none;
+assets/css/components/member-widget.css:977:    transform:rotate(45deg);
+assets/css/components/member-widget.css:991:    box-shadow:
+assets/css/components/member-widget.css:1014:    animation:lpmCrystalGlow 3.6s ease-in-out infinite;
+assets/css/components/member-widget.css:1029:    transform:rotate(45deg);
+assets/css/components/member-widget.css:1041:        transform:scale(.95);
+assets/css/components/member-widget.css:1046:        transform:scale(1.12);
+assets/css/components/member-widget.css:1068:  box-shadow: none !important;
+assets/css/components/member-widget.css:1082:  box-shadow:
+assets/css/components/member-widget.css:1088:  backdrop-filter: blur(12px) saturate(1.16) !important;
+assets/css/components/member-widget.css:1089:  -webkit-backdrop-filter: blur(12px) saturate(1.16) !important;
+assets/css/components/member-widget.css:1094:  transform: rotate(-18deg) !important;
+assets/css/components/member-widget.css:1099:  transform: rotate(18deg) !important;
+assets/css/components/member-widget.css:1134:  box-shadow:
+assets/css/components/member-widget.css:1165:  box-shadow:
+assets/css/components/member-widget.css:1207:  text-transform:none !important;
+assets/css/components/member-widget.css:1253:  transform: translateY(16px) scale(.975) !important;
+assets/css/components/member-widget.css:1256:  animation: none !important;
+assets/css/components/member-widget.css:1257:  transition:
+assets/css/components/member-widget.css:1266:  transform: translateY(0) scale(1) !important;
+assets/css/components/member-widget.css:1272:  transition:
+assets/css/components/member-widget.css:1279:  transform: translateY(-1px);
+assets/css/components/member-widget.css:1283:  transition:
+assets/css/components/member-widget.css:1291:  transform: rotate(90deg) scale(1.04);
+assets/css/components/member-widget.css:1294:  box-shadow: 0 10px 24px rgba(190, 24, 93, .14) !important;
+assets/css/components/member-widget.css:1302:    transition: none !important;
+assets/css/components/member-widget.css:1303:    transform: none !important;
+assets/css/components/member-widget.css:1414:  transform: translateY(0) !important;
+assets/css/components/member-widget.css:1415:  transition:
+assets/css/components/member-widget.css:1429:  transform: translateX(-130%) skewX(-18deg) !important;
+assets/css/components/member-widget.css:1436:  transition: transform .65s ease !important;
+assets/css/components/member-widget.css:1441:  transform: translateX(130%) skewX(-18deg) !important;
+assets/css/components/member-widget.css:1446:  transform: translateY(-2px) !important;
+assets/css/components/member-widget.css:1451:  transform: translateY(0) scale(.985) !important;
+assets/css/components/member-widget.css:1457:  box-shadow:
+assets/css/components/member-widget.css:1465:  transition: transform .2s ease !important;
+assets/css/components/member-widget.css:1470:  transform: translateX(2px) !important;
+assets/css/components/member-widget.css:1494:  box-shadow:
+assets/css/components/member-widget.css:1508:  transform: translateY(-50%) !important;
+assets/css/components/member-widget.css:1509:  box-shadow: inset 0 1px 4px rgba(60,31,43,.10) !important;
+assets/css/components/member-widget.css:1522:  text-transform: uppercase !important;
+assets/css/components/member-widget.css:1534:  box-shadow:
+assets/css/components/member-widget.css:1548:  transform: translateY(-1px) !important;
+assets/css/components/member-widget.css:1549:  box-shadow:
+assets/css/components/member-widget.css:1578:  transition:
+assets/css/components/member-widget.css:1596:  transform:translateX(-140%);
+assets/css/components/member-widget.css:1602:  transform:translateY(-3px);
+assets/css/components/member-widget.css:1604:  box-shadow:
+assets/css/components/member-widget.css:1612:  transform:translateX(140%);
+assets/css/components/member-widget.css:1613:  transition:
+assets/css/components/member-widget.css:1619:  transition:
+assets/css/components/member-widget.css:1626:  transform:translateX(2px);
+assets/css/components/member-widget.css:1630:  transition:color .2s ease;
+assets/css/components/member-widget.css:1639:  box-shadow:
+assets/css/components/member-widget.css:1658:    transition:none !important;
+assets/css/components/member-widget.css:1659:    animation:none !important;
+assets/css/components/member-widget.css:1660:    transform:none !important;
+assets/css/components/member-widget.css:1681:  transition:
+assets/css/components/member-widget.css:1689:  transform: translateY(-1px) !important;
+assets/css/components/member-widget.css:1691:  box-shadow: 0 10px 22px rgba(190,24,93,.12) !important;
+assets/css/components/member-widget.css:1734:  transition:
+assets/css/components/member-widget.css:1742:  transform: translateY(10px) scale(.86) !important;
+assets/css/components/member-widget.css:1924:    transform: none !important;
+assets/css/components/member-widget.css:1936:  backdrop-filter: blur(12px) saturate(1.16) !important;
+assets/css/components/member-widget.css:1937:  -webkit-backdrop-filter: blur(12px) saturate(1.16) !important;
+assets/css/components/member-widget.css:1944:  backdrop-filter: blur(14px) saturate(1.12) !important;
+assets/css/components/member-widget.css:1945:  -webkit-backdrop-filter: blur(14px) saturate(1.12) !important;
+assets/css/components/booking.css:21:.lp-eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;opacity:.72;margin-bottom:8px}
+assets/css/components/booking.css:26:.lp-calendar-card,.lp-booking-panel{border:1px solid var(--lp-border);border-radius:22px;background:var(--lp-card);box-shadow:var(--lp-shadow);padding:18px}
+assets/css/components/booking.css:36:.lp-day:hover{transform:translateY(-2px);border-color:rgba(240,106,166,.55)}
+assets/css/components/booking.css:54:.lp-admin-secret{position:fixed;left:14px;bottom:14px;width:38px;height:38px;border-radius:999px;z-index:9999;display:flex;align-items:center;justify-content:center;background:#d94f91;color:#fff;text-decoration:none;font-size:18px;box-shadow:0 10px 30px rgba(0,0,0,.24);opacity:.76}
+assets/css/components/hero.css:56:  transition:
+assets/css/components/hero.css:68:  box-shadow:
+assets/css/components/hero.css:81:  box-shadow:
+assets/css/components/hero.css:91:  transform:translateY(-1px);
+assets/css/components/hero.css:97:  box-shadow:
+assets/css/components/hero.css:108:  box-shadow:
+assets/css/components/hero.css:149:  box-shadow:
+assets/css/components/hero.css:154:  backdrop-filter:blur(22px) saturate(1.14);
+assets/css/components/hero.css:155:  -webkit-backdrop-filter:blur(22px) saturate(1.14);
+assets/css/components/hero.css:157:  transition:
+assets/css/components/hero.css:172:  transform:rotate(18deg);
+assets/css/components/hero.css:179:  transform:translateY(-3px);
+assets/css/components/hero.css:181:  box-shadow:
+assets/css/components/hero.css:231:  text-transform:uppercase !important;
+assets/css/components/hero.css:312:  box-shadow:
+assets/css/components/hero.css:316:  backdrop-filter:blur(18px) saturate(1.12);
+assets/css/components/hero.css:317:  -webkit-backdrop-filter:blur(18px) saturate(1.12);
+assets/css/components/hero.css:318:  transition:
+assets/css/components/hero.css:327:  transform:translateY(-3px);
+assets/css/components/hero.css:329:  box-shadow:
+assets/css/components/hero.css:391:  box-shadow:
+assets/css/components/hero.css:395:  transition:
+assets/css/components/hero.css:403:  transform:translateY(-3px);
+assets/css/components/hero.css:405:  box-shadow:
+assets/css/components/hero.css:438:  transform:translateY(14px);
+assets/css/components/hero.css:439:  animation:lpHeroReveal .72s cubic-bezier(.16,1,.3,1) forwards;
+assets/css/components/hero.css:440:  will-change:opacity, transform;
+assets/css/components/hero.css:472:    transform:translateY(14px);
+assets/css/components/hero.css:473:    filter:blur(5px);
+assets/css/components/hero.css:477:    transform:translateY(0);
+assets/css/components/hero.css:478:    filter:blur(0);
+assets/css/components/hero.css:493:  box-shadow:
+assets/css/components/hero.css:623:    transform:none !important;
+assets/css/components/hero.css:624:    animation:none !important;
+assets/css/components/hero.css:626:    transition:none !important;
+assets/css/components/hero.css:752:  box-shadow:
+assets/css/components/hero.css:756:  backdrop-filter:blur(18px) saturate(1.14);
+assets/css/components/hero.css:757:  -webkit-backdrop-filter:blur(18px) saturate(1.14);
+assets/css/components/hero.css:758:  transition:transform .24s ease, box-shadow .24s ease, border-color .24s ease;
+assets/css/components/hero.css:762:  transform:translateY(-3px);
+assets/css/components/hero.css:764:  box-shadow:
+assets/css/components/hero.css:776:  text-transform:uppercase;
+assets/css/components/performance.css:11:    animation: none !important;
+assets/css/components/performance.css:16:    animation: none !important;
+assets/css/components/performance.css:23:    backdrop-filter: none !important;
+assets/css/components/performance.css:24:    -webkit-backdrop-filter: none !important;
+assets/css/components/performance.css:34:    transform: none !important;
+assets/css/components/mobile-gd1-header.css:246:    box-shadow:
+assets/css/components/mobile-gd1-header.css:250:    animation: lpLangGlow 2.8s ease-in-out infinite;
+assets/css/components/mobile-gd1-header.css:273:    box-shadow:
+assets/css/components/mobile-gd1-header.css:279:    box-shadow:
+assets/css/components/mobile-gd1-header.css:288:    animation: none !important;
+assets/css/components/article.css:21:  box-shadow:
+assets/css/components/article.css:24:  backdrop-filter: blur(18px);
+assets/css/components/article.css:25:  -webkit-backdrop-filter: blur(18px);
+assets/css/components/article.css:33:  box-shadow: none;
+assets/css/components/article.css:407:  box-shadow: 0 8px 22px rgba(236,72,153,.08) !important;
+assets/css/components/article.css:414:  transform: translateY(-2px);
+assets/css/components/article.css:566:  animation:lpRelatedMarquee 38s linear infinite;
+assets/css/components/article.css:567:  will-change:transform;
+assets/css/components/article.css:583:  from{transform:translateX(0);}
+assets/css/components/article.css:584:  to{transform:translateX(calc(-50% - .75rem));}
+assets/css/components/article.css:601:    animation:lpRelatedMarqueeMobile 32s linear infinite;
+assets/css/components/article.css:618:  from{transform:translateX(0);}
+assets/css/components/article.css:619:  to{transform:translateX(calc(-50% - .5rem));}
+assets/css/components/article.css:624:    animation:none!important;
+assets/css/components/article.css:655:  box-shadow:
+assets/css/components/article.css:813:  box-shadow: none !important;
+assets/css/components/article.css:814:  backdrop-filter: none !important;
+assets/css/components/article.css:815:  -webkit-backdrop-filter: none !important;
+assets/css/components/article.css:826:    box-shadow: none !important;
+assets/css/components/button.css:78:  transform:translateZ(0);
+assets/css/components/button.css:79:  transition:
+assets/css/components/button.css:103:  box-shadow:var(--lp-btn-shadow) !important;
+assets/css/components/button.css:116:  box-shadow:var(--lp-btn-secondary-shadow) !important;
+assets/css/components/button.css:135:  box-shadow:var(--lp-btn-shadow-hover) !important;
+assets/css/components/button.css:137:  transform:translateY(-1px);
+assets/css/components/button.css:147:  box-shadow:
+assets/css/components/button.css:153:  transform:translateY(-1px);
+assets/css/components/button.css:232:  box-shadow:var(--lp-btn-secondary-shadow) !important;
+assets/css/components/button.css:237:  transform:translateY(-1px);
+assets/css/components/button.css:263:    transition:none;
+assets/css/components/button.css:304:  box-shadow:
+assets/css/components/button.css:319:  box-shadow:
+assets/css/components/button.css:340:  box-shadow:
+assets/css/components/button.css:397:  box-shadow:
+assets/css/components/button.css:404:  backdrop-filter:blur(16px) saturate(1.18);
+assets/css/components/button.css:405:  -webkit-backdrop-filter:blur(16px) saturate(1.18);
+assets/css/components/button.css:417:  box-shadow:
+assets/css/components/button.css:423:  backdrop-filter:blur(16px) saturate(1.16);
+assets/css/components/button.css:424:  -webkit-backdrop-filter:blur(16px) saturate(1.16);
+assets/css/components/button.css:441:  box-shadow:
+assets/css/components/button.css:458:  box-shadow:
+assets/css/components/header.css:28:  transition:
+assets/css/components/header.css:37:  transform: translateY(-1px);
+assets/css/components/header.css:44:  box-shadow:
+assets/css/components/header.css:72:  transform: translateY(8px);
+assets/css/components/header.css:73:  transition:
+assets/css/components/header.css:83:  transform: translateY(0);
+assets/css/components/header.css:95:  transition:
+assets/css/components/header.css:103:  transform: translateX(2px);
+assets/css/components/header.css:110:  box-shadow:
+assets/css/components/header.css:113:  backdrop-filter: blur(18px);
+assets/css/components/header.css:188:  transform: none !important;
+assets/css/components/header.css:194:  box-shadow: 0 8px 22px rgba(219, 39, 119, .14);
+assets/css/components/header.css:220:  box-shadow: 0 10px 24px rgba(24,24,27,.10);
+assets/css/components/header.css:221:  transition: transform .18s ease, box-shadow .18s ease;
+assets/css/components/header.css:225:  transform: translateY(-1px);
+assets/css/components/header.css:226:  box-shadow: 0 14px 34px rgba(219,39,119,.18);
+assets/css/components/components.css:21:  transition:
+assets/css/components/components.css:37:  transform: translateY(-2px);
+assets/css/components/components.css:53:  box-shadow:
+assets/css/components/components.css:103:  box-shadow: var(--shadow);
+assets/css/components/components.css:105:  transition:
+assets/css/components/components.css:117:  transform: translateY(-6px);
+assets/css/components/components.css:143:  box-shadow: var(--shadow);
+assets/css/components/portfolio.css:21:  transition: transform .5s ease;
+assets/css/components/portfolio.css:25:  transform: scale(1.05);
+assets/css/components/promo-hero.css:24:  box-shadow:
+assets/css/components/promo-hero.css:34:  transform:translateX(-120%);
+assets/css/components/promo-hero.css:35:  animation:lanpinkPromoShine 6s ease-in-out infinite;
+assets/css/components/promo-hero.css:93:  box-shadow:0 14px 34px rgba(255,92,168,.25);
+assets/css/components/promo-hero.css:94:  transition:transform .22s ease, box-shadow .22s ease;
+assets/css/components/promo-hero.css:98:  transform:translateY(-2px);
+assets/css/components/promo-hero.css:99:  box-shadow:0 18px 42px rgba(255,92,168,.34);
+assets/css/components/promo-hero.css:119:  box-shadow:
+assets/css/components/promo-hero.css:122:  animation:lanpinkSaleFloat 3.8s ease-in-out infinite;
+assets/css/components/promo-hero.css:126:  0%,52%{transform:translateX(-120%);opacity:0;}
+assets/css/components/promo-hero.css:128:  82%,100%{transform:translateX(120%);opacity:0;}
+assets/css/components/promo-hero.css:132:  0%,100%{transform:translateY(0) rotate(-8deg) scale(1);}
+assets/css/components/promo-hero.css:133:  50%{transform:translateY(-10px) rotate(-4deg) scale(1.035);}
+assets/css/components/promo-hero.css:207:    transform:translateY(-2px);
+assets/css/components/promo-hero.css:209:    box-shadow:
+assets/css/components/promo-hero.css:227:    filter:blur(10px);
+assets/css/components/promo-hero.css:232:    transform:translateY(-8px) rotateX(.8deg);
+assets/css/components/promo-hero.css:233:    box-shadow:
+assets/css/components/promo-hero.css:243:    transition:
+assets/css/components/promo-hero.css:267:  box-shadow:
+assets/css/components/promo-hero.css:288:  box-shadow:
+assets/css/components/promo-hero.css:307:  animation:lanpinkPromoShineFast 3.2s ease-in-out infinite !important;
+assets/css/components/promo-hero.css:313:    transform:translateX(-125%);
+assets/css/components/promo-hero.css:320:    transform:translateX(125%);
+assets/css/components/promo-hero.css:327:    transform:translateX(125%);
+assets/css/components/promo-hero.css:334:    animation:none !important;
+assets/css/components/promo-hero.css:353:    box-shadow: none !important;
+assets/css/components/google-review-card.css:17:  box-shadow:
+assets/css/components/google-review-card.css:30:  transform:rotate(18deg);
+assets/css/components/google-review-card.css:78:  box-shadow:
+assets/css/components/google-review-card.css:138:  box-shadow:0 12px 26px rgba(80,38,58,.12);
+assets/css/components/google-review-card.css:139:  transition:transform .24s ease, box-shadow .24s ease;
+assets/css/components/google-review-card.css:143:  transform:translateY(-3px) scale(1.015);
+assets/css/components/google-review-card.css:144:  box-shadow:0 18px 36px rgba(80,38,58,.18);
+assets/css/components/footer.css:21:  transform: translateX(-50%);
+assets/css/components/footer.css:39:  box-shadow: 0 18px 55px rgba(236,72,153,.10);
+assets/css/components/footer.css:40:  backdrop-filter: blur(18px);
+assets/css/components/footer.css:68:  text-transform: uppercase;
+assets/css/components/footer.css:94:  text-transform: uppercase;
+assets/css/components/footer.css:117:  transform: translateY(-1px);
+assets/css/components/footer.css:132:  transition: color .22s ease, background .22s ease, border-color .22s ease, transform .22s ease;
+assets/css/components/footer.css:192:  transform: translateY(-1px);
+assets/css/components/footer.css:234:  box-shadow: 0 22px 70px rgba(0,0,0,.34);
+assets/css/components/footer.css:383:    box-shadow: inset 0 0 0 1px rgba(236,72,153,.12);
+assets/css/components/toc.css:10:  box-shadow: 0 18px 45px rgba(236, 72, 153, .1);
+assets/css/components/toc.css:11:  backdrop-filter: blur(16px);
+assets/css/components/toc.css:35:  box-shadow: 0 20px 55px rgba(0, 0, 0, .34);
+assets/css/components/toc.css:64:    transform: none;
+assets/css/components/toc.css:109:    box-shadow:
+assets/css/components/toc.css:113:    backdrop-filter: blur(32px) saturate(1.9);
+assets/css/components/toc.css:114:    -webkit-backdrop-filter: blur(32px) saturate(1.9);
+assets/css/components/toc.css:134:    box-shadow:
+assets/css/components/toc.css:137:    backdrop-filter: blur(34px) saturate(1.8);
+assets/css/components/toc.css:138:    -webkit-backdrop-filter: blur(34px) saturate(1.8);
+assets/css/components/toc.css:204:  box-shadow: none !important;
+assets/css/components/toc.css:259:  box-shadow:
+assets/css/components/toc.css:263:  backdrop-filter: blur(32px) saturate(1.38) !important;
+assets/css/components/toc.css:264:  -webkit-backdrop-filter: blur(32px) saturate(1.38) !important;
+assets/css/theme/dark.css:89:  box-shadow:
+assets/css/theme/dark.css:92:  backdrop-filter:blur(14px);
+assets/css/theme/dark.css:93:  -webkit-backdrop-filter:blur(14px);
+assets/css/theme/dark.css:113:  box-shadow:
+assets/css/theme/dark.css:130:  box-shadow:0 18px 48px rgba(0,0,0,.28);
+assets/css/theme/dark.css:207:  box-shadow:
+assets/css/theme/dark.css:210:  backdrop-filter:blur(18px) saturate(140%);
+assets/css/theme/dark.css:211:  -webkit-backdrop-filter:blur(18px) saturate(140%);
+assets/css/theme/dark.css:234:  box-shadow:0 14px 34px rgba(255,79,163,.34) !important;
+assets/css/theme/dark.css:261:  filter:blur(42px);
+assets/css/theme/dark.css:288:  filter:blur(6px);
+assets/css/theme/dark.css:299:  box-shadow: 0 22px 70px rgba(0,0,0,.24) !important;
+assets/css/theme/dark.css:300:  backdrop-filter: blur(18px) saturate(1.14);
+assets/css/theme/dark.css:301:  -webkit-backdrop-filter: blur(18px) saturate(1.14);
+assets/css/theme/dark.css:307:  box-shadow:0 18px 52px rgba(0,0,0,.28) !important;
+assets/css/theme/dark.css:308:  backdrop-filter:blur(14px);
+assets/css/theme/dark.css:309:  -webkit-backdrop-filter:blur(14px);
+assets/css/theme/dark.css:340:  box-shadow:0 18px 46px rgba(0,0,0,.30) !important;
+assets/css/theme/dark.css:341:  backdrop-filter: blur(14px) saturate(1.12);
+assets/css/theme/dark.css:342:  -webkit-backdrop-filter: blur(14px) saturate(1.12);
+assets/css/theme/dark.css:392:  box-shadow:0 14px 34px rgba(0,0,0,.26) !important;
+assets/css/theme/dark.css:393:  backdrop-filter: blur(14px) saturate(1.12);
+assets/css/theme/dark.css:394:  -webkit-backdrop-filter: blur(14px) saturate(1.12);
+assets/css/theme/dark.css:409:  box-shadow:
+assets/css/theme/dark.css:423:  box-shadow:
+assets/css/theme/dark.css:441:  box-shadow:
+assets/css/theme/light.css:90:  box-shadow:inset 0 1px 0 rgba(255,255,255,.88) !important;
+assets/css/theme/light.css:109:  box-shadow:var(--glass-shadow) !important;
+assets/css/theme/light.css:110:  backdrop-filter:var(--glass-blur) !important;
+assets/css/theme/light.css:111:  -webkit-backdrop-filter:var(--glass-blur) !important;
+assets/css/theme/light.css:141:  transform:rotate(10deg) translateX(0);
+assets/css/theme/light.css:143:  transition:transform .85s cubic-bezier(.22,1,.36,1), opacity .35s ease;
+assets/css/theme/light.css:156:  transform:rotate(10deg) translateX(260%);
+assets/css/theme/light.css:166:  box-shadow:
+assets/css/theme/light.css:188:  filter:blur(24px);
+assets/css/theme/light.css:208:  backdrop-filter:blur(28px) saturate(1.24);
+assets/css/theme/light.css:209:  -webkit-backdrop-filter:blur(28px) saturate(1.24);
+assets/css/theme/light.css:213:  box-shadow:
+assets/css/theme/light.css:220:  box-shadow:inset 0 1px 0 rgba(255,255,255,.55);
+assets/css/theme/light.css:226:  filter:blur(14px);
+assets/css/theme/light.css:233:  box-shadow:
+assets/css/theme/light.css:237:  backdrop-filter:blur(30px) saturate(1.26) !important;
+assets/css/theme/light.css:238:  -webkit-backdrop-filter:blur(30px) saturate(1.26) !important;
+assets/css/theme/light.css:247:  box-shadow:inset 0 1px 0 rgba(255,255,255,.72);
+assets/css/theme/light.css:270:  box-shadow:
+assets/css/theme/light.css:307:  box-shadow:0 12px 34px rgba(86,58,76,.10);
+assets/css/theme/light.css:308:  backdrop-filter:blur(18px) saturate(1.16);
+assets/css/theme/light.css:309:  -webkit-backdrop-filter:blur(18px) saturate(1.16);
+assets/css/theme/light.css:324:  box-shadow:var(--glass-shadow-soft) !important;
+assets/css/theme/light.css:342:    transition:none;
+assets/css/theme/light.css:354:  box-shadow:
+assets/css/theme/light.css:364:  box-shadow:
+assets/css/theme/light.css:371:  box-shadow:
+assets/css/theme/light.css:380:  box-shadow:
+assets/css/theme/light.css:392:  box-shadow:
+assets/css/theme/light.css:400:  box-shadow:
+assets/css/theme/light.css:427:  box-shadow: 0 10px 24px rgba(80, 38, 58, .10) !important;
+assets/css/theme/light.css:442:  box-shadow:
+assets/css/theme/light.css:457:  box-shadow:0 8px 20px rgba(218,60,130,.10);
+assets/css/theme/light.css:493:  box-shadow:
+assets/css/theme/light.css:499:  box-shadow:
+assets/css/layout.css:58:  transition: background .3s ease, color .3s ease;
+assets/css/layout.css:121:  text-transform: uppercase;
+assets/css/layout.css:155:  transition: color .25s ease;
+assets/css/layout.css:165:  box-shadow: var(--shadow);
+assets/css/layout.css:166:  backdrop-filter: blur(16px);
+assets/css/layout.css:167:  transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+assets/css/layout.css:171:  transform: translateY(-5px);
+assets/css/layout.css:173:  box-shadow: var(--shadow-pink);
+assets/css/layout.css:328:  box-shadow: 0 18px 55px rgba(0,0,0,.26);
+assets/css/layout.css:329:  backdrop-filter: blur(18px);
+assets/css/layout.css:341:  text-transform: uppercase;
+assets/css/layout.css:389:  box-shadow:
+layouts/shortcodes/lp-gallery.html:51:  box-shadow: 0 14px 30px rgba(177,62,119,.11);
+layouts/shortcodes/lp-gallery.html:53:  transition: .22s ease;
+layouts/shortcodes/lp-gallery.html:56:  transform: translateY(-5px);
+layouts/shortcodes/lp-gallery.html:57:  box-shadow: 0 22px 42px rgba(177,62,119,.17);
+layouts/shortcodes/lp-gallery.html:89:  box-shadow: 0 28px 80px rgba(0,0,0,.46);
+layouts/shortcodes/lp-gallery.html:117:  transform: translateY(-50%);
+layouts/shortcodes/lp-gallery.html:126:  transform: translateX(-50%);
+layouts/shortcodes/payment-info-form.html:15:  box-shadow:0 24px 70px rgba(236,72,153,.14);
+layouts/shortcodes/payment-info-form.html:39:  box-shadow:0 10px 28px rgba(236,72,153,.12);
+layouts/shortcodes/payment-info-form.html:83:  box-shadow:0 8px 18px rgba(236,72,153,.28);
+layouts/shortcodes/payment-info-form.html:119:  box-shadow:inset 0 1px 0 rgba(255,255,255,.8);
+layouts/shortcodes/payment-info-form.html:124:  box-shadow:0 0 0 4px rgba(236,72,153,.14);
+layouts/shortcodes/payment-info-form.html:174:  box-shadow:0 18px 34px rgba(236,72,153,.28);
+layouts/shortcodes/payment-info-form.html:178:  transform:translateY(-1px);
+layouts/shortcodes/payment-info-form.html:273:  backdrop-filter:blur(6px);
+layouts/shortcodes/payment-info-form.html:283:  box-shadow:0 28px 80px rgba(0,0,0,.28);
+layouts/shortcodes/payment-info-form.html:321:  box-shadow:0 0 0 4px rgba(190,24,93,.12)!important;
+layouts/partials/back-to-top.html:27:    box-shadow: 0 12px 30px rgba(190, 24, 93, 0.22);
+layouts/partials/back-to-top.html:28:    backdrop-filter: blur(10px);
+layouts/partials/back-to-top.html:29:    -webkit-backdrop-filter: blur(10px);
+layouts/partials/back-to-top.html:33:    transform: translateY(12px);
+layouts/partials/back-to-top.html:35:    transition: opacity 0.22s ease, visibility 0.22s ease, transform 0.22s ease, background 0.22s ease;
+layouts/partials/back-to-top.html:41:    transform: translateY(0);
+layouts/partials/back-to-top.html:48:    transform: translateY(-2px);
+
+=== Mobile performance rules hiện có ===
+/* Lan Pink Performance
+   Owner: global reduced motion + mobile performance reductions
+   Không đặt style riêng của component tại đây.
+*/
+
+@media (max-width: 768px) {
+  .lanpink-promo-hero__inner::before,
+  .lanpink-promo-sticky::before,
+  .lanpink-promo-sticky::after,
+  .lanpink-promo-sticky__text::after {
+    animation: none !important;
+  }
+
+  .lanpink-promo-hero__sale,
+  .lanpink-promo-sticky {
+    animation: none !important;
+  }
+
+  .lp-header,
+  .lp-menumobile,
+  .lp-footer-card,
+  .lp-hero-main {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  .lp-btn:hover,
+  .lp-nav-link:hover,
+  .lp-menumobile-link:hover,
+  .lp-footer a:hover,
+  .lp-image-card:hover img,
+  .lp-real-card:hover img,
+  .gallery-item:hover img {
+    transform: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}
+
+=== Head CSS import order ===
+107:  "css/main.css"
+108:  "css/layout.css"
+109:  "css/custom.css"
+110:  "css/contact.css"
+111:  "css/gallery.css"
+112:  "css/components/gallery-readmore.css"
+113:  "css/components/components.css"
+114:  "css/components/button.css"
+115:  "css/components/member-widget.css"
+116:  "css/components/article-images.css"
+117:  "css/components/hero.css"
+118:  "css/components/home.css"
+119:  "css/components/promo-sticky.css"
+120:  "css/components/promo-hero.css"
+121:  "css/components/portfolio.css"
+122:  "css/components/header.css"
+123:  "css/components/menumobile.css"
+124:  "css/components/mobile-gd1-header.css"
+125:  "css/components/footer.css"
+126:  "css/components/toc.css"
+127:  "css/components/article.css"
+128:  "css/components/google-review-card.css"
+129:  "css/components/performance.css"
+130:  "css/theme/light.css"
+131:  "css/theme/dark.css"
+145:  {{ $bundle := $cssResources | resources.Concat "css/lanpink-bundle.css" | css.PostCSS }}

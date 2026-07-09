@@ -245,9 +245,33 @@ article.lp-single-page .lp-toc-toggle-text {
 
 
 /* Dark mode - article TOC shell */
-html[data-theme="dark"] article.lp-single-page .lp-toc,
+html[data-theme="dark"] article.lp-single-page .lp-toc {
+  background: transparent !important;
+  border-color: rgba(244,114,182,.16) !important;
+}
+
 html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-button,
 html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-panel {
-  background: linear-gradient(180deg, rgba(39,39,42,.94), rgba(24,24,27,.96)) !important;
-  border-color: rgba(244,114,182,.18) !important;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,.16), rgba(255,138,199,.08)),
+    rgba(18,15,22,.42) !important;
+  border-color: rgba(255,210,235,.34) !important;
+  box-shadow:
+    0 18px 46px rgba(0,0,0,.24),
+    inset 0 1px 0 rgba(255,255,255,.20),
+    inset 0 -1px 0 rgba(255,255,255,.07) !important;
+  backdrop-filter: blur(32px) saturate(1.38) !important;
+  -webkit-backdrop-filter: blur(32px) saturate(1.38) !important;
+}
+
+html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-button,
+html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-button * {
+  color: #fff1f8 !important;
+  -webkit-text-fill-color: #fff1f8 !important;
+  text-shadow: 0 1px 8px rgba(0,0,0,.35);
+}
+
+html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-panel a {
+  color: #fff7fb !important;
+  text-shadow: 0 1px 8px rgba(0,0,0,.32);
 }

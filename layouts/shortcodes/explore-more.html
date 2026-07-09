@@ -2,7 +2,7 @@
 
 {{ if $related }}
 
-{{ $explorePrompts := slice
+{{ $explorePromptsVi := slice
   "Nếu anh/chị muốn mở rộng thêm ý tưởng, Lan Pink chọn vài bài phù hợp ngay dưới đây."
   "Một vài nội dung gần chủ đề này có thể giúp anh/chị nhìn rõ hơn hướng hình xăm mình thích."
   "Lan Pink gợi ý thêm vài bài viết để anh/chị khám phá tiếp theo cùng mạch cảm hứng."
@@ -11,6 +11,16 @@
   "Mình có thể xem thêm vài chủ đề gần nhau dưới đây trước khi chốt ý tưởng cuối cùng."
 }}
 
+{{ $explorePromptsEn := slice
+  "If you want to explore more ideas, Lan Pink has selected a few related articles below."
+  "These related articles may help you find a clearer direction for your tattoo idea."
+  "Lan Pink suggests a few more articles to continue the same inspiration."
+  "If you are looking for more reference ideas, the articles below may be worth reading."
+  "You may find another helpful angle from these related topics."
+  "You can explore a few nearby topics below before finalizing your tattoo idea."
+}}
+
+{{ $explorePrompts := cond (eq .Page.Language.Lang "vi") $explorePromptsVi $explorePromptsEn }}
 {{ $exploreIdx := mod (add now.Unix 3) (len $explorePrompts) }}
 {{ $explorePrompt := index $explorePrompts $exploreIdx }}
 
