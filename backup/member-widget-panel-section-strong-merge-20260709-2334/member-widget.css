@@ -382,19 +382,19 @@
 }
 
 .lpm-panel h3 {
-  margin: 0 38px 2px 0;
+  margin: 0 38px 3px 0;
   color: #21171b;
-  font-size: 19px;
-  line-height: 1.08;
+  font-size: 21px;
+  line-height: 1.1;
   font-weight: 950;
   letter-spacing: -.035em;
 }
 
 .lpm-panel-note {
-  margin: 0 0 9px;
+  margin: 0 0 12px;
   color: #5e5659;
-  font-size: 12.5px;
-  line-height: 1.32;
+  font-size: 13px;
+  line-height: 1.35;
   font-weight: 800;
 }
 
@@ -439,14 +439,11 @@
 
 .lpm-panel-section strong {
   display: block;
-  margin: 0 0 3px;
+  margin: 0 0 5px;
   color: #24151b;
-  font-size: 14.5px;
-  line-height: 1.18;
+  font-size: 15.5px;
+  line-height: 1.22;
   font-weight: 950;
-  transition:
-    color .2s ease,
-    transform .2s ease;
 }
 
 .lpm-panel-section p {
@@ -1350,12 +1347,30 @@ html[data-theme="dark"] .lpm-popup .lpm-icon + h2::before {
   margin-bottom: 9px !important;
 }
 
+.lpm-panel h3 {
+  font-size: 19px !important;
+  line-height: 1.08 !important;
+  margin-bottom: 2px !important;
+}
+
+.lpm-panel-note {
+  margin-bottom: 9px !important;
+  font-size: 12.5px !important;
+  line-height: 1.32 !important;
+}
+
 .lpm-panel-section::before {
   left: 12px !important;
   top: 12px !important;
   width: 22px !important;
   height: 22px !important;
   font-size: 12px !important;
+}
+
+.lpm-panel-section strong {
+  margin-bottom: 3px !important;
+  font-size: 14.5px !important;
+  line-height: 1.18 !important;
 }
 
 .lpm-panel .lpm-panel-btn,
@@ -1563,6 +1578,12 @@ html[data-theme="dark"] .lpm-panel-code span {
   transition:
     transform .85s ease,
     opacity .25s ease;
+}
+
+.lpm-panel-section strong{
+  transition:
+    color .2s ease,
+    transform .2s ease;
 }
 
 .lpm-panel-section:hover strong{

@@ -571,31 +571,3 @@ html[data-theme="dark"] .lp-footer-bottom p:last-child {
     text-align: center !important;
   }
 }
-
-/* LP FIX: global embedded map sizing
-   Owner: layouts/partials/map.html
-   Reason: map.html is included site-wide from baseof.html, not only contact pages.
-*/
-.lp-map-card {
-  height: auto;
-  min-height: 430px;
-}
-
-.lp-map-card iframe {
-  display: block;
-  width: 100%;
-  height: 430px;
-  min-height: 430px;
-  border: 0;
-}
-
-@media (max-width: 1023px) {
-  .lp-map-card {
-    min-height: 360px;
-  }
-
-  .lp-map-card iframe {
-    height: 360px;
-    min-height: 360px;
-  }
-}

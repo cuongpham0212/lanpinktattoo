@@ -1,0 +1,68 @@
+{{- $reviewID := .Params.google_review_id -}}
+{{- $lang := .Site.Language.Lang -}}
+{{- $isEN := eq $lang "en" -}}
+{{- if $reviewID -}}
+  {{- $reviews := site.Data.google_reviews -}}
+  {{- $review := index $reviews $reviewID -}}
+  {{- if $review -}}
+
+<section class="lp-google-review-card">
+  <div class="lp-google-review-intro">
+    <div>
+      <h2>{{ if $isEN }}What do clients say about Lan Pink?{{ else }}Khách hàng nói gì về Lan Pink?{{ end }}</h2>
+      <div class="lp-google-review-stars">
+        {{- range seq 1 (int (default 5 $review.rating)) }}<span>★</span>{{ end -}}
+      </div>
+      <strong>{{ $review.reviewer_name }}</strong>
+    </div>
+
+    {{- with $review.google_review_url }}
+    <a class="lp-google-review-verified" href="{{ . }}" target="_blank" rel="nofollow noopener">
+      {{ if $isEN }}Verified on Google Review →{{ else }}Đã xác thực từ Google Review →{{ end }}
+    </a>
+    {{- end }}
+  </div>
+
+  <p class="lp-google-review-text">“{{ $review.review_text }}”</p>
+
+  <div class="lp-google-review-details">
+    {{- with $review.service_price }}<div><strong>{{ if $isEN }}Price{{ else }}Giá{{ end }}:</strong><br>{{ . }}</div>{{- end }}
+    {{- with $review.service_note }}<div><strong>{{ if $isEN }}Service{{ else }}Dịch vụ{{ end }}:</strong><br>{{ . }}</div>{{- end }}
+    {{- with $review.style_request }}<div><strong>{{ if $isEN }}Requested style{{ else }}Phong cách đã yêu cầu{{ end }}:</strong><br>{{ . }}</div>{{- end }}
+    {{- with $review.cleanliness }}<div><strong>{{ if $isEN }}Cleanliness{{ else }}Mức độ sạch sẽ{{ end }}:</strong><br>{{ . }}</div>{{- end }}
+    {{- with $review.artist_feedback }}<div><strong>{{ if $isEN }}Artist feedback{{ else }}Nhà tạo mẫu{{ end }}:</strong><br>{{ . }}</div>{{- end }}
+  </div>
+
+  {{- $gallerySlug := $review.feedback_gallery_slug | default "" -}}
+  {{- $gallery := index site.Data.galleries $gallerySlug -}}
+
+  {{- if and $gallery $gallery.images }}
+    <div class="lp-google-review-images">
+      {{- range $gallery.images }}
+        {{- $src := or .src .url .image .cdn -}}
+        {{- if $src }}
+        <a href="{{ $src }}" target="_blank" rel="nofollow noopener">
+          <img src="{{ $src }}" alt="{{ or .alt (cond $isEN "Client feedback photo at Lan Pink Tattoo" "Ảnh feedback khách hàng tại Lan Pink Tattoo") }}" loading="lazy">
+        </a>
+        {{- end }}
+      {{- end }}
+    </div>
+  {{- else }}
+    {{- with $review.feedback_images }}
+    <div class="lp-google-review-images">
+      {{- range . }}
+      <a href="{{ . }}" target="_blank" rel="nofollow noopener">
+        <img src="{{ . }}" alt="{{ if $isEN }}Client feedback photo at Lan Pink Tattoo{{ else }}Ảnh feedback khách hàng tại Lan Pink Tattoo{{ end }}" loading="lazy">
+      </a>
+      {{- end }}
+    </div>
+    {{- end }}
+  {{- end }}
+
+  <div class="lp-google-review-foot">
+    {{ if $isEN }}Real client review after a tattoo session at Lan Pink Ink Studio{{ else }}Review thật từ khách hàng sau buổi xăm tại Lan Pink Ink Studio{{ end }}
+  </div>
+</section>
+
+  {{- end -}}
+{{- end -}}

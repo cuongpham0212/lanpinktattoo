@@ -501,3 +501,94 @@ html[data-theme="light"] .lp-hero-actions a:focus-visible {
     0 0 0 5px rgba(92,174,236,.70),
     0 14px 30px rgba(190,24,93,.18) !important;
 }
+
+/* ===== Google Review Card theme owner ===== */
+html[data-theme="light"] .lp-google-review-card{
+  background:
+    radial-gradient(circle at 10% 12%, rgba(255,255,255,.92), transparent 34%),
+    linear-gradient(145deg, rgba(255,255,255,.78), rgba(255,239,248,.56)) !important;
+  border:1px solid rgba(255,255,255,.90) !important;
+  box-shadow:
+    0 24px 64px rgba(80,38,58,.14),
+    0 0 0 1px rgba(92,174,236,.14),
+    inset 0 1px 0 rgba(255,255,255,.94) !important;
+  backdrop-filter:blur(22px) saturate(1.18);
+  -webkit-backdrop-filter:blur(22px) saturate(1.18);
+}
+
+html[data-theme="light"] .lp-google-review-card::before{
+  background:linear-gradient(115deg, transparent, rgba(255,255,255,.42), transparent);
+  opacity:.72;
+}
+
+html[data-theme="light"] .lp-google-review-intro h2,
+html[data-theme="light"] .lp-google-review-intro strong,
+html[data-theme="light"] .lp-google-review-detail-item strong{
+  color:#35212c !important;
+}
+
+html[data-theme="light"] .lp-google-review-stars{
+  color:#f3a300;
+}
+
+html[data-theme="light"] .lp-google-review-meta,
+html[data-theme="light"] .lp-google-review-language,
+html[data-theme="light"] .lp-google-review-detail-question,
+html[data-theme="light"] .lp-google-review-foot{
+  color:#7d6673 !important;
+}
+
+html[data-theme="light"] .lp-google-review-text{
+  color:#5e4854 !important;
+}
+
+html[data-theme="light"] .lp-google-review-verified{
+  color:#b74078 !important;
+  background:linear-gradient(180deg, rgba(255,255,255,.78), rgba(255,239,248,.56)) !important;
+  border:1px solid rgba(255,255,255,.94) !important;
+  box-shadow:
+    0 0 0 1px rgba(92,174,236,.38),
+    0 8px 22px rgba(190,24,93,.08),
+    inset 0 1px 0 rgba(255,255,255,.96) !important;
+}
+
+html[data-theme="light"] .lp-google-review-verified:hover{
+  color:#9f2d66 !important;
+  background:rgba(255,255,255,.90) !important;
+}
+
+html[data-theme="light"] .lp-google-review-detail-item{
+  color:#55424d !important;
+  background:linear-gradient(145deg, rgba(255,255,255,.66), rgba(255,246,251,.48)) !important;
+  border:1px solid rgba(255,255,255,.86) !important;
+  box-shadow:
+    0 10px 28px rgba(80,38,58,.07),
+    inset 0 1px 0 rgba(255,255,255,.90) !important;
+}
+
+html[data-theme="light"] .lp-google-review-detail-item:hover{
+  background:linear-gradient(145deg, rgba(255,255,255,.84), rgba(255,241,248,.62)) !important;
+  border-color:rgba(219,39,119,.20) !important;
+  box-shadow:
+    0 16px 34px rgba(80,38,58,.10),
+    0 8px 18px rgba(219,39,119,.07),
+    inset 0 1px 0 rgba(255,255,255,.96) !important;
+}
+
+html[data-theme="light"] .lp-google-review-detail-answer{
+  color:#3f2a35 !important;
+}
+
+html[data-theme="light"] .lp-google-review-images img{
+  border:1px solid rgba(255,255,255,.88) !important;
+  box-shadow:0 12px 26px rgba(80,38,58,.12);
+}
+
+html[data-theme="light"] .lp-google-review-images img:hover{
+  box-shadow:0 18px 36px rgba(80,38,58,.18);
+}
+
+html[data-theme="light"] .lp-google-review-foot{
+  border-top:1px solid rgba(190,24,93,.12);
+}
+/* ===== End Google Review Card theme owner ===== */

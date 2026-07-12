@@ -113,6 +113,7 @@
   "css/components/article-images.css"
   "css/components/hero.css"
   "css/components/promo-sticky.css"
+  "css/components/promo-hero.css"
   "css/components/portfolio.css"
   "css/components/header.css"
   "css/components/menumobile.css"
@@ -166,14 +167,6 @@
     {{ $homeCss = $homeCss | minify | fingerprint }}
   {{ end }}
   <link rel="stylesheet" href="{{ $homeCss.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $homeCss.Data.Integrity }}"{{ end }}>
-{{ end }}
-
-{{ if .IsHome }}
-  {{ $promoHeroCss := resources.Get "css/components/promo-hero.css" | css.PostCSS }}
-  {{ if hugo.IsProduction }}
-    {{ $promoHeroCss = $promoHeroCss | minify | fingerprint }}
-  {{ end }}
-  <link rel="stylesheet" href="{{ $promoHeroCss.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $promoHeroCss.Data.Integrity }}"{{ end }}>
 {{ end }}
 
 {{ if gt (len $cssResources) 0 }}

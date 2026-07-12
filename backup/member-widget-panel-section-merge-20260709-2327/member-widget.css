@@ -382,39 +382,33 @@
 }
 
 .lpm-panel h3 {
-  margin: 0 38px 2px 0;
+  margin: 0 38px 3px 0;
   color: #21171b;
-  font-size: 19px;
-  line-height: 1.08;
+  font-size: 21px;
+  line-height: 1.1;
   font-weight: 950;
   letter-spacing: -.035em;
 }
 
 .lpm-panel-note {
-  margin: 0 0 9px;
+  margin: 0 0 12px;
   color: #5e5659;
-  font-size: 12.5px;
-  line-height: 1.32;
+  font-size: 13px;
+  line-height: 1.35;
   font-weight: 800;
 }
 
 .lpm-panel-section {
   position: relative;
-  overflow: hidden;
-  padding: 11px 12px 11px 42px;
-  margin: 0 0 8px;
-  border-radius: 17px;
+  padding: 13px 14px 13px 46px;
+  margin: 0 0 10px;
+  border-radius: 19px;
   background:
     linear-gradient(180deg, rgba(255,255,255,.88), rgba(255,246,250,.82));
   border: 1px solid rgba(255,255,255,.72);
   box-shadow:
     0 10px 26px rgba(44,37,40,.08),
     inset 0 1px 0 rgba(255,255,255,.85);
-  transition:
-    transform .22s cubic-bezier(.16,1,.3,1),
-    box-shadow .22s ease,
-    border-color .22s ease,
-    background .22s ease;
 }
 
 .lpm-panel-section::before {
@@ -439,22 +433,18 @@
 
 .lpm-panel-section strong {
   display: block;
-  margin: 0 0 3px;
+  margin: 0 0 5px;
   color: #24151b;
-  font-size: 14.5px;
-  line-height: 1.18;
+  font-size: 15.5px;
+  line-height: 1.22;
   font-weight: 950;
-  transition:
-    color .2s ease,
-    transform .2s ease;
 }
 
 .lpm-panel-section p {
-  margin: 0 0 6px;
+  margin: 0 0 8px;
   color: #65565c;
-  font-size: 12.8px;
-  line-height: 1.36;
-  transition: color .2s ease;
+  font-size: 13.5px;
+  line-height: 1.42;
 }
 
 .lpm-panel .lpm-panel-btn,
@@ -1303,6 +1293,13 @@ html[data-theme="dark"] .lpm-popup .lpm-icon + h2::before {
   filter: blur(0);
 }
 
+.lpm-panel-section {
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    background .2s ease !important;
+}
+
 .lpm-panel-section:hover {
   transform: translateY(-1px);
 }
@@ -1350,12 +1347,42 @@ html[data-theme="dark"] .lpm-popup .lpm-icon + h2::before {
   margin-bottom: 9px !important;
 }
 
+.lpm-panel h3 {
+  font-size: 19px !important;
+  line-height: 1.08 !important;
+  margin-bottom: 2px !important;
+}
+
+.lpm-panel-note {
+  margin-bottom: 9px !important;
+  font-size: 12.5px !important;
+  line-height: 1.32 !important;
+}
+
+.lpm-panel-section {
+  padding: 11px 12px 11px 42px !important;
+  margin-bottom: 8px !important;
+  border-radius: 17px !important;
+}
+
 .lpm-panel-section::before {
   left: 12px !important;
   top: 12px !important;
   width: 22px !important;
   height: 22px !important;
   font-size: 12px !important;
+}
+
+.lpm-panel-section strong {
+  margin-bottom: 3px !important;
+  font-size: 14.5px !important;
+  line-height: 1.18 !important;
+}
+
+.lpm-panel-section p {
+  margin-bottom: 6px !important;
+  font-size: 12.8px !important;
+  line-height: 1.36 !important;
 }
 
 .lpm-panel .lpm-panel-btn,
@@ -1532,6 +1559,16 @@ html[data-theme="dark"] .lpm-panel-code span {
    LPM GĐ5 — Premium micro interactions
    ========================================================= */
 
+.lpm-panel-section {
+  position: relative;
+  overflow: hidden;
+  transition:
+    transform .22s cubic-bezier(.16,1,.3,1),
+    box-shadow .22s ease,
+    border-color .22s ease,
+    background .22s ease !important;
+}
+
 .lpm-panel-section::after{
   content:"";
   position:absolute;
@@ -1565,9 +1602,19 @@ html[data-theme="dark"] .lpm-panel-code span {
     opacity .25s ease;
 }
 
+.lpm-panel-section strong{
+  transition:
+    color .2s ease,
+    transform .2s ease;
+}
+
 .lpm-panel-section:hover strong{
   color:#be185d;
   transform:translateX(2px);
+}
+
+.lpm-panel-section p{
+  transition:color .2s ease;
 }
 
 .lpm-panel-section:hover p{

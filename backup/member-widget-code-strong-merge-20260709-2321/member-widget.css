@@ -382,39 +382,33 @@
 }
 
 .lpm-panel h3 {
-  margin: 0 38px 2px 0;
+  margin: 0 38px 3px 0;
   color: #21171b;
-  font-size: 19px;
-  line-height: 1.08;
+  font-size: 21px;
+  line-height: 1.1;
   font-weight: 950;
   letter-spacing: -.035em;
 }
 
 .lpm-panel-note {
-  margin: 0 0 9px;
+  margin: 0 0 12px;
   color: #5e5659;
-  font-size: 12.5px;
-  line-height: 1.32;
+  font-size: 13px;
+  line-height: 1.35;
   font-weight: 800;
 }
 
 .lpm-panel-section {
   position: relative;
-  overflow: hidden;
-  padding: 11px 12px 11px 42px;
-  margin: 0 0 8px;
-  border-radius: 17px;
+  padding: 13px 14px 13px 46px;
+  margin: 0 0 10px;
+  border-radius: 19px;
   background:
     linear-gradient(180deg, rgba(255,255,255,.88), rgba(255,246,250,.82));
   border: 1px solid rgba(255,255,255,.72);
   box-shadow:
     0 10px 26px rgba(44,37,40,.08),
     inset 0 1px 0 rgba(255,255,255,.85);
-  transition:
-    transform .22s cubic-bezier(.16,1,.3,1),
-    box-shadow .22s ease,
-    border-color .22s ease,
-    background .22s ease;
 }
 
 .lpm-panel-section::before {
@@ -439,22 +433,18 @@
 
 .lpm-panel-section strong {
   display: block;
-  margin: 0 0 3px;
+  margin: 0 0 5px;
   color: #24151b;
-  font-size: 14.5px;
-  line-height: 1.18;
+  font-size: 15.5px;
+  line-height: 1.22;
   font-weight: 950;
-  transition:
-    color .2s ease,
-    transform .2s ease;
 }
 
 .lpm-panel-section p {
-  margin: 0 0 6px;
+  margin: 0 0 8px;
   color: #65565c;
-  font-size: 12.8px;
-  line-height: 1.36;
-  transition: color .2s ease;
+  font-size: 13.5px;
+  line-height: 1.42;
 }
 
 .lpm-panel .lpm-panel-btn,
@@ -512,20 +502,10 @@
 }
 
 .lpm-panel-code {
-  position: relative;
-  overflow: hidden;
   margin: 2px 0 0;
-  margin-top: 4px;
-  padding: 10px 11px;
-  border-radius: 17px;
+  padding: 13px;
+  border-radius: 19px;
   text-align: center;
-  border: 1px dashed rgba(190, 24, 93, .42);
-  background:
-    radial-gradient(circle at 18% 0%, rgba(255, 182, 216, .34), transparent 34%),
-    linear-gradient(145deg, rgba(255,255,255,.92), rgba(255,247,251,.82));
-  box-shadow:
-    0 14px 34px rgba(190, 24, 93, .10),
-    inset 0 1px 0 rgba(255,255,255,.92);
 }
 
 .lpm-panel-code span {
@@ -536,20 +516,7 @@
 }
 
 .lpm-panel-code strong {
-  position: relative;
-  width: 100%;
-  min-height: 30px;
-  padding: 7px 12px;
-  border-radius: 999px;
-  background:
-    linear-gradient(135deg, #111111 0%, #3a252e 48%, #be185d 100%);
-  color: #fff;
-  font-size: 18px;
-  letter-spacing: .105em;
-  box-shadow:
-    0 14px 28px rgba(17,17,17,.18),
-    0 8px 18px rgba(190,24,93,.18),
-    inset 0 1px 0 rgba(255,255,255,.22);
+  font-size: 15px;
 }
 
 /* Dark mode */
@@ -1303,6 +1270,13 @@ html[data-theme="dark"] .lpm-popup .lpm-icon + h2::before {
   filter: blur(0);
 }
 
+.lpm-panel-section {
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    background .2s ease !important;
+}
+
 .lpm-panel-section:hover {
   transform: translateY(-1px);
 }
@@ -1350,12 +1324,42 @@ html[data-theme="dark"] .lpm-popup .lpm-icon + h2::before {
   margin-bottom: 9px !important;
 }
 
+.lpm-panel h3 {
+  font-size: 19px !important;
+  line-height: 1.08 !important;
+  margin-bottom: 2px !important;
+}
+
+.lpm-panel-note {
+  margin-bottom: 9px !important;
+  font-size: 12.5px !important;
+  line-height: 1.32 !important;
+}
+
+.lpm-panel-section {
+  padding: 11px 12px 11px 42px !important;
+  margin-bottom: 8px !important;
+  border-radius: 17px !important;
+}
+
 .lpm-panel-section::before {
   left: 12px !important;
   top: 12px !important;
   width: 22px !important;
   height: 22px !important;
   font-size: 12px !important;
+}
+
+.lpm-panel-section strong {
+  margin-bottom: 3px !important;
+  font-size: 14.5px !important;
+  line-height: 1.18 !important;
+}
+
+.lpm-panel-section p {
+  margin-bottom: 6px !important;
+  font-size: 12.8px !important;
+  line-height: 1.36 !important;
 }
 
 .lpm-panel .lpm-panel-btn,
@@ -1366,9 +1370,22 @@ html[data-theme="dark"] .lpm-popup .lpm-icon + h2::before {
   font-size: 12.5px !important;
 }
 
+.lpm-panel-code {
+  margin-top: 4px !important;
+  padding: 11px !important;
+  border-radius: 17px !important;
+}
+
 .lpm-panel-code span {
   margin-bottom: 6px !important;
   font-size: 12px !important;
+}
+
+.lpm-panel-code strong {
+  min-height: 34px !important;
+  padding: 8px 14px !important;
+  font-size: 13.8px !important;
+  letter-spacing: .105em !important;
 }
 
 @media (max-width: 640px) {
@@ -1469,6 +1486,18 @@ html[data-theme="dark"] .lpm-panel .lpm-panel-link::before {
    LPM GĐ4 — Premium coupon code block
    ========================================================= */
 
+.lpm-panel-code {
+  position: relative !important;
+  overflow: hidden !important;
+  border: 1px dashed rgba(190, 24, 93, .42) !important;
+  background:
+    radial-gradient(circle at 18% 0%, rgba(255, 182, 216, .34), transparent 34%),
+    linear-gradient(145deg, rgba(255,255,255,.92), rgba(255,247,251,.82)) !important;
+  box-shadow:
+    0 14px 34px rgba(190, 24, 93, .10),
+    inset 0 1px 0 rgba(255,255,255,.92) !important;
+}
+
 .lpm-panel-code::before,
 .lpm-panel-code::after {
   content: "" !important;
@@ -1495,6 +1524,19 @@ html[data-theme="dark"] .lpm-panel .lpm-panel-link::before {
   text-transform: uppercase !important;
   letter-spacing: .08em !important;
   color: rgba(85, 53, 67, .74) !important;
+}
+
+.lpm-panel-code strong {
+  position: relative !important;
+  width: 100% !important;
+  border-radius: 999px !important;
+  background:
+    linear-gradient(135deg, #111111 0%, #3a252e 48%, #be185d 100%) !important;
+  color: #fff !important;
+  box-shadow:
+    0 14px 28px rgba(17,17,17,.18),
+    0 8px 18px rgba(190,24,93,.18),
+    inset 0 1px 0 rgba(255,255,255,.22) !important;
 }
 
 .lpm-panel-code strong::after {
@@ -1532,6 +1574,16 @@ html[data-theme="dark"] .lpm-panel-code span {
    LPM GĐ5 — Premium micro interactions
    ========================================================= */
 
+.lpm-panel-section {
+  position: relative;
+  overflow: hidden;
+  transition:
+    transform .22s cubic-bezier(.16,1,.3,1),
+    box-shadow .22s ease,
+    border-color .22s ease,
+    background .22s ease !important;
+}
+
 .lpm-panel-section::after{
   content:"";
   position:absolute;
@@ -1565,9 +1617,19 @@ html[data-theme="dark"] .lpm-panel-code span {
     opacity .25s ease;
 }
 
+.lpm-panel-section strong{
+  transition:
+    color .2s ease,
+    transform .2s ease;
+}
+
 .lpm-panel-section:hover strong{
   color:#be185d;
   transform:translateX(2px);
+}
+
+.lpm-panel-section p{
+  transition:color .2s ease;
 }
 
 .lpm-panel-section:hover p{
@@ -1686,6 +1748,16 @@ html[data-theme="dark"] .lpm-copy-feedback {
 
 .lpm-panel .lpm-panel-close {
   display: none !important;
+}
+
+.lpm-panel-code {
+  padding: 10px 11px !important;
+}
+
+.lpm-panel-code strong {
+  min-height: 30px !important;
+  padding: 7px 12px !important;
+  font-size: 18px !important;
 }
 
 .lpm-panel-actions-row {

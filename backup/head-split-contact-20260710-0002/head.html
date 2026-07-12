@@ -107,12 +107,17 @@
   "css/main.css"
   "css/layout.css"
   "css/custom.css"
+  "css/contact.css"
+  "css/gallery.css"
+  "css/components/gallery-readmore.css"
   "css/components/components.css"
   "css/components/button.css"
   "css/components/member-widget.css"
   "css/components/article-images.css"
   "css/components/hero.css"
+  "css/components/home.css"
   "css/components/promo-sticky.css"
+  "css/components/promo-hero.css"
   "css/components/portfolio.css"
   "css/components/header.css"
   "css/components/menumobile.css"
@@ -134,46 +139,6 @@
   {{ else }}
     {{ warnf "Không tìm thấy CSS asset: %s" . }}
   {{ end }}
-{{ end }}
-
-{{ if eq .Layout "contact" }}
-  {{ $contactCss := resources.Get "css/contact.css" | css.PostCSS }}
-  {{ if hugo.IsProduction }}
-    {{ $contactCss = $contactCss | minify | fingerprint }}
-  {{ end }}
-  <link rel="stylesheet" href="{{ $contactCss.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $contactCss.Data.Integrity }}"{{ end }}>
-{{ end }}
-
-{{ if or (in (slice "tac-pham" "mau-hinh-xam-dep" "tattoo-designs") .Section) (eq .Params.seo_content_type "image_gallery") }}
-  {{ $galleryCss := resources.Get "css/gallery.css" | css.PostCSS }}
-  {{ if hugo.IsProduction }}
-    {{ $galleryCss = $galleryCss | minify | fingerprint }}
-  {{ end }}
-  <link rel="stylesheet" href="{{ $galleryCss.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $galleryCss.Data.Integrity }}"{{ end }}>
-{{ end }}
-
-{{ if in (slice "mau-hinh-xam-dep" "tattoo-designs") .Section }}
-  {{ $galleryReadmoreCss := resources.Get "css/components/gallery-readmore.css" | css.PostCSS }}
-  {{ if hugo.IsProduction }}
-    {{ $galleryReadmoreCss = $galleryReadmoreCss | minify | fingerprint }}
-  {{ end }}
-  <link rel="stylesheet" href="{{ $galleryReadmoreCss.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $galleryReadmoreCss.Data.Integrity }}"{{ end }}>
-{{ end }}
-
-{{ if .IsHome }}
-  {{ $homeCss := resources.Get "css/components/home.css" | css.PostCSS }}
-  {{ if hugo.IsProduction }}
-    {{ $homeCss = $homeCss | minify | fingerprint }}
-  {{ end }}
-  <link rel="stylesheet" href="{{ $homeCss.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $homeCss.Data.Integrity }}"{{ end }}>
-{{ end }}
-
-{{ if .IsHome }}
-  {{ $promoHeroCss := resources.Get "css/components/promo-hero.css" | css.PostCSS }}
-  {{ if hugo.IsProduction }}
-    {{ $promoHeroCss = $promoHeroCss | minify | fingerprint }}
-  {{ end }}
-  <link rel="stylesheet" href="{{ $promoHeroCss.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $promoHeroCss.Data.Integrity }}"{{ end }}>
 {{ end }}
 
 {{ if gt (len $cssResources) 0 }}

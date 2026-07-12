@@ -125,46 +125,44 @@
   <p class="lp-google-review-text">“{{ . }}”</p>
   {{- end }}
 
-  {{- $reviewAttributes := $review.review_attributes | default (slice) -}}
+  <div class="lp-google-review-details">
+    {{- with $review.service_price }}
+      <div>
+        <strong>{{ if $isEN }}Price{{ else }}Giá{{ end }}:</strong><br>
+        {{ . }}
+      </div>
+    {{- end }}
 
-  {{- if gt (len $reviewAttributes) 0 -}}
-    <div class="lp-google-review-details">
-      {{- range $attribute := $reviewAttributes -}}
-        {{- if $attribute.displayable -}}
-          {{- $label := $attribute.label_vi | default $attribute.label_original | default $attribute.key -}}
-          {{- $question := $attribute.question_vi | default $attribute.question_original -}}
-          {{- $value := $attribute.value_vi | default $attribute.value_original -}}
+    {{- with $review.service_note }}
+      <div>
+        <strong>{{ if $isEN }}Service{{ else }}Dịch vụ{{ end }}:</strong><br>
+        {{ . }}
+      </div>
+    {{- end }}
 
-          {{- if $isEN -}}
-            {{- $label = $attribute.label_en | default $attribute.label_original | default $attribute.key -}}
-            {{- $question = $attribute.question_en -}}
-            {{- $value = $attribute.value_original | default $attribute.value_vi -}}
-          {{- end -}}
+    {{- with $review.style_request }}
+      <div>
+        <strong>{{ if $isEN }}Requested style{{ else }}Phong cách đã yêu cầu{{ end }}:</strong><br>
+        {{ . }}
+      </div>
+    {{- end }}
 
-          {{- with $value -}}
-          <div class="lp-google-review-detail-item">
-            <strong>{{ $label }}</strong>
-            {{- with $question }}
-            <div class="lp-google-review-detail-question">{{ . }}</div>
-            {{- end }}
-            <div class="lp-google-review-detail-answer">{{ . }}</div>
-          </div>
-          {{- end -}}
-        {{- end -}}
-      {{- end -}}
-    </div>
-  {{- else -}}
-    {{- /* Fallback cho review cũ chưa có review_attributes. */ -}}
-    <div class="lp-google-review-details">
-      {{- with $review.service_price }}<div class="lp-google-review-detail-item"><strong>{{ if $isEN }}Price{{ else }}Giá{{ end }}:</strong><br><span>{{ . }}</span></div>{{- end }}
-      {{- with $review.service_note }}<div class="lp-google-review-detail-item"><strong>{{ if $isEN }}Service{{ else }}Dịch vụ{{ end }}:</strong><br><span>{{ . }}</span></div>{{- end }}
-      {{- with $review.style_request }}<div class="lp-google-review-detail-item"><strong>{{ if $isEN }}Requested style{{ else }}Phong cách đã yêu cầu{{ end }}:</strong><br><span>{{ . }}</span></div>{{- end }}
-      {{- with $review.cleanliness }}<div class="lp-google-review-detail-item"><strong>{{ if $isEN }}Cleanliness{{ else }}Mức độ sạch sẽ{{ end }}:</strong><br><span>{{ . }}</span></div>{{- end }}
-      {{- with $review.artist_feedback }}<div class="lp-google-review-detail-item"><strong>{{ if $isEN }}Artist feedback{{ else }}Nhà tạo mẫu{{ end }}:</strong><br><span>{{ . }}</span></div>{{- end }}
-    </div>
-  {{- end -}}
+    {{- with $review.cleanliness }}
+      <div>
+        <strong>{{ if $isEN }}Cleanliness{{ else }}Mức độ sạch sẽ{{ end }}:</strong><br>
+        {{ . }}
+      </div>
+    {{- end }}
 
-{{- $gallerySlug := $review.feedback_gallery_slug | default "" -}}
+    {{- with $review.artist_feedback }}
+      <div>
+        <strong>{{ if $isEN }}Artist feedback{{ else }}Nhà tạo mẫu{{ end }}:</strong><br>
+        {{ . }}
+      </div>
+    {{- end }}
+  </div>
+
+  {{- $gallerySlug := $review.feedback_gallery_slug | default "" -}}
   {{- $gallery := index site.Data.galleries $gallerySlug -}}
 
   {{- if and $gallery $gallery.images }}
