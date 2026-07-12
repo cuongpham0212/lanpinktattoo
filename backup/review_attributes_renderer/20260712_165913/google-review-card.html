@@ -132,22 +132,17 @@
       {{- range $attribute := $reviewAttributes -}}
         {{- if $attribute.displayable -}}
           {{- $label := $attribute.label_vi | default $attribute.label_original | default $attribute.key -}}
-          {{- $question := $attribute.question_vi | default $attribute.question_original -}}
           {{- $value := $attribute.value_vi | default $attribute.value_original -}}
 
           {{- if $isEN -}}
             {{- $label = $attribute.label_en | default $attribute.label_original | default $attribute.key -}}
-            {{- $question = $attribute.question_en -}}
             {{- $value = $attribute.value_original | default $attribute.value_vi -}}
           {{- end -}}
 
           {{- with $value -}}
           <div class="lp-google-review-detail-item">
-            <strong>{{ $label }}</strong>
-            {{- with $question }}
-            <div class="lp-google-review-detail-question">{{ . }}</div>
-            {{- end }}
-            <div class="lp-google-review-detail-answer">{{ . }}</div>
+            <strong>{{ $label }}:</strong><br>
+            <span>{{ . }}</span>
           </div>
           {{- end -}}
         {{- end -}}

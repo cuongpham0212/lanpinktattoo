@@ -382,19 +382,19 @@
 }
 
 .lpm-panel h3 {
-  margin: 0 38px 2px 0;
+  margin: 0 38px 3px 0;
   color: #21171b;
-  font-size: 19px;
-  line-height: 1.08;
+  font-size: 21px;
+  line-height: 1.1;
   font-weight: 950;
   letter-spacing: -.035em;
 }
 
 .lpm-panel-note {
-  margin: 0 0 9px;
+  margin: 0 0 12px;
   color: #5e5659;
-  font-size: 12.5px;
-  line-height: 1.32;
+  font-size: 13px;
+  line-height: 1.35;
   font-weight: 800;
 }
 
@@ -1348,6 +1348,18 @@ html[data-theme="dark"] .lpm-popup .lpm-icon + h2::before {
   height: 3px !important;
   width: 52px !important;
   margin-bottom: 9px !important;
+}
+
+.lpm-panel h3 {
+  font-size: 19px !important;
+  line-height: 1.08 !important;
+  margin-bottom: 2px !important;
+}
+
+.lpm-panel-note {
+  margin-bottom: 9px !important;
+  font-size: 12.5px !important;
+  line-height: 1.32 !important;
 }
 
 .lpm-panel-section::before {

@@ -391,10 +391,10 @@
 }
 
 .lpm-panel-note {
-  margin: 0 0 9px;
+  margin: 0 0 12px;
   color: #5e5659;
-  font-size: 12.5px;
-  line-height: 1.32;
+  font-size: 13px;
+  line-height: 1.35;
   font-weight: 800;
 }
 
@@ -1348,6 +1348,12 @@ html[data-theme="dark"] .lpm-popup .lpm-icon + h2::before {
   height: 3px !important;
   width: 52px !important;
   margin-bottom: 9px !important;
+}
+
+.lpm-panel-note {
+  margin-bottom: 9px !important;
+  font-size: 12.5px !important;
+  line-height: 1.32 !important;
 }
 
 .lpm-panel-section::before {
