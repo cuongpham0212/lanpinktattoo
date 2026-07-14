@@ -3,7 +3,7 @@
     "schema_version": 1,
     "data_type": "google_reviews",
     "generated_by": "LanPinkControl",
-    "generated_at": "2026-07-15T02:52:18",
+    "generated_at": "2026-07-15T01:13:04",
     "review_count": 3,
     "identity_key": "review_source_id"
   },
@@ -16,8 +16,8 @@
       "review_date_relative": "một tháng trước",
       "review_text": "Lần đầu trải nghiệm mà thật sự bất ngờ luôn 😭 Không nghĩ hình lên da lại đẹp và đúng vibe mình muốn tới vậy. Ban đầu mình chọn chỗ này cũng vì được người quen giới thiệu, với lại thấy chị thợ là nữ nên cảm giác yên tâm hơn hẳn.\n\nChị thợ siêu dễ tính với nói chuyện vui lắm, kiểu vừa xăm vừa tám nên nguyên buổi rất thoải mái chứ không hề bị căng thẳng hay ngại gì hết 😭 Decor tiệm cũng đẹp, sạch sẽ, có gu nên bước vô là thấy chill liền.\n\nĐiểm mình thích nhất chắc là chị rất có mắt thẩm mỹ, chỉnh layout theo dáng vai tay nên hình lên nhìn mềm mại và nghệ cực kỳ. Màu xanh lên siêu xinh, nét mảnh mà vẫn rõ, nhìn ngoài đời còn đẹp hơn ảnh chụp nữa 🥹\n\nGiá cả cũng rất phải chăng so với chất lượng và trải nghiệm mình nhận được. Nói chung là một trải nghiệm rất đáng để thử, đặc biệt với mấy chị em thích tattoo kiểu nhẹ nhàng, nữ tính mà vẫn nổi bật 💙🙄",
       "review_text_vi": "Lần đầu trải nghiệm mà thật sự bất ngờ luôn 😭 Không nghĩ hình lên da lại đẹp và đúng vibe mình muốn tới vậy. Ban đầu mình chọn chỗ này cũng vì được người quen giới thiệu, với lại thấy chị thợ là nữ nên cảm giác yên tâm hơn hẳn.\n\nChị thợ siêu dễ tính với nói chuyện vui lắm, kiểu vừa xăm vừa tám nên nguyên buổi rất thoải mái chứ không hề bị căng thẳng hay ngại gì hết 😭 Decor tiệm cũng đẹp, sạch sẽ, có gu nên bước vô là thấy chill liền.\n\nĐiểm mình thích nhất chắc là chị rất có mắt thẩm mỹ, chỉnh layout theo dáng vai tay nên hình lên nhìn mềm mại và nghệ cực kỳ. Màu xanh lên siêu xinh, nét mảnh mà vẫn rõ, nhìn ngoài đời còn đẹp hơn ảnh chụp nữa 🥹\n\nGiá cả cũng rất phải chăng so với chất lượng và trải nghiệm mình nhận được. Nói chung là một trải nghiệm rất đáng để thử, đặc biệt với mấy chị em thích tattoo kiểu nhẹ nhàng, nữ tính mà vẫn nổi bật 💙🙄",
-      "review_text_en": "This was my first tattoo experience, and honestly, it exceeded all my expectations. 😭 I never imagined the final result would look so beautiful and match exactly the vibe I had in mind. I originally chose Lan Pink Ink because a friend highly recommended the studio, and knowing the artist was female made me feel much more comfortable from the start.\n\nShe was incredibly friendly, easy to talk to, and made the whole session feel relaxed. We chatted throughout the appointment, so I never felt nervous or awkward at all. The studio itself is beautifully designed, spotless, and has such a cozy, stylish atmosphere that instantly makes you feel at ease.\n\nWhat impressed me the most was her artistic eye. She adjusted the design to perfectly complement the shape of my shoulder and arm, making the tattoo look elegant, balanced, and truly artistic. The blue tones turned out absolutely gorgeous, the fine lines are crisp and delicate, and honestly, it looks even better in real life than it does in photos. 🥹\n\nThe price was also very reasonable considering the quality of the artwork and the overall experience. I wholeheartedly recommend Lan Pink Ink, especially for women looking for elegant, feminine tattoos that still make a statement. 💙",
-      "translation_status": "complete",
+      "review_text_en": "",
+      "translation_status": "original_vi",
       "google_review_url": "https://www.google.com/maps/reviews/@10.8654521,106.6457833,17z/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xOV1ZYaFNYekJuV25OcGJtRlFlV2xxVUZSUmRVRRAB!2m1!1s0x0:0x6dcd055198206b25?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D",
       "feedback_gallery_slug": "",
       "feedback_images": [
@@ -28,250 +28,12 @@
       "source": "Google Business Profile",
       "verified": true,
       "created_at": "2026-07-11T17:07:19",
-      "last_sync": "2026-07-15T02:52:18",
+      "last_sync": "2026-07-12T03:15:20",
       "status": "published",
       "language": "vi",
       "review_source_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOV1ZYaFNYekJuV25OcGJtRlFlV2xxVUZSUmRVRRAB",
       "capture_source_url": "https://www.google.com/maps/reviews/@10.8654521,106.6457833,17z/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xOV1ZYaFNYekJuV25OcGJtRlFlV2xxVUZSUmRVRRAB!2m1!1s0x0:0x6dcd055198206b25?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D",
-      "capture_name": "capture_Ci9DQUlRQUNvZENodH_f1da7f96c3",
-      "review_text_original": "Lần đầu trải nghiệm mà thật sự bất ngờ luôn 😭 Không nghĩ hình lên da lại đẹp và đúng vibe mình muốn tới vậy. Ban đầu mình chọn chỗ này cũng vì được người quen giới thiệu, với lại thấy chị thợ là nữ nên cảm giác yên tâm hơn hẳn.\n\nChị thợ siêu dễ tính với nói chuyện vui lắm, kiểu vừa xăm vừa tám nên nguyên buổi rất thoải mái chứ không hề bị căng thẳng hay ngại gì hết 😭 Decor tiệm cũng đẹp, sạch sẽ, có gu nên bước vô là thấy chill liền.\n\nĐiểm mình thích nhất chắc là chị rất có mắt thẩm mỹ, chỉnh layout theo dáng vai tay nên hình lên nhìn mềm mại và nghệ cực kỳ. Màu xanh lên siêu xinh, nét mảnh mà vẫn rõ, nhìn ngoài đời còn đẹp hơn ảnh chụp nữa 🥹\n\nGiá cả cũng rất phải chăng so với chất lượng và trải nghiệm mình nhận được. Nói chung là một trải nghiệm rất đáng để thử, đặc biệt với mấy chị em thích tattoo kiểu nhẹ nhàng, nữ tính mà vẫn nổi bật 💙🙄",
-      "original_language": "vi",
-      "owner_reply": "Cảm ơn em nhiều vì feedback siêu dễ thương luôn. Tiệm rất vui vì em thích vibe tiệm và hình xăm lần này. Hẹn gặp lại em nha",
-      "owner_reply_original": "Cảm ơn em nhiều vì feedback siêu dễ thương luôn. Tiệm rất vui vì em thích vibe tiệm và hình xăm lần này. Hẹn gặp lại em nha",
-      "owner_reply_vi": "Cảm ơn em nhiều vì feedback siêu dễ thương luôn. Tiệm rất vui vì em thích vibe tiệm và hình xăm lần này. Hẹn gặp lại em nha",
-      "owner_reply_en": "Thank you so much for your lovely feedback! We're truly happy to hear that you enjoyed the atmosphere at our studio and that you're pleased with your new tattoo. It means a lot to us that you chose Lan Pink Ink, and we can't wait to welcome you back for your next piece. See you again soon! 💕",
-      "review_attributes": [
-        {
-          "key": "service",
-          "source_key": "BEAUTY_JOB_TYPES_EXP",
-          "label_original": "Bạn đã sử dụng những dịch vụ nào?",
-          "label_vi": "Dịch vụ",
-          "label_en": "Service",
-          "question_original": "Bạn đã sử dụng những dịch vụ nào?",
-          "question_vi": "Bạn đã sử dụng những dịch vụ nào?",
-          "question_en": "Which services did you use?",
-          "value_original": "Dịch vụ không có trong danh mục",
-          "value_vi": "Dịch vụ không có trong danh mục",
-          "displayable": false,
-          "hidden_reason": "non_content_placeholder",
-          "source_path": "$[7][2][6][0]",
-          "options": [
-            {
-              "code": "BEAUTY_JOB_TYPES_EXP",
-              "label": "Bạn đã sử dụng những dịch vụ nào?",
-              "expanded_value": ""
-            },
-            {
-              "code": "job_type_id:not_found",
-              "label": "Dịch vụ không có trong danh mục",
-              "expanded_value": ""
-            }
-          ],
-          "raw": [
-            [
-              "BEAUTY_JOB_TYPES_EXP"
-            ],
-            "Bạn đã sử dụng những dịch vụ nào?",
-            null,
-            [
-              [
-                [
-                  [
-                    "job_type_id:not_found"
-                  ],
-                  "Dịch vụ không có trong danh mục",
-                  2,
-                  null,
-                  null,
-                  "0ahUKEwjLkZu9r8uVAxVzhVYBHX4JMb8Q3YcHCAkoAA"
-                ]
-              ],
-              [
-                1
-              ]
-            ],
-            null,
-            "Dịch vụ",
-            null,
-            "0ahUKEwjLkZu9r8uVAxVzhVYBHX4JMb8Q3IcHCAgoBA",
-            null,
-            null,
-            null,
-            null,
-            null,
-            3,
-            null,
-            2
-          ]
-        },
-        {
-          "key": "requested_style",
-          "source_key": "BEAUTY_TIPS_TOPICS_REQUESTED_STYLE",
-          "label_original": "Phong cách đã yêu cầu",
-          "label_vi": "Phong cách đã yêu cầu",
-          "label_en": "Requested style",
-          "question_original": "Phong cách đã yêu cầu",
-          "question_vi": "Phong cách đã yêu cầu",
-          "question_en": "Tell us more about the requested style.",
-          "value_original": "thiết kế mẫu xăm",
-          "value_vi": "",
-          "displayable": true,
-          "hidden_reason": "",
-          "source_path": "$[7][2][6][1]",
-          "options": [
-            {
-              "code": "BEAUTY_TIPS_TOPICS_REQUESTED_STYLE",
-              "label": "Phong cách đã yêu cầu",
-              "expanded_value": "Cho mọi người biết về phong cách mà bạn yêu cầu"
-            }
-          ],
-          "raw": [
-            [
-              "BEAUTY_TIPS_TOPICS_REQUESTED_STYLE"
-            ],
-            "Phong cách đã yêu cầu",
-            null,
-            null,
-            "Cho mọi người biết về phong cách mà bạn yêu cầu",
-            "Phong cách đã yêu cầu",
-            null,
-            "0ahUKEwjLkZu9r8uVAxVzhVYBHX4JMb8Q3IcHCAooBQ",
-            null,
-            null,
-            [
-              "thiết kế mẫu xăm"
-            ],
-            null,
-            null,
-            3,
-            null,
-            2
-          ]
-        },
-        {
-          "key": "cleanliness",
-          "source_key": "BEAUTY_TIPS_TOPICS_CLEANLINESS",
-          "label_original": "Mức độ sạch sẽ",
-          "label_vi": "Mức độ sạch sẽ",
-          "label_en": "Cleanliness",
-          "question_original": "Mức độ sạch sẽ",
-          "question_vi": "Mức độ sạch sẽ",
-          "question_en": "Tell us more about cleanliness.",
-          "value_original": "sạch tuyệt đối, nhỏ gọn dễ thương",
-          "value_vi": "",
-          "displayable": true,
-          "hidden_reason": "",
-          "source_path": "$[7][2][6][2]",
-          "options": [
-            {
-              "code": "BEAUTY_TIPS_TOPICS_CLEANLINESS",
-              "label": "Mức độ sạch sẽ",
-              "expanded_value": "Cho mọi người biết về mức độ sạch sẽ"
-            }
-          ],
-          "raw": [
-            [
-              "BEAUTY_TIPS_TOPICS_CLEANLINESS"
-            ],
-            "Mức độ sạch sẽ",
-            null,
-            null,
-            "Cho mọi người biết về mức độ sạch sẽ",
-            "Mức độ sạch sẽ",
-            null,
-            "0ahUKEwjLkZu9r8uVAxVzhVYBHX4JMb8Q3IcHCAsoBg",
-            null,
-            null,
-            [
-              "sạch tuyệt đối, nhỏ gọn dễ thương"
-            ],
-            null,
-            null,
-            3,
-            null,
-            2
-          ]
-        },
-        {
-          "key": "topics",
-          "source_key": "BEAUTY_TIPS_TOPICS",
-          "label_original": "Vui lòng chia sẻ thêm về các chủ đề sau",
-          "label_vi": "Vui lòng chia sẻ thêm về các chủ đề sau",
-          "label_en": "Topics",
-          "question_original": "Vui lòng chia sẻ thêm về các chủ đề sau",
-          "question_vi": "Vui lòng chia sẻ thêm về các chủ đề sau",
-          "question_en": "Please share more about the following topics.",
-          "value_original": "",
-          "value_vi": "",
-          "displayable": false,
-          "hidden_reason": "empty_value",
-          "source_path": "$[7][2][6][3]",
-          "options": [
-            {
-              "code": "BEAUTY_TIPS_TOPICS",
-              "label": "Vui lòng chia sẻ thêm về các chủ đề sau",
-              "expanded_value": ""
-            },
-            {
-              "code": "E:BEAUTY_TIPS_REQUESTED_STYLE",
-              "label": "Phong cách đã yêu cầu",
-              "expanded_value": ""
-            },
-            {
-              "code": "E:BEAUTY_TIPS_CLEANLINESS",
-              "label": "Mức độ sạch sẽ",
-              "expanded_value": ""
-            }
-          ],
-          "raw": [
-            [
-              "BEAUTY_TIPS_TOPICS"
-            ],
-            "Vui lòng chia sẻ thêm về các chủ đề sau",
-            null,
-            [
-              [
-                [
-                  [
-                    "E:BEAUTY_TIPS_REQUESTED_STYLE"
-                  ],
-                  "Phong cách đã yêu cầu",
-                  2,
-                  null,
-                  null,
-                  "0ahUKEwjLkZu9r8uVAxVzhVYBHX4JMb8Q3YcHCA0oAA"
-                ],
-                [
-                  [
-                    "E:BEAUTY_TIPS_CLEANLINESS"
-                  ],
-                  "Mức độ sạch sẽ",
-                  2,
-                  null,
-                  null,
-                  "0ahUKEwjLkZu9r8uVAxVzhVYBHX4JMb8Q3YcHCA4oAQ"
-                ]
-              ]
-            ],
-            null,
-            null,
-            null,
-            "0ahUKEwjLkZu9r8uVAxVzhVYBHX4JMb8Q3IcHCAwoBw",
-            null,
-            null,
-            null,
-            null,
-            null,
-            4,
-            [
-              [
-                3
-              ]
-            ],
-            2
-          ]
-        }
-      ]
+      "capture_name": "capture_Ci9DQUlRQUNvZENodH_f1da7f96c3"
     },
     "google_CkRDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjVzYjFWcVNtNWpla1p1V210T1VGWnVVbkJUZWxvMFpHMUdTRkV6WXhBQhAA": {
       "review_id": "google_CkRDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjVzYjFWcVNtNWpla1p1V210T1VGWnVVbkJUZWxvMFpHMUdTRkV6WXhBQhAA",
@@ -282,10 +44,10 @@
       "rating": 5,
       "review_date": "2026-07-01",
       "review_date_relative": "một tuần trước",
-      "review_text": "Great service, awesome artist  and prices you wont find anywhere else I could find. Especially for quality work such as this",
+      "review_text": "Dịch vụ tuyệt vời, nghệ sĩ tài năng và giá cả mà bạn sẽ không tìm thấy ở bất cứ nơi nào khác. Đặc biệt là với chất lượng tác phẩm như thế này.",
       "review_text_vi": "Dịch vụ tuyệt vời, nghệ sĩ tài năng và giá cả mà bạn sẽ không tìm thấy ở bất cứ nơi nào khác. Đặc biệt là với chất lượng tác phẩm như thế này.",
       "review_text_en": "Great service, awesome artist  and prices you wont find anywhere else I could find. Especially for quality work such as this",
-      "translation_status": "complete",
+      "translation_status": "translated",
       "google_review_url": "https://www.google.com/maps/reviews/@10.8654521,106.6483582,17z/data=!3m1!4b1!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25sb1VqSm5jekZuWmtOUFZuUnBTelo0ZG1GSFEzYxAB!2m1!1s0x0:0x6dcd055198206b25?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D",
       "feedback_gallery_slug": "",
       "feedback_images": [
@@ -300,9 +62,6 @@
           "label_original": "Mỗi người hết bao nhiêu tiền?",
           "label_vi": "Giá",
           "label_en": "Price",
-          "question_original": "Mỗi người hết bao nhiêu tiền?",
-          "question_vi": "Mỗi người hết bao nhiêu tiền?",
-          "question_en": "How much did you spend per person?",
           "value_original": "1.000.000 ₫ – 2.000.000 ₫",
           "value_vi": "1.000.000 ₫ – 2.000.000 ₫",
           "displayable": true,
@@ -353,7 +112,10 @@
             1,
             null,
             2
-          ]
+          ],
+          "question_original": "Mỗi người hết bao nhiêu tiền?",
+          "question_vi": "Mỗi người hết bao nhiêu tiền?",
+          "question_en": "How much did you spend per person?"
         },
         {
           "key": "service",
@@ -361,9 +123,6 @@
           "label_original": "Bạn đã sử dụng những dịch vụ nào?",
           "label_vi": "Dịch vụ",
           "label_en": "Service",
-          "question_original": "Bạn đã sử dụng những dịch vụ nào?",
-          "question_vi": "Bạn đã sử dụng những dịch vụ nào?",
-          "question_en": "Which services did you use?",
           "value_original": "Dịch vụ không có trong danh mục",
           "value_vi": "Dịch vụ không có trong danh mục",
           "displayable": false,
@@ -416,7 +175,10 @@
             3,
             null,
             2
-          ]
+          ],
+          "question_original": "Bạn đã sử dụng những dịch vụ nào?",
+          "question_vi": "Bạn đã sử dụng những dịch vụ nào?",
+          "question_en": "Which services did you use?"
         },
         {
           "key": "requested_style",
@@ -424,9 +186,6 @@
           "label_original": "Phong cách đã yêu cầu",
           "label_vi": "Phong cách đã yêu cầu",
           "label_en": "Requested style",
-          "question_original": "Phong cách đã yêu cầu",
-          "question_vi": "Phong cách đã yêu cầu",
-          "question_en": "Tell us more about the requested style.",
           "value_original": "She helped me find what I wanted made some adjustments 10/10",
           "value_vi": "Cô ấy đã giúp tôi tìm thấy thứ tôi muốn và thực hiện một số điều chỉnh, 10/10.",
           "displayable": true,
@@ -463,7 +222,10 @@
             3,
             null,
             2
-          ]
+          ],
+          "question_original": "Phong cách đã yêu cầu",
+          "question_vi": "Phong cách đã yêu cầu",
+          "question_en": "Tell us more about the requested style."
         },
         {
           "key": "cleanliness",
@@ -471,9 +233,6 @@
           "label_original": "Mức độ sạch sẽ",
           "label_vi": "Mức độ sạch sẽ",
           "label_en": "Cleanliness",
-          "question_original": "Mức độ sạch sẽ",
-          "question_vi": "Mức độ sạch sẽ",
-          "question_en": "Tell us more about cleanliness.",
           "value_original": "Its clean had no concerns",
           "value_vi": "Nó sạch sẽ, không có gì đáng lo ngại.",
           "displayable": true,
@@ -510,7 +269,10 @@
             3,
             null,
             2
-          ]
+          ],
+          "question_original": "Mức độ sạch sẽ",
+          "question_vi": "Mức độ sạch sẽ",
+          "question_en": "Tell us more about cleanliness."
         },
         {
           "key": "stylist",
@@ -518,9 +280,6 @@
           "label_original": "Nhà tạo mẫu",
           "label_vi": "Nhà tạo mẫu",
           "label_en": "Stylist",
-          "question_original": "Nhà tạo mẫu",
-          "question_vi": "Nhà tạo mẫu",
-          "question_en": "Tell us more about your tattoo artist.",
           "value_original": "She did an epic job",
           "value_vi": "Cô ấy đã làm một công việc tuyệt vời.",
           "displayable": true,
@@ -557,7 +316,10 @@
             3,
             null,
             2
-          ]
+          ],
+          "question_original": "Nhà tạo mẫu",
+          "question_vi": "Nhà tạo mẫu",
+          "question_en": "Tell us more about your tattoo artist."
         },
         {
           "key": "topics",
@@ -565,13 +327,10 @@
           "label_original": "Vui lòng chia sẻ thêm về các chủ đề sau",
           "label_vi": "Vui lòng chia sẻ thêm về các chủ đề sau",
           "label_en": "Topics",
-          "question_original": "Vui lòng chia sẻ thêm về các chủ đề sau",
-          "question_vi": "Vui lòng chia sẻ thêm về các chủ đề sau",
-          "question_en": "Please share more about the following topics.",
           "value_original": "",
           "value_vi": "",
           "displayable": false,
-          "hidden_reason": "empty_value",
+          "hidden_reason": "topic_selector",
           "source_path": "$[7][2][6][5]",
           "options": [
             {
@@ -651,7 +410,10 @@
               ]
             ],
             2
-          ]
+          ],
+          "question_original": "Vui lòng chia sẻ thêm về các chủ đề sau",
+          "question_vi": "Vui lòng chia sẻ thêm về các chủ đề sau",
+          "question_en": "Please share more about the following topics."
         }
       ],
       "portfolio_translation_ids": [
@@ -660,15 +422,9 @@
       "source": "Google Business Profile",
       "verified": true,
       "created_at": "2026-07-12T03:51:20",
-      "last_sync": "2026-07-15T02:46:31",
+      "last_sync": "2026-07-12T16:58:26",
       "status": "published",
-      "language": "vi",
-      "review_text_original": "Great service, awesome artist  and prices you wont find anywhere else I could find. Especially for quality work such as this",
-      "original_language": "en",
-      "owner_reply": "Thank you so much, Ricky, for your amazing review!\n\nIt was truly a pleasure creating your custom tattoo. Knowing that you appreciated the artwork, cleanliness, attention to detail, and fair pricing means the world to us. Reviews like yours inspire us to keep giving every client the best experience possible.\n\nAt Lan Pink Tattoo Studio, we are passionate about creating high-quality custom tattoos in a clean, welcoming, and comfortable environment where every piece is designed with care and made to last.\n\nWe hope to welcome you back whenever you’re ready for your next tattoo or simply whenever you’re in the area again. And for anyone reading Ricky’s review, feel free to explore more of our photos and customer experiences here on Google—we’d be honored to help bring your tattoo ideas to life.\n\nYour trust means the world to us, and we hope your tattoo will always remind you of your time in Vietnam. We can’t wait to welcome you back again. Thank you, Ricky! ❤️",
-      "owner_reply_original": "Thank you so much, Ricky, for your amazing review!\n\nIt was truly a pleasure creating your custom tattoo. Knowing that you appreciated the artwork, cleanliness, attention to detail, and fair pricing means the world to us. Reviews like yours inspire us to keep giving every client the best experience possible.\n\nAt Lan Pink Tattoo Studio, we are passionate about creating high-quality custom tattoos in a clean, welcoming, and comfortable environment where every piece is designed with care and made to last.\n\nWe hope to welcome you back whenever you’re ready for your next tattoo or simply whenever you’re in the area again. And for anyone reading Ricky’s review, feel free to explore more of our photos and customer experiences here on Google—we’d be honored to help bring your tattoo ideas to life.\n\nYour trust means the world to us, and we hope your tattoo will always remind you of your time in Vietnam. We can’t wait to welcome you back again. Thank you, Ricky! ❤️",
-      "owner_reply_vi": "Cảm ơn bạn rất nhiều, Ricky, vì bài đánh giá tuyệt vời của bạn!\n\nThật là một niềm vui khi được tạo hình xăm theo yêu cầu của bạn. Việc bạn đánh giá cao tác phẩm nghệ thuật, sự sạch sẽ, sự chú ý đến từng chi tiết và giá cả hợp lý có ý nghĩa rất lớn đối với chúng tôi. Những đánh giá như của bạn truyền cảm hứng cho chúng tôi để tiếp tục mang đến cho mọi khách hàng trải nghiệm tốt nhất có thể.\n\nTại Lan Pink Tattoo Studio, chúng tôi đam mê tạo ra những hình xăm theo yêu cầu chất lượng cao trong một môi trường sạch sẽ, thân thiện và thoải mái, nơi mỗi tác phẩm được thiết kế cẩn thận và bền lâu.\n\nChúng tôi hy vọng sẽ được đón tiếp bạn trở lại bất cứ khi nào bạn sẵn sàng cho hình xăm tiếp theo hoặc đơn giản là bất cứ khi nào bạn có dịp đến khu vực này. Và đối với bất cứ ai đang đọc bài đánh giá của Ricky, hãy thoải mái khám phá thêm hình ảnh và trải nghiệm của khách hàng của chúng tôi tại đây trên Google — chúng tôi rất vinh dự được giúp hiện thực hóa ý tưởng hình xăm của bạn.\n\nSự tin tưởng của bạn có ý nghĩa rất lớn đối với chúng tôi, và chúng tôi hy vọng hình xăm của bạn sẽ luôn nhắc nhở bạn về thời gian ở Việt Nam. Chúng tôi rất mong được đón tiếp bạn trở lại. Cảm ơn bạn, Ricky! ❤️",
-      "owner_reply_en": "Thank you so much, Ricky, for your amazing review!\n\nIt was truly a pleasure creating your custom tattoo. Knowing that you appreciated the artwork, cleanliness, attention to detail, and fair pricing means the world to us. Reviews like yours inspire us to keep giving every client the best experience possible.\n\nAt Lan Pink Tattoo Studio, we are passionate about creating high-quality custom tattoos in a clean, welcoming, and comfortable environment where every piece is designed with care and made to last.\n\nWe hope to welcome you back whenever you’re ready for your next tattoo or simply whenever you’re in the area again. And for anyone reading Ricky’s review, feel free to explore more of our photos and customer experiences here on Google—we’d be honored to help bring your tattoo ideas to life.\n\nYour trust means the world to us, and we hope your tattoo will always remind you of your time in Vietnam. We can’t wait to welcome you back again. Thank you, Ricky! ❤️"
+      "language": "vi"
     },
     "google_CkRDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhPTlZSR2JEVk9WMFl4WVVWd2JFNVZSbkJUTWpReldXMTBhRmt3UlJBQhAA": {
       "review_id": "google_CkRDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhPTlZSR2JEVk9WMFl4WVVWd2JFNVZSbkJUTWpReldXMTBhRmt3UlJBQhAA",
@@ -681,8 +437,8 @@
       "review_date_relative": "10 tháng trước",
       "review_text": "Mình vừa thực hiện hình xăm chim ưng full bắp tay tại Lanpink Ink và thật sự rất ấn tượng. Artist nữ làm việc rất tỉ mỉ, tư vấn tận tình và dùng kim – mực chính hãng nên mình hoàn toàn yên tâm. Tác phẩm lên màu sắc nét, mạnh mẽ đúng như ý tưởng ban đầu. Rất hài lòng và sẽ quay lại khi cần hình tiếp theo",
       "review_text_vi": "Mình vừa thực hiện hình xăm chim ưng full bắp tay tại Lanpink Ink và thật sự rất ấn tượng. Artist nữ làm việc rất tỉ mỉ, tư vấn tận tình và dùng kim – mực chính hãng nên mình hoàn toàn yên tâm. Tác phẩm lên màu sắc nét, mạnh mẽ đúng như ý tưởng ban đầu. Rất hài lòng và sẽ quay lại khi cần hình tiếp theo",
-      "review_text_en": "I recently had a full sleeve eagle tattoo done at Lanpink Ink, and I’m genuinely impressed with the experience. The female tattoo artist was meticulous, professional, and took the time to provide thoughtful advice throughout the process. She used genuine needles and high-quality ink, which gave me complete confidence. The finished tattoo has bold, crisp colors and perfectly captures the original concept I had in mind. I’m extremely satisfied with the result and will definitely return for my next tattoo.",
-      "translation_status": "complete",
+      "review_text_en": "",
+      "translation_status": "original_vi",
       "google_review_url": "https://www.google.com/maps/reviews/@10.865317,106.6481119,938m/data=!3m2!1e3!4b1!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xONVRGbDVOV0YxYUVwbE5VRnBTMjQzWW10aFkwRRAB!2m1!1s0x0:0x6dcd055198206b25?entry=ttu&g_ep=EgoyMDI2MDcxMi4wIKXMDSoASAFQAw%3D%3D",
       "feedback_gallery_slug": "",
       "feedback_images": [
@@ -695,15 +451,9 @@
       "source": "Google Business Profile",
       "verified": true,
       "created_at": "2026-07-15T00:44:24",
-      "last_sync": "2026-07-15T02:31:40",
+      "last_sync": "2026-07-15T01:13:04",
       "status": "published",
-      "language": "vi",
-      "review_text_original": "Mình vừa thực hiện hình xăm chim ưng full bắp tay tại Lanpink Ink và thật sự rất ấn tượng. Artist nữ làm việc rất tỉ mỉ, tư vấn tận tình và dùng kim – mực chính hãng nên mình hoàn toàn yên tâm. Tác phẩm lên màu sắc nét, mạnh mẽ đúng như ý tưởng ban đầu. Rất hài lòng và sẽ quay lại khi cần hình tiếp theo",
-      "original_language": "vi",
-      "owner_reply": "Rất vui khi bạn hài lòng với tác phẩm chim ưng full bắp tay tại Lanpink Ink 🎨. Sự ủng hộ của bạn là động lực để chúng tôi tiếp tục sáng tạo.\n🇬🇧: We’re glad you’re happy with your full arm eagle tattoo at Lanpink Ink 🎨. Your support inspires us to keep creating",
-      "owner_reply_original": "Rất vui khi bạn hài lòng với tác phẩm chim ưng full bắp tay tại Lanpink Ink 🎨. Sự ủng hộ của bạn là động lực để chúng tôi tiếp tục sáng tạo.\n🇬🇧: We’re glad you’re happy with your full arm eagle tattoo at Lanpink Ink 🎨. Your support inspires us to keep creating",
-      "owner_reply_vi": "Rất vui khi bạn hài lòng với tác phẩm chim ưng full bắp tay tại Lanpink Ink 🎨. Sự ủng hộ của bạn là động lực để chúng tôi tiếp tục sáng tạo.",
-      "owner_reply_en": "We’re glad you’re happy with your full arm eagle tattoo at Lanpink Ink 🎨. Your support inspires us to keep creating"
+      "language": "vi"
     }
   }
 }

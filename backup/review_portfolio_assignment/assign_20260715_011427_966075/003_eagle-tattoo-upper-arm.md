@@ -35,7 +35,7 @@ seo_cluster: "Eagle Tattoo"
 seo_intent: "Portfolio"
 seo_target_keyword: "eagle tattoo"
 
-google_review_id: "google_CkRDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhPTlZSR2JEVk9WMFl4WVVWd2JFNVZSbkJUTWpReldXMTBhRmt3UlJBQhAA"
+google_review_id: "Ci9DQUlRQUNvZENodHljRjlvT2xONVRGbDVOV0YxYUVwbE5VRnBTMjQzWW10aFkwRRAB"
 ---
 An eagle tattoo is one of the strongest visual and symbolic tattoo choices. Eagles are often associated with freedom, courage, vision, leadership, and the ability to overcome challenges. For people looking for a tattoo that represents strength while maintaining artistic depth, the eagle remains a timeless subject.
 
