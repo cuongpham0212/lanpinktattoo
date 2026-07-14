@@ -35,7 +35,7 @@ seo_cluster: "Hình xăm đại bàng"
 seo_intent: "Tác phẩm"
 seo_target_keyword: "hình xăm đại bàng"
 
-google_review_id: "google_CkRDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhPTlZSR2JEVk9WMFl4WVVWd2JFNVZSbkJUTWpReldXMTBhRmt3UlJBQhAA"
+google_review_id: "review_demo_001"
 ---
 Hình xăm đại bàng luôn tạo cảm giác mạnh mẽ ngay từ ánh nhìn đầu tiên. Trong dự án này, khách hàng mong muốn một thiết kế vừa thể hiện sự tự do, bản lĩnh, vừa mang cảm giác trưởng thành và vững vàng hơn sau một giai đoạn quan trọng trong cuộc sống.
 

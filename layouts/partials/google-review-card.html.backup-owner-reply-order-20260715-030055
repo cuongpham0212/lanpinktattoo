@@ -147,6 +147,35 @@
   <p class="lp-google-review-text">“{{ . }}”</p>
   {{- end }}
 
+  {{- $ownerReplyOriginal := $review.owner_reply_original | default $review.owner_reply | default "" -}}
+  {{- $ownerReplyVI := $review.owner_reply_vi | default "" -}}
+  {{- $ownerReplyEN := $review.owner_reply_en | default "" -}}
+  {{- $ownerReplyDisplay := $ownerReplyOriginal -}}
+
+  {{- if $isEN -}}
+    {{- if $ownerReplyEN -}}
+      {{- $ownerReplyDisplay = $ownerReplyEN -}}
+    {{- end -}}
+  {{- else -}}
+    {{- if $ownerReplyVI -}}
+      {{- $ownerReplyDisplay = $ownerReplyVI -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with $ownerReplyDisplay }}
+  <div class="lp-google-review-owner-reply">
+    <strong>
+      {{- if $isEN -}}
+        Response from Lan Pink Ink
+      {{- else -}}
+        Phản hồi từ Lan Pink Ink
+      {{- end -}}
+    </strong>
+
+    <p>{{ . }}</p>
+  </div>
+  {{- end }}
+
   {{- $reviewAttributes := $review.review_attributes | default (slice) -}}
 
   {{- if gt (len $reviewAttributes) 0 -}}
@@ -185,35 +214,6 @@
       {{- with $review.artist_feedback }}<div class="lp-google-review-detail-item"><strong>{{ if $isEN }}Artist feedback{{ else }}Nhà tạo mẫu{{ end }}:</strong><br><span>{{ . }}</span></div>{{- end }}
     </div>
   {{- end -}}
-
-  {{- $ownerReplyOriginal := $review.owner_reply_original | default $review.owner_reply | default "" -}}
-  {{- $ownerReplyVI := $review.owner_reply_vi | default "" -}}
-  {{- $ownerReplyEN := $review.owner_reply_en | default "" -}}
-  {{- $ownerReplyDisplay := $ownerReplyOriginal -}}
-
-  {{- if $isEN -}}
-    {{- if $ownerReplyEN -}}
-      {{- $ownerReplyDisplay = $ownerReplyEN -}}
-    {{- end -}}
-  {{- else -}}
-    {{- if $ownerReplyVI -}}
-      {{- $ownerReplyDisplay = $ownerReplyVI -}}
-    {{- end -}}
-  {{- end -}}
-
-  {{- with $ownerReplyDisplay }}
-  <div class="lp-google-review-owner-reply">
-    <strong>
-      {{- if $isEN -}}
-        Response from Lan Pink Ink
-      {{- else -}}
-        Phản hồi từ Lan Pink Ink
-      {{- end -}}
-    </strong>
-
-    <p>{{ . }}</p>
-  </div>
-  {{- end }}
 
 {{- $gallerySlug := $review.feedback_gallery_slug | default "" -}}
   {{- $gallery := index site.Data.galleries $gallerySlug -}}
