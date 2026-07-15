@@ -3,7 +3,7 @@ title: "Phoenix Tattoo Meaning on the Upper Arm | Beautiful Design Ideas"
 slug: "phoenix-tattoo-meaning"
 date: 2026-06-20
 draft: false
-translation_id: "phoenix_tattoo_meaning"
+translation_id: "tr_4148537b538a4fa5b12f0ea6ddd70bce"
 
 description: "Discover the meaning of phoenix tattoos on the upper arm, suitable styles, placement benefits, and how to choose a balanced phoenix tattoo design."
 

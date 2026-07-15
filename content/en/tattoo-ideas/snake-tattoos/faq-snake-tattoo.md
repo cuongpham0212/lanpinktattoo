@@ -3,7 +3,7 @@ title: "Snake Tattoo FAQ: Common Questions Before Getting Tattooed"
 description: "Answers to the most common questions about snake tattoos, including meaning, placement, pain level, pricing, and design ideas."
 date: 2026-06-18
 draft: false
-translation_id: "snake_tattoo_faq"
+translation_id: "tr_395c58e15b714f7c95586ff53b65a435"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-ran-lan-pink-tattoo.webp"
 image_alt: "Custom snake tattoo designed by Lan Pink Tattoo in Ho Chi Minh City"

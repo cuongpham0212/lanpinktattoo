@@ -3,7 +3,7 @@ title: "Waist Lettering Tattoo: A Personal, Private And Character-Filled Tattoo 
 slug: "waist-lettering-tattoo"
 date: 2026-07-02
 draft: false
-translation_id: "chu-that-lung_tattoo_style"
+translation_id: "tr_1aedaeb8870c47678bbf115a9c12db4d"
 
 description: "Explore waist lettering tattoo styles, font choices, lower-back placement near the Venus dimples, and tips from a female tattoo artist at Lan Pink Tattoo, District 12, Ho Chi Minh City."
 

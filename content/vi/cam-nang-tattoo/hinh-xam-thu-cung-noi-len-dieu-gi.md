@@ -3,7 +3,7 @@ title: "Hình Xăm Thú Cưng Có Ý Nghĩa Gì? Gợi Ý Thiết Kế Và Vị 
 description: "Tìm hiểu ý nghĩa hình xăm thú cưng, các phong cách phổ biến, vị trí phù hợp và những điều cần chuẩn bị trước khi thực hiện Pet Portrait Tattoo tại Lan Pink Tattoo TP.HCM."
 date: 2026-06-19
 draft: false
-translation_id: "pet_portrait_tattoo_guide"
+translation_id: "tr_0f01a104096349f1944ae57a34ee733b"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-thu-cung-co-y-nghia-gi.webp"
 image_alt: "Hình xăm thú cưng Pet Portrait Tattoo tại Lan Pink Tattoo TP.HCM"

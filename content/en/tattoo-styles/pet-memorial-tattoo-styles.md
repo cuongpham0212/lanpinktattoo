@@ -3,7 +3,7 @@ title: "Beautiful Pet Memorial Tattoo Styles and Their Meanings"
 slug: "pet-memorial-tattoo-styles"
 date: 2026-06-19
 draft: false
-translation_id: "pet_memorial_tattoo_style"
+translation_id: "tr_354ca88694b94529b0b815bf21bc3b2d"
 
 description: "Explore popular pet memorial tattoo styles including Fine Line, Black and Grey, Mini Tattoo, and Custom Pet Memorial Tattoo."
 

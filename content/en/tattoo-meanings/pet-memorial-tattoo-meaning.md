@@ -3,7 +3,7 @@ title: "Pet Memorial Tattoo Meaning: A Gentle Way to Remember a Beloved Pet"
 slug: "pet-memorial-tattoo-meaning"
 date: 2026-06-29
 draft: false
-translation_id: "pet_memorial_tattoo_meaning"
+translation_id: "tr_497e1e03f4e24b10b38c81fbfa850898"
 
 description: "The meaning of pet memorial tattoos and how to choose a thoughtful design to remember a beloved cat, dog, or small companion."
 

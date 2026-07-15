@@ -11,7 +11,7 @@ description: "Chính sách dịch vụ tại Lan Pink Tattoo: đặt lịch, tư
 slug: "chinh-sach"
 date: 2026-06-13
 draft: false
-translation_id: "service_policy_page"
+translation_id: "tr_5cbb09de2ab14938aa8965a7c581143b"
 robots: "index, follow"
 ---
 Cảm ơn bạn đã quan tâm đến Lan Pink Tattoo.

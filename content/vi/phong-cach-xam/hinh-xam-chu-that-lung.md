@@ -3,7 +3,7 @@ title: "Hình Xăm Chữ Thắt Lưng: Phong Cách Tattoo Cá Tính, Riêng Tư 
 slug: "hinh-xam-chu-that-lung"
 date: 2026-07-02
 draft: false
-translation_id: "chu-that-lung_tattoo_style"
+translation_id: "tr_1aedaeb8870c47678bbf115a9c12db4d"
 
 description: "Khám phá phong cách hình xăm chữ thắt lưng, cách chọn font, bố cục gần hõm Venus và lưu ý khi thực hiện cùng thợ xăm nữ tại Lan Pink Tattoo Quận 12, TP.HCM."
 

@@ -3,7 +3,7 @@ title: "Lettering Tattoos On The Venus Dimples And Waist: Design Ideas For Men A
 slug: "waist-lettering-venus-dimples-tattoo"
 date: 2026-07-02
 draft: false
-translation_id: "chu-that-lung_tattoo_guide"
+translation_id: "tr_207e2d8b73c34afdb4f412e0251f4233"
 
 description: "Ideas for lettering tattoos on the Venus dimples, waist and lower back: text, font, layout, placement tips and advice from a female tattoo artist in District 12, Ho Chi Minh City."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-chu-old-english-that-lung-hom-venus/hinh-xam-chu-old-english-that-lung-hom-venus.webp"

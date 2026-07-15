@@ -3,7 +3,7 @@ title: "Các Phong Cách Hình Xăm Rắn Đẹp Và Phù Hợp Với Từng Cá
 description: "Gợi ý các phong cách hình xăm rắn như Fine Line, Mini Tattoo, Blackwork và thiết kế theo yêu cầu tại Lan Pink Tattoo TP.HCM."
 date: 2026-06-19
 draft: false
-translation_id: "snake_tattoo_style"
+translation_id: "tr_5faaa6fdedad47639037890c09e596cc"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-ran-lan-pink-tattoo.webp"
 image_alt: "hình xăm rắn tại Lan Pink Tattoo TP.HCM"

@@ -3,7 +3,7 @@ title: "78 Mẫu Hình Xăm Phượng Hoàng Đẹp Theo Nhiều Phong Cách Và
 slug: "bo-suu-tap-hinh-xam-phuong-hoang-dep"
 date: 2026-06-28
 draft: false
-translation_id: "phoenix_tattoo_mau-hinh-xam-dep"
+translation_id: "tr_8f72360b573e49c78e6f2a52bf039dd2"
 
 description: "Khám phá bộ sưu tập hình xăm phượng hoàng đẹp với nhiều phong cách, kích thước và vị trí khác nhau. Gợi ý ý tưởng tattoo phượng hoàng dành cho nữ và nam."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/bo-suu-tap-hinh-xam-phuong-hoang/bo-suu-tap-hinh-xam-phuong-hoang.webp"

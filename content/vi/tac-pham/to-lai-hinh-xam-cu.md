@@ -3,7 +3,7 @@ title: "Tô Lại Hình Xăm Cũ Tattoo Restoration | Lan Pink Tattoo"
 slug: "to-lai-hinh-xam-cu"
 date: 2026-06-29
 draft: false
-translation_id: "to-lai-cu_tattoo_portfolio"
+translation_id: "tr_29b26d6d97244c7384729e002d7a1773"
 
 description: "Tác phẩm tô lại hình xăm cũ tại Lan Pink Tattoo, giúp phục hồi đường nét, làm rõ bố cục và cải thiện hình xăm đã mờ theo thời gian."
 

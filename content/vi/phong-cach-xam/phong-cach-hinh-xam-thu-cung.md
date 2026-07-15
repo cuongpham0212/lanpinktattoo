@@ -3,7 +3,7 @@ title: "Các Phong Cách Hình Xăm Thú Cưng Đẹp Và Phù Hợp Với Từn
 description: "Khám phá các phong cách hình xăm thú cưng phổ biến như Fine Line Tattoo, Mini Tattoo, Blackwork và Custom Tattoo Design. Gợi ý lựa chọn phù hợp tại Lan Pink Tattoo TP.HCM."
 date: 2026-06-19
 draft: false
-translation_id: "pet_portrait_tattoo_style"
+translation_id: "tr_f0a8919ce22c4fb99329cb0ea24fde4d"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/phong-cach-hinh-xam-thu-cung.webp"
 image_alt: "Các phong cách hình xăm thú cưng tại Lan Pink Tattoo TP.HCM"
