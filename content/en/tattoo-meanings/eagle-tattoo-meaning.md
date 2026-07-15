@@ -3,7 +3,7 @@ title: "Eagle Tattoo Meaning and Beautiful Eagle Tattoo Design Ideas"
 slug: "eagle-tattoo-meaning"
 date: 2026-06-28
 draft: false
-translation_id: "y-nghia-hinh-xam-dai-bang_meaning"
+translation_id: "tr_8b10ca3e994b46c39ce20d1cc68632a2"
 
 description: "Discover the meaning of eagle tattoos: freedom, courage, vision, inner strength, and personal growth. Eagle tattoo design ideas by Lan Pink Tattoo."
 

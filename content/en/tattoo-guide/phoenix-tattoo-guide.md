@@ -3,7 +3,7 @@ title: "How to Choose the Right Phoenix Tattoo for Your Placement and Personalit
 slug: "phoenix-tattoo-guide"
 date: 2026-06-29
 draft: false
-translation_id: "phoenix_tattoo_guide"
+translation_id: "tr_fc387709355645d9808c1f0b4301a52a"
 
 description: "How to choose the right phoenix tattoo based on placement, size, style, and personal meaning before getting tattooed."
 

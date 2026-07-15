@@ -3,7 +3,7 @@ title: "Pet Memorial Tattoo Meaning: What to Know Before Getting One"
 slug: "pet-memorial-tattoo-guide"
 date: 2026-06-19
 draft: false
-translation_id: "pet_memorial_tattoo_guide"
+translation_id: "tr_078add796c534551896aca8ae6fd3da4"
 
 description: "Learn the meaning of pet memorial tattoos, popular design ideas, placements, and how to preserve the memory of a beloved companion."
 

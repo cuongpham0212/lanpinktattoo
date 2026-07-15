@@ -3,7 +3,7 @@ title: "Pet Tattoo Meaning: Why Do So Many People Choose Tattoos of Their Cats a
 slug: "pet-tattoo-meaning"
 date: 2026-06-29
 draft: false
-translation_id: "pet_portrait_tattoo_meaning"
+translation_id: "tr_7989fc5702cd401984106fb044f4bfab"
 
 description: "Discover the meaning of pet tattoos and why so many people choose to tattoo the portraits of their beloved cats, dogs, and animal companions."
 

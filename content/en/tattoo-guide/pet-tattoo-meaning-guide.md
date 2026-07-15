@@ -3,7 +3,7 @@ title: "Pet Tattoo Meaning: Design Ideas, Styles and Best Placements"
 slug: "pet-tattoo-meaning-guide"
 date: 2026-06-19
 draft: false
-translation_id: "pet_portrait_tattoo_guide"
+translation_id: "tr_0f01a104096349f1944ae57a34ee733b"
 
 description: "Learn the meaning of pet tattoos, popular design ideas, styles, placements, and how to prepare for a custom pet portrait tattoo at Lan Pink Tattoo."
 

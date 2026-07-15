@@ -3,7 +3,7 @@ title: "Beautiful Eagle Tattoo Styles for Different Personalities"
 slug: "eagle-tattoo-styles"
 date: 2026-06-29
 draft: false
-translation_id: "eagle_tattoo_styles"
+translation_id: "tr_c2768bcd67114570a62545e752337612"
 
 description: "Explore popular eagle tattoo styles such as Black and Grey, Realistic, Neo Traditional, Fine Line, and Geometric, with tips for choosing the right style."
 

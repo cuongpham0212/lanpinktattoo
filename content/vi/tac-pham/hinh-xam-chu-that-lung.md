@@ -3,7 +3,7 @@ title: "Hình Xăm Chữ Thắt Lưng Amy Winehouse Phong Cách Old English"
 slug: "hinh-xam-chu-that-lung"
 date: 2026-07-01
 draft: false
-translation_id: "chu-that-lung_tattoo_portfolio"
+translation_id: "tr_e393b4174bd246d5bb9d3a5f17168340"
 
 description: "Tác phẩm hình xăm chữ Amy Winehouse ở thắt lưng phong cách Old English gần hõm Venus, thiết kế theo yêu cầu cho khách nam nước ngoài tại Lan Pink Tattoo TP.HCM."
 

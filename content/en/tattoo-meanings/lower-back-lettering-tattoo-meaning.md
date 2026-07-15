@@ -3,7 +3,7 @@ title: "What Does a Lower Back Lettering Tattoo Mean? Ideas, Styles and Placemen
 slug: "lower-back-lettering-tattoo-meaning"
 date: 2026-07-01
 draft: false
-translation_id: "chu-that-lung_tattoo_meaning"
+translation_id: "tr_d254b94bc70f4d84a6236cc98028e93b"
 
 description: "Learn the meaning of lower back lettering tattoos, why the area near the Venus dimples is popular, and how to choose meaningful text and lettering styles."
 

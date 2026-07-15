@@ -7,7 +7,7 @@ title: "Hình Xăm Chú Vẹt Tưởng Niệm Thú Cưng | Lan Pink Tattoo"
 description: "Tác phẩm hình xăm chú vẹt tưởng niệm thú cưng tại Lan Pink Tattoo, lưu giữ ký ức về người bạn nhỏ bằng thiết kế custom tinh tế và giàu cảm xúc."
 date: 2026-06-14
 draft: false
-translation_id: "pet_memorial_tattoo_portfolio"
+translation_id: "tr_4573afa8a2494b35b88e3792c0c4c37f"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-vet-gonzo-thiet-ke-quan-12.webp"
 image_alt: "Hình xăm chú vẹt Gonzo thiết kế theo yêu cầu tại Lan Pink Ink Quận 12 TP.HCM"

@@ -3,7 +3,7 @@ title: "Itachi Uchiha Full Upper Arm Tattoo – Anime Tattoo for an Internationa
 slug: "itachi-uchiha-tattoo"
 date: 2026-07-05
 draft: false
-translation_id: "itachi-uchiha_tattoo_tac-pham"
+translation_id: "tr_14dc9921059c40cc97818ce00192f22b"
 
 description: "A full upper arm Itachi Uchiha tattoo inspired by Naruto, created for an international male client at Lan Pink Tattoo in District 12, Ho Chi Minh City."
 

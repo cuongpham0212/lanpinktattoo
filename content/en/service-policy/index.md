@@ -11,7 +11,7 @@ description: "Lan Pink Tattoo service policy covering booking, consultation, des
 slug: "service-policy"
 date: 2026-06-14
 draft: false
-translation_id: "service_policy_page"
+translation_id: "tr_5cbb09de2ab14938aa8965a7c581143b"
 robots: "index, follow"
 ---
 Thank you for your interest in Lan Pink Tattoo.

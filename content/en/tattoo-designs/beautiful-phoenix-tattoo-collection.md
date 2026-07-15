@@ -3,7 +3,7 @@ title: "78 Beautiful Phoenix Tattoo Designs by Style and Placement"
 slug: "beautiful-phoenix-tattoo-collection"
 date: 2026-06-28
 draft: false
-translation_id: "phoenix_tattoo_mau-hinh-xam-dep"
+translation_id: "tr_8f72360b573e49c78e6f2a52bf039dd2"
 
 description: "Explore 78 beautiful phoenix tattoo designs in different styles, sizes, and placements. Phoenix tattoo ideas for women and men by Lan Pink Tattoo."
 

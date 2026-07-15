@@ -4,7 +4,7 @@ description: "Lần đầu đi xăm cần chuẩn bị gì? Tìm hiểu kinh ngh
 slug: "xam-hinh-lan-dau-can-chuan-bi-gi"
 date: 2026-06-12
 draft: false
-translation_id: "first_tattoo_prepare_guide"
+translation_id: "tr_b3378d869fe54aad9c1de8dc68b44a57"
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp"
 tags:
   - xăm hình lần đầu

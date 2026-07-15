@@ -3,7 +3,7 @@ title: "Is It Safe to Get a Tattoo in Vietnam? What International Clients Should
 slug: "is-it-safe-to-get-a-tattoo-in-vietnam"
 date: 2026-06-27
 draft: false
-translation_id: "pricing_en_trust_guide_is-it-safe-to-get-a-tattoo-in-vietnam"
+translation_id: "tr_c1a7b70d291d43b1b6b273bf28afece8"
 
 description: "A safety guide for international clients getting a tattoo in Vietnam, covering hygiene, single-use needles, professional materials, aftercare, private studios and choosing the right tattoo artist."
 

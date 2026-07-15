@@ -3,7 +3,7 @@ title: "Các Phong Cách Hình Xăm Phượng Hoàng Đẹp Và Phù Hợp Với
 slug: "phong-cach-hinh-xam-phuong-hoang"
 date: 2026-06-29
 draft: false
-translation_id: "phoenix_tattoo_style"
+translation_id: "tr_d0c76766ef4f4f6a8fcbbf3303c80ff8"
 
 description: "Gợi ý các phong cách hình xăm phượng hoàng đẹp: fine line, blackwork, màu, Á Đông, hiện đại và cách chọn phong cách phù hợp."
 

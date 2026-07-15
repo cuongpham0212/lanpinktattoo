@@ -3,7 +3,7 @@ title: "Beautiful Snake Tattoo Styles for Different Personalities"
 slug: "snake-tattoo-styles"
 date: 2026-06-19
 draft: false
-translation_id: "snake_tattoo_style"
+translation_id: "tr_5faaa6fdedad47639037890c09e596cc"
 
 description: "Explore popular snake tattoo styles including Fine Line, Mini Tattoo, Blackwork, and Custom Snake Tattoo Design at Lan Pink Tattoo."
 

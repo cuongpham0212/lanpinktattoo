@@ -4,7 +4,7 @@ title: "Ý Nghĩa Hình Xăm Phượng Hoàng Ở Bắp Tay | Gợi Ý Thiết K
 slug: "hinh-xam-phuong-hoang-o-bap-tay"
 date: 2026-06-20
 draft: false
-translation_id: "phoenix_tattoo_meaning"
+translation_id: "tr_4148537b538a4fa5b12f0ea6ddd70bce"
 
 description: "Khám phá ý nghĩa hình xăm phượng hoàng ở bắp tay, những phong cách phù hợp, ưu nhược điểm của vị trí xăm và kinh nghiệm lựa chọn thiết kế cân đối với vóc dáng."
 

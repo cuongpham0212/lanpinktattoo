@@ -3,7 +3,7 @@ title: "Hình Xăm Đại Bàng Đẹp Cần Chuẩn Bị Gì Trước Khi Xăm?
 slug: "hinh-xam-dai-bang"
 date: 2026-06-28
 draft: false
-translation_id: "hinh-xam-dai-bang_guide"
+translation_id: "tr_e4f8890e63b04a68aadfd7ebff6f943e"
 
 description: "Muốn xăm hình đại bàng đẹp, có thần và hợp cá tính? Tìm hiểu cách chuẩn bị ý tưởng, ảnh tham khảo, vị trí và phong cách trước khi xăm tại Lan Pink Tattoo."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-dai-bang-lan-pink-tattoo-tphcm.webp"

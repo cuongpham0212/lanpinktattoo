@@ -26,16 +26,19 @@
 }
 
 .lp-md-image figcaption,
-.lp-content figcaption {
+.lp-content figcaption,
+.lp-single-page .lp-content figure.lp-md-image + p:empty + p:has(> em:only-child) {
   margin-top: .75rem;
-  text-align: center;
+  text-align: center !important;
+  font-style: italic;
   font-size: .92rem;
   line-height: 1.6;
   color: #71717a;
 }
 
 [data-theme="dark"] .lp-md-image figcaption,
-[data-theme="dark"] .lp-content figcaption {
+[data-theme="dark"] .lp-content figcaption,
+[data-theme="dark"] .lp-single-page .lp-content figure.lp-md-image + p:empty + p:has(> em:only-child) {
   color: #d4d4d8;
 }
 
