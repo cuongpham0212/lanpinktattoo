@@ -15,6 +15,10 @@
     "2026-07-21": {
       "note": "Tiệm đang có lịch xăm 14g trong ngày này.",
       "source": "manual_admin"
+    },
+    "2026-12-31": {
+      "note": "Automation Test",
+      "source": "test"
     }
   }
 }
