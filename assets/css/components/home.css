@@ -1552,3 +1552,14 @@
     color: rgba(38,29,37,.58);
   }
 }
+
+/* Home marquee initialization */
+.js-home-marquee:not(.is-ready) {
+  opacity: 0;
+  animation-play-state: paused;
+}
+
+.js-home-marquee.is-ready {
+  opacity: 1;
+  transition: opacity 120ms ease-out;
+}
