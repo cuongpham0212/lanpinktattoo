@@ -265,3 +265,19 @@ gtag('config', 'G-YHDTF0NDK7');
   {{ $galleryReadmoreJS := resources.Get "js/gallery-readmore.js" | js.Build | minify | fingerprint }}
   <script defer src="{{ $galleryReadmoreJS.RelPermalink }}" integrity="{{ $galleryReadmoreJS.Data.Integrity }}"></script>
 {{ end }}
+
+{{ if .IsHome }}
+  {{ $homeMarqueeJS := resources.Get "js/home-marquee.js" | js.Build | minify | fingerprint }}
+  <script defer src="{{ $homeMarqueeJS.RelPermalink }}" integrity="{{ $homeMarqueeJS.Data.Integrity }}"></script>
+{{ end }}
+
+{{ if .IsHome }}
+  <noscript>
+    <style>
+      .js-home-marquee {
+        opacity: 1 !important;
+        animation-play-state: running !important;
+      }
+    </style>
+  </noscript>
+{{ end }}

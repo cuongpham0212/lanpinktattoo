@@ -123,7 +123,7 @@
       <h2>{{ if eq .Language.Lang "vi" }}Những hình xăm vừa hoàn thành tại Lan Pink{{ else }}Tattoo works by Lan Pink{{ end }}</h2>
     </div>
 
-    <div class="lp-mobile-two-grid lp-work-marquee-track lp-work-marquee-track--mobile">
+    <div class="lp-mobile-two-grid lp-work-marquee-track lp-work-marquee-track--mobile js-home-marquee">
       {{ $mobilePortfolioSection := cond (eq .Site.Language.Lang "vi") "tac-pham" "portfolio" }}
       {{ $mobilePortfolioPages := ((where site.RegularPages "Section" $mobilePortfolioSection).ByDate.Reverse) }}
 
@@ -136,14 +136,6 @@
         </a>
       {{ end }}
 
-      {{ range $work := $mobilePortfolioPages }}
-        <a class="lp-mobile-photo-card" href="{{ $work.RelPermalink }}" aria-hidden="true" tabindex="-1">
-          {{ with $work.Params.image }}
-            <img src="{{ . }}" alt="" loading="lazy" decoding="async">
-          {{ end }}
-          <span>{{ $work.Title }}</span>
-        </a>
-      {{ end }}
     </div>
   </section>
 
@@ -181,7 +173,7 @@
         </a>
       </div>
 
-      <div class="lp-real-grid lp-work-marquee-track lp-work-marquee-track--desktop">
+      <div class="lp-real-grid lp-work-marquee-track lp-work-marquee-track--desktop js-home-marquee">
         {{ $desktopPortfolioSection := cond (eq .Site.Language.Lang "vi") "tac-pham" "portfolio" }}
         {{ $desktopPortfolioPages := ((where site.RegularPages "Section" $desktopPortfolioSection).ByDate.Reverse) }}
 
@@ -202,22 +194,6 @@
           </article>
         {{ end }}
 
-        {{ range $work := $desktopPortfolioPages }}
-          <article class="lp-real-card" aria-hidden="true">
-            <a href="{{ $work.RelPermalink }}" tabindex="-1">
-              {{ with $work.Params.image }}
-                <img src="{{ . }}" alt="" loading="lazy" decoding="async">
-              {{ else }}
-                <div class="lp-image-placeholder">Lan Pink Tattoo</div>
-              {{ end }}
-              <div class="lp-card-shade"></div>
-              <div class="lp-card-content">
-                <span>{{ i18n "home_real_card" }}</span>
-                <h3>{{ $work.Title }}</h3>
-              </div>
-            </a>
-          </article>
-        {{ end }}
       </div>
     </div>
   </section>
