@@ -39,7 +39,7 @@ keywords:
   - "Hình Xăm Chú Vẹt Tưởng Niệm – Custom Tattoo Design tại Lan Pink Ink"
 seo_content_type: "portfolio"
 
-google_review_id: "review_demo_001"
+google_review_id: "google_CkRDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjF3ZWxVeldrNVJWelZ4VkRKUk1HTlhUbWxUZW1oTFdWVTVhRnByUlJBQhAA"
 ---
 
 ## Hình Xăm Chú Vẹt Tưởng Niệm – Một Câu Chuyện Thật Từ Khách Hàng Của Lan Pink Ink
