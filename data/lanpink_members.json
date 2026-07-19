@@ -1,21 +1,10 @@
 {
-  "updated_at": "2026-07-05 03:27:37",
-  "total_members": 4,
+  "updated_at": "2026-07-20 00:58:01",
+  "total_members": 3,
   "members": [
     {
-      "name": "fanta",
-      "masked_phone": "09xxxxx486",
-      "membership_level": "Member",
-      "available_points": "0",
-      "lifetime_points": "0",
-      "unused_vouchers": 0,
-      "unused_voucher_value": "0đ",
-      "referral_count": 0,
-      "updated_at": "2026-07-03 01:29:34"
-    },
-    {
       "name": "Jonathan",
-      "masked_phone": "09xxxxx234",
+      "masked_phone": "093****234",
       "membership_level": "Silver",
       "available_points": "2.770",
       "lifetime_points": "2.770",
@@ -26,7 +15,7 @@
     },
     {
       "name": "Nguyễn Thị Ngọc Ngoan",
-      "masked_phone": "09xxxxx307",
+      "masked_phone": "093****307",
       "membership_level": "Diamond",
       "available_points": "7.033",
       "lifetime_points": "13.233",
@@ -37,7 +26,7 @@
     },
     {
       "name": "Phạm Huy Cường",
-      "masked_phone": "09xxxxx485",
+      "masked_phone": "090****485",
       "membership_level": "VIP",
       "available_points": "8.404",
       "lifetime_points": "8.404",
