@@ -18,6 +18,7 @@ lanpink-seo-tool-data/
 # =====================================================
 _backup/
 backups/
+backup/
 *.bak
 *.bak_*
 *.bak-*
