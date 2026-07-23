@@ -4,6 +4,7 @@ slug: "what-is-tattoo-restoration"
 date: 2026-06-29
 draft: false
 translation_id: "to-lai-cu_tattoo_style_restoration"
+vietnamese_url: "/cam-nang-tattoo/tattoo-restoration-la-gi/"
 
 description: "What is tattoo restoration? Learn how old tattoo restoration works, when to refresh a faded tattoo, and how it differs from touch up or cover up."
 

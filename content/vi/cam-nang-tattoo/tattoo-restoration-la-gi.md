@@ -4,6 +4,7 @@ slug: "tattoo-restoration-la-gi"
 date: 2026-06-29
 draft: false
 translation_id: "to-lai-cu_tattoo_style_restoration"
+english_url: "/en/tattoo-guide/what-is-tattoo-restoration/"
 
 description: "Tattoo restoration là gì? Tìm hiểu phong cách phục hồi hình xăm cũ, tô lại hình phai màu, mất nét mà vẫn giữ thiết kế ban đầu."
 

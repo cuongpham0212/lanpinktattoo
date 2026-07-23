@@ -12,6 +12,7 @@ slug: "chinh-sach"
 date: 2026-06-13
 draft: false
 translation_id: "tr_5cbb09de2ab14938aa8965a7c581143b"
+english_url: "/en/service-policy/"
 robots: "index, follow"
 ---
 Cảm ơn bạn đã quan tâm đến Lan Pink Tattoo.

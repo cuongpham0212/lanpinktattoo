@@ -4,6 +4,7 @@ slug: "phoenix-tattoo-styles"
 date: 2026-06-29
 draft: false
 translation_id: "tr_d0c76766ef4f4f6a8fcbbf3303c80ff8"
+vietnamese_url: "/phong-cach-xam/phong-cach-hinh-xam-phuong-hoang/"
 
 description: "Explore beautiful phoenix tattoo styles, including Fine Line, Blackwork, Color, Asian-inspired, and modern custom phoenix tattoo designs."
 

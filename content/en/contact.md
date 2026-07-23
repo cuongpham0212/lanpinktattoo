@@ -10,6 +10,7 @@ title: "Contact Lan Pink Ink"
 description: "Contact Lan Pink Tattoo for tattoo consultation, booking, pricing questions, custom design ideas, and appointment support."
 layout: "contact"
 translation_id: "contact_page"
+vietnamese_url: "/contact/"
 ---
 
 ## Visit Lan Pink's Tattoo Studio

@@ -4,6 +4,7 @@ slug: "pet-tattoo-styles"
 date: 2026-06-19
 draft: false
 translation_id: "tr_f0a8919ce22c4fb99329cb0ea24fde4d"
+vietnamese_url: "/phong-cach-xam/phong-cach-hinh-xam-thu-cung/"
 
 description: "Explore popular pet tattoo styles including Fine Line, Mini Tattoo, Blackwork, Black and Grey, and Custom Pet Portrait Tattoo."
 

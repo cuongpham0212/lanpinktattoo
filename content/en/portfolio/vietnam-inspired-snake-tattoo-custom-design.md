@@ -4,6 +4,7 @@ description: "A Vietnam inspired snake tattoo created for an international clien
 date: 2026-06-15
 draft: false
 translation_id: "snake_tattoo_portfolio"
+vietnamese_url: "/tac-pham/hinh-xam-ran-cam-hung-viet-nam/"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-ran-lan-pink-tattoo.webp"
 image_alt: "Vietnam inspired snake tattoo custom designed by Lan Pink Ink female tattoo artist in Ho Chi Minh City"

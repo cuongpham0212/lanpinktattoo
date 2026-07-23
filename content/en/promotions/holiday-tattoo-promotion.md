@@ -9,6 +9,7 @@ slug: "holiday-tattoo-promotion"
 date: 2026-06-25
 draft: false
 translation_id: "holiday_promotion_page"
+vietnamese_url: "/khuyen-mai/uu-dai-xam-hinh-dip-le/"
 
 description: "A limited-time holiday tattoo promotion at Lan Pink Tattoo for clients interested in custom tattoos, fine line tattoos, mini tattoos and personal tattoo designs in Ho Chi Minh City."
 image: ""

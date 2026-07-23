@@ -13,6 +13,7 @@ slug: "lan-pink-tattoo-artist"
 date: 2026-06-17
 draft: false
 translation_id: "artist_profile_page"
+english_url: "/en/lan-pink-tattoo-artist/"
 
 tags: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM"]
 

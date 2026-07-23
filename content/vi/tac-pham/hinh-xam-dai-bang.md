@@ -4,6 +4,7 @@ slug: "hinh-xam-dai-bang"
 date: 2026-06-28
 draft: false
 translation_id: "tr_07f8c136e7ea434d9bc74b7e1f8c85b9"
+english_url: "/en/portfolio/eagle-tattoo-upper-arm/"
 
 description: "Tác phẩm hình xăm đại bàng ở bắp tay, được thiết kế theo hướng mạnh mẽ, tập trung vào ánh mắt, bố cục và thần thái riêng của khách hàng tại Lan Pink Tattoo TP.HCM."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-dai-bang-lan-pink-tattoo-tphcm.webp"

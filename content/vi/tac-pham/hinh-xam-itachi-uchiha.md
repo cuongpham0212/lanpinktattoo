@@ -4,6 +4,7 @@ slug: "hinh-xam-itachi-uchiha"
 date: 2026-07-05
 draft: false
 translation_id: "tr_14dc9921059c40cc97818ce00192f22b"
+english_url: "/en/portfolio/itachi-uchiha-tattoo/"
 
 description: "Tác phẩm hình xăm Itachi Uchiha full bắp tay lấy cảm hứng từ Naruto, được thực hiện cho khách nam người nước ngoài tại Lan Pink Tattoo Quận 12, TP.HCM."
 

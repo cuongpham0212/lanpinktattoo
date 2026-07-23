@@ -11,6 +11,7 @@ description: "Book a tattoo consultation at Lan Pink Tattoo. Send your idea, pla
 slug: "booking"
 layout: "booking"
 translation_id: "booking_page"
+vietnamese_url: "/dat-lich/"
 ---
 
 ## Wondering About Tattoo Prices?

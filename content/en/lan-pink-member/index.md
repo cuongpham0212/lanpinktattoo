@@ -10,6 +10,7 @@ title: "Lan Pink Tattoo Membership Program"
 slug: "lan-pink-member"
 draft: false
 translation_id: "member_page"
+vietnamese_url: "/lan-pink-member/"
 description: "Lan Pink Tattoo membership program for returning clients, reward points, member benefits, and loyalty offers."
 ---
 -------------------------------------------------------------------------------------------------

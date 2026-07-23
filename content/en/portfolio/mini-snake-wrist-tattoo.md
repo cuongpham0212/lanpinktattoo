@@ -4,6 +4,7 @@ slug: "mini-snake-wrist-tattoo"
 date: 2026-07-14
 draft: false
 translation_id: "snake_tattoo_tac-pham"
+vietnamese_url: "/tac-pham/hinh-xam-ran-mini-co-tay/"
 
 description: "Explore this minimalist mini snake wrist tattoo featuring a clean vertical composition, bold black ink, and a natural placement along the inner wrist."
 

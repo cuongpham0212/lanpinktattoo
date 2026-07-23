@@ -9,6 +9,7 @@ slug: "quy-tac-tich-diem"
 date: 2026-06-21
 draft: false
 translation_id: "member_rules_page"
+english_url: "/en/member-rules/"
 description: "Quy tắc tích điểm, hạng thành viên trọn đời, voucher đổi điểm, voucher sinh nhật và chương trình giới thiệu bạn bè tại Lan Pink Tattoo."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-price-guide.webp"
 image_alt: "Quy tắc tích điểm thành viên Lan Pink Tattoo tại Quận 12 TP.HCM"

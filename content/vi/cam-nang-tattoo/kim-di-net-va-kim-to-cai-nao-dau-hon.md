@@ -5,6 +5,7 @@ slug: "kim-di-net-va-kim-to-cai-nao-dau-hon"
 date: 2026-06-12
 draft: false
 translation_id: "tattoo_pain_needles_guide"
+english_url: "/en/tattoo-guide/lining-vs-shading-needles-which-hurts-more/"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/ran-mini-cotay.webp"
 

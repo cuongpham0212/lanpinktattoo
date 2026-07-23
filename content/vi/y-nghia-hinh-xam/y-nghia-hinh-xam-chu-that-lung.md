@@ -4,6 +4,7 @@ slug: "y-nghia-hinh-xam-chu-that-lung"
 date: 2026-07-01
 draft: false
 translation_id: "tr_d254b94bc70f4d84a6236cc98028e93b"
+english_url: "/en/tattoo-meanings/lower-back-lettering-tattoo-meaning/"
 
 description: "Tìm hiểu ý nghĩa hình xăm chữ thắt lưng, vì sao vị trí gần hõm Venus được yêu thích và cách chọn nội dung chữ phù hợp với cá tính cá nhân."
 

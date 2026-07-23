@@ -11,6 +11,7 @@ slug: "faq"
 date: 2026-06-09
 draft: false
 translation_id: "tr_fec92a474eae466bbe46b9ca4ad3535f"
+english_url: "/en/faq/"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp"
 

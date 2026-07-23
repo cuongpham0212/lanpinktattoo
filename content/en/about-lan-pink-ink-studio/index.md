@@ -11,6 +11,7 @@ description: "Lan Pink Tattoo, also known as Lan Pink Ink, is a private tattoo s
 slug: "about-lan-pink-ink-studio"
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp"
 translation_id: "studio_about_page"
+vietnamese_url: "/ve-lan-pink-ink-studio/"
 ---
 ![Female Tattoo Artist Lan Pink](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp)
 

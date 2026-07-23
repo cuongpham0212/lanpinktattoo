@@ -4,6 +4,7 @@ slug: "phuc-hoi-hinh-xam-cu-va-cover-up-khac-nhau-the-nao"
 date: 2026-06-29
 draft: false
 translation_id: "to-lai-cu_tattoo_guide_restoration_vs_coverup"
+english_url: "/en/tattoo-guide/tattoo-restoration-vs-cover-up/"
 
 description: "Phân biệt phục hồi hình xăm cũ và cover up: khi nào nên tô lại, khi nào nên che hình cũ bằng thiết kế mới."
 

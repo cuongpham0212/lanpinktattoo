@@ -4,6 +4,7 @@ slug: "custom-phoenix-tattoo-upper-arm"
 date: 2026-06-24
 draft: false
 translation_id: "tr_5d25624bdaae40aa936bc7993c890851"
+vietnamese_url: "/tac-pham/hinh-xam-phuong-hoang-o-bap-tay/"
 
 description: "Explore a custom phoenix tattoo on the upper arm designed and tattooed by Lan Pink Tattoo in Ho Chi Minh City, featuring a personalized composition inspired by rebirth and resilience."
 

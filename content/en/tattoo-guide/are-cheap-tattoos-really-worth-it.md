@@ -4,6 +4,7 @@ slug: "are-cheap-tattoos-really-worth-it"
 date: 2026-06-22
 draft: false
 translation_id: "tattoo_pricing_guide_hinh-xam-gia-re"
+vietnamese_url: "/cam-nang-tattoo/hinh-xam-gia-re/"
 
 description: "Are cheap tattoos really worth it? Learn how low tattoo prices may affect ink durability, pain, line quality, hygiene, and future correction costs."
 

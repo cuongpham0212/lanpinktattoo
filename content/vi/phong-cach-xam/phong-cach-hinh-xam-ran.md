@@ -4,6 +4,7 @@ description: "Gợi ý các phong cách hình xăm rắn như Fine Line, Mini Ta
 date: 2026-06-19
 draft: false
 translation_id: "tr_5faaa6fdedad47639037890c09e596cc"
+english_url: "/en/tattoo-styles/snake-tattoo-styles/"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-ran-lan-pink-tattoo.webp"
 image_alt: "hình xăm rắn tại Lan Pink Tattoo TP.HCM"

@@ -4,6 +4,7 @@ slug: "y-nghia-hinh-xam-tuong-niem-thu-cung"
 date: 2026-06-29
 draft: false
 translation_id: "tr_497e1e03f4e24b10b38c81fbfa850898"
+english_url: "/en/tattoo-meanings/pet-memorial-tattoo-meaning/"
 
 description: "Ý nghĩa hình xăm tưởng niệm thú cưng, cách chọn thiết kế để lưu giữ hình bóng mèo, chó hoặc người bạn nhỏ đã mất."
 

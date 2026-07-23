@@ -4,6 +4,7 @@ slug: "pet-memorial-tattoo-styles"
 date: 2026-06-19
 draft: false
 translation_id: "tr_354ca88694b94529b0b815bf21bc3b2d"
+vietnamese_url: "/phong-cach-xam/phong-cach-hinh-xam-tuong-niem-thu-cung/"
 
 description: "Explore popular pet memorial tattoo styles including Fine Line, Black and Grey, Mini Tattoo, and Custom Pet Memorial Tattoo."
 

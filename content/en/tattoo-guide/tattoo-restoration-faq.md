@@ -4,6 +4,7 @@ slug: "tattoo-restoration-faq"
 date: 2026-06-29
 draft: false
 translation_id: "to-lai-cu_tattoo_faq"
+vietnamese_url: "/cam-nang-tattoo/phuc-hoi-hinh-xam-cu-faq/"
 
 description: "Tattoo restoration FAQ: when to retouch an old tattoo, when to choose a cover up, what affects the cost, and what to prepare before fixing a faded tattoo."
 

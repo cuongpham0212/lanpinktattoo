@@ -4,6 +4,7 @@ slug: "hinh-xam-rong-hoa-mau-don"
 date: 2026-07-22
 draft: false
 translation_id: "tr_9a4f49709b75e037bbad22ab0c1238be"
+english_url: "/en/portfolio/dragon-peony-tattoo-cover-up/"
 
 description: "Tác phẩm cover hình xăm cũ đã mờ bằng thiết kế rồng hoa mẫu đơn kín mạn sườn cho khách nữ người nước ngoài, với bố cục ôm cơ thể do Lan Pink Tattoo thực hiện."
 

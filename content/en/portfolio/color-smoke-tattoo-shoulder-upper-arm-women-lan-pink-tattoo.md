@@ -4,6 +4,7 @@ slug: "color-smoke-tattoo-shoulder-upper-arm-women-lan-pink-tattoo"
 date: 2026-07-15
 draft: false
 translation_id: "tr_6dc62409fe6c4311a78115e591aaf8b8"
+vietnamese_url: "/tac-pham/hinh-xam-khoi-hoa-tiet-mau-tren-vai-va-bap-tay-nu-lan-pink-tattoo/"
 
 description: "A flowing color smoke tattoo for the shoulder and upper arm, featuring soft blue and orange tones, delicate floral accents, and a graceful composition created at Lan Pink Tattoo."
 

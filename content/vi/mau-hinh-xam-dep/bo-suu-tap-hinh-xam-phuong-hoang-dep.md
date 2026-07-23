@@ -4,6 +4,7 @@ slug: "bo-suu-tap-hinh-xam-phuong-hoang-dep"
 date: 2026-06-28
 draft: false
 translation_id: "tr_8f72360b573e49c78e6f2a52bf039dd2"
+english_url: "/en/tattoo-designs/beautiful-phoenix-tattoo-collection/"
 
 description: "Khám phá bộ sưu tập hình xăm phượng hoàng đẹp với nhiều phong cách, kích thước và vị trí khác nhau. Gợi ý ý tưởng tattoo phượng hoàng dành cho nữ và nam."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/bo-suu-tap-hinh-xam-phuong-hoang/bo-suu-tap-hinh-xam-phuong-hoang.webp"

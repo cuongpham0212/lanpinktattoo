@@ -4,6 +4,7 @@ slug: "pet-memorial-tattoo-meaning"
 date: 2026-06-29
 draft: false
 translation_id: "tr_497e1e03f4e24b10b38c81fbfa850898"
+vietnamese_url: "/y-nghia-hinh-xam/y-nghia-hinh-xam-tuong-niem-thu-cung/"
 
 description: "The meaning of pet memorial tattoos and how to choose a thoughtful design to remember a beloved cat, dog, or small companion."
 

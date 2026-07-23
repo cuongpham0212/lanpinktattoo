@@ -4,6 +4,7 @@ slug: "phoenix-tattoo-meaning"
 date: 2026-06-20
 draft: false
 translation_id: "tr_4148537b538a4fa5b12f0ea6ddd70bce"
+vietnamese_url: "/y-nghia-hinh-xam/hinh-xam-phuong-hoang-o-bap-tay/"
 
 description: "Discover the meaning of phoenix tattoos on the upper arm, suitable styles, placement benefits, and how to choose a balanced phoenix tattoo design."
 

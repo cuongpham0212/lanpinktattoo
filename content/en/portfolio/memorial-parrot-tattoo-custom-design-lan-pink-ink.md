@@ -4,6 +4,7 @@ description: "A meaningful parrot memorial tattoo for Gonzo, custom designed by 
 date: 2026-06-14
 draft: false
 translation_id: "tr_4573afa8a2494b35b88e3792c0c4c37f"
+vietnamese_url: "/tac-pham/hinh-xam-chu-vet-tuong-niem-custom-tattoo-design/"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-vet-gonzo-thiet-ke-quan-12.webp"
 image_alt: "Parrot memorial tattoo for Gonzo custom designed at Lan Pink Ink District 12 Ho Chi Minh City"

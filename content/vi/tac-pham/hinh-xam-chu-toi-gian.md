@@ -4,6 +4,7 @@ slug: "hinh-xam-chu-toi-gian"
 date: 2026-07-20
 draft: false
 translation_id: "tr_0b58133e693f88f58fa04b25fe019cea"
+english_url: "/en/portfolio/minimalist-lettering-tattoo/"
 
 description: "Khám phá những hình xăm chữ tối giản ở cẳng tay, từ cách chọn font, sắp xếp vị trí đến thiết kế kết hợp tranh Peanuts thu nhỏ tại Lan Pink Tattoo."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tattoo-chu/hinh-xam-chu-ket-hop-tranh-snoopy-mini-cang-tay-fine-line.webp"

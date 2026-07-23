@@ -5,6 +5,7 @@ slug: "xam-hinh-co-dau-khong"
 date: 2026-06-12
 draft: false
 translation_id: "tattoo_pain_guide"
+english_url: "/en/tattoo-guide/does-getting-a-tattoo-hurt/"
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/ran-mini-cotay.webp"
 
 tags:

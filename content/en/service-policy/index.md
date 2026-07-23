@@ -12,6 +12,7 @@ slug: "service-policy"
 date: 2026-06-14
 draft: false
 translation_id: "tr_5cbb09de2ab14938aa8965a7c581143b"
+vietnamese_url: "/chinh-sach/"
 robots: "index, follow"
 ---
 Thank you for your interest in Lan Pink Tattoo.

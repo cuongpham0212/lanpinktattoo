@@ -4,6 +4,7 @@ slug: "phoenix-tattoo-guide"
 date: 2026-06-29
 draft: false
 translation_id: "tr_fc387709355645d9808c1f0b4301a52a"
+vietnamese_url: "/cam-nang-tattoo/huong-dan-chon-hinh-xam-phuong-hoang-phu-hop/"
 
 description: "How to choose the right phoenix tattoo based on placement, size, style, and personal meaning before getting tattooed."
 

@@ -4,6 +4,7 @@ slug: "how-much-does-a-tattoo-cost-in-ho-chi-minh-city"
 date: 2026-06-22
 draft: false
 translation_id: "tattoo_pricing_guide_xam-hinh-500k-duoc-gi"
+vietnamese_url: "/cam-nang-tattoo/xam-hinh-500k-duoc-gi/"
 
 description: "How much does a tattoo cost in Ho Chi Minh City? Learn what a 500K VND tattoo budget can cover, what affects tattoo pricing, and how to choose a suitable design."
 
