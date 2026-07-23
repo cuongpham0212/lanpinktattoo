@@ -11,6 +11,7 @@ title: "Lan Pink Member Administration Area"
 slug: "member-admin"
 draft: false
 translation_id: "member_admin_page"
+vietnamese_url: "/lan-pink-member-admin/"
 robots: "noindex, nofollow"
 ---
 This page allows the Lan Pink Tattoo management team to quickly launch the local member management application.

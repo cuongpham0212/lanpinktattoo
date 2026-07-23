@@ -4,6 +4,7 @@ slug: "pet-tattoo-meaning-guide"
 date: 2026-06-19
 draft: false
 translation_id: "tr_0f01a104096349f1944ae57a34ee733b"
+vietnamese_url: "/cam-nang-tattoo/hinh-xam-thu-cung-co-y-nghia-gi/"
 
 description: "Learn the meaning of pet tattoos, popular design ideas, styles, placements, and how to prepare for a custom pet portrait tattoo at Lan Pink Tattoo."
 

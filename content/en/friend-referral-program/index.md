@@ -9,6 +9,7 @@ slug: "friend-referral-program"
 date: 2026-06-21
 draft: false
 translation_id: "referral_program_page"
+vietnamese_url: "/chuong-trinh-gioi-thieu-ban-be/"
 description: "Refer your friends to Lan Pink Tattoo and earn member reward points. Members can earn points from new referrals and from returning visits made together with referred friends."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-price-guide.webp"
 image_alt: "Friend referral rewards program at Lan Pink Tattoo"

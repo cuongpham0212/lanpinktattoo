@@ -4,6 +4,7 @@ slug: "phong-cach-hinh-xam-dai-bang"
 date: 2026-06-29
 draft: false
 translation_id: "tr_c2768bcd67114570a62545e752337612"
+english_url: "/en/tattoo-styles/eagle-tattoo-styles/"
 
 description: "Khám phá các phong cách hình xăm đại bàng phổ biến như Black & Grey, Realistic, Neo Traditional, Fine Line và cách chọn phong cách phù hợp với cá tính của bạn."
 

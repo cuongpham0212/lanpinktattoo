@@ -4,6 +4,7 @@ slug: "y-nghia-hinh-xam-thu-cung"
 date: 2026-06-29
 draft: false
 translation_id: "tr_7989fc5702cd401984106fb044f4bfab"
+english_url: "/en/tattoo-meanings/pet-tattoo-meaning/"
 
 description: "Tìm hiểu ý nghĩa hình xăm thú cưng, vì sao nhiều người chọn xăm chân dung mèo, chó hoặc người bạn nhỏ đã gắn bó với mình."
 

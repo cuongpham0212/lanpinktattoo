@@ -4,6 +4,7 @@ slug: "vi-sao-gia-xam-ngay-cang-re"
 date: 2026-06-22
 draft: false
 translation_id: "tattoo_pricing_guide_vi-sao-gia-xam-ngay-cang-re"
+english_url: "/en/tattoo-guide/why-are-tattoos-in-vietnam-so-affordable-at-lan-pink-ink/"
 
 description: "Vì sao giá xăm ngày càng rẻ và khách nên nhìn giá xăm như thế nào cho đúng? Cùng Lan Pink Tattoo phân tích chi phí thật phía sau một hình xăm đẹp, an toàn và bền màu."
 

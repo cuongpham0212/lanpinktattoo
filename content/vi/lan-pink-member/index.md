@@ -10,6 +10,7 @@ title: "Chương Trình Thành Viên Lan Pink Tattoo"
 slug: "lan-pink-member"
 draft: false
 translation_id: "member_page"
+english_url: "/en/lan-pink-member/"
 description: "Chương trình thành viên Lan Pink Tattoo dành cho khách quay lại, tích điểm, nhận ưu đãi và theo dõi quyền lợi sau mỗi lần xăm."
 ---
 Danh sách này chỉ dùng để khách tra cứu hạng thành viên, điểm khả dụng và số voucher khả dụng. Thành viên được Lan Pink Tattoo đăng ký thủ công sau khi khách sử dụng dịch vụ và hoàn tất thanh toán tại studio.

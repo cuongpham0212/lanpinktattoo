@@ -4,6 +4,7 @@ slug: "hinh-xam-ran-mini-co-tay"
 date: 2026-07-14
 draft: false
 translation_id: "snake_tattoo_tac-pham"
+english_url: "/en/portfolio/mini-snake-wrist-tattoo/"
 
 description: "Khám phá tác phẩm hình xăm rắn mini cổ tay với bố cục dọc gọn gàng, mực đen tương phản và cách đặt hình tự nhiên ở mặt trong cổ tay."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-ran-mini-co-tay-lan-pink-tattoo.webp"

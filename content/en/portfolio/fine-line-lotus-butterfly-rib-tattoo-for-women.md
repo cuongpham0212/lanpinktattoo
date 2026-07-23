@@ -4,6 +4,7 @@ slug: "fine-line-lotus-butterfly-rib-tattoo-for-women"
 date: 2026-07-23
 draft: false
 translation_id: "tr_9c1e30ce8692596079f9835380079681"
+vietnamese_url: "/tac-pham/hinh-xam-fine-line-y-tuong-hinh-xam-man-suon-nu/"
 
 description: "Explore a fine line rib tattoo for women featuring lotus flowers, a butterfly, and minimalist geometric details arranged in an elegant vertical composition."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-fine-line-hoa-sen-buom-man-suon-nu.webp"

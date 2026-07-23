@@ -4,6 +4,7 @@ slug: "hinh-xam-khoi-hoa-tiet-mau-tren-vai-va-bap-tay-nu-lan-pink-tattoo"
 date: 2026-07-15
 draft: false
 translation_id: "tr_6dc62409fe6c4311a78115e591aaf8b8"
+english_url: "/en/portfolio/color-smoke-tattoo-shoulder-upper-arm-women-lan-pink-tattoo/"
 
 description: "Mẫu hình xăm khói họa tiết màu trên vai và bắp tay nữ, kết hợp đường nét xanh cam mềm mại, hoa nhỏ và bố cục chuyển động được thiết kế tại Lan Pink Tattoo."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-khoi-hoa-tiet-mau-vai-bap-tay-nu.webp"

@@ -4,6 +4,7 @@ slug: "y-nghia-hinh-xam-dai-bang"
 date: 2026-06-28
 draft: false
 translation_id: "tr_8b10ca3e994b46c39ce20d1cc68632a2"
+english_url: "/en/tattoo-meanings/eagle-tattoo-meaning/"
 
 description: "Tìm hiểu ý nghĩa hình xăm đại bàng: tự do, bản lĩnh, tầm nhìn và sức mạnh nội tâm. Gợi ý cách chọn thiết kế đại bàng phù hợp tại Lan Pink Tattoo."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-dai-bang-lan-pink-tattoo-tphcm.webp"

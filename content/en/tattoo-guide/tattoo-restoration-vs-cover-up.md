@@ -4,6 +4,7 @@ slug: "tattoo-restoration-vs-cover-up"
 date: 2026-06-29
 draft: false
 translation_id: "to-lai-cu_tattoo_guide_restoration_vs_coverup"
+vietnamese_url: "/cam-nang-tattoo/phuc-hoi-hinh-xam-cu-va-cover-up-khac-nhau-the-nao/"
 
 description: "Learn the difference between tattoo restoration and cover up tattoos, when to restore an old tattoo, and when to replace it with a new design."
 

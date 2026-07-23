@@ -11,6 +11,7 @@ title: "Khu vực quản trị thành viên Lan Pink"
 slug: "lan-pink-member-admin"
 draft: false
 translation_id: "member_admin_page"
+english_url: "/en/member-admin/"
 robots: "noindex, nofollow"
 ---
 Trang này dành cho BQT Lan Pink Tattoo mở nhanh app quản trị thành viên trên máy local.

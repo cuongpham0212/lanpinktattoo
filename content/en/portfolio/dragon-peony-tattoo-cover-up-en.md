@@ -4,6 +4,7 @@ slug: "dragon-peony-tattoo-cover-up"
 date: 2026-07-22
 draft: false
 translation_id: "tr_9a4f49709b75e037bbad22ab0c1238be"
+vietnamese_url: "/tac-pham/hinh-xam-rong-hoa-mau-don/"
 
 description: "A faded old tattoo transformed into a full rib dragon and peony cover-up for an international female client, featuring a body-flowing composition created by Lan Pink Tattoo."
 

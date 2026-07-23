@@ -4,6 +4,7 @@ description: "A guide to choosing the right snake tattoo placement, from forearm
 date: 2026-06-18
 draft: false
 translation_id: "snake_tattoo_guide_huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri"
+vietnamese_url: "/cam-nang-tattoo/huong-dan-chon-hinh-xam-ran-phu-hop-voi-tung-vi-tri/"
 
 image: ""
 image_alt: "Guide to choosing the right snake tattoo placement at Lan Pink Tattoo"

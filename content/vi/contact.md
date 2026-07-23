@@ -10,6 +10,7 @@ title: "Liên hệ Lan Pink Ink"
 description: "Liên hệ Lan Pink Tattoo để tư vấn hình xăm, đặt lịch, hỏi giá, gửi ý tưởng thiết kế hoặc trao đổi trước khi xăm."
 layout: "contact"
 translation_id: "contact_page"
+english_url: "/en/contact/"
 ---
 
 ## Ghé Studio Xăm Của Lan Pink

@@ -4,6 +4,7 @@ slug: "minimalist-lettering-tattoo"
 date: 2026-07-20
 draft: false
 translation_id: "tr_0b58133e693f88f58fa04b25fe019cea"
+vietnamese_url: "/tac-pham/hinh-xam-chu-toi-gian/"
 
 description: "Explore minimalist lettering tattoos on the forearm, from font selection and placement to a miniature Peanuts comic design created at Lan Pink Tattoo."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tattoo-chu/hinh-xam-chu-ket-hop-tranh-snoopy-mini-cang-tay-fine-line.webp"

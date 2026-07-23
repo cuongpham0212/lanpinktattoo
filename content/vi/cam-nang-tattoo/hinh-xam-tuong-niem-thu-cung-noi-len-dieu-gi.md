@@ -4,6 +4,7 @@ description: "Tìm hiểu ý nghĩa của hình xăm tưởng niệm thú cưng,
 date: 2026-06-19
 draft: false
 translation_id: "tr_078add796c534551896aca8ae6fd3da4"
+english_url: "/en/tattoo-guide/pet-memorial-tattoo-guide/"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-tuong-niem-thu-cung-co-y-nghia-gi.webp"
 image_alt: "Hình xăm tưởng niệm thú cưng Pet Memorial Tattoo tại Lan Pink Tattoo TP.HCM"

@@ -4,6 +4,7 @@ slug: "eagle-tattoo-upper-arm"
 date: 2026-06-28
 draft: false
 translation_id: "tr_07f8c136e7ea434d9bc74b7e1f8c85b9"
+vietnamese_url: "/tac-pham/hinh-xam-dai-bang/"
 
 description: "A bold and detailed eagle tattoo on the upper arm, featuring strong composition, sharp details, and Black & Grey tattoo techniques by Lan Pink Tattoo in Ho Chi Minh City."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-dai-bang-lan-pink-tattoo-tphcm.webp"

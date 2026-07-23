@@ -4,6 +4,7 @@ slug: "huong-dan-chon-hinh-xam-phuong-hoang-phu-hop"
 date: 2026-06-29
 draft: false
 translation_id: "tr_fc387709355645d9808c1f0b4301a52a"
+english_url: "/en/tattoo-guide/phoenix-tattoo-guide/"
 
 description: "Cách chọn hình xăm phượng hoàng phù hợp với vị trí, kích thước, phong cách và ý nghĩa cá nhân trước khi xăm."
 

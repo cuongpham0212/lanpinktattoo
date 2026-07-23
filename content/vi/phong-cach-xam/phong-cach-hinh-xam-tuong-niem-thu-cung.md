@@ -4,6 +4,7 @@ description: "Khám phá các phong cách hình xăm tưởng niệm thú cưng 
 date: 2026-06-19
 draft: false
 translation_id: "tr_354ca88694b94529b0b815bf21bc3b2d"
+english_url: "/en/tattoo-styles/pet-memorial-tattoo-styles/"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/phong-cach-hinh-xam-tuong-niem-thu-cung.webp"
 image_alt: "Các phong cách hình xăm tưởng niệm thú cưng tại Lan Pink Tattoo TP.HCM"

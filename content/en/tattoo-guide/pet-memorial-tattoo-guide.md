@@ -4,6 +4,7 @@ slug: "pet-memorial-tattoo-guide"
 date: 2026-06-19
 draft: false
 translation_id: "tr_078add796c534551896aca8ae6fd3da4"
+vietnamese_url: "/cam-nang-tattoo/hinh-xam-tuong-niem-thu-cung-noi-len-dieu-gi/"
 
 description: "Learn the meaning of pet memorial tattoos, popular design ideas, placements, and how to preserve the memory of a beloved companion."
 

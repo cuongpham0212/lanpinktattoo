@@ -12,6 +12,7 @@ slug: "tattoo-price-list-ho-chi-minh-city"
 date: 2026-06-11
 draft: false
 translation_id: "tr_0ef122e447da4fa8b244631da402c979"
+vietnamese_url: "/bang-gia/"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-price-list-ho-chi-minh-city.webp"
 

@@ -8,6 +8,7 @@ description: "Tác phẩm hình xăm rắn custom lấy cảm hứng Việt Nam 
 date: 2026-06-15
 draft: false
 translation_id: "snake_tattoo_portfolio"
+english_url: "/en/portfolio/vietnam-inspired-snake-tattoo-custom-design/"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-ran-lan-pink-tattoo.webp"
 image_alt: "Hình xăm rắn thiết kế riêng bởi Lan Pink Ink thợ xăm nữ tại Quận 12 TP.HCM"

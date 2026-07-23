@@ -4,6 +4,7 @@ slug: "eagle-tattoo-styles"
 date: 2026-06-29
 draft: false
 translation_id: "tr_c2768bcd67114570a62545e752337612"
+vietnamese_url: "/phong-cach-xam/phong-cach-hinh-xam-dai-bang/"
 
 description: "Explore popular eagle tattoo styles such as Black and Grey, Realistic, Neo Traditional, Fine Line, and Geometric, with tips for choosing the right style."
 

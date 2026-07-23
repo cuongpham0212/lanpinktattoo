@@ -4,6 +4,7 @@ slug: "hinh-xam-chu-that-lung"
 date: 2026-07-02
 draft: false
 translation_id: "tr_207e2d8b73c34afdb4f412e0251f4233"
+english_url: "/en/tattoo-guide/waist-lettering-venus-dimples-tattoo/"
 
 description: "Gợi ý hình xăm chữ ở hõm Venus và thắt lưng cho nam, nữ: cách chọn nội dung, kiểu chữ, bố cục và vị trí phù hợp cơ thể, cùng lưu ý khi xăm tại Quận 12, TP.HCM."
 image: ""

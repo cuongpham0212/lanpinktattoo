@@ -5,6 +5,7 @@ slug: "lining-vs-shading-needles-which-hurts-more"
 date: 2026-06-12
 draft: false
 translation_id: "tattoo_pain_needles_guide"
+vietnamese_url: "/cam-nang-tattoo/kim-di-net-va-kim-to-cai-nao-dau-hon/"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/ran-mini-cotay.webp"
 

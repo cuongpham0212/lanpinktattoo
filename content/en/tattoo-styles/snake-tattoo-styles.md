@@ -4,6 +4,7 @@ slug: "snake-tattoo-styles"
 date: 2026-06-19
 draft: false
 translation_id: "tr_5faaa6fdedad47639037890c09e596cc"
+vietnamese_url: "/phong-cach-xam/phong-cach-hinh-xam-ran/"
 
 description: "Explore popular snake tattoo styles including Fine Line, Mini Tattoo, Blackwork, and Custom Snake Tattoo Design at Lan Pink Tattoo."
 

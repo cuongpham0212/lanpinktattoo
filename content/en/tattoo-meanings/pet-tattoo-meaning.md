@@ -4,6 +4,7 @@ slug: "pet-tattoo-meaning"
 date: 2026-06-29
 draft: false
 translation_id: "tr_7989fc5702cd401984106fb044f4bfab"
+vietnamese_url: "/y-nghia-hinh-xam/y-nghia-hinh-xam-thu-cung/"
 
 description: "Discover the meaning of pet tattoos and why so many people choose to tattoo the portraits of their beloved cats, dogs, and animal companions."
 

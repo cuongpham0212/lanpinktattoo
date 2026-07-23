@@ -5,6 +5,7 @@ slug: "what-to-prepare-before-your-first-tattoo"
 date: 2026-06-12
 draft: false
 translation_id: "tr_b3378d869fe54aad9c1de8dc68b44a57"
+vietnamese_url: "/cam-nang-tattoo/xam-hinh-lan-dau-can-chuan-bi-gi/"
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp"
 image_alt: "First tattoo preparation guide at Lan Pink Tattoo Ho Chi Minh City"

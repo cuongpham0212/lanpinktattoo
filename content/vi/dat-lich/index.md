@@ -11,6 +11,7 @@ description: "Đặt lịch tư vấn hình xăm tại Lan Pink Tattoo. Gửi ý
 slug: "dat-lich"
 layout: "booking"
 translation_id: "booking_page"
+english_url: "/en/booking/"
 ---
 
 ## Trước khi đặt lịch nên chuẩn bị gì?

@@ -4,6 +4,7 @@ slug: "how-to-prepare-for-a-snake-tattoo"
 date: 2026-06-29
 draft: false
 translation_id: "snake_tattoo_guide_prepare"
+vietnamese_url: "/cam-nang-tattoo/hinh-xam-ran-can-chuan-bi-gi-truoc-khi-xam/"
 
 description: "What to prepare before getting a snake tattoo: placement, style, size, meaning, reference images, and how to discuss the design with your tattoo artist."
 

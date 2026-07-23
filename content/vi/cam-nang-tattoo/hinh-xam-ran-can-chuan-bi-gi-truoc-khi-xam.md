@@ -4,6 +4,7 @@ slug: "hinh-xam-ran-can-chuan-bi-gi-truoc-khi-xam"
 date: 2026-06-29
 draft: false
 translation_id: "snake_tattoo_guide_prepare"
+english_url: "/en/tattoo-guide/how-to-prepare-for-a-snake-tattoo/"
 
 description: "Những điều cần chuẩn bị trước khi xăm hình rắn: chọn vị trí, phong cách, kích thước, ý nghĩa và cách trao đổi với tattoo artist."
 

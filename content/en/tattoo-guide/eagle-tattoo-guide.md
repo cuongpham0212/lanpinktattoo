@@ -4,6 +4,7 @@ slug: "eagle-tattoo-guide"
 date: 2026-06-28
 draft: false
 translation_id: "tr_e4f8890e63b04a68aadfd7ebff6f943e"
+vietnamese_url: "/cam-nang-tattoo/hinh-xam-dai-bang/"
 
 description: "Want a beautiful eagle tattoo with strong expression and personal meaning? Learn how to prepare your idea, references, placement, and style before getting tattooed at Lan Pink Tattoo."
 

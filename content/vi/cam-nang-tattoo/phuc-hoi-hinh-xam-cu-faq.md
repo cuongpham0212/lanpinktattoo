@@ -8,6 +8,7 @@ slug: "phuc-hoi-hinh-xam-cu-faq"
 date: 2026-06-29
 draft: false
 translation_id: "to-lai-cu_tattoo_faq"
+english_url: "/en/tattoo-guide/tattoo-restoration-faq/"
 
 description: "FAQ phục hồi hình xăm cũ: khi nào nên tô lại, khi nào nên cover up, chi phí phụ thuộc yếu tố nào và cần chuẩn bị gì trước khi sửa tattoo."
 

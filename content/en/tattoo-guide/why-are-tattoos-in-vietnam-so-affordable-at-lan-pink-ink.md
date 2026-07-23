@@ -4,6 +4,7 @@ slug: "why-are-tattoos-in-vietnam-so-affordable-at-lan-pink-ink"
 date: 2026-06-22
 draft: false
 translation_id: "tattoo_pricing_guide_vi-sao-gia-xam-ngay-cang-re"
+vietnamese_url: "/cam-nang-tattoo/vi-sao-gia-xam-ngay-cang-re/"
 
 description: "Why are tattoos becoming more affordable in Vietnam? Learn how tattoo pricing works, what affects the real cost, and how to choose the right studio."
 
