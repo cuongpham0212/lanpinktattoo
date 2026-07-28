@@ -592,3 +592,32 @@ html[data-theme="light"] .lp-google-review-foot{
   border-top:1px solid rgba(190,24,93,.12);
 }
 /* ===== End Google Review Card theme owner ===== */
+
+/* Member page information cards — light theme */
+html[data-theme="light"] .lp-member-info-card {
+  background: #fff7fb;
+  border-color: #f7b6d6;
+  color: var(--text-main);
+}
+
+html[data-theme="light"] .lp-member-referral-card {
+  background: #fff4f8;
+  border-color: #f3bfd1;
+  color: var(--text-main);
+}
+
+html[data-theme="light"] .lp-member-info-card strong,
+html[data-theme="light"] .lp-member-referral-card h3,
+html[data-theme="light"] .lp-member-referral-card strong {
+  color: var(--text-heading);
+}
+
+html[data-theme="light"] .lp-member-info-card p,
+html[data-theme="light"] .lp-member-referral-card p {
+  color: var(--text-muted);
+}
+
+html[data-theme="light"] .lp-member-info-card a,
+html[data-theme="light"] .lp-member-referral-card a {
+  color: var(--primary-strong);
+}

@@ -10,21 +10,24 @@ title: "Lan Pink Tattoo Membership Program"
 slug: "lan-pink-member"
 draft: false
 translation_id: "member_page"
+translationKey: "member_page"
 vietnamese_url: "/lan-pink-member/"
 description: "Lan Pink Tattoo membership program for returning clients, reward points, member benefits, and loyalty offers."
+aliases:
+  - "/en/member/"
 ---
 -------------------------------------------------------------------------------------------------
 
 
 This page allows customers to check their membership tier, available points, and active vouchers. Members are registered manually by Lan Pink Tattoo after completing a service and payment at the studio.
 
-<div style="margin:18px 0 24px;padding:16px 18px;border:1px solid #f7b6d6;border-radius:18px;background:#fff7fb;">
+<div class="lp-member-info-card">
 <strong>Lan Pink Member Area</strong><br>
 <a href="/en/member-points-rules/">View Membership Rules</a> · <a href="/en/pricing/">View Service Pricing</a> · <a href="/en/contact/">Contact Lan Pink Tattoo</a>
 </div>
 
-<div style="margin:20px 0 28px;padding:20px;border:1px solid #f3bfd1;border-radius:18px;background:#fff4f8;">
-<h3 style="margin-top:0;">🎁 Refer a Friend & Earn Rewards</h3>
+<div class="lp-member-referral-card">
+<h3>🎁 Refer a Friend & Earn Rewards</h3>
 
 <p><strong>A genuine recommendation is worth more than any advertisement.</strong><br>
 Lan Pink Tattoo appreciates every referral and rewards members with bonus points.</p>

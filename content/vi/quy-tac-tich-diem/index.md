@@ -7,10 +7,11 @@ category: "Thông tin website"
 title: "Quy Tắc Tích Điểm Thành Viên Lan Pink Tattoo"
 slug: "quy-tac-tich-diem"
 date: 2026-06-21
+lastmod: 2026-07-29
 draft: false
 translation_id: "member_rules_page"
 english_url: "/en/member-rules/"
-description: "Quy tắc tích điểm, hạng thành viên trọn đời, voucher đổi điểm, voucher sinh nhật và chương trình giới thiệu bạn bè tại Lan Pink Tattoo."
+description: "Quy tắc tích điểm theo hạng thành viên, sử dụng điểm trực tiếp trên hóa đơn, voucher sinh nhật và chương trình giới thiệu bạn bè tại Lan Pink Tattoo."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-price-guide.webp"
 image_alt: "Quy tắc tích điểm thành viên Lan Pink Tattoo tại Quận 12 TP.HCM"
 categories:
@@ -20,27 +21,37 @@ keywords: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM", "đặt lịch xăm", "b�
 ---
 Chương trình thành viên của **Lan Pink Tattoo** được xây dựng như một cách giữ kết nối lâu dài với những khách hàng đã tin tưởng lựa chọn studio. Mỗi hình xăm không chỉ là một dịch vụ đã hoàn thành, mà còn là một dấu mốc cá nhân, một kỷ niệm và một phần trong hành trình đồng hành giữa khách hàng với Lan Pink.
 
-Vì vậy, chương trình tích điểm tại Lan Pink Tattoo không mở đăng ký đại trà trên website. Thành viên sẽ được studio đăng ký sau khi khách hoàn thành tác phẩm đầu tiên ở tiệm và hoàn tất thanh toán với bất kỳ gía tiền nào. Cách làm này giúp thông tin thành viên luôn chính xác, điểm tích lũy minh bạch và quyền lợi được quản lý cẩn thận hơn.
+Vì vậy, chương trình tích điểm tại Lan Pink Tattoo không mở đăng ký đại trà trên website. Thành viên sẽ được studio đăng ký sau khi khách hoàn thành tác phẩm đầu tiên ở tiệm và hoàn tất thanh toán với bất kỳ giá trị nào. Cách làm này giúp thông tin thành viên luôn chính xác, điểm tích lũy minh bạch và quyền lợi được quản lý cẩn thận hơn.
 
 ---
 
 ## 1. Tỷ Lệ Tích Điểm
 
-Khi sử dụng dịch vụ tại **Lan Pink Tattoo**, khách hàng sẽ được tích điểm dựa trên giá trị thanh toán thực tế.
+Khi sử dụng dịch vụ tại **Lan Pink Tattoo**, thành viên được cộng điểm dựa trên số tiền thực tế phải thanh toán sau khi đã áp dụng ưu đãi.
 
-Quy tắc tính điểm:
+Tỷ lệ tích điểm phụ thuộc vào hạng thành viên tại thời điểm thanh toán:
 
-**Cứ mỗi 10.000đ thanh toán = 1 điểm.**
+| Hạng thành viên | Tỷ lệ tích điểm | Điểm nhận được trên 100.000đ thực trả |
+|---|---:|---:|
+| Member | 0,5% | 5 điểm |
+| Silver | 0,6% | 6 điểm |
+| Gold | 0,7% | 7 điểm |
+| VIP | 0,8% | 8 điểm |
+| Diamond | 1,0% | 10 điểm |
 
-Phần tiền lẻ chưa đủ 10.000đ sẽ không được tính thêm điểm. Ví dụ, hóa đơn 19.000đ sẽ được tính là 1 điểm; hóa đơn 29.000đ sẽ được tính là 2 điểm.
+Điểm được làm tròn xuống đến số nguyên. Phần điểm lẻ chưa đủ 1 điểm sẽ không được cộng.
 
-Điểm được tính dựa trên số tiền khách đã thanh toán sau khi đã áp dụng ưu đãi, voucher hoặc giảm giá nếu có.
+Ví dụ, thành viên hạng Gold thanh toán thực tế 600.000đ sẽ nhận:
 
----
+**600.000đ × 0,7% ÷ 100đ = 42 điểm.**
+
+Điểm mới chỉ được tính trên số tiền khách thực trả. Phần giá trị đã giảm bằng voucher hoặc điểm thành viên sẽ không tiếp tục được dùng để tích thêm điểm.
 
 ## 2. Hạng Thành Viên Trọn Đời
 
-Hạng thành viên tại Lan Pink Tattoo được tính theo **điểm tích lũy trọn đời**. Khi khách đã đạt hạng mới, hạng đó sẽ được giữ lâu dài và không bị hạ xuống khi khách dùng điểm khả dụng để đổi voucher.
+Hạng thành viên tại Lan Pink Tattoo được xác định theo quá trình tích lũy lâu dài của khách hàng, bao gồm điểm tích lũy trọn đời và giá trị chi tiêu đã được hệ thống ghi nhận.
+
+Khi khách đạt một hạng mới, hạng đó được giữ lâu dài. Việc sử dụng điểm khả dụng để giảm hóa đơn không làm giảm điểm tích lũy trọn đời, không xóa lịch sử chi tiêu và không làm hạ hạng thành viên.
 
 | Hạng thành viên | Điểm trọn đời | Giá trị chi tiêu tương ứng |
 |---|---:|---:|
@@ -50,44 +61,89 @@ Hạng thành viên tại Lan Pink Tattoo được tính theo **điểm tích l�
 | VIP | 6.000 - 11.999 điểm | Từ 60.000.000đ |
 | Diamond | Từ 12.000 điểm | Từ 120.000.000đ |
 
----
+Điểm khả dụng và điểm tích lũy trọn đời là hai giá trị khác nhau:
 
-## 3. Đổi Điểm Lấy Voucher
+- **Điểm khả dụng** có thể được dùng để giảm giá hóa đơn.
+- **Điểm tích lũy trọn đời** được giữ lại để ghi nhận quá trình đồng hành và xét hạng thành viên.
 
-Điểm khả dụng có thể được dùng để đổi voucher ưu đãi cho lần sử dụng dịch vụ tiếp theo tại Lan Pink Tattoo.
+## 3. Sử Dụng Điểm Trực Tiếp
 
-Việc đổi điểm chỉ áp dụng theo các mốc voucher có sẵn trong hệ thống. Khách không tự chọn số điểm bất kỳ để tạo voucher riêng.
+Lan Pink Tattoo không áp dụng hình thức đổi điểm thành voucher theo các mốc cố định. Điểm khả dụng được sử dụng trực tiếp để giảm giá trên hóa đơn đang thanh toán.
 
-| Điểm cần dùng | Voucher nhận được |
-|---:|---:|
-| 500 điểm | 50.000đ |
-| 950 điểm | 100.000đ |
-| 1.800 điểm | 200.000đ |
-| 4.400 điểm | 500.000đ |
+Quy đổi khi sử dụng:
 
-Voucher đổi điểm chỉ có giá trị sử dụng tại Lan Pink Tattoo và không quy đổi thành tiền mặt.
+**1 điểm = 100đ giảm giá.**
 
-Khi khách đổi điểm lấy voucher, hệ thống chỉ trừ **điểm khả dụng**. Điểm tích lũy trọn đời dùng để xét hạng thành viên sẽ không bị giảm.
+Mức giảm bằng điểm được áp dụng theo các nguyên tắc sau:
 
----
+- Giá trị giảm tối đa bằng **25% giá trị hóa đơn**.
+- Số tiền giảm được làm tròn xuống theo từng bước **10.000đ**.
+- Khách chỉ có thể sử dụng số điểm hiện đang khả dụng.
+- Điểm được trừ ngay sau khi hóa đơn thanh toán thành công.
+- Điểm tích lũy trọn đời và hạng thành viên không bị giảm.
+- Điểm mới được cộng dựa trên số tiền còn phải thanh toán sau ưu đãi.
+
+Ví dụ, khách có 4.400 điểm khả dụng và thanh toán hóa đơn 800.000đ:
+
+- Mức giảm tối đa 25% là 200.000đ.
+- Khách sử dụng 2.000 điểm, tương đương giảm 200.000đ.
+- Số tiền thực trả còn lại là 600.000đ.
+- Điểm mới được tính trên 600.000đ theo tỷ lệ của hạng thành viên.
+
+### Không cộng dồn điểm với voucher
+
+Trên cùng một hóa đơn, khách chỉ sử dụng một nguồn ưu đãi:
+
+- voucher; hoặc
+- điểm thành viên.
+
+Voucher và điểm không được cộng dồn. Khi cả hai cùng có thể áp dụng, hệ thống sẽ lựa chọn nguồn ưu đãi có giá trị giảm cao hơn cho hóa đơn.
 
 ## 4. Voucher Sinh Nhật
 
-Voucher sinh nhật là quà tặng riêng từ Lan Pink Tattoo dành cho thành viên. Voucher sinh nhật không trừ điểm và không ảnh hưởng đến hạng thành viên.
+Voucher sinh nhật là quà tặng hằng năm dành riêng cho thành viên Lan Pink Tattoo.
 
-| Hạng thành viên | Voucher sinh nhật |
-|---|---:|
-| Member - Silver | 50.000đ |
-| Gold - VIP | 100.000đ |
-| Diamond | 200.000đ |
+Hệ thống tự động kiểm tra ngày sinh đã lưu trong hồ sơ thành viên và cấp voucher sinh nhật theo chính sách đang áp dụng. Mỗi thành viên chỉ được nhận **01 voucher sinh nhật trong mỗi năm**.
 
-Voucher sinh nhật có thời hạn sử dụng trong **30 ngày** của tháng sinh nhật.
+| Hạng thành viên | Giá trị voucher | Hóa đơn tối thiểu |
+|---|---:|---:|
+| Member | 50.000đ | 500.000đ |
+| Silver | 100.000đ | 700.000đ |
+| Gold | 150.000đ | 1.000.000đ |
+| VIP | 200.000đ | 1.500.000đ |
+| Diamond | 300.000đ | 2.500.000đ |
 
----
+> **Điều kiện áp dụng:** Voucher sinh nhật chỉ được sử dụng khi hóa đơn đạt giá trị tối thiểu tương ứng với hạng thành viên tại thời điểm voucher được cấp.
+
+### Thời hạn sử dụng
+
+Voucher sinh nhật có hiệu lực trong **30 ngày kể từ ngày được cấp**.
+
+Ngày cấp và ngày hết hạn được lưu trên voucher. Khi hết thời hạn, voucher không còn đủ điều kiện áp dụng cho hóa đơn mới.
+
+### Nguyên tắc áp dụng
+
+- Voucher sinh nhật được hệ thống cấp tự động.
+- Thành viên không cần dùng điểm để đổi voucher sinh nhật.
+- Mỗi thành viên chỉ được nhận tối đa một voucher sinh nhật trong cùng một năm.
+- Voucher chỉ áp dụng cho dịch vụ tại Lan Pink Tattoo.
+- Voucher không được quy đổi thành tiền mặt.
+- Voucher không được chuyển nhượng cho thành viên khác.
+- Việc sử dụng voucher không làm giảm điểm khả dụng.
+- Việc sử dụng voucher không làm giảm điểm tích lũy trọn đời hoặc hạng thành viên.
+- Voucher chỉ được đánh dấu đã sử dụng sau khi hóa đơn thanh toán thành công.
+
+### Không cộng dồn ưu đãi
+
+Voucher sinh nhật không được cộng dồn với điểm thành viên, voucher khuyến mãi hoặc nguồn ưu đãi khác trên cùng một hóa đơn.
+
+Khi hóa đơn có nhiều nguồn ưu đãi đủ điều kiện, hệ thống chỉ áp dụng **một nguồn ưu đãi có giá trị giảm cao nhất**.
+
+Sau khi áp dụng ưu đãi, khách vẫn có thể thanh toán bằng tiền mặt, chuyển khoản hoặc kết hợp hai phương thức này.
 
 ## 5. Voucher Khuyến Mãi
 
-Ngoài voucher đổi điểm và voucher sinh nhật, Lan Pink Tattoo có thể tạo thêm voucher khuyến mãi trong các dịp đặc biệt.
+Ngoài voucher sinh nhật, Lan Pink Tattoo có thể tạo thêm voucher khuyến mãi trong các dịp đặc biệt.
 
 Ví dụ:
 
@@ -133,7 +189,7 @@ Thông tin thành viên, điểm khả dụng, hạng thành viên và voucher s
 
 ## 8. Lưu Ý Sử Dụng
 
-Lan Pink Tattoo có thể điều chỉnh quy tắc tích điểm, mốc đổi voucher hoặc điều kiện sử dụng voucher để phù hợp với chi phí vận hành, vật liệu, chương trình ưu đãi và chính sách thực tế của studio.
+Lan Pink Tattoo có thể điều chỉnh tỷ lệ tích điểm, giới hạn sử dụng điểm hoặc điều kiện áp dụng voucher để phù hợp với chi phí vận hành, vật liệu, chương trình ưu đãi và chính sách thực tế của studio.
 
 Các thay đổi nếu có sẽ được áp dụng cho chương trình sau thời điểm cập nhật và không làm mất hạng thành viên trọn đời mà khách đã đạt được trước đó.
 

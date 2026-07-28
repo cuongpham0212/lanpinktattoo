@@ -275,3 +275,20 @@ html[data-theme="dark"] article.lp-single-page .lp-mobile-toc-panel a {
   color: #fff7fb !important;
   text-shadow: 0 1px 8px rgba(0,0,0,.32);
 }
+
+/* =========================================================
+   Desktop article TOC alignment
+   Owner: components/toc.css
+   Mục tiêu: TOC cân theo readable width của nội dung bài viết
+   ========================================================= */
+
+@media (min-width: 769px) {
+  article.lp-single-page .lp-toc {
+    width: 100%;
+    max-width: 980px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 28px !important;
+    box-sizing: border-box;
+  }
+}

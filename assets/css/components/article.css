@@ -825,3 +825,69 @@ article.lp-single-page .lp-content hr{
     box-shadow: none !important;
   }
 }
+
+/* =========================================================
+   Article table alignment
+   Owner: components/article.css
+   Mục tiêu: bảng tự nhiên được căn giữa trong vùng nội dung
+   ========================================================= */
+
+article.lp-single-page .lp-content table {
+  width: auto;
+  max-width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Căn giữa cả wrapper của các bảng đặc biệt nếu có */
+article.lp-single-page .lp-content .member-rank-table,
+article.lp-single-page .lp-content .member-public-table {
+  width: fit-content;
+  max-width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Bảng rộng trên mobile vẫn dùng hết chiều ngang để dễ đọc */
+@media (max-width: 768px) {
+  article.lp-single-page .lp-content table {
+    width: 100%;
+  }
+
+  article.lp-single-page .lp-content .member-rank-table,
+  article.lp-single-page .lp-content .member-public-table {
+    width: 100%;
+  }
+}
+
+/* =========================================================
+   Member page information cards
+   Owner: components/article.css
+   Layout/spacing only; visual colors live in theme files.
+   ========================================================= */
+
+.lp-content .lp-member-info-card,
+.lp-content .lp-member-referral-card {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 18px;
+}
+
+.lp-content .lp-member-info-card {
+  margin: 18px 0 24px;
+  padding: 16px 18px;
+}
+
+.lp-content .lp-member-referral-card {
+  margin: 20px 0 28px;
+  padding: 20px;
+}
+
+.lp-content .lp-member-referral-card > :first-child {
+  margin-top: 0;
+}
+
+.lp-content .lp-member-info-card > :last-child,
+.lp-content .lp-member-referral-card > :last-child {
+  margin-bottom: 0;
+}
