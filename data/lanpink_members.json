@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-28 16:53:13",
-  "total_members": 6,
+  "updated_at": "2026-07-28 22:23:01",
+  "total_members": 5,
   "members": [
     {
       "name": "Jonathan",
@@ -51,7 +51,7 @@
       "lifetime_points": "13.469",
       "unused_vouchers": 0,
       "unused_voucher_value": "0đ",
-      "referral_count": 2,
+      "referral_count": 1,
       "updated_at": "2026-07-28 15:45:34"
     },
     {
@@ -66,19 +66,6 @@
       "unused_voucher_value": "50.000đ",
       "referral_count": 0,
       "updated_at": "2026-07-28 16:53:13"
-    },
-    {
-      "name": "test",
-      "masked_phone": "092***456",
-      "membership_level": "Member",
-      "total_spent": 1200000,
-      "total_spent_display": "1.200.000đ",
-      "available_points": "60",
-      "lifetime_points": "60",
-      "unused_vouchers": 0,
-      "unused_voucher_value": "0đ",
-      "referral_count": 0,
-      "updated_at": "2026-07-28 15:45:34"
     }
   ]
 }
