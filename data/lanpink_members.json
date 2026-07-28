@@ -1,39 +1,84 @@
 {
-  "updated_at": "2026-07-20 00:58:01",
-  "total_members": 3,
+  "updated_at": "2026-07-28 15:45:23",
+  "total_members": 6,
   "members": [
     {
       "name": "Jonathan",
       "masked_phone": "093****234",
-      "membership_level": "Silver",
-      "available_points": "2.770",
-      "lifetime_points": "2.770",
+      "membership_level": "Gold",
+      "total_spent": 51640000,
+      "total_spent_display": "51.640.000đ",
+      "available_points": "403",
+      "lifetime_points": "5.003",
       "unused_vouchers": 0,
       "unused_voucher_value": "0đ",
       "referral_count": 0,
-      "updated_at": "2026-07-02 15:36:13"
+      "updated_at": "2026-07-27 17:43:00"
+    },
+    {
+      "name": "Nguyễn Phạm Phúc Khoa",
+      "masked_phone": "085****212",
+      "membership_level": "Member",
+      "total_spent": 4950000,
+      "total_spent_display": "4.950.000đ",
+      "available_points": "247",
+      "lifetime_points": "247",
+      "unused_vouchers": 0,
+      "unused_voucher_value": "0đ",
+      "referral_count": 0,
+      "updated_at": "2026-07-28 14:12:25"
     },
     {
       "name": "Nguyễn Thị Ngọc Ngoan",
       "masked_phone": "093****307",
       "membership_level": "Diamond",
-      "available_points": "7.033",
-      "lifetime_points": "13.233",
-      "unused_vouchers": 1,
-      "unused_voucher_value": "500.000đ",
+      "total_spent": 126765890,
+      "total_spent_display": "126.765.890đ",
+      "available_points": "4.173",
+      "lifetime_points": "14.773",
+      "unused_vouchers": 0,
+      "unused_voucher_value": "0đ",
       "referral_count": 0,
-      "updated_at": "2026-06-26 18:18:05"
+      "updated_at": "2026-07-27 03:25:05"
     },
     {
       "name": "Phạm Huy Cường",
       "masked_phone": "090****485",
       "membership_level": "VIP",
-      "available_points": "8.404",
-      "lifetime_points": "8.404",
-      "unused_vouchers": 1,
-      "unused_voucher_value": "100.000đ",
+      "total_spent": 83300000,
+      "total_spent_display": "83.300.000đ",
+      "available_points": "4.399",
+      "lifetime_points": "13.199",
+      "unused_vouchers": 0,
+      "unused_voucher_value": "0đ",
+      "referral_count": 2,
+      "updated_at": "2026-07-28 14:12:25"
+    },
+    {
+      "name": "ricky",
+      "masked_phone": "034****012",
+      "membership_level": "Member",
+      "total_spent": 0,
+      "total_spent_display": "0đ",
+      "available_points": "0",
+      "lifetime_points": "0",
+      "unused_vouchers": 0,
+      "unused_voucher_value": "0đ",
       "referral_count": 0,
-      "updated_at": "2026-06-24 23:12:44"
+      "updated_at": "2026-07-28 13:28:09"
+    },
+    {
+      "name": "test",
+      "masked_phone": "092***456",
+      "membership_level": "Member",
+      "total_spent": 0,
+      "total_spent_display": "0đ",
+      "available_points": "0",
+      "lifetime_points": "0",
+      "unused_vouchers": 0,
+      "unused_voucher_value": "0đ",
+      "referral_count": 0,
+      "updated_at": "2026-07-28 15:45:23"
     }
   ]
 }
