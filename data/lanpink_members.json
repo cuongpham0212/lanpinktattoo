@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28 15:45:34",
+  "updated_at": "2026-07-28 16:53:13",
   "total_members": 6,
   "members": [
     {
@@ -10,10 +10,10 @@
       "total_spent_display": "51.640.000đ",
       "available_points": "403",
       "lifetime_points": "5.003",
-      "unused_vouchers": 0,
-      "unused_voucher_value": "0đ",
+      "unused_vouchers": 1,
+      "unused_voucher_value": "150.000đ",
       "referral_count": 0,
-      "updated_at": "2026-07-27 17:43:00"
+      "updated_at": "2026-07-28 16:53:13"
     },
     {
       "name": "Nguyễn Phạm Phúc Khoa",
@@ -36,10 +36,10 @@
       "total_spent_display": "126.765.890đ",
       "available_points": "4.173",
       "lifetime_points": "14.773",
-      "unused_vouchers": 0,
-      "unused_voucher_value": "0đ",
+      "unused_vouchers": 1,
+      "unused_voucher_value": "300.000đ",
       "referral_count": 0,
-      "updated_at": "2026-07-27 03:25:05"
+      "updated_at": "2026-07-28 16:53:13"
     },
     {
       "name": "Phạm Huy Cường",
@@ -62,10 +62,10 @@
       "total_spent_display": "0đ",
       "available_points": "0",
       "lifetime_points": "0",
-      "unused_vouchers": 0,
-      "unused_voucher_value": "0đ",
+      "unused_vouchers": 1,
+      "unused_voucher_value": "50.000đ",
       "referral_count": 0,
-      "updated_at": "2026-07-28 13:28:09"
+      "updated_at": "2026-07-28 16:53:13"
     },
     {
       "name": "test",
