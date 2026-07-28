@@ -1,45 +1,5 @@
 {
-  "updated_at": "2026-07-29 03:43:05",
-  "total_members": 3,
-  "members": [
-    {
-      "name": "Jonathan",
-      "masked_phone": "093****234",
-      "membership_level": "Gold",
-      "total_spent": 51640000,
-      "total_spent_display": "51.640.000đ",
-      "available_points": "403",
-      "lifetime_points": "5.003",
-      "unused_vouchers": 1,
-      "unused_voucher_value": "150.000đ",
-      "referral_count": 0,
-      "updated_at": "2026-07-28 16:53:13"
-    },
-    {
-      "name": "Nguyễn Phạm Phúc Khoa",
-      "masked_phone": "085****212",
-      "membership_level": "Member",
-      "total_spent": 4950000,
-      "total_spent_display": "4.950.000đ",
-      "available_points": "248",
-      "lifetime_points": "248",
-      "unused_vouchers": 0,
-      "unused_voucher_value": "0đ",
-      "referral_count": 0,
-      "updated_at": "2026-07-28 23:55:08"
-    },
-    {
-      "name": "ricky",
-      "masked_phone": "034****012",
-      "membership_level": "Member",
-      "total_spent": 0,
-      "total_spent_display": "0đ",
-      "available_points": "0",
-      "lifetime_points": "0",
-      "unused_vouchers": 1,
-      "unused_voucher_value": "50.000đ",
-      "referral_count": 0,
-      "updated_at": "2026-07-28 16:53:13"
-    }
-  ]
+  "updated_at": "2026-07-29 03:43:15",
+  "total_members": 0,
+  "members": []
 }
