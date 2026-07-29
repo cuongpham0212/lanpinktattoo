@@ -1,0 +1,246 @@
+[contact]
+other = "Contact"
+
+[studio_name]
+other = "Lan Pink Tattoo"
+
+[studio_description]
+other = "Private tattoo studio in Ho Chi Minh City specializing in Fine Line, Blackwork, Mini Tattoos and custom tattoo designs."
+
+[address]
+other = "📍 Lan Pink Tattoo - Private Tattoo Studio"
+
+[working_hours]
+other = "🕒 Mainly by appointment, walk-ins are welcome when the schedule allows"
+
+[booking_note]
+other = "✉️ Message us via Facebook, Messenger or Instagram for consultation and booking"
+
+[google_reviews]
+other = "⭐ Google Reviews"
+
+[google_reviews_desc]
+other = "Read real reviews from our clients."
+
+[view_google]
+other = "View Google Business →"
+
+[facebook]
+other = "📘 Facebook"
+
+[instagram]
+other = "📸 Instagram"
+
+[directions]
+other = "📍 Get Directions"
+
+[book_now]
+other = "Book Appointment"
+
+[view_gallery]
+other = "View Gallery"
+
+[private_tattoo_studio]
+other = "Private Tattoo Studio"
+
+[toc]
+other = "Table of contents"
+
+[collapse]
+other = "Collapse"
+
+[expand]
+other = "Open"
+
+[share]
+other = "Share"
+
+[on_this_page]
+other = "On this page"
+
+[copy_link]
+other = "Copy Link"
+
+[copied]
+other = "Copied ✓"
+
+[tags]
+other = "Tags"
+
+[relatedPosts]
+other = "Related Posts"
+
+[consult_now]
+other = "Free Consultation"
+
+[footer_studio]
+other = "Studio"
+
+[about_lan]
+other = "About Lan Pink"
+
+[about_studio]
+other = "About Lan Pink Tattoo Studio"
+
+[reviews]
+other = "Reviews"
+
+[connect_lanpink]
+other = "Connect with Lan Pink Tattoo"
+
+[service_policy]
+other = "Service Policy"
+
+[ctaTitle]
+other = "Book Consultation"
+
+[ctaText]
+other = "Do you already have an idea for your tattoo? 👉 Send a message directly to Lan Pink Ink for a custom tattoo consultation."
+
+[ctaButton]
+other = "Free Consultation"
+
+[explore_more]
+other = "Explore more at Lan Pink Ink"
+
+[artwork_information]
+other = "Artwork Information"
+
+[artwork_subject]
+other = "Subject"
+
+[artwork_style]
+other = "Style"
+
+[artwork_position]
+other = "Placement"
+
+[artwork_client]
+other = "Client"
+
+[artwork_meaning]
+other = "Meaning"
+
+[artwork_created_by]
+other = "Created by"
+
+[artwork_created_by_value]
+other = "Lan Pink Tattoo (Lan Pink Ink)"
+
+[artwork_studio_intro]
+other = "Lan Pink Tattoo (Lan Pink Ink) is a private tattoo studio in District 12, Ho Chi Minh City, founded and personally operated by tattoo artist Lan Pink."
+
+[artwork_location]
+other = "Location"
+
+[artwork_location_value]
+other = "Near Tan Thoi Hiep overpass, District 12, Ho Chi Minh City"
+[member_app]
+other = "Rewards"
+
+[member_rewards]
+other = "Member Rewards"
+
+[member_widget_title]
+other = "Lan Pink Member"
+
+[member_widget_subtitle]
+other = "Rewards Program"
+
+[member_widget_check_points]
+other = "Check Points"
+
+[member_widget_member_benefits]
+other = "View Benefits"
+
+[member_widget_referral]
+other = "Refer a Friend"
+
+[member_widget_referral_desc]
+other = "Earn reward points when referring a new client."
+
+[member_widget_birthday]
+other = "Birthday Voucher"
+
+[member_widget_birthday_desc]
+other = "Special benefits for members."
+
+[member_widget_details]
+other = "View Details"
+
+[member_widget_conditions]
+other = "View Conditions"
+
+[member_widget_new_customer_code]
+other = "First-Time Client Code"
+
+[member_widget_are_member]
+other = "Already a Member?"
+
+[member_widget_not_member]
+other = "Not a Member Yet?"
+[home_hero_badge]
+other = "Female tattoo artist · Private studio in District 12"
+
+[home_hero_title]
+other = "Lan Pink Tattoo"
+
+[home_hero_lead]
+other = "A female tattoo artist near Tan Thoi Hiep overpass, District 12, Ho Chi Minh City."
+
+[home_hero_text]
+other = "Lan Pink offers thoughtful tattoo consultation, personal custom designs and a comfortable private studio experience for clients who want a beautiful and meaningful tattoo."
+
+[home_cta_primary]
+other = "Book a consultation"
+
+[home_cta_portfolio]
+other = "View real work"
+
+[home_stat_artist]
+other = "Female artist"
+
+[home_stat_artist_desc]
+other = "Gentle consultation"
+
+[home_stat_location]
+other = "District 12"
+
+[home_stat_location_desc]
+other = "Near Tan Thoi Hiep overpass"
+
+[home_stat_custom]
+other = "Custom design"
+
+[home_stat_custom_desc]
+other = "Based on your idea"
+
+[home_real_badge]
+other = "Studio work"
+
+[home_real_title]
+other = "Completed tattoos"
+
+[home_real_desc]
+other = "A few real tattoos completed at Lan Pink, so you can see the linework, composition and actual studio style."
+
+[home_real_more]
+other = "View more work"
+
+[home_real_card]
+other = "Real tattoo"
+
+[home_gallery_badge]
+other = "Tattoo design library"
+
+[home_gallery_title]
+other = "Tattoo designs by category"
+
+[home_gallery_desc]
+other = "Browse tattoo design groups quickly and choose a style before booking your consultation."
+
+[home_gallery_more]
+other = "View full library"
+
+[home_gallery_card]
+other = "Tattoo design"

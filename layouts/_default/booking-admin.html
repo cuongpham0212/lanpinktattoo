@@ -1,0 +1,37 @@
+{{ define "main" }}
+{{ $css := resources.Get "css/components/booking-admin.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+<section class="lp-admin-wrap">
+  <h1>Lan Pink Booking Admin</h1>
+  <p>Trang này dùng để khóa/mở ngày bận. Sau khi xuất JSON, anh thay file <strong>data/booking_calendar.json</strong> rồi git push.</p>
+
+  <div class="lp-admin-card">
+    <h2>Khóa / mở ngày</h2>
+    <label>Chọn ngày</label>
+    <input type="date" id="busyDate">
+
+    <label>Ghi chú khách sẽ thấy</label>
+    <textarea id="busyNote">Tiệm đang có lịch xăm trong ngày này.</textarea>
+
+    <button class="red" id="addBusy">Khóa ngày này</button>
+    <button class="green" id="removeBusy">Mở lại ngày này</button>
+  </div>
+
+  <div class="lp-admin-card">
+    <h2>Ngày đang bận</h2>
+    <div id="busyList"></div>
+  </div>
+
+  <div class="lp-admin-card">
+    <h2>Xuất dữ liệu</h2>
+    <button class="pink" id="copyJson">Copy JSON</button>
+    <button class="gray" id="downloadJson">Tải booking_calendar.json</button>
+    <pre id="jsonOutput"></pre>
+  </div>
+</section>
+
+<script>window.LP_BOOKING_DATA = {{ site.Data.booking_calendar | jsonify | safeJS }};</script>
+{{ $js := resources.Get "js/booking-admin.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+{{ end }}

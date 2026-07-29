@@ -1,0 +1,22 @@
+{{ $related := .Page.Site.RegularPages.Related .Page | first 4 }}
+
+{{ if $related }}
+<div class="my-8 rounded-2xl border border-pink-200 bg-pink-50/60 p-5 shadow-sm dark:border-pink-400/30 dark:bg-white/5">
+  <h2 class="mb-3 text-xl font-semibold text-pink-700 dark:text-pink-200">
+    {{ i18n "explore_more" }}
+  </h2>
+
+  <ul class="list-disc space-y-2 pl-5 text-gray-700 dark:text-gray-100">
+    {{ range $related }}
+      <li>
+        <a
+          href="{{ .RelPermalink }}"
+          class="font-medium text-pink-600 underline decoration-pink-300 underline-offset-4 transition hover:text-pink-800 hover:decoration-pink-700 dark:text-pink-200 dark:decoration-pink-400/70 dark:hover:text-white dark:hover:decoration-pink-200"
+        >
+          {{ .Title }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

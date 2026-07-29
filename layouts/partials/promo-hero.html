@@ -1,0 +1,44 @@
+{{- if .IsHome -}}
+{{- $today := now.Format "2006-01-02" -}}
+{{- $active := slice -}}
+
+{{- range .Site.RegularPages -}}
+  {{- if .Params.promo_hero -}}
+    {{- $start := .Params.promo_start | default "2000-01-01" -}}
+    {{- $end := .Params.promo_end | default "2099-12-31" -}}
+    {{- if and (le $start $today) (le $today $end) -}}
+      {{- $url := .RelPermalink -}}
+      {{- if hasPrefix $url "/vi/" -}}
+        {{- $url = replaceRE "^/vi/" "/" $url -}}
+      {{- end -}}
+      {{- $active = $active | append (dict
+        "title" (.Params.promo_hero_title | default .Params.promo_popup_title | default .Title)
+        "summary" (.Params.promo_hero_summary | default .Params.promo_popup_summary | default .Description)
+        "badge" (.Params.promo_badge | default "Khuyến mãi")
+        "url" $url
+        "button" (.Params.promo_button_text | default "Xem chi tiết ưu đãi")
+        "end" $end
+        "priority" (.Params.promo_priority | default 0)
+      ) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if gt (len $active) 0 -}}
+{{- $sorted := sort $active "priority" "desc" -}}
+{{- $promo := index $sorted 0 -}}
+
+<section class="lanpink-promo-hero">
+  <div class="lanpink-promo-hero__inner">
+    <div>
+      <div class="lanpink-promo-hero__badge">✦ {{ $promo.badge }}</div>
+      <h2>{{ $promo.title }}</h2>
+      <p>{{ $promo.summary }}</p>
+      <div class="lanpink-promo-hero__meta">Đang áp dụng đến {{ $promo.end }}</div>
+      <a class="lanpink-promo-hero__btn" href="{{ $promo.url }}">{{ $promo.button }}</a>
+    </div>
+    <div class="lanpink-promo-hero__sale">SALE</div>
+  </div>
+</section>
+{{- end -}}
+{{- end -}}
