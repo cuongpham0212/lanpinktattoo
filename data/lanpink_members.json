@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-30 03:03:39",
-  "total_members": 1,
+  "updated_at": "2026-07-30 03:04:29",
+  "total_members": 2,
   "members": [
     {
       "member_code": "KH-6YC6PE",
@@ -15,6 +15,20 @@
       "unused_voucher_value": "50.000đ",
       "referral_count": 0,
       "updated_at": "2026-07-30 03:03:39"
+    },
+    {
+      "member_code": "KH-E7RP48",
+      "name": "Phạm Huy Cường",
+      "masked_phone": "090****485",
+      "membership_level": "Member",
+      "total_spent": 0,
+      "total_spent_display": "0đ",
+      "available_points": "0",
+      "lifetime_points": "0",
+      "unused_vouchers": 0,
+      "unused_voucher_value": "0đ",
+      "referral_count": 0,
+      "updated_at": "2026-07-30 03:04:29"
     }
   ]
 }
