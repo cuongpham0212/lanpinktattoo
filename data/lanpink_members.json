@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30 02:44:51",
+  "updated_at": "2026-07-30 02:46:42",
   "total_members": 1,
   "members": [
     {
@@ -7,14 +7,14 @@
       "name": "Nguyễn Thị Ngọc Ngoan",
       "masked_phone": "093****307",
       "membership_level": "Member",
-      "total_spent": 0,
-      "total_spent_display": "0đ",
-      "available_points": "0",
-      "lifetime_points": "0",
-      "unused_vouchers": 1,
-      "unused_voucher_value": "50.000đ",
+      "total_spent": 3950000,
+      "total_spent_display": "3.950.000đ",
+      "available_points": "197",
+      "lifetime_points": "197",
+      "unused_vouchers": 0,
+      "unused_voucher_value": "0đ",
       "referral_count": 0,
-      "updated_at": "2026-07-30 02:44:51"
+      "updated_at": "2026-07-30 02:46:42"
     }
   ]
 }
