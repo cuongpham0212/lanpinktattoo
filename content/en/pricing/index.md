@@ -7,7 +7,9 @@ category: "Site Information"
 title: "Tattoo Price List in Ho Chi Minh City 2026"
 description: "Tattoo price list in Ho Chi Minh City 2026. Learn what affects tattoo cost, including size, detail, placement, and custom design work."
 
-slug: "tattoo-price-list-ho-chi-minh-city"
+slug: "pricing"
+aliases:
+  - "/en/tattoo-price-list-ho-chi-minh-city/"
 
 date: 2026-06-11
 draft: false

@@ -124,6 +124,100 @@
   box-shadow:0 0 0 4px rgba(236,72,153,.14);
 }
 
+
+.lp-source-group{
+  grid-column:1 / -1;
+  margin-top:2px;
+}
+
+.lp-source-title{
+  display:block;
+  font-size:14px;
+  font-weight:850;
+  margin:0 0 8px;
+  color:#4b2638;
+}
+
+.lp-source-help{
+  margin:0 0 12px;
+  color:#806175;
+  font-size:13px;
+  line-height:1.5;
+}
+
+.lp-source-options{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+}
+
+.lp-source-option{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  min-height:58px;
+  padding:12px 13px;
+  border:1px solid #f0cede;
+  border-radius:17px;
+  background:#fff;
+  cursor:pointer;
+  box-sizing:border-box;
+}
+
+.lp-source-option:hover{
+  border-color:#ec4899;
+  background:#fff9fc;
+}
+
+.lp-source-option:has(input:checked){
+  border-color:#ec4899;
+  background:#fff1f7;
+  box-shadow:0 0 0 3px rgba(236,72,153,.10);
+}
+
+.lp-source-option input{
+  flex:0 0 auto;
+  width:17px;
+  height:17px;
+  margin:2px 0 0;
+  accent-color:#ec4899;
+}
+
+.lp-source-copy{
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+  gap:3px;
+}
+
+.lp-source-name{
+  color:#3b1e2c;
+  font-size:14px;
+  font-weight:850;
+  line-height:1.35;
+}
+
+.lp-source-link{
+  color:#db2777;
+  font-size:12px;
+  line-height:1.35;
+  text-decoration:none;
+  overflow-wrap:anywhere;
+}
+
+.lp-source-link:hover{
+  text-decoration:underline;
+}
+
+.lp-source-extra{
+  grid-column:1 / -1;
+  margin-top:2px;
+}
+
+.lp-source-extra.lp-hidden{
+  display:none!important;
+}
+
 .lp-form-note{
   margin:20px 0 14px;
   padding:17px 18px;
@@ -198,6 +292,10 @@
   }
 
   .lp-form-grid{
+    grid-template-columns:1fr;
+  }
+
+  .lp-source-options{
     grid-template-columns:1fr;
   }
 }
@@ -428,9 +526,87 @@ html[data-theme="dark"] .lp-payment-form-wrap .lp-lang-switch button.active{
           <input id="phone_zalo" name="phone_zalo" type="tel" autocomplete="tel" inputmode="numeric" placeholder="0901234567" maxlength="12" required>
         </div>
 
-        <div class="lp-form-field full">
-          <label for="referral_phone" data-i18n="referral">Số điện thoại người giới thiệu nếu có</label>
+        <div class="lp-source-group">
+          <span class="lp-source-title" data-i18n="sourceTitle">Bạn biết đến Lan Pink Tattoo qua đâu?</span>
+          <p class="lp-source-help" data-i18n="sourceHelp">Chọn một nguồn phù hợp nhất.</p>
+
+          <div class="lp-source-options">
+            <label class="lp-source-option">
+              <input type="radio" name="customer_source" value="unclassified" required>
+              <span class="lp-source-copy">
+                <span class="lp-source-name" data-i18n="sourceUnclassified">Chưa phân loại</span>
+              </span>
+            </label>
+
+            <label class="lp-source-option">
+              <input type="radio" name="customer_source" value="website">
+              <span class="lp-source-copy">
+                <span class="lp-source-name" data-i18n="sourceWebsite">Website</span>
+                <a class="lp-source-link" href="https://lanpinktattoo.com" target="_blank" rel="noopener">lanpinktattoo.com</a>
+              </span>
+            </label>
+
+            <label class="lp-source-option">
+              <input type="radio" name="customer_source" value="fanpage">
+              <span class="lp-source-copy">
+                <span class="lp-source-name" data-i18n="sourceFanpage">Fanpage</span>
+                <a class="lp-source-link" href="https://www.facebook.com/LanPinkInk/" target="_blank" rel="noopener">facebook.com/LanPinkInk</a>
+              </span>
+            </label>
+
+            <label class="lp-source-option">
+              <input type="radio" name="customer_source" value="instagram">
+              <span class="lp-source-copy">
+                <span class="lp-source-name" data-i18n="sourceInstagram">Instagram</span>
+                <a class="lp-source-link" href="https://www.instagram.com/lanpink.ink/" target="_blank" rel="noopener">@lanpink.ink</a>
+              </span>
+            </label>
+
+            <label class="lp-source-option">
+              <input type="radio" name="customer_source" value="tiktok">
+              <span class="lp-source-copy">
+                <span class="lp-source-name" data-i18n="sourceTikTok">TikTok</span>
+              </span>
+            </label>
+
+            <label class="lp-source-option">
+              <input type="radio" name="customer_source" value="google_maps">
+              <span class="lp-source-copy">
+                <span class="lp-source-name" data-i18n="sourceGoogleMaps">Google Maps</span>
+              </span>
+            </label>
+
+            <label class="lp-source-option">
+              <input type="radio" name="customer_source" value="referral">
+              <span class="lp-source-copy">
+                <span class="lp-source-name" data-i18n="sourceReferral">Người giới thiệu</span>
+              </span>
+            </label>
+
+            <label class="lp-source-option">
+              <input type="radio" name="customer_source" value="walk_in">
+              <span class="lp-source-copy">
+                <span class="lp-source-name" data-i18n="sourceWalkIn">Vãng lai</span>
+              </span>
+            </label>
+
+            <label class="lp-source-option">
+              <input type="radio" name="customer_source" value="other">
+              <span class="lp-source-copy">
+                <span class="lp-source-name" data-i18n="sourceOther">Khác</span>
+              </span>
+            </label>
+          </div>
+        </div>
+
+        <div class="lp-form-field lp-source-extra lp-hidden" id="lpReferralField">
+          <label for="referral_phone" data-i18n="referral">Số điện thoại người giới thiệu</label>
           <input id="referral_phone" name="referral_phone" type="tel" autocomplete="tel" inputmode="numeric" placeholder="0901234567" maxlength="12">
+        </div>
+
+        <div class="lp-form-field lp-source-extra lp-hidden" id="lpOtherSourceField">
+          <label for="other_source" data-i18n="otherSource">Bạn biết Lan Pink qua kênh nào?</label>
+          <input id="other_source" name="other_source" type="text" maxlength="120" data-i18n-placeholder="otherSourcePlaceholder" placeholder="Ví dụ: YouTube, đi ngang tiệm...">
         </div>
       </div>
 
@@ -621,7 +797,20 @@ async function phoneExistsInMemberIndex(phone){
       birthday: "Ngày sinh để nhận voucher sinh nhật",
       email: "Email",
       phone: "Số điện thoại/Zalo nhận hoá đơn thanh toán",
-      referral: "Số điện thoại người giới thiệu nếu có",
+      sourceTitle: "Bạn biết đến Lan Pink Tattoo qua đâu?",
+      sourceHelp: "Chọn một nguồn phù hợp nhất.",
+      sourceUnclassified: "Chưa phân loại",
+      sourceWebsite: "Website",
+      sourceFanpage: "Fanpage",
+      sourceInstagram: "Instagram",
+      sourceTikTok: "TikTok",
+      sourceGoogleMaps: "Google Maps",
+      sourceReferral: "Người giới thiệu",
+      sourceWalkIn: "Vãng lai",
+      sourceOther: "Khác",
+      referral: "Số điện thoại người giới thiệu",
+      otherSource: "Bạn biết Lan Pink qua kênh nào?",
+      otherSourcePlaceholder: "Ví dụ: YouTube, đi ngang tiệm...",
       note: "Thông tin này được dùng để hỗ trợ thanh toán, gửi hoá đơn, lưu hồ sơ thành viên và áp dụng quyền lợi Lan Pink Member. Khi gửi thông tin, bạn đồng ý tham gia chương trình Lan Pink Member của Lan Pink Tattoo.",
       privacy: "Xem chính sách bảo mật thông tin",
       consent: "Tôi đồng ý để Lan Pink Tattoo lưu thông tin cơ bản nhằm hỗ trợ thanh toán, chăm sóc khách hàng và quyền lợi thành viên cho những lần sau.",
@@ -635,7 +824,20 @@ async function phoneExistsInMemberIndex(phone){
       birthday: "Birthday for birthday voucher",
       email: "Email",
       phone: "Phone/Zalo number for payment invoice",
-      referral: "Referrer phone number, if any",
+      sourceTitle: "How did you hear about Lan Pink Tattoo?",
+      sourceHelp: "Choose the option that fits best.",
+      sourceUnclassified: "Not classified",
+      sourceWebsite: "Website",
+      sourceFanpage: "Facebook Fanpage",
+      sourceInstagram: "Instagram",
+      sourceTikTok: "TikTok",
+      sourceGoogleMaps: "Google Maps",
+      sourceReferral: "Referred by someone",
+      sourceWalkIn: "Walk-in",
+      sourceOther: "Other",
+      referral: "Referrer's phone number",
+      otherSource: "Where did you hear about Lan Pink?",
+      otherSourcePlaceholder: "For example: YouTube, passed by the studio...",
       note: "This information is used to support payment, invoice delivery, member profile storage and Lan Pink Member benefits. By submitting this form, you agree to join the Lan Pink Member program.",
       privacy: "View privacy policy",
       consent: "I agree that Lan Pink Tattoo may store my basic information to support payment, customer care and member benefits for future visits.",
@@ -660,6 +862,11 @@ async function phoneExistsInMemberIndex(phone){
       if(dict[lang] && dict[lang][key]) el.textContent = dict[lang][key];
     });
 
+    document.querySelectorAll("[data-i18n-placeholder]").forEach(function(el){
+      const key = el.getAttribute("data-i18n-placeholder");
+      if(dict[lang] && dict[lang][key]) el.setAttribute("placeholder", dict[lang][key]);
+    });
+
     document.querySelectorAll("[data-lang-btn]").forEach(function(btn){
       btn.classList.toggle("active", btn.getAttribute("data-lang-btn") === lang);
     });
@@ -677,6 +884,37 @@ async function phoneExistsInMemberIndex(phone){
   setupPhoneNormalize(document.getElementById("phone_zalo"), {required:true, label:"Số điện thoại/Zalo"});
   setupPhoneNormalize(document.getElementById("referral_phone"), {required:false, label:"Số điện thoại người giới thiệu"});
 
+  function setupSourceFields(){
+    const radios = document.querySelectorAll('input[name="customer_source"]');
+    const referralField = document.getElementById("lpReferralField");
+    const referralInput = document.getElementById("referral_phone");
+    const otherField = document.getElementById("lpOtherSourceField");
+    const otherInput = document.getElementById("other_source");
+
+    function refresh(){
+      const checked = document.querySelector('input[name="customer_source"]:checked');
+      const value = checked ? checked.value : "";
+      const showReferral = value === "referral";
+      const showOther = value === "other";
+
+      if(referralField) referralField.classList.toggle("lp-hidden", !showReferral);
+      if(otherField) otherField.classList.toggle("lp-hidden", !showOther);
+      if(referralInput){
+        referralInput.required = showReferral;
+        if(!showReferral){ referralInput.value = ""; setFieldError(referralInput, ""); }
+      }
+      if(otherInput){
+        otherInput.required = showOther;
+        if(!showOther) otherInput.value = "";
+      }
+    }
+
+    radios.forEach(function(radio){ radio.addEventListener("change", refresh); });
+    refresh();
+  }
+
+  setupSourceFields();
+
   const form = document.getElementById("lp-payment-info-form");
   const msg = document.getElementById("lp-payment-message");
 
@@ -688,7 +926,9 @@ async function phoneExistsInMemberIndex(phone){
       const payload = Object.fromEntries(new FormData(form).entries());
       const birthdayOk = validateBirthday(document.getElementById("birthday"));
       const phoneCheck = validateVietnamPhone(document.getElementById("phone_zalo"), {required:true, label:"Số điện thoại/Zalo"});
-      const referralCheck = validateVietnamPhone(document.getElementById("referral_phone"), {required:false, label:"Số điện thoại người giới thiệu"});
+      const selectedSource = payload.customer_source || "";
+      const referralRequired = selectedSource === "referral";
+      const referralCheck = validateVietnamPhone(document.getElementById("referral_phone"), {required:referralRequired, label:"Số điện thoại người giới thiệu"});
 
       if(!birthdayOk || !phoneCheck.ok || !referralCheck.ok){
         msg.textContent = "Vui lòng kiểm tra lại ngày sinh và số điện thoại trước khi gửi.";
@@ -697,6 +937,20 @@ async function phoneExistsInMemberIndex(phone){
 
       payload.phone_zalo = phoneCheck.phone;
       payload.referral_phone = referralCheck.phone;
+      payload.other_source = selectedSource === "other" ? String(payload.other_source || "").trim() : "";
+
+      const sourceLabels = {
+        unclassified: "Chưa phân loại",
+        website: "Website",
+        fanpage: "Fanpage",
+        instagram: "Instagram",
+        tiktok: "TikTok",
+        google_maps: "Google Maps",
+        referral: "Người giới thiệu",
+        walk_in: "Vãng lai",
+        other: "Khác"
+      };
+      payload.customer_source_label = sourceLabels[selectedSource] || "Chưa phân loại";
 
       try {
         const res = await fetch("/.netlify/functions/payment-info", {
@@ -715,6 +969,7 @@ async function phoneExistsInMemberIndex(phone){
         const existedPhone = await phoneExistsInMemberIndex(payload.phone_zalo);
 
         form.reset();
+        setupSourceFields();
 
         var modal = document.getElementById("lpPaymentSuccessModal");
         var modalTitle = modal ? modal.querySelector("h3") : null;

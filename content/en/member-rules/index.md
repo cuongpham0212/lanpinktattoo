@@ -1,172 +1,257 @@
 ---
-primary_keyword: "membership points rules"
-main_keyword: "membership points rules"
-keyword: "membership points rules"
-seo_target_keyword: "membership points rules"
-category: "Site Information"
-title: "Lan Pink Tattoo Membership Points Rules"
+primary_keyword: "Lan Pink Member points rules"
+main_keyword: "Lan Pink Member points rules"
+keyword: "Lan Pink Member points rules"
+seo_target_keyword: "Lan Pink Member points rules"
+category: "Website Information"
+title: "Lan Pink Tattoo Member Points and Rewards Rules"
 slug: "member-rules"
+aliases:
+  - "/en/member-points-rules/"
 date: 2026-06-21
+lastmod: 2026-07-29
 draft: false
 translation_id: "member_rules_page"
 vietnamese_url: "/quy-tac-tich-diem/"
-description: "Membership point rules, lifetime tiers, point redemption vouchers, birthday vouchers, and friend referral rewards at Lan Pink Tattoo."
+description: "Learn how Lan Pink Tattoo members earn and use points, maintain lifetime membership tiers, receive birthday vouchers, and earn referral rewards."
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lan-pink-tattoo-price-guide.webp"
-image_alt: "Lan Pink Tattoo membership points rules in District 12, Ho Chi Minh City"
+image_alt: "Lan Pink Tattoo member points and rewards rules in Ho Chi Minh City"
 categories:
   - "Membership"
-tags: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City"]
-keywords: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City", "tattoo booking", "tattoo pricing", "tattoo consultation"]
+tags:
+  - "Lan Pink Tattoo"
+  - "tattoo studio"
+  - "Ho Chi Minh City"
+keywords:
+  - "Lan Pink Tattoo"
+  - "tattoo studio"
+  - "member points"
+  - "tattoo rewards"
+  - "birthday voucher"
+  - "referral rewards"
 ---
-The **Lan Pink Tattoo** membership program is designed as a way to maintain long-term connection with clients who have trusted and chosen the studio. Each tattoo is not only a completed service, but also a personal milestone, a memory, and part of the journey shared between the client and Lan Pink.
+The **Lan Pink Tattoo Member Program** was created to maintain a long-term connection with clients who have trusted and chosen our studio. Every tattoo is more than a completed service. It is also a personal milestone, a memory, and part of the journey shared between each client and Lan Pink Tattoo.
 
-For that reason, the Lan Pink Tattoo points program is not open for public self-registration on the website. Members are registered by the studio after completing their first tattoo service and payment at any service value. This helps keep member information accurate, point accumulation transparent, and benefits more carefully managed.
-
----
-
-## 1. Point Earning Rate
-
-When using services at **Lan Pink Tattoo**, clients earn points based on the actual amount paid.
-
-Point rule:
-
-**Every 10,000 VND paid = 1 point.**
-
-Any amount below a full 10,000 VND unit is not counted toward additional points. For example, a 19,000 VND invoice counts as 1 point; a 29,000 VND invoice counts as 2 points.
-
-Points are calculated based on the final paid amount after any discounts, vouchers, or promotions have been applied.
+For this reason, registration for the Lan Pink Member Program is not available publicly on the website. The studio creates a member profile after a client completes their first tattoo at Lan Pink Tattoo and successfully pays an invoice of any value. This process helps us keep member information accurate, point records transparent, and benefits properly managed.
 
 ---
+
+## 1. Earning Member Points
+
+When using services at **Lan Pink Tattoo**, members earn points based on the amount actually paid after eligible discounts have been applied.
+
+The earning rate depends on the member's tier at the time of payment:
+
+| Membership tier | Points earning rate | Points earned per VND 100,000 paid |
+|---|---:|---:|
+| Member | 0.5% | 5 points |
+| Silver | 0.6% | 6 points |
+| Gold | 0.7% | 7 points |
+| VIP | 0.8% | 8 points |
+| Diamond | 1.0% | 10 points |
+
+Points are rounded down to the nearest whole number. Any remaining fraction below one point is not credited.
+
+For example, a Gold member who pays VND 600,000 will receive:
+
+**VND 600,000 × 0.7% ÷ VND 100 = 42 points.**
+
+New points are calculated only on the amount actually paid. Any part of the invoice reduced by a voucher or member points will not earn additional points.
 
 ## 2. Lifetime Membership Tiers
 
-Membership tiers at Lan Pink Tattoo are based on **lifetime accumulated points**. Once a client reaches a new tier, that tier is kept long-term and will not be downgraded when available points are redeemed for vouchers.
+Membership tiers at Lan Pink Tattoo are determined by each client's long-term activity, including lifetime accumulated points and recorded spending.
 
-| Membership Tier | Lifetime Points | Equivalent Spending Value |
+Once a client reaches a new tier, that tier is retained. Using available points to reduce an invoice does not reduce lifetime accumulated points, erase spending history, or lower the member's tier.
+
+| Membership tier | Lifetime points | Equivalent recorded spending |
 |---|---:|---:|
-| Member | 0 - 999 points | Under 10,000,000 VND |
-| Silver | 1,000 - 2,999 points | From 10,000,000 VND |
-| Gold | 3,000 - 5,999 points | From 30,000,000 VND |
-| VIP | 6,000 - 11,999 points | From 60,000,000 VND |
-| Diamond | From 12,000 points | From 120,000,000 VND |
+| Member | 0–999 points | Below VND 10,000,000 |
+| Silver | 1,000–2,999 points | From VND 10,000,000 |
+| Gold | 3,000–5,999 points | From VND 30,000,000 |
+| VIP | 6,000–11,999 points | From VND 60,000,000 |
+| Diamond | From 12,000 points | From VND 120,000,000 |
 
----
+Available points and lifetime accumulated points are two separate values:
 
-## 3. Redeeming Points for Vouchers
+- **Available points** may be used to reduce the amount payable on an invoice.
+- **Lifetime accumulated points** remain recorded to recognize the client's long-term relationship with the studio and determine their membership tier.
 
-Available points may be redeemed for discount vouchers for future services at Lan Pink Tattoo.
+## 3. Using Points Directly on an Invoice
 
-Point redemption only applies to the voucher milestones available in the system. Clients cannot freely choose any point amount to create a custom voucher.
+Lan Pink Tattoo does not use a system where points are exchanged for fixed-value vouchers. Available points are instead applied directly as a discount on the invoice currently being paid.
 
-| Points Required | Voucher Value |
-|---:|---:|
-| 500 points | 50,000 VND |
-| 950 points | 100,000 VND |
-| 1,800 points | 200,000 VND |
-| 4,400 points | 500,000 VND |
+The point redemption value is:
 
-Point redemption vouchers are valid only at Lan Pink Tattoo and cannot be exchanged for cash.
+**1 point = VND 100 discount.**
 
-When points are redeemed for a voucher, only **available points** are deducted. Lifetime points used to determine membership tier remain unchanged.
+Point discounts are subject to the following rules:
 
----
+- The maximum point discount is **25% of the invoice value**.
+- The discount amount is rounded down in increments of **VND 10,000**.
+- Members may only use points currently available in their account.
+- Used points are deducted immediately after the payment is completed successfully.
+- Lifetime accumulated points and membership tiers are not reduced.
+- New points are calculated from the remaining amount payable after the discount.
+
+For example, a client has 4,400 available points and is paying an invoice of VND 800,000:
+
+- The maximum discount of 25% is VND 200,000.
+- The client uses 2,000 points, equal to a VND 200,000 discount.
+- The remaining amount payable is VND 600,000.
+- New points are calculated from VND 600,000 according to the client's membership tier.
+
+### Points and vouchers cannot be combined
+
+Only one discount source may be applied to the same invoice:
+
+- a voucher; or
+- member points.
+
+Vouchers and member points cannot be combined. When both are eligible, the system selects the discount source that provides the higher discount value for that invoice.
 
 ## 4. Birthday Vouchers
 
-Birthday vouchers are special gifts from Lan Pink Tattoo for members. Birthday vouchers do not deduct points and do not affect membership tier.
+A birthday voucher is an annual gift available exclusively to Lan Pink Tattoo members.
 
-| Membership Tier | Birthday Voucher |
-|---|---:|
-| Member - Silver | 50,000 VND |
-| Gold - VIP | 100,000 VND |
-| Diamond | 200,000 VND |
+The system checks the birthday saved in the member profile and automatically issues a birthday voucher according to the current policy. Each member may receive only **one birthday voucher per year**.
 
-Birthday vouchers are valid for **30 days** during the member's birthday month.
+| Membership tier | Voucher value | Minimum invoice value |
+|---|---:|---:|
+| Member | VND 50,000 | VND 500,000 |
+| Silver | VND 100,000 | VND 700,000 |
+| Gold | VND 150,000 | VND 1,000,000 |
+| VIP | VND 200,000 | VND 1,500,000 |
+| Diamond | VND 300,000 | VND 2,500,000 |
 
----
+> **Eligibility requirement:** A birthday voucher may only be used when the invoice reaches the minimum value required for the member's tier at the time the voucher was issued.
+
+### Validity period
+
+Birthday vouchers are valid for **30 days from the date of issue**.
+
+The issue date and expiration date are recorded on each voucher. After expiration, the voucher is no longer eligible for use on a new invoice.
+
+### Application rules
+
+- Birthday vouchers are issued automatically by the system.
+- Members do not need to use points to receive a birthday voucher.
+- Each member may receive no more than one birthday voucher during the same calendar year.
+- Vouchers apply only to services provided by Lan Pink Tattoo.
+- Vouchers cannot be exchanged for cash.
+- Vouchers cannot be transferred to another member.
+- Using a voucher does not reduce available member points.
+- Using a voucher does not reduce lifetime accumulated points or the member's tier.
+- A voucher is marked as used only after the invoice payment has been completed successfully.
+
+### Discounts cannot be combined
+
+A birthday voucher cannot be combined with member points, promotional vouchers, or another discount source on the same invoice.
+
+When an invoice is eligible for multiple discounts, the system applies only **the single discount source with the highest value**.
+
+After the discount is applied, the client may still pay by cash, bank transfer, or a combination of both payment methods.
 
 ## 5. Promotional Vouchers
 
-In addition to point redemption vouchers and birthday vouchers, Lan Pink Tattoo may create promotional vouchers for special occasions.
+In addition to birthday vouchers, Lan Pink Tattoo may issue promotional vouchers for special occasions.
 
 Examples include:
 
-- Returning client offers
-- Seasonal or event-based promotions
+- Returning-client offers
+- Seasonal or event promotions
 - Special gifts for loyal clients
-- Major holidays throughout the year
+- Promotions for major holidays during the year
 
-Promotional vouchers do not deduct points, do not change accumulated points, and do not affect membership tier.
+Promotional vouchers do not deduct member points, change lifetime accumulated points, or affect membership tiers.
 
 ---
 
 ## 6. Friend Referral Rewards
 
-In addition to points earned from personal services, Lan Pink Member members may receive bonus points when referring friends to use services at Lan Pink Tattoo.
+In addition to points earned from their own services, Lan Pink Members may receive bonus points when they refer friends to use services at Lan Pink Tattoo.
 
-Current referral program:
+The current referral reward is:
 
-**150 fixed bonus points + 1 point for every 10,000 VND spent on the referred client's first invoice.**
+**150 fixed bonus points + 1 point for every VND 10,000 on the referred client's first invoice.**
 
-For example, if the referred client uses a service worth 1,000,000 VND, the referrer receives:
+For example, when a referred client uses a service valued at VND 1,000,000, the referring member receives:
 
 - 150 fixed bonus points
-- 100 invoice-based points
+- 100 points calculated from the invoice
 
-Total: **250 reward points**.
+Total reward: **250 bonus points**.
 
-Lan Pink Tattoo deeply appreciates members who refer friends, family members, and continue accompanying them on future visits. Referral and client connection activities may be rewarded with member points according to programs available at each period.
+Lan Pink Tattoo sincerely appreciates members who introduce friends and family to the studio and continue supporting them on future visits. Referral activity and client connections may be recognized through member bonus points according to the program available at the relevant time.
 
-Full details: [Friend Referral Rewards Program](/friend-referral-program/).
+For full details, please see: [Friend Referral Rewards Program](/en/friend-referral-program/).
 
 ---
 
-## 7. How to Check Points and Vouchers
+## 7. Checking Points and Vouchers
 
-Member information, available points, membership tier, and vouchers are managed directly by Lan Pink Tattoo at the studio.
+Member profiles, available points, membership tiers, and vouchers are managed directly by Lan Pink Tattoo.
 
 <div class="member-lookup-cta">
-  <a href="/member/">Members can check their information here</a>
+  <a href="/en/lan-pink-member/">Check your membership information here</a>
 </div>
 
 ---
 
-## 8. Usage Notes
+## 8. Important Information
 
-Lan Pink Tattoo may adjust point rules, voucher redemption milestones, or voucher usage conditions to match operating costs, materials, promotions, and the studio's actual policies.
+Lan Pink Tattoo may adjust point earning rates, point redemption limits, or voucher eligibility requirements to reflect operating costs, materials, promotional programs, and the studio's current policies.
 
-Any updates will apply to the program after the update date and will not remove lifetime membership tiers already achieved by clients before the change.
+Any changes will apply to the program after the published update date. They will not remove a lifetime membership tier that a client reached before the change.
 
 ---
 
 ## Connect With Lan Pink Tattoo
 
-Lan Pink Tattoo is a private tattoo studio in District 12, Ho Chi Minh City, specializing in Fine Line Tattoo, Mini Tattoo, Blackwork, and custom tattoo designs.
+Lan Pink Tattoo is a private tattoo studio in District 12, Ho Chi Minh City, offering Fine Line Tattoos, Mini Tattoos, Blackwork, and custom tattoo designs created for each client.
 
-If you would like tattoo consultation or need to check your membership information, please message Lan Pink Tattoo directly through Fanpage or Messenger.
+For tattoo advice or assistance with your member information, please contact Lan Pink Tattoo directly through our Facebook Fanpage or Messenger.
 
 ---
 
 ## Related Links
 
-- [Check membership tier, available points, and vouchers](/member/)
-- [View tattoo pricing at Lan Pink Tattoo](/pricing/)
-- [Contact Lan Pink Tattoo to check membership information](/contact/)
+- [Check your membership tier, available points, and vouchers](/en/lan-pink-member/)
+- [View Lan Pink Tattoo service prices](/en/pricing/)
+- [Contact Lan Pink Tattoo for member assistance](/en/contact/)
 
-## Helpful related information
+## More Helpful Information
 
-This page is part of Lan Pink Tattoo's website information system, helping clients understand the service before contacting, booking, or asking for a quote.
+This page is part of Lan Pink Tattoo's information system and helps clients understand the program before contacting the studio, booking an appointment, or using our services.
 
-### Why this page is useful
+### Why is this information useful?
 
-- helps clients prepare better before messaging
-- reduces confusion about pricing or booking
-- explains the service flow more clearly
-- connects visitors to important pages on the website
+- It helps clients prepare the necessary information before sending a message.
+- It reduces confusion when asking about prices or booking an appointment.
+- It helps clients understand the service and membership process.
+- It provides direct access to other important pages on the website.
 
-## Suggested next pages
+## Suggested Reading
 
-- [Contact Lan Pink](/en/contact/)
+- [Contact Lan Pink Tattoo](/en/contact/)
 - [Book a consultation](/en/booking/)
-- [Tattoo price list](/en/pricing/)
+- [Tattoo prices](/en/pricing/)
 - [Tattoo FAQ](/en/faq/)
+
+## Why should members understand the points rules?
+
+Understanding the points rules helps members know how points are earned, how rewards may be used, and how benefits are recorded after each tattoo session at Lan Pink Tattoo.
+
+## Key Points to Remember
+
+- How member points are calculated
+- Requirements for earning points
+- When rewards may be used
+- The friend referral program
+- Benefits available to returning clients
+
+## Related Pages
+
+- [Lan Pink Member Program](/en/lan-pink-member/)
+- [Friend Referral Program](/en/friend-referral-program/)
+- [Contact Lan Pink Tattoo](/en/contact/)
