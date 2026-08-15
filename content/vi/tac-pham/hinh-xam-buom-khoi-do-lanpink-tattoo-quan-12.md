@@ -34,7 +34,7 @@ keywords:
 artwork_subject: "Hình xăm bướm khói đỏ – Lanpik Tattoo Quận 12"
 artwork_style: "Bướm khói đỏ, đường nét mềm mại và bay bổng"
 artwork_position: "Hông"
-artwork_client: ""
+artwork_client: "khách nữ"
 artwork_meaning: ""
 
 seo_cluster_id: "buom-khoi-do-lanpik-quan-12_tattoo"
