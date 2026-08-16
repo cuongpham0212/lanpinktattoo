@@ -1,5 +1,20 @@
 {
-  "updated_at": "2026-08-08 04:05:12",
-  "total_members": 0,
-  "members": []
+  "updated_at": "2026-08-16 17:40:11",
+  "total_members": 1,
+  "members": [
+    {
+      "member_code": "KH-8CK2V9",
+      "name": "john",
+      "masked_phone": "",
+      "membership_level": "Member",
+      "total_spent": 0,
+      "total_spent_display": "0đ",
+      "available_points": "0",
+      "lifetime_points": "0",
+      "unused_vouchers": 0,
+      "unused_voucher_value": "0đ",
+      "referral_count": 0,
+      "updated_at": "2026-08-16 17:40:11"
+    }
+  ]
 }
