@@ -18,3 +18,10 @@ from = "http://TEN-SITE-NETLIFY-CUA-ANH.netlify.app/*"
 to = "https://lanpinktattoo.com/:splat"
 status = 301
 force = true
+
+# LANPINK ADMIN MINI APP
+[[redirects]]
+from = "/admin"
+to = "/.netlify/functions/lanpink-admin"
+status = 200
+force = true
