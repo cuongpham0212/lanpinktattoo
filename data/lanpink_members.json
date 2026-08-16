@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-16 18:21:54",
-  "total_members": 3,
+  "updated_at": "2026-08-16 23:53:33",
+  "total_members": 4,
   "members": [
     {
       "member_code": "KH-ZWQMDY",
@@ -43,6 +43,20 @@
       "unused_voucher_value": "0đ",
       "referral_count": 1,
       "updated_at": "2026-08-16 18:03:34"
+    },
+    {
+      "member_code": "KH-CKNFT7",
+      "name": "test",
+      "masked_phone": "",
+      "membership_level": "Member",
+      "total_spent": 0,
+      "total_spent_display": "0đ",
+      "available_points": "0",
+      "lifetime_points": "0",
+      "unused_vouchers": 0,
+      "unused_voucher_value": "0đ",
+      "referral_count": 0,
+      "updated_at": "2026-08-16 23:53:33"
     }
   ]
 }
