@@ -44,7 +44,7 @@ seo_cluster: "Hình xăm phật tả đá ở bắp tay thực hiện tại lanp
 seo_intent: "tac-pham"
 seo_target_keyword: "Hình xăm Phật tả đá ở bắp tay thực hiện tại Lanpink Tattoo Quận 12"
 seo_content_type: "tac-pham"
-google_review_id: ""
+google_review_id: "google_CkRDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjVvVGs5SWIzcFJhMWswWkhwU1ZGRXlaRUpSTTJodFlraEZlVkV4UlJBQhAA"
 ---
 
 # Hình xăm Phật tả đá ở bắp tay nam tại Lan Pink Tattoo Quận 12

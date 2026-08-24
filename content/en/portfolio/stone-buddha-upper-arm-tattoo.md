@@ -47,7 +47,7 @@ seo_cluster: "Stone Buddha upper arm tattoo"
 seo_intent: "portfolio"
 seo_target_keyword: "stone Buddha upper arm tattoo"
 seo_content_type: "portfolio"
-google_review_id: ""
+google_review_id: "google_CkRDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjVvVGs5SWIzcFJhMWswWkhwU1ZGRXlaRUpSTTJodFlraEZlVkV4UlJBQhAA"
 ---
 
 # Stone Buddha Upper Arm Tattoo for Men at Lan Pink Tattoo District 12

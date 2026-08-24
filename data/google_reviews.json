@@ -3,8 +3,8 @@
     "schema_version": 1,
     "data_type": "google_reviews",
     "generated_by": "LanPinkControl",
-    "generated_at": "2026-07-20T02:52:58",
-    "review_count": 6,
+    "generated_at": "2026-08-24T16:55:29",
+    "review_count": 7,
     "identity_key": "review_source_id"
   },
   "reviews": {
@@ -810,6 +810,466 @@
       "verified": true,
       "created_at": "2026-07-20T02:47:43",
       "last_sync": "2026-07-20T02:47:43",
+      "status": "published",
+      "language": "vi"
+    },
+    "google_CkRDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjVvVGs5SWIzcFJhMWswWkhwU1ZGRXlaRUpSTTJodFlraEZlVkV4UlJBQhAA": {
+      "review_id": "google_CkRDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjVvVGs5SWIzcFJhMWswWkhwU1ZGRXlaRUpSTTJodFlraEZlVkV4UlJBQhAA",
+      "review_source_id": "Ci9DQUlRQUNvZENodHljRjlvT25oTk9Ib3pRa1k0ZHpSVFEyZEJRM2htYkhFeVExRRAB",
+      "capture_name": "capture_Ci9DQUlRQUNvZENodH_f20447ad11",
+      "capture_source_url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25oTk9Ib3pRa1k0ZHpSVFEyZEJRM2htYkhFeVExRRAB!2m1!1s0x0:0x6dcd055198206b25!3m1!1s2@1:CAIQACodChtycF9oOnhNOHozQkY4dzRTQ2dBQ3hmbHEyQ1E%7C%7C?entry=tts&g_ep=EgoyMDI2MDgxOS4wIPu8ASoASAFQAw%3D%3D&skid=9cce20cb-650c-4fcf-bcb3-19b0ea887ff3",
+      "reviewer_name": "khoa nguyễn phạm phúc",
+      "rating": 5,
+      "review_date": "2026-08-20",
+      "review_date_relative": "3 ngày trước",
+      "review_text": "Mới làm xong hình này ở Lanpink Tattoo nên lên review chút 😄 Mình chọn mẫu Phật theo kiểu tả đá, ban đầu cũng hơi lo vì dạng này phần mặt và các mảng sáng tối nếu làm không kỹ sẽ dễ bị phẳng, thiếu tương phản sẽ không tả được đúng chất ảnh. Làm xong thì rất ưng, nhất là phần khuôn mặt và hiệu ứng đá nhìn có chiều sâu.\n\nMình biết đến Lanpink khi tìm thợ xăm nữ Quận 12. Tiệm nằm gần cầu vượt Tân Thới Hiệp, đi lần đầu cũng khá dễ tìm.\n\nĐiểm mình thích là tiệm xăm riêng tư, không có nhiều người ra vào nên ngồi xăm lâu cũng thấy thoải mái. Chị thợ làm khá kỹ, có trao đổi và chỉnh bố cục theo tay trước khi làm.\n\nHình mới xong nên màu còn đậm, đợi lành chắc sẽ đẹp hơn nữa. Hiện tại mình rất hài lòng với hình này 👍",
+      "review_text_original": "Mới làm xong hình này ở Lanpink Tattoo nên lên review chút 😄 Mình chọn mẫu Phật theo kiểu tả đá, ban đầu cũng hơi lo vì dạng này phần mặt và các mảng sáng tối nếu làm không kỹ sẽ dễ bị phẳng, thiếu tương phản sẽ không tả được đúng chất ảnh. Làm xong thì rất ưng, nhất là phần khuôn mặt và hiệu ứng đá nhìn có chiều sâu.\n\nMình biết đến Lanpink khi tìm thợ xăm nữ Quận 12. Tiệm nằm gần cầu vượt Tân Thới Hiệp, đi lần đầu cũng khá dễ tìm.\n\nĐiểm mình thích là tiệm xăm riêng tư, không có nhiều người ra vào nên ngồi xăm lâu cũng thấy thoải mái. Chị thợ làm khá kỹ, có trao đổi và chỉnh bố cục theo tay trước khi làm.\n\nHình mới xong nên màu còn đậm, đợi lành chắc sẽ đẹp hơn nữa. Hiện tại mình rất hài lòng với hình này 👍",
+      "review_text_vi": "Mới làm xong hình này ở Lanpink Tattoo nên lên review chút 😄 Mình chọn mẫu Phật theo kiểu tả đá, ban đầu cũng hơi lo vì dạng này phần mặt và các mảng sáng tối nếu làm không kỹ sẽ dễ bị phẳng, thiếu tương phản sẽ không tả được đúng chất ảnh. Làm xong thì rất ưng, nhất là phần khuôn mặt và hiệu ứng đá nhìn có chiều sâu.\n\nMình biết đến Lanpink khi tìm thợ xăm nữ Quận 12. Tiệm nằm gần cầu vượt Tân Thới Hiệp, đi lần đầu cũng khá dễ tìm.\n\nĐiểm mình thích là tiệm xăm riêng tư, không có nhiều người ra vào nên ngồi xăm lâu cũng thấy thoải mái. Chị thợ làm khá kỹ, có trao đổi và chỉnh bố cục theo tay trước khi làm.\n\nHình mới xong nên màu còn đậm, đợi lành chắc sẽ đẹp hơn nữa. Hiện tại mình rất hài lòng với hình này 👍",
+      "review_text_en": "",
+      "original_language": "vi",
+      "translation_status": "missing_en",
+      "owner_reply": "Cảm ơn bạn đã tin tưởng Lanpink Tattoo và dành thời gian chia sẻ trải nghiệm rất chi tiết ❤️\n\nLan Pink rất vui vì bạn ưng phần tả đá, đặc biệt là độ sâu của khuôn mặt Phật và các mảng sáng tối. Với những thiết kế như thế này, việc chỉnh bố cục theo cánh tay trước khi xăm khá quan trọng để hình lên da vẫn giữ được khối và độ tương phản.\n\nCảm ơn bạn cũng đã nhắc đến không gian riêng tư và sự sạch sẽ của tiệm. Lanpink luôn cố gắng giữ mỗi buổi xăm thoải mái, kỹ lưỡng và an toàn tại studio ở Quận 12, gần cầu vượt Tân Thới Hiệp.\n\nHình hiện còn mới nên sắc độ vẫn khá đậm. Khi da lành và ổn định, các mảng chuyển sẽ dịu lại và tổng thể sẽ tự nhiên hơn nữa.\n\nCảm ơn bạn đã lựa chọn Lanpink Tattoo 🙏\n\n—\n\nThank you for choosing Lanpink Tattoo and for taking the time to share such a detailed review ❤️\n\nLan Pink is really happy that you enjoyed the stone-texture Buddha tattoo, especially the depth of the face and the balance between light and shadow. For a detailed Black & Grey piece like this, adjusting the composition to follow the shape of the arm is an important part of keeping the depth and contrast once the design is tattooed.\n\nWe also appreciate you mentioning the privacy and cleanliness of the studio. Lanpink aims to provide a comfortable, careful and hygienic tattoo experience at our private tattoo studio in District 12, near Tan Thoi Hiep overpass, Ho Chi Minh City.\n\nThe tattoo is still fresh, so the tones are naturally darker right now. As it heals and settles, the shading will soften and the overall piece will look more natural.\n\nThank you again for trusting Lanpink Tattoo 🙏",
+      "owner_reply_original": "Cảm ơn bạn đã tin tưởng Lanpink Tattoo và dành thời gian chia sẻ trải nghiệm rất chi tiết ❤️\n\nLan Pink rất vui vì bạn ưng phần tả đá, đặc biệt là độ sâu của khuôn mặt Phật và các mảng sáng tối. Với những thiết kế như thế này, việc chỉnh bố cục theo cánh tay trước khi xăm khá quan trọng để hình lên da vẫn giữ được khối và độ tương phản.\n\nCảm ơn bạn cũng đã nhắc đến không gian riêng tư và sự sạch sẽ của tiệm. Lanpink luôn cố gắng giữ mỗi buổi xăm thoải mái, kỹ lưỡng và an toàn tại studio ở Quận 12, gần cầu vượt Tân Thới Hiệp.\n\nHình hiện còn mới nên sắc độ vẫn khá đậm. Khi da lành và ổn định, các mảng chuyển sẽ dịu lại và tổng thể sẽ tự nhiên hơn nữa.\n\nCảm ơn bạn đã lựa chọn Lanpink Tattoo 🙏\n\n—\n\nThank you for choosing Lanpink Tattoo and for taking the time to share such a detailed review ❤️\n\nLan Pink is really happy that you enjoyed the stone-texture Buddha tattoo, especially the depth of the face and the balance between light and shadow. For a detailed Black & Grey piece like this, adjusting the composition to follow the shape of the arm is an important part of keeping the depth and contrast once the design is tattooed.\n\nWe also appreciate you mentioning the privacy and cleanliness of the studio. Lanpink aims to provide a comfortable, careful and hygienic tattoo experience at our private tattoo studio in District 12, near Tan Thoi Hiep overpass, Ho Chi Minh City.\n\nThe tattoo is still fresh, so the tones are naturally darker right now. As it heals and settles, the shading will soften and the overall piece will look more natural.\n\nThank you again for trusting Lanpink Tattoo 🙏",
+      "owner_reply_vi": "Cảm ơn bạn đã tin tưởng Lanpink Tattoo và dành thời gian chia sẻ trải nghiệm rất chi tiết ❤️\nLan Pink rất vui vì bạn ưng phần tả đá, đặc biệt là độ sâu của khuôn mặt Phật và các mảng sáng tối. Với những thiết kế như thế này, việc chỉnh bố cục theo cánh tay trước khi xăm khá quan trọng để hình lên da vẫn giữ được khối và độ tương phản.\nCảm ơn bạn cũng đã nhắc đến không gian riêng tư và sự sạch sẽ của tiệm. Lanpink luôn cố gắng giữ mỗi buổi xăm thoải mái, kỹ lưỡng và an toàn tại studio ở Quận 12, gần cầu vượt Tân Thới Hiệp.\nHình hiện còn mới nên sắc độ vẫn khá đậm. Khi da lành và ổn định, các mảng chuyển sẽ dịu lại và tổng thể sẽ tự nhiên hơn nữa.\nCảm ơn bạn đã lựa chọn Lanpink Tattoo 🙏",
+      "owner_reply_en": "—\nThank you for choosing Lanpink Tattoo and for taking the time to share such a detailed review ❤️\nLan Pink is really happy that you enjoyed the stone-texture Buddha tattoo, especially the depth of the face and the balance between light and shadow. For a detailed Black & Grey piece like this, adjusting the composition to follow the shape of the arm is an important part of keeping the depth and contrast once the design is tattooed.\nWe also appreciate you mentioning the privacy and cleanliness of the studio. Lanpink aims to provide a comfortable, careful and hygienic tattoo experience at our private tattoo studio in District 12, near Tan Thoi Hiep overpass, Ho Chi Minh City.\nThe tattoo is still fresh, so the tones are naturally darker right now. As it heals and settles, the shading will soften and the overall piece will look more natural.\nThank you again for trusting Lanpink Tattoo 🙏",
+      "google_review_url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25oTk9Ib3pRa1k0ZHpSVFEyZEJRM2htYkhFeVExRRAB!2m1!1s0x0:0x6dcd055198206b25!3m1!1s2@1:CAIQACodChtycF9oOnhNOHozQkY4dzRTQ2dBQ3hmbHEyQ1E%7C%7C?entry=tts&g_ep=EgoyMDI2MDgxOS4wIPu8ASoASAFQAw%3D%3D&skid=9cce20cb-650c-4fcf-bcb3-19b0ea887ff3",
+      "feedback_gallery_slug": "",
+      "feedback_images": [
+        "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/reviews/google-ckrdatleuvvsulfvtnzaru5vzehsaljqbhzumjvvvgs5swizcfjhmwswwkhwu1zgrxlarupsttjodflraezlvkv4uljbqhaa/khoa-nguyen-pham-phuc-001.webp"
+      ],
+      "review_attributes": [
+        {
+          "key": "price_range",
+          "source_key": "BEAUTY_PRICE_RANGE_EXP",
+          "label_original": "Mỗi người hết bao nhiêu tiền?",
+          "label_vi": "Giá",
+          "label_en": "Price",
+          "question_original": "Mỗi người hết bao nhiêu tiền?",
+          "question_vi": "Mỗi người hết bao nhiêu tiền?",
+          "question_en": "How much did you spend per person?",
+          "value_original": "10.000.000 ₫ trở lên",
+          "value_vi": "10.000.000 ₫ trở lên",
+          "displayable": true,
+          "hidden_reason": "",
+          "source_path": "$[7][2][6][0]",
+          "options": [
+            {
+              "code": "BEAUTY_PRICE_RANGE_EXP",
+              "label": "Mỗi người hết bao nhiêu tiền?",
+              "expanded_value": ""
+            },
+            {
+              "code": "E:VND_10000000_UP",
+              "label": "Trên 10.000.000 ₫",
+              "expanded_value": "10.000.000 ₫ trở lên"
+            }
+          ],
+          "raw": [
+            [
+              "BEAUTY_PRICE_RANGE_EXP"
+            ],
+            "Mỗi người hết bao nhiêu tiền?",
+            [
+              [
+                [
+                  [
+                    "E:VND_10000000_UP"
+                  ],
+                  "Trên 10.000.000 ₫",
+                  2,
+                  null,
+                  "10.000.000 ₫ trở lên",
+                  "0ahUKEwjdpbK977iWAxWrs1YBHbHAIi0Q3YcHCAcoAA"
+                ]
+              ],
+              1
+            ],
+            null,
+            null,
+            "Giá",
+            null,
+            "0ahUKEwjdpbK977iWAxWrs1YBHbHAIi0Q3IcHCAYoAw",
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null,
+            2
+          ]
+        },
+        {
+          "key": "service",
+          "source_key": "BEAUTY_JOB_TYPES_EXP",
+          "label_original": "Bạn đã sử dụng những dịch vụ nào?",
+          "label_vi": "Dịch vụ",
+          "label_en": "Service",
+          "question_original": "Bạn đã sử dụng những dịch vụ nào?",
+          "question_vi": "Bạn đã sử dụng những dịch vụ nào?",
+          "question_en": "Which services did you use?",
+          "value_original": "Xăm màu đen tuyền, Thiết kế hình xăm",
+          "value_vi": "Xăm màu đen tuyền, Thiết kế hình xăm",
+          "displayable": true,
+          "hidden_reason": "",
+          "source_path": "$[7][2][6][1]",
+          "options": [
+            {
+              "code": "BEAUTY_JOB_TYPES_EXP",
+              "label": "Bạn đã sử dụng những dịch vụ nào?",
+              "expanded_value": ""
+            },
+            {
+              "code": "job_type_id:solid_black_work",
+              "label": "Xăm màu đen tuyền",
+              "expanded_value": ""
+            },
+            {
+              "code": "job_type_id:tattoo_design",
+              "label": "Thiết kế hình xăm",
+              "expanded_value": ""
+            }
+          ],
+          "raw": [
+            [
+              "BEAUTY_JOB_TYPES_EXP"
+            ],
+            "Bạn đã sử dụng những dịch vụ nào?",
+            null,
+            [
+              [
+                [
+                  [
+                    "job_type_id:solid_black_work"
+                  ],
+                  "Xăm màu đen tuyền",
+                  2,
+                  null,
+                  null,
+                  "0ahUKEwjdpbK977iWAxWrs1YBHbHAIi0Q3YcHCAkoAA"
+                ],
+                [
+                  [
+                    "job_type_id:tattoo_design"
+                  ],
+                  "Thiết kế hình xăm",
+                  2,
+                  null,
+                  null,
+                  "0ahUKEwjdpbK977iWAxWrs1YBHbHAIi0Q3YcHCAooAQ"
+                ]
+              ],
+              [
+                1
+              ]
+            ],
+            null,
+            "Dịch vụ",
+            null,
+            "0ahUKEwjdpbK977iWAxWrs1YBHbHAIi0Q3IcHCAgoBA",
+            null,
+            null,
+            null,
+            null,
+            null,
+            3,
+            null,
+            2
+          ]
+        },
+        {
+          "key": "requested_style",
+          "source_key": "BEAUTY_TIPS_TOPICS_REQUESTED_STYLE",
+          "label_original": "Phong cách đã yêu cầu",
+          "label_vi": "Phong cách đã yêu cầu",
+          "label_en": "Requested style",
+          "question_original": "Phong cách đã yêu cầu",
+          "question_vi": "Phong cách đã yêu cầu",
+          "question_en": "Tell us more about the requested style.",
+          "value_original": "tả đá",
+          "value_vi": "",
+          "displayable": true,
+          "hidden_reason": "",
+          "source_path": "$[7][2][6][2]",
+          "options": [
+            {
+              "code": "BEAUTY_TIPS_TOPICS_REQUESTED_STYLE",
+              "label": "Phong cách đã yêu cầu",
+              "expanded_value": "Cho mọi người biết về phong cách mà bạn yêu cầu"
+            }
+          ],
+          "raw": [
+            [
+              "BEAUTY_TIPS_TOPICS_REQUESTED_STYLE"
+            ],
+            "Phong cách đã yêu cầu",
+            null,
+            null,
+            "Cho mọi người biết về phong cách mà bạn yêu cầu",
+            "Phong cách đã yêu cầu",
+            null,
+            "0ahUKEwjdpbK977iWAxWrs1YBHbHAIi0Q3IcHCAsoBQ",
+            null,
+            null,
+            [
+              "tả đá"
+            ],
+            null,
+            null,
+            3,
+            null,
+            2
+          ]
+        },
+        {
+          "key": "tips_topics_special_expertise",
+          "source_key": "BEAUTY_TIPS_TOPICS_SPECIAL_EXPERTISE",
+          "label_original": "Chuyên môn đặc biệt",
+          "label_vi": "Chuyên môn đặc biệt",
+          "label_en": "BEAUTY_TIPS_TOPICS_SPECIAL_EXPERTISE",
+          "question_original": "Chuyên môn đặc biệt",
+          "question_vi": "Chuyên môn đặc biệt",
+          "question_en": "",
+          "value_original": "rất giỏi",
+          "value_vi": "",
+          "displayable": true,
+          "hidden_reason": "",
+          "source_path": "$[7][2][6][3]",
+          "options": [
+            {
+              "code": "BEAUTY_TIPS_TOPICS_SPECIAL_EXPERTISE",
+              "label": "Chuyên môn đặc biệt",
+              "expanded_value": "Cho mọi người biết về chuyên môn đặc biệt của địa điểm đó"
+            }
+          ],
+          "raw": [
+            [
+              "BEAUTY_TIPS_TOPICS_SPECIAL_EXPERTISE"
+            ],
+            "Chuyên môn đặc biệt",
+            null,
+            null,
+            "Cho mọi người biết về chuyên môn đặc biệt của địa điểm đó",
+            "Chuyên môn đặc biệt",
+            null,
+            "0ahUKEwjdpbK977iWAxWrs1YBHbHAIi0Q3IcHCAwoBg",
+            null,
+            null,
+            [
+              "rất giỏi"
+            ],
+            null,
+            null,
+            3,
+            null,
+            2
+          ]
+        },
+        {
+          "key": "cleanliness",
+          "source_key": "BEAUTY_TIPS_TOPICS_CLEANLINESS",
+          "label_original": "Mức độ sạch sẽ",
+          "label_vi": "Mức độ sạch sẽ",
+          "label_en": "Cleanliness",
+          "question_original": "Mức độ sạch sẽ",
+          "question_vi": "Mức độ sạch sẽ",
+          "question_en": "Tell us more about cleanliness.",
+          "value_original": "thay kim mới rất nhiều, sạch sẽ",
+          "value_vi": "",
+          "displayable": true,
+          "hidden_reason": "",
+          "source_path": "$[7][2][6][4]",
+          "options": [
+            {
+              "code": "BEAUTY_TIPS_TOPICS_CLEANLINESS",
+              "label": "Mức độ sạch sẽ",
+              "expanded_value": "Cho mọi người biết về mức độ sạch sẽ"
+            }
+          ],
+          "raw": [
+            [
+              "BEAUTY_TIPS_TOPICS_CLEANLINESS"
+            ],
+            "Mức độ sạch sẽ",
+            null,
+            null,
+            "Cho mọi người biết về mức độ sạch sẽ",
+            "Mức độ sạch sẽ",
+            null,
+            "0ahUKEwjdpbK977iWAxWrs1YBHbHAIi0Q3IcHCA0oBw",
+            null,
+            null,
+            [
+              "thay kim mới rất nhiều, sạch sẽ"
+            ],
+            null,
+            null,
+            3,
+            null,
+            2
+          ]
+        },
+        {
+          "key": "stylist",
+          "source_key": "BEAUTY_TIPS_TOPICS_STYLIST",
+          "label_original": "Nhà tạo mẫu",
+          "label_vi": "Nhà tạo mẫu",
+          "label_en": "Stylist",
+          "question_original": "Nhà tạo mẫu",
+          "question_vi": "Nhà tạo mẫu",
+          "question_en": "Tell us more about your tattoo artist.",
+          "value_original": "đẹp",
+          "value_vi": "",
+          "displayable": true,
+          "hidden_reason": "",
+          "source_path": "$[7][2][6][5]",
+          "options": [
+            {
+              "code": "BEAUTY_TIPS_TOPICS_STYLIST",
+              "label": "Nhà tạo mẫu",
+              "expanded_value": "Cho mọi người biết về nhà tạo mẫu cho bạn và tay nghề của họ"
+            }
+          ],
+          "raw": [
+            [
+              "BEAUTY_TIPS_TOPICS_STYLIST"
+            ],
+            "Nhà tạo mẫu",
+            null,
+            null,
+            "Cho mọi người biết về nhà tạo mẫu cho bạn và tay nghề của họ",
+            "Nhà tạo mẫu",
+            null,
+            "0ahUKEwjdpbK977iWAxWrs1YBHbHAIi0Q3IcHCA4oCA",
+            null,
+            null,
+            [
+              "đẹp"
+            ],
+            null,
+            null,
+            3,
+            null,
+            2
+          ]
+        },
+        {
+          "key": "topics",
+          "source_key": "BEAUTY_TIPS_TOPICS",
+          "label_original": "Vui lòng chia sẻ thêm về các chủ đề sau",
+          "label_vi": "Vui lòng chia sẻ thêm về các chủ đề sau",
+          "label_en": "Topics",
+          "question_original": "Vui lòng chia sẻ thêm về các chủ đề sau",
+          "question_vi": "Vui lòng chia sẻ thêm về các chủ đề sau",
+          "question_en": "Please share more about the following topics.",
+          "value_original": "",
+          "value_vi": "",
+          "displayable": false,
+          "hidden_reason": "empty_value",
+          "source_path": "$[7][2][6][6]",
+          "options": [
+            {
+              "code": "BEAUTY_TIPS_TOPICS",
+              "label": "Vui lòng chia sẻ thêm về các chủ đề sau",
+              "expanded_value": ""
+            },
+            {
+              "code": "E:BEAUTY_TIPS_REQUESTED_STYLE",
+              "label": "Phong cách đã yêu cầu",
+              "expanded_value": ""
+            },
+            {
+              "code": "E:BEAUTY_TIPS_SPECIAL_EXPERTISE",
+              "label": "Chuyên môn đặc biệt",
+              "expanded_value": ""
+            },
+            {
+              "code": "E:BEAUTY_TIPS_CLEANLINESS",
+              "label": "Mức độ sạch sẽ",
+              "expanded_value": ""
+            },
+            {
+              "code": "E:BEAUTY_TIPS_STYLIST",
+              "label": "Nhà tạo mẫu",
+              "expanded_value": ""
+            }
+          ],
+          "raw": [
+            [
+              "BEAUTY_TIPS_TOPICS"
+            ],
+            "Vui lòng chia sẻ thêm về các chủ đề sau",
+            null,
+            [
+              [
+                [
+                  [
+                    "E:BEAUTY_TIPS_REQUESTED_STYLE"
+                  ],
+                  "Phong cách đã yêu cầu",
+                  2,
+                  null,
+                  null,
+                  "0ahUKEwjdpbK977iWAxWrs1YBHbHAIi0Q3YcHCBAoAA"
+                ],
+                [
+                  [
+                    "E:BEAUTY_TIPS_SPECIAL_EXPERTISE"
+                  ],
+                  "Chuyên môn đặc biệt",
+                  2,
+                  null,
+                  null,
+                  "0ahUKEwjdpbK977iWAxWrs1YBHbHAIi0Q3YcHCBEoAQ"
+                ],
+                [
+                  [
+                    "E:BEAUTY_TIPS_CLEANLINESS"
+                  ],
+                  "Mức độ sạch sẽ",
+                  2,
+                  null,
+                  null,
+                  "0ahUKEwjdpbK977iWAxWrs1YBHbHAIi0Q3YcHCBIoAg"
+                ],
+                [
+                  [
+                    "E:BEAUTY_TIPS_STYLIST"
+                  ],
+                  "Nhà tạo mẫu",
+                  2,
+                  null,
+                  null,
+                  "0ahUKEwjdpbK977iWAxWrs1YBHbHAIi0Q3YcHCBMoAw"
+                ]
+              ]
+            ],
+            null,
+            null,
+            null,
+            "0ahUKEwjdpbK977iWAxWrs1YBHbHAIi0Q3IcHCA8oCQ",
+            null,
+            null,
+            null,
+            null,
+            null,
+            4,
+            [
+              [
+                3
+              ]
+            ],
+            2
+          ]
+        }
+      ],
+      "portfolio_translation_ids": [
+        "tr_e14383484bc99c756a4d5c37bcc023b2"
+      ],
+      "source": "Google Business Profile",
+      "verified": true,
+      "created_at": "2026-08-24T16:17:26",
+      "last_sync": "2026-08-24T16:55:29",
       "status": "published",
       "language": "vi"
     }
