@@ -499,7 +499,7 @@ html[data-theme="dark"] .lp-payment-form-wrap .lp-lang-switch button.active{
 
     <div class="lp-pay-badge">💎 Lan Pink Member</div>
     <h1 data-i18n="title">Nhập thông tin thanh toán</h1>
-    <p class="lp-pay-intro" data-i18n="intro">Bạn chỉ cần nhập thông tin một lần. Những lần thanh toán sau, Lan Pink Tattoo có thể tra cứu bằng số điện thoại/Zalo để hỗ trợ nhanh hơn.</p>
+    <p class="lp-pay-intro" data-i18n="intro">Bạn chỉ cần nhập thông tin một lần. Hãy để lại ít nhất một cách liên hệ để Lan Pink hỗ trợ thanh toán, hóa đơn và quyền lợi Member.</p>
 
     <form id="lp-payment-info-form" name="lanpink-payment-info">
       <input type="hidden" name="language" id="lp_payment_language" value="vi">
@@ -522,8 +522,30 @@ html[data-theme="dark"] .lp-payment-form-wrap .lp-lang-switch button.active{
         </div>
 
         <div class="lp-form-field">
-          <label for="phone_zalo" data-i18n="phone">Số điện thoại/Zalo nhận hoá đơn thanh toán</label>
-          <input id="phone_zalo" name="phone_zalo" type="tel" autocomplete="tel" inputmode="numeric" placeholder="0901234567" maxlength="12" required>
+          <label for="phone_zalo" data-i18n="phone">Số điện thoại / Zalo</label>
+          <input id="phone_zalo" name="phone_zalo" type="tel" autocomplete="tel" inputmode="tel" placeholder="0901234567 / +49123456789" maxlength="20">
+        </div>
+
+        <div class="lp-form-field">
+          <label for="alternate_contact_type" data-i18n="alternateType">Liên hệ khác</label>
+          <select id="alternate_contact_type" name="alternate_contact_type">
+            <option value="" data-i18n="alternateNone">Không dùng</option>
+            <option value="whatsapp">WhatsApp</option>
+            <option value="instagram">Instagram</option>
+            <option value="messenger">Messenger</option>
+          </select>
+        </div>
+
+        <div class="lp-form-field lp-hidden" id="lpAlternateContactField">
+          <label for="alternate_contact_value" data-i18n="alternateValue">Thông tin liên hệ</label>
+          <input
+            id="alternate_contact_value"
+            name="alternate_contact_value"
+            type="text"
+            maxlength="160"
+            data-i18n-placeholder="alternatePlaceholder"
+            placeholder="@username, m.me/username hoặc +49123456789"
+          >
         </div>
 
         <div class="lp-source-group">
@@ -701,13 +723,21 @@ function setFieldError(input, text){
 }
 
 function normalizeVietnamPhone(raw){
-  let d = String(raw || "").trim().replace(/[^0-9+]/g, "");
+  let value = String(raw || "").trim().replace(/[^0-9+]/g, "");
 
-  if(d.startsWith("+84")) d = "0" + d.slice(3);
-  else if(d.startsWith("84")) d = "0" + d.slice(2);
+  if(value.startsWith("+84")){
+    return "0" + value.slice(3).replace(/\D+/g, "");
+  }
 
-  d = d.replace(/\D+/g, "");
-  return d;
+  if(value.startsWith("84")){
+    return "0" + value.slice(2).replace(/\D+/g, "");
+  }
+
+  if(value.startsWith("+")){
+    return "+" + value.slice(1).replace(/\D+/g, "");
+  }
+
+  return value.replace(/\D+/g, "");
 }
 
 function validateVietnamPhone(input, opts){
@@ -723,14 +753,75 @@ function validateVietnamPhone(input, opts){
     return {ok: !required, phone: ""};
   }
 
-  if(!/^0[35789]\d{8}$/.test(phone)){
-    setFieldError(input, label + " chưa đúng. Vui lòng nhập số Việt Nam 10 số, ví dụ 0901234567 hoặc +84901234567.");
+  const isVietnam = /^0\d{8,10}$/.test(phone);
+  const isInternational = /^\+[1-9]\d{7,14}$/.test(phone);
+
+  if(!isVietnam && !isInternational){
+    setFieldError(
+      input,
+      label + " chưa đúng. Có thể nhập số Việt Nam bắt đầu bằng 0 hoặc số quốc tế bắt đầu bằng +."
+    );
     return {ok:false, phone};
   }
 
   input.value = phone;
   setFieldError(input, "");
   return {ok:true, phone};
+}
+
+function validateAlternateContact(){
+  const typeInput = document.getElementById("alternate_contact_type");
+  const valueInput = document.getElementById("alternate_contact_value");
+  const type = typeInput ? String(typeInput.value || "").trim().toLowerCase() : "";
+  let value = valueInput ? String(valueInput.value || "").trim() : "";
+
+  if(!type && !value){
+    setFieldError(valueInput, "");
+    return {ok:true, type:"", value:""};
+  }
+
+  if(!["whatsapp", "instagram", "messenger"].includes(type)){
+    setFieldError(valueInput, "Vui lòng chọn loại liên hệ khác.");
+    return {ok:false, type:"", value:""};
+  }
+
+  if(!value){
+    setFieldError(valueInput, "Vui lòng nhập thông tin liên hệ.");
+    return {ok:false, type, value:""};
+  }
+
+  if(type === "whatsapp"){
+    const phoneCheck = validateVietnamPhone(
+      valueInput,
+      {required:true, label:"WhatsApp"}
+    );
+    return {
+      ok: phoneCheck.ok,
+      type,
+      value: phoneCheck.phone
+    };
+  }
+
+  if(type === "instagram"){
+    value = value
+      .replace(/^https?:\/\/(?:www\.)?instagram\.com\//i, "")
+      .split("?")[0]
+      .split("#")[0]
+      .replace(/^@/, "")
+      .replace(/^\/+|\/+$/g, "")
+      .trim();
+
+    if(!/^[A-Za-z0-9._]{1,30}$/.test(value)){
+      setFieldError(valueInput, "Instagram chưa hợp lệ. Ví dụ: @username");
+      return {ok:false, type, value:""};
+    }
+
+    value = "@" + value;
+    valueInput.value = value;
+  }
+
+  setFieldError(valueInput, "");
+  return {ok:true, type, value};
 }
 
 function validateBirthday(input){
@@ -792,11 +883,15 @@ async function phoneExistsInMemberIndex(phone){
   const dict = {
     vi: {
       title: "Nhập thông tin thanh toán",
-      intro: "Bạn chỉ cần nhập thông tin một lần. Những lần thanh toán sau, Lan Pink Tattoo có thể tra cứu bằng số điện thoại/Zalo để hỗ trợ nhanh hơn.",
+      intro: "Bạn chỉ cần nhập thông tin một lần. Hãy để lại ít nhất một cách liên hệ để Lan Pink hỗ trợ thanh toán, hóa đơn và quyền lợi Member.",
       fullName: "Họ tên",
       birthday: "Ngày sinh để nhận voucher sinh nhật",
       email: "Email",
-      phone: "Số điện thoại/Zalo nhận hoá đơn thanh toán",
+      phone: "Số điện thoại / Zalo",
+      alternateType: "Liên hệ khác",
+      alternateNone: "Không dùng",
+      alternateValue: "Thông tin liên hệ",
+      alternatePlaceholder: "@username, m.me/username hoặc +49123456789",
       sourceTitle: "Bạn biết đến Lan Pink Tattoo qua đâu?",
       sourceHelp: "Chọn một nguồn phù hợp nhất.",
       sourceUnclassified: "Chưa phân loại",
@@ -819,11 +914,15 @@ async function phoneExistsInMemberIndex(phone){
     },
     en: {
       title: "Payment Information",
-      intro: "You only need to enter your information once. For future payments, Lan Pink Tattoo can look it up by phone/Zalo to support you faster.",
+      intro: "You only need to enter your information once. Please leave at least one contact method so Lan Pink can support payment, invoices and Member benefits.",
       fullName: "Full name",
       birthday: "Birthday for birthday voucher",
       email: "Email",
-      phone: "Phone/Zalo number for payment invoice",
+      phone: "Phone / Zalo",
+      alternateType: "Other contact",
+      alternateNone: "None",
+      alternateValue: "Contact details",
+      alternatePlaceholder: "@username, m.me/username or +49123456789",
       sourceTitle: "How did you hear about Lan Pink Tattoo?",
       sourceHelp: "Choose the option that fits best.",
       sourceUnclassified: "Not classified",
@@ -881,8 +980,29 @@ async function phoneExistsInMemberIndex(phone){
   setLang(detectLang());
 
   setupBirthdayLimit();
-  setupPhoneNormalize(document.getElementById("phone_zalo"), {required:true, label:"Số điện thoại/Zalo"});
+  setupPhoneNormalize(document.getElementById("phone_zalo"), {required:false, label:"Số điện thoại/Zalo"});
   setupPhoneNormalize(document.getElementById("referral_phone"), {required:false, label:"Số điện thoại người giới thiệu"});
+
+  const alternateTypeInput = document.getElementById("alternate_contact_type");
+  const alternateValueInput = document.getElementById("alternate_contact_value");
+  const alternateField = document.getElementById("lpAlternateContactField");
+
+  function refreshAlternateContact(){
+    const type = alternateTypeInput ? String(alternateTypeInput.value || "") : "";
+    if(alternateField) alternateField.classList.toggle("lp-hidden", !type);
+    if(alternateValueInput){
+      alternateValueInput.required = !!type;
+      if(!type){
+        alternateValueInput.value = "";
+        setFieldError(alternateValueInput, "");
+      }
+    }
+  }
+
+  if(alternateTypeInput){
+    alternateTypeInput.addEventListener("change", refreshAlternateContact);
+  }
+  refreshAlternateContact();
 
   function setupSourceFields(){
     const radios = document.querySelectorAll('input[name="customer_source"]');
@@ -925,17 +1045,27 @@ async function phoneExistsInMemberIndex(phone){
 
       const payload = Object.fromEntries(new FormData(form).entries());
       const birthdayOk = validateBirthday(document.getElementById("birthday"));
-      const phoneCheck = validateVietnamPhone(document.getElementById("phone_zalo"), {required:true, label:"Số điện thoại/Zalo"});
+      const phoneCheck = validateVietnamPhone(document.getElementById("phone_zalo"), {required:false, label:"Số điện thoại/Zalo"});
+      const alternateCheck = validateAlternateContact();
       const selectedSource = payload.customer_source || "";
       const referralRequired = selectedSource === "referral";
       const referralCheck = validateVietnamPhone(document.getElementById("referral_phone"), {required:referralRequired, label:"Số điện thoại người giới thiệu"});
+      const cleanEmail = String(payload.email || "").trim();
 
-      if(!birthdayOk || !phoneCheck.ok || !referralCheck.ok){
-        msg.textContent = "Vui lòng kiểm tra lại ngày sinh và số điện thoại trước khi gửi.";
+      if(!birthdayOk || !phoneCheck.ok || !alternateCheck.ok || !referralCheck.ok){
+        msg.textContent = "Vui lòng kiểm tra lại thông tin trước khi gửi.";
+        return;
+      }
+
+      if(!phoneCheck.phone && !cleanEmail && !alternateCheck.value){
+        msg.textContent = "Vui lòng nhập ít nhất một cách liên hệ: SĐT, Email, WhatsApp, Instagram hoặc Messenger.";
         return;
       }
 
       payload.phone_zalo = phoneCheck.phone;
+      payload.email = cleanEmail;
+      payload.alternate_contact_type = alternateCheck.type;
+      payload.alternate_contact_value = alternateCheck.value;
       payload.referral_phone = referralCheck.phone;
       payload.other_source = selectedSource === "other" ? String(payload.other_source || "").trim() : "";
 
@@ -966,10 +1096,13 @@ async function phoneExistsInMemberIndex(phone){
           return;
         }
 
-        const existedPhone = await phoneExistsInMemberIndex(payload.phone_zalo);
+        const existedPhone = payload.phone_zalo
+          ? await phoneExistsInMemberIndex(payload.phone_zalo)
+          : false;
 
         form.reset();
         setupSourceFields();
+        refreshAlternateContact();
 
         var modal = document.getElementById("lpPaymentSuccessModal");
         var modalTitle = modal ? modal.querySelector("h3") : null;
@@ -977,8 +1110,8 @@ async function phoneExistsInMemberIndex(phone){
 
         if(existedPhone){
           msg.textContent = "Số điện thoại này đã có hồ sơ Lan Pink Member.";
-          if(modalTitle) modalTitle.textContent = "Số điện thoại đã có trong hệ thống";
-          if(modalText) modalText.textContent = "Lan Pink đã tìm thấy hồ sơ member theo số điện thoại/Zalo này. Khi đến tiệm, bạn chỉ cần đọc số điện thoại để studio tra cứu hồ sơ cũ.";
+          if(modalTitle) modalTitle.textContent = "Lan Pink đã có hồ sơ của bạn";
+          if(modalText) modalText.textContent = "Studio đã nhận thông tin. Hồ sơ cũ sẽ được đối chiếu khi thanh toán để tránh tạo Member trùng.";
         }else{
           msg.textContent = "Đã nhận thông tin. Cảm ơn bạn!";
           if(modalTitle) modalTitle.textContent = "Lan Pink đã nhận thông tin";

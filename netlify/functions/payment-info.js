@@ -17,6 +17,29 @@ function cleanPhone(value) {
   return String(value || "").replace(/[^\d+]/g, "").trim();
 }
 
+function cleanAlternateContact(typeValue, rawValue) {
+  const type = String(typeValue || "").trim().toLowerCase();
+  const allowed = new Set(["whatsapp", "instagram", "messenger"]);
+  let value = String(rawValue || "").trim().slice(0, 160);
+
+  if (!type && !value) {
+    return { type: "", value: "", valid: true };
+  }
+
+  if (!allowed.has(type) || !value) {
+    return { type: "", value: "", valid: false };
+  }
+
+  if (type === "whatsapp") {
+    value = cleanPhone(value);
+    if (!value) {
+      return { type: "", value: "", valid: false };
+    }
+  }
+
+  return { type, value, valid: true };
+}
+
 exports.handler = async function(event) {
   if (event.httpMethod === "OPTIONS") return json(200, { ok: true });
 
@@ -35,6 +58,15 @@ exports.handler = async function(event) {
       return json(400, { ok: false, error: "Invalid JSON" });
     }
 
+    const alternate = cleanAlternateContact(
+      data.alternate_contact_type,
+      data.alternate_contact_value
+    );
+
+    if (!alternate.valid) {
+      return json(400, { ok: false, error: "Invalid alternate contact" });
+    }
+
     const lead = {
       id: "lead_" + Date.now() + "_" + Math.random().toString(36).slice(2, 8),
       created_at: new Date().toISOString(),
@@ -42,12 +74,20 @@ exports.handler = async function(event) {
       birthday: String(data.birthday || "").trim(),
       email: String(data.email || "").trim(),
       phone_zalo: cleanPhone(data.phone_zalo),
+      alternate_contact_type: alternate.type,
+      alternate_contact_value: alternate.value,
       referral_phone: cleanPhone(data.referral_phone),
       language: String(data.language || "vi").startsWith("en") ? "en" : "vi"
     };
 
-    if (!lead.full_name || !lead.phone_zalo) {
-      return json(400, { ok: false, error: "Missing name or phone" });
+    const hasContact = Boolean(
+      lead.phone_zalo
+      || lead.email
+      || lead.alternate_contact_value
+    );
+
+    if (!lead.full_name || !hasContact) {
+      return json(400, { ok: false, error: "Missing name or contact" });
     }
 
     const old = (await store.get(key, { type: "json" })) || [];
