@@ -138,27 +138,3 @@ Tác phẩm được thực hiện tại **Lan Pink Tattoo (Lan Pink Ink)**, pri
 Nếu bạn đang tìm **thợ xăm nữ Quận 12** và thích những thiết kế cần xử lý nhiều mảng sáng tối như hình Phật, tượng hoặc tả chất liệu, bạn có thể gửi mẫu tham khảo cùng ảnh vị trí muốn xăm để Lan Pink xem trước tỷ lệ và hướng bố cục phù hợp.
 
 Bạn cũng có thể xem [FAQ xăm hình](/faq/) nếu muốn tìm hiểu thêm về quá trình xăm, chăm sóc và hồi phục, hoặc đọc [chính sách dịch vụ của Lan Pink Tattoo](/chinh-sach/) trước khi đặt lịch.
-
----
-
-=== FACEBOOK CAPTION ===
-
-Một hình Phật tả đá không chỉ cần những đường nứt để tạo cảm giác của tượng. Phần sáng tối, độ sâu của khuôn mặt và cách bố cục chạy theo cánh tay mới là những yếu tố giúp tổng thể có chiều sâu.
-
-Ở tác phẩm này, Lan Pink kết hợp gương mặt Phật, thủ ấn, biểu tượng Om và hoa sen thành một bố cục chạy dọc bắp tay. 🪷
-
-A stone-texture Buddha tattoo needs more than cracks to create the feeling of a sculpture. Light, shadow, facial depth and the way the composition follows the arm all contribute to the final result.
-
-For this piece, Lan Pink combined the Buddha face, mudra, Om symbol and lotus into one continuous upper-arm composition.
-
-=== COMMENT TẦNG 1 ===
-
-Chữ Om và bàn tay bắt ấn trong hình Phật có ý nghĩa gì, và tại sao những chi tiết này lại được đặt cùng nhau?
-
-Trong bài Lan Pink chia sẻ kỹ hơn về chính tác phẩm này: từ cách tả bề mặt đá, bố cục trên bắp tay đến ý nghĩa của thủ ấn, biểu tượng Om và hoa sen.
-
-[DÁN URL CHÍNH THỨC CỦA BÀI TẠI ĐÂY]
-
-=== REPLY COMMENT ===
-
-Với hình Phật hoặc tượng có nhiều chi tiết, tỷ lệ trên cánh tay quan trọng không kém bản thân mẫu xăm. Nếu bạn có mẫu đang tham khảo, có thể gửi kèm ảnh vị trí muốn xăm để Lan Pink xem cách bố trí phù hợp hơn.
