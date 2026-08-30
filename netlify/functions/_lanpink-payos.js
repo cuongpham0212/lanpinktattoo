@@ -95,6 +95,192 @@ function paymentKey(orderCode) {
   return `payment-intents/${orderCode}.json`;
 }
 
+
+const PAYMENT_STATUSES = new Set([
+  "CREATING",
+  "PENDING",
+  "PAID",
+  "CANCELLED",
+  "EXPIRED",
+  "CREATE_FAILED",
+]);
+
+
+function clientRequestKey(clientRequestId) {
+  const value =
+    cleanString(
+      clientRequestId,
+      160
+    );
+
+  if (!value) {
+    return "";
+  }
+
+  const digest =
+    crypto
+      .createHash("sha256")
+      .update(value)
+      .digest("hex");
+
+  return (
+    `payment-client-requests/${digest}.json`
+  );
+}
+
+
+function paymentInputSnapshot(input) {
+  return {
+    amount:
+      cleanAmount(
+        input.amount
+      ),
+
+    memberId:
+      cleanString(
+        input.memberId,
+        120
+      ),
+
+    memberCode:
+      cleanString(
+        input.memberCode,
+        80
+      ),
+
+    bookingId:
+      cleanString(
+        input.bookingId,
+        120
+      ),
+
+    invoiceDraftId:
+      cleanString(
+        input.invoiceDraftId,
+        120
+      ),
+
+    paymentMethod:
+      cleanString(
+        input.paymentMethod,
+        40
+      ),
+
+    cashAmount:
+      cleanNonNegativeAmount(
+        input.cashAmount
+      ),
+
+    bankTransferAmount:
+      cleanNonNegativeAmount(
+        input.bankTransferAmount
+      ),
+  };
+}
+
+
+function paymentInputFingerprint(input) {
+  const payload =
+    JSON.stringify(
+      paymentInputSnapshot(input)
+    );
+
+  return crypto
+    .createHash("sha256")
+    .update(payload)
+    .digest("hex");
+}
+
+
+function normalizePaymentStatus(
+  value,
+  fallback = "PENDING"
+) {
+  const status =
+    cleanString(
+      value,
+      40
+    ).toUpperCase();
+
+  if (PAYMENT_STATUSES.has(status)) {
+    return status;
+  }
+
+  const fallbackStatus =
+    cleanString(
+      fallback,
+      40
+    ).toUpperCase();
+
+  if (
+    PAYMENT_STATUSES.has(
+      fallbackStatus
+    )
+  ) {
+    return fallbackStatus;
+  }
+
+  return "PENDING";
+}
+
+
+function canTransitionPaymentStatus(
+  fromValue,
+  toValue
+) {
+  const from =
+    normalizePaymentStatus(
+      fromValue,
+      "CREATING"
+    );
+
+  const to =
+    normalizePaymentStatus(
+      toValue,
+      from
+    );
+
+  if (from === to) {
+    return true;
+  }
+
+  /*
+   * PAID is final.
+   *
+   * CANCELLED / EXPIRED are also closed states.
+   * A closed QR must not later be re-used by Member.
+   */
+  if (
+    from === "PAID"
+    || from === "CANCELLED"
+    || from === "EXPIRED"
+    || from === "CREATE_FAILED"
+  ) {
+    return false;
+  }
+
+  if (from === "CREATING") {
+    return [
+      "PENDING",
+      "PAID",
+      "CANCELLED",
+      "EXPIRED",
+      "CREATE_FAILED",
+    ].includes(to);
+  }
+
+  if (from === "PENDING") {
+    return [
+      "PAID",
+      "CANCELLED",
+      "EXPIRED",
+      "CREATE_FAILED",
+    ].includes(to);
+  }
+
+  return false;
+}
+
 function getPaymentStore() {
   const options = {
     name: PAYMENT_STORE_NAME,
@@ -234,86 +420,261 @@ async function writePaymentIntent(
   return intent;
 }
 
+function buildPaymentIntent(
+  orderCode,
+  input
+) {
+  const now =
+    new Date().toISOString();
+
+  const snapshot =
+    paymentInputSnapshot(
+      input
+    );
+
+  const clientRequestId =
+    cleanString(
+      input.clientRequestId,
+      160
+    );
+
+  return {
+    version: 2,
+
+    paymentId:
+      `lp_${orderCode}`,
+
+    provider: "payos",
+
+    orderCode,
+    status: "CREATING",
+
+    amount:
+      snapshot.amount,
+
+    memberId:
+      snapshot.memberId,
+
+    memberCode:
+      snapshot.memberCode,
+
+    bookingId:
+      snapshot.bookingId,
+
+    invoiceDraftId:
+      snapshot.invoiceDraftId,
+
+    paymentMethod:
+      snapshot.paymentMethod,
+
+    cashAmount:
+      snapshot.cashAmount,
+
+    bankTransferAmount:
+      snapshot.bankTransferAmount,
+
+    clientRequestId,
+
+    clientRequestFingerprint:
+      paymentInputFingerprint(
+        input
+      ),
+
+    source:
+      cleanString(
+        input.source
+        || "lanpink-member",
+        80
+      ),
+
+    createdAt: now,
+    updatedAt: now,
+
+    paidAt: null,
+    cancelledAt: null,
+    expiredAt: null,
+
+    paymentLinkId: "",
+    checkoutUrl: "",
+    qrCode: "",
+
+    providerReference: "",
+    providerTransactionDateTime: "",
+  };
+}
+
+
+/*
+ * CREATE IDEMPOTENCY
+ *
+ * One clientRequestId owns one orderCode.
+ *
+ * Two concurrent callers may race, but only the caller
+ * which successfully creates paymentKey(orderCode)
+ * receives created=true and is therefore allowed to
+ * call payOS.paymentRequests.create().
+ */
 async function reservePaymentIntent(
   store,
   input
 ) {
-  for (
-    let attempt = 0;
-    attempt < 12;
-    attempt += 1
-  ) {
-    const orderCode = makeOrderCode();
-    const now = new Date().toISOString();
+  const clientRequestId =
+    cleanString(
+      input.clientRequestId,
+      160
+    );
 
-    const intent = {
-      version: 1,
+  if (!clientRequestId) {
+    const error =
+      new Error(
+        "clientRequestId is required"
+      );
 
-      paymentId: `lp_${orderCode}`,
-      provider: "payos",
+    error.statusCode = 400;
+    error.code =
+      "CLIENT_REQUEST_ID_REQUIRED";
 
-      orderCode,
-      status: "CREATING",
+    throw error;
+  }
 
-      amount: input.amount,
+  const requestKey =
+    clientRequestKey(
+      clientRequestId
+    );
 
-      memberId:
-        cleanString(input.memberId, 120),
+  const fingerprint =
+    paymentInputFingerprint(
+      input
+    );
 
-      memberCode:
-        cleanString(input.memberCode, 80),
+  const proposedOrderCode =
+    makeOrderCode();
 
-      bookingId:
-        cleanString(input.bookingId, 120),
+  const requestRecord = {
+    version: 1,
 
-      invoiceDraftId:
-        cleanString(
-          input.invoiceDraftId,
-          120
-        ),
+    orderCode:
+      proposedOrderCode,
 
-      paymentMethod:
-        cleanString(
-          input.paymentMethod,
-          40
-        ),
+    fingerprint,
 
-      cashAmount:
-        cleanNonNegativeAmount(
-          input.cashAmount
-        ),
+    createdAt:
+      new Date().toISOString(),
+  };
 
-      bankTransferAmount:
-        cleanNonNegativeAmount(
-          input.bankTransferAmount
-        ),
+  const requestResult =
+    await store.setJSON(
+      requestKey,
+      requestRecord,
+      {
+        onlyIfNew: true,
+      }
+    );
 
-      clientRequestId:
-        cleanString(
-          input.clientRequestId,
-          160
-        ),
+  const requestWasCreated = (
+    !requestResult
+    || requestResult.modified !== false
+  );
 
-      source:
-        cleanString(
-          input.source || "lanpink-member",
-          80
-        ),
+  let ownerRecord =
+    requestRecord;
 
-      createdAt: now,
-      updatedAt: now,
+  if (!requestWasCreated) {
+    ownerRecord =
+      await store.get(
+        requestKey,
+        {
+          type: "json",
+        }
+      );
 
-      paidAt: null,
+    if (!ownerRecord) {
+      const error =
+        new Error(
+          "Idempotency reservation unavailable"
+        );
 
-      paymentLinkId: "",
-      checkoutUrl: "",
-      qrCode: "",
+      error.statusCode = 503;
+      error.code =
+        "IDEMPOTENCY_RESERVATION_UNAVAILABLE";
 
-      providerReference: "",
-      providerTransactionDateTime: "",
+      throw error;
+    }
+
+    if (
+      cleanString(
+        ownerRecord.fingerprint,
+        200
+      )
+      !== fingerprint
+    ) {
+      const error =
+        new Error(
+          "clientRequestId was already used "
+          + "for different payment data"
+        );
+
+      error.statusCode = 409;
+      error.code =
+        "IDEMPOTENCY_CONFLICT";
+
+      throw error;
+    }
+  }
+
+  const orderCode =
+    normalizeOrderCode(
+      ownerRecord.orderCode
+    );
+
+  if (!orderCode) {
+    const error =
+      new Error(
+        "Invalid idempotency orderCode"
+      );
+
+    error.statusCode = 500;
+    error.code =
+      "IDEMPOTENCY_ORDER_CODE_INVALID";
+
+    throw error;
+  }
+
+  /*
+   * Fast path:
+   * an earlier request already owns/created the intent.
+   */
+  const existing =
+    await loadPaymentIntent(
+      store,
+      orderCode
+    );
+
+  if (existing) {
+    return {
+      intent: existing,
+      created: false,
+      idempotent: true,
     };
+  }
 
-    const result = await store.setJSON(
+  /*
+   * The idempotency record can exist before the PaymentIntent.
+   *
+   * This second onlyIfNew is the provider-call ownership lock.
+   * Only its winner may contact payOS.
+   */
+  const intent =
+    buildPaymentIntent(
+      orderCode,
+      {
+        ...input,
+        clientRequestId,
+      }
+    );
+
+  const paymentResult =
+    await store.setJSON(
       paymentKey(orderCode),
       intent,
       {
@@ -321,27 +682,46 @@ async function reservePaymentIntent(
       }
     );
 
-    /*
-     * Netlify Blobs returns modified=false when
-     * onlyIfNew prevented an overwrite.
-     */
-    if (
-      !result
-      || result.modified !== false
-    ) {
-      return intent;
-    }
-  }
-
-  const error = new Error(
-    "Could not reserve unique orderCode"
+  const paymentWasCreated = (
+    !paymentResult
+    || paymentResult.modified !== false
   );
 
-  error.statusCode = 503;
-  error.code = "ORDER_CODE_RESERVATION_FAILED";
+  if (paymentWasCreated) {
+    return {
+      intent,
+      created: true,
+      idempotent:
+        !requestWasCreated,
+    };
+  }
 
-  throw error;
+  const racedIntent =
+    await loadPaymentIntent(
+      store,
+      orderCode
+    );
+
+  if (!racedIntent) {
+    const error =
+      new Error(
+        "PaymentIntent reservation unavailable"
+      );
+
+    error.statusCode = 503;
+    error.code =
+      "PAYMENT_RESERVATION_UNAVAILABLE";
+
+    throw error;
+  }
+
+  return {
+    intent: racedIntent,
+    created: false,
+    idempotent: true,
+  };
 }
+
 
 function publicPaymentIntent(intent) {
   if (!intent) {
@@ -353,7 +733,11 @@ function publicPaymentIntent(intent) {
     provider: intent.provider,
     orderCode: intent.orderCode,
     amount: intent.amount,
-    status: intent.status,
+    status:
+      normalizePaymentStatus(
+        intent.status,
+        "PENDING"
+      ),
 
     memberId: intent.memberId || "",
     memberCode: intent.memberCode || "",
@@ -372,6 +756,9 @@ function publicPaymentIntent(intent) {
         intent.bankTransferAmount || 0
       ),
 
+    clientRequestId:
+      intent.clientRequestId || "",
+
     paymentLinkId:
       intent.paymentLinkId || "",
 
@@ -389,6 +776,12 @@ function publicPaymentIntent(intent) {
 
     paidAt:
       intent.paidAt || "",
+
+    cancelledAt:
+      intent.cancelledAt || "",
+
+    expiredAt:
+      intent.expiredAt || "",
   };
 }
 
@@ -423,6 +816,11 @@ module.exports = {
   cleanAmount,
   cleanNonNegativeAmount,
   normalizeOrderCode,
+
+  clientRequestKey,
+  paymentInputFingerprint,
+  normalizePaymentStatus,
+  canTransitionPaymentStatus,
 
   getPaymentStore,
   getPayOS,

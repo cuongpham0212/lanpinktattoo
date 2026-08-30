@@ -4,6 +4,7 @@ const {
   json,
   cleanAmount,
   cleanString,
+  normalizePaymentStatus,
 
   getPaymentStore,
   getPayOS,
@@ -91,9 +92,10 @@ async function(event) {
     getPaymentStore();
 
   let intent = null;
+  let reservation = null;
 
   try {
-    intent =
+    reservation =
       await reservePaymentIntent(
         store,
         {
@@ -135,6 +137,26 @@ async function(event) {
             || "lanpink-member",
         }
       );
+
+    intent =
+      reservation.intent;
+
+    /*
+     * IMPORTANT:
+     * Duplicate/retried clientRequestId stops here.
+     *
+     * Only reservation.created=true may call payOS.
+     */
+    if (!reservation.created) {
+      return json(200, {
+        ok: true,
+        idempotent: true,
+        payment:
+          publicPaymentIntent(
+            intent
+          ),
+      });
+    }
 
     const payOS = getPayOS();
 
@@ -181,10 +203,10 @@ async function(event) {
       ...intent,
 
       status:
-        String(
-          payment.status
-          || "PENDING"
-        ).toUpperCase(),
+        normalizePaymentStatus(
+          payment.status,
+          "PENDING"
+        ),
 
       paymentLinkId:
         cleanString(
@@ -240,6 +262,7 @@ async function(event) {
 
     return json(200, {
       ok: true,
+      idempotent: false,
       payment:
         publicPaymentIntent(
           intent
@@ -250,7 +273,10 @@ async function(event) {
      * Nếu đã reserve intent nhưng payOS lỗi,
      * giữ record để debug, không biến nó thành PAID.
      */
-    if (intent) {
+    if (
+      intent
+      && reservation?.created
+    ) {
       try {
         await writePaymentIntent(
           store,

@@ -5,6 +5,7 @@ const {
   cleanString,
   cleanAmount,
   normalizeOrderCode,
+  normalizePaymentStatus,
 
   getPaymentStore,
   getPayOS,
@@ -213,18 +214,37 @@ async function(event) {
   }
 
   /*
-   * IDEMPOTENCY:
-   * webhook gửi lại cho payment đã PAID
-   * không tạo lần thanh toán thứ hai.
+   * WEBHOOK LIFECYCLE IDEMPOTENCY
    */
-  if (
-    String(intent.status)
-      .toUpperCase()
-    === "PAID"
-  ) {
+  const currentStatus =
+    normalizePaymentStatus(
+      intent.status,
+      "PENDING"
+    );
+
+  if (currentStatus === "PAID") {
     return json(200, {
       ok: true,
       duplicate: true,
+      orderCode,
+    });
+  }
+
+  /*
+   * A provider-confirmed closed QR must not later
+   * mutate into PAID through a stale webhook.
+   */
+  if (
+    currentStatus === "CANCELLED"
+    || currentStatus === "EXPIRED"
+  ) {
+    return json(200, {
+      ok: true,
+      accepted: false,
+      reason:
+        "payment_already_closed",
+      status:
+        currentStatus,
       orderCode,
     });
   }
