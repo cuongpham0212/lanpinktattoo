@@ -75,3 +75,6 @@ public/admin-booking/
 content/admin-booking/
 content/vi/admin-booking/
 content/en/admin-booking/
+
+# Local Netlify folder
+.netlify
