@@ -7,6 +7,11 @@ const {
   getBankEventStore,
 } = require("./_lanpink-bank-feed");
 
+const {
+  getBankResolutionStore,
+  listResolvedBankEventIds,
+} = require("./_lanpink-bank-resolution");
+
 function json(statusCode, body) {
   return {
     statusCode,
@@ -185,6 +190,14 @@ async function(event) {
     const store =
       getBankEventStore();
 
+    const resolutionStore =
+      getBankResolutionStore();
+
+    const resolvedIds =
+      await listResolvedBankEventIds(
+        resolutionStore
+      );
+
     const listed =
       await store.list({
         prefix:
@@ -214,6 +227,9 @@ async function(event) {
           !== "VERIFIED"
         || bankEvent.matchStatus
           !== "UNMATCHED"
+        || resolvedIds.has(
+          bankEvent.bankEventId
+        )
       ) {
         continue;
       }
