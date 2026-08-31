@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31 01:40:27",
+  "updated_at": "2026-09-01 02:22:05",
   "total_members": 1,
   "members": [
     {
@@ -7,14 +7,14 @@
       "name": "test",
       "masked_phone": "090****485",
       "membership_level": "Member",
-      "total_spent": 0,
-      "total_spent_display": "0đ",
+      "total_spent": 10000,
+      "total_spent_display": "10.000đ",
       "available_points": "0",
       "lifetime_points": "0",
       "unused_vouchers": 0,
       "unused_voucher_value": "0đ",
       "referral_count": 0,
-      "updated_at": "2026-08-31 01:40:27"
+      "updated_at": "2026-09-01 02:22:05"
     }
   ]
 }
