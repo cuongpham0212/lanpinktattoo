@@ -286,6 +286,26 @@ function normalizeSePayIncoming(
     };
   }
 
+  /*
+   * SePay Dashboard "Gửi thử" uses a mock payload.
+   * Its transaction id is commonly 0.
+   *
+   * HMAC has already been verified by the webhook
+   * handler, so acknowledge this provider test
+   * without creating a real BankEvent/SpeakerEvent.
+   */
+  if (
+    String(payload.id ?? "").trim()
+    === "0"
+  ) {
+    return {
+      ok: true,
+      ignored: true,
+      reason:
+        "sepay_dashboard_test_payload",
+    };
+  }
+
   const transferType =
     cleanString(
       payload.transferType,
