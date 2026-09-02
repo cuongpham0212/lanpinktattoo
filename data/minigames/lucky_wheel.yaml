@@ -20,8 +20,6 @@ vi:
   spin_duration_ms: 4600
   result_hold_ms: 2400
 
-  dev_note: "Bản thử giao diện – hệ thống hóa đơn và giới hạn lượt quay sẽ được kết nối ở bước tiếp theo."
-
   prizes:
     - id: "giai-1"
       label: "Giải 1"
@@ -71,8 +69,6 @@ en:
 
   spin_duration_ms: 4600
   result_hold_ms: 2400
-
-  dev_note: "Preview version – invoice-based spin limits will be connected in the next step."
 
   prizes:
     - id: "giai-1"

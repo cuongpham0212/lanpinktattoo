@@ -634,3 +634,14 @@ html[data-theme="dark"] .lp-lucky-page {
     linear-gradient(180deg,#321d2b 0%,#261823 48%,#1d141b 100%);
 }
 /* LP_MINIGAME_TOKENS_END */
+
+
+/* LANPINK_GUEST_DEMO_MODAL_COLORS */
+.lp-lucky-guest-dialog {
+  --lp-lucky-guest-bg: #241a20;
+  --lp-lucky-guest-text: #fff5fa;
+  --lp-lucky-guest-muted: #d8c5cf;
+  --lp-lucky-guest-border: rgba(255, 255, 255, 0.14);
+  --lp-lucky-guest-backdrop: rgba(0, 0, 0, 0.74);
+  --lp-lucky-guest-shadow: rgba(0, 0, 0, 0.5);
+}

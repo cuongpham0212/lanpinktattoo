@@ -124,6 +124,105 @@
     },
   }[lang];
 
+  // LANPINK_GUEST_DEMO_V1
+  const guestCopy = {
+    vi: {
+      ready:
+        "LƯỢT QUAY TRẢI NGHIỆM • Bạn có 2 lượt quay thử",
+
+      oneLeft:
+        "Bạn đã quay thử 1/2 lượt • Còn 1 lượt trải nghiệm",
+
+      finished:
+        "Bạn đã dùng 2/2 lượt quay thử • Đặt lịch để nhận lượt quay chính thức",
+
+      spinButton:
+        "QUAY THỬ",
+
+      ctaButton:
+        "NHẬN LƯỢT QUAY CHÍNH THỨC",
+
+      resultPrefix:
+        "Bạn vừa quay thử vào",
+
+      eyebrow:
+        "VÒNG QUAY TRẢI NGHIỆM",
+
+      modalTitle:
+        "Muốn quay thật và nhận quà tại tiệm?",
+
+      modalBody:
+        "Hai lượt vừa rồi là lượt trải nghiệm nên chưa phát sinh quà nhận tại tiệm.",
+
+      modalRule:
+        "Xăm tại Lan Pink Tattoo với hóa đơn thanh toán từ 500.000đ để nhận lượt quay chính thức. Mỗi 500.000đ = 1 lượt quay, làm tròn xuống. 100% lượt quay chính thức đều có quà và nhận quà ngay tại tiệm.",
+
+      cta:
+        "ĐẶT LỊCH XĂM & NHẬN LƯỢT QUAY",
+
+      later:
+        "Để sau",
+
+      close:
+        "Đóng",
+
+      ctaHref:
+        "/dat-lich/",
+    },
+
+    en: {
+      ready:
+        "DEMO SPINS • You have 2 trial spins",
+
+      oneLeft:
+        "You used 1/2 trial spins • 1 demo spin left",
+
+      finished:
+        "You used 2/2 trial spins • Book to unlock official spins",
+
+      spinButton:
+        "TRY A SPIN",
+
+      ctaButton:
+        "GET OFFICIAL SPINS",
+
+      resultPrefix:
+        "Your demo spin landed on",
+
+      eyebrow:
+        "LUCKY WHEEL DEMO",
+
+      modalTitle:
+        "Want to spin for real and receive a gift?",
+
+      modalBody:
+        "These two spins are for demonstration only and do not grant a physical prize.",
+
+      modalRule:
+        "Get tattooed at Lan Pink Tattoo and pay at least VND 500,000 to receive official spins. Every VND 500,000 paid gives 1 spin, rounded down. Every official spin wins a gift collected at the studio.",
+
+      cta:
+        "BOOK A TATTOO & GET SPINS",
+
+      later:
+        "Maybe later",
+
+      close:
+        "Close",
+
+      ctaHref:
+        "/en/booking/",
+    },
+  }[lang];
+
+  const GUEST_DEMO_LIMIT = 2;
+
+  const GUEST_DEMO_STORAGE_KEY =
+    "lp-lucky-guest-demo:"
+    + "womens-day-2026-10-20:"
+    + "v1";
+
+
   const params =
     new URLSearchParams(
       window.location.search
@@ -169,6 +268,20 @@
       demoAmount
     )
     && demoAmount > 0;
+
+  const hasSignedAccess =
+    Boolean(
+      access.campaign
+      && access.invoice
+      && access.amount
+      && access.spins
+      && access.sig
+    );
+
+  const guestDemo =
+    !localDemo
+    && !hasSignedAccess;
+
 
   const accessMessage =
     document.getElementById(
@@ -216,6 +329,74 @@
     "lpLuckyRemainingLabel"
   ).textContent =
     copy.remaining;
+
+  const guestDialog =
+    document.getElementById(
+      "lpLuckyGuestDialog"
+    );
+
+  const guestClose =
+    document.getElementById(
+      "lpLuckyGuestClose"
+    );
+
+  const guestEyebrow =
+    document.getElementById(
+      "lpLuckyGuestEyebrow"
+    );
+
+  const guestTitle =
+    document.getElementById(
+      "lpLuckyGuestTitle"
+    );
+
+  const guestBody =
+    document.getElementById(
+      "lpLuckyGuestBody"
+    );
+
+  const guestRule =
+    document.getElementById(
+      "lpLuckyGuestRule"
+    );
+
+  const guestCta =
+    document.getElementById(
+      "lpLuckyGuestCta"
+    );
+
+  const guestLater =
+    document.getElementById(
+      "lpLuckyGuestLater"
+    );
+
+  guestClose.setAttribute(
+    "aria-label",
+    guestCopy.close
+  );
+
+  guestEyebrow.textContent =
+    guestCopy.eyebrow;
+
+  guestTitle.textContent =
+    guestCopy.modalTitle;
+
+  guestBody.textContent =
+    guestCopy.modalBody;
+
+  guestRule.textContent =
+    guestCopy.modalRule;
+
+  guestCta.textContent =
+    guestCopy.cta;
+
+  guestCta.href =
+    guestCopy.ctaHref;
+
+  guestLater.textContent =
+    guestCopy.later;
+
+
 
   const reduceMotion =
     window.matchMedia(
@@ -335,6 +516,157 @@
     );
   }
 
+  function readGuestDemoUsed() {
+    try {
+      const stored =
+        Number(
+          localStorage.getItem(
+            GUEST_DEMO_STORAGE_KEY
+          )
+        );
+
+      if (
+        Number.isSafeInteger(stored)
+      ) {
+        return Math.min(
+          GUEST_DEMO_LIMIT,
+          Math.max(
+            0,
+            stored
+          )
+        );
+      }
+    } catch (error) {
+      console.warn(
+        "[LanPink Lucky Wheel] Guest storage unavailable",
+        error
+      );
+    }
+
+    return 0;
+  }
+
+
+  function writeGuestDemoUsed(
+    used
+  ) {
+    try {
+      localStorage.setItem(
+        GUEST_DEMO_STORAGE_KEY,
+        String(
+          Math.min(
+            GUEST_DEMO_LIMIT,
+            Math.max(
+              0,
+              used
+            )
+          )
+        )
+      );
+    } catch (error) {
+      console.warn(
+        "[LanPink Lucky Wheel] Guest storage unavailable",
+        error
+      );
+    }
+  }
+
+
+  function closeGuestDialog() {
+    if (
+      typeof guestDialog.close
+      === "function"
+      && guestDialog.open
+    ) {
+      guestDialog.close();
+      return;
+    }
+
+    guestDialog.removeAttribute(
+      "open"
+    );
+  }
+
+
+  function openGuestDialog() {
+    if (!guestDemo) {
+      return;
+    }
+
+    if (
+      typeof guestDialog.showModal
+      === "function"
+    ) {
+      if (!guestDialog.open) {
+        guestDialog.showModal();
+      }
+
+      return;
+    }
+
+    guestDialog.setAttribute(
+      "open",
+      ""
+    );
+  }
+
+
+  guestClose.addEventListener(
+    "click",
+    closeGuestDialog
+  );
+
+  guestLater.addEventListener(
+    "click",
+    closeGuestDialog
+  );
+
+  guestDialog.addEventListener(
+    "click",
+    event => {
+      if (
+        event.target
+        === guestDialog
+      ) {
+        closeGuestDialog();
+      }
+    }
+  );
+
+
+  function renderGuestStatus() {
+    accessStats.hidden = true;
+
+    if (
+      state.remainingSpins <= 0
+    ) {
+      accessMessage.textContent =
+        guestCopy.finished;
+
+      button.disabled =
+        spinning;
+
+      button.textContent =
+        guestCopy.ctaButton;
+
+      return;
+    }
+
+    accessMessage.textContent =
+      state.usedSpins > 0
+        ? guestCopy.oneLeft
+        : guestCopy.ready;
+
+    button.disabled =
+      spinning;
+
+    button.textContent =
+      guestCopy.spinButton;
+  }
+
+
+
+
   function setUnavailable(
     message
   ) {
@@ -442,6 +774,34 @@
 
       return;
     }
+
+      if (guestDemo) {
+        const used =
+          readGuestDemoUsed();
+
+        state = {
+          amount: 0,
+
+          totalSpins:
+            GUEST_DEMO_LIMIT,
+
+          usedSpins:
+            used,
+
+          remainingSpins:
+            Math.max(
+              0,
+              GUEST_DEMO_LIMIT
+              - used
+            ),
+        };
+
+        renderGuestStatus();
+
+        return;
+      }
+
+
 
     if (
       !access.campaign
@@ -555,7 +915,74 @@
   }
 
   async function requestSpin() {
-    if (localDemo) {
+    
+      if (guestDemo) {
+        const guestSpinNumber =
+          state.usedSpins + 1;
+
+        let prizeId =
+          "giai-1";
+
+        if (
+          guestSpinNumber >= 2
+        ) {
+          const weights = [
+            ["giai-2", 24],
+            ["giai-3", 25],
+            ["giai-4", 50],
+          ];
+
+          const totalWeight =
+            weights.reduce(
+              (total, item) =>
+                total + item[1],
+              0
+            );
+
+          let cursor =
+            Math.random()
+            * totalWeight;
+
+          prizeId =
+            "giai-4";
+
+          for (
+            const [
+              id,
+              weight
+            ]
+            of weights
+          ) {
+            cursor -= weight;
+
+            if (cursor < 0) {
+              prizeId = id;
+              break;
+            }
+          }
+        }
+
+        state.usedSpins =
+          Math.min(
+            GUEST_DEMO_LIMIT,
+            state.usedSpins + 1
+          );
+
+        state.remainingSpins =
+          Math.max(
+            0,
+            GUEST_DEMO_LIMIT
+            - state.usedSpins
+          );
+
+        writeGuestDemoUsed(
+          state.usedSpins
+        );
+
+        return prizeId;
+      }
+
+if (localDemo) {
       const weights = [
         ["giai-1", 1],
         ["giai-2", 24],
@@ -762,9 +1189,13 @@
     prize
   ) {
     result.textContent =
-      `${
-        config.result_prefix
-      } ${prize.label}`;
+        guestDemo
+          ? `${
+              guestCopy.resultPrefix
+            } ${prize.label}`
+          : `${
+              config.result_prefix
+            } ${prize.label}`;
 
     result.classList.add(
       "is-visible"
@@ -809,12 +1240,23 @@
   }
 
   async function spin() {
-    if (
-      spinning
-      || state.remainingSpins <= 0
-    ) {
-      return;
-    }
+    if (spinning) {
+        return;
+      }
+
+      if (
+        guestDemo
+        && state.remainingSpins <= 0
+      ) {
+        openGuestDialog();
+        return;
+      }
+
+      if (
+        state.remainingSpins <= 0
+      ) {
+        return;
+      }
 
     spinning = true;
 
@@ -844,15 +1286,29 @@
         () => {
           spinning = false;
 
-          renderStatus(
-            state.remainingSpins > 0
-              ? copy.ready
-              : copy.finished
-          );
+          if (guestDemo) {
+              renderGuestStatus();
+            } else {
+              renderStatus(
+                state.remainingSpins > 0
+                  ? copy.ready
+                  : copy.finished
+              );
+            }
 
-          showWinner(
-            prize
-          );
+            showWinner(
+              prize
+            );
+
+            if (
+              guestDemo
+              && state.remainingSpins <= 0
+            ) {
+              window.setTimeout(
+                openGuestDialog,
+                resultHold + 600
+              );
+            }
         },
         spinDuration + 80
       );
@@ -864,11 +1320,15 @@
         error
       );
 
-      renderStatus(
-        state.remainingSpins > 0
-          ? copy.error
-          : copy.finished
-      );
+      if (guestDemo) {
+        renderGuestStatus();
+      } else {
+        renderStatus(
+          state.remainingSpins > 0
+            ? copy.error
+            : copy.finished
+        );
+      }
     }
   }
 

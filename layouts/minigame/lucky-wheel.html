@@ -136,6 +136,60 @@
         aria-live="polite"
       ></div>
 
+        <dialog
+          id="lpLuckyGuestDialog"
+          class="lp-lucky-guest-dialog"
+          aria-labelledby="lpLuckyGuestTitle"
+        >
+          <div class="lp-lucky-guest-card">
+
+            <button
+              id="lpLuckyGuestClose"
+              class="lp-lucky-guest-close"
+              type="button"
+            >
+              ×
+            </button>
+
+            <p
+              id="lpLuckyGuestEyebrow"
+              class="lp-lucky-guest-eyebrow"
+            ></p>
+
+            <h2
+              id="lpLuckyGuestTitle"
+              class="lp-lucky-guest-title"
+            ></h2>
+
+            <p
+              id="lpLuckyGuestBody"
+              class="lp-lucky-guest-body"
+            ></p>
+
+            <p
+              id="lpLuckyGuestRule"
+              class="lp-lucky-guest-rule"
+            ></p>
+
+            <div class="lp-lucky-guest-actions">
+
+              <a
+                id="lpLuckyGuestCta"
+                class="lp-btn lp-btn-primary lp-lucky-guest-cta"
+                href="#"
+              ></a>
+
+              <button
+                id="lpLuckyGuestLater"
+                class="lp-lucky-guest-later"
+                type="button"
+              ></button>
+
+            </div>
+          </div>
+        </dialog>
+
+
 
       {{ with $game.dev_note }}
         <p class="lp-lucky-dev-note">
