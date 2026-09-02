@@ -1,0 +1,102 @@
+vi:
+  eyebrow: "20/10 • Mini Game Lan Pink"
+  subtitle: "100% trúng quà dành cho khách nữ"
+  intro: "Một món quà nhỏ Lan Pink dành tặng khách nữ nhân dịp Ngày Phụ nữ Việt Nam 20/10."
+
+  play_rule: "Cứ 500.000đ trên hóa đơn = 1 lượt quay. Số lượt được làm tròn xuống."
+  claim_rule: "Quay xong nhận quà ngay tại tiệm."
+  special_status: "Giải đặc biệt: chỉ có 1 nón bảo hiểm fullface màu hồng."
+
+  wheel_aria: "Vòng quay may mắn 20 tháng 10 Lan Pink"
+
+  spin_button: "QUAY NGAY"
+  spinning_text: "ĐANG QUAY..."
+  result_prefix: "Bạn đã trúng"
+
+  prizes_eyebrow: "Quà 20/10"
+  prizes_title: "Cơ cấu giải"
+  prizes_intro: "Mỗi lượt quay đều có quà. Sau khi vòng quay dừng, trang sẽ đưa bạn đến đúng phần quà vừa trúng."
+
+  spin_duration_ms: 4600
+  result_hold_ms: 2400
+
+  dev_note: "Bản thử giao diện – hệ thống hóa đơn và giới hạn lượt quay sẽ được kết nối ở bước tiếp theo."
+
+  prizes:
+    - id: "giai-1"
+      label: "Giải 1"
+      title: "Nón bảo hiểm fullface màu hồng"
+      description: "Giải đặc biệt 20/10 • Chỉ có 1 phần quà."
+      weight: 1
+      max_wins: 1
+      special: true
+
+    - id: "giai-2"
+      label: "Giải 2"
+      title: "Xà phòng Sinh Dược rửa tay"
+      description: "Quà chăm sóc cá nhân dành tặng khách nữ."
+      weight: 24
+
+    - id: "giai-3"
+      label: "Giải 3"
+      title: "Áo thun nữ form rộng"
+      description: "Áo thun nữ form rộng, dễ mặc và thoải mái."
+      weight: 25
+
+    - id: "giai-4"
+      label: "Giải 4"
+      title: "Đồ bộ nữ mặc nhà"
+      description: "Quà nền của chương trình 20/10."
+      weight: 50
+
+
+en:
+  eyebrow: "October 20 • Lan Pink Mini Game"
+  subtitle: "100% chance to win a gift"
+  intro: "A little Women's Day gift from Lan Pink Tattoo for our female tattoo clients."
+
+  play_rule: "Every VND 500,000 on the final invoice gives 1 spin. The number of spins is always rounded down."
+  claim_rule: "Receive your gift immediately at the studio after the spin."
+  special_status: "Special prize: only 1 pink full-face helmet is available."
+
+  wheel_aria: "Lan Pink October 20 lucky wheel"
+
+  spin_button: "SPIN NOW"
+  spinning_text: "SPINNING..."
+  result_prefix: "You won"
+
+  prizes_eyebrow: "Women's Day Gifts"
+  prizes_title: "Prize Structure"
+  prizes_intro: "Every valid spin wins a gift. After the wheel stops, the page will take you directly to your prize."
+
+  spin_duration_ms: 4600
+  result_hold_ms: 2400
+
+  dev_note: "Preview version – invoice-based spin limits will be connected in the next step."
+
+  prizes:
+    - id: "giai-1"
+      label: "Prize 1"
+      title: "Pink full-face helmet"
+      description: "Special Women's Day prize • Only 1 available."
+      weight: 1
+      max_wins: 1
+      special: true
+
+    - id: "giai-2"
+      label: "Prize 2"
+      title: "Sinh Duoc hand soap"
+      description: "A personal care gift for female clients."
+      weight: 24
+
+    - id: "giai-3"
+      label: "Prize 3"
+      title: "Women's oversized T-shirt"
+      description: "A comfortable oversized women's T-shirt."
+      weight: 25
+
+    - id: "giai-4"
+      label: "Prize 4"
+      title: "Women's homewear set"
+      description: "The main gift of the October 20 promotion."
+      weight: 50

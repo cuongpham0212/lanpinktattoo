@@ -1,0 +1,387 @@
+.lp-lucky-page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 42px 16px 72px;
+}
+
+.lp-lucky-container {
+  width: min(100%, 980px);
+  margin-inline: auto;
+}
+
+.lp-lucky-hero {
+  max-width: 720px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.lp-lucky-hero h1 {
+  margin: 8px 0 10px;
+  font-size: clamp(2rem, 6vw, 3.6rem);
+  line-height: 1.05;
+}
+
+.lp-lucky-subtitle {
+  margin: 0;
+  font-size: clamp(1.05rem, 3vw, 1.35rem);
+  font-weight: 900;
+}
+
+.lp-lucky-intro {
+  max-width: 620px;
+  margin: 10px auto 0;
+  line-height: 1.65;
+}
+
+.lp-lucky-game-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(100%, 700px);
+  margin-inline: auto;
+  padding: clamp(18px, 4vw, 34px);
+  border: 1px solid var(--lp-game-border);
+  border-radius: 28px;
+  background: var(--lp-game-surface);
+  box-shadow: var(--lp-game-shadow);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+}
+
+.lp-lucky-wheel-stage {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: clamp(280px, 78vw, 520px);
+  aspect-ratio: 1;
+  margin: 12px auto 26px;
+}
+
+.lp-lucky-wheel {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border: clamp(7px, 1.6vw, 12px) solid var(--lp-game-wheel-ring);
+  border-radius: 50%;
+  box-shadow:
+    var(--lp-game-wheel-shadow),
+    inset 0 0 0 3px var(--lp-game-wheel-inner);
+  transform: rotate(0deg);
+  transition-property: transform;
+  transition-duration: var(--lp-spin-duration, 4600ms);
+  transition-timing-function: cubic-bezier(.12,.68,.18,1);
+  will-change: transform;
+}
+
+.lp-lucky-wheel::after {
+  content: "";
+  position: absolute;
+  inset: 8%;
+  border: 1px solid var(--lp-game-wheel-inner);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.lp-lucky-label {
+  position: absolute;
+  z-index: 2;
+  width: 27%;
+  text-align: center;
+  font-size: clamp(.72rem, 2.4vw, 1rem);
+  font-weight: 950;
+  line-height: 1.1;
+  color: var(--lp-game-wheel-text);
+  text-shadow: var(--lp-game-wheel-text-shadow);
+  pointer-events: none;
+  user-select: none;
+}
+
+.lp-lucky-pointer {
+  position: absolute;
+  z-index: 6;
+  top: -8px;
+  left: 50%;
+  width: clamp(30px, 7vw, 42px);
+  height: clamp(38px, 9vw, 54px);
+  transform: translateX(-50%);
+  background: var(--lp-game-pointer);
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  filter: drop-shadow(0 5px 5px var(--lp-game-pointer-shadow));
+}
+
+.lp-lucky-hub {
+  position: absolute;
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  width: clamp(64px, 17vw, 96px);
+  aspect-ratio: 1;
+  border: 5px solid var(--lp-game-hub-border);
+  border-radius: 50%;
+  background: var(--lp-game-hub-bg);
+  box-shadow: var(--lp-game-hub-shadow);
+  color: var(--lp-game-hub-text);
+  font-size: clamp(1rem, 4vw, 1.35rem);
+  font-weight: 950;
+  letter-spacing: .08em;
+}
+
+.lp-lucky-spin {
+  min-width: min(100%, 230px);
+  min-height: 48px !important;
+  font-size: 1rem;
+}
+
+.lp-lucky-spin:disabled {
+  cursor: wait;
+  opacity: .68;
+}
+
+.lp-lucky-result {
+  display: none;
+  width: min(100%, 520px);
+  margin-top: 22px;
+  padding: 16px 18px;
+  border: 1px solid var(--lp-game-result-border);
+  border-radius: 16px;
+  background: var(--lp-game-result-bg);
+  text-align: center;
+  font-size: clamp(1rem, 3vw, 1.15rem);
+  font-weight: 900;
+  line-height: 1.45;
+}
+
+.lp-lucky-result.is-visible {
+  display: block;
+  animation: lpLuckyResultIn .32s ease both;
+}
+
+.lp-lucky-dev-note {
+  margin: 14px 0 0;
+  font-size: .78rem;
+  text-align: center;
+  opacity: .66;
+}
+
+.lp-lucky-prizes {
+  margin-top: 64px;
+}
+
+.lp-lucky-section-head {
+  max-width: 720px;
+  margin-bottom: 24px;
+}
+
+.lp-lucky-section-head h2 {
+  margin: 7px 0 8px;
+  font-size: clamp(1.7rem, 5vw, 2.5rem);
+}
+
+.lp-lucky-prize-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.lp-lucky-prize {
+  display: grid;
+  grid-template-columns: minmax(74px, 104px) 1fr;
+  align-items: center;
+  gap: 18px;
+  padding: 18px;
+  border: 1px solid var(--lp-game-border);
+  border-radius: 18px;
+  background: var(--lp-game-prize-bg);
+  box-shadow: var(--lp-game-prize-shadow);
+  transition:
+    transform .28s ease,
+    box-shadow .28s ease,
+    background-color .28s ease;
+  scroll-margin-top: 120px;
+  outline: none;
+}
+
+.lp-lucky-prize-number {
+  display: grid;
+  place-items: center;
+  min-height: 58px;
+  padding: 8px;
+  border-radius: 13px;
+  background: var(--lp-game-prize-number-bg);
+  color: var(--lp-game-prize-number-text);
+  font-weight: 950;
+  text-align: center;
+}
+
+.lp-lucky-prize-content h3 {
+  margin: 0 0 5px;
+  font-size: 1.08rem;
+}
+
+.lp-lucky-prize-content p {
+  margin: 0;
+  line-height: 1.55;
+}
+
+.lp-lucky-prize.is-winner {
+  background: var(--lp-game-winner-bg);
+  box-shadow: var(--lp-game-winner-shadow);
+  animation: lpLuckyWinner 1.25s ease 2;
+}
+
+@keyframes lpLuckyResultIn {
+  from { opacity: 0; transform: translateY(8px) scale(.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes lpLuckyWinner {
+  0%,100% { transform: scale(1.012); }
+  50% { transform: scale(1.025); }
+}
+
+@media (min-width: 720px) {
+  .lp-lucky-prize-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .lp-lucky-page {
+    padding-inline: 12px;
+  }
+
+  .lp-lucky-game-card {
+    border-radius: 22px;
+    padding-inline: 12px;
+  }
+
+  .lp-lucky-prize {
+    grid-template-columns: 72px 1fr;
+    gap: 12px;
+    padding: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lp-lucky-wheel,
+  .lp-lucky-prize,
+  .lp-lucky-result {
+    animation: none !important;
+  }
+
+  .lp-lucky-wheel {
+    transition-duration: 800ms !important;
+  }
+}
+
+/* LP_LUCKY_RULES_START */
+.lp-lucky-rules {
+  display: grid;
+  gap: 6px;
+  max-width: 680px;
+  margin: 18px auto 0;
+  padding: 14px 16px;
+  border: 1px solid var(--lp-game-rules-border);
+  border-radius: 16px;
+  background: var(--lp-game-rules-bg);
+}
+
+.lp-lucky-rules p {
+  margin: 0;
+  font-size: .94rem;
+  line-height: 1.5;
+}
+
+.lp-lucky-play-rule {
+  font-weight: 900;
+}
+
+.lp-lucky-special-note {
+  font-weight: 800;
+  color: var(--lp-game-special-text);
+}
+/* LP_LUCKY_RULES_END */
+
+/* LP_LUCKY_HUB_LOGO_START */
+
+.lp-lucky-hub {
+  overflow: hidden;
+  width: clamp(78px, 19vw, 112px);
+  padding: 0;
+}
+
+.lp-lucky-hub-logo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 36%;
+  transform: scale(1.05);
+  user-select: none;
+  pointer-events: none;
+}
+
+/* LP_LUCKY_HUB_LOGO_END */
+
+/* LP_LUCKY_ACCESS_START */
+
+.lp-lucky-access {
+  width: min(100%, 610px);
+  margin: 0 auto 24px;
+  padding: 15px 16px;
+  border: 1px solid var(--lp-game-border);
+  border-radius: 18px;
+  background: var(--lp-game-prize-bg);
+  box-shadow: var(--lp-game-prize-shadow);
+}
+
+.lp-lucky-access-message {
+  margin: 0;
+  text-align: center;
+  font-weight: 850;
+  line-height: 1.5;
+}
+
+.lp-lucky-access-stats {
+  display: grid;
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.lp-lucky-access-stats[hidden] {
+  display: none;
+}
+
+.lp-lucky-access-stats span {
+  min-width: 0;
+  padding: 9px 7px;
+  border-radius: 12px;
+  background:
+    var(--lp-game-prize-number-bg);
+  text-align: center;
+}
+
+.lp-lucky-access-stats small {
+  display: block;
+  margin-bottom: 3px;
+  font-size: .7rem;
+  opacity: .72;
+}
+
+.lp-lucky-access-stats strong {
+  display: block;
+  overflow: hidden;
+  font-size: .9rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .lp-lucky-access-stats {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* LP_LUCKY_ACCESS_END */

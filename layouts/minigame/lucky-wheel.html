@@ -1,0 +1,223 @@
+{{ define "main" }}
+
+{{ $allGames := site.Data.minigames.lucky_wheel }}
+{{ $game := index $allGames .Language.Lang }}
+
+{{ if not $game }}
+  {{ $game = index $allGames "vi" }}
+{{ end }}
+
+{{ $css := resources.Get "css/minigames/lucky-wheel.css" | css.PostCSS }}
+
+{{ if hugo.IsProduction }}
+  {{ $css = $css | minify | fingerprint }}
+{{ end }}
+
+<link
+  rel="stylesheet"
+  href="{{ $css.RelPermalink }}"
+  {{ if hugo.IsProduction }}integrity="{{ $css.Data.Integrity }}"{{ end }}
+>
+
+<section class="lp-lucky-page">
+
+  <div class="lp-lucky-container">
+
+    <header class="lp-lucky-hero">
+
+      <p class="lp-eyebrow">
+        {{ $game.eyebrow }}
+      </p>
+
+      <h1>
+        {{ .Title }}
+      </h1>
+
+      <p class="lp-lucky-subtitle">
+        {{ $game.subtitle }}
+      </p>
+
+      <p class="lp-lucky-intro">
+        {{ $game.intro }}
+      </p>
+
+      <div class="lp-lucky-rules">
+        <p class="lp-lucky-play-rule">{{ $game.play_rule }}</p>
+        <p>{{ $game.claim_rule }}</p>
+        <p class="lp-lucky-special-note">{{ $game.special_status }}</p>
+      </div>
+
+    </header>
+
+
+    <div class="lp-lucky-game-card">
+
+      <div
+        class="lp-lucky-access"
+        id="lpLuckyAccess"
+      >
+        <p
+          class="lp-lucky-access-message"
+          id="lpLuckyAccessMessage"
+        >
+          Đang kiểm tra lượt quay...
+        </p>
+
+        <div
+          class="lp-lucky-access-stats"
+          id="lpLuckyAccessStats"
+          hidden
+        >
+          <span>
+            <small id="lpLuckyInvoiceLabel">Hóa đơn</small>
+            <strong id="lpLuckyInvoiceCode">—</strong>
+          </span>
+
+          <span>
+            <small id="lpLuckyAmountLabel">Giá trị</small>
+            <strong id="lpLuckyInvoiceAmount">—</strong>
+          </span>
+
+          <span>
+            <small id="lpLuckyTotalLabel">Tổng lượt</small>
+            <strong id="lpLuckyTotalSpins">0</strong>
+          </span>
+
+          <span>
+            <small id="lpLuckyRemainingLabel">Còn lại</small>
+            <strong id="lpLuckyRemainingSpins">0</strong>
+          </span>
+        </div>
+      </div>
+
+      <div class="lp-lucky-wheel-stage">
+
+        <div
+          class="lp-lucky-pointer"
+          aria-hidden="true"
+        ></div>
+
+        <div
+          id="lpLuckyWheel"
+          class="lp-lucky-wheel"
+          role="img"
+          aria-label="{{ $game.wheel_aria }}"
+        ></div>
+
+        <div class="lp-lucky-hub" aria-hidden="true">
+          <img
+            class="lp-lucky-hub-logo"
+            src="https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/logo.webp"
+            alt=""
+            width="160"
+            height="160"
+            loading="eager"
+            decoding="async"
+          >
+        </div>
+
+      </div>
+
+
+      <button
+        id="lpLuckySpin"
+        class="lp-btn lp-btn-primary lp-lucky-spin"
+        type="button"
+      
+        disabled>
+        {{ $game.spin_button }}
+      </button>
+
+
+      <div
+        id="lpLuckyResult"
+        class="lp-lucky-result"
+        role="status"
+        aria-live="polite"
+      ></div>
+
+
+      {{ with $game.dev_note }}
+        <p class="lp-lucky-dev-note">
+          {{ . }}
+        </p>
+      {{ end }}
+
+    </div>
+
+
+    <section
+      id="co-cau-giai"
+      class="lp-lucky-prizes"
+    >
+
+      <header class="lp-lucky-section-head">
+
+        <p class="lp-eyebrow">
+          {{ $game.prizes_eyebrow }}
+        </p>
+
+        <h2>
+          {{ $game.prizes_title }}
+        </h2>
+
+        <p>
+          {{ $game.prizes_intro }}
+        </p>
+
+      </header>
+
+
+      <div class="lp-lucky-prize-grid">
+
+        {{ range $game.prizes }}
+
+          <article
+            id="lp-prize-{{ .id }}"
+            class="lp-lucky-prize"
+            data-prize-id="{{ .id }}"
+            tabindex="-1"
+          >
+
+            <div class="lp-lucky-prize-number">
+              {{ .label }}
+            </div>
+
+            <div class="lp-lucky-prize-content">
+
+              <h3>
+                {{ .title }}
+              </h3>
+
+              <p>
+                {{ .description }}
+              </p>
+
+            </div>
+
+          </article>
+
+        {{ end }}
+
+      </div>
+
+    </section>
+
+  </div>
+
+</section>
+
+
+<script>
+window.LP_LUCKY_WHEEL = {{ $game | jsonify | safeJS }};
+</script>
+
+{{ $js := resources.Get "js/minigames/lucky-wheel.js" | js.Build | minify | fingerprint }}
+
+<script
+  defer
+  src="{{ $js.RelPermalink }}"
+  integrity="{{ $js.Data.Integrity }}"
+></script>
+
+{{ end }}

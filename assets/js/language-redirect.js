@@ -64,6 +64,10 @@
     }
 
     // Giữ fragment như #gallery khi URL đích chưa có fragment.
+    if (!targetUrl.search && window.location.search) {
+      targetUrl.search = window.location.search;
+    }
+
     if (!targetUrl.hash && window.location.hash) {
       targetUrl.hash = window.location.hash;
     }

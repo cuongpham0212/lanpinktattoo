@@ -621,3 +621,57 @@ html[data-theme="light"] .lp-member-info-card a,
 html[data-theme="light"] .lp-member-referral-card a {
   color: var(--primary-strong);
 }
+
+/* LP_MINIGAME_TOKENS_START */
+html[data-theme="light"] {
+  --lp-game-surface:rgba(255,255,255,.76);
+  --lp-game-border:rgba(194,112,156,.20);
+  --lp-game-shadow:0 22px 60px rgba(117,71,97,.13);
+
+  --lp-game-wheel-ring:rgba(255,255,255,.98);
+  --lp-game-wheel-inner:rgba(255,255,255,.72);
+  --lp-game-wheel-shadow:0 18px 44px rgba(111,67,92,.18);
+
+  --lp-game-wheel-text:#5e3650;
+  --lp-game-wheel-text-shadow:0 1px 0 rgba(255,255,255,.82);
+
+  --lp-game-pointer:linear-gradient(180deg,#ff9bc9,#df5b99);
+  --lp-game-pointer-shadow:rgba(103,55,79,.22);
+
+  --lp-game-hub-bg:linear-gradient(180deg,#ffbedc,#ec74ac);
+  --lp-game-hub-border:rgba(255,255,255,.98);
+  --lp-game-hub-text:#63334d;
+  --lp-game-hub-shadow:0 7px 20px rgba(125,66,94,.20);
+
+  --lp-game-result-bg:rgba(255,244,250,.94);
+  --lp-game-result-border:rgba(215,103,158,.24);
+
+  --lp-game-prize-bg:rgba(255,255,255,.74);
+  --lp-game-prize-shadow:0 9px 24px rgba(95,61,80,.08);
+  --lp-game-prize-number-bg:rgba(229,111,169,.14);
+  --lp-game-prize-number-text:#a43e71;
+
+  --lp-game-winner-bg:rgba(255,231,243,.96);
+  --lp-game-winner-shadow:
+    0 0 0 2px rgba(230,111,170,.28),
+    0 16px 36px rgba(191,83,136,.16);
+
+  --lp-game-rules-bg:rgba(255,255,255,.56);
+  --lp-game-rules-border:rgba(207,118,161,.18);
+  --lp-game-special-text:#a02f68;
+
+  --lp-game-seg-1:#ff747d;
+  --lp-game-seg-2:#70adff;
+  --lp-game-seg-3:#ff86c2;
+  --lp-game-seg-4:#ffd34e;
+  --lp-game-seg-5:#c9dff5;
+  --lp-game-seg-6:#ead4ae;
+}
+
+html[data-theme="light"] .lp-lucky-page {
+  background:
+    radial-gradient(circle at 15% 10%, rgba(255,191,220,.36), transparent 34%),
+    radial-gradient(circle at 88% 22%, rgba(205,193,244,.30), transparent 32%),
+    linear-gradient(180deg,#fffafb 0%,#fff5fa 55%,#fffdfd 100%);
+}
+/* LP_MINIGAME_TOKENS_END */
