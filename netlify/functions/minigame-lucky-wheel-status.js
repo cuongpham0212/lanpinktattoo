@@ -112,3 +112,87 @@ async function(event) {
     );
   }
 };
+
+// LANPINK_MINIGAME_STATUS_NO_CACHE_START
+//
+// Mini Game status is mutable state.
+// Never allow browser/CDN caching here, otherwise an invoice can
+// temporarily show an old remainingSpins value after a successful play.
+//
+const __lanpinkMiniGameStatusHandler =
+  module.exports.handler;
+
+if (
+  typeof __lanpinkMiniGameStatusHandler
+  !== "function"
+) {
+  throw new Error(
+    "Mini Game status handler is not available"
+  );
+}
+
+const __lanpinkMiniGameNoStoreHeaders = {
+  "Cache-Control":
+    "no-store, no-cache, must-revalidate, max-age=0",
+  "CDN-Cache-Control":
+    "no-store",
+  "Netlify-CDN-Cache-Control":
+    "no-store",
+  "Pragma":
+    "no-cache",
+  "Expires":
+    "0",
+};
+
+module.exports.handler =
+  async (...args) => {
+
+    const response =
+      await __lanpinkMiniGameStatusHandler(
+        ...args
+      );
+
+    if (
+      !response
+      || typeof response !== "object"
+    ) {
+      return response;
+    }
+
+    const headers = {
+      ...(response.headers || {}),
+    };
+
+    // Remove any pre-existing cache directives regardless of casing.
+    const cacheHeaderNames =
+      new Set([
+        "cache-control",
+        "cdn-cache-control",
+        "netlify-cdn-cache-control",
+        "pragma",
+        "expires",
+      ]);
+
+    for (const key of Object.keys(headers)) {
+      if (
+        cacheHeaderNames.has(
+          key.toLowerCase()
+        )
+      ) {
+        delete headers[key];
+      }
+    }
+
+    Object.assign(
+      headers,
+      __lanpinkMiniGameNoStoreHeaders
+    );
+
+    return {
+      ...response,
+      headers,
+    };
+  };
+
+// LANPINK_MINIGAME_STATUS_NO_CACHE_END
+
