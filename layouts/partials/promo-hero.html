@@ -1,7 +1,8 @@
 {{- $promo := site.Data.promo_settings -}}
 {{- $lang := site.Language.Lang | default "vi" -}}
 {{- $text := index $promo $lang | default $promo.vi -}}
-{{- if and .IsHome $promo $promo.active $promo.enabled $promo.show_hero $text -}}
+{{- $showPromo := or $promo.active (and hugo.IsServer $promo.preview) -}}
+{{- if and .IsHome $promo $showPromo $promo.enabled $promo.show_hero $text -}}
 <section class="lanpink-promo-hero">
   <div class="lanpink-promo-hero__inner">
     <div>
@@ -9,11 +10,11 @@
       <h2>{{ $text.title }}</h2>
       <p>{{ $text.summary }}</p>
       {{- if $promo.end_date -}}
-        <div class="lanpink-promo-hero__meta">{{ if eq $lang "en" }}Valid until{{ else }}Đang áp dụng đến{{ end }} {{ $promo.end_date }}</div>
+        <div class="lanpink-promo-hero__meta">{{ $text.period_label | default $promo.end_date }}</div>
       {{- end -}}
       <a class="lanpink-promo-hero__btn" href="{{ $text.url }}">{{ $text.button_text }}</a>
     </div>
-    <div class="lanpink-promo-hero__sale">SALE</div>
+    <div class="lanpink-promo-hero__sale">{{ $text.hero_mark | default "✦" }}</div>
   </div>
 </section>
 {{- end -}}

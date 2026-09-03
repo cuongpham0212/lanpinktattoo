@@ -4,10 +4,19 @@ const crypto = require("crypto");
 const { getStore } = require("@netlify/blobs");
 
 const CAMPAIGN_ID =
-  "womens-day-2026-10-20";
+  "october-lucky-wheel-2026";
 
 const SPIN_UNIT =
   500000;
+
+const MAX_SPINS =
+  4;
+
+const CAMPAIGN_START =
+  "2026-10-01";
+
+const CAMPAIGN_END =
+  "2026-10-30";
 
 const STORE_NAME =
   "lanpink-lucky-wheel";
@@ -20,15 +29,15 @@ const PRIZES = [
   },
   {
     id: "giai-2",
-    weight: 24,
-  },
-  {
-    id: "giai-3",
     weight: 25,
   },
   {
-    id: "giai-4",
+    id: "giai-3",
     weight: 50,
+  },
+  {
+    id: "giai-4",
+    weight: 24,
   },
 ];
 
@@ -77,6 +86,76 @@ function safeEqual(
   );
 }
 
+
+function vietnamDateString(
+  input = new Date()
+) {
+  const parts =
+    new Intl.DateTimeFormat(
+      "en-US",
+      {
+        timeZone:
+          "Asia/Ho_Chi_Minh",
+
+        year:
+          "numeric",
+
+        month:
+          "2-digit",
+
+        day:
+          "2-digit",
+      }
+    ).formatToParts(
+      input
+    );
+
+  const values = {};
+
+  for (
+    const part
+    of parts
+  ) {
+    if (
+      part.type === "year"
+      || part.type === "month"
+      || part.type === "day"
+    ) {
+      values[part.type] =
+        part.value;
+    }
+  }
+
+  return (
+    values.year
+    + "-"
+    + values.month
+    + "-"
+    + values.day
+  );
+}
+
+function campaignIsActive() {
+  const forceActive =
+    String(
+      process.env
+        .LANPINK_MINIGAME_FORCE_ACTIVE
+      || ""
+    ).trim() === "1";
+
+  if (forceActive) {
+    return true;
+  }
+
+  const today =
+    vietnamDateString();
+
+  return (
+    today >= CAMPAIGN_START
+    && today <= CAMPAIGN_END
+  );
+}
+
 function normalizeAccess(
   input = {}
 ) {
@@ -105,7 +184,8 @@ function normalizeAccess(
     ).toLowerCase();
 
   if (
-    campaign !== CAMPAIGN_ID
+    !campaignIsActive()
+    || campaign !== CAMPAIGN_ID
     || !/^LP-[A-Z0-9]+$/.test(
       invoice
     )
@@ -117,10 +197,13 @@ function normalizeAccess(
       totalSpins
     )
     || totalSpins <= 0
-    || totalSpins > 100
+    || totalSpins > MAX_SPINS
     || totalSpins
-      !== Math.floor(
-        amount / SPIN_UNIT
+      !== Math.min(
+        MAX_SPINS,
+        Math.floor(
+          amount / SPIN_UNIT
+        )
       )
     || !/^[a-f0-9]{64}$/.test(
       signature
@@ -640,6 +723,169 @@ async function finishPlay(
   return complete;
 }
 
+
+function maskInvoiceForPublic(
+  invoice
+) {
+  const value =
+    cleanString(
+      invoice,
+      80
+    ).toUpperCase();
+
+  if (!value) {
+    return "LP-••••";
+  }
+
+  const body =
+    value.startsWith(
+      "LP-"
+    )
+      ? value.slice(3)
+      : value;
+
+  const suffix =
+    body.slice(-4);
+
+  return (
+    "LP-••••"
+    + suffix
+  );
+}
+
+async function getPublicHistory(
+  requestedLimit = 200
+) {
+  const store =
+    getGameStore();
+
+  const limit =
+    Math.max(
+      1,
+      Math.min(
+        200,
+        Number(
+          requestedLimit
+        ) || 200
+      )
+    );
+
+  const prefix =
+    "plays/"
+    + CAMPAIGN_ID
+    + "/";
+
+  const blobs = [];
+
+  let cursor = undefined;
+
+  do {
+    const options = {
+      prefix,
+    };
+
+    if (cursor) {
+      options.cursor =
+        cursor;
+    }
+
+    const page =
+      await store.list(
+        options
+      );
+
+    if (
+      Array.isArray(
+        page?.blobs
+      )
+    ) {
+      blobs.push(
+        ...page.blobs
+      );
+    }
+
+    cursor =
+      page?.next_cursor
+      || page?.nextCursor
+      || undefined;
+
+  } while (
+    cursor
+    && blobs.length < 1000
+  );
+
+  const allowedPrizeIds =
+    new Set(
+      PRIZES.map(
+        (prize) =>
+          prize.id
+      )
+    );
+
+  const records =
+    await Promise.all(
+      blobs.map(
+        async (blob) => {
+          try {
+            return await store.get(
+              blob.key,
+              jsonReadOptions()
+            );
+          } catch {
+            return null;
+          }
+        }
+      )
+    );
+
+  return records
+    .filter(
+      (record) =>
+        record
+        && record.status
+          === "COMPLETE"
+        && record.campaign
+          === CAMPAIGN_ID
+        && record.completedAt
+        && allowedPrizeIds.has(
+          record.prizeId
+        )
+    )
+    .map(
+      (record) => ({
+        completedAt:
+          record.completedAt,
+
+        invoice:
+          maskInvoiceForPublic(
+            record.invoice
+          ),
+
+        spinNumber:
+          Number(
+            record.spinNumber
+          ) || null,
+
+        prizeId:
+          record.prizeId,
+      })
+    )
+    .sort(
+      (left, right) =>
+        String(
+          right.completedAt
+        ).localeCompare(
+          String(
+            left.completedAt
+          )
+        )
+    )
+    .slice(
+      0,
+      limit
+    );
+}
+
 async function claimSpin(
   access,
   clientRequestId
@@ -767,3 +1013,15 @@ module.exports = {
   getStatus,
   claimSpin,
 };
+
+module.exports.getPublicHistory =
+  getPublicHistory;
+
+module.exports.CAMPAIGN_START =
+  CAMPAIGN_START;
+
+module.exports.CAMPAIGN_END =
+  CAMPAIGN_END;
+
+module.exports.campaignIsActive =
+  campaignIsActive;

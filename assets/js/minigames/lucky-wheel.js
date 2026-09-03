@@ -219,7 +219,7 @@
 
   const GUEST_DEMO_STORAGE_KEY =
     "lp-lucky-guest-demo:"
-    + "womens-day-2026-10-20:"
+    + "october-lucky-wheel-2026:"
     + "v1";
 
 
@@ -927,9 +927,9 @@
           guestSpinNumber >= 2
         ) {
           const weights = [
-            ["giai-2", 24],
-            ["giai-3", 25],
-            ["giai-4", 50],
+            ["giai-2", 25],
+            ["giai-3", 50],
+            ["giai-4", 24],
           ];
 
           const totalWeight =
@@ -985,9 +985,9 @@
 if (localDemo) {
       const weights = [
         ["giai-1", 1],
-        ["giai-2", 24],
-        ["giai-3", 25],
-        ["giai-4", 50],
+        ["giai-2", 25],
+        ["giai-3", 50],
+        ["giai-4", 24],
       ];
 
       let cursor =

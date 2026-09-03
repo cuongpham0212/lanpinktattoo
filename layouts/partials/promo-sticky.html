@@ -2,7 +2,8 @@
 {{- $lang := site.Language.Lang | default "vi" -}}
 {{- $text := index $promo $lang | default $promo.vi -}}
 
-{{- if and .IsPage (not .IsHome) $promo $promo.active $promo.enabled $promo.show_sticky $text -}}
+{{- $showPromo := or $promo.active (and hugo.IsServer $promo.preview) -}}
+{{- if and .IsPage (not .IsHome) $promo $showPromo $promo.enabled $promo.show_sticky $text -}}
   {{- $currentURL := .RelPermalink -}}
   {{- $promoURL := $text.url | default "" -}}
   {{- if ne $currentURL $promoURL -}}
@@ -12,7 +13,7 @@
       <span class="lanpink-promo-sticky__title">{{ $text.title }}</span>
       {{- if $promo.end_date -}}
       <span class="lanpink-promo-sticky__date">
-        {{ if eq $lang "en" }}Valid until{{ else }}Đang áp dụng đến{{ end }} {{ $promo.end_date }}
+        {{ $text.period_label | default $promo.end_date }}
       </span>
       {{- end -}}
     </a>

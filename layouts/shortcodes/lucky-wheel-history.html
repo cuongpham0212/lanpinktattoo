@@ -1,0 +1,105 @@
+{{- $lang := .Page.Lang | default "vi" -}}
+
+<link
+  rel="stylesheet"
+  href="{{ "css/lucky-wheel-history.css" | relURL }}"
+>
+
+<section
+  class="lp-lucky-history"
+  data-lp-lucky-history
+  data-lang="{{ $lang }}"
+  aria-label="{{ if eq $lang "en" }}Official spin history{{ else }}Lịch sử quay chính thức{{ end }}"
+>
+  <div class="lp-lucky-history__header">
+    <div
+      class="lp-lucky-history__icon"
+      aria-hidden="true"
+    >
+      🎁
+    </div>
+
+    <div class="lp-lucky-history__heading">
+      <div class="lp-lucky-history__eyebrow">
+        {{- if eq $lang "en" -}}
+          LIVE CAMPAIGN RECORD
+        {{- else -}}
+          LỊCH SỬ CHƯƠNG TRÌNH
+        {{- end -}}
+      </div>
+
+      <h3 class="lp-lucky-history__title">
+        {{- if eq $lang "en" -}}
+          Official Spin History
+        {{- else -}}
+          Lịch Sử Quay Chính Thức
+        {{- end -}}
+      </h3>
+
+      <p class="lp-lucky-history__intro">
+        {{- if eq $lang "en" -}}
+          Valid completed spins are recorded automatically here.
+        {{- else -}}
+          Các lượt quay hợp lệ đã hoàn tất sẽ được hệ thống tự động cập nhật tại đây.
+        {{- end -}}
+      </p>
+    </div>
+
+    <div class="lp-lucky-history__live">
+      <span class="lp-lucky-history__live-dot"></span>
+
+      {{- if eq $lang "en" -}}
+        AUTO UPDATE
+      {{- else -}}
+        TỰ ĐỘNG CẬP NHẬT
+      {{- end -}}
+    </div>
+  </div>
+
+  <div class="lp-lucky-history__body">
+    <p
+      class="lp-lucky-history__status"
+      data-lp-lucky-history-status
+      aria-live="polite"
+    >
+      {{- if eq $lang "en" -}}
+        Loading official winning history...
+      {{- else -}}
+        Đang tải lịch sử trúng quà chính thức...
+      {{- end -}}
+    </p>
+
+    <ol
+      class="lp-lucky-history__list"
+      data-lp-lucky-history-list
+      hidden
+    ></ol>
+  </div>
+
+  <div class="lp-lucky-history__footer">
+    <span aria-hidden="true">🔒</span>
+
+    <span>
+      {{- if eq $lang "en" -}}
+        Invoice codes are partially masked to protect customer privacy.
+      {{- else -}}
+        Mã hóa đơn được che một phần để bảo vệ quyền riêng tư của khách hàng.
+      {{- end -}}
+    </span>
+  </div>
+
+  <noscript>
+    <div class="lp-lucky-history__noscript">
+      {{- if eq $lang "en" -}}
+        Please enable JavaScript to view the live history.
+      {{- else -}}
+        Vui lòng bật JavaScript để xem lịch sử quay trực tiếp.
+      {{- end -}}
+    </div>
+  </noscript>
+</section>
+
+<script
+  src="{{ "js/lucky-wheel-history.js" | relURL }}"
+  defer
+></script>
