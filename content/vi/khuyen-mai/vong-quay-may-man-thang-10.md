@@ -8,7 +8,7 @@ english_url: "/en/promotions/october-lucky-wheel/"
 type: "khuyen-mai"
 date: 2026-09-02
 lastmod: 2026-09-02
-draft: true
+draft: false
 show_toc: true
 ---
 

@@ -8,7 +8,7 @@ translation_id: "october_lucky_wheel_2026"
 vietnamese_url: "/khuyen-mai/vong-quay-may-man-thang-10/"
 date: 2026-09-02
 lastmod: 2026-09-02
-draft: true
+draft: false
 show_toc: true
 ---
 
