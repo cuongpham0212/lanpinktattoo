@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-02 23:45:45",
+  "updated_at": "2026-09-04 01:41:13",
   "enabled": true,
   "show_hero": true,
   "show_sticky": false,
-  "active": true,
+  "active": false,
   "not_started": true,
   "expired": false,
   "preview": true,
