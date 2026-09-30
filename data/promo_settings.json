@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-04 01:41:13",
+  "updated_at": "2026-10-01 02:21:40",
   "enabled": true,
   "show_hero": true,
   "show_sticky": false,
-  "active": false,
-  "not_started": true,
+  "active": true,
+  "not_started": false,
   "expired": false,
   "preview": true,
   "translation_id": "october_lucky_wheel_2026",
