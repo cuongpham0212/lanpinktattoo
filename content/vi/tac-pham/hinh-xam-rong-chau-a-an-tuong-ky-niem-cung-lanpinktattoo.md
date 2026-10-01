@@ -6,7 +6,7 @@ draft: false
 translation_id: "tr_6ba3d66d176afb1834ade1223d67c036"
 english_url: "/en/portfolio/asian-dragon-tattoo-lanpinktattoo/"
 
-description: "Hình xăm rồng châu Á full bắp tay kết hợp rồng, núi non và mây nước, mang đậm phong cách Á Đông và dấu ấn riêng tại LanPinkTattoo."
+description: "Hình xăm rồng châu Á kết hợp núi non, mây trời và mặt trăng máu, được LanPinkTattoo cùng khách hàng trao đổi và lên ý tưởng theo câu chuyện về tự do, khám phá và sự mạnh mẽ."
 
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/hinh-xam-rong-chau-a.webp"
 image_alt: "Hình xăm rồng châu Á full bắp tay với hình rồng châu á và phong cảnh núi non"
@@ -33,7 +33,7 @@ keywords:
   - "tattoo artist ho chi minh city"
 
 artwork_subject: "Hình xăm rồng châu Á ấn tượng – Kỷ niệm cùng LanPinkTattoo"
-artwork_style: "Phong cách rồng châu Á kết hợp hình tượng rồng, núi non và mây nước"
+artwork_style: "Phong cách rồng châu Á kết hợp núi non, mây trời và mặt trăng máu"
 artwork_position: "Full bắp tay"
 artwork_client: "Khách nam"
 artwork_meaning: "Biểu tượng của sự tự do, khám phá, mạnh mẽ nhưng không hung hăng; hình ảnh rồng gắn với tinh thần ngao du và khả năng tự bảo vệ bản thân"
