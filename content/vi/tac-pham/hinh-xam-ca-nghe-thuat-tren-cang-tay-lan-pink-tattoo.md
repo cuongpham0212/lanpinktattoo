@@ -214,14 +214,16 @@ Bạn cũng có thể xem [FAQ Xăm Hình](/faq/) nếu còn băn khoăn về qu
 
 ## Hình xăm cá nghệ thuật trên cẳng tay tại Lan Pink Tattoo
 
-Tác phẩm trong bài được thực hiện tại **Lan Pink Tattoo**, khu vực gần cầu vượt Tân Thới Hiệp, Quận 12, TP.HCM.
+Tác phẩm trong bài được thực hiện cho một khách nam người nước ngoài tại **Lan Pink Tattoo, gần cầu vượt Tân Thới Hiệp, Quận 12, TP.HCM**.
 
-Với thiết kế này, điểm nổi bật không chỉ nằm ở chủ thể cá mà còn ở cách hình được kéo theo chiều dài cẳng tay, kết hợp tông đỏ – đen, đường nét và những khoảng trống để tạo chiều sâu.
+Đây không phải lần đầu khách đến Lan Pink Tattoo. Trước tác phẩm này, khách đã có nhiều lần quay lại studio để thực hiện các hình xăm khác.
 
-Nếu bạn đang tìm **thợ xăm nữ tại Quận 12** hoặc muốn tham khảo một thiết kế cá theo dáng tay của riêng mình, Lan Pink có thể trao đổi dựa trên vị trí, kích thước và phong cách bạn muốn hướng tới.
+Lan Pink nhắc đến chi tiết này như một phần thông tin thật của tác phẩm, thay vì gán cho khách một câu chuyện hay cảm nhận mà mình không có dữ liệu để xác nhận.
 
-Bạn không cần phải chọn chính xác một mẫu ngay từ đầu.
+Với riêng hình cá lần này, điểm nổi bật nằm ở bố cục chạy theo chiều dài cẳng tay, tông đỏ – đen và cách kết hợp giữa đường nét, mảng màu với những khoảng da được giữ lại.
 
-Một ảnh tham khảo cùng vài ý tưởng về màu sắc, kích thước và vị trí thường đã đủ để bắt đầu trao đổi.
+Nếu bạn cũng đang tìm **thợ xăm nữ tại Quận 12** hoặc có ý tưởng về một hình cá nhưng chưa biết nên bố trí thế nào trên tay, bạn có thể bắt đầu bằng một mẫu tham khảo.
 
-Trước khi đặt lịch, bạn cũng có thể xem [Chính sách dịch vụ Lan Pink Tattoo](/chinh-sach/) để biết thêm các thông tin liên quan đến tư vấn và chuẩn bị trước buổi xăm.
+Không nhất thiết phải xăm giống tác phẩm này. Lan Pink có thể dựa trên vị trí, kích thước, màu sắc và những chi tiết bạn thích để trao đổi một hướng thiết kế phù hợp hơn với tay của bạn.
+
+Bạn cũng có thể tham khảo [Chính sách dịch vụ Lan Pink Tattoo](/chinh-sach/) trước khi đặt lịch.
