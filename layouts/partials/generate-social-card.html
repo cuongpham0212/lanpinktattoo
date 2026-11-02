@@ -2,7 +2,7 @@
 
 {{- $src := "" -}}
 {{- if $page.IsHome -}}
-  {{- $src = "images/home-og.jpg" -}}
+  {{- $src = "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp" -}}
 {{- else -}}
   {{- $src = $page.Params.og_image | default $page.Params.image | default $page.Params.featured_image | default "images/home-og.jpg" -}}
 {{- end -}}
