@@ -14,9 +14,9 @@
 {{ $description := "" }}
 {{ if .IsHome }}
   {{ if eq .Language.Lang "vi" }}
-    {{ $description = "Lan Pink Tattoo, còn được biết đến với tên Lan Pink Ink, là private tattoo studio tại TP.HCM, chuyên Fine Line Tattoo, Mini Tattoo, Blackwork và thiết kế hình xăm cá nhân." }}
+    {{ $description = "Lan Pink Tattoo, còn được biết đến với tên Lan Pink Ink, là studio xăm riêng tư tại TP.HCM, do nữ thợ xăm Lan Pink thực hiện, nhận Mini Tattoo, Blackwork và thiết kế hình xăm theo yêu cầu." }}
   {{ else }}
-    {{ $description = "Lan Pink Tattoo, also known as Lan Pink Ink, is a private tattoo studio in Ho Chi Minh City specializing in Fine Line Tattoo, Mini Tattoo, Blackwork, and custom tattoo designs." }}
+    {{ $description = "Lan Pink Tattoo, also known as Lan Pink Ink, is a private tattoo studio in Ho Chi Minh City with a female tattoo artist, offering Mini Tattoo, Blackwork, and custom tattoo designs." }}
   {{ end }}
 {{ else }}
   {{ with .Description }}

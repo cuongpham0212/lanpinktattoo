@@ -15,7 +15,7 @@ enableRobotsTXT = true
     contentDir = "content/vi"
 
     [languages.vi.params]
-      description = "Studio xăm nghệ thuật tại TP.HCM - Chuyên Fine Line, Mini Tattoo, Blackwork và thiết kế hình xăm độc bản"
+      description = "Studio xăm riêng tư tại TP.HCM - Nữ thợ xăm, Mini Tattoo, Blackwork và thiết kế hình xăm theo yêu cầu"
       flag = "🇻🇳"
 
     [[languages.vi.menu.main]]
@@ -44,9 +44,22 @@ enableRobotsTXT = true
       weight = 5
 
     [[languages.vi.menu.main]]
-      name = "Bảng giá"
+      name = "Bảng giá - Dịch vụ"
+      identifier = "pricing-services"
       pageRef = "/bang-gia"
       weight = 6
+
+    [[languages.vi.menu.main]]
+      name = "Bảng giá xăm hình"
+      parent = "pricing-services"
+      pageRef = "/bang-gia"
+      weight = 1
+
+    [[languages.vi.menu.main]]
+      name = "Xăm hình tại nhà TP.HCM"
+      parent = "pricing-services"
+      pageRef = "/xam-hinh-tai-nha-tphcm"
+      weight = 2
 
     [[languages.vi.menu.main]]
       name = "Thành viên"
@@ -62,7 +75,7 @@ enableRobotsTXT = true
     contentDir = "content/en"
 
     [languages.en.params]
-      description = "Private tattoo studio in Ho Chi Minh City - Fine Line, Mini Tattoo, Blackwork and custom tattoo design"
+      description = "Private tattoo studio in Ho Chi Minh City - Female tattoo artist, Mini Tattoo, Blackwork and custom tattoo design"
       flag = "🇺🇸"
 
     [[languages.en.menu.main]]

@@ -233,4 +233,4 @@ Hình xăm rắn là một chủ đề rất linh hoạt, nhưng để có một
 
 Nếu bạn đang muốn thiết kế một hình xăm rắn riêng, có thể bắt đầu bằng việc lưu lại vài ý tưởng yêu thích, chọn vị trí mong muốn và trao đổi với Lan Pink Tattoo để được tư vấn bố cục phù hợp.
 
-Lan Pink Tattoo là private tattoo studio tại Quận 12, TP.HCM, chuyên thiết kế hình xăm theo yêu cầu, Fine Line Tattoo, Blackwork Tattoo và các mẫu tattoo cá nhân hóa theo câu chuyện riêng của từng khách.
+Lan Pink Tattoo là private tattoo studio tại Quận 12, TP.HCM, nhận thiết kế hình xăm theo yêu cầu và thực hiện nhiều phong cách, bao gồm Fine Line Tattoo, Blackwork Tattoo cùng các mẫu tattoo cá nhân hóa theo câu chuyện riêng của từng khách.

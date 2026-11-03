@@ -63,7 +63,7 @@ Lan is the artist's real name and the person who personally creates every tattoo
 
 Pink has been Lan's favorite color since childhood.
 
-It represents softness, elegance, and attention to detail, qualities that also reflect the Fine Line Tattoo style and artistic direction Lan enjoys creating.
+It represents softness, elegance, and attention to detail, qualities that reflect Lan's personal approach to tattoo design and working with clients.
 
 ### Ink
 
@@ -77,17 +77,15 @@ It is a personal brand built around the artist herself and has nothing to do wit
 
 ---
 
-## What Tattoo Styles Does Lan Pink Tattoo Specialize In?
+## What Tattoo Styles Does Lan Pink Offer?
 
-Many clients first discover Lan Pink Tattoo through Fine Line Tattoo and Mini Tattoo designs.
-
-However, the studio is not limited to those styles.
+Lan creates tattoos in a variety of styles, from mini tattoos to custom designs inspired by each client's personal story. Fine Line Tattoo is also represented among the studio's completed works.
 
 Lan regularly works on:
 
-- Fine Line Tattoo
 - Mini Tattoo
 - Blackwork Tattoo
+- Fine Line Tattoo
 - Lettering Tattoos
 - Floral Tattoos
 - Custom Tattoo Design

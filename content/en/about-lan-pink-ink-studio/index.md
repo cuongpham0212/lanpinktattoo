@@ -7,7 +7,7 @@ keywords: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City", "tattoo booki
 tags: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City"]
 category: "Site Information"
 title: "About Lan Pink Tattoo Studio"
-description: "Lan Pink Tattoo, also known as Lan Pink Ink, is a private tattoo space in Ho Chi Minh City specializing in Fine Line Tattoo, Mini Tattoo, Blackwork, and custom tattoo designs."
+description: "Lan Pink Tattoo, also known as Lan Pink Ink, is a private tattoo space in Ho Chi Minh City offering Mini Tattoo, Blackwork, and custom tattoo designs."
 slug: "about-lan-pink-ink-studio"
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp"
 translation_id: "studio_about_page"
@@ -15,7 +15,7 @@ vietnamese_url: "/ve-lan-pink-ink-studio/"
 ---
 ![Female Tattoo Artist Lan Pink](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp)
 
-Lan Pink Tattoo is a private tattoo studio in Ho Chi Minh City, specializing in Fine Line Tattoos, Mini Tattoos, Blackwork, and custom tattoo design.
+Lan Pink Tattoo is a private tattoo studio in Ho Chi Minh City, offering Mini Tattoos, Blackwork, and custom tattoo design.
 
 We believe that every tattoo tells a unique story. That is why every design is carefully discussed and created based on each client's ideas, personality, and preferences rather than relying on mass-produced designs.
 
@@ -32,17 +32,17 @@ All consultations and tattoo sessions are arranged by appointment to ensure the 
 
 ---
 
-## Signature Tattoo Styles
+## Tattoo Styles Available at the Studio
 
 ![Mini Snake Wrist Tattoo](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/ran-mini-cotay.webp)
 
 
 
-Lan Pink Tattoo focuses on some of today's most popular tattoo styles:
+Lan Pink Tattoo offers consultations and tattoos in a range of styles, depending on each client's ideas and design needs:
 
-- Fine Line Tattoo
 - Mini Tattoo
 - Blackwork Tattoo
+- Fine Line Tattoo
 - Floral Tattoo
 - Lettering Tattoo
 - Custom Tattoo Design
@@ -130,7 +130,7 @@ Lan Pink Tattoo operates in Ho Chi Minh City as a private tattoo studio and work
 
 ## Book a Consultation
 
-If you are looking for a Fine Line Tattoo artist, Mini Tattoo specialist, or custom tattoo design studio in Ho Chi Minh City, contact Lan Pink Tattoo for a personalized consultation.
+If you are looking for a private tattoo studio in Ho Chi Minh City for Mini Tattoos, Blackwork, Fine Line Tattoos, or custom tattoo designs, contact Lan Pink Tattoo for a personalized consultation.
 
 We are always ready to help you turn meaningful ideas into lasting artwork through the art of tattooing.
 

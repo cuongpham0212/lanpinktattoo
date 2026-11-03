@@ -7,7 +7,7 @@ keywords: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM", "đặt lịch xăm", "b�
 tags: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM"]
 category: "Thông tin website"
 title: "Về Lan Pink Tattoo Studio"
-description: "Lan Pink Tattoo, còn được biết đến với tên Lan Pink Ink, là không gian xăm riêng tư tại TP.HCM, chuyên Fine Line Tattoo, Mini Tattoo, Blackwork và thiết kế hình xăm theo yêu cầu."
+description: "Lan Pink Tattoo, còn được biết đến với tên Lan Pink Ink, là không gian xăm riêng tư tại TP.HCM, nhận xăm Mini Tattoo, Blackwork và thiết kế hình xăm theo yêu cầu."
 slug: "ve-lan-pink-ink-studio"
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp"
 translation_id: "studio_about_page"
@@ -15,7 +15,7 @@ english_url: "/en/about-lan-pink-ink-studio/"
 ---
 ![Nữ thợ xăm Lan Pink Tattoo đang thực hiện hình xăm tại TP.HCM](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp)
 
-Lan Pink Tattoo là một **private tattoo studio tại TP.HCM**, chuyên về [Fine Line Tattoo](/vi/phong-cach-xam/), [Mini Tattoo](/vi/phong-cach-xam/), [Blackwork Tattoo](/vi/phong-cach-xam/) và thiết kế hình xăm theo yêu cầu.
+Lan Pink Tattoo là một **private tattoo studio tại TP.HCM**, nhận thực hiện [Mini Tattoo](/vi/phong-cach-xam/), [Blackwork Tattoo](/vi/phong-cach-xam/) và thiết kế hình xăm theo yêu cầu.
 
 Chúng tôi tin rằng mỗi hình xăm đều mang một câu chuyện riêng. Vì vậy, mọi thiết kế đều được tư vấn và thực hiện dựa trên ý tưởng, cá tính và mong muốn của từng khách hàng thay vì sử dụng các mẫu đại trà.
 
@@ -34,15 +34,15 @@ Nếu bạn lần đầu xăm, hãy đọc thêm [FAQ về hình xăm](/faq/) đ
 
 ---
 
-## Phong cách xăm đặc trưng
+## Các phong cách xăm tại studio
 
 ![Hình xăm rắn mini ở cổ tay phong cách Fine Line tại Lan Pink Tattoo](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/ran-mini-cotay.webp)
 
-Lan Pink Tattoo tập trung vào các phong cách được yêu thích hiện nay:
+Lan Pink Tattoo nhận tư vấn và thực hiện nhiều phong cách xăm, tùy theo ý tưởng và thiết kế phù hợp với từng khách hàng:
 
-- [Fine Line Tattoo](/vi/phong-cach-xam/)
 - [Mini Tattoo](/vi/phong-cach-xam/)
 - [Blackwork Tattoo](/vi/phong-cach-xam/)
+- [Fine Line Tattoo](/vi/phong-cach-xam/)
 - Floral Tattoo
 - Lettering Tattoo
 - Custom Tattoo Design
@@ -132,7 +132,7 @@ Bạn có thể liên hệ qua:
 
 ## Đặt lịch tư vấn
 
-Nếu bạn đang tìm kiếm một studio chuyên Fine Line Tattoo, Mini Tattoo, Blackwork hoặc thiết kế hình xăm theo yêu cầu tại TP.HCM, hãy liên hệ Lan Pink Tattoo để được tư vấn chi tiết.
+Nếu bạn đang tìm một studio xăm riêng tư tại TP.HCM để tư vấn Mini Tattoo, Blackwork, Fine Line Tattoo hoặc thiết kế hình xăm theo yêu cầu, hãy liên hệ Lan Pink Tattoo để trao đổi ý tưởng.
 
 Trước khi đặt lịch, bạn có thể xem thêm:
 

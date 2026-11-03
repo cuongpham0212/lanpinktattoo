@@ -197,7 +197,7 @@ Các thay đổi nếu có sẽ được áp dụng cho chương trình sau th�
 
 ## Kết Nối Với Lan Pink Tattoo
 
-Lan Pink Tattoo là private tattoo studio tại Quận 12, TP.HCM, chuyên Fine Line Tattoo, Mini Tattoo, Blackwork và thiết kế hình xăm cá nhân theo yêu cầu.
+Lan Pink Tattoo là private tattoo studio tại Quận 12, TP.HCM, nhận thực hiện Mini Tattoo, Blackwork, Fine Line Tattoo và thiết kế hình xăm cá nhân theo yêu cầu.
 
 Nếu bạn muốn tư vấn hình xăm hoặc kiểm tra thông tin thành viên, hãy nhắn tin trực tiếp cho Lan Pink Tattoo qua Fanpage hoặc Messenger.
 

@@ -67,7 +67,7 @@ Mini tattoos are often suitable for first-time clients, travelers, couples or an
 
 ## Fine Line Tattoo Price
 
-Fine Line Tattoo is one of the most requested tattoo styles at Lan Pink Tattoo.
+Fine Line Tattoo is a delicate tattoo style that requires careful planning of linework, size and placement.
 
 This style focuses on clean, elegant and delicate lines, making it ideal for clients looking for subtle and personalized designs.
 
@@ -167,7 +167,7 @@ Studio highlights:
 - Female tattoo artist in Ho Chi Minh City
 - Personalized tattoo consultation
 - Custom tattoo design service
-- Fine Line Tattoo specialist
+- Custom tattoo design consultation
 - Mini Tattoo specialist
 - Blackwork Tattoo available
 - Private studio environment

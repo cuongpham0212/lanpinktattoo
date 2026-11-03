@@ -238,6 +238,6 @@ Trước khi quyết định, bạn nên trao đổi với tattoo artist về đ
 
 Hình xăm rắn có thể mềm mại, bí ẩn, mạnh mẽ hoặc cá nhân hóa tùy theo phong cách thiết kế. Fine Line phù hợp với sự tinh tế, Mini Tattoo phù hợp với người thích tối giản, Blackwork dành cho cá tính mạnh, còn Custom Tattoo Design là lựa chọn tốt nếu bạn muốn tác phẩm mang câu chuyện riêng.
 
-Lan Pink Tattoo, còn được biết đến với tên Lan Pink Ink, là private tattoo studio tại Quận 12, TP.HCM. Studio chuyên Fine Line Tattoo, Mini Tattoo, Blackwork Tattoo và thiết kế hình xăm theo yêu cầu, được tư vấn trực tiếp bởi nữ tattoo artist.
+Lan Pink Tattoo, còn được biết đến với tên Lan Pink Ink, là private tattoo studio tại Quận 12, TP.HCM. Studio nhận tư vấn và thực hiện Mini Tattoo, Blackwork Tattoo, Fine Line Tattoo cùng các thiết kế hình xăm theo yêu cầu, do nữ tattoo artist trực tiếp tư vấn.
 
 Nếu bạn đang tìm một hình xăm rắn vừa đẹp vừa hợp cá tính, Lan Pink Tattoo có thể giúp bạn phát triển ý tưởng thành một thiết kế riêng trước khi thực hiện.

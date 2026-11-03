@@ -213,7 +213,7 @@ Getting your first tattoo does not have to be intimidating.
 
 Choosing the right tattoo studio, preparing properly and understanding the aftercare process will help you enjoy the experience and achieve the best possible result.
 
-Lan Pink Tattoo is a private tattoo studio in District 12, Ho Chi Minh City, personally operated by Lan Pink, a female tattoo artist focusing on custom tattoos, mini tattoos and fine line designs.
+Lan Pink Tattoo is a private tattoo studio in District 12, Ho Chi Minh City, personally operated by Lan Pink, a female tattoo artist offering custom tattoo designs, mini tattoos and a range of other tattoo styles, including fine line designs.
 
 Learn more here:
 

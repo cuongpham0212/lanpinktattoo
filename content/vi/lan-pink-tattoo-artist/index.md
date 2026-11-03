@@ -79,17 +79,15 @@ Khi ghép lại, Lan Pink Ink có thể được hiểu như:
 
 ---
 
-## Lan Pink Tattoo chuyên những phong cách nào?
+## Lan Pink nhận thực hiện những phong cách xăm nào?
 
-Nhiều khách hàng biết đến Lan Pink Tattoo thông qua các tác phẩm Fine Line Tattoo và Mini Tattoo.
-
-Tuy nhiên, studio không chỉ giới hạn ở hai phong cách này.
+Lan Pink thực hiện nhiều phong cách xăm khác nhau, từ hình xăm mini đến những thiết kế cá nhân hóa theo câu chuyện của khách hàng. Các tác phẩm Fine Line Tattoo cũng là một phần trong bộ sưu tập đã thực hiện.
 
 Lan thường thực hiện:
 
-- Fine Line Tattoo
 - Mini Tattoo
 - Blackwork Tattoo
+- Fine Line Tattoo
 - Tattoo chữ
 - Tattoo hoa lá
 - Tattoo theo yêu cầu
