@@ -102,6 +102,10 @@ Nếu bạn chưa từng xăm, phần [câu hỏi thường gặp](/faq/) sẽ g
 
 ## Cam kết của Lan Pink Tattoo
 
+![Cận cảnh đầu kim xăm sử dụng trong nghệ thuật xăm hình](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/can-canh-kim-xam.webp)
+
+*Cận cảnh đầu kim xăm – vật tư được chú trọng trong quá trình thực hiện hình xăm tại Lan Pink Tattoo.*
+
 
 - Tư vấn rõ ràng trước khi thực hiện.
 - Dụng cụ vệ sinh và kim sử dụng một lần.

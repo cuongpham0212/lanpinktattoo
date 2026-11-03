@@ -73,6 +73,10 @@ Trong bài này, Lan Pink gọi ngắn gọn là **đầu kim** hoặc **kim xă
 
 Khách hàng không cần nhớ cấu tạo hay thông số kỹ thuật. Điều cần hiểu là đây là vật tư trực tiếp làm việc trên da, và chất lượng giữa các sản phẩm không mặc nhiên giống nhau.
 
+![Cận cảnh đầu kim xăm dạng cartridge dùng trong xăm hình](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/can-canh-kim-xam.webp)
+
+*Cận cảnh đầu kim xăm dạng cartridge – cụm kim được lắp trong vỏ chuyên dụng để sử dụng với máy xăm tương thích.*
+
 ## Kim nào cũng mới, vậy kim chính hãng và kim thường khác nhau ở đâu?
 
 Một đầu kim còn nguyên bao bì không có nghĩa tất cả sản phẩm bên trong đều có chất lượng và hiệu năng giống nhau.

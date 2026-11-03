@@ -98,6 +98,10 @@ Detailed aftercare instructions are provided to support proper healing and long-
 
 ## Our Commitment
 
+![Close-up of a tattoo needle cartridge](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/can-canh-kim-xam.webp)
+
+*A close-up of a tattoo needle cartridge used in professional tattooing.*
+
 
 
 
