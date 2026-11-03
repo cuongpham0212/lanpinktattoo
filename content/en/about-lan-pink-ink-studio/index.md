@@ -83,7 +83,9 @@ We believe that a great tattoo is not only about technical execution but also ab
 
 ## Private Studio Experience
 
-![Lan Pink Tattoo Studio Front](images/about/studio-front.jpg)
+![Lan Pink Tattoo studio exterior in Ho Chi Minh City](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lanpinkink.jpg)
+
+*Lan Pink Tattoo studio exterior in Ho Chi Minh City, Vietnam.*
 
 > USE A PHOTO OF THE STUDIO FRONT.
 

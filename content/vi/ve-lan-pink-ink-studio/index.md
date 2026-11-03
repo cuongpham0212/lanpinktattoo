@@ -68,7 +68,9 @@ Thay vì chạy theo mẫu có sẵn, Lan Pink Tattoo ưu tiên tư vấn theo c
 
 ## Private Studio – Không gian riêng tư và thoải mái
 
-![Mặt tiền private tattoo studio Lan Pink Tattoo tại TP.HCM](images/about/studio-front.jpg)
+![Mặt tiền Lan Pink Tattoo – private tattoo studio tại TP.HCM](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lanpinkink.jpg)
+
+*Mặt tiền Lan Pink Tattoo – không gian xăm riêng tư tại TP.HCM.*
 
 Khác với những tattoo shop đông người, Lan Pink Tattoo hoạt động theo hình thức private studio.
 
