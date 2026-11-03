@@ -25,7 +25,6 @@ Bạn có thể xem thêm [tác phẩm đã thực hiện](/gallery/), tham kh�
 
 ## Không gian sáng tạo và làm việc
 
-![Không gian private tattoo studio Lan Pink Tattoo tại TP.HCM](images/about/studio-interior.jpg)
 
 Lan Pink Tattoo được xây dựng với mong muốn mang đến một không gian làm việc riêng tư, sạch sẽ và thoải mái cho khách hàng.
 
@@ -56,7 +55,6 @@ Bạn có thể xem thêm [bộ sưu tập hình xăm đã thực hiện](/galle
 
 ## Câu chuyện của Lan Pink Tattoo
 
-![Lan Pink Tattoo đang tư vấn thiết kế hình xăm cho khách hàng](images/about/story.jpg)
 
 Lan Pink Tattoo được hình thành từ niềm yêu thích nghệ thuật và mong muốn tạo ra những thiết kế mang ý nghĩa cá nhân cho từng khách hàng.
 
@@ -104,7 +102,6 @@ Nếu bạn chưa từng xăm, phần [câu hỏi thường gặp](/faq/) sẽ g
 
 ## Cam kết của Lan Pink Tattoo
 
-![Dụng cụ xăm vô trùng và quy trình an toàn tại Lan Pink Tattoo](images/about/hygiene.jpg)
 
 - Tư vấn rõ ràng trước khi thực hiện.
 - Dụng cụ vệ sinh và kim sử dụng một lần.
