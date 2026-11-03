@@ -652,6 +652,12 @@
     <image:image>
       <image:loc>https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/ran-mini-cotay.webp</image:loc>
     </image:image>
+      <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lanpinkink.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/can-canh-kim-xam.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://lanpinktattoo.com/en/about-lan-pink-ink-studio/</loc>
@@ -660,6 +666,18 @@
     </image:image>
     <image:image>
       <image:loc>https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/ran-mini-cotay.webp</image:loc>
+    </image:image>
+      <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/lanpinkink.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/can-canh-kim-xam.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://lanpinktattoo.com/cam-nang-tattoo/su-khac-nhau-cua-kim-chinh-hang-va-kim-thuong/</loc>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/can-canh-kim-xam.webp</image:loc>
     </image:image>
   </url>
 </urlset>
