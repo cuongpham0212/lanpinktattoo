@@ -20,6 +20,9 @@ tags: ["Lan Pink Tattoo", "tattoo studio", "Ho Chi Minh City"]
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp"
 image_alt: "Lan Pink tattoo artist and founder of Lan Pink Tattoo in District 12 Ho Chi Minh City"
 ---
+
+![Lan Pink, female tattoo artist and founder of Lan Pink Tattoo in Ho Chi Minh City](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp)
+
 If you search for "Lan Pink" on Google, you may sometimes see results related to pink orchids or other content that has nothing to do with tattooing.
 
 This page was created to introduce Lan Pink, the artist behind Lan Pink Tattoo and Lan Pink Ink in Ho Chi Minh City.

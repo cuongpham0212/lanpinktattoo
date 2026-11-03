@@ -20,6 +20,9 @@ tags: ["Lan Pink Tattoo", "tiệm xăm", "TP.HCM"]
 image: "https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp"
 image_alt: "Lan Pink tattoo artist và founder của Lan Pink Tattoo tại Quận 12 TP.HCM"
 ---
+
+![Lan Pink – nữ tattoo artist và founder của Lan Pink Tattoo tại Quận 12, TP.HCM](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/images/tho-xam-nu-lanpink.webp)
+
 Nếu bạn tìm kiếm từ khóa "Lan Pink" trên Google, đôi khi kết quả có thể hiển thị hoa lan màu hồng hoặc những nội dung hoàn toàn không liên quan đến tattoo.
 
 Vì vậy, bài viết này được tạo ra để giới thiệu rõ hơn về Lan Pink, người đứng sau thương hiệu Lan Pink Tattoo và Lan Pink Ink tại TP.HCM.
