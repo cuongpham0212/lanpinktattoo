@@ -58,7 +58,7 @@ enableRobotsTXT = true
     [[languages.vi.menu.main]]
       name = "Xăm hình tại nhà TP.HCM"
       parent = "pricing-services"
-      pageRef = "/xam-hinh-tai-nha-tphcm"
+      pageRef = "/bang-gia/xam-hinh-tai-nha-tphcm"
       weight = 2
 
     [[languages.vi.menu.main]]
