@@ -1,4 +1,5 @@
 ---
+translation_id: "tr_54985c5778c6689cef9d08d8d34adc5e"
 title: "Xăm Hình Tại Nhà TP.HCM – Lan Pink Tattoo"
 description: "Lan Pink Tattoo nhận xăm hình tại nhà TP.HCM theo lịch hẹn. Tư vấn thiết kế, báo giá rõ ràng, phí di chuyển hai chiều và chính sách đặt cọc minh bạch."
 date: 2026-11-03
