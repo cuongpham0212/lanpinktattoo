@@ -1,6 +1,6 @@
 ---
 title: "Xăm Hình Tại Nhà TP.HCM – Lan Pink Tattoo"
-description: "Lan Pink Tattoo nhận xăm hình tại nhà TP.HCM theo lịch hẹn. Tư vấn mẫu xăm, báo giá rõ ràng, phí di chuyển hai chiều và chính sách đặt cọc minh bạch."
+description: "Lan Pink Tattoo nhận xăm hình tại nhà TP.HCM theo lịch hẹn. Tư vấn thiết kế, báo giá rõ ràng, phí di chuyển hai chiều và chính sách đặt cọc minh bạch."
 date: 2026-11-03
 draft: false
 url: "/bang-gia/xam-hinh-tai-nha-tphcm/"
@@ -13,229 +13,210 @@ keywords:
   - "Lan Pink Tattoo"
 ---
 
-Bạn muốn xăm hình nhưng không thuận tiện đến studio? **Lan Pink Tattoo nhận xăm hình tại nhà TP.HCM theo lịch hẹn**, dành cho khách muốn tiết kiệm thời gian di chuyển, có lịch trình bận rộn hoặc ưu tiên không gian riêng tư.
+Bạn muốn xăm hình nhưng không thuận tiện đến studio? **Lan Pink Tattoo nhận xăm hình tại nhà TP.HCM theo lịch hẹn**, giúp bạn tiết kiệm thời gian di chuyển và chủ động lựa chọn không gian phù hợp.
 
-Bên cạnh studio tại Quận 12, Lan có thể đến địa điểm khách lựa chọn nếu lịch làm việc, mẫu xăm và điều kiện thực hiện phù hợp.
+Bên cạnh studio tại Quận 12, Lan có thể đến địa điểm bạn lựa chọn nếu lịch làm việc, mẫu xăm và điều kiện thực hiện cho phép.
+
+Dù bạn đang sinh sống, làm việc hay lưu trú ngắn ngày tại TP.HCM, quy trình tư vấn và đặt lịch đều được áp dụng thống nhất. Bạn chỉ cần cung cấp mẫu xăm, địa chỉ và thời gian mong muốn; Lan sẽ trao đổi để hai bên hiểu rõ thiết kế, chi phí và điều kiện thực hiện trước khi xác nhận.
 
 **Lan Pink không ngại đường xa, chỉ cần bạn không ngại chi phí di chuyển và tin tưởng tay nghề của Lan.**
 
-Lan Pink Tattoo cũng chào đón **khách nước ngoài đang sinh sống, làm việc hoặc du lịch tại TP.HCM**. Khách quốc tế có thể gửi mẫu xăm, địa chỉ lưu trú và lịch mong muốn để được tư vấn trước. Lan sẽ xác nhận khả năng trao đổi, yêu cầu thiết kế, giá cả và điều kiện thực hiện trước khi nhận lịch. Phiên bản tiếng Anh của trang dịch vụ sẽ được bổ sung riêng.
+## Dịch vụ xăm tại nhà phù hợp với ai?
 
-## 1. Dịch vụ xăm tại nhà dành cho ai?
+Dịch vụ phù hợp với khách bận rộn, khó đến studio hoặc muốn thực hiện hình xăm trong không gian riêng tư, quen thuộc.
 
-Dịch vụ phù hợp với khách bận rộn, khó đến studio hoặc muốn thực hiện hình xăm trong không gian quen thuộc.
+Lan nhận tư vấn lịch xăm tận nơi trên toàn TP.HCM. Việc xác nhận lịch phụ thuộc vào địa chỉ, khoảng cách, thời gian di chuyển, mẫu xăm và điều kiện làm việc thực tế.
 
-Lan nhận tư vấn trên toàn TP.HCM. Việc nhận lịch phụ thuộc vào khoảng cách, thời gian di chuyển, mẫu xăm, lịch làm việc và điều kiện thực tế tại địa điểm hẹn.
+Bạn có thể gửi ý tưởng về **mini tattoo, hình xăm chữ, fine line, blackwork hoặc thiết kế riêng** để được tư vấn. Không phải mọi mẫu xăm đều phù hợp để thực hiện tại nhà; với thiết kế lớn, phức tạp hoặc cần điều kiện chuyên biệt, Lan có thể đề xuất thực hiện tại studio.
 
-Khách có thể gửi ý tưởng về **mini tattoo, hình xăm chữ, fine line, blackwork hoặc thiết kế riêng** để được đánh giá. Đây là những phong cách có thể tư vấn, không có nghĩa mọi mẫu đều phù hợp để thực hiện tại nhà.
+Địa điểm xăm có thể là nhà riêng, căn hộ hoặc nơi lưu trú phù hợp, miễn được phép sử dụng cho hoạt động này và đáp ứng yêu cầu vệ sinh, ánh sáng, không gian thao tác.
 
-Với hình xăm lớn, nhiều chi tiết hoặc cần điều kiện làm việc chuyên biệt, Lan có thể đề xuất thực hiện tại studio.
-
-**Khách nước ngoài đặt lịch như thế nào?**
-
-Khách đang ở khách sạn, căn hộ hoặc nơi lưu trú tại TP.HCM có thể gửi yêu cầu tư vấn. Tuy nhiên, địa điểm phải cho phép thực hiện dịch vụ và đáp ứng điều kiện vệ sinh, ánh sáng, không gian làm việc.
-
-Trước khi nhận cọc, Lan sẽ xác nhận khả năng giao tiếp và thống nhất những thông tin quan trọng để tránh hiểu nhầm về thiết kế, giá hoặc lịch hẹn.
-
-## 2. Giá xăm tại nhà và phí di chuyển
+## Giá xăm tại nhà và phí di chuyển
 
 **Tổng chi phí = Giá hình xăm + Phụ phí di chuyển hai chiều.**
 
 **Giá hình xăm** phụ thuộc vào thiết kế, kích thước, vị trí, độ chi tiết và thời gian thực hiện.
 
-Khách có thể [tham khảo bảng giá xăm hình](/bang-gia/) rồi gửi mẫu để Lan tư vấn cụ thể.
+Bạn có thể [tham khảo bảng giá xăm hình](/bang-gia/) trước khi gửi mẫu để Lan báo giá cụ thể.
 
 **Phụ phí di chuyển** được tham khảo theo giá ứng dụng đặt xe công nghệ, tính cho cả lượt đi từ studio đến địa điểm hẹn và lượt về.
 
-Khoản phí này có thể thay đổi theo địa chỉ, thời điểm và điều kiện di chuyển. Lan sẽ báo rõ trước khi khách đặt cọc để khách chủ động cân nhắc.
+Mức phí phụ thuộc vào địa chỉ, thời điểm và điều kiện di chuyển. Lan sẽ báo trước để bạn cân nhắc, không tự ý bổ sung chi phí ngoài thỏa thuận.
 
-Không có mức phí di chuyển cố định áp dụng cho mọi địa chỉ.
-
-**Giá đã báo online có thay đổi khi gặp trực tiếp không?**
+**Giá báo online có thay đổi khi gặp trực tiếp không?**
 
 Giá đã thống nhất được giữ nguyên nếu mẫu, kích thước, vị trí và yêu cầu thực hiện không thay đổi, đồng thời vẫn có thể thực hiện an toàn.
 
-Khi gặp trực tiếp, Lan có thể tư vấn điều chỉnh kích thước hoặc vị trí để hình xăm cân đối hơn. Khách cũng có thể muốn thêm chi tiết hoặc đổi sang thiết kế khác.
+Khi gặp trực tiếp, Lan có thể tư vấn điều chỉnh để hình xăm cân đối hơn. Nếu bạn muốn đổi thiết kế, tăng kích thước hoặc thêm chi tiết làm thay đổi chi phí, Lan sẽ báo giá mới trước khi xăm.
 
-Nếu những thay đổi đó làm tăng chi phí, **Lan sẽ báo lại giá trước khi xăm và chỉ thực hiện khi khách đồng ý**.
+**Mọi thay đổi về giá phải được hai bên đồng ý trước khi thực hiện.** Nếu bạn không đồng ý giá điều chỉnh, Lan vẫn có thể thực hiện phương án ban đầu nếu phù hợp và an toàn.
 
-Nếu khách không đồng ý giá mới, Lan vẫn có thể thực hiện phương án ban đầu đã thống nhất nếu phương án đó phù hợp và an toàn.
+## Đặt cọc, hủy lịch và dời lịch
 
-**Lan không tự ý tăng giá sau khi đã hoàn thành hình xăm.**
+Để xác nhận lịch xăm tận nơi, khoản thanh toán trước gồm **hai phần có mục đích khác nhau**:
 
-## 3. Đặt cọc, hủy lịch và dời lịch
+- **Phụ phí di chuyển hai chiều:** Khoản ứng trước cho việc Lan đi đến địa điểm hẹn và trở về studio.
+- **200.000đ giữ lịch:** Khoản đặt cọc để Lan dành riêng khung giờ, chuẩn bị thiết kế, dụng cụ và sắp xếp công việc cho buổi xăm.
 
-**Tiền cọc = Phụ phí di chuyển hai chiều + 200.000đ giữ lịch.**
+**Tổng tiền cọc = Phụ phí di chuyển hai chiều + 200.000đ giữ lịch.**
 
-Khoản 200.000đ dùng để giữ riêng khung giờ cho khách, giúp Lan chuẩn bị thiết kế, dụng cụ, sắp xếp công việc và tránh nhận trùng lịch.
-
-**Đây không phải khoản phí cộng thêm.** Khi hình xăm hoàn thành, 200.000đ được trừ trực tiếp vào tiền tác phẩm.
+Khoản **200.000đ không phải phụ phí cộng thêm**. Khi buổi xăm hoàn thành, khoản này được trừ trực tiếp vào giá hình xăm.
 
 **Ví dụ cách tính tiền**
 
-Giả sử hình xăm có giá 1.500.000đ và phí di chuyển hai chiều là 600.000đ:
+Giả sử giá hình xăm là 1.500.000đ và phụ phí di chuyển hai chiều là 600.000đ:
 
-- Tiền cọc: 600.000đ di chuyển + 200.000đ giữ lịch = **800.000đ**.
-- Sau khi xăm xong: khách thanh toán thêm **1.300.000đ**.
-- Tổng chi phí: **2.100.000đ**, không thu trùng khoản giữ lịch hoặc phí di chuyển.
+- Khách thanh toán trước 800.000đ, gồm 600.000đ di chuyển và 200.000đ giữ lịch.
+- Sau khi hoàn thành, khách thanh toán thêm 1.300.000đ.
+- Tổng chi phí là 2.100.000đ, không thu trùng khoản giữ lịch hoặc phí di chuyển.
 
-Các con số trong ví dụ chỉ để giải thích cách tính, không phải bảng giá di chuyển áp dụng chung.
+Đây chỉ là ví dụ minh họa cách tính, không phải mức phí di chuyển cố định.
 
-**Nếu khách hủy trước khi Lan xuất phát**
+**Khách chủ động hủy trước khi Lan xuất phát**
 
-Khách được **hoàn lại 100% toàn bộ tiền cọc**, bao gồm phí di chuyển đã đặt trước và 200.000đ giữ lịch.
+Nếu bạn thông báo hủy trước khi Lan bắt đầu di chuyển:
 
-**Nếu khách dời lịch trước khi Lan xuất phát**
+- **Hoàn lại 100% khoản phí di chuyển hai chiều đã thanh toán**, vì chuyến đi chưa bắt đầu.
+- **Khoản 200.000đ giữ lịch không được hoàn lại**, vì Lan đã dành khung giờ, chuẩn bị và từ chối nhận lịch khác trùng thời gian đã giữ cho bạn.
 
-Toàn bộ tiền cọc được giữ lại cho lịch hẹn mới, **không cần đặt cọc lại từ đầu**.
+Đây là điều kiện đặt lịch được thông báo rõ và cần được bạn chấp thuận trước khi chuyển cọc.
 
-Lan sẽ thống nhất ngày giờ mới. Nếu địa chỉ hoặc điều kiện di chuyển thay đổi, hai bên sẽ đối soát phần chênh lệch phí di chuyển trước khi xác nhận lịch mới.
+**Khách dời lịch trước khi Lan xuất phát**
 
-**Lan xác nhận lại trước khi di chuyển**
+Nếu bạn muốn đổi sang ngày giờ khác trước khi Lan bắt đầu di chuyển, toàn bộ khoản đã thanh toán được **giữ lại và chuyển sang lịch hẹn mới**, không cần đóng lại 200.000đ giữ lịch.
 
-Trước khi xuất phát, Lan sẽ **chủ động gọi điện hoặc nhắn tin xác nhận lại với khách** về thời gian, địa chỉ và việc khách đã sẵn sàng tiếp nhận buổi xăm.
+Lan sẽ kiểm tra thời gian còn trống để hai bên thống nhất lịch mới. Nếu địa chỉ hoặc điều kiện di chuyển thay đổi, hai bên đối soát phần chênh lệch phụ phí di chuyển trước khi xác nhận.
 
-Nếu chưa liên lạc được, Lan không mặc nhiên xem khách đã xác nhận.
+**Lan xác nhận lại trước khi xuất phát**
 
-Đây cũng là thời điểm khách có thể báo hủy để được hoàn cọc hoặc báo dời lịch để giữ cọc theo chính sách trên.
+Trước khi di chuyển, **Lan sẽ chủ động nhắn tin hoặc gọi điện xác nhận lại** ngày giờ, địa chỉ và việc bạn đã sẵn sàng tiếp nhận buổi xăm.
 
-**Nếu khách hủy sau khi Lan đã xuất phát**
+Nếu chưa liên hệ được, Lan không mặc nhiên xem lịch hẹn đã được xác nhận lại.
+
+Bạn có thể thông báo hủy hoặc dời lịch trước thời điểm Lan xuất phát để được áp dụng chính sách tương ứng.
+
+**Khách hủy hoặc dời lịch sau khi Lan đã xuất phát**
 
 Khi Lan đã bắt đầu di chuyển theo lịch được xác nhận, thời gian làm việc và việc đi lại đã phát sinh.
 
-Nếu khách chủ động hủy, dời lịch, không có mặt hoặc từ chối buổi xăm sau thời điểm này, **toàn bộ khoản cọc không được hoàn lại theo điều kiện đặt lịch đã được khách chấp thuận trước đó**, trừ trường hợp hai bên có thỏa thuận khác hoặc quy định pháp luật áp dụng khác.
+Nếu bạn chủ động hủy, dời lịch, không có mặt hoặc từ chối buổi xăm sau thời điểm này, **khoản 200.000đ giữ lịch không được hoàn lại**. Phần phí di chuyển đã ứng trước được dùng để thanh toán chi phí đi lại thực tế phát sinh; nếu còn dư sẽ được hoàn, nếu phát sinh thêm thì hai bên trao đổi và thống nhất cách xử lý.
 
-Điều kiện này sẽ được thông báo và xác nhận trước khi nhận cọc.
+Các điều kiện này cần được thông báo và chấp thuận trước khi nhận cọc, đồng thời được áp dụng phù hợp với quy định pháp luật.
 
-**Nếu khách đổi địa chỉ**
+**Khách thay đổi địa chỉ thực hiện**
 
-Khách cần thông báo và được Lan xác nhận trước khi thay đổi địa điểm thực hiện.
+Bạn cần thông báo và được Lan xác nhận trước khi thay đổi địa điểm.
 
-Nếu địa chỉ mới làm thay đổi phí di chuyển, Lan sẽ báo phần chênh lệch để khách quyết định trước khi tiếp tục.
+Nếu địa chỉ mới làm thay đổi chi phí di chuyển, Lan sẽ báo khoản chênh lệch để bạn quyết định trước khi tiếp tục.
 
-**Nếu khách chuyển sang xăm tại studio**
+**Khách chuyển sang xăm tại studio**
 
-Nếu thống nhất chuyển sang studio **trước khi Lan xuất phát**, toàn bộ tiền cọc được chuyển thành khoản thanh toán trước cho hình xăm tại studio.
+Nếu bạn quyết định chuyển sang studio **trước khi Lan xuất phát**:
 
-Ví dụ: khách đã cọc 800.000đ cho dịch vụ tận nơi, sau đó chuyển sang studio để thực hiện hình xăm giá 1.500.000đ. Khi hoàn thành, khách thanh toán thêm 700.000đ.
+- Phụ phí di chuyển đã thanh toán được hoàn lại toàn bộ.
+- Khoản 200.000đ giữ lịch được giữ cho buổi xăm tại studio và trừ vào giá hình xăm khi hoàn thành.
 
-Nếu Lan đã xuất phát, việc xử lý chi phí sẽ được trao đổi dựa trên phần di chuyển đã phát sinh và điều kiện đặt lịch.
+Nếu Lan đã xuất phát, phần chi phí di chuyển phát sinh sẽ được đối soát trước khi thống nhất phương án tiếp theo.
 
 **Nếu Lan Pink phải hủy lịch**
 
-Nếu Lan phải hủy trước khi xuất phát vì lý do từ phía studio, khách được chọn **hoàn lại toàn bộ tiền cọc hoặc chuyển sang lịch mới**.
+Nếu Lan chủ động hủy trước khi xuất phát vì lý do từ phía studio, bạn được chọn **hoàn lại toàn bộ tiền đã thanh toán, bao gồm cả 200.000đ giữ lịch**, hoặc chuyển toàn bộ khoản thanh toán sang lịch mới.
 
-Nếu phát sinh tình huống không thể thực hiện tại địa điểm hẹn, hai bên sẽ trao đổi phương án phù hợp với nguyên nhân, trách nhiệm và quy định áp dụng. Lan không thực hiện xăm khi điều kiện thực tế không bảo đảm an toàn.
+Nếu buổi xăm không thể thực hiện vì điều kiện thực tế không bảo đảm an toàn, hai bên sẽ trao đổi phương án xử lý dựa trên nguyên nhân, trách nhiệm và quy định áp dụng.
 
-## 4. Chuẩn bị không gian và quy trình thực hiện
+## Chuẩn bị không gian và quy trình thực hiện
 
-**Không gian xăm tại nhà cần đáp ứng điều gì?**
+Địa điểm xăm cần sạch sẽ, đủ ánh sáng, có không gian bố trí dụng cụ và chỗ ngồi hoặc nằm phù hợp với vị trí xăm.
 
-Khách nên chuẩn bị khu vực sạch sẽ, thông thoáng, đủ ánh sáng, có chỗ bố trí dụng cụ và nguồn điện phù hợp nếu cần.
+Ví dụ, xăm cẳng tay cần điểm kê tay ổn định; xăm vai hoặc lưng cần đủ không gian thao tác; xăm chân hoặc đùi có thể cần chỗ nằm hoặc ngồi thuận tiện.
 
-Tùy vị trí xăm, Lan có thể cần khách ngồi hoặc nằm ở tư thế thuận tiện. Ví dụ:
+Tư thế làm việc không phù hợp có thể khiến thợ nhanh mỏi và khó giữ thao tác ổn định, đồng thời khiến khách khó ngồi yên trong thời gian thực hiện.
 
-- Xăm cẳng tay cần điểm kê tay ổn định.
-- Xăm vai hoặc lưng cần đủ không gian thao tác.
-- Xăm chân hoặc đùi có thể cần chỗ ngồi hoặc nằm phù hợp.
+Lan có thể trao đổi trước về bàn ghế, chỗ nằm hoặc đề nghị bạn gửi ảnh khu vực dự kiến xăm.
 
-Tư thế làm việc không thuận lợi có thể khiến thợ nhanh mỏi, khó giữ thao tác ổn định; khách cũng dễ cử động khi không thoải mái.
+Nên hạn chế bụi bẩn, khói thuốc, thú cưng và người qua lại trong khu vực làm việc. Lan sẽ chuẩn bị dụng cụ và vật tư cần thiết, đồng thời kiểm tra điều kiện vệ sinh, an toàn trước khi tiến hành.
 
-Lan có thể trao đổi trước về bàn ghế, chỗ nằm hoặc đề nghị khách gửi ảnh khu vực dự kiến xăm.
-
-Nên hạn chế bụi bẩn, khói thuốc, thú cưng và người qua lại trong khu vực làm việc.
-
-Lan chuẩn bị dụng cụ, vật tư cần thiết và bố trí khu vực thực hiện phù hợp. Các yêu cầu vệ sinh, bảo vệ bề mặt và xử lý vật sắc nhọn cần được bảo đảm.
-
-**Không gian tại nhà không mặc nhiên có điều kiện giống studio.** Lan sẽ kiểm tra trước khi tiến hành và chỉ thực hiện khi phù hợp.
+**Không gian tại nhà không mặc nhiên có điều kiện giống studio.** Nếu địa điểm không phù hợp, Lan có thể đề xuất điều chỉnh hoặc thực hiện tại studio.
 
 **Quy trình đặt lịch gồm năm bước:**
 
-1. **Gửi ý tưởng:** Khách cung cấp mẫu xăm, kích thước, vị trí, địa chỉ và ngày giờ mong muốn.
-2. **Tư vấn và báo giá:** Lan xác nhận khả năng thực hiện, giá tác phẩm, phí di chuyển và chính sách đặt cọc.
-3. **Đặt cọc và xác nhận:** Hai bên thống nhất thông tin, khách thanh toán cọc và Lan xác nhận đã nhận tiền.
-4. **Xác nhận trước khi xuất phát:** Lan chủ động liên hệ, sau đó đến địa điểm đã thống nhất nếu khách sẵn sàng.
-5. **Thực hiện và hoàn tất:** Lan kiểm tra mẫu, vị trí và điều kiện làm việc, tiến hành xăm khi phù hợp, hướng dẫn chăm sóc hình xăm và thu phần tiền còn lại.
+1. **Gửi yêu cầu:** Mẫu xăm hoặc ý tưởng, kích thước, vị trí, địa chỉ và thời gian mong muốn.
+2. **Tư vấn và báo giá:** Lan xác nhận khả năng thực hiện, giá tác phẩm, phí di chuyển và điều kiện đặt cọc.
+3. **Đặt cọc và xác nhận:** Hai bên thống nhất thông tin, khách chuyển khoản và Lan xác nhận đã nhận tiền.
+4. **Xác nhận trước khi xuất phát:** Lan chủ động liên hệ để xác nhận khách đã sẵn sàng.
+5. **Thực hiện và hoàn tất:** Lan kiểm tra mẫu và điều kiện thực tế, thực hiện hình xăm khi phù hợp, hướng dẫn chăm sóc và thu phần tiền còn lại.
 
 **Nếu khách muốn đổi mẫu khi Lan đã đến**
 
-Lan có thể tư vấn điều chỉnh thiết kế, kích thước hoặc vị trí. Nếu thay đổi làm tăng giá, Lan sẽ báo trước để khách quyết định.
+Lan có thể tư vấn thay đổi thiết kế, kích thước hoặc vị trí. Nếu điều chỉnh làm tăng giá, Lan sẽ báo trước và chỉ thực hiện khi bạn đồng ý.
 
-Nếu khách không đồng ý giá điều chỉnh, phương án ban đầu vẫn có thể được thực hiện nếu phù hợp và an toàn.
+Nếu bạn không đồng ý giá mới, phương án ban đầu vẫn có thể được thực hiện nếu phù hợp và an toàn.
 
-Nếu khách từ chối cả phương án đã thống nhất ban đầu sau khi Lan đã đến và sẵn sàng thực hiện, khoản cọc được xử lý theo chính sách hủy sau khi xuất phát.
+Nếu bạn từ chối cả phương án ban đầu dù Lan đã đến và sẵn sàng thực hiện, khoản thanh toán trước được xử lý theo chính sách hủy sau khi Lan xuất phát.
 
-**Sau khi xăm cần lưu ý gì?**
+**Chăm sóc sau khi xăm**
 
-Lan sẽ hướng dẫn chăm sóc hình xăm theo tình trạng thực tế, bao gồm vệ sinh, bảo vệ vùng da mới xăm và những điều cần tránh trong quá trình hồi phục.
+Lan sẽ hướng dẫn cách vệ sinh, bảo vệ vùng da mới xăm và những điều cần tránh trong thời gian hồi phục.
 
-Khách nên làm theo hướng dẫn được cung cấp, không tự ý sử dụng sản phẩm không phù hợp lên vùng da mới xăm. Nếu xuất hiện dấu hiệu bất thường đáng lo ngại, khách nên liên hệ cơ sở y tế để được đánh giá.
+Bạn nên làm theo hướng dẫn chăm sóc được cung cấp. Nếu xuất hiện dấu hiệu bất thường đáng lo ngại, hãy liên hệ cơ sở y tế để được đánh giá.
 
-## 5. Xác minh thông tin và bảo vệ tiền cọc
+## Xác minh thông tin và bảo vệ tiền cọc
 
-Lan hiểu rằng chuyển khoản trước có thể khiến khách băn khoăn, đặc biệt khi chưa từng sử dụng dịch vụ của studio.
+Lan hiểu rằng thanh toán trước có thể khiến khách băn khoăn, đặc biệt khi lần đầu đặt lịch.
 
-Để yên tâm hơn, khách nên:
+Để yên tâm hơn, bạn nên liên hệ qua kênh chính thức của Lan Pink Tattoo, kiểm tra thông tin studio và tác phẩm thực tế, xác minh tài khoản nhận tiền và lưu lại tin nhắn xác nhận cùng chứng từ chuyển khoản.
 
-- Liên hệ qua kênh chính thức của Lan Pink Tattoo.
-- Xem thông tin studio và các tác phẩm thực tế.
-- Kiểm tra thông tin tài khoản nhận tiền qua kênh liên hệ chính thức.
-- Yêu cầu xác nhận đầy đủ lịch hẹn, báo giá và chính sách đặt cọc.
-- Lưu lại tin nhắn xác nhận và chứng từ chuyển khoản.
+Nếu cần, bạn có thể đề nghị trao đổi qua cuộc gọi trước khi quyết định.
 
-Nếu cần, khách có thể đề nghị trao đổi qua cuộc gọi trước khi quyết định.
-
-**Sau khi nhận cọc, Lan sẽ xác nhận những thông tin gì?**
-
-Thông tin cần xác nhận gồm:
+**Sau khi nhận cọc, Lan sẽ xác nhận:**
 
 - Ngày giờ và địa chỉ thực hiện.
 - Mẫu xăm, kích thước và vị trí dự kiến.
 - Giá hình xăm đã thống nhất.
 - Phụ phí di chuyển hai chiều.
-- Khoản 200.000đ giữ lịch.
-- Tổng tiền cọc đã nhận.
-- Chính sách hủy, dời lịch, hoàn cọc và đổi địa điểm.
+- Khoản 200.000đ giữ lịch và điều kiện không hoàn khi khách chủ động hủy.
+- Tổng số tiền đã nhận.
+- Chính sách hủy, dời lịch, đổi địa chỉ và xử lý chi phí phát sinh.
 
-Khách có thể hỏi lại bất kỳ khoản phí hoặc điều kiện nào chưa rõ trước khi thanh toán.
+Bạn có quyền hỏi rõ mọi khoản phí hoặc điều kiện chưa hiểu trước khi thanh toán.
 
-## 6. Câu hỏi thường gặp và đặt lịch
+## Câu hỏi thường gặp và đặt lịch
 
-**Lan có nhận xăm tại nhà trên toàn TP.HCM không?**
+**Lan có nhận xăm tận nơi trên toàn TP.HCM không?**
 
-Lan nhận tư vấn trên toàn TP.HCM. Lịch hẹn được xác nhận tùy địa chỉ, thời gian, mẫu xăm và điều kiện thực hiện.
+Lan nhận tư vấn trên toàn thành phố. Lịch hẹn được xác nhận tùy địa chỉ, thời gian, mẫu xăm và điều kiện thực hiện.
 
-**Vì sao phải đặt thêm 200.000đ?**
+**Vì sao phải đặt cọc 200.000đ giữ lịch?**
 
-Vì Lan cần dành riêng khung giờ cho khách, chuẩn bị thiết kế, dụng cụ và sắp xếp công việc, đồng thời hạn chế tình trạng giữ lịch nhưng không xác nhận hoặc trùng lịch với khách khác.
+Khi nhận lịch, Lan dành riêng khung giờ cho bạn, chuẩn bị thiết kế và dụng cụ, sắp xếp công việc và không nhận khách khác trùng thời gian đã giữ.
 
-Khoản này giúp hai bên có trách nhiệm với lịch hẹn. **200.000đ được trừ vào giá hình xăm khi hoàn thành, không phải phí thu thêm.** Nếu khách hủy trước khi Lan xuất phát, khoản này cũng được hoàn lại cùng toàn bộ tiền cọc.
+Vì vậy, **200.000đ là khoản cọc giữ lịch, không hoàn khi khách chủ động hủy**, kể cả trước khi Lan xuất phát. Nếu buổi xăm hoàn thành, khoản này được trừ vào giá hình xăm. Nếu dời lịch trước khi Lan xuất phát, khoản cọc được chuyển sang lịch mới theo thỏa thuận.
+
+**Hủy trước khi Lan xuất phát có được hoàn tiền không?**
+
+Có hoàn **toàn bộ khoản phí di chuyển đã ứng trước**, nhưng không hoàn 200.000đ giữ lịch nếu khách chủ động hủy.
+
+**Dời lịch trước khi Lan xuất phát có phải đặt cọc lại không?**
+
+Không. Toàn bộ khoản đã thanh toán được giữ cho lịch mới, với điều kiện hai bên thống nhất được thời gian mới và đối soát chênh lệch phí di chuyển nếu có.
+
+**Nếu chuyển sang xăm tại studio thì sao?**
+
+Nếu thống nhất trước khi Lan xuất phát, phí di chuyển được hoàn lại; 200.000đ giữ lịch được trừ vào giá hình xăm tại studio khi hoàn thành.
 
 **Phí di chuyển có được báo trước không?**
 
-Có. Lan sẽ báo phụ phí hai chiều và tổng số tiền cần đặt cọc trước khi khách quyết định.
+Có. Lan báo phí hai chiều, giá hình xăm và tổng số tiền cần thanh toán trước khi bạn xác nhận lịch.
 
-**Nếu hủy trước khi Lan xuất phát thì sao?**
+**Có thể đổi thiết kế khi gặp trực tiếp không?**
 
-Khách được hoàn lại 100% tiền cọc. Nếu dời lịch trước khi xuất phát, toàn bộ cọc được giữ cho lịch mới.
-
-**Nếu đổi sang xăm tại studio thì sao?**
-
-Nếu thống nhất trước khi Lan xuất phát, toàn bộ cọc được chuyển thành khoản thanh toán trước cho hình xăm tại studio.
-
-**Khách nước ngoài có thể đặt lịch không?**
-
-Có thể gửi yêu cầu tư vấn. Lan sẽ xác nhận khả năng giao tiếp, địa chỉ, mẫu xăm, giá và lịch thực hiện trước khi nhận cọc.
-
-**Có thể thay đổi thiết kế khi gặp trực tiếp không?**
-
-Có thể trao đổi điều chỉnh. Nếu thay đổi ảnh hưởng đến giá, Lan sẽ báo và chờ khách đồng ý trước khi thực hiện.
+Có thể trao đổi điều chỉnh. Nếu thay đổi ảnh hưởng đến giá, Lan sẽ báo và chờ bạn đồng ý trước khi thực hiện.
 
 **Làm sao để đặt lịch xăm tại nhà?**
 
-Bạn chỉ cần gửi **mẫu hình hoặc ý tưởng, kích thước, vị trí muốn xăm, địa chỉ và ngày giờ mong muốn**.
+Bạn hãy gửi **mẫu hình hoặc ý tưởng, kích thước, vị trí muốn xăm, địa chỉ và ngày giờ mong muốn**.
 
-Lan sẽ tư vấn khả năng thực hiện, giá tác phẩm, phụ phí di chuyển và điều kiện đặt lịch trước khi bạn quyết định.
+Lan sẽ tư vấn khả năng thực hiện, giá hình xăm, phí di chuyển và điều kiện đặt lịch trước khi bạn quyết định.
 
 **[Nhắn tin cho Lan Pink Tattoo để được tư vấn](https://m.me/LanPinkInk)**
 
