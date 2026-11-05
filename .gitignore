@@ -78,3 +78,9 @@ content/en/admin-booking/
 
 # Local Netlify folder
 .netlify
+
+# Lan Pink temporary backups
+.lanpink-temp-backups/
+
+# Historical local work backups
+.lanpink_work_backups/

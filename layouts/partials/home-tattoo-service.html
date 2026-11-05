@@ -1,0 +1,31 @@
+{{- $sections := slice
+  "tac-pham" "portfolio"
+  "y-nghia-hinh-xam" "tattoo-meanings"
+  "mau-hinh-xam-dep" "tattoo-designs"
+  "phong-cach-xam" "tattoo-styles"
+  "cam-nang-tattoo" "tattoo-guide"
+  "khuyen-mai" "promotions"
+  "tattoo-ideas"
+-}}
+{{- $isArticle := and .IsPage (in $sections .Section) -}}
+{{- $isHomeService := in (slice
+  "/bang-gia/xam-hinh-tai-nha-tphcm/"
+  "/en/pricing/home-tattoo-service-ho-chi-minh-city/"
+) .RelPermalink -}}
+{{- if and $isArticle (not $isHomeService) -}}
+<section class="lp-home-tattoo-service" aria-label="{{ if eq .Lang "vi" }}Dịch vụ xăm hình tại nhà{{ else }}Tattoo at home service{{ end }}">
+  <div class="lp-home-tattoo-service__body">
+    {{ if eq .Lang "vi" }}
+      <p class="lp-home-tattoo-service__eyebrow">Dịch vụ tại TP.HCM</p>
+      <h2 class="lp-home-tattoo-service__title">Lan Pink nhận xăm hình tại nhà</h2>
+      <p class="lp-home-tattoo-service__description">Ngoài lịch xăm tại studio, Lan còn nhận tư vấn và thực hiện hình xăm tại địa điểm phù hợp theo lịch hẹn. Anh/chị có thể xem điều kiện phục vụ, chi phí di chuyển và quy định đặt lịch trước khi liên hệ.</p>
+      <a class="lp-home-tattoo-service__link" href="/bang-gia/xam-hinh-tai-nha-tphcm/">Tìm hiểu dịch vụ xăm tại nhà <span aria-hidden="true">→</span></a>
+    {{ else }}
+      <p class="lp-home-tattoo-service__eyebrow">Service in Ho Chi Minh City</p>
+      <h2 class="lp-home-tattoo-service__title">Tattoo appointments at your location</h2>
+      <p class="lp-home-tattoo-service__description">Alongside studio appointments, Lan Pink offers tattoo sessions at suitable locations by prior arrangement. Explore the service conditions, travel fees and booking policy before getting in touch.</p>
+      <a class="lp-home-tattoo-service__link" href="/en/pricing/home-tattoo-service-ho-chi-minh-city/">Explore the tattoo-at-home service <span aria-hidden="true">→</span></a>
+    {{ end }}
+  </div>
+</section>
+{{- end -}}
