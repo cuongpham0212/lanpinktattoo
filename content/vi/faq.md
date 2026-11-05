@@ -296,6 +296,18 @@ Vì vậy hãy cân nhắc kỹ trước khi thực hiện hình xăm.
 
 ---
 
+## Lan Pink có nhận xăm hình tại nhà ở TP.HCM không?
+
+Có. Lan Pink nhận lịch xăm tại nhà khi mẫu xăm, lịch làm việc và không gian thực hiện phù hợp. Khách cần cung cấp địa chỉ để được báo phí di chuyển hai chiều cùng giá hình xăm.
+
+## Hủy lịch xăm tại nhà có được hoàn tiền cọc không?
+
+Khoản thanh toán trước gồm **phí di chuyển hai chiều** và **200.000đ cọc giữ lịch**. Nếu khách hủy trước khi Lan xuất phát, phí di chuyển được hoàn lại toàn bộ; riêng 200.000đ giữ lịch không được hoàn lại vì khung giờ đã dành cho khách.
+
+Nếu buổi xăm hoàn thành, 200.000đ được trừ vào giá hình xăm. Trường hợp đổi lịch trước khi Lan xuất phát sẽ áp dụng quy định chuyển cọc sang lịch mới như đã thỏa thuận.
+
+Chi tiết về đổi lịch, thay đổi địa chỉ và các trường hợp sau khi Lan xuất phát được trình bày tại [bài dịch vụ xăm hình tại nhà](/bang-gia/xam-hinh-tai-nha-tphcm/).
+
 ## Làm sao để đặt lịch tại Lan Pink Tattoo?
 
 Bạn có thể liên hệ qua:

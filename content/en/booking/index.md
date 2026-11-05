@@ -39,6 +39,14 @@ Before booking, prepare your tattoo idea, preferred placement, estimated size, r
 
 A good tattoo design is not only about the image itself. Placement, body flow, size, and healing also affect how the final tattoo looks.
 
+## Booking at the studio or at your location
+
+Alongside studio appointments, Lan Pink offers **tattoo appointments at your location in Ho Chi Minh City**, subject to the tattoo design, schedule and suitability of the workspace.
+
+If you prefer an appointment at your location, please include your address when requesting a quote. The tattoo price and round-trip travel fee will be confirmed in advance. A VND 200,000 booking deposit reserves the appointment and is deducted from the tattoo price when the session is completed.
+
+Read the [at-home tattoo booking process, pricing and cancellation policy](/en/pricing/home-tattoo-service-ho-chi-minh-city/) before confirming.
+
 ## Helpful guides before booking
 
 - [Tattoo price list](/en/pricing/)

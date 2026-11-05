@@ -43,6 +43,14 @@ If you are wondering why tattoo prices at Lan Pink Tattoo can be more affordable
 
 👉 [Why Are Tattoos in Vietnam So Affordable at Lan Pink Ink Studio?](/en/tattoo-guide/why-are-tattoos-in-vietnam-so-affordable-at-lan-pink-ink/)
 
+## At-home tattoo pricing in Ho Chi Minh City
+
+The prices below are reference prices for tattoo work. If you prefer an appointment at your location, the total cost includes the **tattoo price and a separately quoted round-trip travel fee**.
+
+At-home appointments require a **VND 200,000 booking deposit**, deducted from the tattoo price when the session is completed. The travel fee and booking deposit have different refund conditions.
+
+Read the [at-home tattoo pricing and booking policy](/en/pricing/home-tattoo-service-ho-chi-minh-city/) for full details.
+
 ## Mini Tattoo Price
 
 Mini Tattoos are perfect for clients who love small, meaningful and delicate designs.

@@ -24,18 +24,28 @@ Gần cầu vượt Tân Thới Hiệp, Quận 12, TP.HCM
 *[Mở Google Maps](https://www.google.com/maps/search/?api=1&query=Gần+cầu+vượt+Tân+Thới+Hiệp+Quận+12)*
 
 **🕐 Giờ làm việc**  
-Thứ 3 - Chủ Nhật: 13:00 - 22:00  
+Thứ 2 - Chủ Nhật: 13:00 - 22:00\
 *Vui lòng đặt lịch trước để được phục vụ tốt nhất*
 
 **📱 Mạng xã hội**  
 - **Instagram:** [@lanpink.ink](https://www.instagram.com/lanpink.ink/) — Xem tác phẩm mới nhất
 - **Facebook:** [LanPinkInk](https://www.facebook.com/LanPinkInk) — Nhắn tin tư vấn nhanh
 
+### **Có nhận xăm hình tại nhà không?**
+
+Có. Bên cạnh lịch xăm tại studio, Lan Pink nhận tư vấn **xăm hình tại nhà ở TP.HCM** tùy thiết kế, lịch hẹn và điều kiện thực hiện.
+
+Khi liên hệ, bạn hãy gửi địa chỉ, mẫu xăm, kích thước, vị trí xăm và thời gian mong muốn. Lan sẽ báo riêng giá hình xăm và phí di chuyển hai chiều.
+
+**Lưu ý về tiền cọc:** Quy định cọc 100.000đ bên dưới dành cho lịch xăm tại studio. Với lịch xăm tại nhà, chính sách riêng gồm phí di chuyển trả trước và **200.000đ cọc giữ lịch**. Nếu khách hủy trước khi Lan xuất phát, phí di chuyển được hoàn đủ, còn 200.000đ giữ lịch không hoàn lại.
+
+[Xem đầy đủ chính sách xăm hình tại nhà](/bang-gia/xam-hinh-tai-nha-tphcm/).
+
 ### **Đặt lịch như thế nào?**
 
 1. **Gửi ý tưởng**: Inbox qua IG/FB kèm ảnh tham khảo, vị trí xăm, kích thước mong muốn
 2. **Tư vấn & báo giá**: Lan sẽ tư vấn thiết kế phù hợp và báo giá chi tiết
-3. **Chốt lịch cọc**: Cọc 30% để giữ lịch. Studio sẽ gửi hướng dẫn chuẩn bị trước khi xăm
+3. **Chốt lịch cọc**: Cọc 100.000đ để giữ lịch. Studio sẽ gửi hướng dẫn chuẩn bị trước khi xăm
 
 > **Lưu ý**: Studio chỉ nhận khách đã đặt lịch trước. Không nhận khách walk-in để đảm bảo chất lượng phục vụ cho mỗi khách hàng.
 

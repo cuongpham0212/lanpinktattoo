@@ -130,6 +130,14 @@ Bạn có thể liên hệ qua:
 
 ---
 
+## Dịch vụ xăm hình tại nhà TP.HCM
+
+Ngoài không gian private studio, Lan Pink còn nhận lịch **xăm hình tại địa chỉ của khách hàng ở TP.HCM** khi mẫu thiết kế, lịch làm việc và điều kiện vệ sinh, ánh sáng, vị trí thực hiện phù hợp.
+
+Khách được tư vấn trước về thiết kế, giá hình xăm, phí di chuyển hai chiều và điều kiện đặt cọc. Lan sẽ xác nhận lại lịch hẹn trước khi xuất phát.
+
+Tìm hiểu chi tiết tại [dịch vụ xăm hình tại nhà của Lan Pink](/bang-gia/xam-hinh-tai-nha-tphcm/).
+
 ## Đặt lịch tư vấn
 
 Nếu bạn đang tìm một studio xăm riêng tư tại TP.HCM để tư vấn Mini Tattoo, Blackwork, Fine Line Tattoo hoặc thiết kế hình xăm theo yêu cầu, hãy liên hệ Lan Pink Tattoo để trao đổi ý tưởng.

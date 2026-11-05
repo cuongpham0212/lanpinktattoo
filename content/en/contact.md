@@ -24,18 +24,28 @@ Near Tan Thoi Hiep Overpass, District 12, Ho Chi Minh City, Vietnam
 *[Open in Google Maps](https://www.google.com/maps/search/?api=1&query=Tan+Thoi+Hiep+Overpass+District+12)*
 
 **🕐 Working Hours**  
-Tuesday - Sunday: 13:00 PM - 22:00 PM (GMT+7)  
+Monday - Sunday: 13:00 PM - 22:00 PM (GMT+7)\
 *Appointment only. Please book in advance*
 
 **📱 Social Media**  
 - **Instagram:** [@lanpink.ink](https://www.instagram.com/lanpink.ink/) — Latest artworks
 - **Facebook:** [LanPinkInk](https://www.facebook.com/LanPinkInk) — Quick chat
 
+### **Do you offer tattoo appointments at my location?**
+
+Yes. In addition to studio appointments, Lan Pink offers **tattoo appointments at your location in Ho Chi Minh City**, depending on the design, availability and suitability of the workspace.
+
+Please send your address, tattoo idea, approximate size, placement and preferred appointment time. Lan will quote the tattoo price and round-trip travel fee separately.
+
+**Deposit clarification:** The VND 100,000 deposit described below applies to studio appointments. At-home appointments follow a separate policy: prepaid travel costs plus a **VND 200,000 booking deposit**. If you cancel before Lan departs, the travel fee is fully refunded, while the VND 200,000 booking deposit remains non-refundable.
+
+[Read the full at-home tattoo booking policy](/en/pricing/home-tattoo-service-ho-chi-minh-city/).
+
 ### **How to Book**
 
 1. **Send your idea**: DM via IG/FB with reference images, placement, and size
 2. **Consultation & Quote**: Lan will advise on design and provide detailed pricing  
-3. **Confirm & Deposit**: 30% deposit to secure your slot. We'll send pre-care instructions
+3. **Confirm & Deposit**: VND 100,000 deposit to secure your slot. We'll send pre-care instructions
 
 > **Note**: We operate by appointment only to ensure each client gets dedicated time and attention. No walk-ins.
 

@@ -26,6 +26,14 @@ Tại Lan Pink Tattoo, mỗi hình xăm được tư vấn dựa trên kích th�
 
 ![Bảng giá xăm hình Lan Pink Tattoo tại TP.HCM](https://cdn.jsdelivr.net/gh/cuongpham0212/lanpinktattoo-image@main/menu.png "Bảng giá dịch vụ tại Lan Pink Tattoo Studio")
 
+## Chi phí xăm hình tại nhà TP.HCM
+
+Bảng giá dưới đây là giá tham khảo cho hình xăm. Nếu bạn muốn Lan đến xăm tại địa chỉ của mình, tổng chi phí sẽ gồm **giá hình xăm và phí di chuyển hai chiều** được báo trước.
+
+Lịch xăm tại nhà có khoản **200.000đ cọc giữ lịch**, được trừ vào giá hình xăm khi hoàn thành. Phí di chuyển và khoản cọc giữ lịch có chính sách hoàn tiền khác nhau.
+
+Xem [bảng giải thích chi phí và chính sách đặt lịch xăm tại nhà](/bang-gia/xam-hinh-tai-nha-tphcm/) để biết chi tiết.
+
 ## Giá Mini Tattoo
 
 **Mini Tattoo** phù hợp với những bạn thích hình xăm nhỏ, tinh tế, nhẹ nhàng và dễ chăm sóc. Đây là lựa chọn phổ biến cho cổ tay, cổ chân, vai, sau gáy, ngón tay hoặc những vị trí nhỏ trên cơ thể.

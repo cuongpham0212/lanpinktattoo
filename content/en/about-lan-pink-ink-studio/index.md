@@ -128,6 +128,14 @@ Lan Pink Tattoo operates in Ho Chi Minh City as a private tattoo studio and work
 
 ---
 
+## At-home tattoo appointments in Ho Chi Minh City
+
+In addition to the private studio experience, Lan Pink offers **tattoo appointments at clients' locations in Ho Chi Minh City** when the design, schedule, hygiene conditions, lighting and workspace are suitable.
+
+Before confirming an appointment, Lan discusses the tattoo design, price, round-trip travel fee and booking deposit conditions. The appointment is reconfirmed before departure.
+
+Learn more about [Lan Pink's at-home tattoo service](/en/pricing/home-tattoo-service-ho-chi-minh-city/).
+
 ## Book a Consultation
 
 If you are looking for a private tattoo studio in Ho Chi Minh City for Mini Tattoos, Blackwork, Fine Line Tattoos, or custom tattoo designs, contact Lan Pink Tattoo for a personalized consultation.

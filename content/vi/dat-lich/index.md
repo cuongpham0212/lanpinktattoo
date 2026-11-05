@@ -30,6 +30,14 @@ english_url: "/en/booking/"
 
 Không phải mẫu đẹp nào cũng hợp với mọi vị trí trên cơ thể. Lan Pink thường tư vấn lại bố cục, kích thước và độ chi tiết để hình xăm lên da tự nhiên hơn.
 
+## Đặt lịch xăm tại studio hay tại nhà?
+
+Ngoài lịch xăm tại studio, Lan Pink còn nhận **xăm hình tại nhà ở TP.HCM** khi thiết kế, lịch làm việc và điều kiện không gian phù hợp.
+
+Nếu muốn Lan đến địa chỉ của bạn, hãy gửi thêm địa chỉ dự kiến khi tư vấn. Chi phí xăm và phí di chuyển hai chiều sẽ được thông báo trước khi xác nhận lịch. Lịch xăm tại nhà có khoản cọc giữ lịch 200.000đ, được trừ vào tiền xăm khi hoàn thành.
+
+Bạn có thể xem [quy trình đặt lịch, chi phí và chính sách hủy lịch xăm tại nhà](/bang-gia/xam-hinh-tai-nha-tphcm/) trước khi quyết định.
+
 ## Xem thêm trước khi đặt lịch
 
 - [Bảng giá xăm hình](/vi/bang-gia/)

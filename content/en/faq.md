@@ -198,6 +198,18 @@ If you are unsure about a design, it is better to take more time before getting 
 
 ---
 
+## Does Lan Pink offer tattoo appointments at my location in Ho Chi Minh City?
+
+Yes. At-home tattoo appointments are available when the design, schedule and working conditions are suitable. Please provide your address so Lan can quote the tattoo price and round-trip travel fee.
+
+## Is my deposit refundable if I cancel an at-home tattoo appointment?
+
+The advance payment includes the **round-trip travel fee** and a **VND 200,000 booking deposit**. If you cancel before Lan departs, the travel fee is refunded in full. The VND 200,000 booking deposit is non-refundable because your appointment time has already been reserved.
+
+When the tattoo is completed, the VND 200,000 is deducted from the tattoo price. Rescheduling before departure is handled under the agreed transfer-of-deposit policy.
+
+For address changes, rescheduling and cancellations after departure, please read the [full at-home tattoo service policy](/en/pricing/home-tattoo-service-ho-chi-minh-city/).
+
 ## How do I book an appointment at Lan Pink Tattoo?
 
 You can book a consultation through:
