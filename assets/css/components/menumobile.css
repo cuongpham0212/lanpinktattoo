@@ -12,7 +12,7 @@
 
 .lp-menumobile {
   position: fixed;
-  z-index: 70;
+  z-index: 90;
   top: 76px;
   right: 14px;
   left: auto;
